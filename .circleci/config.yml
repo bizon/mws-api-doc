@@ -29,22 +29,13 @@ jobs:
             done
 
       - run:
-          name: Configure git
+          name: Configure, commit and push
           command: |
             git config user.email "dev@bizon.solutions"
             git config user.name "Bizon Bot"
-
-      - run:
-          name: Add changes
-          command: git add src doc
-
-      - run:
-          name: Commit changes
-          command: git commit -m 'Update MWS documentation' || true
-
-      - run:
-          name: Push changes
-          command: git push origin master
+            git add src doc
+            git commit -m 'Update MWS documentation' || true
+            git push origin master
 
 workflows:
   version: 2
