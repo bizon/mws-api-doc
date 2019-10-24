@@ -1,0 +1,46 @@
+version: 2
+
+jobs:
+  download:
+    steps:
+      - checkout
+
+      - run:
+          name: Download MWS doc
+          command: wget -rnH -A html -P doc http://docs.developer.amazonservices.com/en_FR/dev_guide/index.html
+
+      - run:
+          name: Show git diff stats
+          command: git diff --stat
+
+      - run:
+          name: Configure git
+          command: |
+            git config user.email "circleci@bizon.solutions"
+            git config user.name "CircleCI"
+
+      - run:
+          name: Add changes
+          command: git add doc
+
+      - run:
+          name: Commit changes
+          command: git commit -m 'Update MWS doc'
+
+      - run:
+          name: Push changes
+          command: git push origin master
+
+workflows:
+  version: 2
+  push:
+    jobs:
+      - download
+
+  daily:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+
+    jobs:
+      - download
