@@ -43,7 +43,7 @@ jobs:
 
       - run:
           name: Commit changes
-          command: git commit -m 'Update MWS src' || true
+          command: git commit -m 'Update MWS documentation' || true
 
       - run:
           name: Push changes
