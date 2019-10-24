@@ -31,8 +31,8 @@ jobs:
       - run:
           name: Configure git
           command: |
-            git config user.email "circleci@bizon.solutions"
-            git config user.name "CircleCI"
+            git config user.email "dev@bizon.solutions"
+            git config user.name "Bizon Bot"
 
       - run:
           name: Add changes
