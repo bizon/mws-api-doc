@@ -25,6 +25,7 @@ jobs:
               output=$(echo "${input%.*}.md" | sed s/^src/doc/)
               mkdir -p $(dirname "$output")
               pandoc -f html -t gfm "$input" -o "$output"
+              sed -i '/http[s]:\/\/.*\.html)/! s/\.html)/\.md)/g' "$output"
             done
 
       - run:
