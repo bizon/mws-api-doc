@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: Commit changes
-          command: git commit -m 'Update MWS doc'
+          command: git commit -m 'Update MWS doc' || true
 
       - run:
           name: Push changes
