@@ -2,6 +2,8 @@ version: 2
 
 jobs:
   download:
+    docker:
+      - image: circleci/buildpack-deps
     steps:
       - checkout
 
