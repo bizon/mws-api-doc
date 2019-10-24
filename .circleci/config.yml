@@ -29,10 +29,6 @@ jobs:
             done
 
       - run:
-          name: Show git diff stats
-          command: git diff --stat
-
-      - run:
           name: Configure git
           command: |
             git config user.email "circleci@bizon.solutions"
