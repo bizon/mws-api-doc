@@ -44,7 +44,7 @@ Fulfillment service</span> to fulfill Seller Fulfilled Prime orders.
 This workflow is meant to supplement an order fulfillment system that
 retrieves scheduled order reports using the Reports service. See
 [Working with order
-reports](../reports/Reports_WorkingWithOrderReports.html "Describes how to schedule and manage order reports.").
+reports](../reports/Reports_WorkingWithOrderReports.md "Describes how to schedule and manage order reports.").
 Incoming orders that are not fulfilled using the workflow described here
 must be fulfilled by the seller using some other method.
 
@@ -70,7 +70,7 @@ in Seller Central.
 </div>
 
 <span class="ph">For definitions, see
-[Terminology](../merch_fulfill/MerchFulfill_Overview.html#Terminology).</span>
+[Terminology](../merch_fulfill/MerchFulfill_Overview.md#Terminology).</span>
 
 **To fulfill Seller Fulfilled Prime orders**
 
@@ -99,7 +99,7 @@ in Seller Central.
 3.  **Get shipping service offers**
     
     Call the
-    [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
+    [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
     operation to get shipping service offers for the Prime orders
     identified in Step 1.
     

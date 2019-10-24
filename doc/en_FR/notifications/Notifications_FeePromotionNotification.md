@@ -373,14 +373,14 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">PriceThreshold</span></td>
 <td><span class="ph">The qualifying threshold offer price, or less, that must be met for the promotion to apply.</span></td>
 <td>No</td>
-<td><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<td><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeeDiscountMonetaryAmount</span></td>
 <td><span class="ph">The amount you will receive off of your fees if the FeeDiscountType involves a monetary amount.</span></td>
 <td>No</td>
 <td><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a monetary amount, this value will be populated.</span>
-<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FeeDiscountValue</span></td>
@@ -428,7 +428,7 @@ element:
 | Name                                                      | Description                                                                                               | Required | Value                                                                                                                                                                  |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">TimeOfFeesEstimated</span> | <span class="ph">The date time when the fees were estimated.</span>                                       | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                                                                              |
-| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: [MoneyType](Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes)</span>                          |
+| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: [MoneyType](Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes)</span>                          |
 | <span class="keyword parmname">FeeDetailList</span>       | <span class="ph">An itemization of the TotalFeesEstimate).</span>                                         | Yes      | Type: List of [FeeDetail](#FeeDetail "The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed.") |
 
 </div>
@@ -485,26 +485,26 @@ The following table shows the attributes of a
 <td><span class="keyword parmname">FeeAmount</span></td>
 <td><span class="ph"> The fee amount corresponding to the fee type.</span></td>
 <td>Yes</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FeePromotion</span></td>
 <td><span class="ph"> The fee promotion amount corresponding to the fee type.</span></td>
 <td>No</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">TaxAmount</span></td>
 <td><span class="ph"> The tax calculated over fee that would be charged to the seller.</span></td>
 <td>No</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FinalFee</span></td>
 <td><span class="ph">The final fee that would be charged to the seller.</span></td>
 <td>Yes</td>
 <td><span class="ph">The FeeAmount minus the FeePromotion.</span>
-<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.html#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IncludedFeeDetailList</span></td>

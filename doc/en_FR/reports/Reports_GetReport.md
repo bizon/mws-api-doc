@@ -139,7 +139,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportId</span></td>
-<td>A unique identifier of the report to download. For most reports, this identifier is returned either in the <span class="keyword parmname">ReportId</span> of the <span class="keyword apiname">GetReportList</span> operation or in the <span class="keyword parmname">GeneratedReportId</span> of the <span class="keyword apiname">GetReportRequestList</span> operation. For sellers in India getting <span class="ph">Amazon Easy Ship</span> documents, this identifier is returned in the <span class="keyword parmname">ReportReferenceId</span> element of the processing report of the Easy Ship Feed. For more information see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.html" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td>A unique identifier of the report to download. For most reports, this identifier is returned either in the <span class="keyword parmname">ReportId</span> of the <span class="keyword apiname">GetReportList</span> operation or in the <span class="keyword parmname">GeneratedReportId</span> of the <span class="keyword apiname">GetReportRequestList</span> operation. For sellers in India getting <span class="ph">Amazon Easy Ship</span> documents, this identifier is returned in the <span class="keyword parmname">ReportReferenceId</span> element of the processing report of the Easy Ship Feed. For more information see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 <td>Yes</td>
 <td>Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -175,7 +175,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">Report</span></td>
-<td>The contents of the report document. Depending on the <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a>, this will either be a tab-delimited flat file, an XML document, or a PDF.
+<td>The contents of the report document. Depending on the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a>, this will either be a tab-delimited flat file, an XML document, or a PDF.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

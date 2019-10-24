@@ -157,7 +157,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
 <p>If <span class="keyword parmname">LastUpdatedBefore</span> is specified, then <span class="keyword parmname">LastUpdatedAfter</span> must be specified.</p></td>
 <td>Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
 <p>If <span class="keyword parmname">LastUpdatedAfter</span> is specified, then <span class="keyword parmname">LastUpdatedBefore</span> must be specified.</p></td>
 <td>Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="even">
 <td><span class="keyword parmname">ItemData</span></td>
 <td>Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
-<p>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -323,9 +323,9 @@ pages](../dev_guide/DG_NextToken.md)
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.html "Returns the next page of inbound shipments using the NextToken parameter.")
+[ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
 
-[ListInboundShipments](FBAInbound_ListInboundShipments.html "Returns a list of inbound shipments based on criteria that you specify.")
+[ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
 
 </div>
 

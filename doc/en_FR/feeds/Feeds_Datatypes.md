@@ -90,30 +90,30 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeedType</span></td>
-<td><span class="ph">The type of feed submitted. This is the <a href="../feeds/Feeds_FeedType.html" class="xref">FeedType</a> value that was provided to the <span class="keyword apiname">SubmitFeed</span> operation.</span>
+<td><span class="ph">The type of feed submitted. This is the <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value that was provided to the <span class="keyword apiname">SubmitFeed</span> operation.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SubmittedDate</span></td>
 <td><span class="ph">The date and time when the feed was submitted.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeedProcessingStatus</span></td>
-<td><span class="ph">The processing status of the feed submission. For more information, see <a href="../feeds/Feeds_FeedProcessingStatus.html" class="xref">FeedProcessingStatus enumeration</a>.</span>
+<td><span class="ph">The processing status of the feed submission. For more information, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">StartedProcessingDate</span></td>
 <td>The date when the feed processing started.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CompletedProcessingDate</span></td>
 <td>The date when the feed processing completed.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>

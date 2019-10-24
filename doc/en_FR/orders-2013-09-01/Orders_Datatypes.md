@@ -48,18 +48,18 @@ section</span>:
 
 | Datatype                                                                                                                                                                                     | Description                                                                                                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Address](Orders_Datatypes.html#Address "The shipping address for the order.")                                                                                                               | <span class="ph">The shipping address for the order.</span>                                                                                                                                              |
-| [BuyerCustomizedInfo](Orders_Datatypes.html#BuyerCustomizedInfo "Buyer information for custom orders from the Amazon Custom program.")                                                       | <span class="ph">Buyer information for custom orders from the <span class="ph">Amazon Custom</span> program.</span>                                                                                      |
-| [BuyerTaxInfo](Orders_Datatypes.html#BuyerTaxInfo "Tax information about the buyer.")                                                                                                        | <span class="ph">Tax information about the buyer.</span>                                                                                                                                                 |
-| [Money](Orders_Datatypes.html#Money "Currency type and amount.")                                                                                                                             | <span class="ph">Currency type and amount.</span>                                                                                                                                                        |
-| [Order](Orders_Datatypes.html#Order "Order information.")                                                                                                                                    | <span class="ph">Order information.</span>                                                                                                                                                               |
-| [OrderItem](Orders_Datatypes.html#OrderItem "OrderItem information.")                                                                                                                        | <span class="ph">OrderItem information.</span>                                                                                                                                                           |
-| [PaymentExecutionDetailItem](Orders_Datatypes.html#PaymentExecutionDetailItem "Information about a sub-payment method used to pay for a COD order.")                                         | <span class="ph">Information about a sub-payment method used to pay for a COD order.</span>                                                                                                              |
-| [PaymentMethodDetails](Orders_Datatypes.html#PaymentMethodDetails "A list of payment methods for the order.")                                                                                | <span class="ph">A list of payment methods for the order.</span>                                                                                                                                         |
-| [PointsGranted](Orders_Datatypes.html#PointsGranted "The number and value of Amazon Points granted with the purchase of an item. This datatype is used only in the Japan marketplace.")      | <span class="ph">The number and value of <span class="ph">Amazon Points</span> granted with the purchase of an item.</span> <span class="ph">This datatype is used only in the Japan marketplace.</span> |
-| [ProductInfo](Orders_Datatypes.html#ProductInfo "Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.") | <span class="ph">Product information for the item.</span> <span class="ph">This datatype is used only in the US, UK, Germany, and Japan marketplaces.</span>                                             |
-| [TaxClassification](Orders_Datatypes.html#TaxClassification "A tax type and identifier.")                                                                                                    | <span class="ph">A tax type and identifier.</span>                                                                                                                                                       |
-| [TaxCollection](Orders_Datatypes.html#TaxCollection "Information about withheld taxes.")                                                                                                     | <span class="ph">Information about withheld taxes.</span>                                                                                                                                                |
+| [Address](Orders_Datatypes.md#Address "The shipping address for the order.")                                                                                                               | <span class="ph">The shipping address for the order.</span>                                                                                                                                              |
+| [BuyerCustomizedInfo](Orders_Datatypes.md#BuyerCustomizedInfo "Buyer information for custom orders from the Amazon Custom program.")                                                       | <span class="ph">Buyer information for custom orders from the <span class="ph">Amazon Custom</span> program.</span>                                                                                      |
+| [BuyerTaxInfo](Orders_Datatypes.md#BuyerTaxInfo "Tax information about the buyer.")                                                                                                        | <span class="ph">Tax information about the buyer.</span>                                                                                                                                                 |
+| [Money](Orders_Datatypes.md#Money "Currency type and amount.")                                                                                                                             | <span class="ph">Currency type and amount.</span>                                                                                                                                                        |
+| [Order](Orders_Datatypes.md#Order "Order information.")                                                                                                                                    | <span class="ph">Order information.</span>                                                                                                                                                               |
+| [OrderItem](Orders_Datatypes.md#OrderItem "OrderItem information.")                                                                                                                        | <span class="ph">OrderItem information.</span>                                                                                                                                                           |
+| [PaymentExecutionDetailItem](Orders_Datatypes.md#PaymentExecutionDetailItem "Information about a sub-payment method used to pay for a COD order.")                                         | <span class="ph">Information about a sub-payment method used to pay for a COD order.</span>                                                                                                              |
+| [PaymentMethodDetails](Orders_Datatypes.md#PaymentMethodDetails "A list of payment methods for the order.")                                                                                | <span class="ph">A list of payment methods for the order.</span>                                                                                                                                         |
+| [PointsGranted](Orders_Datatypes.md#PointsGranted "The number and value of Amazon Points granted with the purchase of an item. This datatype is used only in the Japan marketplace.")      | <span class="ph">The number and value of <span class="ph">Amazon Points</span> granted with the purchase of an item.</span> <span class="ph">This datatype is used only in the Japan marketplace.</span> |
+| [ProductInfo](Orders_Datatypes.md#ProductInfo "Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.") | <span class="ph">Product information for the item.</span> <span class="ph">This datatype is used only in the US, UK, Germany, and Japan marketplaces.</span>                                             |
+| [TaxClassification](Orders_Datatypes.md#TaxClassification "A tax type and identifier.")                                                                                                    | <span class="ph">A tax type and identifier.</span>                                                                                                                                                       |
+| [TaxCollection](Orders_Datatypes.md#TaxCollection "Information about withheld taxes.")                                                                                                     | <span class="ph">Information about withheld taxes.</span>                                                                                                                                                |
 
 </div>
 
@@ -84,8 +84,8 @@ response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
 
 </div>
 
@@ -228,7 +228,7 @@ used in a response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -275,8 +275,8 @@ in a response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
 
 </div>
 
@@ -323,7 +323,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">TaxClassifications</span></td>
 <td>A list of tax classifications.</td>
 <td>No</td>
-<td>Type: List of <a href="Orders_Datatypes.html#TaxClassification" class="xref" title="A tax type and identifier.">TaxClassification</a>.
+<td>Type: List of <a href="Orders_Datatypes.md#TaxClassification" class="xref" title="A tax type and identifier.">TaxClassification</a>.
 <p>At least one <span class="keyword parmname">TaxClassification</span> response element is required.</p></td>
 </tr>
 </tbody>
@@ -356,10 +356,10 @@ response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -407,8 +407,8 @@ response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
 
 </div>
 
@@ -464,7 +464,7 @@ The following table shows the elements of the
 <span class="notetitle">Note:</span> <span class="keyword parmname">LastUpdateDate</span> is returned with an incorrect date for orders that were last updated before 2009-04-01.
 </div></td>
 <td>Yes</td>
-<td>Date values in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>Date values in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -549,7 +549,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">PaymentMethodDetails</span></td>
 <td><span id="Order__sd_datatype_PaymentMethodDetails" class="ph">A list of payment methods for the order.</span></td>
 <td>No</td>
-<td>Type: <a href="Orders_Datatypes.html#PaymentMethodDetails" class="xref" title="A list of payment methods for the order.">PaymentMethodDetails</a></td>
+<td>Type: <a href="Orders_Datatypes.md#PaymentMethodDetails" class="xref" title="A list of payment methods for the order.">PaymentMethodDetails</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsReplacementOrder</span></td>
@@ -591,7 +591,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">BuyerTaxInfo</span></td>
 <td><span class="ph">Tax information about the buyer.</span></td>
 <td>No</td>
-<td>Type: <a href="Orders_Datatypes.html#BuyerTaxInfo" class="xref" title="Tax information about the buyer.">BuyerTaxInfo</a></td>
+<td>Type: <a href="Orders_Datatypes.md#BuyerTaxInfo" class="xref" title="Tax information about the buyer.">BuyerTaxInfo</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShipmentServiceLevelCategory</span></td>
@@ -625,7 +625,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EarliestShipDate</span></td>
-<td>The start of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The start of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">EarliestShipDate</span> might not be returned for orders placed before February 1, 2013.
@@ -636,7 +636,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestShipDate</span></td>
-<td>The end of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The end of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">LatestShipDate</span> might not be returned for orders placed before February 1, 2013.
 </div></td>
@@ -645,13 +645,13 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EarliestDeliveryDate</span></td>
-<td>The start of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The start of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No. Returned only for seller-fulfilled orders that do not have a PendingAvailability, Pending, or Canceled status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestDeliveryDate</span></td>
-<td>The end of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The end of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No. Returned only for seller-fulfilled orders that do not have a PendingAvailability, Pending, or Canceled status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
@@ -726,7 +726,7 @@ response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -812,11 +812,11 @@ The following table shows the elements of the
 <td><span class="keyword parmname">ProductInfo</span></td>
 <td><span class="ph">Product information for the item.</span></td>
 <td>No</td>
-<td>Type: <a href="Orders_Datatypes.html#ProductInfo" class="xref" title="Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.">ProductInfo</a></td>
+<td>Type: <a href="Orders_Datatypes.md#ProductInfo" class="xref" title="Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.">ProductInfo</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ItemPrice</span></td>
-<td>The selling price of the order item. Note that an order item is an item and a quantity. This means that the value of <span class="keyword parmname">ItemPrice</span> is equal to the selling price of the item multiplied by the quantity ordered. Note that <span class="keyword parmname">ItemPrice</span> excludes <span class="keyword parmname">ShippingPrice</span> and <span class="keyword parmname">GiftWrapPrice</span>. For a more detailed explanation of an order item, see <a href="../orders-2013-09-01/Orders_Overview.html" class="xref">Orders API</a>.</td>
+<td>The selling price of the order item. Note that an order item is an item and a quantity. This means that the value of <span class="keyword parmname">ItemPrice</span> is equal to the selling price of the item multiplied by the quantity ordered. Note that <span class="keyword parmname">ItemPrice</span> excludes <span class="keyword parmname">ShippingPrice</span> and <span class="keyword parmname">GiftWrapPrice</span>. For a more detailed explanation of an order item, see <a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>.</td>
 <td>No</td>
 <td>Type: <a href="#Money" class="xref" title="Currency type and amount.">Money</a></td>
 </tr>
@@ -836,7 +836,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">TaxCollection</span></td>
 <td><span class="ph">Information about withheld taxes.</span></td>
 <td>No</td>
-<td>Type: <a href="Orders_Datatypes.html#TaxCollection" class="xref" title="Information about withheld taxes.">TaxCollection</a></td>
+<td>Type: <a href="Orders_Datatypes.md#TaxCollection" class="xref" title="Information about withheld taxes.">TaxCollection</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ItemTax</span></td>
@@ -944,7 +944,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ScheduledDeliveryStartDate</span></td>
-<td>The start date of the scheduled delivery window in the time zone of the order destination. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The start date of the scheduled delivery window in the time zone of the order destination. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="note note">
 <span class="notetitle">Note:</span> Scheduled delivery is available only in Japan (JP).
 </div></td>
@@ -953,7 +953,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ScheduledDeliveryEndDate</span></td>
-<td>The end date of the scheduled delivery window in the time zone of the order destination. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The end date of the scheduled delivery window in the time zone of the order destination. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="note note">
 <span class="notetitle">Note:</span> Scheduled delivery is available only in Japan (JP).
 </div></td>
@@ -1013,8 +1013,8 @@ datatype is used in a response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
 
 </div>
 
@@ -1094,8 +1094,8 @@ is used in a response element of the following
     operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
+  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
+  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
 
 </div>
 
@@ -1144,7 +1144,7 @@ a response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -1194,7 +1194,7 @@ in a response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -1242,7 +1242,7 @@ used in a response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 
@@ -1290,7 +1290,7 @@ in a response element of the following
     operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 

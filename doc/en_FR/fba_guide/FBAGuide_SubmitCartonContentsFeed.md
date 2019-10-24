@@ -41,7 +41,7 @@ Submit carton content information using the FBA Inbound Shipment Carton
 Information Feed (\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_) of the Feeds
 API section. For more information about this feed, see [Fulfillment by
 Amazon (FBA)
-feeds](../feeds/Feeds_FeedType.html#FeedType_Enumeration__FBAFeeds).
+feeds](../feeds/Feeds_FeedType.md#FeedType_Enumeration__FBAFeeds).
 
 <div class="note important">
 

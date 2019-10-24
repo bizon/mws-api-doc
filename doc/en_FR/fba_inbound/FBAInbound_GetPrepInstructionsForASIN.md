@@ -66,7 +66,7 @@ MustProvideSellerSKU for the item. To get complete labeling requirement
 information (in addition to item preparation instructions) to help you
 prepare items for shipment to <span class="ph">Amazon's fulfillment
 network</span>, use the
-[<span class="keyword apiname">GetPrepInstructionsForSKU</span>](FBAInbound_GetPrepInstructionsForSKU.html "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+[<span class="keyword apiname">GetPrepInstructionsForSKU</span>](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 operation.
 
 </div>
@@ -141,7 +141,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes</td>
 <td>Maximum: 50 <span class="keyword parmname">ASIN</span> values
 <div class="note note">
-<span class="notetitle">Note:</span> ASINs must be included in the product catalog for at least one of the marketplaces that you participate in. Any ASIN that is not included in the product catalog for at least one of the marketplaces that you participate in is returned in the <span class="keyword parmname">InvalidASINList</span> response element. You can use the Amazon Sellers API section to find out which marketplaces you participate in. For more information, see <a href="../sellers/Sellers_Overview.html" class="xref">What you should know about the Amazon MWS Sellers API Section</a> in the <span class="ph">Sellers API section</span> reference.
+<span class="notetitle">Note:</span> ASINs must be included in the product catalog for at least one of the marketplaces that you participate in. Any ASIN that is not included in the product catalog for at least one of the marketplaces that you participate in is returned in the <span class="keyword parmname">InvalidASINList</span> response element. You can use the Amazon Sellers API section to find out which marketplaces you participate in. For more information, see <a href="../sellers/Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a> in the <span class="ph">Sellers API section</span> reference.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -184,12 +184,12 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ASINPrepInstructionsList</span></td>
 <td><span class="ph">Item preparation instructions to help with item sourcing decisions.</span>
-<p>Type: List of <a href="FBAInbound_Datatypes.html#ASINPrepInstructions" class="xref" title="Item preparation instructions to help with item sourcing decisions.">ASINPrepInstructions</a></p></td>
+<p>Type: List of <a href="FBAInbound_Datatypes.md#ASINPrepInstructions" class="xref" title="Item preparation instructions to help with item sourcing decisions.">ASINPrepInstructions</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">InvalidASINList</span></td>
 <td>A list of invalid <span class="keyword parmname">ASIN</span> values and the reasons they are invalid.
-<p>Type: List of <a href="FBAInbound_Datatypes.html#InvalidASIN" class="xref" title="An invalid ASIN and the reason it is invalid.">InvalidASIN</a></p></td>
+<p>Type: List of <a href="FBAInbound_Datatypes.md#InvalidASIN" class="xref" title="An invalid ASIN and the reason it is invalid.">InvalidASIN</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -302,7 +302,7 @@ code</span> </span>
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.html "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+[GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 
 </div>
 

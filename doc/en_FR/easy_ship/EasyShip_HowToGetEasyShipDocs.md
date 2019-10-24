@@ -60,7 +60,7 @@ pickup.
 ## Task 1. Get a report identifier
 
 You’ll need a report identifier to pass in with the
-[GetReportList](../reports/Reports_GetReportList.html "Returns a list of reports that were created in the previous 90 days.")
+[GetReportList](../reports/Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
 operation in **Task 2. Get the PDF**.
 
 **To get a report identifier**
@@ -71,7 +71,7 @@ operation in **Task 2. Get the PDF**.
       - **FeedContent.** Use the easyship-documents.xsd to form the
         content of the feed. For more information, see
         [SubmitFeed](../feeds/Feeds_SubmitFeed.md) and [Easy Ship
-        feed](../feeds/Feeds_FeedType.html#EasyShipFeed).
+        feed](../feeds/Feeds_FeedType.md#EasyShipFeed).
       - **FeedType.** Specify \_POST\_EASYSHIP\_DOCUMENTS\_
       - **ContentMD5Value.** For information about calculating this
         value, see [SubmitFeed](../feeds/Feeds_SubmitFeed.md).
@@ -89,7 +89,7 @@ operation in **Task 2. Get the PDF**.
     <span class="keyword parmname">FeedSubmissionId</span> value.
 
 2.  Call the
-    [GetFeedSubmissionList](../feeds/Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+    [GetFeedSubmissionList](../feeds/Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
     operation, specifying the
     <span class="keyword parmname">FeedSubmissionId</span> value from
     Step 1.
@@ -126,7 +126,7 @@ available) documents for the <span class="ph">Amazon Easy Ship</span>
 order.
 
 1.  Call the
-    [GetReportList](../reports/Reports_GetReportList.html "Returns a list of reports that were created in the previous 90 days.")
+    [GetReportList](../reports/Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
     operation. When specifying the
     <span class="keyword parmname">ReportRequestIdList</span> parameter,
     use the <span class="keyword parmname">ReportReferenceId</span>

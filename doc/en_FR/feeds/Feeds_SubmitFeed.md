@@ -197,7 +197,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeedType</span></td>
-<td>A <a href="../feeds/Feeds_FeedType.html" class="xref">FeedType</a> value indicating how the data should be processed.</td>
+<td>A <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value indicating how the data should be processed.</td>
 <td>Yes</td>
 <td>Default: None
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -207,7 +207,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A list of one or more marketplace IDs (of marketplaces you are registered to sell in) that you want the feed to be applied to. The feed will be applied to all the marketplaces you specify.
 <p>For example:</p>
 <p>&amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</p>
-<p>See <a href="Feeds_EU_Global_Seller.html" class="xref">Using multiple marketplaces</a> for more information.</p></td>
+<p>See <a href="Feeds_EU_Global_Seller.md" class="xref">Using multiple marketplaces</a> for more information.</p></td>
 <td>No, except for Product Images Feeds.<sup>1</sup></td>
 <td>Marketplace IDs for marketplaces where you are registered to sell.
 <p>Default: When no marketplaces are specified in the feed request, the request returns <em>all</em> marketplaces where the feed request can be submitted.</p>
@@ -222,21 +222,21 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ContentMD5Value</span></td>
-<td>An MD5 hash of the feed content. <span class="ph">Amazon MWS</span> uses this value to determine if the feed data has been corrupted or tampered with during transit. This replaces the Content-MD5 header. See <a href="Feeds_MD5.html" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.</td>
+<td>An MD5 hash of the feed content. <span class="ph">Amazon MWS</span> uses this value to determine if the feed data has been corrupted or tampered with during transit. This replaces the Content-MD5 header. See <a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.</td>
 <td>No</td>
 <td>Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">AmazonOrderId</span></td>
-<td>An Amazon-defined order identifier. Used to identify an <span class="ph">Amazon Easy Ship</span> order that you want to get PDF documents for. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.html" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td>An Amazon-defined order identifier. Used to identify an <span class="ph">Amazon Easy Ship</span> order that you want to get PDF documents for. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 <td>No</td>
 <td>Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">DocumentType</span></td>
-<td>The type of PDF document that you want to get for the <span class="ph">Amazon Easy Ship</span> order identified with the <span class="keyword parmname">AmazonOrderId</span> parameter. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.html" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td>The type of PDF document that you want to get for the <span class="ph">Amazon Easy Ship</span> order identified with the <span class="keyword parmname">AmazonOrderId</span> parameter. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 <td>No</td>
 <td>Default: all
 <p>Values: ShippingLabel, Invoice, Warranty</p>
@@ -271,7 +271,7 @@ enumeration](../feeds/Feeds_FeedType.md).
 
 | Name                                                     | Description                                                           | Required | Valid values                                                                                                        |
 | -------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeedSubmissionInfo</span> | <span class="ph">Detailed information about a feed submission.</span> | Yes      | Type: [FeedSubmissionInfo](Feeds_Datatypes.html#FeedSubmissionInfo "Detailed information about a feed submission.") |
+| <span class="keyword parmname">FeedSubmissionInfo</span> | <span class="ph">Detailed information about a feed submission.</span> | Yes      | Type: [FeedSubmissionInfo](Feeds_Datatypes.md#FeedSubmissionInfo "Detailed information about a feed submission.") |
 
 </div>
 
@@ -474,7 +474,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Feeds API
 section](../feeds/Feeds_Overview.md)
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
 
 [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
 

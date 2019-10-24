@@ -58,9 +58,9 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Amazon MWS Reports API
 section](../reports/Reports_Overview.md)
 
-[GetReportScheduleList](Reports_GetReportScheduleList.html "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
+[GetReportScheduleList](Reports_GetReportScheduleList.md "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
 
-[ManageReportSchedule](Reports_ManageReportSchedule.html "Creates, updates, or deletes a report request schedule for a specified report type.")
+[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
 
 </div>
 

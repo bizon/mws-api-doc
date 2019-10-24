@@ -48,36 +48,36 @@ section</span>:
 
 | Datatype                                                                                                                                                                                                       | Description                                                                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Address](FBAOutbound_Datatypes.html#Address "Postal address information.")                                                                                                                                    | <span class="ph">Postal address information.</span>                                                                                                                            |
-| [CODSettings](FBAOutbound_Datatypes.html#CODSettings "The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).") | <span class="ph">The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).</span> |
-| [CreateFulfillmentOrderItem](FBAOutbound_Datatypes.html#CreateFulfillmentOrderItem "Item information for creating a fulfillment order.")                                                                       | <span class="ph">Item information for creating a fulfillment order.</span>                                                                                                     |
-| [CreateReturnItem](FBAOutbound_Datatypes.html#CreateReturnItem "An item to be returned.")                                                                                                                      | <span class="ph">An item to be returned.</span>                                                                                                                                |
-| [Currency](FBAOutbound_Datatypes.html#Currency "Currency type and amount.")                                                                                                                                    | <span class="ph">Currency type and amount.</span>                                                                                                                              |
-| [DeliveryWindow](FBAOutbound_Datatypes.html#DeliveryWindow "The time range within which your Scheduled Delivery fulfillment order should be delivered.")                                                       | <span class="ph">The time range within which your Scheduled Delivery fulfillment order should be delivered.</span>                                                             |
-| [Fee](FBAOutbound_Datatypes.html#Fee "Fee type and cost.")                                                                                                                                                     | <span class="ph">Fee type and cost.</span>                                                                                                                                     |
-| [FulfillmentOrder](FBAOutbound_Datatypes.html#FulfillmentOrder "General information about a fulfillment order, including its status.")                                                                         | <span class="ph">General information about a fulfillment order, including its status.</span>                                                                                   |
-| [FulfillmentOrderItem](FBAOutbound_Datatypes.html#FulfillmentOrderItem "Item information for a fulfillment order.")                                                                                            | <span class="ph">Item information for a fulfillment order.</span>                                                                                                              |
-| [FulfillmentPreview](FBAOutbound_Datatypes.html#FulfillmentPreview "Information about a fulfillment order preview, including delivery and fee information based on shipping method.")                          | <span class="ph">Information about a fulfillment order preview, including delivery and fee information based on shipping method.</span>                                        |
-| [FulfillmentPreviewItem](FBAOutbound_Datatypes.html#FulfillmentPreviewItem "Item information for a shipment in a fulfillment order preview.")                                                                  | <span class="ph">Item information for a shipment in a fulfillment order preview.</span>                                                                                        |
-| [FulfillmentPreviewShipment](FBAOutbound_Datatypes.html#FulfillmentPreviewShipment "Delivery and item information for a shipment in a fulfillment order preview.")                                             | <span class="ph">Delivery and item information for a shipment in a fulfillment order preview.</span>                                                                           |
-| [FulfillmentShipment](FBAOutbound_Datatypes.html#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")                                                                   | <span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>                                                                                   |
-| [FulfillmentShipmentItem](FBAOutbound_Datatypes.html#FulfillmentShipmentItem "Item information for a shipment in a fulfillment order.")                                                                        | <span class="ph">Item information for a shipment in a fulfillment order.</span>                                                                                                |
-| [FulfillmentShipmentPackage](FBAOutbound_Datatypes.html#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")                                                               | <span class="ph">Package information for a shipment in a fulfillment order.</span>                                                                                             |
-| [GetFulfillmentPreviewItem](FBAOutbound_Datatypes.html#GetFulfillmentPreviewItem "Item information for a fulfillment order preview.")                                                                          | <span class="ph">Item information for a fulfillment order preview.</span>                                                                                                      |
-| [InvalidItemReason](FBAOutbound_Datatypes.html#InvalidItemReason "The reason that the item is invalid for return.")                                                                                            | <span class="ph">The reason that the item is invalid for return.</span>                                                                                                        |
-| [InvalidItemReasonCode](FBAOutbound_Datatypes.html#InvalidItemReasonCode "A code for why the item is invalid for return.")                                                                                     | <span class="ph">A code for why the item is invalid for return.</span>                                                                                                         |
-| [InvalidReturnItem](FBAOutbound_Datatypes.html#InvalidReturnItem "An item that is invalid for return.")                                                                                                        | <span class="ph">An item that is invalid for return.</span>                                                                                                                    |
-| [ReasonCodeDetails](FBAOutbound_Datatypes.html#ReasonCodeDetails "A return reason code, a description, and an optional description translation.")                                                              | <span class="ph">A return reason code, a description, and an optional description translation.</span>                                                                          |
-| [ReturnAuthorization](FBAOutbound_Datatypes.html#ReturnAuthorization "Return authorization information for items accepted for return.")                                                                        | <span class="ph">Return authorization information for items accepted for return.</span>                                                                                        |
-| [ReturnItem](FBAOutbound_Datatypes.html#ReturnItem "An item that Amazon accepted for return.")                                                                                                                 | <span class="ph">An item that Amazon accepted for return.</span>                                                                                                               |
-| [ReturnReceivedCondition](FBAOutbound_Datatypes.html#ReturnReceivedCondition "The condition that the return item was received by an Amazon fulfillment center.")                                               | <span class="ph">The condition that the return item was received by an Amazon fulfillment center.</span>                                                                       |
-| [ScheduledDeliveryInfo](FBAOutbound_Datatypes.html#ScheduledDeliveryInfo "Delivery information for a Scheduled Delivery.")                                                                                     | <span class="ph">Delivery information for a Scheduled Delivery.</span>                                                                                                         |
-| [Status](FBAOutbound_Datatypes.html#Status "Indicates if the return item has been processed by an Amazon fulfillment center.")                                                                                 | <span class="ph">Indicates if the return item has been processed by an Amazon fulfillment center.</span>                                                                       |
-| [TrackingAddress](FBAOutbound_Datatypes.html#TrackingAddress "Address information for tracking the package.")                                                                                                  | <span class="ph">Address information for tracking the package.</span>                                                                                                          |
-| [TrackingEvent](FBAOutbound_Datatypes.html#TrackingEvent "Information for tracking package deliveries.")                                                                                                       | <span class="ph">Information for tracking package deliveries.</span>                                                                                                           |
-| [UnfulfillablePreviewItem](FBAOutbound_Datatypes.html#UnfulfillablePreviewItem "Information about unfulfillable items in a fulfillment order preview.")                                                        | <span class="ph">Information about unfulfillable items in a fulfillment order preview.</span>                                                                                  |
-| [UpdateFulfillmentOrderItem](FBAOutbound_Datatypes.html#UpdateFulfillmentOrderItem "Item information for updating a fulfillment order.")                                                                       | <span class="ph">Item information for updating a fulfillment order.</span>                                                                                                     |
-| [Weight](FBAOutbound_Datatypes.html#Weight "Weight unit and amount.")                                                                                                                                          | <span class="ph">Weight unit and amount.</span>                                                                                                                                |
+| [Address](FBAOutbound_Datatypes.md#Address "Postal address information.")                                                                                                                                    | <span class="ph">Postal address information.</span>                                                                                                                            |
+| [CODSettings](FBAOutbound_Datatypes.md#CODSettings "The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).") | <span class="ph">The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).</span> |
+| [CreateFulfillmentOrderItem](FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem "Item information for creating a fulfillment order.")                                                                       | <span class="ph">Item information for creating a fulfillment order.</span>                                                                                                     |
+| [CreateReturnItem](FBAOutbound_Datatypes.md#CreateReturnItem "An item to be returned.")                                                                                                                      | <span class="ph">An item to be returned.</span>                                                                                                                                |
+| [Currency](FBAOutbound_Datatypes.md#Currency "Currency type and amount.")                                                                                                                                    | <span class="ph">Currency type and amount.</span>                                                                                                                              |
+| [DeliveryWindow](FBAOutbound_Datatypes.md#DeliveryWindow "The time range within which your Scheduled Delivery fulfillment order should be delivered.")                                                       | <span class="ph">The time range within which your Scheduled Delivery fulfillment order should be delivered.</span>                                                             |
+| [Fee](FBAOutbound_Datatypes.md#Fee "Fee type and cost.")                                                                                                                                                     | <span class="ph">Fee type and cost.</span>                                                                                                                                     |
+| [FulfillmentOrder](FBAOutbound_Datatypes.md#FulfillmentOrder "General information about a fulfillment order, including its status.")                                                                         | <span class="ph">General information about a fulfillment order, including its status.</span>                                                                                   |
+| [FulfillmentOrderItem](FBAOutbound_Datatypes.md#FulfillmentOrderItem "Item information for a fulfillment order.")                                                                                            | <span class="ph">Item information for a fulfillment order.</span>                                                                                                              |
+| [FulfillmentPreview](FBAOutbound_Datatypes.md#FulfillmentPreview "Information about a fulfillment order preview, including delivery and fee information based on shipping method.")                          | <span class="ph">Information about a fulfillment order preview, including delivery and fee information based on shipping method.</span>                                        |
+| [FulfillmentPreviewItem](FBAOutbound_Datatypes.md#FulfillmentPreviewItem "Item information for a shipment in a fulfillment order preview.")                                                                  | <span class="ph">Item information for a shipment in a fulfillment order preview.</span>                                                                                        |
+| [FulfillmentPreviewShipment](FBAOutbound_Datatypes.md#FulfillmentPreviewShipment "Delivery and item information for a shipment in a fulfillment order preview.")                                             | <span class="ph">Delivery and item information for a shipment in a fulfillment order preview.</span>                                                                           |
+| [FulfillmentShipment](FBAOutbound_Datatypes.md#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")                                                                   | <span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>                                                                                   |
+| [FulfillmentShipmentItem](FBAOutbound_Datatypes.md#FulfillmentShipmentItem "Item information for a shipment in a fulfillment order.")                                                                        | <span class="ph">Item information for a shipment in a fulfillment order.</span>                                                                                                |
+| [FulfillmentShipmentPackage](FBAOutbound_Datatypes.md#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")                                                               | <span class="ph">Package information for a shipment in a fulfillment order.</span>                                                                                             |
+| [GetFulfillmentPreviewItem](FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem "Item information for a fulfillment order preview.")                                                                          | <span class="ph">Item information for a fulfillment order preview.</span>                                                                                                      |
+| [InvalidItemReason](FBAOutbound_Datatypes.md#InvalidItemReason "The reason that the item is invalid for return.")                                                                                            | <span class="ph">The reason that the item is invalid for return.</span>                                                                                                        |
+| [InvalidItemReasonCode](FBAOutbound_Datatypes.md#InvalidItemReasonCode "A code for why the item is invalid for return.")                                                                                     | <span class="ph">A code for why the item is invalid for return.</span>                                                                                                         |
+| [InvalidReturnItem](FBAOutbound_Datatypes.md#InvalidReturnItem "An item that is invalid for return.")                                                                                                        | <span class="ph">An item that is invalid for return.</span>                                                                                                                    |
+| [ReasonCodeDetails](FBAOutbound_Datatypes.md#ReasonCodeDetails "A return reason code, a description, and an optional description translation.")                                                              | <span class="ph">A return reason code, a description, and an optional description translation.</span>                                                                          |
+| [ReturnAuthorization](FBAOutbound_Datatypes.md#ReturnAuthorization "Return authorization information for items accepted for return.")                                                                        | <span class="ph">Return authorization information for items accepted for return.</span>                                                                                        |
+| [ReturnItem](FBAOutbound_Datatypes.md#ReturnItem "An item that Amazon accepted for return.")                                                                                                                 | <span class="ph">An item that Amazon accepted for return.</span>                                                                                                               |
+| [ReturnReceivedCondition](FBAOutbound_Datatypes.md#ReturnReceivedCondition "The condition that the return item was received by an Amazon fulfillment center.")                                               | <span class="ph">The condition that the return item was received by an Amazon fulfillment center.</span>                                                                       |
+| [ScheduledDeliveryInfo](FBAOutbound_Datatypes.md#ScheduledDeliveryInfo "Delivery information for a Scheduled Delivery.")                                                                                     | <span class="ph">Delivery information for a Scheduled Delivery.</span>                                                                                                         |
+| [Status](FBAOutbound_Datatypes.md#Status "Indicates if the return item has been processed by an Amazon fulfillment center.")                                                                                 | <span class="ph">Indicates if the return item has been processed by an Amazon fulfillment center.</span>                                                                       |
+| [TrackingAddress](FBAOutbound_Datatypes.md#TrackingAddress "Address information for tracking the package.")                                                                                                  | <span class="ph">Address information for tracking the package.</span>                                                                                                          |
+| [TrackingEvent](FBAOutbound_Datatypes.md#TrackingEvent "Information for tracking package deliveries.")                                                                                                       | <span class="ph">Information for tracking package deliveries.</span>                                                                                                           |
+| [UnfulfillablePreviewItem](FBAOutbound_Datatypes.md#UnfulfillablePreviewItem "Information about unfulfillable items in a fulfillment order preview.")                                                        | <span class="ph">Information about unfulfillable items in a fulfillment order preview.</span>                                                                                  |
+| [UpdateFulfillmentOrderItem](FBAOutbound_Datatypes.md#UpdateFulfillmentOrderItem "Item information for updating a fulfillment order.")                                                                       | <span class="ph">Item information for updating a fulfillment order.</span>                                                                                                     |
+| [Weight](FBAOutbound_Datatypes.md#Weight "Weight unit and amount.")                                                                                                                                          | <span class="ph">Weight unit and amount.</span>                                                                                                                                |
 
 </div>
 
@@ -99,10 +99,10 @@ The <span class="keyword parmname">Address</span> datatype is used in a
 request parameter or a response element of the following
     operations:
 
-  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
-  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.html "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
-  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.html "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
+  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
+  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
 
 </div>
 
@@ -230,8 +230,8 @@ The <span class="keyword parmname">CODSettings</span> datatype is used
 in a request parameter or response element in the following
     operations:
 
-  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -273,7 +273,7 @@ The following table shows the elements of the
 <span class="notetitle">Note:</span> true is a valid value for <span class="keyword parmname">IsCODRequired</span> only in Japan (JP). Specifying <span class="keyword parmname">IsCODRequired</span>=true with a call to <span class="keyword apiname">CreateFulfillmentOrder</span> in any other marketplace returns an error.
 </div>
 <div class="note note">
-<span class="notetitle">Note:</span> If you specify <span class="keyword parmname">IsCODRequired</span>=true, then you must also specify <span class="keyword parmname">PerUnitPrice</span>. For more information about <span class="keyword parmname">PerUnitPrice</span>, see <a href="FBAOutbound_Datatypes.html#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a>.
+<span class="notetitle">Note:</span> If you specify <span class="keyword parmname">IsCODRequired</span>=true, then you must also specify <span class="keyword parmname">PerUnitPrice</span>. For more information about <span class="keyword parmname">PerUnitPrice</span>, see <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a>.
 </div>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -285,7 +285,7 @@ The following table shows the elements of the
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">CODCharge</span> is valid only in JP.
 </div>
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">CODChargeTax</span></td>
@@ -295,7 +295,7 @@ The following table shows the elements of the
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">CODChargeTax</span> is valid only in JP.
 </div>
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShippingCharge</span></td>
@@ -305,7 +305,7 @@ The following table shows the elements of the
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">ShippingCharge</span> is valid only in JP.
 </div>
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingChargeTax</span></td>
@@ -315,7 +315,7 @@ The following table shows the elements of the
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">ShippingChargeTax</span> is valid only in JP.
 </div>
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -345,7 +345,7 @@ The <span class="keyword parmname">CreateFulfillmentOrderItem</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
 
 </div>
 
@@ -422,29 +422,29 @@ datatype:
 <p><strong>For sellers in Europe:</strong> Required only if the destination country is outside of the 26-country set of supported destination countries for FBA Export for EU. For more information, see <a href="https://sellercentral.amazon.co.uk/gp/help/200149570" class="xref">FBA Export</a> in Seller Central Help.</p>
 <p><strong>For sellers outside of Europe:</strong> Required only if the destination country differs from the country from which the fulfillment order originates.</p></td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PerUnitPrice</span></td>
 <td>The amount to be collected from the customer for this item in a COD (Cash On Delivery) order.
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p>
 <div class="note note">
 <span class="notetitle">Note:</span> COD fulfillment orders are available only in Japan (JP).
 </div></td>
 <td>No</td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PerUnitTax</span></td>
 <td>The tax on the amount to be collected from the customer for this item in a COD (Cash On Delivery) order.
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p>
 <div class="note note">
 <span class="notetitle">Note:</span> COD fulfillment orders are available only in JP.
 </div></td>
 <td>No</td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -473,7 +473,7 @@ The <span class="keyword parmname">CreateReturnItem</span> datatype is
 used in a request parameter of the following
     operation:
 
-  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 
 </div>
 
@@ -511,19 +511,19 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SellerFulfillmentOrderItemId</span></td>
-<td><span class="ph">The identifier assigned to the item by the seller when the fulfillment order was created.</span> The seller uses their own records to find the correct <span class="keyword parmname">SellerFulfillmentOrderItemId</span> values based on the buyer's request to return items. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.html" class="xref">Creating a fulfillment return</a>.</td>
+<td><span class="ph">The identifier assigned to the item by the seller when the fulfillment order was created.</span> The seller uses their own records to find the correct <span class="keyword parmname">SellerFulfillmentOrderItemId</span> values based on the buyer's request to return items. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.md" class="xref">Creating a fulfillment return</a>.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">AmazonShipmentId</span></td>
-<td>The Amazon shipment ID for the shipment that was associated with the fulfillment order. Get this value by calling the <span class="keyword apiname">GetFulfillmentOrder</span> operation. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.html" class="xref">Creating a fulfillment return</a>.</td>
+<td>The Amazon shipment ID for the shipment that was associated with the fulfillment order. Get this value by calling the <span class="keyword apiname">GetFulfillmentOrder</span> operation. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.md" class="xref">Creating a fulfillment return</a>.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReturnReasonCode</span></td>
-<td><span class="ph">The return reason code assigned to the return item by the seller.</span> Get valid return reason codes by calling the <a href="FBAOutbound_ListReturnReasonCodes.html" class="xref" title="Returns a list of return reason codes for a seller SKU in a given marketplace.">ListReturnReasonCodes</a> operation. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.html" class="xref">Creating a fulfillment return</a>.</td>
+<td><span class="ph">The return reason code assigned to the return item by the seller.</span> Get valid return reason codes by calling the <a href="FBAOutbound_ListReturnReasonCodes.md" class="xref" title="Returns a list of return reason codes for a seller SKU in a given marketplace.">ListReturnReasonCodes</a> operation. See <a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.md" class="xref">Creating a fulfillment return</a>.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -561,10 +561,10 @@ The <span class="keyword parmname">Currency</span> datatype is used in a
 request parameter or a response element of the following
     operations:
 
-  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
-  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.html "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
+  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
 
 </div>
 
@@ -597,7 +597,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">CurrencyCode</span></td>
 <td>Three-digit currency code.</td>
 <td>Yes</td>
-<td>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.html" class="xref">ISO 4217 format</a> </span>.
+<td>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -634,11 +634,11 @@ The <span class="keyword parmname">DeliveryWindow</span> datatype is
 used in a request parameter or a response element of the following
 operations:
 
-  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
-  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.html "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
-  - [ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.html "Returns the next page of fulfillment orders using the NextToken parameter.")
+  - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
+  - [ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.md "Returns the next page of fulfillment orders using the NextToken parameter.")
 
 </div>
 
@@ -671,14 +671,14 @@ The following table shows the elements of the
 <td><span class="keyword parmname">StartDateTime</span></td>
 <td>The date and time of the start of the Scheduled Delivery window.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EndDateTime</span></td>
 <td>The date and time of the end of the Scheduled Delivery window.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -708,7 +708,7 @@ The <span class="keyword parmname">Fee</span> datatype is used in a
 response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -757,7 +757,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">Amount</span></td>
 <td>The amount of the fee.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></td>
 </tr>
 </tbody>
 </table>
@@ -787,9 +787,9 @@ The <span class="keyword parmname">FulfillmentOrder</span> datatype is
 used in a response element of the following
     operations:
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
-  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.html "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
-  - [ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.html "Returns the next page of fulfillment orders using the NextToken parameter.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
+  - [ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.md "Returns the next page of fulfillment orders using the NextToken parameter.")
 
 </div>
 
@@ -828,7 +828,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace the fulfillment order is placed against.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -858,7 +858,7 @@ The following table shows the elements of the
 <li>Standard - Standard shipping method.</li>
 <li>Expedited - Expedited shipping method.</li>
 <li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</li>
+<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -869,17 +869,17 @@ The following table shows the elements of the
 <td><span class="keyword parmname">DeliveryWindow</span></td>
 <td>The time range within which your Scheduled Delivery fulfillment order should be delivered.</td>
 <td>No</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">DestinationAddress</span></td>
 <td>The destination address that you created when you submitted the <span class="keyword parmname">CreateFulfillmentOrder</span> operation.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentAction</span></td>
-<td>Specifies whether an order was created to ship immediately or to be held for later. Only returned by <a href="FBAOutbound_GetFulfillmentOrder.html" class="xref" title="Returns a fulfillment order based on a specified SellerFulfillmentOrderId.">GetFulfillmentOrder</a>.</td>
+<td>Specifies whether an order was created to ship immediately or to be held for later. Only returned by <a href="FBAOutbound_GetFulfillmentOrder.md" class="xref" title="Returns a fulfillment order based on a specified SellerFulfillmentOrderId.">GetFulfillmentOrder</a>.</td>
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentAction</span> values:
 <ul>
@@ -894,7 +894,7 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
-<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order has acquired the status of Pending (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order has acquired the status of Pending, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.html#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
+<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order has acquired the status of Pending (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order has acquired the status of Pending, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
 <li>FillAll - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
 <li>FillAllAvailable - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
 </ul>
@@ -905,7 +905,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">ReceivedDateTime</span></td>
 <td>The date that the fulfillment order was received by an <span class="ph">Amazon fulfillment center</span>.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -929,7 +929,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">StatusUpdatedDateTime</span></td>
 <td>The date that the status of the fulfillment order last changed.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -943,7 +943,7 @@ The following table shows the elements of the
 <td>The COD (Cash On Delivery) charges that you associated with a COD order.</td>
 <td>No</td>
 <td><span class="keyword parmname">CODSettings</span> is returned only for COD orders. COD orders are available only in Japan (JP).
-<p>Type: <a href="FBAOutbound_Datatypes.html#CODSettings" class="xref" title="The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).">CODSettings</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#CODSettings" class="xref" title="The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).">CODSettings</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -972,7 +972,7 @@ The <span class="keyword parmname">FulfillmentOrderItem</span> datatype
 is used in a response element of the following
     operation:
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1053,14 +1053,14 @@ The following table shows the elements of the
 <td><span class="keyword parmname">EstimatedShipDateTime</span></td>
 <td>The estimated time that the item quantity is scheduled to ship from the fulfillment center. Note that this value can change over time. If the shipment that contains the item quantity has been cancelled, <span class="keyword parmname">EstimatedShipDateTime</span> is not returned.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
 <td>The estimated arrival time of the item quantity, . Note that this value can change over time. If the shipment that contains the item quantity has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -1068,7 +1068,7 @@ The following table shows the elements of the
 <td>The monetary value assigned by the seller to this item.</td>
 <td>No</td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PerUnitPrice</span></td>
@@ -1078,7 +1078,7 @@ The following table shows the elements of the
 </div></td>
 <td>No</td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PerUnitTax</span></td>
@@ -1088,7 +1088,7 @@ The following table shows the elements of the
 </div></td>
 <td>No</td>
 <td>Default: zero
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -1118,7 +1118,7 @@ The <span class="keyword parmname">FulfillmentPreview</span> datatype is
 used in a response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -1156,7 +1156,7 @@ The following table shows the elements of the
 <li>Standard - Standard shipping method.</li>
 <li>Expedited - Expedited shipping method.</li>
 <li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</li>
+<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -1192,32 +1192,32 @@ The following table shows the elements of the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace the fulfillment order is placed against.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EstimatedShippingWeight</span></td>
 <td>Estimated shipping weight for this fulfillment order preview.</td>
 <td>No</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Weight" class="xref" title="Weight unit and amount.">Weight</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Weight" class="xref" title="Weight unit and amount.">Weight</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EstimatedFees</span></td>
 <td>The estimated fulfillment fees for this fulfillment order preview, if applicable.</td>
 <td>No</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#Fee" class="xref" title="Fee type and cost.">Fee</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#Fee" class="xref" title="Fee type and cost.">Fee</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentPreviewShipments</span></td>
 <td>A list of fulfillable outbound shipments for this fulfillment order preview.</td>
 <td>No</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentPreviewShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order preview.">FulfillmentPreviewShipment</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentPreviewShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order preview.">FulfillmentPreviewShipment</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">UnfulfillablePreviewItems</span></td>
 <td>A list of unfulfillable items for this fulfillment order preview.</td>
 <td>No</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#UnfulfillablePreviewItem" class="xref" title="Information about unfulfillable items in a fulfillment order preview.">UnfulfillablePreviewItem</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#UnfulfillablePreviewItem" class="xref" title="Information about unfulfillable items in a fulfillment order preview.">UnfulfillablePreviewItem</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">OrderUnfulfillableReasons</span></td>
@@ -1232,7 +1232,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">ScheduledDeliveryInfo</span></td>
 <td>Delivery information for a Scheduled Delivery.</td>
 <td>No</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#ScheduledDeliveryInfo" class="xref" title="Delivery information for a Scheduled Delivery.">ScheduledDeliveryInfo</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#ScheduledDeliveryInfo" class="xref" title="Delivery information for a Scheduled Delivery.">ScheduledDeliveryInfo</a></td>
 </tr>
 </tbody>
 </table>
@@ -1262,7 +1262,7 @@ The <span class="keyword parmname">FulfillmentPreviewItem</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -1313,7 +1313,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">EstimatedShippingWeight</span></td>
 <td>The estimated shipping weight of the item quantity for a single item, as identified by <span class="keyword parmname">SellerSKU</span>, in a shipment.</td>
 <td> </td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Weight" class="xref" title="Weight unit and amount.">Weight</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Weight" class="xref" title="Weight unit and amount.">Weight</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingWeightCalculationMethod</span></td>
@@ -1354,7 +1354,7 @@ The <span class="keyword parmname">FulfillmentPreviewShipment</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -1388,35 +1388,35 @@ datatype:
 <td><span class="keyword parmname">EarliestShipDate</span></td>
 <td>The earliest date that the shipment is expected to be sent from the fulfillment center.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestShipDate</span></td>
 <td>The latest date that the shipment is expected to be sent from the fulfillment center.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EarliestArrivalDate</span></td>
 <td>The earliest date that the shipment is expected to arrive at its destination.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestArrivalDate</span></td>
 <td>The latest date that the shipment is expected to arrive at its destination.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentPreviewItems</span></td>
 <td>Information about the items in the shipment.</td>
 <td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentPreviewItem" class="xref" title="Item information for a shipment in a fulfillment order preview.">FulfillmentPreviewItem</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentPreviewItem" class="xref" title="Item information for a shipment in a fulfillment order preview.">FulfillmentPreviewItem</a></td>
 </tr>
 </tbody>
 </table>
@@ -1446,7 +1446,7 @@ The <span class="keyword parmname">FulfillmentShipment</span> datatype
 is used in a response element of the following
     operation:
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1509,27 +1509,27 @@ The following table shows the elements of the
 </ul>
 If a shipment includes more than one package, <span class="keyword parmname">ShippingDateTime</span> applies to all of the packages in the shipment. If the value of <span class="keyword parmname">FulfillmentShipmentStatus</span> is CancelledByFulfiller or CancelledBySeller, <span class="keyword parmname">ShippingDateTime</span> is not returned.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
 <td>The estimated arrival time of the shipment. Note that this value can change over time. If a shipment includes more than one package, <span class="keyword parmname">EstimatedArrivalDateTime</span> applies to all of the packages in the shipment. If the shipment has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FulfillmentShipmentItem</span></td>
 <td>Information about the items in the shipment.</td>
 <td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentShipmentItem" class="xref" title="Item information for a shipment in a fulfillment order.">FulfillmentShipmentItem</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentShipmentItem" class="xref" title="Item information for a shipment in a fulfillment order.">FulfillmentShipmentItem</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentShipmentPackage</span></td>
 <td>Information about a single package in the shipment.</td>
 <td>No</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentShipmentPackage" class="xref" title="Package information for a shipment in a fulfillment order.">FulfillmentShipmentPackage</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentShipmentPackage" class="xref" title="Package information for a shipment in a fulfillment order.">FulfillmentShipmentPackage</a></td>
 </tr>
 </tbody>
 </table>
@@ -1558,7 +1558,7 @@ The <span class="keyword parmname">FulfillmentShipmentItem</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1604,7 +1604,7 @@ The <span class="keyword parmname">FulfillmentShipmentPackage</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1656,7 +1656,7 @@ datatype:
 <td><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
 <td>The estimated arrival time of the package.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -1687,7 +1687,7 @@ The <span class="keyword parmname">GetFulfillmentPreviewItem</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -1765,8 +1765,8 @@ The <span class="keyword parmname">InvalidItemReason</span> datatype is
 used in a response element of the following
     operations:
 
-  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1782,7 +1782,7 @@ datatype:
 
 | Name                                                        | Description                                                            | Required | Values                                                                                                                           |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">InvalidItemReasonCode</span> | <span class="ph">A code for why the item is invalid for return.</span> | Yes      | Type: [InvalidItemReasonCode](FBAOutbound_Datatypes.html#InvalidItemReasonCode "A code for why the item is invalid for return.") |
+| <span class="keyword parmname">InvalidItemReasonCode</span> | <span class="ph">A code for why the item is invalid for return.</span> | Yes      | Type: [InvalidItemReasonCode](FBAOutbound_Datatypes.md#InvalidItemReasonCode "A code for why the item is invalid for return.") |
 | <span class="keyword parmname">Description</span>           | A human readable description of the invalid item reason code.          | Yes      | <span class="ph">Type: xs:string</span>                                                                                          |
 
 </div>
@@ -1837,8 +1837,8 @@ The <span class="keyword parmname">InvalidReturnItem</span> datatype is
 used in a response element of the following
     operations:
 
-  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1856,7 +1856,7 @@ datatype:
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">SellerReturnItemId</span>           | <span class="ph">An identifier assigned by the seller to the return item.</span>                                  | Yes      | <span class="ph">Type: xs:string</span>                                                                                   |
 | <span class="keyword parmname">SellerFulfillmentOrderItemId</span> | <span class="ph">The identifier assigned to the item by the seller when the fulfillment order was created.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                   |
-| <span class="keyword parmname">InvalidItemReason</span>            | The reason that the item is invalid for return.                                                                   | Yes      | Type: [InvalidItemReason](FBAOutbound_Datatypes.html#InvalidItemReason "The reason that the item is invalid for return.") |
+| <span class="keyword parmname">InvalidItemReason</span>            | The reason that the item is invalid for return.                                                                   | Yes      | Type: [InvalidItemReason](FBAOutbound_Datatypes.md#InvalidItemReason "The reason that the item is invalid for return.") |
 
 </div>
 
@@ -1883,7 +1883,7 @@ The <span class="keyword parmname">ReasonCodeDetails</span> datatype is
 used in a response element of the following
     operation:
 
-  - [ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.html "Returns a list of return reason codes for a seller SKU in a given marketplace.")
+  - [ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.md "Returns a list of return reason codes for a seller SKU in a given marketplace.")
 
 </div>
 
@@ -1928,11 +1928,11 @@ The <span class="keyword parmname">ReturnAuthorization</span> datatype
 is used in a response element of the following
     operations:
 
-  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 
 <!-- end list -->
 
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -1948,9 +1948,9 @@ datatype:
 
 | Name                                                        | Description                                                                                                                                                                                                                                | Required | Values                                                                            |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ReturnAuthorizationId</span> | An identifier for the return authorization. This identifier associates return items with the return authorization used to return them. See [ReturnItem](FBAOutbound_Datatypes.html#ReturnItem "An item that Amazon accepted for return."). | Yes      | <span class="ph">Type: xs:string</span>                                           |
+| <span class="keyword parmname">ReturnAuthorizationId</span> | An identifier for the return authorization. This identifier associates return items with the return authorization used to return them. See [ReturnItem](FBAOutbound_Datatypes.md#ReturnItem "An item that Amazon accepted for return."). | Yes      | <span class="ph">Type: xs:string</span>                                           |
 | <span class="keyword parmname">FulfillmentCenterId</span>   | An identifier for the Amazon fulfillment center that the return items should be sent to.                                                                                                                                                   | Yes      | <span class="ph">Type: xs:string</span>                                           |
-| <span class="keyword parmname">ReturnToAddress</span>       | The address of the Amazon fulfillment center that the return items should be sent to.                                                                                                                                                      | Yes      | Type: [Address](FBAOutbound_Datatypes.html#Address "Postal address information.") |
+| <span class="keyword parmname">ReturnToAddress</span>       | The address of the Amazon fulfillment center that the return items should be sent to.                                                                                                                                                      | Yes      | Type: [Address](FBAOutbound_Datatypes.md#Address "Postal address information.") |
 | <span class="keyword parmname">AmazonRmaId</span>           | The return merchandise authorization (RMA) that Amazon needs to process the return.                                                                                                                                                        | Yes      | <span class="ph">Type: xs:string</span>                                           |
 | <span class="keyword parmname">RmaPageURL</span>            | A URL for a web page that contains the return authorization barcode and the mailing label. This does not include pre-paid shipping.                                                                                                        | Yes      | <span class="ph">Type: xs:string</span>                                           |
 
@@ -1978,8 +1978,8 @@ The <span class="keyword parmname">ReturnItem</span> datatype is used in
 a response element of the following
     operations:
 
-  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
-  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+  - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
+  - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 
@@ -2048,18 +2048,18 @@ The following table shows the elements of the
 <td><span class="keyword parmname">Status</span></td>
 <td><span class="ph">Indicates if the return item has been processed by an Amazon fulfillment center.</span></td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Status" class="xref" title="Indicates if the return item has been processed by an Amazon fulfillment center.">Status</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Status" class="xref" title="Indicates if the return item has been processed by an Amazon fulfillment center.">Status</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">StatusChangedDate</span></td>
 <td>Indicates when the status last changed.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ReturnAuthorizationId</span></td>
-<td>Identifies the return authorization used to return this item. See <a href="FBAOutbound_Datatypes.html#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a>.</td>
+<td>Identifies the return authorization used to return this item. See <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a>.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -2067,7 +2067,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">ReturnReceivedCondition</span></td>
 <td><span class="ph">The condition that the return item was received by an Amazon fulfillment center.</span></td>
 <td>No</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#ReturnReceivedCondition" class="xref" title="The condition that the return item was received by an Amazon fulfillment center.">ReturnReceivedCondition</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#ReturnReceivedCondition" class="xref" title="The condition that the return item was received by an Amazon fulfillment center.">ReturnReceivedCondition</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentCenterId</span></td>
@@ -2129,7 +2129,7 @@ The <span class="keyword parmname">ScheduledDeliveryInfo</span> datatype
 is used in a response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -2169,7 +2169,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">DeliveryWindows</span></td>
 <td>A list of time ranges that are available for Scheduled Delivery.</td>
 <td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></td>
 </tr>
 </tbody>
 </table>
@@ -2224,7 +2224,7 @@ The <span class="keyword parmname">TrackingAddress</span> datatype is
 used in a response element of the following
     operation:
 
-  - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.html "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
+  - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.md "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
 
 </div>
 
@@ -2301,7 +2301,7 @@ The <span class="keyword parmname">TrackingEvent</span> datatype is used
 in a response element of the following
     operation:
 
-  - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.html "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
+  - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.md "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
 
 </div>
 
@@ -2334,14 +2334,14 @@ The following table shows the elements of the
 <td><span class="keyword parmname">EventDate</span></td>
 <td>The date and time that the delivery event took place.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EventAddress</span></td>
 <td>The city where the delivery event took place.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#TrackingAddress" class="xref" title="Address information for tracking the package.">TrackingAddress</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#TrackingAddress" class="xref" title="Address information for tracking the package.">TrackingAddress</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EventCode</span></td>
@@ -2413,7 +2413,7 @@ The <span class="keyword parmname">UnfulfillablePreviewItem</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 
@@ -2501,7 +2501,7 @@ The <span class="keyword parmname">UpdateFulfillmentOrderItem</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.html "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
+  - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
 
 </div>
 
@@ -2566,7 +2566,7 @@ datatype:
 <td>The monetary value assigned by the seller to this item.</td>
 <td>No</td>
 <td>Default: If you specified a value with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation, then that value is the default. Otherwise the default is zero.
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PerUnitPrice</span></td>
@@ -2576,7 +2576,7 @@ datatype:
 </div></td>
 <td>No</td>
 <td>Default: If you specified a value with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation, then that value is the default. Otherwise the default is zero.
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PerUnitTax</span></td>
@@ -2586,7 +2586,7 @@ datatype:
 </div></td>
 <td>No</td>
 <td>Default: If you specified a value with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation, then that value is the default. Otherwise the default is zero.
-<p>Type: <a href="FBAOutbound_Datatypes.html#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Currency" class="xref" title="Currency type and amount.">Currency</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -2615,7 +2615,7 @@ The <span class="keyword parmname">Weight</span> datatype is used in a
 response element of the following
     operation:
 
-  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+  - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 

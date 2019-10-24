@@ -271,7 +271,7 @@ API section](../products/Products_Overview.md)
 <div>
 
 [Throttling in the Products
-API](../products/Products_Throttling.html "Describes the throttling policy for the Products API section.")
+API](../products/Products_Throttling.md "Describes the throttling policy for the Products API section.")
 
 </div>
 

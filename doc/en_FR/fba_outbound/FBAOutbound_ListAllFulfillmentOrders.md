@@ -122,7 +122,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>A date used for selecting fulfillment orders that were last updated after (or at) a specified time. An update is defined as any change in fulfillment order status, including the creation of a new fulfillment order.</td>
 <td>No</td>
 <td>Default: Now minus 36 hours
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -163,7 +163,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="even">
 <td><span class="keyword parmname">FulfillmentOrders</span></td>
 <td>General fulfillment order information, including order status.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -311,9 +311,9 @@ section](FBAOutbound_Overview.md)
 [Using NextToken to request additional
 pages](../dev_guide/DG_NextToken.md)
 
-[ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.html "Returns the next page of fulfillment orders using the NextToken parameter.")
+[ListAllFulfillmentOrdersByNextToken](FBAOutbound_ListAllFulfillmentOrdersByNextToken.md "Returns the next page of fulfillment orders using the NextToken parameter.")
 
-[GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+[GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 

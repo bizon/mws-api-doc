@@ -180,7 +180,7 @@ API](../orders-2013-09-01/Orders_Overview.md).
 
 | Name                                         | Description       | Required | Values                                                                  |
 | -------------------------------------------- | ----------------- | -------- | ----------------------------------------------------------------------- |
-| <span class="keyword parmname">Orders</span> | A list of orders. | Yes      | Type: List of [Order](Orders_Datatypes.html#Order "Order information.") |
+| <span class="keyword parmname">Orders</span> | A list of orders. | Yes      | Type: List of [Order](Orders_Datatypes.md#Order "Order information.") |
 
 </div>
 

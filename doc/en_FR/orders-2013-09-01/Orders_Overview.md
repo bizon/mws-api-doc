@@ -50,7 +50,7 @@ demand-based decision support tools.
 <span class="ph">Amazon MWS</span> data depends on the role Amazon
 assigns you after you submit the <span class="ph">Developer Registration
 and Assessment form</span>. For more information see [Registering to use
-Amazon MWS](../dev_guide/DG_Registering.html#DG_Registering).
+Amazon MWS](../dev_guide/DG_Registering.md#DG_Registering).
 
 </div>
 
@@ -62,11 +62,11 @@ section</span>:
 | Operation                                                                                                                                        | Description                                                                                                                       | Availability                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)                                                                                        | <span class="ph">Returns orders created or updated during a time frame that you specify.</span>                                   | <span class="ph">All marketplaces.</span> |
-| [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")                      | <span class="ph">Returns the next page of orders using the <span class="keyword parmname">NextToken</span> parameter.</span>      | <span class="ph">All marketplaces.</span> |
-| [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")                                            | <span class="ph">Returns orders based on the <span class="keyword parmname">AmazonOrderId</span> values that you specify.</span>  | <span class="ph">All marketplaces.</span> |
+| [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")                      | <span class="ph">Returns the next page of orders using the <span class="keyword parmname">NextToken</span> parameter.</span>      | <span class="ph">All marketplaces.</span> |
+| [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")                                            | <span class="ph">Returns orders based on the <span class="keyword parmname">AmazonOrderId</span> values that you specify.</span>  | <span class="ph">All marketplaces.</span> |
 | [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)                                                                                | <span class="ph">Returns order items based on the <span class="keyword parmname">AmazonOrderId</span> that you specify.</span>    | <span class="ph">All marketplaces.</span> |
-| [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")         | <span class="ph">Returns the next page of order items using the <span class="keyword parmname">NextToken</span> parameter.</span> | <span class="ph">All marketplaces.</span> |
-| [GetServiceStatus](../fba_outbound/MWS_GetServiceStatus.html "Returns the operational status of the Fulfillment Outbound Shipment API section.") | <span class="ph">Returns the operational status of the <span class="ph">Orders API section</span>.</span>                         | <span class="ph">All marketplaces.</span> |
+| [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")         | <span class="ph">Returns the next page of order items using the <span class="keyword parmname">NextToken</span> parameter.</span> | <span class="ph">All marketplaces.</span> |
+| [GetServiceStatus](../fba_outbound/MWS_GetServiceStatus.md "Returns the operational status of the Fulfillment Outbound Shipment API section.") | <span class="ph">Returns the operational status of the <span class="ph">Orders API section</span>.</span>                         | <span class="ph">All marketplaces.</span> |
 
 </div>
 

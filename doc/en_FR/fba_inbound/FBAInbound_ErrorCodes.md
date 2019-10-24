@@ -70,7 +70,7 @@ sections, see [Error Messages](../dev_guide/DG_Errors.md) in the
 <tr class="even">
 <td><span class="keyword parmname">AmazonPrepNotSupported</span> <span class="keyword parmname">InDestinationFulfillmentCenter</span></td>
 <td>400</td>
-<td>The destination fulfillment center cannot perform the specified <a href="FBAInbound_Datatypes.html#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
+<td>The destination fulfillment center cannot perform the specified <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">AmazonPrepNotSupported</span></td>
@@ -110,22 +110,22 @@ sections, see [Error Messages](../dev_guide/DG_Errors.md) in the
 <tr class="even">
 <td><span class="keyword parmname">IncompatiblePrepOwner</span></td>
 <td>400</td>
-<td>The shipment cannot mix different PrepOwners for the same <a href="FBAInbound_Datatypes.html#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
+<td>The shipment cannot mix different PrepOwners for the same <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">InconsistentPrepDetails</span></td>
 <td>400</td>
-<td>The call to <a href="../fba_inbound/FBAInbound_CreateInboundShipment.html" class="xref">CreateInboundShipment</a> uses different preparation instructions or owners from the plan submitted to <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html" class="xref">CreateInboundShipmentPlan</a></td>
+<td>The call to <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a> uses different preparation instructions or owners from the plan submitted to <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IncorrectPrepInstruction</span></td>
 <td>400</td>
-<td>The specified SKU had a valid <a href="FBAInbound_Datatypes.html#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a> that is not correct for that SKU. Call <a href="FBAInbound_GetPrepInstructionsForSKU.html" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a> for the correct preparation instructions.</td>
+<td>The specified SKU had a valid <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a> that is not correct for that SKU. Call <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a> for the correct preparation instructions.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">InvalidBoxContentSource</span></td>
 <td>400</td>
-<td>The <span class="keyword parmname">IntendedBoxContentSource</span> must be one of the <a href="FBAInbound_Datatypes.html#IntendedBoxContentsSource" class="xref" title="How the seller intends to provide box contents information for a shipment.">IntendedBoxContentsSource</a> values.</td>
+<td>The <span class="keyword parmname">IntendedBoxContentSource</span> must be one of the <a href="FBAInbound_Datatypes.md#IntendedBoxContentsSource" class="xref" title="How the seller intends to provide box contents information for a shipment.">IntendedBoxContentsSource</a> values.</td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">InvalidParameterValue</span></td>
@@ -140,17 +140,17 @@ Maximum request size was exceeded.</td>
 <tr class="odd">
 <td><span class="keyword parmname">InvalidPrepInstruction</span></td>
 <td>400</td>
-<td>The specified SKU had an invalid <a href="FBAInbound_Datatypes.html#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
+<td>The specified SKU had an invalid <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>.</td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">InvalidPrepOwner</span></td>
 <td>400</td>
-<td>The specified SKU had an invalid PrepOwner in the <a href="FBAInbound_Datatypes.html#PrepDetails" class="xref" title="A preparation instruction, and who is responsible for that preparation.">PrepDetails</a>.</td>
+<td>The specified SKU had an invalid PrepOwner in the <a href="FBAInbound_Datatypes.md#PrepDetails" class="xref" title="A preparation instruction, and who is responsible for that preparation.">PrepDetails</a>.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">InvalidOperation</span></td>
 <td>400</td>
-<td>The shipment specified with a call to the <a href="../fba_inbound/FBAInbound_GetPalletLabels.html" class="xref">GetPalletLabels</a> operation is not a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment. Specify an LTL/FTL shipment.</td>
+<td>The shipment specified with a call to the <a href="../fba_inbound/FBAInbound_GetPalletLabels.md" class="xref">GetPalletLabels</a> operation is not a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment. Specify an LTL/FTL shipment.</td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">MaxSizeReached</span></td>
@@ -175,7 +175,7 @@ Maximum request size was exceeded.</td>
 <tr class="even">
 <td><span class="keyword parmname">PackageContentFeedNotComplete</span></td>
 <td>400</td>
-<td>FBA Inbound Shipment Carton Information Feed that you previously submitted for this shipment has not yet been processed. Retry after the feed has been processed. For more information about creating inbound shipments, see <a href="../fba_guide/FBAGuide_ShipInventoryToAFN.html" class="xref">Shipping inventory to Amazon's fulfillment network</a>.</td>
+<td>FBA Inbound Shipment Carton Information Feed that you previously submitted for this shipment has not yet been processed. Retry after the feed has been processed. For more information about creating inbound shipments, see <a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="xref">Shipping inventory to Amazon's fulfillment network</a>.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PreorderNotSupported</span></td>

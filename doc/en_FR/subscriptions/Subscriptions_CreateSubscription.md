@@ -136,14 +136,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The unique identifier for the marketplace.</td>
 <td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Subscription</span></td>
-<td>Specifies the <a href="Subscriptions_NotificationType.html" class="xref">NotificationType</a>, <span class="keyword parmname">Destination</span>, and other parameters for notifications that you want to subscribe to.</td>
+<td>Specifies the <a href="Subscriptions_NotificationType.md" class="xref">NotificationType</a>, <span class="keyword parmname">Destination</span>, and other parameters for notifications that you want to subscribe to.</td>
 <td>Yes</td>
-<td>Type: <a href="Subscriptions_Datatypes.html#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></td>
+<td>Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></td>
 </tr>
 </tbody>
 </table>

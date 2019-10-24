@@ -149,7 +149,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">ItemData</span></td>
 <td>Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
-<p>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -266,7 +266,7 @@ pages](../dev_guide/DG_NextToken.md)
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
+[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
 
 </div>
 

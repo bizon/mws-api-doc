@@ -92,7 +92,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportType</span></td>
-<td><span class="ph">The <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +103,7 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">AvailableDate</span></td>
 <td><span class="ph">The date the report is available.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -114,7 +114,7 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">AcknowledgedDate</span></td>
 <td>The date the report was acknowledged.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -164,19 +164,19 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportType</span></td>
-<td><span class="ph">The <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">StartDate</span></td>
 <td><span class="ph">The start of a date range used for selecting the data to report.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EndDate</span></td>
 <td><span class="ph">The end of a date range used for selecting the data to report.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -187,7 +187,7 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">SubmittedDate</span></td>
 <td><span class="ph">The date when the report was submitted.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -203,13 +203,13 @@ The following table shows the elements of the
 <tr class="odd">
 <td><span class="keyword parmname">StartedProcessingDate</span></td>
 <td>The date when the report processing started.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CompletedDate</span></td>
 <td>The date when the report processing completed.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -254,18 +254,18 @@ The following table shows the elements of the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportType</span></td>
-<td><span class="ph">The <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Schedule</span></td>
-<td><span class="ph">A value of the <a href="Reports_Schedule.html" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</span>
+<td><span class="ph">A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ScheduledDate</span></td>
 <td><span class="ph">The date when the next report request is scheduled to be submitted.</span>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>

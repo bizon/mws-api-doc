@@ -120,7 +120,7 @@ parameter with a value of True.
 <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
 operation to obtain the lowest price offer listings for a specific
 product by item condition, consider calling the
-[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.html "Returns lowest priced offers for a single product, based on SellerSKU.")
+[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.md "Returns lowest priced offers for a single product, based on SellerSKU.")
 operation.
 
 You can also subscribe to the
@@ -157,12 +157,12 @@ marketplaces.
 </div>
 
 This quota and restore rate is shared with
-[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.").
+[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.").
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -215,7 +215,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SellerSKUList</span></td>
@@ -529,7 +529,7 @@ code</span> </span>
 [Products
 API](../products/Products_Overview.md)
 
-[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.")
+[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.")
 
 </div>
 

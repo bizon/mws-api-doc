@@ -106,7 +106,7 @@ Guide</span>.</span>
 
 | Name                                                     | Description                                                                                                                                                          | Required | Values                                                                                                                   |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ScheduledPackageId</span> | The identifier for the scheduled package to be updated. Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.html#ScheduledPackageId "Identifies the scheduled package to be updated.") |
+| <span class="keyword parmname">ScheduledPackageId</span> | The identifier for the scheduled package to be updated. Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.md#ScheduledPackageId "Identifies the scheduled package to be updated.") |
 | <span class="keyword parmname">MarketplaceId</span>      | The marketplace that the seller is selling in.                                                                                                                       | Yes      | <span class="ph">Type: xs:string</span>                                                                                  |
 
 </div>
@@ -127,7 +127,7 @@ Guide</span>.</span>
 
 | Name                                                   | Description                                                                               |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ScheduledPackage</span> | Type: [Package](EasyShip_Datatypes.html#Package "Information about a scheduled package.") |
+| <span class="keyword parmname">ScheduledPackage</span> | Type: [Package](EasyShip_Datatypes.md#Package "Information about a scheduled package.") |
 
 </div>
 

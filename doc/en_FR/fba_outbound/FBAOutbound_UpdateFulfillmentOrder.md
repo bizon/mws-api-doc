@@ -54,7 +54,7 @@ With the <span class="keyword apiname">UpdateFulfillmentOrder</span>
 operation, you can update and/or ship a fulfillment order with an order
 hold on it. For information about putting an order hold on a fulfillment
 order, see
-[CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.").
+[CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.").
 
 <div class="section">
 
@@ -146,7 +146,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace the fulfillment order is placed against.</td>
 <td>No</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -172,7 +172,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">DisplayableOrderId</span></td>
 <td>A fulfillment order identifier that you create. This value displays as the order identifier in recipient-facing materials such as the outbound shipment packing slip. The value of <span class="keyword parmname">DisplayableOrderId</span> should match the order identifier that you provide to your customer. You can use the <span class="keyword parmname">SellerFulfillmentOrderId</span> for this value or you can specify an alternate value if you want your customer to reference an alternate order identifier.</td>
 <td>No</td>
-<td>An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.html" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
+<td>An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.md" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
 <p>Default: The value that you specified with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -181,7 +181,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>The date of your fulfillment order. Displays as the order date in customer-facing materials such as the outbound shipment packing slip.</td>
 <td>No</td>
 <td>Default: The value that you specified with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -214,7 +214,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td>If you do not include the <span class="keyword parmname">DestinationAddress</span> parameter, then the <span class="keyword parmname">DestinationAddress</span> values from your previous call to <span class="keyword apiname">CreateFulfillmentOrder</span> are used. If you do include the <span class="keyword parmname">DestinationAddress</span> parameter, then <em>only</em> the values that you specify are used. None of the <span class="keyword parmname">DestinationAddress</span> values that you specified with your previous call to <span class="keyword apiname">CreateFulfillmentOrder</span> are used.
 <p>Default: The value that you specified with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation.</p>
-<p>Type: <a href="FBAOutbound_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentPolicy</span></td>
@@ -222,7 +222,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
-<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the Pending status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the Pending status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.html#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
+<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the Pending status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the Pending status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
 <li>FillAll - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
 <li>FillAllAvailable - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
 </ul>
@@ -243,7 +243,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td>Updating an <span class="keyword parmname">Items</span> value for a fulfillment order item does not affect the <span class="keyword parmname">Items</span> values for other fulfillment order items that you specified with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span>.
 <p>Default: The values that you specified with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation.</p>
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#UpdateFulfillmentOrderItem" class="xref" title="Item information for updating a fulfillment order.">UpdateFulfillmentOrderItem</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#UpdateFulfillmentOrderItem" class="xref" title="Item information for updating a fulfillment order.">UpdateFulfillmentOrderItem</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -142,7 +142,7 @@ None.
 <tr class="even">
 <td><span class="keyword parmname">Timestamp</span></td>
 <td>Indicates the time at which the operational status was evaluated.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span></p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">

@@ -50,7 +50,7 @@ The <span class="keyword apiname">RegisterDestination</span> operation
 specifies a location where you want to receive notifications and adds it
 to the list of registered destinations. For more information on what
 kinds of destinations can be specified, see [Receiving
-notifications](Subscriptions_ReceivingNotifications.html "Describes how to set up a Destination to receive notifications.").
+notifications](Subscriptions_ReceivingNotifications.md "Describes how to set up a Destination to receive notifications.").
 
 After you register a <span class="keyword parmname">Destination</span>,
 you must create a <span class="keyword parmname">Subscription</span> by
@@ -141,14 +141,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The unique identifier for the marketplace.</td>
 <td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Destination</span></td>
 <td>The <span class="keyword parmname">Destination</span> where you want to receive notifications.</td>
 <td>Yes</td>
-<td>Type: <a href="Subscriptions_Datatypes.html#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></td>
+<td>Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></td>
 </tr>
 </tbody>
 </table>

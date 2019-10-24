@@ -59,7 +59,7 @@ batteries, or may be considered dangerous goods. Any attempt to convert
 a listing to <span class="ph">FBA</span> without providing battery and
 dangerous goods information will fail. See [Provide battery and
 dangerous goods
-information](FBAGuide_ProvideBatteryAndDgInfo.html#FBAGuide_ProvideBatteryAndDgInfo).
+information](FBAGuide_ProvideBatteryAndDgInfo.md#FBAGuide_ProvideBatteryAndDgInfo).
 
 </div>
 

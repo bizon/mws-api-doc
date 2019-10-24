@@ -50,7 +50,7 @@ An enumeration of predefined parcel tokens.
 This table contains token values that can be specified using the
 <span class="keyword parmname">PredefinedPackageDimensions</span>
 request parameter of the
-[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
+[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
 and [CreateShipment](MerchFulfill_CreateShipment.md) operations. If
 you specify a
 <span class="keyword parmname">PredefinedPackageDimensions</span> token,
@@ -145,11 +145,11 @@ Envelope or Box.
 [Merchant Fulfillment
 API](../merch_fulfill/MerchFulfill_Overview.md)
 
-[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
+[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
 
 [CreateShipment](MerchFulfill_CreateShipment.md)
 
-[PackageDimensions](MerchFulfill_Datatypes.html#PackageDimensions "The dimensions of a package contained in a shipment.")
+[PackageDimensions](MerchFulfill_Datatypes.md#PackageDimensions "The dimensions of a package contained in a shipment.")
 
 </div>
 

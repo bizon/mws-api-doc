@@ -111,8 +111,8 @@ Guide</span>.</span>
 | Name                                                        | Description                                                                                                                                                                      | Required | Values                                                                                                                                                                                                        |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">ShipmentId</span>            | <span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                               | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                       |
-| <span class="keyword parmname">InboundShipmentHeader</span> | <span class="ph">Header information for an inbound shipment. </span>                                                                                                             | Yes      | Type: [InboundShipmentHeader](FBAInbound_Datatypes.html#InboundShipmentHeader "Inbound shipment information used to create and update inbound shipments.")                                                    |
-| <span class="keyword parmname">InboundShipmentItems</span>  | <span class="ph"><span class="keyword parmname">SellerSKU</span> and <span class="keyword parmname">QuantityShipped</span> information for items in an inbound shipment. </span> | Yes      | Type: [InboundShipmentItem](FBAInbound_Datatypes.html#InboundShipmentItem "Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.") |
+| <span class="keyword parmname">InboundShipmentHeader</span> | <span class="ph">Header information for an inbound shipment. </span>                                                                                                             | Yes      | Type: [InboundShipmentHeader](FBAInbound_Datatypes.md#InboundShipmentHeader "Inbound shipment information used to create and update inbound shipments.")                                                    |
+| <span class="keyword parmname">InboundShipmentItems</span>  | <span class="ph"><span class="keyword parmname">SellerSKU</span> and <span class="keyword parmname">QuantityShipped</span> information for items in an inbound shipment. </span> | Yes      | Type: [InboundShipmentItem](FBAInbound_Datatypes.md#InboundShipmentItem "Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.") |
 
 </div>
 
@@ -165,7 +165,7 @@ Guide</span>.</span>
 For more examples of how
 <span class="keyword apiname">CreateInboundShipment</span> works with
 <span class="keyword parmname">PrepOwners</span>, see [Preparation
-examples](FBAInbound_PreparationExamples.html "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
+examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
 
 </div>
 
@@ -267,11 +267,11 @@ code</span> </span>
 API](../fba_inbound/FBAInbound_Overview.md)
 
 [Preparation
-examples](FBAInbound_PreparationExamples.html "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.")
+examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.")
 
 [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
-[UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
+[UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
 
 </div>
 

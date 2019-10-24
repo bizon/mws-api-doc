@@ -121,14 +121,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The unique identifier for the marketplace.</td>
 <td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">NotificationType</span></td>
 <td>The notification type of the subscription to retrieve.</td>
 <td>Yes</td>
-<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.html" class="xref">NotificationType enumeration</a>.
+<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -136,7 +136,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>The <span class="keyword parmname">Destination</span> of the subscription to retrieve.</td>
 <td>Yes</td>
 <td>Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
-<p>Type: <a href="Subscriptions_Datatypes.html#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
+<p>Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -170,7 +170,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">Subscription</span></td>
 <td>The <span class="keyword parmname">Subscription</span> object for the specified <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span>.
-<p>Type: <a href="Subscriptions_Datatypes.html#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
+<p>Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -165,7 +165,7 @@ request with multiple
 ## Behavior of Listings Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The [Listings
-Reports](Reports_ReportType.html#ReportTypeCategories__ListingsReports)
+Reports](Reports_ReportType.md#ReportTypeCategories__ListingsReports)
 in the "ReportType enumeration" topic can only provide information for
 one marketplace per
 request.
@@ -177,7 +177,7 @@ request.
 ## Behavior of Order Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The flat file [Order
-Reports](Reports_ReportType.html#ReportTypeCategories__OrderReports) in
+Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports) in
 the "ReportType enumeration" topic can be used with the
 <span class="keyword parmname">ShowSalesChannel</span> parameter to show
 an additional column of sales channel information. The following code
@@ -211,7 +211,7 @@ Content-Type: text/xml
 ## Behavior of Order Tracking Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The [Order Tracking
-Reports](Reports_ReportType.html#ReportTypeCategories__OrderTrackingReports)
+Reports](Reports_ReportType.md#ReportTypeCategories__OrderTrackingReports)
 in the "ReportType enumeration" topic return orders from all of the
 marketplaces that you are registered in even if you specify only a
 subset of the marketplaces that you are registered in when you submit a
@@ -225,7 +225,7 @@ request.
 ## Behavior of Settlement Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The [Settlement
-Reports](Reports_ReportType.html#ReportTypeCategories__SettlementReports)
+Reports](Reports_ReportType.md#ReportTypeCategories__SettlementReports)
 in the "ReportType enumeration" topic can be retrieved regardless of the
 status of the seller in the marketplace. Settlement Reports will contain
 Amazon seller and <span class="ph">Checkout by Amazon</span> (if
@@ -262,14 +262,14 @@ report](../reports/Reports_UseReportProcessingFinished.md)
 <div>
 
 [Working with order
-reports](../reports/Reports_WorkingWithOrderReports.html "Describes how to schedule and manage order reports.")
+reports](../reports/Reports_WorkingWithOrderReports.md "Describes how to schedule and manage order reports.")
 
 </div>
 
 <div>
 
 [Using NextToken to request additional
-pages](../reports/Reports_UsingNextToken.html "Describes how to use the NextToken to receive more response elements than the maximum number of response elements allowed by an operation.")
+pages](../reports/Reports_UsingNextToken.md "Describes how to use the NextToken to receive more response elements than the maximum number of response elements allowed by an operation.")
 
 </div>
 

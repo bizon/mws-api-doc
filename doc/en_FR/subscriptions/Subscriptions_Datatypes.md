@@ -130,7 +130,7 @@ Yes
 
   - The URL for the <span class="ph">Amazon SQS</span> queue you are
     using to receive notifications. For more information, see [Receiving
-    notifications](Subscriptions_ReceivingNotifications.html "Describes how to set up a Destination to receive notifications.").
+    notifications](Subscriptions_ReceivingNotifications.md "Describes how to set up a Destination to receive notifications.").
 
 <div id="Destination" class="topic nested1">
 
@@ -233,7 +233,7 @@ The following table shows the elements of the
 <td>The type of notification that you want to subscribe to.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>Yes</td>
-<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.html" class="xref">NotificationType enumeration</a></td>
+<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Destination</span></td>

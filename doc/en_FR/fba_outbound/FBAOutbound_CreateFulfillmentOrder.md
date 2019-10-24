@@ -88,7 +88,7 @@ To create a fulfillment order with an order hold on it, call the
 and specify <span class="keyword parmname">FulfillmentAction</span> =
 Hold. For information about shipping or updating a fulfillment order
 with an order hold on it, see
-[UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.html "Updates and/or requests shipment for a fulfillment order with an order hold on it.").
+[UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.").
 
 <div class="note note">
 
@@ -156,7 +156,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace the fulfillment order is placed against.</td>
 <td>No</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -182,14 +182,14 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">DisplayableOrderId</span></td>
 <td>A fulfillment order identifier that you create. This value displays as the order identifier in recipient-facing materials such as the outbound shipment packing slip. The value of <span class="keyword parmname">DisplayableOrderId</span> should match the order identifier that you provide to your customer. You can use the <span class="keyword parmname">SellerFulfillmentOrderId</span> for this value or you can specify an alternate value if you want your customer to reference an alternate order identifier.</td>
 <td>Yes</td>
-<td>An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.html" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
+<td>An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.md" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">DisplayableOrderDateTime</span></td>
 <td>The date of your fulfillment order. Displays as the order date in customer-facing materials such as the outbound shipment packing slip.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -208,7 +208,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <li>Standard - Standard shipping method.</li>
 <li>Expedited - Expedited shipping method.</li>
 <li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</li>
+<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -219,7 +219,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">DestinationAddress</span></td>
 <td>The destination address for the fulfillment order.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentPolicy</span></td>
@@ -227,7 +227,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
-<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the Pending status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the Pending status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.html#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
+<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the Pending status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the Pending status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
 <li>FillAll - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
 <li>FillAllAvailable - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
 </ul>
@@ -246,13 +246,13 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>The COD (Cash On Delivery) charges for a COD order.</td>
 <td>No</td>
 <td>The <span class="keyword parmname">CODSettings</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">CODSettings</span> in marketplaces other than Japan returns an error.
-<p>Type: <a href="FBAOutbound_Datatypes.html#CODSettings" class="xref" title="The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).">CODSettings</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#CODSettings" class="xref" title="The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).">CODSettings</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Items</span></td>
 <td>A list of items to include in the fulfillment order preview, including quantity.</td>
 <td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">DeliveryWindow</span></td>
@@ -264,10 +264,10 @@ requests](../dev_guide/DG_Throttling.md) in the
 <li>It is possible that delivery windows that were available when you called the <span class="keyword apiname">GetFulfillmentPreview</span> operation will not be available when call the <span class="keyword apiname">CreateFulfillmentOrder</span> operation. If this happens the service returns an error. In this case you need to call the <span class="keyword apiname">GetFulfillmentPreview</span> operation again to get the currently-available delivery windows.</li>
 </ul>
 </div>
-<p>For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</p></td>
+<p>For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</p></td>
 <td>No. Required only if <span class="keyword parmname">ShippingSpeedCategory</span> = ScheduledDelivery.</td>
 <td>The <span class="keyword parmname">DeliveryWindow</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">DeliveryWindow</span> in marketplaces other than JP returns an error.
-<p>Type: <a href="FBAOutbound_Datatypes.html#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></p></td>
 </tr>
 </tbody>
 </table>

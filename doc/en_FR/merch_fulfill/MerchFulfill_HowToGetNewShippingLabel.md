@@ -46,7 +46,7 @@ orders](MerchFulfill_HowToUseForPrime.md).</span>
 **To reprint a shipping label**
 
 1.  Call the
-    [GetShipment](MerchFulfill_GetShipment.html "Returns an existing shipment for a given identifier.")
+    [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
     operation, specifying the
     <span class="keyword parmname">ShipmentId</span> value of the
     shipment for which you want to reprint the shipping label.

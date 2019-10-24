@@ -315,7 +315,7 @@ Excel templates for feeds.
 <td><span class="keyword parmname">FBA Inbound Shipment Carton Information Feed</span>
 <p>Enumeration value: _POST_FBA_INBOUND_CARTON_CONTENTS_</p></td>
 <td><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CartonContentsRequest.xsd" class="xref">CartonContentsRequest.xsd</a>
-<p>More information: <a href="../fba_guide/FBAGuide_ShipInventoryToAFN.html" class="xref">Shipping inventory to Amazon's fulfillment network</a></p></td>
+<p>More information: <a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="xref">Shipping inventory to Amazon's fulfillment network</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Flat File FBA Fulfillment Order Feed</span>
@@ -414,7 +414,7 @@ Excel templates for feeds.
 <td><span class="keyword parmname">Easy Ship Feed</span>
 <p>Enumeration value: _POST_EASYSHIP_DOCUMENTS_</p></td>
 <td><span class="ph">This functionality is available only in the India marketplace.</span>
-<p>More information: <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.html" class="xref">How to get invoice, shipping label, and warranty documents</a>.</p></td>
+<p>More information: <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</p></td>
 </tr>
 </tbody>
 </table>

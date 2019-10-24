@@ -75,8 +75,8 @@ The <span class="keyword cmdname">InventorySupply</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.html "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.html "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
+  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
 
 </div>
 
@@ -169,13 +169,13 @@ The following table shows the elements of the
 <td>The earliest date that your inventory is expected to be available for picking.</td>
 <td>No
 <p>If the value of <span class="keyword parmname">TotalSupplyQuantity</span> is zero, then the <span class="keyword parmname">EarliestAvailability</span> element is not returned.</p></td>
-<td>Type: <a href="FBAInventory_Datatypes.html#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></td>
+<td>Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SupplyDetail</span></td>
 <td><span id="InventorySupply__sd_InventoryDatatype_InventorySupplyDetail" class="ph">Detailed information about the availability of inventory for a specific item and its current location in <span class="ph">Amazon's fulfillment network</span> supply chain.</span></td>
 <td>No</td>
-<td>Type: List of <a href="FBAInventory_Datatypes.html#InventorySupplyDetail" class="xref" title="Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.">InventorySupplyDetail</a></td>
+<td>Type: List of <a href="FBAInventory_Datatypes.md#InventorySupplyDetail" class="xref" title="Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.">InventorySupplyDetail</a></td>
 </tr>
 </tbody>
 </table>
@@ -209,8 +209,8 @@ The <span class="keyword cmdname">InventorySupplyDetail</span> datatype
 is used in a response element of the following
     operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.html "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.html "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
+  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
 
 </div>
 
@@ -266,15 +266,15 @@ The following table shows the elements of the
 <td><span class="keyword parmname">EarliestAvailableToPick</span></td>
 <td>The earliest date that your inventory is expected to be available for picking.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
-<p>Type: <a href="FBAInventory_Datatypes.html#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<p>Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestAvailableToPick</span></td>
 <td>The latest date that your inventory is expected to be available for picking.</td>
 <td>Yes</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
-<p>Type: <a href="FBAInventory_Datatypes.html#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<p>Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -308,8 +308,8 @@ The <span class="keyword cmdname">Timepoint</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.html "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.html "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
+  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
 
 </div>
 
@@ -354,7 +354,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">DateTime</span></td>
-<td>The date and time by which inventory is expected to be available for picking, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The date and time by which inventory is expected to be available for picking, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No
 <p>If the value of the <span class="keyword parmname">TimepointType</span> element is <span class="keyword parmname">DateTime</span>, then the <span class="keyword parmname">DateTime</span> element is required.</p></td>
 <td>If the value of the <span class="keyword parmname">TimepointType</span> element is Immediately or Unknown, then the value of the <span class="keyword parmname">DateTime</span> element is null.

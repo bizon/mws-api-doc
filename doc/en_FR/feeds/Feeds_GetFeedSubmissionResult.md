@@ -272,7 +272,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Feeds API
 section](../feeds/Feeds_Overview.md)
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
 
 [Using the Content-MD5 hash with the SubmitFeed and
 GetFeedSubmissionResult operations](Feeds_MD5.md)

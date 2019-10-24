@@ -158,12 +158,12 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="even">
 <td><span class="keyword parmname">ListParticipations</span></td>
 <td><span class="ph">Detailed information that is specific to a seller in a Marketplace.</span>
-<p>Type: List of <a href="Sellers_Datatypes.html#Participation" class="xref" title="Detailed information that is specific to a seller in a Marketplace.">Participation</a></p></td>
+<p>Type: List of <a href="Sellers_Datatypes.md#Participation" class="xref" title="Detailed information that is specific to a seller in a Marketplace.">Participation</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ListMarketplaces</span></td>
 <td><span class="ph">Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.</span>
-<p>Type: List of <a href="Sellers_Datatypes.html#Marketplace" class="xref" title="Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.">Marketplace</a></p></td>
+<p>Type: List of <a href="Sellers_Datatypes.md#Marketplace" class="xref" title="Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.">Marketplace</a></p></td>
 </tr>
 </tbody>
 </table>

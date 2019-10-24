@@ -99,7 +99,7 @@ returns false before submitting the
 <span class="keyword apiname">UpdateReportAcknowledgements</span>
 operation. This helps to ensure that all of the reports that match your
 query parameters are returned. For more information, see
-[UpdateReportAcknowledgements](Reports_UpdateReportAcknowledgements.html "Updates the acknowledged status of one or more reports.").
+[UpdateReportAcknowledgements](Reports_UpdateReportAcknowledgements.md "Updates the acknowledged status of one or more reports.").
 
 </div>
 
@@ -134,14 +134,14 @@ report](../reports/Reports_UseReportProcessingFinished.md)
 <div>
 
 [Working with order
-reports](../reports/Reports_WorkingWithOrderReports.html "Describes how to schedule and manage order reports.")
+reports](../reports/Reports_WorkingWithOrderReports.md "Describes how to schedule and manage order reports.")
 
 </div>
 
 <div>
 
 [Using multiple
-marketplaces](../reports/Reports_UsingMultipleMarketplaces.html "Describes the best practices to follow when you are registered to sell in multiple marketplaces.")
+marketplaces](../reports/Reports_UsingMultipleMarketplaces.md "Describes the best practices to follow when you are registered to sell in multiple marketplaces.")
 
 </div>
 

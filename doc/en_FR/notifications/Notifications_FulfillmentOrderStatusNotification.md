@@ -42,7 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 The <span class="keyword parmname">FulfillmentOrderStatus</span>
 notification is sent whenever there is a change in the status of a
 <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See
-[<span class="keyword parmname">FulfillmentOrderStatus</span>](Notifications_FulfillmentOrderStatusNotification.html#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row)
+[<span class="keyword parmname">FulfillmentOrderStatus</span>](Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row)
 for the events that can trigger a status change.
 
 <div class="section">
@@ -215,7 +215,7 @@ The following table shows the child elements of the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReceivedDateTime</span></td>
-<td>The date and time when the returned item was received by the <span class="ph">Amazon fulfillment center</span>. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the returned item was received by the <span class="ph">Amazon fulfillment center</span>. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Required</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -257,7 +257,7 @@ fulfillment order.</span>
 
 The <span class="keyword parmname">FulfillmentShipment</span> element
 contains a subset of the information contained in the
-[FulfillmentShipment](../fba_outbound/FBAOutbound_Datatypes.html#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")
+[FulfillmentShipment](../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")
 datatype of the <span class="ph">Fulfillment Outbound Shipment API
 section</span>.
 
@@ -299,7 +299,7 @@ The following table shows the child elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
-<td>The estimated arrival time of the shipment, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>. Note that this value can change over time. If a shipment includes more than one package, <span class="keyword parmname">EstimatedArrivalDateTime</span> applies to all of the packages in the shipment. If the shipment has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.
+<td>The estimated arrival time of the shipment, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. Note that this value can change over time. If a shipment includes more than one package, <span class="keyword parmname">EstimatedArrivalDateTime</span> applies to all of the packages in the shipment. If the shipment has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.
 <p>Required</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -335,7 +335,7 @@ order.</span>
 
 The <span class="keyword parmname">FulfillmentShipmentPackage</span>
 element contains a subset of the information contained in the
-[FulfillmentShipmentPackage](../fba_outbound/FBAOutbound_Datatypes.html#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")
+[FulfillmentShipmentPackage](../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")
 datatype of the <span class="ph">Fulfillment Outbound Shipment API
 section</span>.
 

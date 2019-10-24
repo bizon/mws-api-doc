@@ -227,7 +227,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">TransportDetails</span></td>
 <td>Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.html#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
+<td>Type: <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
 </tr>
 </tbody>
 </table>
@@ -261,7 +261,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">TransportResult</span></td>
 <td>Workflow status for a shipment with an Amazon-partnered carrier.
-<p>Type: <a href="FBAInbound_Datatypes.html#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -397,11 +397,11 @@ API](../fba_inbound/FBAInbound_Overview.md)
 
 [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
-[EstimateTransportRequest](FBAInbound_EstimateTransportRequest.html "Requests an estimate of the shipping cost for an inbound shipment.")
+[EstimateTransportRequest](FBAInbound_EstimateTransportRequest.md "Requests an estimate of the shipping cost for an inbound shipment.")
 
-[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.html "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
+[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.md "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
 
-[VoidTransportRequest](FBAInbound_VoidTransportRequest.html "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
+[VoidTransportRequest](FBAInbound_VoidTransportRequest.md "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
 
 </div>
 

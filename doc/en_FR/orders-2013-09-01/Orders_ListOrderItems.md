@@ -150,7 +150,7 @@ API](../orders-2013-09-01/Orders_Overview.md).
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------- |
 | <span class="keyword parmname">NextToken</span>     | A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListOrderItemsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more order items to return. | No       | <span class="ph">Type: xs:string</span>                                             |
 | <span class="keyword parmname">AmazonOrderId</span> | <span class="ph">An Amazon-defined order identifier, in 3-7-7 format.</span>                                                                                                                                                                                                                                                                                                        | Yes      | <span class="ph">Type: xs:string</span>                                             |
-| <span class="keyword parmname">OrderItems</span>    | A list of order items.                                                                                                                                                                                                                                                                                                                                                              | Yes      | Type: List of [OrderItem](Orders_Datatypes.html#OrderItem "OrderItem information.") |
+| <span class="keyword parmname">OrderItems</span>    | A list of order items.                                                                                                                                                                                                                                                                                                                                                              | Yes      | Type: List of [OrderItem](Orders_Datatypes.md#OrderItem "OrderItem information.") |
 
 </div>
 
@@ -317,7 +317,7 @@ code</span>
 [Orders
 API](../orders-2013-09-01/Orders_Overview.md)
 
-[ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
+[ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 
 </div>
 

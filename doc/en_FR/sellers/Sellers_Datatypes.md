@@ -103,12 +103,12 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">DefaultCurrencyCode</span></td>
-<td>The <span class="ph"> <a href="../dev_guide/DG_ISO4217.html" class="xref">ISO 4217 format</a> </span> currency code of the marketplace. Example: USD
+<td>The <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span> currency code of the marketplace. Example: USD
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">DefaultLanguageCode</span></td>
-<td>The <span class="ph"> <a href="../dev_guide/DG_ISO639.html" class="xref">ISO 639-1 format</a> </span> language code of the marketplace. Example: en_US
+<td>The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code of the marketplace. Example: en_US
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">

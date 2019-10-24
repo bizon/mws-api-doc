@@ -61,7 +61,7 @@ creating the shipment using the
 operation. You can also call this operation to find out if a shipment
 has already been confirmed for pre-order. To confirm the shipment for
 pre-order, call the
-[ConfirmPreorder](FBAInbound_ConfirmPreorder.html "Confirms a shipment for pre-order.")
+[ConfirmPreorder](FBAInbound_ConfirmPreorder.md "Confirms a shipment for pre-order.")
 operation.
 
 Pre-orders are available only in India and Japan.
@@ -150,12 +150,12 @@ Guide</span>.</span>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">NeedByDate</span></td>
-<td>Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.html" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
+<td>Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
-<td>Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.html" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
+<td>Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -260,11 +260,11 @@ code</span> </span>
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[ConfirmPreorder](FBAInbound_ConfirmPreorder.html "Confirms a shipment for pre-order.")
+[ConfirmPreorder](FBAInbound_ConfirmPreorder.md "Confirms a shipment for pre-order.")
 
 [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
 
-[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
+[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
 
 </div>
 

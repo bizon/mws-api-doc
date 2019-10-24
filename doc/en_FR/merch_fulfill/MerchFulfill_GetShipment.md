@@ -118,7 +118,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentId</span></td>
 <td><span id="RequestParameters__d37953e202" class="ph">An Amazon-defined shipment identifier.</span>
-<p><span id="RequestParameters__d37953e205" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.html" class="xref">CreateShipment</a> operation.</span></p></td>
+<p><span id="RequestParameters__d37953e205" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -158,7 +158,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.
 </div>
-Type: <a href="MerchFulfill_Datatypes.html#Shipment" class="xref" title="The details of a shipment, including the shipment status.">Shipment</a>
+Type: <a href="MerchFulfill_Datatypes.md#Shipment" class="xref" title="The details of a shipment, including the shipment status.">Shipment</a>
 </div></td>
 </tr>
 </tbody>

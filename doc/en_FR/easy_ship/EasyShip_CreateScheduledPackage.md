@@ -119,7 +119,7 @@ Guide</span>.</span>
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">AmazonOrderId</span>         | <span class="ph">An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using <span class="ph">Amazon Easy Ship</span>.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                              |
 | <span class="keyword parmname">MarketplaceId</span>         | The marketplace that the seller is selling in.                                                                                                                    | Yes      | <span class="ph">Type: xs:string</span>                                                                              |
-| <span class="keyword parmname">PackageRequestDetails</span> | The package information required for creating the scheduled package                                                                                               | Yes      | Type: [PackageRequestDetails](EasyShip_Datatypes.html#PackageRequestDetails "Information for scheduling a package.") |
+| <span class="keyword parmname">PackageRequestDetails</span> | The package information required for creating the scheduled package                                                                                               | Yes      | Type: [PackageRequestDetails](EasyShip_Datatypes.md#PackageRequestDetails "Information for scheduling a package.") |
 
 </div>
 
@@ -152,7 +152,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">ScheduledPackage</span></td>
 <td>Information about the scheduled package.
-<p>Type: <a href="EasyShip_Datatypes.html#Package" class="xref" title="Information about a scheduled package.">Package</a></p></td>
+<p>Type: <a href="EasyShip_Datatypes.md#Package" class="xref" title="Information about a scheduled package.">Package</a></p></td>
 </tr>
 </tbody>
 </table>

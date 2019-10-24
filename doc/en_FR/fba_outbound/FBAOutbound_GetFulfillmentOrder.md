@@ -56,7 +56,7 @@ returns a fulfillment order based on a
 specify. This operation returns general fulfillment order information as
 well as item-level and shipment-level information. You can also use this
 operation to get information about fulfillment returns. See
-[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.").
+[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.").
 
 <div class="section">
 
@@ -147,27 +147,27 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentOrder</span></td>
 <td>General fulfillment order information, including order status.
-<p>Type: <a href="FBAOutbound_Datatypes.html#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FulfillmentOrderItem</span></td>
 <td>Item-level fulfillment order information.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentOrderItem" class="xref" title="Item information for a fulfillment order.">FulfillmentOrderItem</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentOrderItem" class="xref" title="Item information for a fulfillment order.">FulfillmentOrderItem</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentShipment</span></td>
 <td>Shipment-level fulfillment order information.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReturnItemList</span></td>
 <td>A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ReturnAuthorizationList</span></td>
 <td>A list of return authorizations.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -428,7 +428,7 @@ code</span> </span>
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.html "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
+[ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
 
 </div>
 

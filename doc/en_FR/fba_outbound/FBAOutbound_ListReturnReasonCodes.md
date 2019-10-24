@@ -53,7 +53,7 @@ in a given marketplace.</span>
 The <span class="keyword apiname">ListReturnReasonCodes</span> operation
 returns a list of valid return reasons codes for a seller SKU in a given
 marketplace. Valid reason codes are required in subsequent calls to the
-[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 operation. See [Creating a fulfillment
 return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md).
 
@@ -112,7 +112,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace for which the seller wants return reason codes.</td>
 <td>No. Not required if <span class="keyword parmname">SellerFulfillmentOrderId</span> is specified.</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -129,9 +129,9 @@ requests](../dev_guide/DG_Throttling.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Language</span></td>
-<td>The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a href="FBAOutbound_Datatypes.html#ReasonCodeDetails" class="xref" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response element should be translated into.</td>
+<td>The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a href="FBAOutbound_Datatypes.md#ReasonCodeDetails" class="xref" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response element should be translated into.</td>
 <td>No</td>
-<td>The <span class="ph"> <a href="../dev_guide/DG_ISO639.html" class="xref">ISO 639-1 format</a> </span> language code. Example: fr_CA
+<td>The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code. Example: fr_CA
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 | Name                                                        | Description                                                                                                                                                     |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ReasonCodeDetailsList</span> | Type: List of [ReasonCodeDetails](FBAOutbound_Datatypes.html#ReasonCodeDetails "A return reason code, a description, and an optional description translation.") |
+| <span class="keyword parmname">ReasonCodeDetailsList</span> | Type: List of [ReasonCodeDetails](FBAOutbound_Datatypes.md#ReasonCodeDetails "A return reason code, a description, and an optional description translation.") |
 
 </div>
 
@@ -253,7 +253,7 @@ code</span> </span>
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 
 [Creating a fulfillment
 return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)

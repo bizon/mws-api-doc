@@ -166,7 +166,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">TransportResult</span></td>
 <td>Workflow status for a shipment with an Amazon-partnered carrier.
-<p>Type: <a href="FBAInbound_Datatypes.html#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -267,9 +267,9 @@ API](../fba_inbound/FBAInbound_Overview.md)
 
 [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
-[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.html "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
+[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.md "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
 
-[VoidTransportRequest](FBAInbound_VoidTransportRequest.html "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
+[VoidTransportRequest](FBAInbound_VoidTransportRequest.md "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
 
 </div>
 

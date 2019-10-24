@@ -158,7 +158,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">ShipFromAddress</span></td>
 <td>The address from which you will send your inbound shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShipToCountryCode</span></td>
@@ -183,10 +183,10 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
-<td>The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, &quot;IN-MH&quot;. In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.html" class="xref">ISO 3166-2</a> </span> format.
+<td>The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, &quot;IN-MH&quot;. In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
 <p>Only for sellers in India.</p></td>
 <td>No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
-<td>See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.html" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.html" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
+<td>See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
 <p>If neither <span class="keyword parmname">ShipToCountrySubdivisionCode</span> nor <span class="keyword parmname">ShipToCountryCode</span> is specified, the shipment goes to the seller's home marketplace.</p></td>
 </tr>
 <tr class="even">
@@ -209,7 +209,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">InboundShipmentPlanRequestItems</span></td>
 <td>SKU and quantity information for the items in an inbound shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
+<td>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
 </tr>
 </tbody>
 </table>
@@ -243,7 +243,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">InboundShipmentPlans</span></td>
 <td>Inbound shipment information used to create an inbound shipment.
-<p>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentPlan" class="xref" title="Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlan</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlan" class="xref" title="Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlan</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -266,7 +266,7 @@ For an example of
 <span class="keyword apiname">CreateInboundShipmentPlan</span> with
 multiple <span class="keyword parmname">PrepOwners</span>, see
 [Preparation
-examples](FBAInbound_PreparationExamples.html "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
+examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
 
 </div>
 
@@ -397,7 +397,7 @@ code</span> </span>
 API](../fba_inbound/FBAInbound_Overview.md)
 
 [Preparation
-examples](FBAInbound_PreparationExamples.html "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.")
+examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.")
 
 [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
 

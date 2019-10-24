@@ -54,7 +54,7 @@ The
 <span id="Description__ManageReportSchedule" class="keyword apiname">ManageReportSchedule</span>
 operation creates, updates, or deletes a report request schedule for a
 particular report type. Only [Order
-Reports](Reports_ReportType.html#ReportTypeCategories__OrderReports) can
+Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports) can
 be scheduled.
 
 By using a combination of the
@@ -146,16 +146,16 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportType</span></td>
-<td><span class="ph">A value of the <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
+<td><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
 <td>Yes</td>
-<td>A <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
+<td>A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Schedule</span></td>
-<td>A value of the <a href="Reports_Schedule.html" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</td>
+<td>A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</td>
 <td>Yes</td>
-<td>A valid <a href="Reports_Schedule.html" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> value
+<td>A valid <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> value
 <p>Default: None</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -164,7 +164,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>The date when the next report request is scheduled to be submitted.</td>
 <td>No</td>
 <td>Default: Now
-<p>Value can be no more than 366 days in the future. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>Value can be no more than 366 days in the future. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -204,7 +204,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="even">
 <td><span class="keyword parmname">ReportSchedule</span></td>
 <td><span class="ph">Detailed information about a report schedule.</span>
-<p>Type: <a href="Reports_Datatypes.html#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
+<p>Type: <a href="Reports_Datatypes.md#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -311,7 +311,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)
 
-[GetReportScheduleList](Reports_GetReportScheduleList.html "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
+[GetReportScheduleList](Reports_GetReportScheduleList.md "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
 
 </div>
 

@@ -46,7 +46,7 @@ orders](MerchFulfill_HowToUseForPrime.md).</span>
 **To cancel a shipment**
 
 1.  Call the
-    [CancelShipment](MerchFulfill_CancelShipment.html "Cancels an existing shipment.")
+    [CancelShipment](MerchFulfill_CancelShipment.md "Cancels an existing shipment.")
     operation, specifying the
     <span class="keyword parmname">ShipmentId</span> value of the
     shipment to be canceled.
@@ -56,7 +56,7 @@ orders](MerchFulfill_HowToUseForPrime.md).</span>
 **To check the status of a canceled shipment (optional)**
 
 1.  Call the
-    [GetShipment](MerchFulfill_GetShipment.html "Returns an existing shipment for a given identifier.")
+    [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
     operation, specifying the
     <span class="keyword parmname">ShipmentId</span> value of the
     canceled shipment.

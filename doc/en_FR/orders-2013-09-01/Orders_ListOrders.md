@@ -168,7 +168,7 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 </div>
 <p>Example:</p>
 <p>You make a call at 2017-02-10T12:10:02, specifying a <span class="keyword parmname">CreatedAfter</span> date of 2017-02-01T18:12:02, and the <span class="keyword parmname">CreatedBefore</span> element in the response is 2017-02-10T12:05:02. This means that all of the orders created between 2017-02-01T18:12:02 and 2017-02-10T12:05:02 will be returned. An order that was created on 2017-02-10T12:08:02 will not be returned, even though it was created after 2017-02-01T18:12:02.</p>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -181,7 +181,7 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <p>Example:</p>
 <p>You make a call at 2017-02-10T12:10:02, specifying a <span class="keyword parmname">CreatedBefore</span> date of 2017-02-10T12:10:02, and the <span class="keyword parmname">CreatedBefore</span> element in the response is 2017-02-10T12:05:02. This means that orders created before (or on) 2017-02-10T12:05:02 will be returned. An order that was created on 2017-02-10T12:08:02 will not be returned, even though it was created before 2017-02-10T12:10:02.</p>
 <p>Must be later than <span class="keyword parmname">CreatedAfter</span>.</p>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -195,7 +195,7 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 </div>
 <p>Example:</p>
 <p>You make a call at 2017-02-10T12:10:02, specifying a <span class="keyword parmname">LastUpdatedAfter</span> date of 2017-02-01T12:10:02, and the <span class="keyword parmname">LastUpdatedBefore</span> element in the response is 2017-02-10T12:05:02. This means that all of the orders updated between 2017-02-01T12:10:02 and 2017-02-10T12:05:02 will be returned. An order that was updated on 2017-02-10T12:08:02 will not be returned, even though it was updated after 2017-02-01T12:10:02.</p>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -208,7 +208,7 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <p>Example:</p>
 <p>You make a call at 2017-02-10T12:10:02, specifying a <span class="keyword parmname">LastUpdatedBefore</span> date of 2017-02-10T12:10:02, and the <span class="keyword parmname">LastUpdatedBefore</span> element in the response is 2017-02-10T12:05:02. This means that orders updated before (or on) 2017-02-10T12:05:02 will be returned. An order that was updated on 2017-02-10T12:08:02 will not be returned, even though it was updated before 2017-02-10T12:10:02.</p>
 <p>Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.</p>
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -401,21 +401,21 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <td><span class="keyword parmname">LastUpdatedBefore</span></td>
 <td>A date returned if you specified <span class="keyword parmname">LastUpdatedAfter</span> in the request. Only orders updated before (or on) this date are returned.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">CreatedBefore</span></td>
 <td>A date returned if you specified <span class="keyword parmname">CreatedAfter</span> in the request. Only orders created before (or on) this date are returned.</td>
 <td>No</td>
-<td>In <span class="ph"> <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a> </span>.
+<td>In <span class="ph"> <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a> </span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Orders</span></td>
 <td>A list of orders.</td>
 <td>No</td>
-<td>Type: List of <a href="Orders_Datatypes.html#Order" class="xref" title="Order information.">Order</a></td>
+<td>Type: List of <a href="Orders_Datatypes.md#Order" class="xref" title="Order information.">Order</a></td>
 </tr>
 </tbody>
 </table>
@@ -669,7 +669,7 @@ code</span> </span>
 [Orders
 API](../orders-2013-09-01/Orders_Overview.md)
 
-[ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
+[ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
 
 </div>
 

@@ -55,7 +55,7 @@ The
 <span id="Description__GetReportScheduleList" class="keyword apiname">GetReportScheduleList</span>
 operation returns a list of scheduled order report requests that match
 the query parameters. Only [Order
-Reports](Reports_ReportType.html#ReportTypeCategories__OrderReports) can
+Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports) can
 be scheduled. A maximum number of 100 results can be returned in one
 request.
 
@@ -131,7 +131,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -178,7 +178,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ReportSchedule</span></td>
 <td><span class="ph">Detailed information about a report schedule.</span>
-<p>Type: <a href="Reports_Datatypes.html#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
+<p>Type: <a href="Reports_Datatypes.md#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -286,9 +286,9 @@ code</span> </span>
 [What you should know about the Amazon MWS Reports API
 section](../reports/Reports_Overview.md)
 
-[ManageReportSchedule](Reports_ManageReportSchedule.html "Creates, updates, or deletes a report request schedule for a specified report type.")
+[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
 
-[GetReportScheduleListByNextToken](Reports_GetReportScheduleListByNextToken.html "Currently this operation can never be called because the GetReportScheduleList operation cannot return more than 100 results. It is included for future compatibility.")
+[GetReportScheduleListByNextToken](Reports_GetReportScheduleListByNextToken.md "Currently this operation can never be called because the GetReportScheduleList operation cannot return more than 100 results. It is included for future compatibility.")
 
 [Using NextToken to request additional
 pages](../dev_guide/DG_NextToken.md)

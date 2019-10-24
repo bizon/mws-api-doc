@@ -150,7 +150,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -179,14 +179,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">RequestedFromDate</span></td>
-<td><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</span>
+<td><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 <td>No</td>
 <td>Default: 90 days ago</td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">RequestedToDate</span></td>
-<td><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
 <td>No</td>
 <td>Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -233,7 +233,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ReportRequestInfo</span></td>
 <td><span class="ph">Detailed information about a report request.</span>
-<p>Type: <a href="Reports_Datatypes.html#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
+<p>Type: <a href="Reports_Datatypes.md#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -350,7 +350,7 @@ Top](#Examples)
 
 <div class="body">
 
-[GetReportRequestListByNextToken](Reports_GetReportRequestListByNextToken.html "Returns a list of report requests using the NextToken, which was supplied by a previous request to either GetReportRequestListByNextToken or GetReportRequestList, where the value of HasNext was true in that previous request.")
+[GetReportRequestListByNextToken](Reports_GetReportRequestListByNextToken.md "Returns a list of report requests using the NextToken, which was supplied by a previous request to either GetReportRequestListByNextToken or GetReportRequestList, where the value of HasNext was true in that previous request.")
 
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)

@@ -56,7 +56,7 @@ based on a search query that you specify. Your search query can be a
 phrase that describes the product or it can be a product identifier such
 as a GCID, UPC, EAN, ISBN, or JAN. If you have the ASIN associated with
 your product, use the
-[GetMatchingProduct](Products_GetMatchingProduct.html "Returns a list of products and their attributes, based on a list of ASIN values.")
+[GetMatchingProduct](Products_GetMatchingProduct.md "Returns a list of products and their attributes, based on a list of ASIN values.")
 operation. Note that the product identifier cannot be a
 <span class="keyword parmname">SellerSKU</span>. If your query does not
 return any matching products, the query will be broadened using spelling
@@ -91,7 +91,7 @@ marketplaces.
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -144,7 +144,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A marketplace identifier. Specifies the marketplace from which products are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Query</span></td>
@@ -159,7 +159,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>An identifier for the context within which the given search will be performed. A marketplace might provide mechanisms for constraining a search to a subset of potential items. For example, the Amazon retail marketplace allows queries to be constrained to a specific category. The <span class="keyword parmname">QueryContextId</span> parameter specifies such a sub-set. If it is omitted, the search will be performed using the default context for the marketplace, which will typically contain the largest set of items.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>No</td>
-<td>See <a href="Products_QueryContextIDs.html" class="xref" title="The following table contains QueryContextId values.">QueryContextId values</a> for a complete list of <span class="keyword parmname">QueryContextId</span> values that can be used in the various Amazon retail marketplaces.</td>
+<td>See <a href="Products_QueryContextIDs.md" class="xref" title="The following table contains QueryContextId values.">QueryContextId values</a> for a complete list of <span class="keyword parmname">QueryContextId</span> values that can be used in the various Amazon retail marketplaces.</td>
 </tr>
 </tbody>
 </table>
@@ -442,7 +442,7 @@ code</span> </span>
 [Products
 API](../products/Products_Overview.md)
 
-[GetMatchingProduct](Products_GetMatchingProduct.html "Returns a list of products and their attributes, based on a list of ASIN values.")
+[GetMatchingProduct](Products_GetMatchingProduct.md "Returns a list of products and their attributes, based on a list of ASIN values.")
 
 </div>
 

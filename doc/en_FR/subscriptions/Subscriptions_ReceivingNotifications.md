@@ -88,7 +88,7 @@ push notifications to your queue:
 7.  Make note of the URL for the queue. You can find this URL from the
     <span class="ph uicontrol">Details</span> pane of the queue that you
     selected above. This is the value you will specify in the
-    [Destination](Subscriptions_Datatypes.html#Destination "A delivery channel that you create to receive notifications.")
+    [Destination](Subscriptions_Datatypes.md#Destination "A delivery channel that you create to receive notifications.")
     datatype.
 
 </div>
@@ -172,7 +172,7 @@ Subscriptions API section](../subscriptions/Subscriptions_Overview.md)
 <div>
 
 [Processing
-notifications](../subscriptions/Subscriptions_ProcessingNotifications.html "Describes how to process a notification that you have received.")
+notifications](../subscriptions/Subscriptions_ProcessingNotifications.md "Describes how to process a notification that you have received.")
 
 </div>
 

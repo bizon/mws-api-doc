@@ -52,14 +52,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 The <span class="keyword apiname">CreateFulfillmentReturn</span>
 operation creates a fulfillment return for items that were fulfilled
 using the
-[CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.html "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
+[CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
 operation. For calls to
 <span class="keyword apiname">CreateFulfillmentReturn</span> you must
 include <span class="keyword parmname">ReturnReasonCode</span> values
 returned by a previous call to the
-[ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.html "Returns a list of return reason codes for a seller SKU in a given marketplace.")
+[ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.md "Returns a list of return reason codes for a seller SKU in a given marketplace.")
 operation. For definitions, see
-[Terminology](FBAOutbound_Overview.html#Outbound_Overview__Terminology).
+[Terminology](FBAOutbound_Overview.md#Outbound_Overview__Terminology).
 For more information, see [Creating a fulfillment
 return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md).
 
@@ -102,7 +102,7 @@ Guide</span>.</span>
 | Name                                                           | Description                                                                                                                                                                                                                                                                                                                                                 | Required | Values                                                                                          |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">SellerFulfillmentOrderId</span> | An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct <span class="keyword parmname">SellerFulfillmentOrderId</span> value based on the buyer's request to return items. See [Creating a fulfillment return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md). | Yes      | <span class="ph">Type: xs:string</span>                                                         |
-| <span class="keyword parmname">Items</span>                    | A list of items to be returned.                                                                                                                                                                                                                                                                                                                             | Yes      | Type: [CreateReturnItem](FBAOutbound_Datatypes.html#CreateReturnItem "An item to be returned.") |
+| <span class="keyword parmname">Items</span>                    | A list of items to be returned.                                                                                                                                                                                                                                                                                                                             | Yes      | Type: [CreateReturnItem](FBAOutbound_Datatypes.md#CreateReturnItem "An item to be returned.") |
 
 </div>
 
@@ -133,17 +133,17 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">ReturnItemList</span></td>
 <td>A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">InvalidReturnItemList</span></td>
 <td>A list of items that are invalid for return. Returns empty if no items are invalid for return.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#InvalidReturnItem" class="xref" title="An item that is invalid for return.">InvalidReturnItem</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#InvalidReturnItem" class="xref" title="An item that is invalid for return.">InvalidReturnItem</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ReturnAuthorizationList</span></td>
 <td>A list of return authorizations.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -288,7 +288,7 @@ code</span> </span>
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.html "Returns a list of return reason codes for a seller SKU in a given marketplace.")
+[ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.md "Returns a list of return reason codes for a seller SKU in a given marketplace.")
 
 [Creating a fulfillment
 return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)

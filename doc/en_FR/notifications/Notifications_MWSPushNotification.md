@@ -201,7 +201,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">PayloadVersion</span></td>
 <td>The version of the notification that is contained in the <span class="keyword parmname">NotificationPayload</span> element.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__VersionType" class="xref">VersionType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__VersionType" class="xref">VersionType</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">UniqueId</span></td>
@@ -211,7 +211,7 @@ The following table shows the child elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PublishTime</span></td>
-<td>The date and time that the notification was published. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time that the notification was published. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -225,7 +225,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The identifier of the marketplace to which the notification pertains.
 <p>Optional. Not present for events that are cross-marketplace or not marketplace-specific.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -272,25 +272,25 @@ The following table shows the child elements of the
 <td><p>The <span class="keyword parmname">AnyOfferChanged</span> notification is sent whenever there is a listing change for any of the top 20 offers, by condition (new or used), or if the external price (the price from other retailers) changes for an item that you sell. The top 20 offers are determined by the landed price, which is the price plus shipping minus Amazon Points. If multiple sellers are charging the same landed price, the results will be returned in random order.</p>
 <p>You will only receive <span class="keyword parmname">AnyOfferChanged</span> notifications for items for which you have active offers. You cannot subscribe to notifications for items for which you do not have active offers.</p>
 <p>Only one of the elements in this table is returned.</p>
-<p>Type: <a href="Notifications_AnyOfferChangedNotification.html" class="xref">AnyOfferChangedNotification</a></p></td>
+<p>Type: <a href="Notifications_AnyOfferChangedNotification.md" class="xref">AnyOfferChangedNotification</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FBAOutboundShipmentStatusNotification</span></td>
 <td><p>The <span class="keyword parmname">FBAOutboundShipmentStatus</span> notification is sent whenever Amazon creates or cancels a <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</p>
 <p>Only one of the elements in this table is returned.</p>
-<p>Type: <a href="Notifications_FBAOutboundShipmentStatusNotification.html" class="xref">FBAOutboundShipmentStatusNotification</a></p></td>
+<p>Type: <a href="Notifications_FBAOutboundShipmentStatusNotification.md" class="xref">FBAOutboundShipmentStatusNotification</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentOrderStatusNotification</span></td>
-<td><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.html#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p>
+<td><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p>
 <p>Only one of the elements in this table is returned.</p>
-<p>Type: <a href="Notifications_FulfillmentOrderStatusNotification.html" class="xref">FulfillmentOrderStatusNotification</a></p></td>
+<p>Type: <a href="Notifications_FulfillmentOrderStatusNotification.md" class="xref">FulfillmentOrderStatusNotification</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">TestNotification</span></td>
 <td><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
 <p>Only one of the elements in this table is returned.</p>
-<p>Type: <a href="Notifications_TestNotification.html" class="xref">TestNotification</a></p></td>
+<p>Type: <a href="Notifications_TestNotification.md" class="xref">TestNotification</a></p></td>
 </tr>
 </tbody>
 </table>

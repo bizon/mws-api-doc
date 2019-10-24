@@ -45,7 +45,7 @@ using the Fulfillment Outbound Shipment service.
 Here is a possible workflow for an application that uses the Fulfillment
 Outbound Shipment service to initiate fulfillment returns. For
 definitions, see
-[Terminology](../fba_outbound/FBAOutbound_Overview.html#Terminology).
+[Terminology](../fba_outbound/FBAOutbound_Overview.md#Terminology).
 
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-1" class="section">
 
@@ -91,7 +91,7 @@ return.
 <div class="p">
 
 The application calls the
-[GetFulfillmentOrder](../fba_outbound/FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+[GetFulfillmentOrder](../fba_outbound/FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 operation for each
 <span class="keyword parmname">SellerFulfillmentOrderId</span> value
 collected in Step 3, and saves the following response values:
@@ -100,7 +100,7 @@ collected in Step 3, and saves the following response values:
     <span class="keyword parmname">SellerSKU</span> - These are returned
     for each item in the fulfillment order. The application saves them
     for use as request parameters in subsequent calls to the
-    [ListReturnReasonCodes](../fba_outbound/FBAOutbound_ListReturnReasonCodes.html "Returns a list of return reason codes for a seller SKU in a given marketplace.")
+    [ListReturnReasonCodes](../fba_outbound/FBAOutbound_ListReturnReasonCodes.md "Returns a list of return reason codes for a seller SKU in a given marketplace.")
     operation.
   - <span class="keyword parmname">SellerFulfillmentOrderItemId</span>
     and <span class="keyword parmname">AmazonShipmentId</span> -
@@ -109,7 +109,7 @@ collected in Step 3, and saves the following response values:
     <span class="keyword parmname">AmazonShipmentId</span> is returned
     for each shipment in the fulfillment order. The application saves
     these for subsequent calls to the
-    [CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+    [CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
     operation.
 
 </div>
@@ -184,7 +184,7 @@ order.
 ## Step 7. The application creates the fulfillment return
 
 The application creates a fulfillment return by calling the
-[CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+[CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 operation, specifying the following:
 
 1.  The <span class="keyword parmname">SellerFulfillmentOrderId</span>
@@ -285,7 +285,7 @@ possible workflow:
     <span class="keyword parmname">SellerFulfillmentOrderId</span> value
     for the fulfillment return for which they want the status.
 4.  The application calls the
-    [CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
+    [CreateFulfillmentReturn](../fba_outbound/FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
     operation, specifying the
     <span class="keyword parmname">SellerFulfillmentOrderId</span> value
     that the seller chose.

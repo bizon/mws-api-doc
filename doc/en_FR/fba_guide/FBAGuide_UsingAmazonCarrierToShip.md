@@ -121,7 +121,7 @@ Submit carton content information using the FBA Inbound Shipment Carton
 Information Feed (\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_) of the Feeds
 API section. For more information about this feed, see [Fulfillment by
 Amazon (FBA)
-feeds](../feeds/Feeds_FeedType.html#FeedType_Enumeration__FBAFeeds).
+feeds](../feeds/Feeds_FeedType.md#FeedType_Enumeration__FBAFeeds).
 
 <div class="note important">
 
@@ -350,7 +350,7 @@ Do one of the following:
 
   - **For <span class="ph">Small Parcel</span>l shipments.** Go to [Step
     10 - Send your shipments to Amazon's fulfillment
-    network](FBAGuide_SendShipmentsToAFN.html#ShipItems) of "Shipping
+    network](FBAGuide_SendShipmentsToAFN.md#ShipItems) of "Shipping
     inventory to <span class="ph">Amazon's fulfillment network</span>."
   - **For <span class="ph">Less Than Truckload/Full Truckload
     (LTL/FTL)</span> shipments.** Follow the instructions in the [Seller

@@ -126,7 +126,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../feeds/Feeds_Overview.html" class="xref">Feeds API</a></td>
+<td><a href="../feeds/Feeds_Overview.md" class="xref">Feeds API</a></td>
 </tr>
 <tr class="even">
 <td>The Amazon MWS Feeds API lets you upload inventory and order data to Amazon.</td>
@@ -138,7 +138,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../finances/Finances_Overview.html" class="xref">Finances API</a></td>
+<td><a href="../finances/Finances_Overview.md" class="xref">Finances API</a></td>
 </tr>
 <tr class="even">
 <td>The Finances API enables you to obtain financial information relevant to your business with Amazon.</td>
@@ -150,7 +150,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../fba_inbound/FBAInbound_Overview.html" class="xref">Fulfillment Inbound Shipment API</a></td>
+<td><a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a></td>
 </tr>
 <tr class="even">
 <td>With the Fulfillment Inbound Shipment API, you can create and update inbound shipments of inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
@@ -164,7 +164,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../fba_inventory/FBAInventory_Overview.html" class="xref">Fulfillment Inventory API</a></td>
+<td><a href="../fba_inventory/FBAInventory_Overview.md" class="xref">Fulfillment Inventory API</a></td>
 </tr>
 <tr class="even">
 <td>The Fulfillment Inventory API can help you stay up-to-date on the availability of your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
@@ -176,7 +176,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../fba_outbound/FBAOutbound_Overview.html" class="xref">Fulfillment Outbound Shipment API</a></td>
+<td><a href="../fba_outbound/FBAOutbound_Overview.md" class="xref">Fulfillment Outbound Shipment API</a></td>
 </tr>
 <tr class="even">
 <td>The Fulfillment Outbound Shipment API enables you to fulfill Multi-Channel Fulfillment orders, using your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
@@ -188,7 +188,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../merch_fulfill/MerchFulfill_Overview.html" class="xref">Merchant Fulfillment API</a></td>
+<td><a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a></td>
 </tr>
 <tr class="even">
 <td>The Merchant Fulfillment API provides programmatic access to Buy Shipping Services for sellers, including competitive rates from Amazon-partnered carriers.</td>
@@ -202,7 +202,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../orders-2013-09-01/Orders_Overview.html" class="xref">Orders API</a></td>
+<td><a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a></td>
 </tr>
 <tr class="even">
 <td>With the Orders API, you can build simple applications that retrieve only the order information that you need.</td>
@@ -214,7 +214,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../products/Products_Overview.html" class="xref">Products API</a></td>
+<td><a href="../products/Products_Overview.md" class="xref">Products API</a></td>
 </tr>
 <tr class="even">
 <td>The Products API helps you get information to match your products to existing product listings on Amazon Marketplace websites and to make sourcing and pricing decisions for listing those products on Amazon Marketplace websites.</td>
@@ -226,7 +226,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../recommendations/Recommendations_Overview.html" class="xref">Recommendations API</a></td>
+<td><a href="../recommendations/Recommendations_Overview.md" class="xref">Recommendations API</a></td>
 </tr>
 <tr class="even">
 <td>The Recommendations API enables you to programmatically retrieve Amazon Selling Coach recommendations by recommendation category.</td>
@@ -240,7 +240,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../reports/Reports_Overview.html" class="xref">Reports API</a></td>
+<td><a href="../reports/Reports_Overview.md" class="xref">Reports API</a></td>
 </tr>
 <tr class="even">
 <td>The Reports API lets you request various reports that help you manage your sales on Amazon.</td>
@@ -252,7 +252,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../sellers/Sellers_Overview.html" class="xref">Sellers API</a></td>
+<td><a href="../sellers/Sellers_Overview.md" class="xref">Sellers API</a></td>
 </tr>
 <tr class="even">
 <td>The Sellers API lets sellers retrieve information about their seller account, such as the marketplaces they participate in. Along with listing the marketplaces that a seller can sell in, the API also provides additional information about the marketplace such as the default language and the default currency.</td>
@@ -264,7 +264,7 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../subscriptions/Subscriptions_Overview.html" class="xref">Subscriptions API</a></td>
+<td><a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a></td>
 </tr>
 <tr class="even">
 <td>The Subscriptions API enables you to subscribe to receive notifications that are relevant to your business with Amazon.</td>
@@ -278,10 +278,10 @@ organization. Further information can be found in the
 <table>
 <tbody>
 <tr class="odd">
-<td><a href="../notifications/Notifications_Overview.html" class="xref">Push Notifications Schemas</a></td>
+<td><a href="../notifications/Notifications_Overview.md" class="xref">Push Notifications Schemas</a></td>
 </tr>
 <tr class="even">
-<td>The Amazon MWS push notifications enable you to receive information that is relevant to your business with Amazon without having to poll the Amazon MWS service. Instead, the information is sent directly to you when an event occurs to which you are subscribed (see the <a href="../subscriptions/Subscriptions_Overview.html" class="xref">Subscriptions API</a>).</td>
+<td>The Amazon MWS push notifications enable you to receive information that is relevant to your business with Amazon without having to poll the Amazon MWS service. Instead, the information is sent directly to you when an event occurs to which you are subscribed (see the <a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a>).</td>
 </tr>
 </tbody>
 </table>

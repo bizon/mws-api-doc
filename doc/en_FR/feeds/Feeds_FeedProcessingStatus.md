@@ -89,13 +89,13 @@ section](../feeds/Feeds_Overview.md)
 
 [SubmitFeed](../feeds/Feeds_SubmitFeed.md)
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
 
-[GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.html "Returns a list of feed submissions using the NextToken parameter.")
+[GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.md "Returns a list of feed submissions using the NextToken parameter.")
 
-[GetFeedSubmissionCount](Feeds_GetFeedSubmissionCount.html "Returns a count of the feeds submitted in the previous 90 days.")
+[GetFeedSubmissionCount](Feeds_GetFeedSubmissionCount.md "Returns a count of the feeds submitted in the previous 90 days.")
 
-[CancelFeedSubmissions](Feeds_CancelFeedSubmissions.html "Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.")
+[CancelFeedSubmissions](Feeds_CancelFeedSubmissions.md "Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.")
 
 </div>
 

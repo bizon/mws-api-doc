@@ -153,7 +153,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FeedTypeList</span></td>
-<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.html" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
 <td>No</td>
 <td>Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -162,23 +162,23 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">FeedProcessingStatusList</span></td>
 <td>A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
 <td>No</td>
-<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.html" class="xref">FeedProcessingStatus enumeration</a>.
+<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: 90 days ago
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: Now
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -217,25 +217,25 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">NextToken</span></td>
 <td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
-<p><span class="ph">For information about standard request requirements, see <a href="../dev_guide/DG_RequiredRequestParameters.html" class="xref">Required request parameters</a>.</span></p>
+<p><span class="ph">For information about standard request requirements, see <a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span></p>
 <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is true.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: 90 days ago
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: Now
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -354,7 +354,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Feeds API
 section](../feeds/Feeds_Overview.md)
 
-[GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.html "Returns a list of feed submissions using the NextToken parameter.")
+[GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.md "Returns a list of feed submissions using the NextToken parameter.")
 
 [Using NextToken to request additional
 pages](../dev_guide/DG_NextToken.md)

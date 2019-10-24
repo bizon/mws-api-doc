@@ -142,7 +142,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -163,14 +163,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">AvailableFromDate</span></td>
-<td>The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No</td>
 <td>Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">AvailableToDate</span></td>
-<td>The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No</td>
 <td>Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -217,7 +217,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ReportInfo</span></td>
 <td><span class="ph">Detailed information about a report.</span>
-<p>Type: <a href="Reports_Datatypes.html#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
+<p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -329,7 +329,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)
 
-[GetReportListByNextToken](Reports_GetReportListByNextToken.html "Returns a list of reports using the NextToken, which was supplied by a previous request to either GetReportListByNextToken or GetReportList, where the value of HasNext was true in the previous call.")
+[GetReportListByNextToken](Reports_GetReportListByNextToken.md "Returns a list of reports using the NextToken, which was supplied by a previous request to either GetReportListByNextToken or GetReportList, where the value of HasNext was true in the previous call.")
 
 [Using NextToken to request additional
 pages](../dev_guide/DG_NextToken.md)

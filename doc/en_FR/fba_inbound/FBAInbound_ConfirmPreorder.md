@@ -53,7 +53,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The <span class="keyword apiname">ConfirmPreorder</span> operation
 confirms a shipment for pre-order. Call this operation after calling the
-[GetPreorderInfo](FBAInbound_GetPreorderInfo.html "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
+[GetPreorderInfo](FBAInbound_GetPreorderInfo.md "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
 operation to get the <span class="keyword parmname">NeedByDate</span>
 value and other pre-order information about the shipment. To get a list
 of shipments that are confirmed for pre-order, call the
@@ -80,12 +80,12 @@ returned in the
 element are subject to the following restrictions:
 
   - The
-    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
+    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
     operation cannot be used to reduce quantity for these items. See the
     **CannotReducePreorderedItemQuantity** error code in [Error
     codes](FBAInbound_ErrorCodes.md).
   - The
-    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
+    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
     operation cannot be used to remove these items from the shipment.
     See the **CannotRemovePreorderedItem** error code in [Error
     codes](FBAInbound_ErrorCodes.md).
@@ -301,9 +301,9 @@ code</span> </span>
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetPreorderInfo](FBAInbound_GetPreorderInfo.html "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
+[GetPreorderInfo](FBAInbound_GetPreorderInfo.md "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
 
-[UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
+[UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
 
 </div>
 

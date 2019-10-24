@@ -163,7 +163,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">ReportInfo</span></td>
 <td><span class="ph">Detailed information about a report.</span>
-<p>Type: <a href="Reports_Datatypes.html#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
+<p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -277,7 +277,7 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)
 
-[GetReportList](Reports_GetReportList.html "Returns a list of reports that were created in the previous 90 days.")
+[GetReportList](Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
 
 </div>
 

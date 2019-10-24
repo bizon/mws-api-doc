@@ -135,7 +135,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">FulfillmentOrders</span></td>
 <td>General fulfillment order information, including order status.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -274,7 +274,7 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.html "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
+[ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
 
 </div>
 

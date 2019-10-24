@@ -104,8 +104,8 @@ Guide</span>.</span>
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">MarketplaceId</span>     | The marketplace that the seller is selling in.                                                                                                                    | Yes      | <span class="ph">Type: xs:string</span>                                                           |
 | <span class="keyword parmname">AmazonOrderId</span>     | <span class="ph">An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using <span class="ph">Amazon Easy Ship</span>.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                           |
-| <span class="keyword parmname">PackageDimensions</span> | The package dimensions.                                                                                                                                           | Yes      | Type: [Dimensions](EasyShip_Datatypes.html#Dimensions "The dimensions of the scheduled package.") |
-| <span class="keyword parmname">PackageWeight</span>     | The package weight.                                                                                                                                               | Yes      | Type: [Weight](EasyShip_Datatypes.html#Weight "The weight of the scheduled package.")             |
+| <span class="keyword parmname">PackageDimensions</span> | The package dimensions.                                                                                                                                           | Yes      | Type: [Dimensions](EasyShip_Datatypes.md#Dimensions "The dimensions of the scheduled package.") |
+| <span class="keyword parmname">PackageWeight</span>     | The package weight.                                                                                                                                               | Yes      | Type: [Weight](EasyShip_Datatypes.md#Weight "The weight of the scheduled package.")             |
 
 </div>
 
@@ -142,7 +142,7 @@ Guide</span>.</span>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PickupSlotList</span></td>
-<td>Type: List of <a href="EasyShip_Datatypes.html#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
+<td>Type: List of <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
 </tr>
 </tbody>
 </table>

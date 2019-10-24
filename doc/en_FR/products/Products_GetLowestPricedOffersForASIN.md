@@ -86,12 +86,12 @@ marketplaces.
 </div>
 
 This quota and restore rate is shared with
-[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.html "Returns lowest priced offers for a single product, based on SellerSKU.").
+[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.md "Returns lowest priced offers for a single product, based on SellerSKU.").
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -152,7 +152,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASIN</span></td>
@@ -250,7 +250,7 @@ are:
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASIN</span></td>
@@ -334,7 +334,7 @@ and ASIN.</span>
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASIN</span></td>
@@ -353,7 +353,7 @@ and ASIN.</span>
 <td><span class="keyword parmname">TimeOfOfferChange</span></td>
 <td>The update time for the offer.</td>
 <td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -390,12 +390,12 @@ and <span class="keyword parmname">NumberOfOffers</span> and
 | Name                                                                  | Description                                                                                                                                                                                                                                             | Required | Values                                                                                                                                           |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <span class="keyword parmname">TotalOfferCount</span>                 | The number of unique offers contained in <span class="keyword parmname">NumberOfOffers</span>.                                                                                                                                                          | Yes      | <span class="ph">Type: xs:int</span>                                                                                                             |
-| <span class="keyword parmname">NumberOfOffers</span>                  | A list that contains the total number of offers for the item for the given conditions and fulfillment channels.                                                                                                                                         | Yes      | Type: [OfferCountType](Products_Datatypes.html#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
-| <span class="keyword parmname">LowestPrices</span>                    | A list of the lowest prices for the item.                                                                                                                                                                                                               | No       | Type: List of [LowestPrice](Products_Datatypes.html#LowestPrice "The lowest price of an item.")                                                  |
-| <span class="keyword parmname">BuyBoxPrices</span>                    | A list of item prices.                                                                                                                                                                                                                                  | No       | Type: List of [BuyBoxPrice](Products_Datatypes.html#BuyBoxPrice "The price of an item that is displayed in the Buy Box.")                        |
-| <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                               |
-| <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                               |
-| <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: [OfferCountType](Products_Datatypes.html#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
+| <span class="keyword parmname">NumberOfOffers</span>                  | A list that contains the total number of offers for the item for the given conditions and fulfillment channels.                                                                                                                                         | Yes      | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
+| <span class="keyword parmname">LowestPrices</span>                    | A list of the lowest prices for the item.                                                                                                                                                                                                               | No       | Type: List of [LowestPrice](Products_Datatypes.md#LowestPrice "The lowest price of an item.")                                                  |
+| <span class="keyword parmname">BuyBoxPrices</span>                    | A list of item prices.                                                                                                                                                                                                                                  | No       | Type: List of [BuyBoxPrice](Products_Datatypes.md#BuyBoxPrice "The price of an item that is displayed in the Buy Box.")                        |
+| <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
+| <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
+| <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
 | <span class="keyword parmname">OffersAvailableTime</span>             | When the status is ActiveButTooSoonForProcessing, this is the time when the offers will be available for processing.                                                                                                                                    | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
 
 </div>
@@ -463,37 +463,37 @@ or 20, whichever is less.
 <td><span class="keyword parmname">SellerFeedbackRating</span></td>
 <td><span id="Offers__d50082e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span></td>
 <td>No</td>
-<td>Type: <a href="Products_Datatypes.html#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a></td>
+<td>Type: <a href="Products_Datatypes.md#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingTime</span></td>
 <td><span id="Offers__d50082e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a></td>
+<td>Type: <a href="Products_Datatypes.md#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ListingPrice</span></td>
 <td>The price of the item.</td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Points</span></td>
 <td><span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span></td>
 <td>No</td>
-<td>Type: <a href="Products_Datatypes.html#Points" class="xref" title="The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.">Points</a></td>
+<td>Type: <a href="Products_Datatypes.md#Points" class="xref" title="The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.">Points</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Shipping</span></td>
 <td>The shipping cost.</td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipsFrom</span></td>
 <td><span id="Offers__d50082e1421" class="ph">The state and country from where the item is shipped.</span></td>
 <td>No</td>
-<td>Type: <a href="Products_Datatypes.html#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a></td>
+<td>Type: <a href="Products_Datatypes.md#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsFulfilledByAmazon</span></td>
@@ -885,9 +885,9 @@ code</span> </span>
 [Products
 API](../products/Products_Overview.md)
 
-[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.html "Returns lowest priced offers for a single product, based on SellerSKU.")
+[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.md "Returns lowest priced offers for a single product, based on SellerSKU.")
 
-[ListMatchingProducts](Products_ListMatchingProducts.html "Returns a list of products and their attributes, based on a search query.")
+[ListMatchingProducts](Products_ListMatchingProducts.md "Returns a list of products and their attributes, based on a search query.")
 
 </div>
 

@@ -48,23 +48,23 @@ service</span>:
 
 | Datatype                                                                                                                                                                                               | Description                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| [Address](MerchFulfill_Datatypes.html#Address "Postal address information.")                                                                                                                           | <span class="ph">Postal address information.</span>                                                                               |
-| [CurrencyAmount](MerchFulfill_Datatypes.html#CurrencyAmount "Currency type and amount.")                                                                                                               | <span class="ph">Currency type and amount.</span>                                                                                 |
-| [FileContents](MerchFulfill_Datatypes.html#FileContents "Document data and checksum.")                                                                                                                 | <span class="ph">Document data and checksum.</span>                                                                               |
-| [HazmatType](MerchFulfill_Datatypes.html#HazmatType "Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.")       | <span class="ph">Hazardous materials options for a package.</span>                                                                |
-| [Item](MerchFulfill_Datatypes.html#Item "An Amazon order item identifier and a quantity.")                                                                                                             | <span class="ph">An Amazon order item identifier and a quantity.</span>                                                           |
-| [Label](MerchFulfill_Datatypes.html#Label "Data for creating a shipping label and dimensions for printing the label.")                                                                                 | <span class="ph">Data for creating a shipping label and dimensions for printing the label.</span>                                 |
-| [LabelCustomization](MerchFulfill_Datatypes.html#LabelCustomization "Custom text for shipping labels.")                                                                                                | <span class="ph">Custom text for shipping labels.</span>                                                                          |
-| [LabelDimensions](MerchFulfill_Datatypes.html#LabelDimensions "Dimensions for printing a shipping label.")                                                                                             | <span class="ph">Dimensions for printing a shipping label.</span>                                                                 |
-| [PackageDimensions](MerchFulfill_Datatypes.html#PackageDimensions "The dimensions of a package contained in a shipment.")                                                                              | <span class="ph">The dimensions of a package contained in a shipment.</span>                                                      |
-| [Shipment](MerchFulfill_Datatypes.html#Shipment "The details of a shipment, including the shipment status.")                                                                                           | <span class="ph">The details of a shipment, including the shipment status.</span>                                                 |
-| [ShipmentRequestDetails](MerchFulfill_Datatypes.html#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.")                        | <span class="ph">Shipment information required for requesting shipping service offers or for creating a shipment.</span>          |
-| [ShippingService](MerchFulfill_Datatypes.html#ShippingService "A shipping service offer made by a carrier.")                                                                                           | <span class="ph">A shipping service offer made by a carrier.</span>                                                               |
-| [ShippingServiceOptions](MerchFulfill_Datatypes.html#ShippingServiceOptions "Extra services provided by a carrier.")                                                                                   | <span class="ph">Extra services provided by a carrier.</span>                                                                     |
-| [TemporarilyUnavailableCarrier](MerchFulfill_Datatypes.html#TemporarilyUnavailableCarrier "A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.") | <span class="ph">A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.</span> |
-| [TermsAndConditionsNotAcceptedCarrier](MerchFulfill_Datatypes.html#TermsAndConditionsNotAcceptedCarrier "A carrier whose terms and conditions have not been accepted by the seller.")                  | <span class="ph">A carrier whose terms and conditions have not been accepted by the seller.</span>                                |
-| [TransparencyCodeList](MerchFulfill_Datatypes.html#TransparencyCodeList "List of Transparency codes.")                                                                                                 | <span class="ph">List of Transparency codes.</span>                                                                               |
-| [Weight](MerchFulfill_Datatypes.html#Weight "The weight value and unit of measurement.")                                                                                                               | <span class="ph">The weight value and unit of measurement.</span>                                                                 |
+| [Address](MerchFulfill_Datatypes.md#Address "Postal address information.")                                                                                                                           | <span class="ph">Postal address information.</span>                                                                               |
+| [CurrencyAmount](MerchFulfill_Datatypes.md#CurrencyAmount "Currency type and amount.")                                                                                                               | <span class="ph">Currency type and amount.</span>                                                                                 |
+| [FileContents](MerchFulfill_Datatypes.md#FileContents "Document data and checksum.")                                                                                                                 | <span class="ph">Document data and checksum.</span>                                                                               |
+| [HazmatType](MerchFulfill_Datatypes.md#HazmatType "Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.")       | <span class="ph">Hazardous materials options for a package.</span>                                                                |
+| [Item](MerchFulfill_Datatypes.md#Item "An Amazon order item identifier and a quantity.")                                                                                                             | <span class="ph">An Amazon order item identifier and a quantity.</span>                                                           |
+| [Label](MerchFulfill_Datatypes.md#Label "Data for creating a shipping label and dimensions for printing the label.")                                                                                 | <span class="ph">Data for creating a shipping label and dimensions for printing the label.</span>                                 |
+| [LabelCustomization](MerchFulfill_Datatypes.md#LabelCustomization "Custom text for shipping labels.")                                                                                                | <span class="ph">Custom text for shipping labels.</span>                                                                          |
+| [LabelDimensions](MerchFulfill_Datatypes.md#LabelDimensions "Dimensions for printing a shipping label.")                                                                                             | <span class="ph">Dimensions for printing a shipping label.</span>                                                                 |
+| [PackageDimensions](MerchFulfill_Datatypes.md#PackageDimensions "The dimensions of a package contained in a shipment.")                                                                              | <span class="ph">The dimensions of a package contained in a shipment.</span>                                                      |
+| [Shipment](MerchFulfill_Datatypes.md#Shipment "The details of a shipment, including the shipment status.")                                                                                           | <span class="ph">The details of a shipment, including the shipment status.</span>                                                 |
+| [ShipmentRequestDetails](MerchFulfill_Datatypes.md#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.")                        | <span class="ph">Shipment information required for requesting shipping service offers or for creating a shipment.</span>          |
+| [ShippingService](MerchFulfill_Datatypes.md#ShippingService "A shipping service offer made by a carrier.")                                                                                           | <span class="ph">A shipping service offer made by a carrier.</span>                                                               |
+| [ShippingServiceOptions](MerchFulfill_Datatypes.md#ShippingServiceOptions "Extra services provided by a carrier.")                                                                                   | <span class="ph">Extra services provided by a carrier.</span>                                                                     |
+| [TemporarilyUnavailableCarrier](MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier "A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.") | <span class="ph">A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.</span> |
+| [TermsAndConditionsNotAcceptedCarrier](MerchFulfill_Datatypes.md#TermsAndConditionsNotAcceptedCarrier "A carrier whose terms and conditions have not been accepted by the seller.")                  | <span class="ph">A carrier whose terms and conditions have not been accepted by the seller.</span>                                |
+| [TransparencyCodeList](MerchFulfill_Datatypes.md#TransparencyCodeList "List of Transparency codes.")                                                                                                 | <span class="ph">List of Transparency codes.</span>                                                                               |
+| [Weight](MerchFulfill_Datatypes.md#Weight "The weight value and unit of measurement.")                                                                                                               | <span class="ph">The weight value and unit of measurement.</span>                                                                 |
 
 </div>
 
@@ -222,7 +222,7 @@ service</span>:
 <td><span class="keyword parmname">CurrencyCode</span></td>
 <td>Three-digit currency code.</td>
 <td>Yes</td>
-<td>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.html" class="xref">ISO 4217 format</a> </span>.
+<td>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -358,7 +358,7 @@ quantity.</span>
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------ |
 | <span class="keyword parmname">OrderItemId</span>          | An Amazon-defined identifier for an individual item in an order. Used in the XML response to an order query request (Order API/Order XML). | Yes      | <span class="ph">Type: xs:string</span>                                                                      |
 | <span class="keyword parmname">Quantity</span>             | The number of items.                                                                                                                       | Yes      | <span class="ph">Type: xs:int</span>                                                                         |
-| <span class="keyword parmname">TransparencyCodeList</span> | <span class="ph">List of Transparency codes.</span>                                                                                        | No       | Type: [TransparencyCodeList](MerchFulfill_Datatypes.html#TransparencyCodeList "List of Transparency codes.") |
+| <span class="keyword parmname">TransparencyCodeList</span> | <span class="ph">List of Transparency codes.</span>                                                                                        | No       | Type: [TransparencyCodeList](MerchFulfill_Datatypes.md#TransparencyCodeList "List of Transparency codes.") |
 
 </div>
 
@@ -413,19 +413,19 @@ printing the label.</span>
 <td><span class="keyword parmname">Dimensions</span></td>
 <td><span class="ph">Dimensions for printing a shipping label.</span></td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#LabelDimensions" class="xref" title="Dimensions for printing a shipping label.">LabelDimensions</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#LabelDimensions" class="xref" title="Dimensions for printing a shipping label.">LabelDimensions</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FileContents</span></td>
 <td><span class="ph">Document data and checksum.</span></td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#FileContents" class="xref" title="Document data and checksum.">FileContents</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#FileContents" class="xref" title="Document data and checksum.">FileContents</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LabelFormat</span></td>
 <td>The label format.</td>
 <td>No</td>
-<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.html" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
+<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -629,7 +629,7 @@ shipment.</span>
 <td><span class="keyword parmname">PredefinedPackageDimensions</span></td>
 <td>A parcel token that specifies pre-defined package dimensions.</td>
 <td>No</td>
-<td>For <span class="keyword parmname">PredefinedPackageDimensions</span> values, see the <a href="MerchFulfill_PrePackDimenEnum.html" class="xref" title="An enumeration of predefined parcel tokens.">PredefinedPackageDimensions enumeration</a> table.
+<td>For <span class="keyword parmname">PredefinedPackageDimensions</span> values, see the <a href="MerchFulfill_PrePackDimenEnum.md" class="xref" title="An enumeration of predefined parcel tokens.">PredefinedPackageDimensions enumeration</a> table.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -698,31 +698,31 @@ status.</span>
 <td><span class="keyword parmname">ItemList</span></td>
 <td>A list of items to be included in a shipment.</td>
 <td>Yes</td>
-<td>Type: List of <a href="MerchFulfill_Datatypes.html#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
+<td>Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipFromAddress</span></td>
 <td>The address from which the shipment ships.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShipToAddress</span></td>
 <td>The destination address of the shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackageDimensions</span></td>
 <td>The package dimensions.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Weight</span></td>
 <td>The package weight.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Insurance</span></td>
@@ -731,25 +731,25 @@ status.</span>
 <p><span class="ph">For information about optional insurance coverage, see the Seller Central Help (<a href="https://sellercentral.amazon.co.uk/gp/help/200204080" class="xref">UK</a>) (<a href="https://sellercentral.amazon.com/gp/help/200204080" class="xref">US</a>).</span></p></td>
 <td>Yes</td>
 <td>The <span class="keyword parmname">DeclaredValue</span> value specified in a previous call to the <span class="keyword apiname">CreateShipment</span> operation. If <span class="keyword parmname">DeclaredValue</span> was not specified, then the value is zero.
-<p>Type: <a href="MerchFulfill_Datatypes.html#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
+<p>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShippingService</span></td>
 <td>The shipping service offer for this shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Label</span></td>
 <td><span class="ph">Data for creating a shipping label and dimensions for printing the label.</span> If the shipment is canceled, an empty <span class="keyword parmname">Label</span> element is returned.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Label" class="xref" title="Data for creating a shipping label and dimensions for printing the label.">Label</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Label" class="xref" title="Data for creating a shipping label and dimensions for printing the label.">Label</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Status</span></td>
 <td>The shipment status.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: Purchased, RefundPending, RefundRejected, or RefundApplied. See <a href="MerchFulfill_Datatypes.html#Status_Values" class="xref">Status Values table</a> for details.
+<td><span class="keyword parmname">Status</span> values: Purchased, RefundPending, RefundRejected, or RefundApplied. See <a href="MerchFulfill_Datatypes.md#Status_Values" class="xref">Status Values table</a> for details.
 <p><span class="ph">Type: List of xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -761,13 +761,13 @@ status.</span>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CreatedDate</span></td>
-<td>The date that the shipment was created, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The date that the shipment was created, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdatedDate</span></td>
-<td>The date that the shipment status last changed, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>The date that the shipment status last changed, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
@@ -894,29 +894,29 @@ service offers or for creating a shipment.</span>
 <td><span class="keyword parmname">ItemList</span></td>
 <td>A list of items to be included in a shipment.</td>
 <td>Yes</td>
-<td>Type: List of <a href="MerchFulfill_Datatypes.html#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
+<td>Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShipFromAddress</span></td>
 <td>The address from which the shipment ships.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackageDimensions</span></td>
 <td>The package dimensions.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Weight</span></td>
 <td>The package weight.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">MustArriveByDate</span></td>
-<td>The date by which the package must arrive to keep the promise to the customer, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date by which the package must arrive to keep the promise to the customer, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>If <span class="keyword parmname">MustArriveByDate</span> is specified, only shipping service offers that can be delivered by that date are returned.</p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
@@ -931,13 +931,13 @@ service offers or for creating a shipment.</span>
 <td><span class="keyword parmname">ShippingServiceOptions</span></td>
 <td>Extra services offered by the carrier.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LabelCustomization</span></td>
 <td>Label customization options.</td>
 <td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#LabelCustomization" class="xref" title="Custom text for shipping labels.">LabelCustomization</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#LabelCustomization" class="xref" title="Custom text for shipping labels.">LabelCustomization</a></td>
 </tr>
 </tbody>
 </table>
@@ -994,13 +994,13 @@ service offers or for creating a shipment.</span>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingServiceId</span></td>
-<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.html#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShippingServiceOfferId</span></td>
-<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.html#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -1026,13 +1026,13 @@ service offers or for creating a shipment.</span>
 <td><span class="keyword parmname">Rate</span></td>
 <td>The amount that the carrier will charge for the shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingServiceOptions</span></td>
 <td>Extra services offered by the carrier.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">AvailableLabelFormats</span></td>
@@ -1100,7 +1100,7 @@ service offers or for creating a shipment.</span>
 <td>The declared value of the shipment. The carrier uses this value to determine how much to insure the shipment for. If <span class="keyword parmname">DeclaredValue</span> is greater than the carrier's minimum insurance amount, the seller is charged for the additional insurance as determined by the carrier. <span class="ph">For information about optional insurance coverage, see the Seller Central Help (<a href="https://sellercentral.amazon.co.uk/gp/help/200204080" class="xref">UK</a>) (<a href="https://sellercentral.amazon.com/gp/help/200204080" class="xref">US</a>).</span></td>
 <td>No</td>
 <td>Default: 0
-<p>Type: <a href="MerchFulfill_Datatypes.html#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
+<p>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">CarrierWillPickUp</span></td>
@@ -1121,7 +1121,7 @@ service offers or for creating a shipment.</span>
 </div>
 </div></td>
 <td>No</td>
-<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.html" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
+<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

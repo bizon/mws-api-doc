@@ -58,7 +58,7 @@ optional <span class="keyword parmname">ShippingServiceOfferId</span>
 value associated with this shipping service offer in a subsequent call
 to the [CreateShipment](MerchFulfill_CreateShipment.md) operation.
 <span class="ph">For definitions, see
-[Terminology](../merch_fulfill/MerchFulfill_Overview.html#Terminology).</span>
+[Terminology](../merch_fulfill/MerchFulfill_Overview.md#Terminology).</span>
 <span class="ph">For more information, see [How to fulfill Seller
 Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
@@ -99,7 +99,7 @@ Guide</span>.</span>
 
 | Name                                                         | Description                                                           | Required | Values                                                                                                                                                                                |
 | ------------------------------------------------------------ | --------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ShipmentRequestDetails</span> | Shipment information required for requesting shipping service offers. | Yes      | Type: [ShipmentRequestDetails](MerchFulfill_Datatypes.html#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.") |
+| <span class="keyword parmname">ShipmentRequestDetails</span> | Shipment information required for requesting shipping service offers. | Yes      | Type: [ShipmentRequestDetails](MerchFulfill_Datatypes.md#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.") |
 
 </div>
 
@@ -130,17 +130,17 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingServiceList</span></td>
 <td>A list of shipping services offers.
-<p>Type: List of <a href="MerchFulfill_Datatypes.html#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></p></td>
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
 <td>A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
-<p>Type: List of <a href="MerchFulfill_Datatypes.html#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
 <td>A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
-<p>Type: List of <a href="MerchFulfill_Datatypes.html#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
 </tbody>
 </table>

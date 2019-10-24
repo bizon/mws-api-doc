@@ -127,7 +127,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -148,14 +148,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">RequestedFromDate</span></td>
-<td><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
 <td>No</td>
 <td>Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">RequestedToDate</span></td>
-<td><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
 <td>No</td>
 <td>Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -295,7 +295,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)
 
-[GetReportList](Reports_GetReportList.html "Returns a list of reports that were created in the previous 90 days.")
+[GetReportList](Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
 
 </div>
 

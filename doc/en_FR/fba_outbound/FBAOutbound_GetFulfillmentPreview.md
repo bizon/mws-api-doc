@@ -129,20 +129,20 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace the fulfillment order is placed against.</td>
 <td>No</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Address</span></td>
 <td>The destination address for the fulfillment order preview.</td>
 <td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.html#Address" class="xref" title="Postal address information.">Address</a></td>
+<td>Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Items</span></td>
 <td>Identifying information and quantity information for the items in the fulfillment order preview.</td>
 <td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.html#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
+<td>Type: List of <a href="FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShippingSpeedCategories</span></td>
@@ -153,7 +153,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <li>Standard - Standard shipping method.</li>
 <li>Expedited - Expedited shipping method.</li>
 <li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</li>
+<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="p">
 <div class="note note">
@@ -190,7 +190,7 @@ Default: All
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">IncludeDeliveryWindows</span> is a valid request parameter only in Japan (JP). In any other marketplace, the service ignores the <span class="keyword parmname">IncludeDeliveryWindows</span> request parameter.
 </div>
-<p>For more information about Scheduled Delivery, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.html" class="xref">Scheduled Delivery</a>.</p>
+<p>For more information about Scheduled Delivery, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</p>
 <p>Default: false</p>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -226,7 +226,7 @@ Default: All
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentPreviews</span></td>
 <td>A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#FulfillmentPreview" class="xref" title="Information about a fulfillment order preview, including delivery and fee information based on shipping method.">FulfillmentPreview</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentPreview" class="xref" title="Information about a fulfillment order preview, including delivery and fee information based on shipping method.">FulfillmentPreview</a></p></td>
 </tr>
 </tbody>
 </table>

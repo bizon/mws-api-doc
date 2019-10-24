@@ -54,7 +54,7 @@ The
 <span id="Description__GetReportScheduleCount" class="keyword apiname">GetReportScheduleCount</span>
 operation returns a count of report requests that are scheduled to be
 submitted to <span class="ph">Amazon MWS</span>. Only [Order
-Reports](Reports_ReportType.html#ReportTypeCategories__OrderReports) can
+Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports) can
 be scheduled.
 
 <div class="section">
@@ -129,7 +129,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.html" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -267,7 +267,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Reports API
 Section](../reports/Reports_Overview.md)
 
-[ManageReportSchedule](Reports_ManageReportSchedule.html "Creates, updates, or deletes a report request schedule for a specified report type.")
+[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
 
 </div>
 

@@ -82,8 +82,8 @@ The <span class="keyword parmname">AdvertisingRecommendation</span>
 datatype is used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -121,7 +121,7 @@ datatype:
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdated</span></td>
-<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -206,7 +206,7 @@ The <span class="keyword parmname">CategoryQuery</span> datatype is used
 in a request parameter of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
 
 </div>
 
@@ -255,7 +255,7 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">FilterOptions</span></td>
 <td>Specifies the filters to apply to narrow down the recommendations to return for the given recommendation category.
-<p>Filters are specified as a list of FilterName=FilterValue pairs. For more information, see the <a href="Recommendations_ListRecommendations.html#Examples" class="xref">examples</a> for the <span class="keyword apiname">ListRecommendations</span> operation.</p></td>
+<p>Filters are specified as a list of FilterName=FilterValue pairs. For more information, see the <a href="Recommendations_ListRecommendations.md#Examples" class="xref">examples</a> for the <span class="keyword apiname">ListRecommendations</span> operation.</p></td>
 <td>Yes</td>
 <td><span class="keyword parmname">FilterOptions</span> values for ListingQuality recommendations:
 <ul>
@@ -300,8 +300,8 @@ The <span class="keyword parmname">DimensionMeasure</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -365,8 +365,8 @@ The <span class="keyword parmname">FulfillmentRecommendation</span>
 datatype is used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -404,7 +404,7 @@ datatype:
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdated</span></td>
-<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -500,8 +500,8 @@ The <span class="keyword parmname">GlobalSellingRecommendation</span>
 datatype is used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -539,7 +539,7 @@ datatype:
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdated</span></td>
-<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -635,8 +635,8 @@ The <span class="keyword parmname">InventoryRecommendation</span>
 datatype is used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -673,7 +673,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdated</span></td>
-<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -742,8 +742,8 @@ The <span class="keyword parmname">ItemDimensions</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -815,8 +815,8 @@ The <span class="keyword parmname">Price</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -843,7 +843,7 @@ The following table shows the elements of the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">CurrencyCode</span></td>
-<td>Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.html" class="xref">ISO 4217 format</a> </span>.
+<td>Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -879,8 +879,8 @@ The <span class="keyword parmname">PricingRecommendation</span> datatype
 is used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -917,7 +917,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">LastUpdated</span></td>
-<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -1034,8 +1034,8 @@ The <span class="keyword parmname">ProductIdentifier</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 
@@ -1102,8 +1102,8 @@ The <span class="keyword parmname">WeightMeasure</span> datatype is used
 in a response element of the following
     operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.html "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.html "Returns the next page of recommendations using the NextToken parameter.")
+  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
 
 </div>
 

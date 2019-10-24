@@ -163,7 +163,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">CategoryQueryList</span></td>
 <td>A list of category-specific filters that you can specify to narrow down the types of recommendations returned for each category.</td>
 <td>No</td>
-<td>Type: List of <a href="Recommendations_Datatypes.html#CategoryQuery" class="xref" title="A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.">CategoryQuery</a></td>
+<td>Type: List of <a href="Recommendations_Datatypes.md#CategoryQuery" class="xref" title="A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.">CategoryQuery</a></td>
 </tr>
 </tbody>
 </table>
@@ -205,35 +205,35 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A list of current fulfillment recommendations.
 <p>The list is empty if there are no current fulfillment recommendations or if fulfillment recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>. <span class="ph">This element is used in all marketplaces except Brazil.</span></p>
 <p>Optional</p>
-<p>Type: List of <a href="Recommendations_Datatypes.html#FulfillmentRecommendation" class="xref" title="A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA). This datatype is used in all marketplaces except Brazil.">FulfillmentRecommendation</a></p></td>
+<p>Type: List of <a href="Recommendations_Datatypes.md#FulfillmentRecommendation" class="xref" title="A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA). This datatype is used in all marketplaces except Brazil.">FulfillmentRecommendation</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">InventoryRecommendations</span></td>
 <td>A list of current inventory recommendations.
 <p>The list is empty if there are no current inventory recommendations or if inventory recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
-<p>Type: List of <a href="Recommendations_Datatypes.html#InventoryRecommendation" class="xref" title="A recommendation for restocking low or out-of-stock items in your inventory.">InventoryRecommendation</a></p></td>
+<p>Type: List of <a href="Recommendations_Datatypes.md#InventoryRecommendation" class="xref" title="A recommendation for restocking low or out-of-stock items in your inventory.">InventoryRecommendation</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PricingRecommendations</span></td>
 <td>A list of current pricing recommendations.
 <p>The list is empty if there are no current pricing recommendations or if pricing recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
-<p>Type: List of <a href="Recommendations_Datatypes.html#PricingRecommendation" class="xref" title="A recommendation to review pricing on items in your inventory where your offer is not the lowest price.">PricingRecommendation</a></p></td>
+<p>Type: List of <a href="Recommendations_Datatypes.md#PricingRecommendation" class="xref" title="A recommendation to review pricing on items in your inventory where your offer is not the lowest price.">PricingRecommendation</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">GlobalSellingRecommendations</span></td>
 <td>A list of current global selling recommendations.
 <p>The list is empty if there are no current global selling recommendations or if global selling recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
-<p>Type: List of <a href="Recommendations_Datatypes.html#GlobalSellingRecommendation" class="xref" title="A recommendation for expanding your products to more regions and marketplaces.">GlobalSellingRecommendation</a></p></td>
+<p>Type: List of <a href="Recommendations_Datatypes.md#GlobalSellingRecommendation" class="xref" title="A recommendation for expanding your products to more regions and marketplaces.">GlobalSellingRecommendation</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">AdvertisingRecommendations</span></td>
 <td>A list of current advertising recommendations.
 <p>The list is empty if there are no current advertising recommendations or if advertising recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>. <span class="ph">This element is used in all marketplaces except Brazil.</span></p>
 <p>Optional</p>
-<p>Type: List of <a href="Recommendations_Datatypes.html#AdvertisingRecommendation" class="xref" title="A recommendation for advertising your products and for using the sponsored products program. This datatype is used in all marketplaces except Brazil.">AdvertisingRecommendation</a></p></td>
+<p>Type: List of <a href="Recommendations_Datatypes.md#AdvertisingRecommendation" class="xref" title="A recommendation for advertising your products and for using the sponsored products program. This datatype is used in all marketplaces except Brazil.">AdvertisingRecommendation</a></p></td>
 </tr>
 </tbody>
 </table>

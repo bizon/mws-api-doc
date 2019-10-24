@@ -67,7 +67,7 @@ section</span>:
 | [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)                                                    | <span class="ph">Schedules an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                   | <span class="ph">The India marketplace.</span> |
 | [UpdateScheduledPackages](EasyShip_UpdateScheduledPackages.md)                                                  | <span class="ph">Updates an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                     | <span class="ph">The India marketplace.</span> |
 | [GetScheduledPackage](EasyShip_GetScheduledPackage.md)                                                          | <span class="ph">Returns information about a scheduled package.</span>                                       | <span class="ph">The India marketplace.</span> |
-| [GetServiceStatus](EasyShip_GetServiceStatus.html "Returns the operational status of the Easy Ship API section.") | <span class="ph">Returns the operational status of the <span class="ph">Easy Ship API section</span>.</span> | <span class="ph">The India marketplace.</span> |
+| [GetServiceStatus](EasyShip_GetServiceStatus.md "Returns the operational status of the Easy Ship API section.") | <span class="ph">Returns the operational status of the <span class="ph">Easy Ship API section</span>.</span> | <span class="ph">The India marketplace.</span> |
 
 </div>
 

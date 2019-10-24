@@ -57,7 +57,7 @@ file](MerchFulfill_HowToExtractShippingLabel.md). The
 <span class="keyword apiname">CreateShipment</span> operation also
 returns a Base64-encoded MD5 hash to validate the document data.
 <span class="ph">For definitions, see
-[Terminology](../merch_fulfill/MerchFulfill_Overview.html#Terminology).</span>
+[Terminology](../merch_fulfill/MerchFulfill_Overview.md#Terminology).</span>
 <span class="ph">For more information, see [How to fulfill Seller
 Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
@@ -130,18 +130,18 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">ShipmentRequestDetails</span></td>
 <td>Shipment information required for creating a shipment.</td>
 <td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShippingServiceId</span></td>
-<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.html#Terminology" class="xref">Terminology</a>.</span></span>
+<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingServiceOfferId</span></td>
-<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.html#Terminology" class="xref">Terminology</a>.</span></span>
+<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceOfferId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
@@ -151,7 +151,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="ph">Hazardous materials options for a package.</span>
 <p>Consult the terms and conditions for each carrier for more information about hazardous materials.</p></td>
 <td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.html#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
 </tr>
 </tbody>
 </table>
@@ -189,7 +189,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.
 </div>
-Type: <a href="MerchFulfill_Datatypes.html#Shipment" class="xref" title="The details of a shipment, including the shipment status.">Shipment</a>
+Type: <a href="MerchFulfill_Datatypes.md#Shipment" class="xref" title="The details of a shipment, including the shipment status.">Shipment</a>
 </div></td>
 </tr>
 </tbody>
@@ -400,7 +400,7 @@ code</span> </span>
 [How to fulfill Seller Fulfilled Prime
 orders](MerchFulfill_HowToUseForPrime.md)
 
-[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
+[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
 
 </div>
 

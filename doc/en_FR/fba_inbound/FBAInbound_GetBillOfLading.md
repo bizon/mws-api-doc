@@ -163,7 +163,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">TransportDocument</span></td>
 <td>PDF document data and checksum.
-<p>Type: <a href="FBAInbound_Datatypes.html#TransportDocument" class="xref" title="The PDF document data and checksum for printing package labels and bills of lading.">TransportDocument</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#TransportDocument" class="xref" title="The PDF document data and checksum for printing package labels and bills of lading.">TransportDocument</a></p></td>
 </tr>
 </tbody>
 </table>

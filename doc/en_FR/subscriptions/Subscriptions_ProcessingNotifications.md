@@ -68,17 +68,17 @@ following XSDs:
 <span class="notetitle">Note:</span> If you are using this schema for runtime validation, future additions to the <span class="keyword parmname">NotificationPayload</span> element will invalidate the existing version of the schema, without prior notice.
 </div>
 <p>The contents of the <span class="keyword parmname">NotificationPayload</span> child element will vary depending on which notification you have subscribed to. Each notification is described by its own XSD.</p>
-<p>For more information, see <a href="../notifications/Notifications_MWSPushNotification.html" class="xref">MWSPushNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
+<p>For more information, see <a href="../notifications/Notifications_MWSPushNotification.md" class="xref">MWSPushNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 <tr class="even">
 <td><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd" class="xref">MWSPushNotificationCommon.xsd</a></td>
 <td><span class="ph">Contains common types that are used by all notifications that are contained in the <span class="keyword parmname">NotificationPayload</span> element.</span>
-<p>For more information, see <a href="../notifications/Notifications_MWSPushNotificationCommon.html" class="xref">MWSPushNotificationCommon</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
+<p>For more information, see <a href="../notifications/Notifications_MWSPushNotificationCommon.md" class="xref">MWSPushNotificationCommon</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a></td>
 <td><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
-<p>For more information, see <a href="../notifications/Notifications_TestNotification.html" class="xref">TestNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
+<p>For more information, see <a href="../notifications/Notifications_TestNotification.md" class="xref">TestNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ Subscriptions API section](../subscriptions/Subscriptions_Overview.md)
 <div>
 
 [Receiving
-notifications](../subscriptions/Subscriptions_ReceivingNotifications.html "Describes how to set up a Destination to receive notifications.")
+notifications](../subscriptions/Subscriptions_ReceivingNotifications.md "Describes how to set up a Destination to receive notifications.")
 
 </div>
 

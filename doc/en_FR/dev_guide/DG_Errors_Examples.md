@@ -74,7 +74,7 @@ MarketplacewebService exception with all data included is thrown.
 
 Retry the request using an "exponential backoff" approach, as described
 in [*Handling errors: Service
-errors*](../dev_guide/DG_Errors.html#ErrorMessages_Service_errors).
+errors*](../dev_guide/DG_Errors.md#ErrorMessages_Service_errors).
 
 <div class="section">
 

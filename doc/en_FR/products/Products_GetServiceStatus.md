@@ -62,7 +62,7 @@ YELLOW, and RED.
 **maximum request quota** of two and a **restore rate** of one request
 every five minutes. </span> For definitions of throttling terminology,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 
 <div class="section">
 
@@ -135,7 +135,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Timestamp</span></td>
-<td>Indicates the time at which the operational status was evaluated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>Indicates the time at which the operational status was evaluated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">

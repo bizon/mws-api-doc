@@ -227,31 +227,31 @@ information.</span>
 <td><span class="keyword parmname">ScheduledPackageId</span></td>
 <td><span class="ph">Identifies the scheduled package to be updated.</span></td>
 <td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.html#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackageDimensions</span></td>
 <td><span class="ph">The dimensions of the scheduled package.</span></td>
 <td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.html#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackageWeight</span></td>
 <td><span class="ph">The weight of the scheduled package.</span></td>
 <td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.html#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackageItemsList</span></td>
 <td><span class="ph">Item ID and serial number information.</span></td>
 <td>No</td>
-<td>List of <a href="EasyShip_Datatypes.html#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
+<td>List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackagePickupSlot</span></td>
 <td><span class="ph">Pickup slot ID and pickup time information.</span></td>
 <td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.html#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackageIdentifier</span></td>
@@ -263,7 +263,7 @@ information.</span>
 <td><span class="keyword parmname">Invoice</span></td>
 <td><span class="ph">Invoice number and date.</span></td>
 <td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.html#InvoiceData" class="xref" title="Invoice number and date.">InvoiceData</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#InvoiceData" class="xref" title="Invoice number and date.">InvoiceData</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackageStatus</span></td>
@@ -321,26 +321,26 @@ information.</span>
 <td><span class="keyword parmname">PackageDimensions</span></td>
 <td><span class="ph">The dimensions of the scheduled package.</span></td>
 <td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.html#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackageWeight</span></td>
 <td><span class="ph">The weight of the scheduled package.</span></td>
 <td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.html#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
+<td>Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackageItemList</span></td>
-<td><span class="ph">Item ID and serial number information.</span> Amazon generates a warranty document only if <span class="keyword parmname">PackageItemList</span> is specified. For retrieving warranty documents, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.html" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td><span class="ph">Item ID and serial number information.</span> Amazon generates a warranty document only if <span class="keyword parmname">PackageItemList</span> is specified. For retrieving warranty documents, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 <td>No</td>
-<td>List of <a href="EasyShip_Datatypes.html#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
+<td>List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PackagePickupSlot</span></td>
 <td><span class="ph">Pickup slot ID and pickup time information.</span></td>
 <td>Yes</td>
 <td>Default: First available pickup slot.
-<p>Type: <a href="EasyShip_Datatypes.html#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></p></td>
+<p>Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PackageIdentifier</span></td>
@@ -433,8 +433,8 @@ package.</span>
 
 | Name                                                     | Description                                                                                                                                                                          | Required | Values                                                                                                                   |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.html#ScheduledPackageId "Identifies the scheduled package to be updated.") |
-| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the [ListPickupSlots](EasyShip_ListPickupSlots.md) operation.                   | Yes      | Type: [PickupSlot](EasyShip_Datatypes.html#PickupSlot "Pickup slot ID and pickup time information.")                     |
+| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.md#ScheduledPackageId "Identifies the scheduled package to be updated.") |
+| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the [ListPickupSlots](EasyShip_ListPickupSlots.md) operation.                   | Yes      | Type: [PickupSlot](EasyShip_Datatypes.md#PickupSlot "Pickup slot ID and pickup time information.")                     |
 
 </div>
 

@@ -134,14 +134,14 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <td><span class="keyword parmname">FinancialEventGroupStartedAfter</span></td>
 <td>A date used for selecting financial event groups that opened after (or at) a specified time.</td>
 <td>Yes</td>
-<td>Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FinancialEventGroupStartedBefore</span></td>
 <td>A date used for selecting financial event groups that opened before (but not at) a specified time.</td>
 <td>No</td>
-<td>Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
+<td>Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
 <p>Default: Now minus two minutes</p>
 <span class="ph">Type: xs:dateTime</span></td>
 </tr>
@@ -185,7 +185,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">FinancialEventGroupList</span></td>
 <td>Contains the financial event groups that meet the criteria specified in the request.
-<p>Type: List of <a href="Finances_Datatypes.html#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
+<p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>
 </table>

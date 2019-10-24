@@ -50,7 +50,7 @@ by Amazon</span> fees, see [FBA features and
 fees](https://sellercentral-europe.amazon.com/gp/help/201074400) on
 Seller Central. The following table maps the
 <span class="keyword parmname">FeeType</span> field of
-[FeeComponent](Finances_Datatypes.html#FeeComponent "A fee on the seller's account.")
+[FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")
 to seller fees:
 
 <div class="tablenoborder">

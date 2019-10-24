@@ -167,7 +167,7 @@ Guide</span>.</span>
 <td><span class="keyword parmname">FeedSubmissionInfo</span></td>
 <td><span class="ph">Detailed information about a feed submission.</span></td>
 <td>No</td>
-<td>Type: <a href="Feeds_Datatypes.html#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
+<td>Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
 </tr>
 </tbody>
 </table>
@@ -284,7 +284,7 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Amazon MWS Feeds API
 section](../feeds/Feeds_Overview.md)
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
 
 </div>
 

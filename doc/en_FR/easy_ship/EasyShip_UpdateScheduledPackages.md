@@ -133,7 +133,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <td><span class="keyword parmname">ScheduledPackageUpdateDetailsList</span></td>
 <td>The scheduled packages to be updated.</td>
 <td>Yes</td>
-<td>List of <a href="EasyShip_Datatypes.html#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
+<td>List of <a href="EasyShip_Datatypes.md#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
 <div class="note note">
 <span class="notetitle">Note:</span> Currently you can specify only one <span class="keyword parmname">ScheduledPackageUpdateDetails</span> element.
 </div></td>
@@ -159,7 +159,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 | Name                                                       | Description                                                                                 |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ScheduledPackageList</span> | List of [Package](EasyShip_Datatypes.html#Package "Information about a scheduled package.") |
+| <span class="keyword parmname">ScheduledPackageList</span> | List of [Package](EasyShip_Datatypes.md#Package "Information about a scheduled package.") |
 
 </div>
 

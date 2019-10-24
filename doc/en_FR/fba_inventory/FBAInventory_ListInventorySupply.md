@@ -129,7 +129,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="even">
 <td><span class="keyword parmname">QueryStartDateTime</span></td>
 <td>A date used for selecting items that have had changes in inventory availability after (or at) a specified time.</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>
+<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 <td></td>
 </tr>
@@ -152,7 +152,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No
 <p>Assumes the default value if MarketplaceId is not specified.</p></td>
 <td><span class="keyword parmname">MarketplaceId</span> values:
-<p>For a list of MarketplaceId values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</p>
+<p>For a list of MarketplaceId values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</p>
 <p>Default: The MarketplaceId assigned as the seller's <em>home</em> marketplace.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -176,7 +176,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 | Name                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                    | Required | Values                                                                                                                                                   |
 | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">NextToken</span>           | A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return. | Optional | <span class="ph">Type: xs:string</span>                                                                                                                  |
-| <span class="keyword parmname">InventorySupplyList</span> | A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.                                            | Yes      | Type: List of [InventorySupply](FBAInventory_Datatypes.html#InventorySupply "General information about the availability of inventory for a single SKU.") |
+| <span class="keyword parmname">InventorySupplyList</span> | A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.                                            | Yes      | Type: List of [InventorySupply](FBAInventory_Datatypes.md#InventorySupply "General information about the availability of inventory for a single SKU.") |
 
 </div>
 
@@ -401,7 +401,7 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Fulfillment Inventory API
 section](FBAInventory_Overview.md)
 
-[ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.html "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+[ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
 
 </div>
 

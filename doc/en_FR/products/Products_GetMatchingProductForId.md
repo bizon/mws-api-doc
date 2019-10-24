@@ -104,7 +104,7 @@ marketplaces.
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -156,7 +156,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IdType</span></td>

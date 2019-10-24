@@ -236,7 +236,7 @@ code</span> </span>
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.html "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+[GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
 </div>
 

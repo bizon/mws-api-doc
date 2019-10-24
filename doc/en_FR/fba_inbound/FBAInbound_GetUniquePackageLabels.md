@@ -97,9 +97,9 @@ For more information, see the following links:
 **Amazon-partnered shipments**
 
   - [Submit carton content
-    information](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.html#SubmitCartonContentsFeed)
+    information](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md#SubmitCartonContentsFeed)
   - [Request package labels for your inbound
-    shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.html#RequestTransportDocs)
+    shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md#RequestTransportDocs)
 
 **Non-Amazon-partnered shipments**
 
@@ -174,7 +174,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">ShipmentId</span></td>
 <td><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
 <td>Yes</td>
-<td>Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.html#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
+<td>Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -232,7 +232,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">TransportDocument</span></td>
 <td>PDF document data and checksum.
-<p>Type: <a href="FBAInbound_Datatypes.html#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>
 </table>

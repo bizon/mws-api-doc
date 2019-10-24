@@ -55,7 +55,7 @@ instructions to help you prepare items for shipment to
 
 If you have not yet listed an item and only want item preparation
 instructions to help with sourcing decisions for that item, use the
-[<span class="keyword apiname">GetPrepInstructionsForASIN</span>](FBAInbound_GetPrepInstructionsForASIN.html "Returns item preparation instructions to help with item sourcing decisions.")
+[<span class="keyword apiname">GetPrepInstructionsForASIN</span>](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
 operation.
 
 <div class="note important">
@@ -182,12 +182,12 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">SKUPrepInstructionsList</span></td>
 <td><span class="ph">Labeling requirements and item preparation instructions to help you prepare items for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>
-<p>Type: List of <a href="FBAInbound_Datatypes.html#SKUPrepInstructions" class="xref" title="Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon&#39;s fulfillment network.">SKUPrepInstructions</a></p></td>
+<p>Type: List of <a href="FBAInbound_Datatypes.md#SKUPrepInstructions" class="xref" title="Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon&#39;s fulfillment network.">SKUPrepInstructions</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">InvalidSKUList</span></td>
 <td>A list of invalid <span class="keyword parmname">SellerSKU</span> values and the reasons they are invalid.
-<p>Type: List of <a href="FBAInbound_Datatypes.html#InvalidSKU" class="xref" title="An invalid Seller SKU and the reason it is invalid.">InvalidSKU</a></p></td>
+<p>Type: List of <a href="FBAInbound_Datatypes.md#InvalidSKU" class="xref" title="An invalid Seller SKU and the reason it is invalid.">InvalidSKU</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -319,7 +319,7 @@ code</span> </span>
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.html "Returns item preparation instructions to help with item sourcing decisions.")
+[GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
 
 </div>
 

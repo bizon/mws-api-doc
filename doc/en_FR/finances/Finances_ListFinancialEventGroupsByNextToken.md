@@ -149,7 +149,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">FinancialEventGroupList</span></td>
 <td>Contains the financial event groups that meet the criteria specified in the request.
-<p>Type: List of <a href="Finances_Datatypes.html#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
+<p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>
 </table>

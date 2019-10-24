@@ -148,7 +148,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">FinancialEvents</span></td>
 <td>Contains the financial events that meet the criteria specified in the request.
-<p>Type: <a href="Finances_Datatypes.html#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
+<p>Type: <a href="Finances_Datatypes.md#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
 </tr>
 </tbody>
 </table>

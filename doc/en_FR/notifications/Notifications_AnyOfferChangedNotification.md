@@ -278,19 +278,19 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">LandedPrice</span></td>
 <td><span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span>.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ListingPrice</span></td>
 <td>The price of the item.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Shipping</span></td>
 <td>The shipping cost.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Points</span></td>
@@ -351,7 +351,7 @@ The following table shows the attributes of the
 <td>fulfillmentChannel</td>
 <td><span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -385,19 +385,19 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">LandedPrice</span></td>
 <td><span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span>.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ListingPrice</span></td>
 <td>The price of the item.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Shipping</span></td>
 <td>The shipping cost.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Points</span></td>
@@ -477,7 +477,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">ListingPrice</span></td>
 <td>The price of the item.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Points</span></td>
@@ -492,7 +492,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">Shipping</span></td>
 <td>The shipping cost.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ShipsFrom</span></td>
@@ -587,7 +587,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>The marketplace identifier of the item that had an offer change.
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASIN</span></td>
@@ -669,7 +669,7 @@ The following table shows the attributes of the
 <td>fulfillmentChannel</td>
 <td><span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>
 <p>Required.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -950,7 +950,7 @@ The following table shows the attributes of the
 <td>availabilityType</td>
 <td><span class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.
 <p>Optional.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#SimpleTypes__AvailabilityType" class="xref">AvailabilityType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__AvailabilityType" class="xref">AvailabilityType</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -1069,13 +1069,13 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">ListPrice</span></td>
 <td>The list price of the item as suggested by the manufacturer.
 <p>Optional.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SuggestedLowerPricePlusShipping</span></td>
 <td>The suggested lower price of the item, including shipping (minus Amazon Points). The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products.
 <p>Optional.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SalesRankings</span></td>
@@ -1093,7 +1093,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">CompetitivePriceThreshold</span></td>
 <td>This price is based on competitive prices from other retailers (excluding other Amazon sellers). Your offer may be ineligible for the Buy Box if Your price + shipping is greater than this competitive price.
 <p>Optional.</p>
-<p>Type: <a href="Notifications_MWSPushNotificationCommon.html#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
+<p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
 </tbody>
 </table>

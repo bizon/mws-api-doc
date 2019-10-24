@@ -40,7 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body">
 
 The [CreateShipment](MerchFulfill_CreateShipment.md) and
-[GetShipment](MerchFulfill_GetShipment.html "Returns an existing shipment for a given identifier.")
+[GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
 operations return a shipping label file in PDF, PNG, or ZPL format,
 depending on the carrier. Amazon compresses the document data before
 returning it as a Base64-encoded string.

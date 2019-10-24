@@ -94,7 +94,7 @@ Guide</span>.</span>
 
 | Name                                                | Description                                                                                                                                                                                        | Required | Values                               |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------ |
-| <span class="keyword parmname">PackageNumber</span> | Unencrypted package identifier returned by the [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.") operation. | Yes      | <span class="ph">Type: xs:int</span> |
+| <span class="keyword parmname">PackageNumber</span> | Unencrypted package identifier returned by the [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.") operation. | Yes      | <span class="ph">Type: xs:int</span> |
 
 </div>
 
@@ -155,7 +155,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">ShipToAddress</span></td>
 <td>The destination city for the package.
-<p>Type: <a href="FBAOutbound_Datatypes.html#TrackingAddress" class="xref" title="Address information for tracking the package.">TrackingAddress</a></p></td>
+<p>Type: <a href="FBAOutbound_Datatypes.md#TrackingAddress" class="xref" title="Address information for tracking the package.">TrackingAddress</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CurrentStatus</span></td>
@@ -186,7 +186,7 @@ Guide</span>.</span>
 <tr class="odd">
 <td><span class="keyword parmname">TrackingEvents</span></td>
 <td>A list of tracking events.
-<p>Type: List of <a href="FBAOutbound_Datatypes.html#TrackingEvent" class="xref" title="Information for tracking package deliveries.">TrackingEvent</a></p></td>
+<p>Type: List of <a href="FBAOutbound_Datatypes.md#TrackingEvent" class="xref" title="Information for tracking package deliveries.">TrackingEvent</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">AdditionalLocationInfo</span></td>
@@ -350,7 +350,7 @@ code</span> </span>
 [What you should know about the Fulfillment Outbound Shipment API
 section](FBAOutbound_Overview.md)
 
-[GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.html "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+[GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
 </div>
 

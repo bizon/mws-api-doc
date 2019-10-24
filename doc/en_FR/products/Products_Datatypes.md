@@ -132,10 +132,10 @@ Box.</span>
 
 | Name                                               | Description                                                                                                                                        | Required | Values                                                                                                                                                                   |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">LandedPrice</span>  | <span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span> | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                                                             | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                                                 | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                  | No       | Type: [Points](Products_Datatypes.html#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
+| <span class="keyword parmname">LandedPrice</span>  | <span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span> | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                                                             | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                                                 | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                  | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
 
 </div>
 
@@ -192,14 +192,14 @@ once an order has been placed.</span>
 <td>availableDate</td>
 <td>The date when the item will be available for shipping. Only displayed for items that are not currently available for shipping.</td>
 <td>No</td>
-<td><span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>
+<td><span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td>availabilityType</td>
 <td><span id="DetailedShippingTimeType__d50082e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.</td>
 <td>No</td>
-<td>Type: <a href="Products_Datatypes.html#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
+<td>Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
 </tr>
 </tbody>
 </table>
@@ -235,12 +235,12 @@ Central.</span>
 
 | Name                                                        | Description                                                                              | Required | Values                                                                                                         |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50082e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.html#FeeType "The type of fee charged to a seller.")                        |
-| <span class="keyword parmname">FeeAmount</span>             | The amount charged for a given fee.                                                      | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">FeePromotion</span>          | The promotion amount for a given fee.                                                    | No       | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">TaxAmount</span>             | The tax amount for a given fee. This is only shown for the India marketplace.            | No       | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">FinalFee</span>              | The final fee amount for a given fee.                                                    | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">IncludedFeeDetailList</span> | A list of other fees that contributes to a given fee.                                    | No       | Type: List of [FeeDetail](Products_Datatypes.html#FeeDetail "The type of fee, fee amount, and other details.") |
+| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50082e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.md#FeeType "The type of fee charged to a seller.")                        |
+| <span class="keyword parmname">FeeAmount</span>             | The amount charged for a given fee.                                                      | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">FeePromotion</span>          | The promotion amount for a given fee.                                                    | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">TaxAmount</span>             | The tax amount for a given fee. This is only shown for the India marketplace.            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">FinalFee</span>              | The final fee amount for a given fee.                                                    | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">IncludedFeeDetailList</span> | A list of other fees that contributes to a given fee.                                    | No       | Type: List of [FeeDetail](Products_Datatypes.md#FeeDetail "The type of fee, fee amount, and other details.") |
 
 </div>
 
@@ -267,8 +267,8 @@ details.</span>
 
 | Name                                                    | Description                                                               | Required | Values                                                                                                         |
 | ------------------------------------------------------- | ------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">TotalFeesEstimate</span> | Total estimated fees for a given product, price, and fulfillment channel. | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">FeeDetailList</span>     | A list of other fees that contributes to a given fee.                     | Yes      | Type: List of [FeeDetail](Products_Datatypes.html#FeeDetail "The type of fee, fee amount, and other details.") |
+| <span class="keyword parmname">TotalFeesEstimate</span> | Total estimated fees for a given product, price, and fulfillment channel. | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">FeeDetailList</span>     | A list of other fees that contributes to a given fee.                     | Yes      | Type: List of [FeeDetail](Products_Datatypes.md#FeeDetail "The type of fee, fee amount, and other details.") |
 
 </div>
 
@@ -313,7 +313,7 @@ other details that identify an estimate.</span>
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IdType</span></td>
@@ -332,7 +332,7 @@ other details that identify an estimate.</span>
 <td><span class="keyword parmname">PriceToEstimateFees</span></td>
 <td>The product price that the fee estimate is based on.</td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
+<td>Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsAmazonFulfilled</span></td>
@@ -398,7 +398,7 @@ request estimated fees.</span>
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IdType</span></td>
@@ -417,7 +417,7 @@ request estimated fees.</span>
 <td><span class="keyword parmname">PriceToEstimateFees</span></td>
 <td>The product price that the fee estimate is based on.</td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
+<td>Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Identifier</span></td>
@@ -477,13 +477,13 @@ product.</span>
 <td><span class="keyword parmname">FeesEstimateIdentifier</span></td>
 <td>Information used to identify a product fee request.</td>
 <td>Yes</td>
-<td>Type: <a href="Products_Datatypes.html#FeesEstimateIdentifier" class="xref" title="A product identifier, marketplace, time of request, and other details that identify an estimate.">FeesEstimateIdentifier</a></td>
+<td>Type: <a href="Products_Datatypes.md#FeesEstimateIdentifier" class="xref" title="A product identifier, marketplace, time of request, and other details that identify an estimate.">FeesEstimateIdentifier</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeesEstimate</span></td>
 <td><span class="ph">The total estimated fees for a product and a list of details.</span></td>
 <td>No</td>
-<td>Type: <a href="Products_Datatypes.html#FeesEstimate" class="xref" title="The total estimated fees for a product and a list of details.">FeesEstimate</a></td>
+<td>Type: <a href="Products_Datatypes.md#FeesEstimate" class="xref" title="The total estimated fees for a product and a list of details.">FeesEstimate</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Status</span></td>
@@ -505,7 +505,7 @@ product.</span>
 
 For information on handling the Status or Error elements, see
 [Processing bulk operation
-requests](Products_ProcessingBulkOperationRequests.html "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
+requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
 
 </div>
 
@@ -584,7 +584,7 @@ item.</span>
 | Name               | Description                                                                                                               | Required | Values                                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.   | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="LowestPrice__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.html#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| fulfillmentChannel | <span id="LowestPrice__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -598,10 +598,10 @@ item.</span>
 
 | Name                                               | Description                                                                                                                                        | Required | Values                                                                                                                                                                   |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">LandedPrice</span>  | <span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span> | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                                                             | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                                                 | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                  | No       | Type: [Points](Products_Datatypes.html#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
+| <span class="keyword parmname">LandedPrice</span>  | <span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span> | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                                                             | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                                                 | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                  | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
 
 </div>
 
@@ -676,7 +676,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CurrencyCode</span></td>
-<td>The currency code in <span class="ph"> <a href="../dev_guide/DG_ISO4217.html" class="xref">ISO 4217 format</a> </span>.</td>
+<td>The currency code in <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span>
 <div class="p">
@@ -723,7 +723,7 @@ condition.</span>
 | Name               | Description                                                                                                              | Required | Values                                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.  | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="OfferCount__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.html#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| fulfillmentChannel | <span id="OfferCount__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -761,7 +761,7 @@ channel.</span>
 
 | Name                                             | Description                                                                                           | Required | Values                                                                                                                                 |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">OfferCount</span> | <span class="ph">The number of offers in a fulfillment channel that meet a specific condition.</span> | No       | Type: [OfferCount](Products_Datatypes.html#OfferCount "The number of offers in a fulfillment channel that meet a specific condition.") |
+| <span class="keyword parmname">OfferCount</span> | <span class="ph">The number of offers in a fulfillment channel that meet a specific condition.</span> | No       | Type: [OfferCount](Products_Datatypes.md#OfferCount "The number of offers in a fulfillment channel that meet a specific condition.") |
 
 </div>
 
@@ -817,9 +817,9 @@ fees.</span>
 
 | Name                                               | Description                                                                                                       | Required | Values                                                                                                                                                                   |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                            | Yes      | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                | No       | Type: [MoneyType](Products_Datatypes.html#MoneyType "An amount of money in a specified currency.")                                                                       |
-| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span> | No       | Type: [Points](Products_Datatypes.html#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
+| <span class="keyword parmname">ListingPrice</span> | The price of the item.                                                                                            | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Shipping</span>     | The shipping cost.                                                                                                | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                       |
+| <span class="keyword parmname">Points</span>       | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span> | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.") |
 
 </div>
 

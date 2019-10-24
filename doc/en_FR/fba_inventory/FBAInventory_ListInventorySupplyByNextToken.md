@@ -136,7 +136,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">InventorySupplyList</span></td>
 <td>A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.
-<p>Type: List of <a href="FBAInventory_Datatypes.html#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a></p></td>
+<p>Type: List of <a href="FBAInventory_Datatypes.md#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -257,7 +257,7 @@ pages](../dev_guide/DG_NextToken.md)
 [What you should know about the Fulfillment Inventory API
 section](FBAInventory_Overview.md)
 
-[ListInventorySupply](FBAInventory_ListInventorySupply.html "Returns information about the availability of a seller's inventory.")
+[ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
 
 </div>
 

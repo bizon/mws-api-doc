@@ -127,7 +127,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">FeedTypeList</span></td>
-<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.html" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
 <td>No</td>
 <td>Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -136,23 +136,23 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">FeedProcessingStatusList</span></td>
 <td>A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
 <td>No</td>
-<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.html" class="xref">FeedProcessingStatus enumeration</a>.
+<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: 90 days ago
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.html" class="xref">ISO8601 date format</a>.</span></td>
+<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
 <td>No</td>
 <td>Default: Now
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -280,7 +280,7 @@ code</span> </span>
 [What you should know about the Amazon MWS Feeds API
 section](../feeds/Feeds_Overview.md)
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
+[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
 
 </div>
 

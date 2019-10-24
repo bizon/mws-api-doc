@@ -148,7 +148,7 @@ Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">ShipmentData</span></td>
 <td>Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
-<p>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -287,7 +287,7 @@ pages](../dev_guide/DG_NextToken.md)
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[ListInboundShipments](FBAInbound_ListInboundShipments.html "Returns a list of inbound shipments based on criteria that you specify.")
+[ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
 
 </div>
 

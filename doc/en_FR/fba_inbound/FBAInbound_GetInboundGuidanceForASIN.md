@@ -141,7 +141,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td>A marketplace identifier. Specifies the marketplace where the product would be stored.</td>
 <td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -195,7 +195,7 @@ are:
 
 | Name                                                          | Description                                            | Required | Values                                                                                                                                                                         |
 | ------------------------------------------------------------- | ------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ASINInboundGuidanceList</span> | A list of ASINs and their associated inbound guidance. | Yes      | Type: List of [ASINInboundGuidance](FBAInbound_Datatypes.html#ASINInboundGuidance "Reasons why a given ASIN is not recommended for shipment to Amazon's fulfillment network.") |
+| <span class="keyword parmname">ASINInboundGuidanceList</span> | A list of ASINs and their associated inbound guidance. | Yes      | Type: List of [ASINInboundGuidance](FBAInbound_Datatypes.md#ASINInboundGuidance "Reasons why a given ASIN is not recommended for shipment to Amazon's fulfillment network.") |
 | <span class="keyword parmname">InvalidASINList</span>         | A list of ASINs that were not found.                   | No       | <span class="ph">Type: List of xs:string</span>                                                                                                                                |
 
 </div>

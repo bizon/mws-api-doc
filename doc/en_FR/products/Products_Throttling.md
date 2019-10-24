@@ -167,7 +167,7 @@ API section](../products/Products_Overview.md)
 <div>
 
 [Processing bulk operation
-requests](../products/Products_ProcessingBulkOperationRequests.html "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
+requests](../products/Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
 
 </div>
 

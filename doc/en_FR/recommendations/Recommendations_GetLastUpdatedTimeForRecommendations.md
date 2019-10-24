@@ -175,28 +175,28 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">InventoryRecommendationsLastUpdated</span></td>
-<td>The date and time when the inventory recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the inventory recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PricingRecommendationsLastUpdated</span></td>
-<td>The date and time when the pricing recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the pricing recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span></td>
-<td>The date and time when the fulfillment recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
+<td>The date and time when the fulfillment recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
 <p>Optional</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">GlobalSellingRecommendationsLastUpdated</span></td>
-<td>The date and time when the global selling recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The date and time when the global selling recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span></td>
-<td>The date and time when the advertising recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
+<td>The date and time when the advertising recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
 <p>Optional</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>

@@ -106,22 +106,22 @@ element:
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">SellerId</span></td>
-<td>The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.html" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.html" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<td>The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportRequestId</span></td>
-<td><span class="ph">A unique report request identifier.</span> Use this value to identify the report request that this notification is associated with. For more information, see <a href="../reports/Reports_Overview.html" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<td><span class="ph">A unique report request identifier.</span> Use this value to identify the report request that this notification is associated with. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ReportId</span></td>
-<td><span class="ph">A unique report identifier.</span> Pass this value to the <a href="../reports/Reports_GetReport.html" class="xref">GetReport</a> operation to get a report.
+<td><span class="ph">A unique report identifier.</span> Pass this value to the <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a> operation to get a report.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReportType</span></td>
-<td>The <span class="keyword parmname">ReportType</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.html" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.html" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<td>The <span class="keyword parmname">ReportType</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">

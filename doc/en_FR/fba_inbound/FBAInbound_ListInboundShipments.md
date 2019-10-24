@@ -173,7 +173,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No
 <p>If <span class="keyword parmname">LastUpdatedBefore</span> is specified, then <span class="keyword parmname">LastUpdatedAfter</span> must be specified.</p></td>
 <td>Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
@@ -182,7 +182,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No
 <p>If <span class="keyword parmname">LastUpdatedAfter</span> is specified, then <span class="keyword parmname">LastUpdatedBefore</span> must be specified.</p></td>
 <td>Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
-<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</p>
+<p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -223,7 +223,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tr class="even">
 <td><span class="keyword parmname">ShipmentData</span></td>
 <td>Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
-<p>Type: <a href="FBAInbound_Datatypes.html#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
+<p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -368,9 +368,9 @@ pages](../dev_guide/DG_NextToken.md)
 [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md)
 
-[ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.html "Returns the next page of inbound shipments using the NextToken parameter.")
+[ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
 
-[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
+[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
 
 </div>
 

@@ -65,7 +65,7 @@ fees estimate with an original request.
 This operation allows up to 20 product requests in a single batch. For
 more information on processing the result, see [Processing bulk
 operation
-requests](Products_ProcessingBulkOperationRequests.html "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
+requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
 
 <div class="p">
 
@@ -159,7 +159,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span id="RequestParameters__d50082e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
 <td>Yes</td>
 <td>Maximum: 20 requests.
-<p>Type: List of <a href="Products_Datatypes.html#FeesEstimateRequest" class="xref" title="A product, marketplace, and proposed price used to request estimated fees.">FeesEstimateRequest</a></p></td>
+<p>Type: List of <a href="Products_Datatypes.md#FeesEstimateRequest" class="xref" title="A product, marketplace, and proposed price used to request estimated fees.">FeesEstimateRequest</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -203,7 +203,7 @@ are:
 
 | Name                                                         | Description                                  | Required | Values                                                                                                                                         |
 | ------------------------------------------------------------ | -------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeesEstimateResultList</span> | A list of products and their estimated fees. | Yes      | Type: List of [FeesEstimateResult](Products_Datatypes.html#FeesEstimateResult "A product identifier and the estimated fees for that product.") |
+| <span class="keyword parmname">FeesEstimateResultList</span> | A list of products and their estimated fees. | Yes      | Type: List of [FeesEstimateResult](Products_Datatypes.md#FeesEstimateResult "A product identifier and the estimated fees for that product.") |
 
 </div>
 
@@ -579,7 +579,7 @@ code</span> </span>
 [Products API](../products/Products_Overview.md)
 
 [Processing bulk operation
-requests](Products_ProcessingBulkOperationRequests.html "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
+requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
 
 </div>
 

@@ -53,7 +53,7 @@ offer listings for up to 20 products, based on
 
 The <span class="keyword apiname">GetLowestOfferListingsForASIN</span>
 operation is the same as the
-[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
+[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
 operation except that it uses a
 <span class="keyword parmname">MarketplaceId</span> and an
 <span class="keyword parmname">ASIN</span> to uniquely identify a
@@ -68,7 +68,7 @@ Instead of calling the
 <span class="keyword apiname">GetLowestOfferListingsForASIN</span>
 operation to obtain the lowest price offer listings for a specific
 product by item condition, consider calling the
-[GetLowestPricedOffersForASIN](Products_GetLowestPricedOffersForASIN.html "Returns lowest priced offers for a single product, based on ASIN.")
+[GetLowestPricedOffersForASIN](Products_GetLowestPricedOffersForASIN.md "Returns lowest priced offers for a single product, based on ASIN.")
 operation.
 
 You can also subscribe to the
@@ -105,12 +105,12 @@ marketplaces.
 </div>
 
 This quota and restore rate is shared with
-[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.").
+[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.").
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -163,7 +163,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASINList</span></td>
@@ -470,7 +470,7 @@ code</span> </span>
 [Products
 API](../products/Products_Overview.md)
 
-[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
+[GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
 
 </div>
 

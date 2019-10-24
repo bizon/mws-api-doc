@@ -125,21 +125,21 @@ section](../reports/Reports_Overview.md)
 <div>
 
 [Working with order
-reports](../reports/Reports_WorkingWithOrderReports.html "Describes how to schedule and manage order reports.")
+reports](../reports/Reports_WorkingWithOrderReports.md "Describes how to schedule and manage order reports.")
 
 </div>
 
 <div>
 
 [Using NextToken to request additional
-pages](../reports/Reports_UsingNextToken.html "Describes how to use the NextToken to receive more response elements than the maximum number of response elements allowed by an operation.")
+pages](../reports/Reports_UsingNextToken.md "Describes how to use the NextToken to receive more response elements than the maximum number of response elements allowed by an operation.")
 
 </div>
 
 <div>
 
 [Using multiple
-marketplaces](../reports/Reports_UsingMultipleMarketplaces.html "Describes the best practices to follow when you are registered to sell in multiple marketplaces.")
+marketplaces](../reports/Reports_UsingMultipleMarketplaces.md "Describes the best practices to follow when you are registered to sell in multiple marketplaces.")
 
 </div>
 

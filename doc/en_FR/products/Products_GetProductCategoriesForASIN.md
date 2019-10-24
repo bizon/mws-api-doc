@@ -52,7 +52,7 @@ belongs to, based on <span class="keyword parmname">ASIN</span>.</span>
 
 The <span class="keyword apiname">GetProductCategoriesForASIN</span>
 operation is the same as the
-[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.html "Returns the parent product categories that a product belongs to, based on SellerSKU.")
+[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.md "Returns the parent product categories that a product belongs to, based on SellerSKU.")
 operation except that it uses a
 <span class="keyword parmname">MarketplaceId</span> and an
 <span class="keyword parmname">ASIN</span> to uniquely identify a
@@ -82,12 +82,12 @@ marketplaces.
 </div>
 
 This quota and restore rate is shared with
-[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.html "Returns the parent product categories that a product belongs to, based on SellerSKU.").
+[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.md "Returns the parent product categories that a product belongs to, based on SellerSKU.").
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
 see [Throttling in the Products
-API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
+API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
@@ -140,7 +140,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>A marketplace identifier. Specifies the marketplace whose category structure should be returned.
 <p><span class="ph">Type: xs:string</span></p></td>
 <td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.html" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ASIN</span></td>
@@ -295,7 +295,7 @@ code</span> </span>
 [Products
 API](../products/Products_Overview.md)
 
-[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.html "Returns the parent product categories that a product belongs to, based on SellerSKU.")
+[GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.md "Returns the parent product categories that a product belongs to, based on SellerSKU.")
 
 </div>
 

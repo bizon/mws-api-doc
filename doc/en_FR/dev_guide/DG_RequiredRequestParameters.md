@@ -94,7 +94,7 @@ for all <span class="ph">Amazon MWS</span> operations:
 <td><span class="keyword parmname">Signature</span></td>
 <td>Part of the authentication process that is used for identifying and verifying who is sending a request.</td>
 <td>Yes</td>
-<td>For more information on how to calculate the signature, see <a href="DG_ClientLibraries.html" class="xref">Using the Amazon MWS client libraries</a>.
+<td>For more information on how to calculate the signature, see <a href="DG_ClientLibraries.md" class="xref">Using the Amazon MWS client libraries</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -120,9 +120,9 @@ for all <span class="ph">Amazon MWS</span> operations:
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Timestamp</span></td>
-<td>Each request must contain the timestamp of the request. Depending on the API operation you are using, you can provide an expiration date and time for the request instead of the timestamp. In <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.</td>
+<td>Each request must contain the timestamp of the request. Depending on the API operation you are using, you can provide an expiration date and time for the request instead of the timestamp. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>Yes</td>
-<td>The current date and time or the expiration date and time for the request in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>The current date and time or the expiration date and time for the request in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">

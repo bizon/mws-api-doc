@@ -167,7 +167,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td>Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>.
+<td>Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd">
@@ -179,7 +179,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td>Any date later than <span class="keyword parmname">PostedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.html" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">PostedAfter</span> and <span class="keyword parmname">PostedBefore</span> are more than 180 days apart, no financial events are returned.
+<td>Any date later than <span class="keyword parmname">PostedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">PostedAfter</span> and <span class="keyword parmname">PostedBefore</span> are more than 180 days apart, no financial events are returned.
 <p>You must specify the <span class="keyword parmname">PostedAfter</span> request parameter if you specify this request parameter.</p>
 <p>Default: Now minus two minutes</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -224,7 +224,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <tr class="even">
 <td><span class="keyword parmname">FinancialEvents</span></td>
 <td>Contains the financial events that meet the criteria specified in the request.
-<p>Type: <a href="Finances_Datatypes.html#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
+<p>Type: <a href="Finances_Datatypes.md#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
 </tr>
 </tbody>
 </table>

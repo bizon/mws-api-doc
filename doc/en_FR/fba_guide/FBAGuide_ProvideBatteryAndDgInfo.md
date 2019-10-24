@@ -60,7 +60,7 @@ guide](https://sellercentral-europe.amazon.com/gp/help/201003400).
 
 For more information about creating listings for
 <span class="ph">FBA</span> inventory see [Step 1 - Create a listing and
-convert it to FBA](FBAGuide_CreateListing.html#FBAGuide_CreateListing).
+convert it to FBA](FBAGuide_CreateListing.md#FBAGuide_CreateListing).
 
 </div>
 
