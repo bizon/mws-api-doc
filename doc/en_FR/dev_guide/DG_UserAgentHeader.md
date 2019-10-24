@@ -110,7 +110,7 @@ characters.
 
 <div class="body">
 
-[Using the Amazon MWS client libraries](DG_ClientLibraries.html)
+[Using the Amazon MWS client libraries](DG_ClientLibraries.md)
 
 </div>
 

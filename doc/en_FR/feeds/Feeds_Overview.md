@@ -42,13 +42,13 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 ## In this section
 
   - **[Use FeedProcessingFinishedNotification when submitting a
-    feed](../feeds/Feeds_UseFeedProcessingFinished.html)**  
-  - **[FeedTypes](../feeds/Feeds_FeedTypes.html)**  
+    feed](../feeds/Feeds_UseFeedProcessingFinished.md)**  
+  - **[FeedTypes](../feeds/Feeds_FeedTypes.md)**  
   - **[Using the Content-MD5 hash with the SubmitFeed and
-    GetFeedSubmissionResult operations](../feeds/Feeds_MD5.html)**  
-  - **[Feeds Processing](../feeds/Feeds_Processing.html)**  
+    GetFeedSubmissionResult operations](../feeds/Feeds_MD5.md)**  
+  - **[Feeds Processing](../feeds/Feeds_Processing.md)**  
   - **[Using multiple
-    marketplaces](../feeds/Feeds_EU_Global_Seller.html)**  
+    marketplaces](../feeds/Feeds_EU_Global_Seller.md)**  
 
 </div>
 
@@ -73,7 +73,7 @@ The process for submitting feeds is as follows:
     <span class="keyword apiname">SubmitFeed</span> operation along with
     an encrypted header and all required metadata, including a value
     from the
-    [<span class="keyword apiname">FeedType</span>](../feeds/Feeds_FeedType.html).
+    [<span class="keyword apiname">FeedType</span>](../feeds/Feeds_FeedType.md).
     As with all submissions to <span class="ph">Amazon MWS</span>, you
     must also include authentication information. The
     <span class="keyword apiname">SubmitFeed</span> operation returns a
@@ -93,7 +93,7 @@ The process for submitting feeds is as follows:
     exceeding the throttling limits of the
     <span class="keyword apiname">GetFeedSubmissionList</span>
     operation. For more information, see
-    [FeedProcessingFinishedNotification](../notifications/Notifications_FeedProcessingFinishedNotification.html).
+    [FeedProcessingFinishedNotification](../notifications/Notifications_FeedProcessingFinishedNotification.md).
     </div>
 2.  If <span class="ph">Amazon MWS</span> is still processing a request,
     the <span class="keyword parmname">FeedProcessingStatus</span>
@@ -134,12 +134,12 @@ operations:
 
 | Operation                                                                                                                                                        | Description                                                                                                                     | Availability                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| [SubmitFeed](../feeds/Feeds_SubmitFeed.html)                                                                                                                     | <span class="ph">Uploads a feed for processing by <span class="ph">Amazon MWS</span>.</span>                                    | <span class="ph">All marketplaces.</span> |
+| [SubmitFeed](../feeds/Feeds_SubmitFeed.md)                                                                                                                     | <span class="ph">Uploads a feed for processing by <span class="ph">Amazon MWS</span>.</span>                                    | <span class="ph">All marketplaces.</span> |
 | [GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")                            | <span class="ph">Returns a list of all feed submissions submitted in the previous 90 days.</span>                               | <span class="ph">All marketplaces.</span> |
 | [GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.html "Returns a list of feed submissions using the NextToken parameter.")              | <span class="ph">Returns a list of feed submissions using the <span class="keyword parmname">NextToken</span> parameter.</span> | <span class="ph">All marketplaces.</span> |
 | [GetFeedSubmissionCount](Feeds_GetFeedSubmissionCount.html "Returns a count of the feeds submitted in the previous 90 days.")                                    | <span class="ph">Returns a count of the feeds submitted in the previous 90 days.</span>                                         | <span class="ph">All marketplaces.</span> |
 | [CancelFeedSubmissions](Feeds_CancelFeedSubmissions.html "Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.") | <span class="ph">Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.</span>    | <span class="ph">All marketplaces.</span> |
-| [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)                                                                                           | <span class="ph">Returns the feed processing report and the Content-MD5 header.</span>                                          | <span class="ph">All marketplaces.</span> |
+| [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)                                                                                           | <span class="ph">Returns the feed processing report and the Content-MD5 header.</span>                                          | <span class="ph">All marketplaces.</span> |
 
 </div>
 

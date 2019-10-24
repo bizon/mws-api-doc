@@ -94,7 +94,7 @@ see [Throttling in the Products
 API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
@@ -125,7 +125,7 @@ without using any of your
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -536,7 +536,7 @@ or 20, whichever is less.
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -575,7 +575,7 @@ User-Agent: <Your User Agent Header>
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -685,7 +685,7 @@ code</span> </span>
 ### Example response (Success with no offers)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -726,7 +726,7 @@ code</span> </span>
 ### Example response (Missing shipping charge)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -767,7 +767,7 @@ code</span> </span>
 ### Example response (Active but too soon for processing)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -807,7 +807,7 @@ code</span> </span>
 ### Example response (Server error)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -842,7 +842,7 @@ code</span> </span>
 ### Example response (Invalid ASIN)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -883,7 +883,7 @@ code</span> </span>
 <div class="body">
 
 [Products
-API](../products/Products_Overview.html)
+API](../products/Products_Overview.md)
 
 [GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.html "Returns lowest priced offers for a single product, based on SellerSKU.")
 

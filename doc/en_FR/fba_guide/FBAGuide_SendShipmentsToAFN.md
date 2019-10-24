@@ -44,7 +44,7 @@ information about sending shipments to
 <span id="ShipItems__AmazonsFN" class="ph">Amazon's fulfillment
 network</span>, see the Amazon Seller Central Help for your marketplace.
 For more information, see [Using an Amazon-partnered carrier for your
-inbound shipment](FBAGuide_UsingAmazonCarrierToShip.html).
+inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
 
 </div>
 
@@ -55,21 +55,21 @@ inbound shipment](FBAGuide_UsingAmazonCarrierToShip.html).
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 9 - Request pallet labels or bills of lading
-(LTL/FTL only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.html)
+(LTL/FTL only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 11 - Mark your shipments as
-shipped](../fba_guide/FBAGuide_MarkShipmentShipped.html)
+shipped](../fba_guide/FBAGuide_MarkShipmentShipped.md)
 
 </div>
 

@@ -72,7 +72,7 @@ Amazon MWS](../dev_guide/DG_Registering.html#DG_Registering).
 You can build applications that use the <span class="ph">Merchant
 Fulfillment service</span> to fulfill Prime orders for sellers. See [How
 to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html).
+orders](MerchFulfill_HowToUseForPrime.md).
 
 **Terms and conditions**
 
@@ -92,7 +92,7 @@ page of Seller Central. Calling the Merchant Fulfillment service on
 behalf of a seller who has not accepted the terms and conditions of
 Amazon and the carrier returns the
 <span class="keyword parmname">TermsAndConditionsNotAccepted</span>
-error. See [Error codes](MerchFulfill_ErrorCodes.html).
+error. See [Error codes](MerchFulfill_ErrorCodes.md).
 
 </div>
 
@@ -109,7 +109,7 @@ service</span>
 | Operation                                                                                                                                        | Description                                                                                                         | Availability                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")                        | <span class="ph">Returns a list of shipping service offers.</span>                                                  | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
-| [CreateShipment](MerchFulfill_CreateShipment.html)                                                                                               | <span class="ph">Purchases shipping and returns a shipping label.</span>                                            | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
+| [CreateShipment](MerchFulfill_CreateShipment.md)                                                                                               | <span class="ph">Purchases shipping and returns a shipping label.</span>                                            | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
 | [GetShipment](MerchFulfill_GetShipment.html "Returns an existing shipment for a given identifier.")                                              | <span class="ph">Returns an existing shipment for a given identifier.</span>                                        | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
 | [CancelShipment](MerchFulfill_CancelShipment.html "Cancels an existing shipment.")                                                               | <span class="ph">Cancels an existing shipment.</span>                                                               | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
 | [GetServiceStatus](../fba_outbound/MWS_GetServiceStatus.html "Returns the operational status of the Fulfillment Outbound Shipment API section.") | <span class="ph">Returns the operational status of the <span class="ph">Merchant Fulfillment service</span>.</span> | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
@@ -142,13 +142,13 @@ service</span>
 ## In this section
 
   - **[How to fulfill Seller Fulfilled Prime
-    orders](../merch_fulfill/MerchFulfill_HowToUseForPrime.html)**  
+    orders](../merch_fulfill/MerchFulfill_HowToUseForPrime.md)**  
   - **[How to reprint a shipping
-    label](../merch_fulfill/MerchFulfill_HowToGetNewShippingLabel.html)**  
+    label](../merch_fulfill/MerchFulfill_HowToGetNewShippingLabel.md)**  
   - **[How to cancel a
-    shipment](../merch_fulfill/MerchFulfill_HowToCancelShipment.html)**  
+    shipment](../merch_fulfill/MerchFulfill_HowToCancelShipment.md)**  
   - **[How to extract a shipping label
-    file](../merch_fulfill/MerchFulfill_HowToExtractShippingLabel.html)**  
+    file](../merch_fulfill/MerchFulfill_HowToExtractShippingLabel.md)**  
 
 </div>
 

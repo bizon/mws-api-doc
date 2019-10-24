@@ -62,10 +62,10 @@ detailed information.
 
 ## In this section
 
-  - **[ISO 8601 use in Amazon MWS](../dev_guide/DG_ISO8601.html)**  
-  - **[ISO 4217 use in Amazon MWS](../dev_guide/DG_ISO4217.html)**  
-  - **[ISO 639-1 use in Amazon MWS](../dev_guide/DG_ISO639.html)**  
-  - **[ISO 8859-1 use in Amazon MWS](../dev_guide/DG_ISO8859.html)**  
+  - **[ISO 8601 use in Amazon MWS](../dev_guide/DG_ISO8601.md)**  
+  - **[ISO 4217 use in Amazon MWS](../dev_guide/DG_ISO4217.md)**  
+  - **[ISO 639-1 use in Amazon MWS](../dev_guide/DG_ISO639.md)**  
+  - **[ISO 8859-1 use in Amazon MWS](../dev_guide/DG_ISO8859.md)**  
 
 </div>
 

@@ -58,7 +58,7 @@ Central Help.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 </div>
 

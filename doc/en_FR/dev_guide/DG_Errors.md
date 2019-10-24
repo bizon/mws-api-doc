@@ -137,8 +137,8 @@ backoff times and limit will depend upon your business processes.
     codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
     (Wikipedia)
   - [Throttling: Limits to how often you can submit
-    requests](../dev_guide/DG_Throttling.html)
-  - [Working with Content-MD5 checksums](DG_MD5.html)
+    requests](../dev_guide/DG_Throttling.md)
+  - [Working with Content-MD5 checksums](DG_MD5.md)
 
 </div>
 
@@ -148,9 +148,9 @@ backoff times and limit will depend upon your business processes.
 
 ## In this section
 
-  - **[Example HTTP errors](../dev_guide/DG_Errors_Examples.html)**  
+  - **[Example HTTP errors](../dev_guide/DG_Errors_Examples.md)**  
   - **[Example Client Side
-    errors](../dev_guide/DG_Errors_ClientExamples.html)**  
+    errors](../dev_guide/DG_Errors_ClientExamples.md)**  
 
 </div>
 

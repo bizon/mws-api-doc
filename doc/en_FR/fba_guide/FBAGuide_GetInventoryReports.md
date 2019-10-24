@@ -50,15 +50,15 @@ or through other retail channels.
 ## In this section
 
   - **[Inventory reporting using the Reports API
-    section](../fba_guide/FBAGuide_InvReportingUsingRepAPI.html)**  
+    section](../fba_guide/FBAGuide_InvReportingUsingRepAPI.md)**  
   - **[Inventory reporting using the Fulfillment Inventory API
-    section](../fba_guide/FBAGuide_InvReportingUsingInvAPI.html)**  
+    section](../fba_guide/FBAGuide_InvReportingUsingInvAPI.md)**  
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

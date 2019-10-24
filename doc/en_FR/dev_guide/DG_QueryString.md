@@ -145,11 +145,11 @@ section "Signing the query request."
 
 <div class="body">
 
-[Using the Amazon MWS client libraries](DG_ClientLibraries.html)
+[Using the Amazon MWS client libraries](DG_ClientLibraries.md)
 
-[Working with Timestamps](DG_Timestamps.html)
+[Working with Timestamps](DG_Timestamps.md)
 
-[Signing a Query Request](DG_SigningQueryRequest.html)
+[Signing a Query Request](DG_SigningQueryRequest.md)
 
 </div>
 

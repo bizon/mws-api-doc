@@ -51,7 +51,7 @@ customers.
 There are no fees associated with <span class="ph">Amazon MWS</span>,
 but to use the <span class="ph">Amazon MWS</span> API you must have an
 <span class="ph">Amazon MWS</span>-eligible seller account and you must
-[register](DG_Registering.html) to use <span class="ph">Amazon
+[register](DG_Registering.md) to use <span class="ph">Amazon
 MWS</span>.
 
 <div class="section">

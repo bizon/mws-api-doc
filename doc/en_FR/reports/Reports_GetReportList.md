@@ -87,7 +87,7 @@ marketplaces.
 
 <span class="ph">For definitions of throttling terminology and for a
 complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.html) in the
+you can submit requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -109,7 +109,7 @@ you can submit requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -240,7 +240,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -281,7 +281,7 @@ AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -327,12 +327,12 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.html)
+Section](../reports/Reports_Overview.md)
 
 [GetReportListByNextToken](Reports_GetReportListByNextToken.html "Returns a list of reports using the NextToken, which was supplied by a previous request to either GetReportListByNextToken or GetReportList, where the value of HasNext was true in the previous call.")
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 </div>
 

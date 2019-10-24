@@ -131,12 +131,12 @@ Destinations</span>
 ## In this section
 
   - **[Receiving
-    notifications](../subscriptions/Subscriptions_ReceivingNotifications.html)**  
+    notifications](../subscriptions/Subscriptions_ReceivingNotifications.md)**  
     Describes how to set up a
     <span class="keyword parmname">Destination</span> to receive
     notifications.
   - **[Processing
-    notifications](../subscriptions/Subscriptions_ProcessingNotifications.html)**  
+    notifications](../subscriptions/Subscriptions_ProcessingNotifications.md)**  
     Describes how to process a notification that you have received.
 
 </div>

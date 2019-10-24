@@ -51,7 +51,7 @@ side error examples and possible solutions to the problem.
 <div class="parentlink">
 
 **Parent topic:** [Handling
-errors](../dev_guide/DG_Errors.html)
+errors](../dev_guide/DG_Errors.md)
 
 </div>
 
@@ -73,7 +73,7 @@ The User-Agent header sent with the request was not in a valid format.
 
 Build the User-Agent header using code from the <span class="ph">Amazon
 MWS</span> client library or see the documentation for an acceptable
-format for the [User-Agent header](DG_ClientLibraries.html).
+format for the [User-Agent header](DG_ClientLibraries.md).
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example

@@ -92,7 +92,7 @@ marketplaces.
 
 <span class="ph">For definitions of throttling terminology and for a
 complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.html) in the
+you can submit requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -114,7 +114,7 @@ you can submit requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -260,7 +260,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -306,7 +306,7 @@ AWSAccessKeyId=0PExampleR2
 response to a successful request or subscription. If the request is
 unsuccessful, the main response element is
 <span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.html)
+information, see [Response format](../dev_guide/DG_ResponseFormat.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -352,12 +352,12 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 [GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.html "Returns a list of feed submissions using the NextToken parameter.")
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 </div>
 

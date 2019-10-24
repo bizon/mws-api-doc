@@ -102,7 +102,7 @@ can call the
 to get an estimate of the shipping cost of an inbound shipment using an
 Amazon-partnered carrier. <span class="ph">For more information, see
 [Using an Amazon-partnered carrier for your inbound
-shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.html) in the
+shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md) in the
 MWS for FBA Sellers guide.</span>
 
 </div>
@@ -130,7 +130,7 @@ shipment. Calling the
     Parcel</span> shipments.
 
 For more information, see [Step 6 - Send shipment tracking numbers to
-Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.html) in the MWS for
+Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md) in the MWS for
 FBA Sellers guide.
 
 </div>
@@ -152,7 +152,7 @@ has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -172,7 +172,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -284,7 +284,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -322,7 +322,7 @@ PackageList.member.1.TrackingId=A135KKEKWF1J5666
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -356,7 +356,7 @@ code</span> </span>
 ### Example error response (InvalidParameterValue)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -393,9 +393,9 @@ code</span> </span>
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 [EstimateTransportRequest](FBAInbound_EstimateTransportRequest.html "Requests an estimate of the shipping cost for an inbound shipment.")
 

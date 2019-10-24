@@ -59,10 +59,10 @@ inbound shipment. This operation returns the
 include a <span class="keyword parmname">ShipmentId</span> value for a
 <span class="ph">Small Parcel</span> shipment. <span class="ph">For
 information about extracting PDF document data, see [Extracting PDF
-Document Data](FBAInbound_ExtractingPdfDocumentData.html).</span> For
+Document Data](FBAInbound_ExtractingPdfDocumentData.md).</span> For
 more information about creating inbound shipments, see [Shipping
 inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html).
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md).
 
 </div>
 
@@ -82,7 +82,7 @@ The <span class="keyword apiname">GetPalletLabels</span> operation has a
 **maximum request quota** of 30 and a **restore rate** of two requests
 every second. <span class="ph">For definitions of throttling terminology
 and for a complete explanation of throttling, see [Throttling: Limits to
-how often you can submit requests](../dev_guide/DG_Throttling.html) in
+how often you can submit requests](../dev_guide/DG_Throttling.md) in
 the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -102,7 +102,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -208,7 +208,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -242,7 +242,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -286,11 +286,11 @@ code</span> </span>
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html)
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
 
-[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html)
+[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
 
 </div>
 

@@ -229,9 +229,9 @@ AWSAccessKeyId=0PExampleR2
 
 <div class="body">
 
-[Working with Content-MD5 checksums](DG_MD5.html)
+[Working with Content-MD5 checksums](DG_MD5.md)
 
-[Response format](../dev_guide/DG_ResponseFormat.html)
+[Response format](../dev_guide/DG_ResponseFormat.md)
 
 </div>
 

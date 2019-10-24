@@ -74,10 +74,10 @@ To prepare your items for shipping, do the following:
     labels, create and apply the item labels. </span>
     <div class="itemgroup info">
     For more information about creating item labels, see [Item label
-    specifications](FBAGuide_ItemLabelSpec.html).
+    specifications](FBAGuide_ItemLabelSpec.md).
     For more information about when items require item labels, see [Step
     2 - Create an inbound shipment
-    plan](FBAGuide_CreateInShipPlan.html).
+    plan](FBAGuide_CreateInShipPlan.md).
     </div>
 
 </div>
@@ -89,21 +89,21 @@ To prepare your items for shipping, do the following:
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 2 - Create an inbound shipment
-plan](../fba_guide/FBAGuide_CreateInShipPlan.html)
+plan](../fba_guide/FBAGuide_CreateInShipPlan.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 4 - Create an inbound
-shipment](../fba_guide/FBAGuide_CreateInShip.html)
+shipment](../fba_guide/FBAGuide_CreateInShip.md)
 
 </div>
 

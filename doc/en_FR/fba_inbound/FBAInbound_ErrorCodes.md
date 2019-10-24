@@ -43,7 +43,7 @@ The following table describes the various error codes that the
 <span class="ph">Fulfillment Inbound Shipment API section</span> can
 return. For descriptions of error codes that are common to all
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> API
-sections, see [Error Messages](../dev_guide/DG_Errors.html) in the
+sections, see [Error Messages](../dev_guide/DG_Errors.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div class="tablenoborder">

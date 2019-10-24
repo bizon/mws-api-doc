@@ -41,11 +41,11 @@ The timestamp (or expiration time) you use in an <span class="ph">Amazon
 Marketplace Web Service (Amazon MWS)</span> request must be a dateTime
 object. A best practice is to provide the timestamp in Coordinated
 Universal Time (UTC) in <span class="ph">[ISO 8601 date time
-format](../dev_guide/DG_ISO8601.html)</span>, such as
+format](../dev_guide/DG_ISO8601.md)</span>, such as
 "2009-03-03T18:12:22Z" or "2009-02-23T18:12:22.093-07". The Timestamp
 attribute must contain the client's machine time in
 <span class="ph">[ISO 8601 date time
-format](../dev_guide/DG_ISO8601.html)</span>; requests with a timestamp
+format](../dev_guide/DG_ISO8601.md)</span>; requests with a timestamp
 significantly different (15 minutes) than the receiving machine's clock
 will be rejected to help prevent replay attacks. For more information
 about timestamps in XML, see
@@ -97,7 +97,7 @@ Here are a few additional considerations when working with timestamps:
 
 <div class="body">
 
-[Using the Amazon MWS client libraries](DG_ClientLibraries.html)
+[Using the Amazon MWS client libraries](DG_ClientLibraries.md)
 
 </div>
 

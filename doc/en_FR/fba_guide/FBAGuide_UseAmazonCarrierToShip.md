@@ -43,7 +43,7 @@ shipping rates by using an Amazon-partnered carrier for their inbound
 shipments.
 
 For more information, see [Using an Amazon-partnered carrier for your
-inbound shipment](FBAGuide_UsingAmazonCarrierToShip.html).
+inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
 
 </div>
 
@@ -54,21 +54,21 @@ inbound shipment](FBAGuide_UsingAmazonCarrierToShip.html).
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 4 - Create an inbound
-shipment](../fba_guide/FBAGuide_CreateInShip.html)
+shipment](../fba_guide/FBAGuide_CreateInShip.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 6 - Send shipment tracking numbers to
-Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.html)
+Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md)
 
 </div>
 

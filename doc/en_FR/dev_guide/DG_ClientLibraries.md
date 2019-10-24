@@ -79,7 +79,7 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
     
     <span class="ph">Amazon MWS</span> endpoints vary by region for the
     marketplace you are trying to access. Consult [Amazon MWS endpoints
-    and MarketplaceId values](../dev_guide/DG_Endpoints.html) for the
+    and MarketplaceId values](../dev_guide/DG_Endpoints.md) for the
     correct endpoint to use for your intended marketplace.
 
 2.  **Determine the throttling limits for the operation you want to
@@ -91,7 +91,7 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
     call. This waiting period will be based on the
     <span class="keyword">refresh rate</span> for the API. For more
     information, see [Throttling: Limits to how often you can submit
-    requests](../dev_guide/DG_Throttling.html).
+    requests](../dev_guide/DG_Throttling.md).
     
     For each individual API, see the Throttling section on the API
     reference page for specific throttling limits.
@@ -115,19 +115,19 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
 
 4.  **Set the timestamp for your request.**
     
-    See [Working with Timestamps](DG_Timestamps.html).
+    See [Working with Timestamps](DG_Timestamps.md).
 
 5.  **Construct a query string for the request.**
     
-    See [Creating a Canonicalized Query String](DG_QueryString.html).
+    See [Creating a Canonicalized Query String](DG_QueryString.md).
 
 6.  **Sign the query string and create the request.**
     
-    See [Signing a Query Request](DG_SigningQueryRequest.html).
+    See [Signing a Query Request](DG_SigningQueryRequest.md).
 
 7.  **Set the User-Agent Header for your application.**
     
-    See [Creating your User-Agent Header](DG_UserAgentHeader.html).
+    See [Creating your User-Agent Header](DG_UserAgentHeader.md).
 
 8.  **Send the correctly formatted HTTP request-line and the HTTP header
     parameters containing the User-Agent header to the endpoint for your
@@ -153,11 +153,11 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
     
       - <span class="ph filepath">https:// </span>
       - The marketplace-specific web service
-        [endpoint](../dev_guide/DG_Endpoints.html) you want to access.
+        [endpoint](../dev_guide/DG_Endpoints.md) you want to access.
       - The query parameters that were included in the [canonicalized
-        query request string](DG_QueryString.html), plus the [calculated
-        signature](DG_SigningQueryRequest.html).
-      - The [User-Agent header](DG_UserAgentHeader.html).
+        query request string](DG_QueryString.md), plus the [calculated
+        signature](DG_SigningQueryRequest.md).
+      - The [User-Agent header](DG_UserAgentHeader.md).
     
     The following is an example of a complete request URL that you could
     submit. The actual request should not contain white space or line

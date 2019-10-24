@@ -80,7 +80,7 @@ operations together share a **maximum request quota** of 15 and a
 <span id="Description__CartInfo_throttling" class="ph">For definitions
 of throttling terminology and for a complete explanation of throttling,
 see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -186,7 +186,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -223,7 +223,7 @@ AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -278,10 +278,10 @@ code</span> </span>
 <div class="body">
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 [What you should know about the Amazon MWS Sellers API
-Section](Sellers_Overview.html)
+Section](Sellers_Overview.md)
 
 </div>
 

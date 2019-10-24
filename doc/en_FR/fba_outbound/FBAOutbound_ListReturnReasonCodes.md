@@ -55,7 +55,7 @@ returns a list of valid return reasons codes for a seller SKU in a given
 marketplace. Valid reason codes are required in subsequent calls to the
 [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
 operation. See [Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html).
+return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md).
 
 <div class="section">
 
@@ -75,7 +75,7 @@ has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -173,7 +173,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -208,7 +208,7 @@ http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -251,12 +251,12 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.html)
+section](FBAOutbound_Overview.md)
 
 [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.html "Creates a fulfillment return.")
 
 [Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html)
+return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)
 
 </div>
 

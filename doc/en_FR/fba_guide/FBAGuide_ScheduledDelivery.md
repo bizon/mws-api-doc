@@ -101,7 +101,7 @@ order**
 
 For more information, see [What you should know about the Fulfillment
 Outbound Shipment API
-section](../fba_outbound/FBAOutbound_Overview.html).
+section](../fba_outbound/FBAOutbound_Overview.md).
 
 </div>
 
@@ -111,7 +111,7 @@ section](../fba_outbound/FBAOutbound_Overview.html).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

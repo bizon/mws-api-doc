@@ -52,7 +52,7 @@ the same shipment.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Fulfillment Inbound
-Shipment API section](../fba_inbound/FBAInbound_Overview.html)
+Shipment API section](../fba_inbound/FBAInbound_Overview.md)
 
 </div>
 
@@ -338,9 +338,9 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 
 <div class="body conbody">
 
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
 
-[CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
+[CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
 </div>
 

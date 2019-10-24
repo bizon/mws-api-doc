@@ -98,7 +98,7 @@ for amounts.
 <div class="parentlink">
 
 **Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.html)
+MWS](../dev_guide/DG_StandardsCompliance.md)
 
 </div>
 

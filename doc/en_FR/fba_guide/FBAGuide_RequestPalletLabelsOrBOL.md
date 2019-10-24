@@ -41,10 +41,10 @@ For <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
 shipments, if you don’t create your own pallet labels or bills of
 lading, you can use the following operations:
 
-  - [GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.html) -
+  - [GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md) -
     Returns labels for the outside of the shrink-wrapped pallets of your
     inbound shipment.
-  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html) -
+  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md) -
     Returns a bill of lading for your inbound shipment.
 
 </div>
@@ -56,21 +56,21 @@ lading, you can use the following operations:
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 8 - Request shipping labels for your inbound
-shipment](../fba_guide/FBAGuide_RequestTransportDocs.html)
+shipment](../fba_guide/FBAGuide_RequestTransportDocs.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 10 - Send your shipments to Amazon's fulfillment
-network](../fba_guide/FBAGuide_SendShipmentsToAFN.html)
+network](../fba_guide/FBAGuide_SendShipmentsToAFN.md)
 
 </div>
 

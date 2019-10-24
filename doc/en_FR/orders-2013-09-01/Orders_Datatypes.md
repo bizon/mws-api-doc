@@ -83,7 +83,7 @@ The <span class="keyword cmdname">Address</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
 
@@ -227,7 +227,7 @@ The <span class="keyword cmdname">BuyerCustomizedInfo</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -274,7 +274,7 @@ The <span class="keyword cmdname">BuyerTaxInfo</span> datatype is used
 in a response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
 
@@ -355,10 +355,10 @@ The <span class="keyword cmdname">Money</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -377,7 +377,7 @@ datatype:
 
 | Name                                               | Description                                                                                              | Required | Values                                  |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| <span class="keyword parmname">CurrencyCode</span> | Three-digit currency code. In <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.html) </span>. | No       | <span class="ph">Type: xs:string</span> |
+| <span class="keyword parmname">CurrencyCode</span> | Three-digit currency code. In <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.md) </span>. | No       | <span class="ph">Type: xs:string</span> |
 | <span class="keyword parmname">Amount</span>       | The currency amount.                                                                                     | No       | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -406,7 +406,7 @@ The <span class="keyword cmdname">Order</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
 
@@ -725,7 +725,7 @@ The <span class="keyword cmdname">OrderItem</span> datatype is used in a
 response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -1012,7 +1012,7 @@ The <span class="keyword cmdname">PaymentExecutionDetailItem</span>
 datatype is used in a response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
 
@@ -1093,7 +1093,7 @@ The <span class="keyword cmdname">PaymentMethodDetails</span> datatype
 is used in a response element of the following
     operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.html)
+  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
   - [GetOrder](Orders_GetOrder.html "Returns orders based on the AmazonOrderId values that you specify.")
 
@@ -1143,7 +1143,7 @@ The <span class="keyword cmdname">ProductInfo</span> datatype is used in
 a response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -1193,7 +1193,7 @@ The <span class="keyword cmdname">PointsGranted</span> datatype is used
 in a response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -1241,7 +1241,7 @@ The <span class="keyword cmdname">TaxClassification</span> datatype is
 used in a response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -1289,7 +1289,7 @@ The <span class="keyword cmdname">TaxCollection</span> datatype is used
 in a response element of the following
     operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.html "Returns the next page of order items using the NextToken parameter.")
 
 </div>
@@ -1354,7 +1354,7 @@ The following table shows the elements of the
 
 <div class="body">
 
-[Orders API](../orders-2013-09-01/Orders_Overview.html)
+[Orders API](../orders-2013-09-01/Orders_Overview.md)
 
 </div>
 

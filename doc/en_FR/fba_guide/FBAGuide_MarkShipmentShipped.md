@@ -47,13 +47,13 @@ operation for that shipment. Also include the
 <span class="keyword parmname">ShipmentStatus</span> request parameter
 with its value set to SHIPPED. For more information about the Inbound
 Shipment API section, see [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html). For code samples for
+API](../fba_inbound/FBAInbound_Overview.md). For code samples for
 calling the <span class="keyword apiname">UpdateInboundShipment</span>
 operation, see the Client Library links on the <span class="ph">Amazon
 Marketplace Web Service (Amazon MWS)</span> portal for your region.
 
 For more information, see [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html).
+API](../fba_inbound/FBAInbound_Overview.md).
 
 </div>
 
@@ -64,14 +64,14 @@ API](../fba_inbound/FBAInbound_Overview.html).
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 10 - Send your shipments to Amazon's
-fulfillment network](../fba_guide/FBAGuide_SendShipmentsToAFN.html)
+fulfillment network](../fba_guide/FBAGuide_SendShipmentsToAFN.md)
 
 </div>
 

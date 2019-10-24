@@ -41,7 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <span class="ph">This shows how to add functionality to the workflow
 described in [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html).</span>
+orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 **To cancel a shipment**
 
@@ -71,7 +71,7 @@ orders](MerchFulfill_HowToUseForPrime.html).</span>
 The service returns the
 <span class="keyword parmname">LabelCancelWindowExpired</span> error if
 the window for canceling a label has expired. See [Error
-codes](MerchFulfill_ErrorCodes.html).
+codes](MerchFulfill_ErrorCodes.md).
 
 </div>
 
@@ -80,7 +80,7 @@ codes](MerchFulfill_ErrorCodes.html).
 ## Related topics
 
 [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html)
+orders](MerchFulfill_HowToUseForPrime.md)
 
 </div>
 
@@ -93,7 +93,7 @@ orders](MerchFulfill_HowToUseForPrime.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.html)
+service](../merch_fulfill/MerchFulfill_Overview.md)
 
 </div>
 

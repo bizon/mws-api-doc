@@ -38,16 +38,16 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body conbody">
 
 Call the
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html)
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
 operation to request unique shipping labels for your inbound shipments.
 
 <div class="note important">
 
 <span class="importanttitle">Important:</span> Before calling the
 <span class="keyword apiname">GetUniquePackageLabels</span> operation,
-use the [Feeds API section](../feeds/Feeds_Overview.html) to submit the
+use the [Feeds API section](../feeds/Feeds_Overview.md) to submit the
 FBA Inbound Shipment Carton Information Feed (see [Step
-7](FBAGuide_SubmitCartonContentsFeed.html)). This provides information
+7](FBAGuide_SubmitCartonContentsFeed.md)). This provides information
 to Amazon about the carton contents of your inbound shipment, which
 helps to ensure that your shipment is processed at the
 <span class="ph">Amazon fulfillment center</span> quickly and
@@ -72,12 +72,12 @@ shipping label:
     bar code of the shipping label. This ID matches one of the
     <span class="keyword parmname">CartonId</span> values that you
     included in the FBA Inbound Shipment Carton Information Feed that
-    you submitted in [Step 7](FBAGuide_SubmitCartonContentsFeed.html).
+    you submitted in [Step 7](FBAGuide_SubmitCartonContentsFeed.md).
 2.  Determine which package to affix the shipping label to using the
     record of the correspondence between
     <span class="keyword parmname">CartonId</span> values and packages
     that you created in [Step
-    7](FBAGuide_SubmitCartonContentsFeed.html).
+    7](FBAGuide_SubmitCartonContentsFeed.md).
 3.  Affix the label to its corresponding package.
 
 <div class="section">
@@ -123,21 +123,21 @@ same ASIN and expiration date.
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 7 - Submit carton content
-information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.html)
+information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 9 - Request pallet labels or bills of lading
-(LTL/FTL only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.html)
+(LTL/FTL only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.md)
 
 </div>
 

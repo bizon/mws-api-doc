@@ -82,7 +82,7 @@ operations together share a **maximum request quota** of 30 and a
 **restore rate** of two requests every second. <span class="ph">For
 definitions of throttling terminology and for a complete explanation of
 throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -102,7 +102,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer
 Guide</span>.</span>
 
@@ -172,7 +172,7 @@ Guide</span>.</span>
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -204,7 +204,7 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -261,10 +261,10 @@ code</span> </span>
 <div class="body">
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
 [ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
 

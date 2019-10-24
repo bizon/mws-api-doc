@@ -1156,7 +1156,7 @@ The following table shows the elements of the
 <div class="body">
 
 [What you should know about the Amazon MWS Recommendations API
-section](Recommendations_Overview.html)
+section](Recommendations_Overview.md)
 
 </div>
 

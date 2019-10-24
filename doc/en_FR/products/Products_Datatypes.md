@@ -628,7 +628,7 @@ identifier.</span>
 
 <span class="ph">For a list of
 <span class="keyword parmname">MarketplaceId</span> values, see [Amazon
-MWS endpoints and MarketplaceId values](../dev_guide/DG_Endpoints.html)
+MWS endpoints and MarketplaceId values](../dev_guide/DG_Endpoints.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -894,7 +894,7 @@ shipped.</span>
 
 <div class="body">
 
-[Products API](../products/Products_Overview.html)
+[Products API](../products/Products_Overview.md)
 
 </div>
 

@@ -376,7 +376,7 @@ information.</span>
 
 | Name                                                  | Description                                                                                                                        | Required | Values                                    |
 | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------- |
-| <span class="keyword parmname">SlotId</span>          | An Amazon-defined identifier for a pickup slot. Get this from a previous call to [ListPickupSlots](EasyShip_ListPickupSlots.html). | Yes      | <span class="ph">Type: xs:string</span>   |
+| <span class="keyword parmname">SlotId</span>          | An Amazon-defined identifier for a pickup slot. Get this from a previous call to [ListPickupSlots](EasyShip_ListPickupSlots.md). | Yes      | <span class="ph">Type: xs:string</span>   |
 | <span class="keyword parmname">PickupTimeStart</span> | The start of the pickup time slot.                                                                                                 | No       | <span class="ph">Type: xs:dateTime</span> |
 | <span class="keyword parmname">PickupTimeEnd</span>   | The end of the pickup time slot.                                                                                                   | No       | <span class="ph">Type: xs:dateTime</span> |
 
@@ -433,8 +433,8 @@ package.</span>
 
 | Name                                                     | Description                                                                                                                                                                          | Required | Values                                                                                                                   |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.html#ScheduledPackageId "Identifies the scheduled package to be updated.") |
-| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the [ListPickupSlots](EasyShip_ListPickupSlots.html) operation.                   | Yes      | Type: [PickupSlot](EasyShip_Datatypes.html#PickupSlot "Pickup slot ID and pickup time information.")                     |
+| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.html#ScheduledPackageId "Identifies the scheduled package to be updated.") |
+| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the [ListPickupSlots](EasyShip_ListPickupSlots.md) operation.                   | Yes      | Type: [PickupSlot](EasyShip_Datatypes.html#PickupSlot "Pickup slot ID and pickup time information.")                     |
 
 </div>
 
@@ -505,7 +505,7 @@ package.</span>
 <div class="body">
 
 [What you should know about the Easy Ship API
-section](EasyShip_Overview.html)
+section](EasyShip_Overview.md)
 
 </div>
 

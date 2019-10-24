@@ -378,7 +378,7 @@ The following table shows the elements of the
 <div class="body">
 
 [What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.html)
+section](FBAInventory_Overview.md)
 
 </div>
 

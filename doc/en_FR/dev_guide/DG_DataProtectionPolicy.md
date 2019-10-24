@@ -44,7 +44,7 @@ receipt, storage, usage, transfer, and disposition) of the data vended
 and retrieved through the Marketplace APIs (including the Marketplace
 Web Service APIs). This Policy supplements the Amazon Marketplace
 Developer Agreement and the [Acceptable Use
-Policy](DG_AcceptableUsePolicy.html). Failure to comply may result in
+Policy](DG_AcceptableUsePolicy.md). Failure to comply may result in
 suspension or termination of Marketplace API access.
 
 **Definitions**

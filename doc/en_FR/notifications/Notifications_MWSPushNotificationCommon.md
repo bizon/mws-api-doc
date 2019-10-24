@@ -209,7 +209,7 @@ The following table shows the elements of the
 <div class="body">
 
 [What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.html)
+section](../subscriptions/Subscriptions_Overview.md)
 
 </div>
 

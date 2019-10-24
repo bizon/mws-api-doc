@@ -49,7 +49,7 @@ accurately.
 **To send shipment tracking numbers to Amazon**
 
 1.  Call the
-    [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+    [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
     operation from the <span class="ph">Fulfillment Inbound Shipment API
     section</span>.
 
@@ -68,7 +68,7 @@ accurately.
 After sending shipment tracking numbers for a non-Amazon-partnered
 <span class="ph">Small Parcel</span> shipment to Amazon, you can get the
 shipment status by calling the
-[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 operation.
 
 **To get the shipment status for your non-Amazon-partnered Small Parcel
@@ -92,7 +92,7 @@ shipment**
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
@@ -100,14 +100,14 @@ network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
 
 **Previous topic:** [Step 5 - Use an Amazon-partnered carrier for your
 inbound shipments
-(optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.html)
+(optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 7 - Submit carton content
-information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.html)
+information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.md)
 
 </div>
 

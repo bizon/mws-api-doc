@@ -101,7 +101,7 @@ follows:
     only. For more information about tracking
     <span class="ph">Fulfillment by Amazon</span> orders, see
     [Monitoring and tracking FBA
-    orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.html) in the
+    orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.md) in the
     Amazon MWS for FBA Sellers guide.
 
 </div>
@@ -135,7 +135,7 @@ orders in ways that make sense for your situation.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html)
+section](../reports/Reports_Overview.md)
 
 </div>
 
@@ -148,7 +148,7 @@ section](../reports/Reports_Overview.html)
 <div>
 
 [Use ReportProcessingFinishedNotification when requesting a
-report](../reports/Reports_UseReportProcessingFinished.html)
+report](../reports/Reports_UseReportProcessingFinished.md)
 
 </div>
 

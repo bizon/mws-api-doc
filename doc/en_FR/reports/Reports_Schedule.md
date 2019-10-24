@@ -104,7 +104,7 @@ submitted.
 <div class="body">
 
 [What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.html)
+Section](../reports/Reports_Overview.md)
 
 [ManageReportSchedule](Reports_ManageReportSchedule.html "Creates, updates, or deletes a report request schedule for a specified report type.")
 

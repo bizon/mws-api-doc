@@ -68,7 +68,7 @@ shipments.
 
 To use an Amazon-partnered carrier for an inbound shipment, begin by
 following the first four steps of the [Shipping inventory to Amazon's
-fulfillment network](FBAGuide_ShipInventoryToAFN.html) section. After
+fulfillment network](FBAGuide_ShipInventoryToAFN.md) section. After
 you create an inbound shipment you can request that your shipment be
 shipped by an Amazon-partnered carrier.
 
@@ -103,7 +103,7 @@ network](#SendShipmentToAFN)
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 
@@ -238,7 +238,7 @@ for the shipping cost.
 <div class="body conbody">
 
 Call the
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html)
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
 operation to request unique shipping labels for your inbound shipments.
 For Amazon-partnered, <span class="ph">Small Parcel</span> shipments,
 this operation also returns carrier labels.
@@ -247,7 +247,7 @@ this operation also returns carrier labels.
 
 <span class="importanttitle">Important:</span> Before calling the
 <span class="keyword apiname">GetUniquePackageLabels</span> operation,
-use the [Feeds API section](../feeds/Feeds_Overview.html) to submit the
+use the [Feeds API section](../feeds/Feeds_Overview.md) to submit the
 FBA Inbound Shipment Carton Information Feed (see [Step
 1](#SubmitCartonContentsFeed)). This provides information to Amazon
 about the carton contents of your inbound shipment, which helps to
@@ -329,10 +329,10 @@ For <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
 shipments, if you don’t create your own pallet labels or bills of
 lading, you can use the following operations:
 
-  - [GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.html) -
+  - [GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md) -
     Returns labels for the outside of the shrink-wrapped pallets of your
     inbound shipment.
-  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html) -
+  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md) -
     Returns a bill of lading for your inbound
 shipment.
 
@@ -358,7 +358,7 @@ Do one of the following:
     for an LTL/FTL shipment using an Amazon-partnered carrier.
 
 For more information, see [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html).
+API](../fba_inbound/FBAInbound_Overview.md).
 
 </div>
 

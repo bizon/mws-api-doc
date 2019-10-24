@@ -43,7 +43,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 Amazon generates an invoice when a buyer places an
 <span class="ph">Amazon Easy Ship</span> order in India. When you call
-the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html)
+the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
 operation to schedule an <span class="ph">Amazon Easy Ship</span> pickup
 slot for the order, Amazon generates a shipping label. If you include
 serial numbers for the items that you specify in your call to
@@ -65,25 +65,25 @@ operation in **Task 2. Get the PDF**.
 
 **To get a report identifier**
 
-1.  Call the [SubmitFeed](../feeds/Feeds_SubmitFeed.html) operation,
+1.  Call the [SubmitFeed](../feeds/Feeds_SubmitFeed.md) operation,
     specifying the following request parameters:
     
       - **FeedContent.** Use the easyship-documents.xsd to form the
         content of the feed. For more information, see
-        [SubmitFeed](../feeds/Feeds_SubmitFeed.html) and [Easy Ship
+        [SubmitFeed](../feeds/Feeds_SubmitFeed.md) and [Easy Ship
         feed](../feeds/Feeds_FeedType.html#EasyShipFeed).
       - **FeedType.** Specify \_POST\_EASYSHIP\_DOCUMENTS\_
       - **ContentMD5Value.** For information about calculating this
-        value, see [SubmitFeed](../feeds/Feeds_SubmitFeed.html).
+        value, see [SubmitFeed](../feeds/Feeds_SubmitFeed.md).
       - **AmazonOrderId.** The identifier for the
         <span class="ph">Amazon Easy Ship</span> order that you want
         documents for. Use the
         <span class="keyword parmname">AmazonOrderId</span> that you
         included with your call to
-        [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html)
+        [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
         when you scheduled the pickup slot.
       - **DocumentType.** The type of document that you want to get. See
-        [SubmitFeed](../feeds/Feeds_SubmitFeed.html).
+        [SubmitFeed](../feeds/Feeds_SubmitFeed.md).
     
     The operation returns a
     <span class="keyword parmname">FeedSubmissionId</span> value.
@@ -97,10 +97,10 @@ operation in **Task 2. Get the PDF**.
     If the operation returns a status of \_Done\_, continue to Step 3.
     If not, retry until it returns a status of \_Done\_. For more
     information, see [What you should know about the Amazon MWS Feeds
-    API section](../feeds/Feeds_Overview.html).
+    API section](../feeds/Feeds_Overview.md).
 
 3.  Call the
-    [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)
+    [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
     operation, specifying the
     <span class="keyword parmname">FeedSubmissionId</span> value from
     Step 1.
@@ -134,10 +134,10 @@ order.
     
     The operation returns a
     <span class="keyword parmname">ReportId</span> value that you can
-    pass into the [GetReport](../reports/Reports_GetReport.html)
+    pass into the [GetReport](../reports/Reports_GetReport.md)
     operation in the following step.
 
-2.  Call the [GetReport](../reports/Reports_GetReport.html) operation,
+2.  Call the [GetReport](../reports/Reports_GetReport.md) operation,
     specifying the <span class="keyword parmname">ReportId</span> from
     the previous step.
     
@@ -145,7 +145,7 @@ order.
     the Content-MD5 header to confirm that the report was not corrupted
     during transmission. For more information about verifying a report
     using the Content-MD5 header, see
-    [GetReport](../reports/Reports_GetReport.html) in the Reports API
+    [GetReport](../reports/Reports_GetReport.md) in the Reports API
     reference.
 
 3.  Save the PDF data into a file with a PDF extension.
@@ -157,7 +157,7 @@ order.
 ## Related topics
 
 [How to handle order items that require serial
-numbers](EasyShip_HowToHandleSerialNumbers.html)
+numbers](EasyShip_HowToHandleSerialNumbers.md)
 
 </div>
 
@@ -170,7 +170,7 @@ numbers](EasyShip_HowToHandleSerialNumbers.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Easy Ship API
-section](../easy_ship/EasyShip_Overview.html)
+section](../easy_ship/EasyShip_Overview.md)
 
 </div>
 

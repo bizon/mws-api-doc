@@ -72,7 +72,7 @@ information](FBAGuide_ProvideBatteryAndDgInfo.html#FBAGuide_ProvideBatteryAndDgI
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting XML feeds using the <span class="ph">Feeds API
 section</span>. See [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html).
+section](../feeds/Feeds_Overview.md).
 
 **To create a listing and convert it to <span class="ph">FBA</span>**
 
@@ -114,7 +114,7 @@ section](../feeds/Feeds_Overview.html).
         element, set to AFN.
 
 For more information about feed types, see [FeedType
-enumeration](../feeds/Feeds_FeedType.html).
+enumeration](../feeds/Feeds_FeedType.md).
 
 </div>
 
@@ -125,7 +125,7 @@ enumeration](../feeds/Feeds_FeedType.html).
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting flat file feeds using the <span class="ph">Feeds API
 section</span>. See [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html).
+section](../feeds/Feeds_Overview.md).
 
 **To create a listing and convert it to <span class="ph">FBA</span> (if
 the product is in Amazon's catalog)**
@@ -169,7 +169,7 @@ the product is not yet in Amazon's catalog)**
         (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf)
 
 For more information about feed types, see [FeedType
-enumeration](../feeds/Feeds_FeedType.html).
+enumeration](../feeds/Feeds_FeedType.md).
 
 </div>
 
@@ -182,14 +182,14 @@ enumeration](../feeds/Feeds_FeedType.html).
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 2 - Create an inbound shipment
-plan](../fba_guide/FBAGuide_CreateInShipPlan.html)
+plan](../fba_guide/FBAGuide_CreateInShipPlan.md)
 
 </div>
 

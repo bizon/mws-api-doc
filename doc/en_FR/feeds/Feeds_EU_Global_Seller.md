@@ -102,7 +102,7 @@ EU or NA marketplace by specifying that
 <span class="keyword parmname">MarketplaceId</span> when submitting a
 feed. For a list of <span class="keyword parmname">MarketplaceId</span>
 values, see [Amazon MWS endpoints and MarketplaceId
-values](../dev_guide/DG_Endpoints.html). You can also specify a
+values](../dev_guide/DG_Endpoints.md). You can also specify a
 <span class="ph">Checkout by Amazon</span>
 <span class="keyword parmname">MarketplaceId</span>
 value.
@@ -379,7 +379,7 @@ values:
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 </div>
 

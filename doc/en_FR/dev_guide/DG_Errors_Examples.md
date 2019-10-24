@@ -50,7 +50,7 @@ code examples and possible solutions to the error.
 
 <div class="parentlink">
 
-**Parent topic:** [Handling errors](../dev_guide/DG_Errors.html)
+**Parent topic:** [Handling errors](../dev_guide/DG_Errors.md)
 
 </div>
 

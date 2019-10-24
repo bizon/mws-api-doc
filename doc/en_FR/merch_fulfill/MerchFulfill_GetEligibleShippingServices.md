@@ -56,11 +56,11 @@ shipping service offer that meets your requirements, then specify the
 <span class="keyword parmname">ShippingServiceId</span> value and the
 optional <span class="keyword parmname">ShippingServiceOfferId</span>
 value associated with this shipping service offer in a subsequent call
-to the [CreateShipment](MerchFulfill_CreateShipment.html) operation.
+to the [CreateShipment](MerchFulfill_CreateShipment.md) operation.
 <span class="ph">For definitions, see
 [Terminology](../merch_fulfill/MerchFulfill_Overview.html#Terminology).</span>
 <span class="ph">For more information, see [How to fulfill Seller
-Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.html).</span>
+Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 <div class="section">
 
@@ -79,7 +79,7 @@ marketplaces.
 restore rate of five requests every second. For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer
 Guide</span>.</span>
 
@@ -163,7 +163,7 @@ Guide</span>.</span>
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -218,7 +218,7 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -383,12 +383,12 @@ aEdmFUlijYAwbgH9yJ7QHoA7K6+C2Qv6VrhsAhuOJWrI87rqSTA=</ShippingServiceOfferId>
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.html)
+[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
 
 [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html)
+orders](MerchFulfill_HowToUseForPrime.md)
 
-[CreateShipment](MerchFulfill_CreateShipment.html)
+[CreateShipment](MerchFulfill_CreateShipment.md)
 
 </div>
 

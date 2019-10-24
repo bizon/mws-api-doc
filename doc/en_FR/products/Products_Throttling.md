@@ -46,7 +46,7 @@ The <span class="ph">Products API section</span> uses two types of
 throttling. All the operations in the <span class="ph">Products API
 section</span> use the standard per-request throttling described in
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html). All of the operations have a
+requests](../dev_guide/DG_Throttling.md). All of the operations have a
 **Maximum request quota** and **Hourly request quota** measured by
 request. Many of the operations also throttle based on the number of
 items returned by an operation. These operations use a **Restore rate**
@@ -154,7 +154,7 @@ item.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Products
-API section](../products/Products_Overview.html)
+API section](../products/Products_Overview.md)
 
 </div>
 

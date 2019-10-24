@@ -589,7 +589,7 @@ datatype:
 
 | Name                                                 | Description                                                                                                 | Required | Values                                   |
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- |
-| <span class="keyword parmname">CurrencyCode</span>   | The three-digit currency code in <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.html) </span>. | No       | <span class="ph">Type: xs:string</span>  |
+| <span class="keyword parmname">CurrencyCode</span>   | The three-digit currency code in <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.md) </span>. | No       | <span class="ph">Type: xs:string</span>  |
 | <span class="keyword parmname">CurrencyAmount</span> | The currency amount.                                                                                        | No       | <span class="ph">Type: xs:decimal</span> |
 
 </div>
@@ -702,8 +702,8 @@ datatype:
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">RecoveryAmount</span> | The amount applied for the recovery item.                                                                                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.html#CurrencyAmount "A currency type and amount.") |
 | <span class="keyword parmname">OriginalAmount</span> | The original debt amount.                                                                                                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.html#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">GroupBeginDate</span> | The beginning date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.html)</span>. | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
-| <span class="keyword parmname">GroupEndDate</span>   | The ending date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.html)</span>.    | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
+| <span class="keyword parmname">GroupBeginDate</span> | The beginning date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.md)</span>. | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
+| <span class="keyword parmname">GroupEndDate</span>   | The ending date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.md)</span>.    | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
 
 </div>
 

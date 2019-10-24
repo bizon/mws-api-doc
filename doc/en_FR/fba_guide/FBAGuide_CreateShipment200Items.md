@@ -167,7 +167,7 @@ The following three inbound shipments have been created:
     SELLER\_LABEL
 
 For more information, see [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html).
+API](../fba_inbound/FBAInbound_Overview.md).
 
 </div>
 
@@ -177,7 +177,7 @@ API](../fba_inbound/FBAInbound_Overview.html).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

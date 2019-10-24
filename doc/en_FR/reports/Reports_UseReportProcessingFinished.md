@@ -40,7 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body">
 
 When requesting a report, Amazon recommends using the
-[ReportProcessingFinishedNotification](../notifications/Notifications_ReportProcessingFinishedNotification.html)
+[ReportProcessingFinishedNotification](../notifications/Notifications_ReportProcessingFinishedNotification.md)
 notification to find out when report processing is complete. This
 eliminates the need to repeatedly poll the
 <span class="keyword apiname">GetReportRequestList</span> operation to
@@ -57,9 +57,9 @@ find out when report processing is complete.
     notification tells you when report processing is complete. For
     information about subscribing to this notification, see [What you
     should know about Amazon MWS push
-    notifications](../notifications/Notifications_Overview.html).
+    notifications](../notifications/Notifications_Overview.md).
 
-2.  Call the [RequestReport](../reports/Reports_RequestReport.html)
+2.  Call the [RequestReport](../reports/Reports_RequestReport.md)
     operation to request a report.
     
     <div class="note note">
@@ -85,7 +85,7 @@ find out when report processing is complete.
     
       - DONE - The report was successfully generated. Use the
         **ReportId** value included in the notification as input for the
-        [GetReport](../reports/Reports_GetReport.html) operation in Step
+        [GetReport](../reports/Reports_GetReport.md) operation in Step
         4.
       - CANCELLED - The report was cancelled. See the "Why are my
         reports cancelled?" section of the [Downloading
@@ -97,7 +97,7 @@ find out when report processing is complete.
         between consecutive report requests. Retry until there is data
         to report.
 
-4.  Call the [GetReport](../reports/Reports_GetReport.html) operation,
+4.  Call the [GetReport](../reports/Reports_GetReport.md) operation,
     specifying the <span class="keyword parmname">ReportId</span> value
     from the
     <span class="keyword parmname">ReportProcessingFinishedNotification</span>
@@ -112,7 +112,7 @@ find out when report processing is complete.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html)
+section](../reports/Reports_Overview.md)
 
 </div>
 

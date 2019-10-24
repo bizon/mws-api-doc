@@ -68,15 +68,15 @@ not affect its symbology.
 ## In this section
 
   - **[Item label
-    specifications](../fba_guide/FBAGuide_ItemLabelSpec.html)**  
+    specifications](../fba_guide/FBAGuide_ItemLabelSpec.md)**  
   - **[Shipping label
-    specifications](../fba_guide/FBAGuide_ShipLabelSpec.html)**  
-  - **[Scan test](../fba_guide/FBAGuide_ScanTest.html)**  
-  - **[Pallet specifications](../fba_guide/FBAGuide_PalletSpec.html)**  
+    specifications](../fba_guide/FBAGuide_ShipLabelSpec.md)**  
+  - **[Scan test](../fba_guide/FBAGuide_ScanTest.md)**  
+  - **[Pallet specifications](../fba_guide/FBAGuide_PalletSpec.md)**  
   - **[Label font
-    specifications](../fba_guide/FBAGuide_LabelFontSpec.html)**  
+    specifications](../fba_guide/FBAGuide_LabelFontSpec.md)**  
   - **[Translations for label
-    instructions](../fba_guide/FBAGuide_TranslateLabelInst.html)**  
+    instructions](../fba_guide/FBAGuide_TranslateLabelInst.md)**  
 
 </div>
 

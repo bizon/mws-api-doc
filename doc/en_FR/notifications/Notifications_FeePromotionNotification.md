@@ -535,7 +535,7 @@ The following table shows the attributes of a
 response to a successful request or subscription. If the request is
 unsuccessful, the main response element is
 <span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.html)
+information, see [Response format](../dev_guide/DG_ResponseFormat.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -787,7 +787,7 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.html)
+section](../subscriptions/Subscriptions_Overview.md)
 
 [Selling on Amazon Fee
 Schedule](https://sellercentral.amazon.com/gp/help/200336920)

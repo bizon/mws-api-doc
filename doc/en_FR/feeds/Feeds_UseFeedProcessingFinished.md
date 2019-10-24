@@ -40,7 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body">
 
 When submitting a feed, Amazon recommends using the
-[FeedProcessingFinishedNotification](../notifications/Notifications_FeedProcessingFinishedNotification.html)
+[FeedProcessingFinishedNotification](../notifications/Notifications_FeedProcessingFinishedNotification.md)
 notification to find out when feed processing is complete. This
 eliminates the need to repeatedly poll the
 <span class="keyword apiname">GetFeedSubmissionList</span> operation to
@@ -57,9 +57,9 @@ find out when feed processing is complete.
     notification tells you when feed processing is complete. For
     information about subscribing to this notification, see [What you
     should know about Amazon MWS push
-    notifications](../notifications/Notifications_Overview.html).
+    notifications](../notifications/Notifications_Overview.md).
 
-2.  Call the [SubmitFeed](../feeds/Feeds_SubmitFeed.html) operation to
+2.  Call the [SubmitFeed](../feeds/Feeds_SubmitFeed.md) operation to
     submit a feed.
     
     <div class="note note">
@@ -86,12 +86,12 @@ find out when feed processing is complete.
       - DONE - The feed was successfully submitted. Use the
         **FeedSubmissionId** value included in the notification as input
         for the
-        [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)
+        [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
         operation in Step 4.
       - CANCELLED - The feed was cancelled by the seller or by Amazon.
 
 4.  Call the
-    [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)
+    [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
     operation, specifying the
     <span class="keyword parmname">FeedSubmissionId</span> value from
     the
@@ -129,7 +129,7 @@ find out when feed processing is complete.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 </div>
 

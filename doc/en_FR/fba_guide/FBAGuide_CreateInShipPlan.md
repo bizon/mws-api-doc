@@ -138,7 +138,7 @@ the FBA Label Service, see the Seller Central Help for your marketplace.
 </div>
 
 For more information, see
-[CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html).
+[CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md).
 
 </div>
 
@@ -151,21 +151,21 @@ For more information, see
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 1 - Create a listing and convert it to
-FBA](../fba_guide/FBAGuide_CreateListing.html)
+FBA](../fba_guide/FBAGuide_CreateListing.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 3 - Prepare the items for
-shipping](../fba_guide/FBAGuide_PrepareItems.html)
+shipping](../fba_guide/FBAGuide_PrepareItems.md)
 
 </div>
 

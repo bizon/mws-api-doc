@@ -62,7 +62,7 @@ Label" on Seller Central
 ([US](https://sellercentral.amazon.com/gp/help/200202250)).
 <span class="ph">Get the
 <span class="keyword parmname">ShipmentId</span> value from a previous
-call to the [CreateShipment](MerchFulfill_CreateShipment.html)
+call to the [CreateShipment](MerchFulfill_CreateShipment.md)
 operation.</span>
 
 <div class="section">
@@ -82,7 +82,7 @@ marketplaces.
 restore rate of five requests every second. For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -182,7 +182,7 @@ Type: <a href="MerchFulfill_Datatypes.html#Shipment" class="xref" title="The det
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -213,7 +213,7 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -334,9 +334,9 @@ code</span> </span>
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.html)
+[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
 
-[CreateShipment](MerchFulfill_CreateShipment.html)
+[CreateShipment](MerchFulfill_CreateShipment.md)
 
 </div>
 

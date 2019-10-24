@@ -79,7 +79,7 @@ This operation is available in all marketplaces except Brazil.
 **maximum request quota** of two and a **restore rate** of one request
 every five minutes. </span> For definitions of throttling terminology,
 see [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html).
+API](../fba_inbound/FBAInbound_Overview.md).
 
 </div>
 
@@ -186,7 +186,7 @@ The parent element of the following child elements (both child elements are type
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -218,7 +218,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -256,7 +256,7 @@ code</span> </span>
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
 </div>
 

@@ -39,7 +39,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div class="body">
 
-The [CreateShipment](MerchFulfill_CreateShipment.html) and
+The [CreateShipment](MerchFulfill_CreateShipment.md) and
 [GetShipment](MerchFulfill_GetShipment.html "Returns an existing shipment for a given identifier.")
 operations return a shipping label file in PDF, PNG, or ZPL format,
 depending on the carrier. Amazon compresses the document data before
@@ -60,10 +60,10 @@ Base64-encoded MD5 hash to validate the document data.
 ## Related topics
 
 [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html)
+orders](MerchFulfill_HowToUseForPrime.md)
 
 [How to reprint a shipping
-label](MerchFulfill_HowToGetNewShippingLabel.html)
+label](MerchFulfill_HowToGetNewShippingLabel.md)
 
 </div>
 
@@ -76,7 +76,7 @@ label](MerchFulfill_HowToGetNewShippingLabel.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.html)
+service](../merch_fulfill/MerchFulfill_Overview.md)
 
 </div>
 

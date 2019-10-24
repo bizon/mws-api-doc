@@ -71,7 +71,7 @@ convert it to FBA](FBAGuide_CreateListing.html#FBAGuide_CreateListing).
 <div class="parentlink">
 
 **Parent topic:** [Best
-practices](../fba_guide/FBAGuide_BestPractices.html)
+practices](../fba_guide/FBAGuide_BestPractices.md)
 
 </div>
 

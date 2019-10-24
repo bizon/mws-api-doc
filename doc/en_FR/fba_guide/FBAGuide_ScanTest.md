@@ -55,7 +55,7 @@ cause scanning failure:
 <div class="parentlink">
 
 **Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.html)
+Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
 
 </div>
 

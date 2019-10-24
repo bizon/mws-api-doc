@@ -126,7 +126,7 @@ The <span class="keyword apiname">ListOrders</span> and
 <span class="keyword apiname">ListOrdersByNextToken</span> operations
 together share a **maximum request quota** of six and a **restore rate**
 of one request every minute. For definitions of throttling terminology,
-see [Orders API](../orders-2013-09-01/Orders_Overview.html).
+see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 
 </div>
 
@@ -438,7 +438,7 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.html).
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -479,7 +479,7 @@ https://mws.amazonservices.jp/Orders/2013-09-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -667,7 +667,7 @@ code</span> </span>
 <div class="body">
 
 [Orders
-API](../orders-2013-09-01/Orders_Overview.html)
+API](../orders-2013-09-01/Orders_Overview.md)
 
 [ListOrdersByNextToken](Orders_ListOrdersByNextToken.html "Returns the next page of orders using the NextToken parameter.")
 

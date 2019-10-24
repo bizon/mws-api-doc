@@ -45,7 +45,7 @@ without having to poll the <span class="ph">Amazon MWS</span> service.
 Instead, the information is sent directly to you when an event occurs to
 which you are subscribed. For more information about how to subscribe to
 receive notifications, see [Subscriptions
-Overview](../subscriptions/Subscriptions_Overview.html) in the
+Overview](../subscriptions/Subscriptions_Overview.md) in the
 <span class="ph">Amazon MWS</span> <span class="ph">Subscriptions API
 section</span> reference.
 

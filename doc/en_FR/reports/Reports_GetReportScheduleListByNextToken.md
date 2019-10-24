@@ -53,10 +53,10 @@ compatibility.</span>
 <div class="body">
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 [What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html)
+section](../reports/Reports_Overview.md)
 
 [GetReportScheduleList](Reports_GetReportScheduleList.html "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
 

@@ -122,7 +122,7 @@ This example is read as the 16th day of March in 2016 at 14hrs 32min and
 <div class="parentlink">
 
 **Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.html)
+MWS](../dev_guide/DG_StandardsCompliance.md)
 
 </div>
 

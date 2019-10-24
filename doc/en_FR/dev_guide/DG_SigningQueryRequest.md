@@ -50,7 +50,7 @@ MWS</span> client libraries to submit requests, you do not need to
 calculate your signature or time stamp.
 
 1.  Create a query request as described in [Creating a Canonicalized
-    Query String](DG_QueryString.html). The following is an example of a
+    Query String](DG_QueryString.md). The following is an example of a
     query request:
     
     ``` pre codeblock
@@ -73,7 +73,7 @@ calculate your signature or time stamp.
     <span class="notetitle">Note:</span> Standard port numbers should
     not be included in the query request string used to calculate the
     signature. See the [Signature Version 2 Signing
-    Process](http://docs.aws.amazon.com/general/latest/gr/signature-version-2.html)
+    Process](http://docs.aws.amazon.com/general/latest/gr/signature-version-2.md)
     for further information.
     
     </div>
@@ -256,9 +256,9 @@ public class SignatureExample {
 
 <div class="body">
 
-[Using the Amazon MWS client libraries](DG_ClientLibraries.html)
+[Using the Amazon MWS client libraries](DG_ClientLibraries.md)
 
-[Creating a Canonicalized Query String](DG_QueryString.html)
+[Creating a Canonicalized Query String](DG_QueryString.md)
 
 </div>
 

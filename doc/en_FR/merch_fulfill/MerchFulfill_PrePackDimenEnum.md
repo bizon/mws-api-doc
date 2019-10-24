@@ -51,7 +51,7 @@ This table contains token values that can be specified using the
 <span class="keyword parmname">PredefinedPackageDimensions</span>
 request parameter of the
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
-and [CreateShipment](MerchFulfill_CreateShipment.html) operations. If
+and [CreateShipment](MerchFulfill_CreateShipment.md) operations. If
 you specify a
 <span class="keyword parmname">PredefinedPackageDimensions</span> token,
 you are not obligated to use a branded package from a carrier. For
@@ -143,11 +143,11 @@ Envelope or Box.
 <div class="body">
 
 [Merchant Fulfillment
-API](../merch_fulfill/MerchFulfill_Overview.html)
+API](../merch_fulfill/MerchFulfill_Overview.md)
 
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
 
-[CreateShipment](MerchFulfill_CreateShipment.html)
+[CreateShipment](MerchFulfill_CreateShipment.md)
 
 [PackageDimensions](MerchFulfill_Datatypes.html#PackageDimensions "The dimensions of a package contained in a shipment.")
 

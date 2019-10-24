@@ -434,12 +434,12 @@ Excel templates for feeds.
 <div class="body">
 
 [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 [Selling on Amazon Guide to
 XML](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf)
 
-[SubmitFeed](../feeds/Feeds_SubmitFeed.html)
+[SubmitFeed](../feeds/Feeds_SubmitFeed.md)
 
 </div>
 

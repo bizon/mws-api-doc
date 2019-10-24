@@ -127,7 +127,7 @@ in Seller Central.
 
 4.  **Create a shipment**
     
-    Call the [CreateShipment](MerchFulfill_CreateShipment.html)
+    Call the [CreateShipment](MerchFulfill_CreateShipment.md)
     operation for one of the shipping service offers returned in the
     previous step. Use these parameter values:
     
@@ -159,8 +159,8 @@ in Seller Central.
     cancel a shipment, or check shipment status at a later time.
     Consider saving the item list along with each shipment ID to help
     the seller identify a shipment at a later time. See [How to reprint
-    a shipping label](MerchFulfill_HowToGetNewShippingLabel.html) and
-    [How to cancel a shipment](MerchFulfill_HowToCancelShipment.html).
+    a shipping label](MerchFulfill_HowToGetNewShippingLabel.md) and
+    [How to cancel a shipment](MerchFulfill_HowToCancelShipment.md).
     
     </div>
 
@@ -170,7 +170,7 @@ in Seller Central.
     <span class="keyword parmname">FileContents</span> element returned
     by the <span class="keyword apiname">CreateShipment</span>
     operation. Print the shipping label. See [How to extract a shipping
-    label file](MerchFulfill_HowToExtractShippingLabel.html).
+    label file](MerchFulfill_HowToExtractShippingLabel.md).
 
 6.  **Create shipments for the remaining Prime orders**
     
@@ -182,9 +182,9 @@ in Seller Central.
 ## Related topics
 
 [How to reprint a shipping
-label](MerchFulfill_HowToGetNewShippingLabel.html)
+label](MerchFulfill_HowToGetNewShippingLabel.md)
 
-[How to cancel a shipment](MerchFulfill_HowToCancelShipment.html)
+[How to cancel a shipment](MerchFulfill_HowToCancelShipment.md)
 
 </div>
 
@@ -197,7 +197,7 @@ label](MerchFulfill_HowToGetNewShippingLabel.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.html)
+service](../merch_fulfill/MerchFulfill_Overview.md)
 
 </div>
 

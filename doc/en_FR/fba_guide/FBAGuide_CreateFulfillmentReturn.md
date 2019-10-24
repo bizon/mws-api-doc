@@ -304,7 +304,7 @@ possible workflow:
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

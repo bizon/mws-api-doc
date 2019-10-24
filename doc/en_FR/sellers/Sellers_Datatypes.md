@@ -190,7 +190,7 @@ The following table shows the elements of the
 <div class="body">
 
 [What you should know about the Amazon MWS Sellers API
-Section](Sellers_Overview.html)
+Section](Sellers_Overview.md)
 
 </div>
 

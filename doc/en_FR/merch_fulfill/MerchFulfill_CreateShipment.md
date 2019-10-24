@@ -53,13 +53,13 @@ shipping label, depending on the carrier. Amazon compresses the document
 data before returning it as a Base64-encoded string. For information
 about extracting document data from a compressed file, see [How to
 extract a shipping label
-file](MerchFulfill_HowToExtractShippingLabel.html). The
+file](MerchFulfill_HowToExtractShippingLabel.md). The
 <span class="keyword apiname">CreateShipment</span> operation also
 returns a Base64-encoded MD5 hash to validate the document data.
 <span class="ph">For definitions, see
 [Terminology](../merch_fulfill/MerchFulfill_Overview.html#Terminology).</span>
 <span class="ph">For more information, see [How to fulfill Seller
-Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.html).</span>
+Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 <div class="note important">
 
@@ -93,7 +93,7 @@ marketplaces.
 restore rate of five requests every second. For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -213,7 +213,7 @@ Type: <a href="MerchFulfill_Datatypes.html#Shipment" class="xref" title="The det
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -273,7 +273,7 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -395,10 +395,10 @@ code</span> </span>
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.html)
+[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
 
 [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html)
+orders](MerchFulfill_HowToUseForPrime.md)
 
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.html "Returns a list of shipping service offers.")
 

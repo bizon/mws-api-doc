@@ -57,7 +57,7 @@ The <span class="keyword apiname">GetUniquePackageLabels</span>
 operation returns PDF document data for printing unique shipping labels
 and carrier labels for an inbound shipment. <span class="ph">For
 information about extracting PDF document data, see [Extracting PDF
-Document Data](FBAInbound_ExtractingPdfDocumentData.html).</span>
+Document Data](FBAInbound_ExtractingPdfDocumentData.md).</span>
 
 Use this operation to get unique shipping labels for the packages in all
 types of inbound shipments: <span class="ph">Small Parcel</span>,
@@ -82,7 +82,7 @@ center</span> receiving the shipment.
 
 Before calling the
 <span class="keyword apiname">GetUniquePackageLabels</span> operation,
-use the [Feeds API section](../feeds/Feeds_Overview.html) to submit the
+use the [Feeds API section](../feeds/Feeds_Overview.md) to submit the
 FBA Inbound Shipment Carton Information Feed
 (\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_). This provides information to
 Amazon about the carton contents of your inbound shipment, which enables
@@ -104,9 +104,9 @@ For more information, see the following links:
 **Non-Amazon-partnered shipments**
 
   - [Submit carton content
-    information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.html)
+    information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.md)
   - [Request shipping labels for your inbound
-    shipment](../fba_guide/FBAGuide_RequestTransportDocs.html)
+    shipment](../fba_guide/FBAGuide_RequestTransportDocs.md)
 
 </div>
 
@@ -127,7 +127,7 @@ operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -147,7 +147,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -255,7 +255,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -292,7 +292,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -334,11 +334,11 @@ code</span> </span>
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.html)
+[GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md)
 
-[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html)
+[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
 
 </div>
 

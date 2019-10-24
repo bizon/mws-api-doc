@@ -95,13 +95,13 @@ marketplaces:
 ## In this section
 
   - **[Processing bulk operation
-    requests](../products/Products_ProcessingBulkOperationRequests.html)**  
+    requests](../products/Products_ProcessingBulkOperationRequests.md)**  
     Describes how to process operations in bulk by using the
     <span class="keyword parmname">ASINList</span>,
     <span class="keyword parmname">SellerSKUList</span>, and
     <span class="keyword parmname">IdList</span> request parameters.
   - **[Throttling in the Products
-    API](../products/Products_Throttling.html)**  
+    API](../products/Products_Throttling.md)**  
     Describes the throttling policy for the <span class="ph">Products
     API section</span>.
 

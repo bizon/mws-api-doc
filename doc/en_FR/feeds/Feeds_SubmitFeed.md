@@ -56,7 +56,7 @@ operation uploads a file and any necessary metadata for processing. Note
 that you *must* calculate a Content-MD5 value for the submitted file.
 For more information about creating a Content-MD5 value, see [Using the
 Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult
-operations](Feeds_MD5.html).
+operations](Feeds_MD5.md).
 
 Feed size must be below 2 GiB (2<sup>31</sup>, or 2,147,483,648 bytes)
 per feed. If you have a large amount of data to submit, you should
@@ -91,7 +91,7 @@ marketplaces.
 
 <span class="ph">For definitions of throttling terminology and for a
 complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.html) in the
+you can submit requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -146,7 +146,7 @@ If an Amazon seller is registered in multiple marketplaces, then the
 seller has multiple marketplace IDs associated with their
 merchant/seller ID. <span class="ph">For more information on submitting
 a feed using multiple marketplace IDs, see [Using Multiple
-Marketplaces](Feeds_EU_Global_Seller.html).</span>
+Marketplaces](Feeds_EU_Global_Seller.md).</span>
 
 </div>
 
@@ -165,7 +165,7 @@ Marketplaces](Feeds_EU_Global_Seller.html).</span>
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -253,7 +253,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
     (\_POST\_PRODUCT\_IMAGE\_DATA\_). If the marketplace ID is not
     included, the image might not be published on the product detail
     page. See [FeedType
-enumeration](../feeds/Feeds_FeedType.html).
+enumeration](../feeds/Feeds_FeedType.md).
 
 </div>
 
@@ -303,7 +303,7 @@ GET operation. You must use POST.
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -345,7 +345,7 @@ User-Agent: <Your User Agent Header>
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 The following is an example HTTP body for a
@@ -419,7 +419,7 @@ code</span> </span>
 response to a successful request or subscription. If the request is
 unsuccessful, the main response element is
 <span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.html)
+information, see [Response format](../dev_guide/DG_ResponseFormat.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph">Amazon MWS</span> responds with the following header
@@ -472,16 +472,16 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 [GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
 
-[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)
+[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
 
 [Using the Content-MD5 hash with the SubmitFeed and
-GetFeedSubmissionResult operations](Feeds_MD5.html)
+GetFeedSubmissionResult operations](Feeds_MD5.md)
 
-[Working with Content-MD5 checksums](../dev_guide/DG_MD5.html)
+[Working with Content-MD5 checksums](../dev_guide/DG_MD5.md)
 
 </div>
 

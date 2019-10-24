@@ -66,7 +66,7 @@ feed.
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">\_AWAITING\_ASYNCHRONOUS\_REPLY\_</span> | The request is being processed, but is waiting for external information before it can complete.                                                                                                                                                                                                       |
 | <span class="keyword parmname">\_CANCELLED\_</span>                     | The request has been aborted due to a fatal error.                                                                                                                                                                                                                                                    |
-| <span class="keyword parmname">\_DONE\_</span>                          | The request has been processed. You can call the [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html) operation to receive a processing report that describes which records in the feed were successful and which records generated errors.                                         |
+| <span class="keyword parmname">\_DONE\_</span>                          | The request has been processed. You can call the [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md) operation to receive a processing report that describes which records in the feed were successful and which records generated errors.                                         |
 | <span class="keyword parmname">\_IN\_PROGRESS\_</span>                  | The request is being processed.                                                                                                                                                                                                                                                                       |
 | <span class="keyword parmname">\_IN\_SAFETY\_NET\_</span>               | The request is being processed, but the system has determined that there is a potential error with the feed (for example, the request will remove all inventory from a seller's account.) An Amazon seller support associate will contact the seller to confirm whether the feed should be processed. |
 | <span class="keyword parmname">\_SUBMITTED\_</span>                     | The request has been received, but has not yet started processing.                                                                                                                                                                                                                                    |
@@ -85,9 +85,9 @@ feed.
 <div class="body">
 
 [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
-[SubmitFeed](../feeds/Feeds_SubmitFeed.html)
+[SubmitFeed](../feeds/Feeds_SubmitFeed.md)
 
 [GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
 

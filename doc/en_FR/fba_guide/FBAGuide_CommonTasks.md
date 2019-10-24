@@ -53,27 +53,27 @@ Central user interface.
 ## In this section
 
   - **[Monitoring and tracking FBA
-    orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.html)**  
+    orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.md)**  
   - **[Monitoring and tracking FBA shipment
-    status](../fba_guide/FBAGuide_MonitorShipmentStatus.html)**  
+    status](../fba_guide/FBAGuide_MonitorShipmentStatus.md)**  
   - **[Getting inventory
-    reports](../fba_guide/FBAGuide_GetInventoryReports.html)**  
+    reports](../fba_guide/FBAGuide_GetInventoryReports.md)**  
   - **[Getting Multi-Channel Fulfillment outbound shipment
-    reports](../fba_guide/FBAGuide_GetMCFOutShipReports.html)**  
+    reports](../fba_guide/FBAGuide_GetMCFOutShipReports.md)**  
   - **[Fulfilling Multi-Channel Fulfillment
-    orders](../fba_guide/FBAGuide_FulfillingMCFOrders.html)**  
+    orders](../fba_guide/FBAGuide_FulfillingMCFOrders.md)**  
   - **[Creating a fulfillment
-    return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html)**  
+    return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)**  
   - **[Shipping inventory to Amazon's fulfillment
-    network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)**  
+    network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)**  
   - **[Using an Amazon-partnered carrier for your inbound
-    shipments](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.html)**  
+    shipments](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md)**  
   - **[Creating an inbound shipment containing over 200
-    items](../fba_guide/FBAGuide_CreateShipment200Items.html)**  
+    items](../fba_guide/FBAGuide_CreateShipment200Items.md)**  
   - **[Labeling items one by one and including them in an inbound
-    shipment](../fba_guide/FBAGuide_LabelItems1x1.html)**  
+    shipment](../fba_guide/FBAGuide_LabelItems1x1.md)**  
   - **[Scheduled
-    Delivery](../fba_guide/FBAGuide_ScheduledDelivery.html)**  
+    Delivery](../fba_guide/FBAGuide_ScheduledDelivery.md)**  
 
 </div>
 

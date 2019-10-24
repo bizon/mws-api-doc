@@ -133,7 +133,7 @@ manage, and grow successful businesses in Amazon's store.*
 2.  Do not calculate or publish insights about the health of Amazon's
     business.
 3.  Comply with the [Data Protection Policy
-    ("DPP")](DG_DataProtectionPolicy.html), which provides specific
+    ("DPP")](DG_DataProtectionPolicy.md), which provides specific
     requirements on the receipt, storage, usage, transfer, and
     disposition of the data accessed through Marketplace APIs.
 

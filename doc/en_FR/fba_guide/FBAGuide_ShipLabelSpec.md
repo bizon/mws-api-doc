@@ -45,7 +45,7 @@ package in your shipment. If your workflow requires you to generate your
 own shipping labels, use the following guidelines. For more information
 about the <span class="keyword apiname">GetUniquePackageLabels</span>
 operation, see
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html).
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md).
 
 The shipping label that you place on the outside of each package must
 include the following information:
@@ -129,7 +129,7 @@ label](ShippingLabel.png)
 | Specification | Description                                                                                                                                                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Label color   | White                                                                                                                                                                       |
-| Font          | See the [Label font specifications](FBAGuide_LabelFontSpec.html).                                                                                                           |
+| Font          | See the [Label font specifications](FBAGuide_LabelFontSpec.md).                                                                                                           |
 | Label size    | Amazon recommends that you use a label with a height by width dimension of 4" x 6" (10.2 cm x 15.2 cm). However you can use a label size up to 6" x 8" (15.2 cm x 20.3 cm). |
 | Label type    | Permanent adhesive                                                                                                                                                          |
 
@@ -165,7 +165,7 @@ label](ShippingLabel.png)
 <div class="parentlink">
 
 **Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.html)
+Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
 
 </div>
 

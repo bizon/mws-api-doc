@@ -48,7 +48,7 @@ inbound shipment includes a list of items contained in the shipment, as
 well as a destination fulfillment center identifier and your label
 preparation preferences for item labels. For more information about
 label preparation preferences, see [Label preparation
-preferences](FBAGuide_CreateInShipPlan.html).
+preferences](FBAGuide_CreateInShipPlan.md).
 
 For code samples for calling the
 <span class="keyword apiname">CreateInboundShipment</span> operation,
@@ -56,7 +56,7 @@ see the Client Library links on the <span class="ph">Amazon Marketplace
 Web Service (Amazon MWS)</span> portal for your region.
 
 For more information, see
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html).
+[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md).
 
 </div>
 
@@ -67,14 +67,14 @@ For more information, see
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 3 - Prepare the items for
-shipping](../fba_guide/FBAGuide_PrepareItems.html)
+shipping](../fba_guide/FBAGuide_PrepareItems.md)
 
 </div>
 
@@ -82,7 +82,7 @@ shipping](../fba_guide/FBAGuide_PrepareItems.html)
 
 **Next topic:** [Step 5 - Use an Amazon-partnered carrier for your
 inbound shipments
-(optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.html)
+(optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.md)
 
 </div>
 

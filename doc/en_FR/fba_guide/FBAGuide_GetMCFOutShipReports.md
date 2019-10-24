@@ -70,7 +70,7 @@ possible:
 </div>
 
 For more information, see [What you should know about the Fulfillment
-Outbound Shipment API](../fba_outbound/FBAOutbound_Overview.html).
+Outbound Shipment API](../fba_outbound/FBAOutbound_Overview.md).
 
 </div>
 
@@ -80,7 +80,7 @@ Outbound Shipment API](../fba_outbound/FBAOutbound_Overview.html).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

@@ -48,7 +48,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Fulfillment Inbound
-Shipment API section](../fba_inbound/FBAInbound_Overview.html)
+Shipment API section](../fba_inbound/FBAInbound_Overview.md)
 
 </div>
 
@@ -62,10 +62,10 @@ Shipment API section](../fba_inbound/FBAInbound_Overview.html)
 
 <div class="body conbody">
 
-The [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.html),
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html),
-[GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.html), and
-[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html)
+The [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.md),
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md),
+[GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md), and
+[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
 operations return PDF document data for printing shipping labels and
 carrier labels for an inbound shipment. Amazon compresses PDF document
 data before returning it as a Base64-encoded string. To obtain the

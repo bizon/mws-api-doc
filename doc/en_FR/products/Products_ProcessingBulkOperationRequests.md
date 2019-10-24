@@ -258,7 +258,7 @@ Valid values:
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Products
-API section](../products/Products_Overview.html)
+API section](../products/Products_Overview.md)
 
 </div>
 

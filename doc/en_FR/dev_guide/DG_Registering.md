@@ -221,9 +221,9 @@ A seller must authorize a developer to make calls to
 
 ## Related topics
 
-  - [Acceptable Use Policy](DG_AcceptableUsePolicy.html)
-  - [Data Protection Policy](DG_DataProtectionPolicy.html)
-  - [Frequently Asked Questions](../faq.html)
+  - [Acceptable Use Policy](DG_AcceptableUsePolicy.md)
+  - [Data Protection Policy](DG_DataProtectionPolicy.md)
+  - [Frequently Asked Questions](../faq.md)
 
 </div>
 

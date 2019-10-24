@@ -109,7 +109,7 @@ marketplaces.
 
 <span class="ph">For definitions of throttling terminology and for a
 complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.html) in the
+you can submit requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -131,7 +131,7 @@ you can submit requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -182,7 +182,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 response to a successful request or subscription. If the request is
 unsuccessful, the main response element is
 <span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.html)
+information, see [Response format](../dev_guide/DG_ResponseFormat.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 The response elements that the
@@ -225,7 +225,7 @@ are:
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -271,7 +271,7 @@ FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -408,7 +408,7 @@ code</span> </span>
 ### Example response (Error, invalid parameter value)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -452,7 +452,7 @@ code</span> </span>
 ### Example response (Error, internal error)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -495,7 +495,7 @@ code</span> </span>
 ### Example response (Error, data not available)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -539,7 +539,7 @@ code</span> </span>
 ### Example response (Error, batch size above 20)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -576,7 +576,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products API](../products/Products_Overview.html)
+[Products API](../products/Products_Overview.md)
 
 [Processing bulk operation
 requests](Products_ProcessingBulkOperationRequests.html "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")

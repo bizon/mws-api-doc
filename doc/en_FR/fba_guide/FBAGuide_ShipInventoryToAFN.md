@@ -54,33 +54,33 @@ fulfillment network</span>.
 ## In this section
 
 1.  [Step 1 - Create a listing and convert it to
-    FBA](../fba_guide/FBAGuide_CreateListing.html)  
+    FBA](../fba_guide/FBAGuide_CreateListing.md)  
 2.  [Step 2 - Create an inbound shipment
-    plan](../fba_guide/FBAGuide_CreateInShipPlan.html)  
+    plan](../fba_guide/FBAGuide_CreateInShipPlan.md)  
 3.  [Step 3 - Prepare the items for
-    shipping](../fba_guide/FBAGuide_PrepareItems.html)  
+    shipping](../fba_guide/FBAGuide_PrepareItems.md)  
 4.  [Step 4 - Create an inbound
-    shipment](../fba_guide/FBAGuide_CreateInShip.html)  
+    shipment](../fba_guide/FBAGuide_CreateInShip.md)  
 5.  [Step 5 - Use an Amazon-partnered carrier for your inbound shipments
-    (optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.html)  
+    (optional)](../fba_guide/FBAGuide_UseAmazonCarrierToShip.md)  
 6.  [Step 6 - Send shipment tracking numbers to
-    Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.html)  
+    Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md)  
 7.  [Step 7 - Submit carton content
-    information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.html)  
+    information](../fba_guide/FBAGuide_SubmitCartonContentsFeed.md)  
 8.  [Step 8 - Request shipping labels for your inbound
-    shipment](../fba_guide/FBAGuide_RequestTransportDocs.html)  
+    shipment](../fba_guide/FBAGuide_RequestTransportDocs.md)  
 9.  [Step 9 - Request pallet labels or bills of lading (LTL/FTL
-    only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.html)  
+    only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.md)  
 10. [Step 10 - Send your shipments to Amazon's fulfillment
-    network](../fba_guide/FBAGuide_SendShipmentsToAFN.html)  
+    network](../fba_guide/FBAGuide_SendShipmentsToAFN.md)  
 11. [Step 11 - Mark your shipments as
-    shipped](../fba_guide/FBAGuide_MarkShipmentShipped.html)  
+    shipped](../fba_guide/FBAGuide_MarkShipmentShipped.md)  
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

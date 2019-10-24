@@ -63,10 +63,10 @@ section</span>:
 
 | Operation                                                                                                         | Description                                                                                                  | Availability                                   |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| [ListPickupSlots](EasyShip_ListPickupSlots.html)                                                                  | <span class="ph">Returns time slots for <span class="ph">Amazon Easy Ship</span> package pickup.</span>      | <span class="ph">The India marketplace.</span> |
-| [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html)                                                    | <span class="ph">Schedules an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                   | <span class="ph">The India marketplace.</span> |
-| [UpdateScheduledPackages](EasyShip_UpdateScheduledPackages.html)                                                  | <span class="ph">Updates an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                     | <span class="ph">The India marketplace.</span> |
-| [GetScheduledPackage](EasyShip_GetScheduledPackage.html)                                                          | <span class="ph">Returns information about a scheduled package.</span>                                       | <span class="ph">The India marketplace.</span> |
+| [ListPickupSlots](EasyShip_ListPickupSlots.md)                                                                  | <span class="ph">Returns time slots for <span class="ph">Amazon Easy Ship</span> package pickup.</span>      | <span class="ph">The India marketplace.</span> |
+| [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)                                                    | <span class="ph">Schedules an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                   | <span class="ph">The India marketplace.</span> |
+| [UpdateScheduledPackages](EasyShip_UpdateScheduledPackages.md)                                                  | <span class="ph">Updates an <span class="ph">Amazon Easy Ship</span> pickup slot.</span>                     | <span class="ph">The India marketplace.</span> |
+| [GetScheduledPackage](EasyShip_GetScheduledPackage.md)                                                          | <span class="ph">Returns information about a scheduled package.</span>                                       | <span class="ph">The India marketplace.</span> |
 | [GetServiceStatus](EasyShip_GetServiceStatus.html "Returns the operational status of the Easy Ship API section.") | <span class="ph">Returns the operational status of the <span class="ph">Easy Ship API section</span>.</span> | <span class="ph">The India marketplace.</span> |
 
 </div>
@@ -80,9 +80,9 @@ section</span>:
 ## In this section
 
   - **[How to handle order items that require serial
-    numbers](../easy_ship/EasyShip_HowToHandleSerialNumbers.html)**  
+    numbers](../easy_ship/EasyShip_HowToHandleSerialNumbers.md)**  
   - **[How to get invoice, shipping label, and warranty
-    documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.html)**  
+    documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)**  
 
 </div>
 

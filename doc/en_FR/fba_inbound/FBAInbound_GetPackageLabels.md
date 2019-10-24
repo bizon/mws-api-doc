@@ -59,7 +59,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span class="keyword apiname">GetPackageLabels</span> operation is
 provided for backwards compatibility only. Amazon strongly recommends
 using the
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html)
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
 operation to get package labels instead of the
 <span class="keyword apiname">GetPackageLabels</span> operation. Using
 the <span class="keyword apiname">GetUniquePackageLabels</span>
@@ -75,7 +75,7 @@ The <span class="keyword apiname">GetPackageLabels</span> operation
 returns PDF document data for printing shipping labels and carrier
 labels for an inbound shipment. <span class="ph">For information about
 extracting PDF document data, see [Extracting PDF Document
-Data](FBAInbound_ExtractingPdfDocumentData.html).</span>
+Data](FBAInbound_ExtractingPdfDocumentData.md).</span>
 
 The language of the address section of a shipping label is determined by
 the <span class="keyword parmname">ShipFromAddress</span> value for the
@@ -170,7 +170,7 @@ The <span class="keyword apiname">GetPackageLabels</span> operation has
 a **maximum request quota** of 30 and a **restore rate** of two requests
 every second. <span class="ph">For definitions of throttling terminology
 and for a complete explanation of throttling, see [Throttling: Limits to
-how often you can submit requests](../dev_guide/DG_Throttling.html) in
+how often you can submit requests](../dev_guide/DG_Throttling.md) in
 the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -190,7 +190,7 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -296,7 +296,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -329,7 +329,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -371,7 +371,7 @@ Top](#Examples)
 
 <div class="body">
 
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.html)
+[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
 
 </div>
 

@@ -109,7 +109,7 @@ action requested. This element contains one or more
 </div>
 
 <span class="ph">For more information about errors and error handling,
-see [Error Messages](../dev_guide/DG_Errors.html).</span>
+see [Error Messages](../dev_guide/DG_Errors.md).</span>
 
 The following example shows an error response:
 
@@ -157,10 +157,10 @@ of that character.
 
 <div class="body">
 
-[Error Messages](../dev_guide/DG_Errors.html)
+[Error Messages](../dev_guide/DG_Errors.md)
 
 [Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.html)
+pages](../dev_guide/DG_NextToken.md)
 
 </div>
 

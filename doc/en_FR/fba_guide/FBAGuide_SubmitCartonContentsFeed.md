@@ -50,7 +50,7 @@ feeds](../feeds/Feeds_FeedType.html#FeedType_Enumeration__FBAFeeds).
   - Retain the <span class="keyword parmname">CartonId</span> values
     that you specify using this feed, as you will need these values to
     specify which package labels to print in [Step
-    8](FBAGuide_RequestTransportDocs.html). Also, retain a record of the
+    8](FBAGuide_RequestTransportDocs.md). Also, retain a record of the
     correspondence between each package and its
     <span class="keyword parmname">CartonId</span> value. This is so
     that after you get your labels in Step 8, you will know which
@@ -67,21 +67,21 @@ feeds](../feeds/Feeds_FeedType.html#FeedType_Enumeration__FBAFeeds).
 <div class="parentlink">
 
 **Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.html)
+network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
 
 </div>
 
 <div class="previouslink">
 
 **Previous topic:** [Step 6 - Send shipment tracking numbers to
-Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.html)
+Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md)
 
 </div>
 
 <div class="nextlink">
 
 **Next topic:** [Step 8 - Request shipping labels for your inbound
-shipment](../fba_guide/FBAGuide_RequestTransportDocs.html)
+shipment](../fba_guide/FBAGuide_RequestTransportDocs.md)
 
 </div>
 

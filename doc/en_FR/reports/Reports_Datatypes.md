@@ -286,7 +286,7 @@ The following table shows the elements of the
 <div class="body">
 
 [What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html)
+section](../reports/Reports_Overview.md)
 
 </div>
 

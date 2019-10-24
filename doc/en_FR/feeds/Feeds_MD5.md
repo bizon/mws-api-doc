@@ -42,7 +42,7 @@ The Content-MD5 header and
 as a message integrity check to verify that the decoded data received is
 the same data that was initially sent.
 
-When you use the [SubmitFeed](../feeds/Feeds_SubmitFeed.html) operation,
+When you use the [SubmitFeed](../feeds/Feeds_SubmitFeed.md) operation,
 you must create an MD5 hash of the HTTP entity body, and include it in
 your request. You should include the hash in a
 <span class="keyword parmname">ContentMD5Value</span> parameter. This
@@ -63,7 +63,7 @@ content. Passing a Content-MD5 header prevents accidental corruption but
 not intentional tampering.
 
 When you use the
-[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.html)
+[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
 operation, you must calculate an MD5 hash for the received feeds report
 and compare that with the Content-MD5 header that is included in the
 response. If the two match, the report was not corrupted in
@@ -74,7 +74,7 @@ way to pass in the Content-MD5 hash with every <span class="ph">Amazon
 MWS</span> request, as long as you send data that has been stored on
 disk and an MD5 hash has been created for the data. For more information
 about working with the Content-MD5 header, see [Working with Content-MD5
-checksums](../dev_guide/DG_MD5.html).
+checksums](../dev_guide/DG_MD5.md).
 
 </div>
 
@@ -85,7 +85,7 @@ checksums](../dev_guide/DG_MD5.html).
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 </div>
 

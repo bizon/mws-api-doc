@@ -54,9 +54,9 @@ report types:
   - **XML All Orders Report by Order Date**
 
 For more information, see [Orders
-API](../orders-2013-09-01/Orders_Overview.html) and [What you should
+API](../orders-2013-09-01/Orders_Overview.md) and [What you should
 know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html).
+section](../reports/Reports_Overview.md).
 
 </div>
 
@@ -66,7 +66,7 @@ section](../reports/Reports_Overview.html).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.html)
+**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
 
 </div>
 

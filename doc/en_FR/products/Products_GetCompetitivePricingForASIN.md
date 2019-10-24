@@ -94,7 +94,7 @@ see [Throttling in the Products
 API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
@@ -116,7 +116,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -260,7 +260,7 @@ operation.
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -298,7 +298,7 @@ ASINList.ASIN.1=B002KT3XQM
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -373,7 +373,7 @@ code</span> </span>
 <div class="body">
 
 [Products
-API](../products/Products_Overview.html)
+API](../products/Products_Overview.md)
 
 [GetCompetitivePricingForSKU](Products_GetCompetitivePricingForSKU.html "Returns the current competitive price of a product, based on SellerSKU.")
 

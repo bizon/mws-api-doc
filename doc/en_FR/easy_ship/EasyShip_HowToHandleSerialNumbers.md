@@ -49,9 +49,9 @@ find out which items require serial numbers.
 **To handle order items with serial numbers**
 
 1.  Before calling the
-    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html)
+    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
     operation, call the
-    [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.html)
+    [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
     operation, specifying the Amazon Order ID for the order that you
     want to create a scheduled package for.
     
@@ -60,7 +60,7 @@ find out which items require serial numbers.
     <span class="keyword parmname">SerialNumberRequired</span>=true.
 
 2.  Call the
-    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.html)
+    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
     operation using
     <span class="keyword parmname">PackageItemList</span> to specify
     serial numbers for all of the items marked
@@ -72,7 +72,7 @@ find out which items require serial numbers.
     serial numbers for. For information about getting the documents that
     Amazon generates when you create a scheduled package, see [How to
     get invoice, shipping label, and warranty
-    documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.html).
+    documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md).
 
 </div>
 
@@ -81,7 +81,7 @@ find out which items require serial numbers.
 ## Releated topics
 
 [How to get invoice, shipping label, and warranty
-documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.html)
+documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)
 
 </div>
 
@@ -94,7 +94,7 @@ documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Easy Ship API
-section](../easy_ship/EasyShip_Overview.html)
+section](../easy_ship/EasyShip_Overview.md)
 
 </div>
 

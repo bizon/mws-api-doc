@@ -84,7 +84,7 @@ and others. The safe practice is to conform to ISO 8859-1 when using
     sets - Part 1: Latin alphabet
     No.1](ftp://std.dkuug.dk/JTC1/sc2/wg3/docs/n411.pdf)
   - [The ISO 8859 Alphabet
-    Soup](http://czyborra.com/charsets/iso8859.html)
+    Soup](http://czyborra.com/charsets/iso8859.md)
   - [Universal Coded Character Set
     (Unicode)](https://en.wikipedia.org/wiki/Universal_Coded_Character_Set)
 
@@ -99,7 +99,7 @@ and others. The safe practice is to conform to ISO 8859-1 when using
 <div class="parentlink">
 
 **Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.html)
+MWS](../dev_guide/DG_StandardsCompliance.md)
 
 </div>
 

@@ -68,7 +68,7 @@ codes available in ISO 639-2 or ISO 639-3.
 <div class="parentlink">
 
 **Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.html)
+MWS](../dev_guide/DG_StandardsCompliance.md)
 
 </div>
 

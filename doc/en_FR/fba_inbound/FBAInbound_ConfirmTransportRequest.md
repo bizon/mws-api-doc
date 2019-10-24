@@ -65,7 +65,7 @@ get the Amazon-partnered shipping estimate (indicated by the
 <span class="keyword parmname">PartneredEstimate</span> response
 element.) <span class="ph">For more information, see [Using an
 Amazon-partnered carrier for your inbound
-shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.html) in the
+shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md) in the
 MWS for FBA Sellers guide.</span>
 
 <div class="note important">
@@ -125,7 +125,7 @@ operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -145,7 +145,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer
 Guide</span>.</span>
 
@@ -209,7 +209,7 @@ Guide</span>.</span>
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -241,7 +241,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -281,11 +281,11 @@ code</span> </span>
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
-[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
-[PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+[PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 [EstimateTransportRequest](FBAInbound_EstimateTransportRequest.html "Requests an estimate of the shipping cost for an inbound shipment.")
 

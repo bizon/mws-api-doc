@@ -64,7 +64,7 @@ automatically retry the request for up to three more times. Please
 notify <span class="ph">Amazon MWS</span> if you receive a corrupted
 report body. For more information on the Content-MD5 header, see [Using
 the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult
-operations](Feeds_MD5.html).
+operations](Feeds_MD5.md).
 
 <div class="section">
 
@@ -91,7 +91,7 @@ marketplaces.
 
 <span class="ph">For definitions of throttling terminology and for a
 complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.html) in the
+you can submit requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -113,7 +113,7 @@ you can submit requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -183,7 +183,7 @@ for the returned HTTP body.
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -225,7 +225,7 @@ AWSAccessKeyId=0PExampleR2
 response to a successful request or subscription. If the request is
 unsuccessful, the main response element is
 <span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.html)
+information, see [Response format](../dev_guide/DG_ResponseFormat.md)
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -270,12 +270,12 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.html)
+section](../feeds/Feeds_Overview.md)
 
 [GetFeedSubmissionList](Feeds_GetFeedSubmissionList.html "Returns a list of all feed submissions submitted in the previous 90 days.")
 
 [Using the Content-MD5 hash with the SubmitFeed and
-GetFeedSubmissionResult operations](Feeds_MD5.html)
+GetFeedSubmissionResult operations](Feeds_MD5.md)
 
 </div>
 

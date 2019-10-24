@@ -87,7 +87,7 @@ tracking.
 | Specification | Description                                                                                                                                                                                                                                                             |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Label color   | White                                                                                                                                                                                                                                                                   |
-| Font          | See [Label font specifications](FBAGuide_LabelFontSpec.html).                                                                                                                                                                                                           |
+| Font          | See [Label font specifications](FBAGuide_LabelFontSpec.md).                                                                                                                                                                                                           |
 | Label size    | Use a label with a height by width dimension from 1" x 2" (2.5 cm x 5.0 cm) up to 2" x 3" (5.1 cm x 7.6 cm). For example, you could use a label that is 1" x 3" (2.5 cm x 7.6 cm) or 2" x 2" (5.1 cm x 5.1 cm), as long as all of the required information is included. |
 | Label type    | Removable adhesive.                                                                                                                                                                                                                                                     |
 
@@ -157,7 +157,7 @@ tracking.
 <div class="parentlink">
 
 **Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.html)
+Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
 
 </div>
 

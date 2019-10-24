@@ -1278,7 +1278,7 @@ codes.</span>
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.html)
+[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
 
 </div>
 

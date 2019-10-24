@@ -110,7 +110,7 @@ given EU or NA marketplace by specifying that
 <span class="keyword parmname">MarketplaceId</span> when submitting a
 report request. For a list of
 <span class="keyword parmname">MarketplaceId</span> values, see [Amazon
-MWS endpoints and MarketplaceId values](../dev_guide/DG_Endpoints.html).
+MWS endpoints and MarketplaceId values](../dev_guide/DG_Endpoints.md).
 You can also specify a <span class="ph">Checkout by Amazon</span>
 <span class="keyword parmname">MarketplaceId</span>
 value.
@@ -242,7 +242,7 @@ applicable) settlement transactions.
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.html)
+section](../reports/Reports_Overview.md)
 
 </div>
 
@@ -255,7 +255,7 @@ section](../reports/Reports_Overview.html)
 <div>
 
 [Use ReportProcessingFinishedNotification when requesting a
-report](../reports/Reports_UseReportProcessingFinished.html)
+report](../reports/Reports_UseReportProcessingFinished.md)
 
 </div>
 

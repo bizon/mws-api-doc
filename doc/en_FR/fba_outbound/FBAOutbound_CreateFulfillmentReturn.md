@@ -61,7 +61,7 @@ returned by a previous call to the
 operation. For definitions, see
 [Terminology](FBAOutbound_Overview.html#Outbound_Overview__Terminology).
 For more information, see [Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html).
+return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md).
 
 <div class="section">
 
@@ -81,7 +81,7 @@ operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer
 Guide</span>.</span>
 
@@ -101,7 +101,7 @@ Guide</span>.</span>
 
 | Name                                                           | Description                                                                                                                                                                                                                                                                                                                                                 | Required | Values                                                                                          |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">SellerFulfillmentOrderId</span> | An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct <span class="keyword parmname">SellerFulfillmentOrderId</span> value based on the buyer's request to return items. See [Creating a fulfillment return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html). | Yes      | <span class="ph">Type: xs:string</span>                                                         |
+| <span class="keyword parmname">SellerFulfillmentOrderId</span> | An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct <span class="keyword parmname">SellerFulfillmentOrderId</span> value based on the buyer's request to return items. See [Creating a fulfillment return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md). | Yes      | <span class="ph">Type: xs:string</span>                                                         |
 | <span class="keyword parmname">Items</span>                    | A list of items to be returned.                                                                                                                                                                                                                                                                                                                             | Yes      | Type: [CreateReturnItem](FBAOutbound_Datatypes.html#CreateReturnItem "An item to be returned.") |
 
 </div>
@@ -166,7 +166,7 @@ Guide</span>.</span>
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -209,7 +209,7 @@ http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -286,12 +286,12 @@ code</span> </span>
 <div class="body">
 
 [What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.html)
+section](FBAOutbound_Overview.md)
 
 [ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.html "Returns a list of return reason codes for a seller SKU in a given marketplace.")
 
 [Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.html)
+return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)
 
 </div>
 

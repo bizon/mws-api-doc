@@ -72,7 +72,7 @@ product by item condition, consider calling the
 operation.
 
 You can also subscribe to the
-[AnyOfferChanged](../notifications/Notifications_AnyOfferChangedNotification.html)
+[AnyOfferChanged](../notifications/Notifications_AnyOfferChangedNotification.md)
 notification by using the
 <span class="keyword parmname">Subscriptions</span> API service. When
 you subscribe to this notification, you will be notified whenever there
@@ -113,7 +113,7 @@ see [Throttling in the Products
 API](Products_Throttling.html "Describes the throttling policy for the Products API section.").
 For definitions of throttling terminology and for a complete explanation
 of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.html) in the
+requests](../dev_guide/DG_Throttling.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
@@ -135,7 +135,7 @@ requests](../dev_guide/DG_Throttling.html) in the
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html) in the
+parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -294,7 +294,7 @@ operation returns the following two sub-elements of the
 
 <span class="ph">For information about standard request requirements,
 see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.html).</span>
+parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -332,7 +332,7 @@ ASINList.ASIN.1=B002KT3XQM
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.html).</span>
+[Response format](../dev_guide/DG_ResponseFormat.md).</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -468,7 +468,7 @@ code</span> </span>
 <div class="body">
 
 [Products
-API](../products/Products_Overview.html)
+API](../products/Products_Overview.md)
 
 [GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.html "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
 

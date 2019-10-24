@@ -41,7 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <span class="ph">This shows how to add functionality to the workflow
 described in [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html).</span>
+orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 **To reprint a shipping label**
 
@@ -54,17 +54,17 @@ orders](MerchFulfill_HowToUseForPrime.html).</span>
     <span class="keyword parmname">FileContents</span> element returned
     by the <span class="keyword apiname">GetShipment</span> operation.
     See [How to extract a shipping label
-    file](MerchFulfill_HowToExtractShippingLabel.html).
+    file](MerchFulfill_HowToExtractShippingLabel.md).
 
 <div class="section">
 
 ## Related topics
 
 [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.html)
+orders](MerchFulfill_HowToUseForPrime.md)
 
 [How to extract a shipping label
-file](MerchFulfill_HowToExtractShippingLabel.html)
+file](MerchFulfill_HowToExtractShippingLabel.md)
 
 </div>
 
@@ -77,7 +77,7 @@ file](MerchFulfill_HowToExtractShippingLabel.html)
 <div class="parentlink">
 
 **Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.html)
+service](../merch_fulfill/MerchFulfill_Overview.md)
 
 </div>
 

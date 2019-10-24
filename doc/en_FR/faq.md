@@ -202,8 +202,8 @@ Access decisions are made based on the information that you provide in
 the <span class="ph">Developer Registration and Assessment form</span>,
 including but not limited to your application functionality and your
 compliance with the [Acceptable Use
-Policy](dev_guide/DG_AcceptableUsePolicy.html) and the [Data Protection
-Policy](dev_guide/DG_DataProtectionPolicy.html). Our goal is to provide
+Policy](dev_guide/DG_AcceptableUsePolicy.md) and the [Data Protection
+Policy](dev_guide/DG_DataProtectionPolicy.md). Our goal is to provide
 you only with the data that is relevant to you in order to protect
 customers and simplify your data protection obligations.
 
@@ -217,8 +217,8 @@ The decision to grant or deny MWS Access Keys is made based on the
 information that you provide in the <span class="ph">Developer
 Registration and Assessment form</span>, including but not limited to
 your application functionality and your compliance with the [Acceptable
-Use Policy](dev_guide/DG_AcceptableUsePolicy.html) and the [Data
-Protection Policy](dev_guide/DG_DataProtectionPolicy.html). We cannot
+Use Policy](dev_guide/DG_AcceptableUsePolicy.md) and the [Data
+Protection Policy](dev_guide/DG_DataProtectionPolicy.md). We cannot
 provide detailed information about how we determine MWS Access Key
 eligibility, but we prioritize data security in decisions. If you want
 to appeal our decision, then please see the next question here.
@@ -235,7 +235,7 @@ but we will consider appeals on a case-by-case basis. If you believe
 that we misunderstood your form, or that the Amazon MWS updates will
 materially impact the application functionality that you provide under
 the terms of the [Acceptable Use
-Policy](dev_guide/DG_AcceptableUsePolicy.html), please respond to your
+Policy](dev_guide/DG_AcceptableUsePolicy.md), please respond to your
 <span class="ph">Developer Registration and Assessment form</span>
 support case at least five business days prior to your adjustment date
 and ask for an "Appeal Request". Please clearly state the reason for
@@ -258,7 +258,7 @@ whether it can safely handle receiving null values for data you may have
 previously used, either directly or as lookup values. You may find it
 useful to review the "Building robust Amazon MWS applications" topic in
 the Amazon MWS Developer Guide here: [Building robust Amazon MWS
-applications](dev_guide/DG_BuildingRobustApps.html).
+applications](dev_guide/DG_BuildingRobustApps.md).
 
 </div>
 

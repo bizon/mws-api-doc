@@ -114,8 +114,8 @@ The <span class="keyword cmdname">Address</span> datatype is used in a
 request parameter or in a response element of the following
     operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
+  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
   - [ListInboundShipments](FBAInbound_ListInboundShipments.html "Returns a list of inbound shipments based on criteria that you specify.")
 
@@ -301,8 +301,8 @@ The <span class="keyword cmdname">Amount</span> datatype is used in a
 request parameter or in a response element of the following
     operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -513,7 +513,7 @@ The <span class="keyword cmdname">BoxContentsFeeDetails</span> datatype
 is used in a request parameter or in a response element of the following
 operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
   - [ListInboundShipments](FBAInbound_ListInboundShipments.html "Returns a list of inbound shipments based on criteria that you specify.")
   - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.html "Returns the next page of inbound shipments using the NextToken parameter.")
 
@@ -611,8 +611,8 @@ The <span class="keyword cmdname">Contact</span> datatype is used in a
 request parameter or in a response element of the following
     operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -696,8 +696,8 @@ The <span class="keyword cmdname">Dimensions</span> datatype is used in
 a request parameter or in a response element of the following
 operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -869,7 +869,7 @@ The <span class="keyword cmdname">InboundShipmentHeader</span> datatype
 is used in a request parameter of the following
     operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
 
 </div>
@@ -1157,7 +1157,7 @@ The <span class="keyword cmdname">InboundShipmentItem</span> datatype is
 used in a request parameter or in a response element of the following
 operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
   - [ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
   - [ListInboundShipmentItemsByNextToken](FBAInbound_ListInboundShipmentItemsByNextToken.html "Returns the next page of inbound shipment items using the NextToken parameter.")
@@ -1273,7 +1273,7 @@ The <span class="keyword cmdname">InboundShipmentPlan</span> datatype is
 used in a response element of the following
     operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
 </div>
 
@@ -1377,7 +1377,7 @@ The <span class="keyword cmdname">InboundShipmentItem</span> datatype is
 used in a response element of the following
     operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
 </div>
 
@@ -1463,7 +1463,7 @@ The <span class="keyword cmdname">InboundShipmentPlanRequestItem</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
 </div>
 
@@ -1600,7 +1600,7 @@ The <span class="keyword cmdname">IntendedBoxContentsSource</span>
 datatype is used in a request parameter of the following
     operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
 
 </div>
@@ -1781,7 +1781,7 @@ The <span class="keyword cmdname">NonPartneredLtlDataInput</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -1873,7 +1873,7 @@ The <span class="keyword cmdname">NonPartneredLtlDataOutput</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -1966,7 +1966,7 @@ The
 datatype is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -2059,7 +2059,7 @@ The
 datatype is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2103,7 +2103,7 @@ The
 datatype is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -2169,7 +2169,7 @@ The
 datatype is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2275,8 +2275,8 @@ The <span class="keyword cmdname">Pallet</span> datatype is used in a
 request parameter or in a response element of the following
     operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2357,7 +2357,7 @@ The <span class="keyword cmdname">PartneredEstimate</span> datatype is
 used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2438,7 +2438,7 @@ The <span class="keyword cmdname">PartneredLtlDataInput</span> datatype
 is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -2542,7 +2542,7 @@ The <span class="keyword cmdname">PartneredLtlDataOutput</span> datatype
 is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2710,7 +2710,7 @@ The <span class="keyword cmdname">PartneredSmallParcelDataInput</span>
 datatype is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -2791,7 +2791,7 @@ The <span class="keyword cmdname">PartneredSmallParcelDataOutput</span>
 datatype is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2836,7 +2836,7 @@ The
 datatype is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -2881,7 +2881,7 @@ The
 datatype is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -2979,8 +2979,8 @@ The <span class="keyword cmdname">PrepDetails</span> PrepDetails is used
 in a request and response element of the following
     operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.html)
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.html)
+  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
+  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.html "Updates an existing inbound shipment.")
   - [ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.html "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
   - [ListInboundShipmentItemsByNextToken](FBAInbound_ListInboundShipmentItemsByNextToken.html "Returns the next page of inbound shipment items using the NextToken parameter.")
@@ -3285,7 +3285,7 @@ The <span class="keyword cmdname">TransportContent</span> datatype is
 used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -3332,7 +3332,7 @@ The <span class="keyword cmdname">TransportDetailInput</span> datatype
 is used in a request parameter of the following
     operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
 </div>
 
@@ -3378,7 +3378,7 @@ The <span class="keyword cmdname">TransportDetailOutput</span> datatype
 is used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -3423,8 +3423,8 @@ labels and bills of lading.</span>
 The <span class="keyword cmdname">TransportDocument</span> datatype is
 used in a response element of the following operations:
 
-  - [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.html)
-  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.html)
+  - [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.md)
+  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
 
 </div>
 
@@ -3471,7 +3471,7 @@ The <span class="keyword cmdname">TransportHeader</span> datatype is
 used in a response element of the following
     operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -3562,8 +3562,8 @@ The <span class="keyword cmdname">TransportResult</span> datatype is
 used in a request parameter or in a response element of the following
 operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
   - [EstimateTransportRequest](FBAInbound_EstimateTransportRequest.html "Requests an estimate of the shipping cost for an inbound shipment.")
   - [ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.html "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
   - [VoidTransportRequest](FBAInbound_VoidTransportRequest.html "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
@@ -3641,8 +3641,8 @@ The <span class="keyword cmdname">Weight</span> datatype is used in a
 request parameter or in a response element of the following
     operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.html)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.html)
+  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
 </div>
 
@@ -3706,7 +3706,7 @@ The following table shows the elements of the
 <div class="body">
 
 [Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.html)
+API](../fba_inbound/FBAInbound_Overview.md)
 
 </div>
 
