@@ -8,7 +8,7 @@ The MWS API documentation often changes without notice from the MWS Team. The ai
 
 A [CircleCI job](https://github.com/bizon/mws-api-doc/blob/master/.circleci/config.yml) is executed every day at midnight (GMT). It downloads the doc and generates a Markdown (GFM) version, available in the `doc/` directory of this repository.
 
-The entry point of the documentation is [dev_guide/index.md](https://github.com/bizon/mws-api-doc/blob/master/doc/en_FR/dev_guide/index.md).
+The entry point of the documentation is [dev_guide/index.md](doc/en_FR/dev_guide/index.md).
 
 ## Miscellaneous
 
