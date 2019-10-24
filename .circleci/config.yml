@@ -8,8 +8,24 @@ jobs:
       - checkout
 
       - run:
+          name: Install dependencies
+          command: |
+            sudo apt-get -y update
+            sudo apt-get -y install pandoc
+
+      - run:
           name: Download MWS doc
           command: wget -rnH -A html -P src http://docs.developer.amazonservices.com/en_FR/dev_guide/index.html || true
+
+      - run:
+          name: Generate markdown version
+          command: |
+            find src -name "*.html" | while read input
+            do
+              output=$(echo "${input%.*}.md" | sed s/^src/doc/)
+              mkdir -p $(dirname "$output")
+              pandoc -f html -t gfm "$input" -o "$output"
+            done
 
       - run:
           name: Show git diff stats
@@ -23,7 +39,7 @@ jobs:
 
       - run:
           name: Add changes
-          command: git add src
+          command: git add src doc
 
       - run:
           name: Commit changes
