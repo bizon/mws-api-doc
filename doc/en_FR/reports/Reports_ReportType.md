@@ -893,6 +893,7 @@ Enumeration value: \_GET\_FBA\_FULFILLMENT\_INVENTORY\_HEALTH\_DATA\_
 Tab-delimited flat file. Contains information about inventory age,
 condition, sales volume, weeks of cover, and price. Content updated
 daily. For FBA Sellers only. For Marketplace and Seller Central sellers.
+This report is not available in the Mexico and Australia marketplaces.
 
 <span class="keyword parmname">FBA Manage Inventory</span>
 

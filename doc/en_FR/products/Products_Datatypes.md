@@ -197,7 +197,7 @@ once an order has been placed.</span>
 </tr>
 <tr class="even">
 <td>availabilityType</td>
-<td><span id="DetailedShippingTimeType__d50082e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.</td>
+<td><span id="DetailedShippingTimeType__d50806e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.</td>
 <td>No</td>
 <td>Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
 </tr>
@@ -235,7 +235,7 @@ Central.</span>
 
 | Name                                                        | Description                                                                              | Required | Values                                                                                                         |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50082e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.md#FeeType "The type of fee charged to a seller.")                        |
+| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50806e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.md#FeeType "The type of fee charged to a seller.")                        |
 | <span class="keyword parmname">FeeAmount</span>             | The amount charged for a given fee.                                                      | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
 | <span class="keyword parmname">FeePromotion</span>          | The promotion amount for a given fee.                                                    | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
 | <span class="keyword parmname">TaxAmount</span>             | The tax amount for a given fee. This is only shown for the India marketplace.            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
@@ -584,7 +584,7 @@ item.</span>
 | Name               | Description                                                                                                               | Required | Values                                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.   | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="LowestPrice__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| fulfillmentChannel | <span id="LowestPrice__d50806e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -723,7 +723,7 @@ condition.</span>
 | Name               | Description                                                                                                              | Required | Values                                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.  | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="OfferCount__d50082e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| fulfillmentChannel | <span id="OfferCount__d50806e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 

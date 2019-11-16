@@ -80,8 +80,8 @@ Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 ### Availability
 
-This operation is only available in the Mexico, US, Germany, and UK
-marketplaces.
+This operation is only available in the Canada, US, Mexico, Spain, UK,
+France, Germany, Italy, and India marketplaces.
 
 </div>
 
@@ -153,6 +153,21 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td>Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
 </tr>
+<tr class="odd">
+<td><span class="keyword parmname">LabelFormatOption</span></td>
+<td>Label options.</td>
+<td>No</td>
+<td><span class="keyword parmname">LabelFormatOption</span> elements:
+<ul>
+<li><span class="keyword parmname">IncludePackingSlipWithLabel</span> - True indicates that you want Amazon to include a packing slip with the shipping label. If <span class="keyword parmname">LabelFormatOption</span> is not specified, no packing slip is returned. <span class="ph">Type: xs:boolean</span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
+<td>A list of additional seller inputs, at the shipment level.</td>
+<td>No</td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the operation.">ShipmentLevelSellerInputsList</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -221,6 +236,8 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
+For domestic shipping.
+
 ``` pre codeblock
 https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
   &Action=CreateShipment
@@ -260,6 +277,94 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
   &ShipmentRequestDetails.ItemList.Item.1.Quantity=2
   &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.1=AZ:QFUL6MXBXE3A2EBC0
   &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.2=ZA:QFUL6MXBXE3A2EBC0
+```
+
+For international shipping.
+
+``` pre codeblock
+POST /MerchantFulfillment/2015-06-01?AWSAccessKeyId=AKIAEE2ISSMCQLNRUXDQ
+  &Action=CreateShipment
+  &SellerId=A46VPI2LR4OTS
+  &SignatureVersion=2
+  &Timestamp=2019-10-23T22%3A26%3A40Z
+  &Version=2015-06-01
+  &Signature=xTWZ4NT3UajzfMQsaxx4XSX2np%2F7ZT6SAqCRYpnu5mk%3D
+  &SignatureMethod=HmacSHA256
+  &ShippingServiceId=CHINA_POST_E_COURIER_PRI
+  &HazmatType=None
+  &ShipmentRequestDetails.AmazonOrderId=911-3199039-9308631
+  &ShipmentRequestDetails.PackageDimensions.Length=15
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
+  &ShipmentRequestDetails.Weight.Value=100
+  &ShipmentRequestDetails.Weight.Unit=grams
+  &ShipmentRequestDetails.ShipFromAddress.Name=China%20warehouse
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20line%201
+  &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
+  &ShipmentRequestDetails.ShipFromAddress.Email=test%40email.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=123456789
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUpOption=CarrierWillPickUp
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=CNY
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=0
+  &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=PDF
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26969160673646
+  &ShipmentRequestDetails.ItemList.Item.2.OrderItemId=61995533938438
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShipmentRequestDetails.ItemList.Item.2.Quantity=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=12345
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=holder
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsString=%E6%9E%B6%E5%AD%90
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.Amount=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalInputFieldName=ITEM_WEIGHT
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.DataType=WEIGHT
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Value=100
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Unit=grams 
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=23456
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=poster
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsString=%E6%B5%B7%E6%8A%A5
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.Amount=0.7
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalInputFieldName=ITEM_WEIGHT
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.DataType=WEIGHT
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Value=50
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Unit=grams
+  &LabelFormatOption.IncludePackingSlipWithLabel=false
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=NON_DELIVERABLE_INSTRUCTIONS
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=SENDER_ADDRESS_TRANSLATED
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=ADDRESS
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=RETURN_TO_SELLER
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Name=%E4%B8%AD%E5%9B%BD%E4%BB%93%E5%BA%93
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.AddressLine1=%E6%B5%8B%E8%AF%95%E8%A1%8C
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.City=%E6%B7%B1%E5%9C%B3
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.StateOrProvinceCode=%E5%B9%BF%E4%B8%9C
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.PostalCode=510810
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.CountryCode=CN
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Email=test%40email.com
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Phone=123456789
 ```
 
 [↑ Top](#Examples)
@@ -401,6 +506,8 @@ code</span> </span>
 orders](MerchFulfill_HowToUseForPrime.md)
 
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
+
+[GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.")
 
 </div>
 

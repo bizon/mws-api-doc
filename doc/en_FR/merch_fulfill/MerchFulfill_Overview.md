@@ -44,8 +44,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 With the <span class="ph">Merchant Fulfillment service</span>, you can
 build applications that let sellers purchase shipping for non-Prime and
 Prime orders using Amazon’s [Buy Shipping
-Services](https://sellercentral.amazon.co.uk/gp/help/200202220). Your
-applications can:
+Services](https://sellercentral.amazon.co.uk/gp/help/200202220). To
+build applications that fulfill Prime orders, see [How to fulfill Seller
+Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).
+
+You can build applications that can:
 
   - Preview shipping service offers based on shipping requirements: ship
     date, must arrive by date, package size and weight, etc.
@@ -67,18 +70,18 @@ Amazon MWS](../dev_guide/DG_Registering.md#DG_Registering).
 
 <div class="section">
 
-## Building applications for Prime orders
+## Terms and conditions
 
 You can build applications that use the <span class="ph">Merchant
-Fulfillment service</span> to fulfill Prime orders for sellers. See [How
-to fulfill Seller Fulfilled Prime
+Fulfillment service</span> to fulfill orders for sellers. See [How to
+fulfill Seller Fulfilled Prime
 orders](MerchFulfill_HowToUseForPrime.md).
 
 **Terms and conditions**
 
 Before a seller can use any application that uses the
-<span class="ph">Merchant Fulfillment service</span> to fulfill Prime
-orders, they need to:
+<span class="ph">Merchant Fulfillment service</span> to fulfill orders,
+they need to:
 
 1.  Review and accept the terms and conditions of the Buy Shipping
     Services program.
@@ -106,13 +109,14 @@ service</span>
 
 <div class="tablenoborder">
 
-| Operation                                                                                                                                        | Description                                                                                                         | Availability                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")                        | <span class="ph">Returns a list of shipping service offers.</span>                                                  | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
-| [CreateShipment](MerchFulfill_CreateShipment.md)                                                                                               | <span class="ph">Purchases shipping and returns a shipping label.</span>                                            | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
-| [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")                                              | <span class="ph">Returns an existing shipment for a given identifier.</span>                                        | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
-| [CancelShipment](MerchFulfill_CancelShipment.md "Cancels an existing shipment.")                                                               | <span class="ph">Cancels an existing shipment.</span>                                                               | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
-| [GetServiceStatus](../fba_outbound/MWS_GetServiceStatus.md "Returns the operational status of the Fulfillment Outbound Shipment API section.") | <span class="ph">Returns the operational status of the <span class="ph">Merchant Fulfillment service</span>.</span> | <span class="ph">The Mexico, US, Germany, and UK marketplaces.</span> |
+| Operation                                                                                                                                                                                                  | Description                                                                                                                                             | Availability                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")                                                                                  | <span class="ph">Returns a list of shipping service offers.</span>                                                                                      | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
+| [GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.") | <span class="ph">Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.</span> | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
+| [CreateShipment](MerchFulfill_CreateShipment.md)                                                                                                                                                         | <span class="ph">Purchases shipping and returns a shipping label.</span>                                                                                | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
+| [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")                                                                                                        | <span class="ph">Returns an existing shipment for a given identifier.</span>                                                                            | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
+| [CancelShipment](MerchFulfill_CancelShipment.md "Cancels an existing shipment.")                                                                                                                         | <span class="ph">Cancels an existing shipment.</span>                                                                                                   | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
+| [GetServiceStatus](../fba_outbound/MWS_GetServiceStatus.md "Returns the operational status of the Fulfillment Outbound Shipment API section.")                                                           | <span class="ph">Returns the operational status of the <span class="ph">Merchant Fulfillment service</span>.</span>                                     | <span class="ph">The Canada, US, MX, Spain, UK, France, Germany, Italy, and India marketplaces.</span> |
 
 </div>
 
@@ -124,12 +128,13 @@ service</span>
 
 <div class="tablenoborder">
 
-| Term                       | Definition                                                                                                                                                                                                                                                                                                                                        |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Shipping service**       | A carrier's shipping service. For example, "UPS Ground" or "FedEx Standard Overnight". Identified with a <span class="keyword parmname">ShippingServiceId</span> value, which is returned by the [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.") operation.             |
-| **Shipping service offer** | <span class="ph">A shipping service offer made by a carrier.</span> Represented by the <span class="keyword parmname">ShippingService</span> datatype. Identified with a <span class="keyword parmname">ShippingServiceOfferId</span> value, which is returned by the <span class="keyword apiname">GetEligibleShippingServices</span> operation. |
-| **Package**                | A parcel to be shipped by a carrier. A package includes metadata such as dimensions, weight, and item contents.                                                                                                                                                                                                                                   |
-| **Shipment**               | A package and a shipping label. Identified with a <span class="keyword parmname">ShipmentId</span> value.                                                                                                                                                                                                                                         |
+| Term                         | Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Shipping service**         | A carrier's shipping service. For example, "UPS Ground" or "FedEx Standard Overnight". Identified with a <span class="keyword parmname">ShippingServiceId</span> value, which is returned by the [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.") operation.                                                                                                                                                                                                                                                                                   |
+| **Shipping service offer**   | <span class="ph">A shipping service offer made by a carrier.</span> Represented by the <span class="keyword parmname">ShippingService</span> datatype. Identified with a <span class="keyword parmname">ShippingServiceOfferId</span> value, which is returned by the <span class="keyword apiname">GetEligibleShippingServices</span> operation.                                                                                                                                                                                                                                                                       |
+| **Package**                  | A parcel to be shipped by a carrier. A package includes metadata such as dimensions, weight, and item contents.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Shipment**                 | A package and a shipping label. Identified with a <span class="keyword parmname">ShipmentId</span> value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Additional seller inputs** | Additional seller-provided information that is required to purchase certain shipping services. You can call the [GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.") to find out which additional seller inputs are required for a specific shipping service. Then, after getting these additional seller inputs from the seller, you can use them as input to the [CreateShipment](MerchFulfill_CreateShipment.md) operation to purchase the shipping service. |
 
 </div>
 

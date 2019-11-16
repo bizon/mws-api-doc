@@ -52,22 +52,29 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 The <span class="keyword apiname">GetEligibleShippingServices</span>
 operation returns a list of shipping service offers that satisfy the
 shipment request details that you specify. Use this operation to find a
-shipping service offer that meets your requirements, then specify the
-<span class="keyword parmname">ShippingServiceId</span> value and the
-optional <span class="keyword parmname">ShippingServiceOfferId</span>
-value associated with this shipping service offer in a subsequent call
-to the [CreateShipment](MerchFulfill_CreateShipment.md) operation.
-<span class="ph">For definitions, see
+shipping service offer that meets your requirements. If the shipping
+service offer that you choose requires additional seller inputs (when
+<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=true),
+you must call the
+[GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.")
+operation to find out which additional seller inputs are required.
+Specify the <span class="keyword parmname">ShippingServiceId</span>
+associated with the shipping service that you want. Get the required
+additional seller input values from the seller and use them as input to
+the [CreateShipment](MerchFulfill_CreateShipment.md) operation.
+Specify the <span class="keyword parmname">ShippingServiceId</span>
+value, the additional seller inputs (if required), and the optional
+<span class="keyword parmname">ShippingServiceOfferId</span> value
+associated with this shipping service offer. <span class="ph">For
+definitions, see
 [Terminology](../merch_fulfill/MerchFulfill_Overview.md#Terminology).</span>
-<span class="ph">For more information, see [How to fulfill Seller
-Fulfilled Prime orders](MerchFulfill_HowToUseForPrime.md).</span>
 
 <div class="section">
 
 ### Availability
 
-This operation is only available in the Mexico, US, Germany, and UK
-marketplaces.
+This operation is only available in the Canada, US, Mexico, Spain, UK,
+France, Germany, Italy, and India marketplaces.
 
 </div>
 
@@ -97,9 +104,10 @@ Guide</span>.</span>
 
 <div class="tablenoborder">
 
-| Name                                                         | Description                                                           | Required | Values                                                                                                                                                                                |
-| ------------------------------------------------------------ | --------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ShipmentRequestDetails</span> | Shipment information required for requesting shipping service offers. | Yes      | Type: [ShipmentRequestDetails](MerchFulfill_Datatypes.md#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.") |
+| Name                                                         | Description                                                                                     | Required | Values                                                                                                                                                                                |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">ShipmentRequestDetails</span> | Shipment information required for requesting shipping service offers.                           | Yes      | Type: [ShipmentRequestDetails](MerchFulfill_Datatypes.md#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.") |
+| <span class="keyword parmname">ShippingOfferingFilter</span> | <span class="ph">Specifies particular requirements for eligible shipping service offers.</span> | No       | Type: [ShippingOfferingFilter](MerchFulfill_Datatypes.md#ShippingOfferingFilter "Specifies particular requirements for eligible shipping service offers.")                          |
 
 </div>
 
@@ -171,6 +179,9 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
+For domestic shipping
+(\&ShippingOfferingFilter.IncludeComplexShippingOptions=false)
+
 ``` pre codeblock
 https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
   &Action=GetEligibleShippingServices
@@ -197,14 +208,51 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
   &ShipmentRequestDetails.ShipFromAddress.CountryCode=US
   &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
   &ShipmentRequestDetails.ShipFromAddress.Phone=2061234567
-  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience
-=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
   &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=false
-  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode
-=USD
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=USD
   &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=10.00
   &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=28207139993814
   &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShippingOfferingFilter.IncludeComplexShippingOptions=false
+```
+
+For international shipping
+(\&ShippingOfferingFilter.IncludeComplexShippingOptions=true)
+
+``` pre codeblock
+https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
+  &Action=GetEligibleShippingServices
+  &SellerId= A46VPI2LR4OTS
+  &SignatureVersion=2
+  &Timestamp=2019-08-07T18%3A28%3A06Z
+  &Version=2015-06-01
+  &Signature=upzMoYiuk61LuT3eMkSnSqLHQJHoZfFX3iwxjeV%2F3Qg%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentRequestDetails.AmazonOrderId=922-2942641-9412606
+  &ShipmentRequestDetails.MustArriveByDate=2019-09-10T07%3A00%3A00Z
+  &ShipmentRequestDetails.PackageDimensions.Length=15
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
+  &ShipmentRequestDetails.Weight.Value=10
+  &ShipmentRequestDetails.Weight.Unit=grams
+  &ShipmentRequestDetails.ShipDate=2019-08-08T07%3A00%3A00Z
+  &ShipmentRequestDetails.ShipFromAddress.Name=Shenzhen%20Address
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20address
+  &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
+  &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=555-555-5555
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
+  &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=ShippingServiceDefault
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26249797786670
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShippingOfferingFilter.IncludePackingSlipWithLabel=false
+  &ShippingOfferingFilter.IncludeComplexShippingOptions=true
 ```
 
 [↑ Top](#Examples)
@@ -226,138 +274,129 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
+For shipping that does not require additional seller inputs.
+
 ``` pre codeblock
 <?xml version="1.0"?>
-<GetEligibleShippingServicesResponse xmlns="https://mws.amazonservices.com
-    /MerchantFulfillment/2015-06-01">
+<GetEligibleShippingServicesResponse
+    xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
     <GetEligibleShippingServicesResult>
         <ShippingServiceList>
             <ShippingService>
-                <AvailableLabelFormats>
-                  <LabelFormat>PDF</LabelFormat>
-                  <LabelFormat>ShippingServiceDefault</LabelFormat>
-                  <LabelFormat>ZPL203</LabelFormat>
-                </AvailableLabelFormats>
-                <CarrierName>FEDEX</CarrierName>
-                <ShippingServiceOptions>
-                    <CarrierWillPickUp>false</CarrierWillPickUp>
-                    <DeclaredValue>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>10.00</Amount>
-                    </DeclaredValue>
-                    <DeliveryExperience>DeliveryConfirmationWithoutSignature
-                    </DeliveryExperience>
-                </ShippingServiceOptions>
-                <ShippingServiceId>FEDEX_PTP_PRIORITY_OVERNIGHT</ShippingServiceId>
-                <Rate>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>27.81</Amount>
-                </Rate>
-                <LatestEstimatedDeliveryDate>2015-09-24T10:30:00Z
-                </LatestEstimatedDeliveryDate>
-                <EarliestEstimatedDeliveryDate>2015-09-24T10:30:00Z
-                </EarliestEstimatedDeliveryDate>
-                <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa3
-mN2+zUOsRCAZS2oYt0ey6fXKdOAucmYVXR9LAkU9P8hOWw6qYvxYfGr3QxB6dif9iACvBG7fTm0y3
-x5aKoyyj7mlrrOUEutSK4PbpMepC3deb5GjoVHIIdeKhVZYRU=</ShippingServiceOfferId>
-                <ShipDate>2015-09-23T19:32:08.727Z</ShipDate>
-                <ShippingServiceName>FedEx Priority Overnight</ShippingServiceName>
-            </ShippingService>
-            <ShippingService>
-                <AvailableLabelFormats>
-                  <LabelFormat>PDF</LabelFormat>
-                  <LabelFormat>ShippingServiceDefault</LabelFormat>
-                  <LabelFormat>ZPL203</LabelFormat>
-                </AvailableLabelFormats>
-                <CarrierName>FEDEX</CarrierName>
-                <ShippingServiceOptions>
-                    <CarrierWillPickUp>false</CarrierWillPickUp>
-                    <DeclaredValue>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>10.00</Amount>
-                    </DeclaredValue>
-                    <DeliveryExperience>DeliveryConfirmationWithoutSignature
-                    </DeliveryExperience>
-                </ShippingServiceOptions>
-                <ShippingServiceId>FEDEX_PTP_STANDARD_OVERNIGHT</ShippingServiceId>
-                <Rate>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>26.57</Amount>
-                </Rate>
-                <LatestEstimatedDeliveryDate>2015-09-24T20:00:00Z
-                </LatestEstimatedDeliveryDate>
-                <EarliestEstimatedDeliveryDate>2015-09-24T20:00:00Z
-                </EarliestEstimatedDeliveryDate>
-                <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa3
-mN2+zUOsRCAZS2oYt0elYmXI8AA2YaB4Q0etqj8XeAkNr4oeJBer1ZX9y4YQN+jHo37NejjUkmDTD
-TxHRbtUIKRYtC9pDb7UCg/VJRff5NpQHcMmBbY/Q/tFdxYM5c=</ShippingServiceOfferId>
-                <ShipDate>2015-09-23T19:32:08.727Z</ShipDate>
-                <ShippingServiceName>FedEx Standard Overnight</ShippingServiceName>
-            </ShippingService>
-            <ShippingService>
-                <AvailableLabelFormats>
-                  <LabelFormat>PNG</LabelFormat>
-                  <LabelFormat>ShippingServiceDefault</LabelFormat>
-                </AvailableLabelFormats>
-                <CarrierName>UPS</CarrierName>
-                <ShippingServiceOptions>
-                    <CarrierWillPickUp>false</CarrierWillPickUp>
-                    <DeclaredValue>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>10.00</Amount>
-                    </DeclaredValue>
-                    <DeliveryExperience>DeliveryConfirmationWithoutSignature
-                    </DeliveryExperience>
-                </ShippingServiceOptions>
-                <ShippingServiceId>UPS_PTP_GND</ShippingServiceId>
-                <Rate>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>6.89</Amount>
-                </Rate>
-                <LatestEstimatedDeliveryDate>2015-09-25T06:00:00Z
-                </LatestEstimatedDeliveryDate>
-                <EarliestEstimatedDeliveryDate>2015-09-25T06:00:00Z
-                </EarliestEstimatedDeliveryDate>
-                <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c12nyrBg+Utzz6zmIwjhbP5DEb
-C2ZiP0hJRCyAda4ne5EiFGyivXnPjg4kMabInnyVrqdSXRj9TCk88N3BHctTV4lY+0YW647Dm0ahK
-hTc4vU9OqMqYLWbnESwE/V/iydXw==</ShippingServiceOfferId>
-                <ShipDate>2015-09-23T19:32:08.727Z</ShipDate>
                 <ShippingServiceName>UPS Ground</ShippingServiceName>
-            </ShippingService>
-            <ShippingService>
-                <AvailableLabelFormats>
-                  <LabelFormat>PNG</LabelFormat>
-                  <LabelFormat>ShippingServiceDefault</LabelFormat>
-                </AvailableLabelFormats>
                 <CarrierName>UPS</CarrierName>
-                <ShippingServiceOptions>
-                    <CarrierWillPickUp>false</CarrierWillPickUp>
-                    <DeclaredValue>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>10.00</Amount>
-                    </DeclaredValue>
-                    <DeliveryExperience>DeliveryConfirmationWithoutSignature
-                    </DeliveryExperience>
-                </ShippingServiceOptions>
-                <ShippingServiceId>UPS_PTP_NEXT_DAY_AIR_SAVER</ShippingServiceId>
+                <ShippingServiceId>UPS_PTP_GND</ShippingServiceId>
+                <ShippingServiceOfferId>ly51yzA1nAXlJzmYlKaH+7WbKOWz2BTujIOPx5PU8luilmZYK/JFhbx177aKey8MdZcG90uABbT5q8WAgPI+uxcxx/XDtIbI7c161j5spbfsiPTwIJg4Bk66bnP6Ip+JJtuSU5++rAdv4mzXvKpisLGYGrc+FuJvBAjTersJhq4=</ShippingServiceOfferId>
+                <ShipDate>10/16/2018 07:41:12</ShipDate>
+                <EarliestEstimatedDeliveryDate>10/18/2018 02:00:00</EarliestEstimatedDeliveryDate>
+                <LatestEstimatedDeliveryDate>10/18/2018 02:00:00</LatestEstimatedDeliveryDate>
                 <Rate>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>22.91</Amount>
+                    <Amount>16.83</Amount>
                 </Rate>
-                <LatestEstimatedDeliveryDate>2015-09-25T06:00:00Z
-                </LatestEstimatedDeliveryDate>
-                <EarliestEstimatedDeliveryDate>2015-09-25T06:00:00Z
-                </EarliestEstimatedDeliveryDate>
-                <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c12nyrBg+Utzz6zmIwjhbP5AI
-OD5oqRXbXz/IF3ZW5Q10AweW6+i5eN09ZqJR1mzQzFPPfKibDD4Rp4AgmbgfThY8CFviXQhKSKsU
-aEdmFUlijYAwbgH9yJ7QHoA7K6+C2Qv6VrhsAhuOJWrI87rqSTA=</ShippingServiceOfferId>
-                <ShipDate>2015-09-23T19:32:08.727Z</ShipDate>
-                <ShippingServiceName>UPS Next Day Air Saver</ShippingServiceName>
+                <ShippingServiceOptions>
+                    <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
+                    <CarrierWillPickUp>False</CarrierWillPickUp>
+                </ShippingServiceOptions>
+                <AvailableLabelFormats>
+                    <LabelFormat>ZPL203</LabelFormat>
+                    <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    <LabelFormat>PDF</LabelFormat>
+                    <LabelFormat>PNG</LabelFormat>
+                </AvailableLabelFormats>
+                <RequiresAdditionalSellerInputs>False</RequiresAdditionalSellerInputs>
             </ShippingService>
         </ShippingServiceList>
         <TemporarilyUnavailableCarrierList>
             <TemporarilyUnavailableCarrier>
+                <CarrierName>DYNAMEX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
                 <CarrierName>USPS</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLECOMMERCE</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>SELF_DELIVERY</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>ONTRAC</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLMX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLM</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>FEDEX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+        </TemporarilyUnavailableCarrierList>
+        <TermsAndConditionsNotAcceptedCarrierList>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>AMZN_US</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>ONTRAC</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+        </TermsAndConditionsNotAcceptedCarrierList>
+    </GetEligibleShippingServicesResult>
+    <ResponseMetadata>
+        <RequestId>5b7997fb-efd1-495b-b7db-03ecfa691038</RequestId>
+    </ResponseMetadata>
+</GetEligibleShippingServicesResponse>
+```
+
+For shipping that requires additional seller inputs.
+
+``` pre codeblock
+<?xml version="1.0"?>
+<GetEligibleShippingServicesResponse
+    xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
+    <GetEligibleShippingServicesResult>
+        <ShippingServiceList>
+            <ShippingService>
+                <EarliestEstimatedDeliveryDate>2019-08-27T18:00:00Z</EarliestEstimatedDeliveryDate>
+                <AvailableLabelFormats>
+                    <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    <LabelFormat>PDF</LabelFormat>
+                </AvailableLabelFormats>
+                <ShipDate>2019-08-08T07:00:00Z</ShipDate>
+                <RequiresAdditionalSellerInputs>true</RequiresAdditionalSellerInputs>
+                <AvailableFormatOptionsForLabel>
+                    <LabelFormatOption>
+                        <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
+                        <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    </LabelFormatOption>
+                    <LabelFormatOption>
+                        <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
+                        <LabelFormat>PDF</LabelFormat>
+                    </LabelFormatOption>
+                </AvailableFormatOptionsForLabel>
+                <ShippingServiceName>CHINA_POST_E_EMS</ShippingServiceName>
+                <CarrierName>CHINA_POST</CarrierName>
+                <ShippingServiceOptions>
+                    <CarrierWillPickUp>true</CarrierWillPickUp>
+                    <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
+                </ShippingServiceOptions>
+                <ShippingServiceId>CHINA_POST_E_EMS</ShippingServiceId>
+                <Rate>
+                    <CurrencyCode>CNY</CurrencyCode>
+                    <Amount>90.00</Amount>
+                </Rate>
+                <LatestEstimatedDeliveryDate>2019-08-27T18:00:00Z</LatestEstimatedDeliveryDate>
+                <ShippingServiceOfferId>NH0sNBYSrqUP2+5yJdI14yLsCwFfk2413sYQHKbp0ILv8xkJemzkFK/wgUXeC9y4j6dNKuYn3EpQh7YJSc4gvPUfNDsISoAi9tCikbPjI5KOajdY75KvPLXPEC57Od/gAlOQv07JravlVU6oURFoVtc8nwZDviBPfA43owEPmxPglPTttIuS9LfcI0ky/kIP/OT7h+acfQj8JxAtomwX1WUYGZSbzkSL9c6ic5CAeriif1Kr0k8Y0RuloSZs2ZQwOv//nLvV3ZCZic8vU8cGVGHExM9sMKamBDopoh0Kx2JHcDwWHDcKB+lOntkABC84</ShippingServiceOfferId>
+            </ShippingService>
+        </ShippingServiceList>
+        <TermsAndConditionsNotAcceptedCarrierList>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>DHL</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+        </TermsAndConditionsNotAcceptedCarrierList>
+        <TemporarilyUnavailableCarrierList>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DPD</CarrierName>
             </TemporarilyUnavailableCarrier>
         </TemporarilyUnavailableCarrierList>
     </GetEligibleShippingServicesResult>
@@ -387,6 +426,8 @@ aEdmFUlijYAwbgH9yJ7QHoA7K6+C2Qv6VrhsAhuOJWrI87rqSTA=</ShippingServiceOfferId>
 
 [How to fulfill Seller Fulfilled Prime
 orders](MerchFulfill_HowToUseForPrime.md)
+
+[GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.")
 
 [CreateShipment](MerchFulfill_CreateShipment.md)
 
