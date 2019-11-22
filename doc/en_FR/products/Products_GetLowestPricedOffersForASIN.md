@@ -461,13 +461,13 @@ or 20, whichever is less.
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SellerFeedbackRating</span></td>
-<td><span id="Offers__d50806e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span></td>
+<td><span id="Offers__d50795e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span></td>
 <td>No</td>
 <td>Type: <a href="Products_Datatypes.md#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingTime</span></td>
-<td><span id="Offers__d50806e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span></td>
+<td><span id="Offers__d50795e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span></td>
 <td>Yes</td>
 <td>Type: <a href="Products_Datatypes.md#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a></td>
 </tr>
@@ -491,7 +491,7 @@ or 20, whichever is less.
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipsFrom</span></td>
-<td><span id="Offers__d50806e1421" class="ph">The state and country from where the item is shipped.</span></td>
+<td><span id="Offers__d50795e1421" class="ph">The state and country from where the item is shipped.</span></td>
 <td>No</td>
 <td>Type: <a href="Products_Datatypes.md#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a></td>
 </tr>

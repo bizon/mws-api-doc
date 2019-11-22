@@ -72,13 +72,6 @@ Amazon MWS](../dev_guide/DG_Registering.md#DG_Registering).
 
 ## Terms and conditions
 
-You can build applications that use the <span class="ph">Merchant
-Fulfillment service</span> to fulfill orders for sellers. See [How to
-fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md).
-
-**Terms and conditions**
-
 Before a seller can use any application that uses the
 <span class="ph">Merchant Fulfillment service</span> to fulfill orders,
 they need to:
