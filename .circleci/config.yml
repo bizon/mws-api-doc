@@ -9,9 +9,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: |
-            sudo apt-get -y update
-            sudo apt-get -y install pandoc
+          command: ./scripts/0-dependencies.sh
 
       - run:
           name: Download MWS doc
