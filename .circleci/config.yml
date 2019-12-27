@@ -3,7 +3,7 @@ version: 2
 jobs:
   download:
     docker:
-      - image: circleci/buildpack-deps
+      - image: circleci/buildpack-deps:buster
     steps:
       - checkout
 
@@ -15,27 +15,15 @@ jobs:
 
       - run:
           name: Download MWS doc
-          command: wget -rnH -A html -P src http://docs.developer.amazonservices.com/en_FR/dev_guide/index.html || true
+          command: ./scripts/1-download.sh
 
       - run:
           name: Generate markdown version
-          command: |
-            find src -name "*.html" | while read input
-            do
-              output=$(echo "${input%.*}.md" | sed s/^src/doc/)
-              mkdir -p $(dirname "$output")
-              pandoc -f html -t gfm "$input" -o "$output"
-              sed -i '/http[s]:\/\/.*\.html/! s/\.html/\.md/g' "$output"
-            done
+          command: ./scripts/2-generate-markdown.sh
 
       - run:
           name: Configure, commit and push
-          command: |
-            git config user.email "dev@bizon.solutions"
-            git config user.name "Bizon Bot"
-            git add src doc
-            git commit -m 'Update MWS documentation' || true
-            git push origin master
+          command: ./scripts/3-publish.sh
 
 workflows:
   version: 2
