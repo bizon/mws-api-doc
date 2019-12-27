@@ -10,7 +10,7 @@ do
   echo " -  ${output}"
 
   pandoc -f html -t gfm "$input" -o "$output"
-  gsed -i '/http[s]:\/\/.*\.html/! s/\.html/\.md/g' "$output"
+  sed -i '/http[s]:\/\/.*\.html/! s/\.html/\.md/g' "$output"
 done
 
 echo '[+] Done'
