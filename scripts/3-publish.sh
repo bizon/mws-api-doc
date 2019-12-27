@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '[+] Recursively downloading MWS doc'
+echo '[+] Committing and pushing changes to Git'
 
 git config user.email "dev@bizon.solutions"
 git config user.name "Bizon Bot"
