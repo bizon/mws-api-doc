@@ -183,11 +183,11 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes</td>
 <td><span class="keyword parmname">PageType</span> values:
 <ul>
-<li>PackageLabel_Letter_2 - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
-<li>PackageLabel_Letter_6 - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
-<li>PackageLabel_A4_2 - Two labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
-<li>PackageLabel_A4_4 - Four labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
-<li>PackageLabel_Plain_Paper. One label per sheet of US Letter paper. Only for non-Amazon-partnered shipments. Supported in all marketplaces.</li>
+<li><var class="keyword varname">PackageLabel_Letter_2</var> - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
+<li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
+<li><var class="keyword varname">PackageLabel_A4_2</var> - Two labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
+<li><var class="keyword varname">PackageLabel_A4_4</var> - Four labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
+<li><var class="keyword varname">PackageLabel_Plain_Paper</var>. One label per sheet of US Letter paper. Only for non-Amazon-partnered shipments. Supported in all marketplaces.</li>
 </ul>
 <p>Submitting a <span class="keyword parmname">PageType</span> value that is not supported in your marketplace returns an error.</p>
 <p><span class="ph">Type: xs:string</span></p></td>

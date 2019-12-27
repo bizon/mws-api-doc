@@ -60,19 +60,18 @@ by the <span class="keyword apiname">SubmitFeed</span> operation.
 The <span class="keyword apiname">GetFeedSubmissionList</span> request
 can return a maximum of 100 results. If there are additional results to
 return, <span class="keyword parmname">HasNext</span> is returned in the
-response with a true value. To retrieve all the results, you can pass
+response with a `true` value. To retrieve all the results, you can pass
 the value of the <span class="keyword parmname">NextToken</span>
 parameter to the
 <span class="keyword apiname">GetFeedSubmissionListByNextToken</span>
 operation and repeat until <span class="keyword parmname">HasNext</span>
-is false.
+is `false`.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -218,7 +217,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">NextToken</span></td>
 <td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
 <p><span class="ph">For information about standard request requirements, see <a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span></p>
-<span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is true.</td>
+<span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>

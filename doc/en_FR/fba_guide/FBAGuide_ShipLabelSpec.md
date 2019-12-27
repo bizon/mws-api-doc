@@ -115,8 +115,7 @@ include the following information:
 
 ## Shipping label example
 
-![Shipping
-label](ShippingLabel.png)
+![Shipping label](ShippingLabel.png)
 
 </div>
 

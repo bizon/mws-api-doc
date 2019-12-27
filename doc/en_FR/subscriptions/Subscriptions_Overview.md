@@ -69,20 +69,19 @@ operation.
 
 ## Terminology
 
-The following table defines terminology for this API
-section:
+The following table defines terminology for this API section:
 
 </div>
 
 <div class="tablenoborder">
 
-| Term              | Description                                                                                                                                                                                                                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Notification      | A communication that contains information related to a specific state change or event that affects you. A Notification is also referred to as a Message.                                                                                                                                                        |
-| Notification Type | A label that denotes a specific class of notifications. For example, <span class="keyword parmname">AnyOfferChanged</span> notifications.                                                                                                                                                                       |
-| Delivery Channel  | A technology that you use to receive notifications. For example, Amazon SQS.                                                                                                                                                                                                                                    |
-| Destination       | A delivery channel that you create to receive notifications. For example, an Amazon SQS queue with the URL "http://sqs.us-east-1.amazonaws.com/12345/queue1".                                                                                                                                                   |
-| Subscription      | An object that represents the type of notification that you want to receive and the location where you want to receive it. For example, send <span class="keyword parmname">AnyOfferChanged</span> notifications for Seller A1234 to the Amazon SQS queue at "http://sqs.us-east-1.amazonaws.com/12345/queue1". |
+| Term                                            | Description                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="dfn term">Notification</span>      | A communication that contains information related to a specific state change or event that affects you. A <span class="dfn term">Notification</span> is also referred to as a <span class="dfn term">Message</span>.                                                                                            |
+| <span class="dfn term">Notification Type</span> | A label that denotes a specific class of notifications. For example, <span class="keyword parmname">AnyOfferChanged</span> notifications.                                                                                                                                                                       |
+| <span class="dfn term">Delivery Channel</span>  | A technology that you use to receive notifications. For example, Amazon SQS.                                                                                                                                                                                                                                    |
+| <span class="dfn term">Destination</span>       | A delivery channel that you create to receive notifications. For example, an Amazon SQS queue with the URL "http://sqs.us-east-1.amazonaws.com/12345/queue1".                                                                                                                                                   |
+| <span class="dfn term">Subscription</span>      | An object that represents the type of notification that you want to receive and the location where you want to receive it. For example, send <span class="keyword parmname">AnyOfferChanged</span> notifications for Seller A1234 to the Amazon SQS queue at "http://sqs.us-east-1.amazonaws.com/12345/queue1". |
 
 </div>
 
@@ -91,8 +90,7 @@ section:
 ## The <span class="ph">Subscriptions API section</span> operations
 
 The following operations are included in the
-<span class="ph">Subscriptions API
-section</span>:
+<span class="ph">Subscriptions API section</span>:
 
 <div class="tablenoborder">
 
@@ -103,8 +101,7 @@ section</span>:
 | [ListRegisteredDestinations](Subscriptions_ListRegisteredDestinations.md "Lists all current destinations that you have registered.")            | <span class="ph">Lists all current destinations that you have registered.</span>                  | <span class="ph">All marketplaces except Mexico.</span> |
 | [SendTestNotificationToDestination](Subscriptions_SendTestNotificationToDestination.md "Sends a test notification to an existing destination.") | <span class="ph">Sends a test notification to an existing destination.</span>                     | <span class="ph">All marketplaces except Mexico.</span> |
 
-<span class="tablecap">Table 1. Operations for
-Destinations</span>
+<span class="tablecap">Table 1. Operations for Destinations</span>
 
 </div>
 

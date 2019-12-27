@@ -43,7 +43,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span class="keyword parmname">FeedProcessingFinished</span>
 notification is sent whenever any feed that you have submitted using the
 <span class="ph">Feeds API section</span> reaches a feed processing
-status of DONE or CANCELLED.</span>
+status of `DONE` or `CANCELLED`.</span>
 
 <div class="section">
 
@@ -121,7 +121,7 @@ element:
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeedProcessingStatus</span></td>
-<td>The processing status of the feed submission. This notification is only sent when the processing status reaches one of two terminal states: DONE, or CANCELLED. In other words, the notification is sent only when feed processing is complete. For a complete list of feed processing states, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
+<td>The processing status of the feed submission. This notification is only sent when the processing status reaches one of two terminal states: <var class="keyword varname">DONE</var>, or <var class="keyword varname">CANCELLED</var>. In other words, the notification is sent only when feed processing is complete. For a complete list of feed processing states, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

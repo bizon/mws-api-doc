@@ -122,8 +122,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
 parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 

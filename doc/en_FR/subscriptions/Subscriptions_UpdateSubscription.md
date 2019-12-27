@@ -54,14 +54,13 @@ at a <span class="keyword parmname">Destination</span>, call either the
 <span class="keyword apiname">DeleteSubscription</span> operation or the
 <span class="keyword apiname">UpdateSubscription</span> operation with
 the <span class="keyword parmname">IsEnabled</span> request parameter
-set to false.
+set to `false`.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

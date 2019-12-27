@@ -55,19 +55,18 @@ The
 operation returns a list of reports that were created in the previous 90
 days that match the query parameters. A maximum of 100 results can be
 returned in one request. If there are additional results to return,
-<span class="keyword parmname">HasNext</span> is returned set to true in
-the response. To retrieve all the results, you can pass the value of the
-<span class="keyword parmname">NextToken</span> parameter to the
+<span class="keyword parmname">HasNext</span> is returned set to `true`
+in the response. To retrieve all the results, you can pass the value of
+the <span class="keyword parmname">NextToken</span> parameter to the
 <span class="keyword apiname">GetReportListByNextToken</span> operation
 iteratively until <span class="keyword parmname">HasNext</span> is
-returned set to false.
+returned set to `false`.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -149,7 +148,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Acknowledged</span></td>
-<td><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to true to list order reports that have been acknowledged; set to false to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
+<td><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
@@ -206,12 +205,12 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">NextToken</span></td>
-<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is true.</span>
+<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">HasNext</span></td>
-<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is true if there are more items to retrieve; otherwise false.</span>
+<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd">

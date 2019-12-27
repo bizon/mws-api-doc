@@ -59,8 +59,7 @@ previous 90 days.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 

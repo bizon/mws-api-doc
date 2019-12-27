@@ -50,35 +50,36 @@ consists of:
     <span class="ph">Amazon MWS</span> Endpoints section in this guide.
     After the endpoint is a forward slash (/), which separates the
     endpoint from the parameters.
-  - AWSAccessKeyId — Your <span class="ph">Amazon MWS</span> account is
-    identified by your access key Id, which <span class="ph">Amazon
+  - `AWSAccessKeyId` — Your <span class="ph">Amazon MWS</span> account
+    is identified by your access key Id, which <span class="ph">Amazon
     MWS</span> uses to look up your Secret Access Key.
-  - Action — The action you want to perform on the endpoint, such as the
-    operation
+  - `Action` — The action you want to perform on the endpoint, such as
+    the operation
     <span class="keyword apiname">GetFeedSubmissionResult</span>.
-  - Parameters — Any required and optional request parameters.
-  - MWSAuthToken — Represents the authorization of a specific developer
-    of a web application by a specific Amazon seller.
-  - MarketplaceIdList — An optional structured list of marketplace Ids
+  - `Parameters` — Any required and optional request parameters.
+  - `MWSAuthToken` — Represents the authorization of a specific
+    developer of a web application by a specific Amazon seller.
+  - `MarketplaceIdList` — An optional structured list of marketplace Ids
     for supporting sellers registered in multiple marketplaces. For
     example, two marketplace Ids would be formatted as:
     \&MarketplaceIdList.Id.1=ATVPDKIKX0DER\&MarketplaceIdList.Id.2=A1F83G8C2ARO7P.
-    Note that the MarketplaceIdList parameter is not used in the Japan
+    Note that the `MarketplaceIdList` parameter is not used in the Japan
     marketplace..
-  - SellerId or Merchant — Your seller or merchant identifier.
-  - SignatureMethod — The HMAC hash algorithm you are using to calculate
-    your signature. Both HmacSHA256 and HmacSHA1 are supported hash
-    algorithms, but Amazon recommends using HmacSHA256.
-  - SignatureVersion — Which signature version is being used. This is
+  - `SellerId` or `Merchant` — Your seller or merchant identifier.
+  - `SignatureMethod` — The HMAC hash algorithm you are using to
+    calculate your signature. Both HmacSHA256 and HmacSHA1 are supported
+    hash algorithms, but Amazon recommends using HmacSHA256.
+  - `SignatureVersion` — Which signature version is being used. This is
     <span class="ph">Amazon MWS</span>-specific information that tells
     <span class="ph">Amazon MWS</span> the algorithm you used to form
     the string that is the basis of the signature. For
     <span class="ph">Amazon MWS</span>, this value is currently
     **SignatureVersion=2**.
-  - Timestamp — Each request must contain the timestamp of the request.
-    Depending on the API function you're using, you can provide an
-    expiration date and time for the request instead of the timestamp.
-  - Version — The version of the API section being called.
+  - `Timestamp` — Each request must contain the timestamp of the
+    request. Depending on the API function you're using, you can provide
+    an expiration date and time for the request instead of the
+    timestamp.
+  - `Version` — The version of the API section being called.
 
 To create the query string to be signed, do the following:
 

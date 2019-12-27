@@ -70,8 +70,7 @@ see [NotificationType enumeration](Subscriptions_NotificationType.md).
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

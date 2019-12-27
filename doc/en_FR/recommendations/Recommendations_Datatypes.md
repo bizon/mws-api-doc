@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the request parameters and response
 elements of the <span class="ph">Amazon Marketplace Web Service (Amazon
-MWS)</span> <span class="ph">Recommendations API
-section</span>:
+MWS)</span> <span class="ph">Recommendations API section</span>:
 
 <div class="tablenoborder">
 
@@ -79,8 +78,7 @@ datatype is used in all marketplaces except Brazil.</span>
 ### Operations
 
 The <span class="keyword parmname">AdvertisingRecommendation</span>
-datatype is used in a response element of the following
-    operations:
+datatype is used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -111,7 +109,7 @@ datatype:
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">RecommendationId</span></td>
-<td>A unique recommendation identifier, in the format of {Category}-{RecommendationReason}-{ASIN}-{SKU}-{UPC}-{ItemName}. If any of these values are null, the value will be empty.
+<td>A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -203,8 +201,7 @@ category.</span>
 ### Operations
 
 The <span class="keyword parmname">CategoryQuery</span> datatype is used
-in a request parameter of the following
-    operations:
+in a request parameter of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
 
@@ -242,11 +239,11 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">RecommendationCategory</span> values:
 <ul>
-<li>Selection</li>
-<li>Fulfillment</li>
-<li>ListingQuality</li>
-<li>GlobalSelling</li>
-<li>Advertising</li>
+<li><var class="keyword varname">Selection</var></li>
+<li><var class="keyword varname">Fulfillment</var></li>
+<li><var class="keyword varname">ListingQuality</var></li>
+<li><var class="keyword varname">GlobalSelling</var></li>
+<li><var class="keyword varname">Advertising</var></li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> If you specify a <span class="keyword parmname">RecommendationCategory</span> value here that was not specified in the <span class="keyword parmname">RecommendationCategory</span> request parameter to the <span class="keyword apiname">ListRecommendations</span> operation, then this value is ignored.
@@ -255,24 +252,24 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">FilterOptions</span></td>
 <td>Specifies the filters to apply to narrow down the recommendations to return for the given recommendation category.
-<p>Filters are specified as a list of FilterName=FilterValue pairs. For more information, see the <a href="Recommendations_ListRecommendations.md#Examples" class="xref">examples</a> for the <span class="keyword apiname">ListRecommendations</span> operation.</p></td>
+<p>Filters are specified as a list of <var class="keyword varname">FilterName=FilterValue</var> pairs. For more information, see the <a href="Recommendations_ListRecommendations.md#Examples" class="xref">examples</a> for the <span class="keyword apiname">ListRecommendations</span> operation.</p></td>
 <td>Yes</td>
-<td><span class="keyword parmname">FilterOptions</span> values for ListingQuality recommendations:
+<td><span class="keyword parmname">FilterOptions</span> values for <var class="keyword varname">ListingQuality</var> recommendations:
 <ul>
-<li>QualitySet=Defect Filter for listings that have a defect, but the listing is still valid. For example, this query will return listings where there is no detailed description.</li>
-<li>QualitySet=Quarantine Filter for listings that are being suppressed from the catalog because they do not meet Amazon's standards. For example, this query will return listings where there is no main image.</li>
-<li>ListingStatus=Active Filter for active inventory items only. Returns items within inventory that are set to active status.</li>
-<li>ListingStatus=Inactive Filter for inactive inventory items only. Returns items within inventory that are set to inactive status.</li>
+<li><var class="keyword varname">QualitySet=Defect</var> Filter for listings that have a defect, but the listing is still valid. For example, this query will return listings where there is no detailed description.</li>
+<li><var class="keyword varname">QualitySet=Quarantine</var> Filter for listings that are being suppressed from the catalog because they do not meet Amazon's standards. For example, this query will return listings where there is no main image.</li>
+<li><var class="keyword varname">ListingStatus=Active</var> Filter for active inventory items only. Returns items within inventory that are set to active status.</li>
+<li><var class="keyword varname">ListingStatus=Inactive</var> Filter for inactive inventory items only. Returns items within inventory that are set to inactive status.</li>
 </ul>
-<p><span class="keyword parmname">FilterOptions</span> values for Selection, Fulfillment, GlobalSelling, and Advertising recommendations:</p>
+<p><span class="keyword parmname">FilterOptions</span> values for <var class="keyword varname">Selection</var>, <var class="keyword varname">Fulfillment</var>, <var class="keyword varname">GlobalSelling</var>, and <var class="keyword varname">Advertising</var> recommendations:</p>
 <ul>
-<li>BrandName=&lt;BrandName&gt; - Filter for recommendations that apply to the specified brand name.</li>
-<li>ProductCategory=&lt;ProductCategory&gt; - Filter for recommendations that apply to the specified product category.</li>
+<li><var class="keyword varname">BrandName=&lt;BrandName&gt;</var> - Filter for recommendations that apply to the specified brand name.</li>
+<li><var class="keyword varname">ProductCategory=&lt;ProductCategory&gt;</var> - Filter for recommendations that apply to the specified product category.</li>
 </ul>
-<p><span class="keyword parmname">FilterOptions</span> values for Selection recommendations:</p>
+<p><span class="keyword parmname">FilterOptions</span> values for <var class="keyword varname">Selection</var> recommendations:</p>
 <ul>
-<li>IncludeCommonRecommendations=true - Include Selection recommendations common to all sellers in addition to seller-specific recommendations.</li>
-<li>IncludeCommonRecommendations=false - Do not include Selection recommendations common to all sellers. Only include seller-specific recommendations.</li>
+<li><var class="keyword varname">IncludeCommonRecommendations=true</var> - Include <var class="keyword varname">Selection</var> recommendations common to all sellers in addition to seller-specific recommendations.</li>
+<li><var class="keyword varname">IncludeCommonRecommendations=false</var> - Do not include <var class="keyword varname">Selection</var> recommendations common to all sellers. Only include seller-specific recommendations.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -297,8 +294,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">DimensionMeasure</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -362,8 +358,7 @@ datatype is used in all marketplaces except Brazil.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentRecommendation</span>
-datatype is used in a response element of the following
-    operations:
+datatype is used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -394,7 +389,7 @@ datatype:
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">RecommendationId</span></td>
-<td>A unique recommendation identifier, in the format of {Category}-{RecommendationReason}-{ASIN}-{SKU}-{UPC}-{ItemName}. If any of these values are null, the value will be empty.
+<td>A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -497,8 +492,7 @@ regions and marketplaces.</span>
 ### Operations
 
 The <span class="keyword parmname">GlobalSellingRecommendation</span>
-datatype is used in a response element of the following
-    operations:
+datatype is used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -529,7 +523,7 @@ datatype:
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">RecommendationId</span></td>
-<td>A unique recommendation identifier, in the format of {Category}-{RecommendationReason}-{ASIN}-{SKU}-{UPC}-{ItemName}. If any of these values are null, the value will be empty.
+<td>A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -632,8 +626,7 @@ items in your inventory.</span>
 ### Operations
 
 The <span class="keyword parmname">InventoryRecommendation</span>
-datatype is used in a response element of the following
-    operations:
+datatype is used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -663,7 +656,7 @@ The following table shows the elements of the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">RecommendationId</span></td>
-<td>A unique recommendation identifier, in the format of {Category}-{RecommendationReason}-{ASIN}-{SKU}-{UPC}-{ItemName}. If any of these values are null, the value will be empty.
+<td>A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -691,8 +684,8 @@ The following table shows the elements of the
 <td><span class="keyword parmname">FulfillmentChannel</span></td>
 <td><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
-<li>MFN Indicates that you are fulfilling the item.</li>
-<li>AFN Indicates that Amazon is fulfilling the item.</li>
+<li><var class="keyword varname">MFN</var> Indicates that you are fulfilling the item.</li>
+<li><var class="keyword varname">AFN</var> Indicates that Amazon is fulfilling the item.</li>
 </ul>
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -739,8 +732,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">ItemDimensions</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -812,8 +804,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">Price</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -876,8 +867,7 @@ inventory where your offer is not the lowest price.</span>
 ### Operations
 
 The <span class="keyword parmname">PricingRecommendation</span> datatype
-is used in a response element of the following
-    operations:
+is used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -907,7 +897,7 @@ The following table shows the elements of the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">RecommendationId</span></td>
-<td>A unique recommendation identifier, in the format of {Category}-{RecommendationReason}-{ASIN}-{SKU}-{UPC}-{ItemName}. If any of these values are null, the value will be empty.
+<td>A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -947,8 +937,8 @@ The following table shows the elements of the
 <td><span class="keyword parmname">FulfillmentChannel</span></td>
 <td><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
-<li>MFN Indicates that you are fulfilling the item.</li>
-<li>AFN Indicates that Amazon is fulfilling the item.</li>
+<li><var class="keyword varname">MFN</var> Indicates that you are fulfilling the item.</li>
+<li><var class="keyword varname">AFN</var> Indicates that Amazon is fulfilling the item.</li>
 </ul>
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
@@ -1031,8 +1021,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">ProductIdentifier</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
@@ -1099,8 +1088,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">WeightMeasure</span> datatype is used
-in a response element of the following
-    operations:
+in a response element of the following operations:
 
   - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
   - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")

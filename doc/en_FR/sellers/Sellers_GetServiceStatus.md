@@ -54,7 +54,7 @@ The
 <span id="Description__GetServiceStatus" class="keyword apiname">GetServiceStatus</span>
 operation returns the operational status of the <span class="ph">Sellers
 API section</span> of <span class="ph">Amazon Marketplace Web Service
-(Amazon MWS)</span>. Status values are GREEN, YELLOW, and RED.
+(Amazon MWS)</span>. Status values are `GREEN`, `YELLOW`, and `RED`.
 
 <span class="ph">The
 <span class="keyword apiname">GetServiceStatus</span> operation has a
@@ -110,13 +110,13 @@ None.
 <td><span class="keyword parmname">Status</span></td>
 <td>The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
 <dl>
-<dt>GREEN </dt>
+<dt>GREEN</dt>
 <dd>The service is operating normally.
 </dd>
-<dt>YELLOW </dt>
+<dt>YELLOW</dt>
 <dd>The service is experiencing higher than normal error rates or is operating with degraded performance. Additional information may be provided.
 </dd>
-<dt>RED </dt>
+<dt>RED</dt>
 <dd>The service is unavailable or experiencing extremely high error rates. Additional information may be provided.
 </dd>
 </dl>

@@ -57,16 +57,16 @@ find out which items require serial numbers.
     
     Amazon returns the items in the order, marking the items that
     require a serial number with
-    <span class="keyword parmname">SerialNumberRequired</span>=true.
+    <span class="keyword parmname">SerialNumberRequired</span>=`true`.
 
 2.  Call the
     [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
     operation using
     <span class="keyword parmname">PackageItemList</span> to specify
     serial numbers for all of the items marked
-    <span class="keyword parmname">SerialNumberRequired</span>=true in
+    <span class="keyword parmname">SerialNumberRequired</span>=`true` in
     Step 1. Don't specify serial numbers for items marked
-    <span class="keyword parmname">SerialNumberRequired</span>=false.
+    <span class="keyword parmname">SerialNumberRequired</span>=`false`.
     
     Amazon generates warranty documents for the items that you specified
     serial numbers for. For information about getting the documents that

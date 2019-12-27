@@ -207,8 +207,7 @@ https://mws.amazonservices.jp/Orders/2013-09-01
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
-code</span>
-</span>
+code</span> </span>
 
 <div class="sectiondiv content">
 
@@ -314,8 +313,7 @@ code</span>
 
 <div class="body">
 
-[Orders
-API](../orders-2013-09-01/Orders_Overview.md)
+[Orders API](../orders-2013-09-01/Orders_Overview.md)
 
 [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
 

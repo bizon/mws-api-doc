@@ -75,8 +75,7 @@ The <span class="keyword apiname">ListOrders</span> and
 <span class="keyword apiname">ListOrdersByNextToken</span> operations
 together share a **maximum request quota** of six and a **restore rate**
 of one request every minute. For definitions of throttling terminology,
-see [Orders
-API](../orders-2013-09-01/Orders_Overview.md).
+see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 
 </div>
 

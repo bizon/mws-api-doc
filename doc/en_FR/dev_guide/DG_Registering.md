@@ -63,8 +63,7 @@ Seller Central Help.
 
 <span class="notetitle">Note:</span> You **do not need** to register as
 a developer to use <span class="ph">Amazon MWS</span> applications built
-by other software
-developers.
+by other software developers.
 
 </div>
 
@@ -100,8 +99,7 @@ may result in suspension of your selling account and Developer Keys.**
     Keys</span> click the <span class="ph uicontrol">Visit Developer
     Credentials</span> button.
     
-    The **Developer Central** page appears. Apply for access
-here.
+    The **Developer Central** page appears. Apply for access here.
 
 </div>
 
@@ -123,11 +121,11 @@ result in suspension of your selling account and Access Keys.**
 The following is an example of the <span class="ph">Amazon MWS</span>
 Developer ID and Access Keys:
 
-  - Developer ID (a 12-digit identifier): 1234-3214-4321
+  - Developer ID (a 12-digit identifier): `1234-3214-4321`
   - AWS Access Key ID (a 20-character, alphanumeric identifier):
-    022QF0EXAMPLEH9DHM02
+    `022QF0EXAMPLEH9DHM02`
   - Secret Key (a 40-character identifier):
-    kWcrlEXAMPLEM/LtmEENI/aVmYvHNif5zB+d9+ct
+    `kWcrlEXAMPLEM/LtmEENI/aVmYvHNif5zB+d9+ct`
 
 If you are developing an <span class="ph">Amazon MWS</span> application
 for sellers or are providing <span class="ph">Amazon MWS</span>-related
@@ -174,9 +172,10 @@ MWS](https://sellercentral-europe.amazon.com/gp/mws/contactus.html)
 </span> form and ask to reset your AWS Access Key ID and Secret Key. If
 you use the form, provide the following information:
 
-1.  For **Subject**, enter "Reset access keys to my Amazon MWS account".
-2.  For **Your comment**, enter "Please reset the AWS Access Key ID and
-    Secret Key for my account.".
+1.  For **Subject**, enter "`Reset access keys to my Amazon MWS
+    account`".
+2.  For **Your comment**, enter "`Please reset the AWS Access Key ID and
+    Secret Key for my account.`".
 
 You will receive a reply from the Seller Support team with a link to the
 [User

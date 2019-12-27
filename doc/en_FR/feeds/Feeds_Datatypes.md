@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Feeds API
-section</span>:
+<span class="ph">Feeds API section</span>:
 
 <div class="tablenoborder">
 

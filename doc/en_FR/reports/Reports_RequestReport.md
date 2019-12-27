@@ -50,7 +50,7 @@ The
 <span id="Description__RequestReport" class="keyword apiname">RequestReport</span>
 operation creates a report request. <span class="ph">Amazon MWS</span>
 processes the report request and when the report is completed, sets the
-status of the report request to \_DONE\_. Reports are retained for 90
+status of the report request to `_DONE_`. Reports are retained for 90
 days.
 
 You specify what marketplaces you want a report to cover by supplying a
@@ -76,8 +76,7 @@ often you can submit requests](../dev_guide/DG_Throttling.md) in the
 This operation is available in all marketplaces.
 
 The <span class="keyword parmname">MarketplaceIdList</span> parameter is
-not available in the Japan
-marketplace.
+not available in the Japan marketplace.
 
 </div>
 
@@ -178,7 +177,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceIdList</span>
 <p>(NA, EU only)</p></td>
 <td>A list of one or more marketplace IDs for the marketplaces you are registered to sell in. The resulting report will include information for all marketplaces you specify. <span class="ph">For more information about the behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values, see <a href="Reports_UsingMultipleMarketplaces.md" class="xref" title="Describes the best practices to follow when you are registered to sell in multiple marketplaces.">Using multiple marketplaces</a></span>.
-<p>Example: &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</p></td>
+<p>Example: <samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p></td>
 <td>No</td>
 <td>Marketplace IDs for marketplaces you are registered to sell in.
 <p>Default: The first marketplace that you registered to sell in.</p>

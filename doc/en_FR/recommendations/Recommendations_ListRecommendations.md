@@ -148,13 +148,13 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="keyword parmname">RecommendationCategory</span> values:
 <ul>
-<li>Inventory</li>
-<li>Selection</li>
-<li>Pricing</li>
-<li>Fulfillment</li>
-<li>ListingQuality</li>
-<li>GlobalSelling</li>
-<li>Advertising</li>
+<li><var class="keyword varname">Inventory</var></li>
+<li><var class="keyword varname">Selection</var></li>
+<li><var class="keyword varname">Pricing</var></li>
+<li><var class="keyword varname">Fulfillment</var></li>
+<li><var class="keyword varname">ListingQuality</var></li>
+<li><var class="keyword varname">GlobalSelling</var></li>
+<li><var class="keyword varname">Advertising</var></li>
 </ul>
 <p>To retrieve all recommendations, do not specify a value for this parameter.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -389,8 +389,7 @@ See also [Response format](../dev_guide/DG_ResponseFormat.md).
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
-code</span>
-</span>
+code</span> </span>
 
 <div class="sectiondiv content">
 

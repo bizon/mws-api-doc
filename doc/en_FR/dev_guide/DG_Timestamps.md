@@ -38,11 +38,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body">
 
 The timestamp (or expiration time) you use in an <span class="ph">Amazon
-Marketplace Web Service (Amazon MWS)</span> request must be a dateTime
+Marketplace Web Service (Amazon MWS)</span> request must be a `dateTime`
 object. A best practice is to provide the timestamp in Coordinated
 Universal Time (UTC) in <span class="ph">[ISO 8601 date time
 format](../dev_guide/DG_ISO8601.md)</span>, such as
-"2009-03-03T18:12:22Z" or "2009-02-23T18:12:22.093-07". The Timestamp
+"2009-03-03T18:12:22Z" or "2009-02-23T18:12:22.093-07". The `Timestamp`
 attribute must contain the client's machine time in
 <span class="ph">[ISO 8601 date time
 format](../dev_guide/DG_ISO8601.md)</span>; requests with a timestamp
@@ -70,7 +70,7 @@ Here are a few additional considerations when working with timestamps:
 
   - In order to allow <span class="ph">Amazon MWS</span> to extend the
     content of the PingResponse, any software you write to parse the
-    Timestamp should not break if sibling XML tags start to appear.
+    `Timestamp` should not break if sibling XML tags start to appear.
     Generally, you should ignore unknown tags in any XML
     <span class="ph">Amazon MWS</span> sends you, as per the web
     architectural principle in Section 5.2 of
@@ -87,7 +87,7 @@ Here are a few additional considerations when working with timestamps:
   - If you are using .NET, you must not send overly specific timestamps,
     due to different interpretations of how extra time precision should
     be dropped. To avoid overly specific timestamps, manually construct
-    dateTime objects with no more than millisecond precision.
+    `dateTime` objects with no more than millisecond precision.
 
 </div>
 

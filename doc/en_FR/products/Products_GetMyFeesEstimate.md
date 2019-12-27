@@ -88,8 +88,7 @@ Seller Central.</span>
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -190,8 +189,7 @@ The response elements that the
 are described by the publicly available XSD
 [ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
 The top-level elements returned by the
-<span class="keyword apiname">GetMyFeesEstimate</span> operation
-are:
+<span class="keyword apiname">GetMyFeesEstimate</span> operation are:
 
 </div>
 

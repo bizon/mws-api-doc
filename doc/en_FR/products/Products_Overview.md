@@ -61,8 +61,7 @@ section</span> is not for <span class="ph">Checkout by Amazon</span>.
 <div class="p">
 
 The <span class="ph">Products API section</span> contains the following
-operations in the following
-marketplaces:
+operations in the following marketplaces:
 
 <div class="tablenoborder">
 

@@ -75,8 +75,7 @@ of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -162,14 +161,14 @@ Guide</span>.</span>
 <td>The current delivery status of the package.
 <p><span class="keyword parmname">CurrentStatus</span> values:</p>
 <ul>
-<li>IN_TRANSIT - In transit to the destination address.</li>
-<li>DELIVERED - Delivered to the destination address.</li>
-<li>RETURNING - In the process of being returned to <span class="ph">Amazon's fulfillment network</span>.</li>
-<li>RETURNED - Returned to <span class="ph">Amazon's fulfillment network</span>.</li>
-<li>UNDELIVERABLE - Undeliverable because package was lost or destroyed.</li>
-<li>DELAYED - Delayed.</li>
-<li>AVAILABLE_FOR_PICKUP - Available for pickup.</li>
-<li>CUSTOMER_ACTION - Requires customer action.</li>
+<li><var class="keyword varname">IN_TRANSIT</var> - In transit to the destination address.</li>
+<li><var class="keyword varname">DELIVERED</var> - Delivered to the destination address.</li>
+<li><var class="keyword varname">RETURNING</var> - In the process of being returned to <span class="ph">Amazon's fulfillment network</span>.</li>
+<li><var class="keyword varname">RETURNED</var> - Returned to <span class="ph">Amazon's fulfillment network</span>.</li>
+<li><var class="keyword varname">UNDELIVERABLE</var> - Undeliverable because package was lost or destroyed.</li>
+<li><var class="keyword varname">DELAYED</var> - Delayed.</li>
+<li><var class="keyword varname">AVAILABLE_FOR_PICKUP</var> - Available for pickup.</li>
+<li><var class="keyword varname">CUSTOMER_ACTION </var> - Requires customer action.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -193,32 +192,32 @@ Guide</span>.</span>
 <td>Additional location information.
 <p><span class="keyword parmname">AdditionalLocationInfo</span> values:</p>
 <ul>
-<li>AS_INSTRUCTED - As instructed.</li>
-<li>CARPORT - Carport.</li>
-<li>CUSTOMER_PICKUP - Picked up by customer.</li>
-<li>DECK - Deck.</li>
-<li>DOOR_PERSON - Resident.</li>
-<li>FRONT_DESK - Front desk.</li>
-<li>FRONT_DOOR - Front door.</li>
-<li>GARAGE - Garage.</li>
-<li>GUARD - Residential guard.</li>
-<li>MAIL_ROOM - Mail room.</li>
-<li>MAIL_SLOT - Mail slot.</li>
-<li>MAILBOX - Mailbox.</li>
-<li>MC_BOY - Delivered to male child.</li>
-<li>MC_GIRL - Delivered to female child.</li>
-<li>MC_MAN - Delivered to male adult.</li>
-<li>MC_WOMAN - Delivered to female adult.</li>
-<li>NEIGHBOR - Delivered to neighbor.</li>
-<li>OFFICE - Office.</li>
-<li>OUTBUILDING - Outbuilding.</li>
-<li>PATIO - Patio.</li>
-<li>PORCH - Porch.</li>
-<li>REAR_DOOR - Rear door.</li>
-<li>RECEPTIONIST - Receptionist.</li>
-<li>RECEIVER - Resident.</li>
-<li>SECURE_LOCATION - Secure location.</li>
-<li>SIDE_DOOR - Side door.</li>
+<li><var class="keyword varname">AS_INSTRUCTED</var> - As instructed.</li>
+<li><var class="keyword varname">CARPORT</var> - Carport.</li>
+<li><var class="keyword varname">CUSTOMER_PICKUP</var> - Picked up by customer.</li>
+<li><var class="keyword varname">DECK</var> - Deck.</li>
+<li><var class="keyword varname">DOOR_PERSON</var> - Resident.</li>
+<li><var class="keyword varname">FRONT_DESK</var> - Front desk.</li>
+<li><var class="keyword varname">FRONT_DOOR</var> - Front door.</li>
+<li><var class="keyword varname">GARAGE</var> - Garage.</li>
+<li><var class="keyword varname">GUARD</var> - Residential guard.</li>
+<li><var class="keyword varname">MAIL_ROOM</var> - Mail room.</li>
+<li><var class="keyword varname">MAIL_SLOT</var> - Mail slot.</li>
+<li><var class="keyword varname">MAILBOX</var> - Mailbox.</li>
+<li><var class="keyword varname">MC_BOY</var> - Delivered to male child.</li>
+<li><var class="keyword varname">MC_GIRL</var> - Delivered to female child.</li>
+<li><var class="keyword varname">MC_MAN</var> - Delivered to male adult.</li>
+<li><var class="keyword varname">MC_WOMAN</var> - Delivered to female adult.</li>
+<li><var class="keyword varname">NEIGHBOR</var> - Delivered to neighbor.</li>
+<li><var class="keyword varname">OFFICE</var> - Office.</li>
+<li><var class="keyword varname">OUTBUILDING</var> - Outbuilding.</li>
+<li><var class="keyword varname">PATIO</var> - Patio.</li>
+<li><var class="keyword varname">PORCH</var> - Porch.</li>
+<li><var class="keyword varname">REAR_DOOR</var> - Rear door.</li>
+<li><var class="keyword varname">RECEPTIONIST</var> - Receptionist.</li>
+<li><var class="keyword varname">RECEIVER</var> - Resident.</li>
+<li><var class="keyword varname">SECURE_LOCATION</var> - Secure location.</li>
+<li><var class="keyword varname">SIDE_DOOR</var> - Side door.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

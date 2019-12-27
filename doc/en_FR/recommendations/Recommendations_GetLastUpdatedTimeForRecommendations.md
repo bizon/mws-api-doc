@@ -208,7 +208,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <div class="note note">
 
 <span class="notetitle">Note:</span> Last updated times are not returned
-for ListingQuality recommendations.
+for `ListingQuality` recommendations.
 
 </div>
 

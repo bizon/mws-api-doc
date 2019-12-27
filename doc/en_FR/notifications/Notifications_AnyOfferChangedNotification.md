@@ -241,8 +241,8 @@ The following table shows the attributes of the
 </thead>
 <tbody>
 <tr class="odd">
-<td>condition</td>
-<td>Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.
+<td><var class="keyword varname">condition</var></td>
+<td>Indicates the condition of the item. For example: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -342,13 +342,13 @@ The following table shows the attributes of the
 </thead>
 <tbody>
 <tr class="odd">
-<td>condition</td>
-<td>Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.
+<td><var class="keyword varname">condition</var></td>
+<td>Indicates the condition of the item. For example: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
-<td>fulfillmentChannel</td>
+<td><var class="keyword varname">fulfillmentChannel</var></td>
 <td><span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>
 <p>Required.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
@@ -457,7 +457,7 @@ The following table shows the child elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SubCondition</span></td>
-<td>The subcondition of the item. For example: <span class="ph">New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other</span>.
+<td>The subcondition of the item. For example: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -612,8 +612,8 @@ The following table shows the child elements of the
 <td>The type of offer that changed and triggered this notification.
 <p><span class="keyword parmname">OfferChangeType</span> values:</p>
 <ul>
-<li>External - An offer from a non-Amazon seller. The <span class="keyword parmname">CompetitivePriceThreshold</span> in the <span class="keyword parmname">Summary</span> element has changed.</li>
-<li>Internal - An offer from an Amazon seller. The price of an offer on Amazon's retail website has changed.</li>
+<li><var class="keyword varname">External</var> - An offer from a non-Amazon seller. The <span class="keyword parmname">CompetitivePriceThreshold</span> in the <span class="keyword parmname">Summary</span> element has changed.</li>
+<li><var class="keyword varname">Internal</var> - An offer from an Amazon seller. The price of an offer on Amazon's retail website has changed.</li>
 </ul>
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -660,13 +660,13 @@ The following table shows the attributes of the
 </thead>
 <tbody>
 <tr class="odd">
-<td>condition</td>
-<td>Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.
+<td><var class="keyword varname">condition</var></td>
+<td>Indicates the condition of the item. For example: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
-<td>fulfillmentChannel</td>
+<td><var class="keyword varname">fulfillmentChannel</var></td>
 <td><span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>
 <p>Required.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a></p></td>
@@ -929,26 +929,26 @@ The following table shows the attributes of the
 </thead>
 <tbody>
 <tr class="odd">
-<td>minimumHours</td>
+<td><var class="keyword varname">minimumHours</var></td>
 <td>The minimum time, in hours, that the item will likely be shipped after the order has been placed.
 <p>Optional.</p>
 <p><span class="ph">Type: xs:short</span></p></td>
 </tr>
 <tr class="even">
-<td>maximumHours</td>
+<td><var class="keyword varname">maximumHours</var></td>
 <td>The maximum time, in hours, that the item will likely be shipped after the order has been placed.
 <p>Optional.</p>
 <p><span class="ph">Type: xs:short</span></p></td>
 </tr>
 <tr class="odd">
-<td>availableDate</td>
+<td><var class="keyword varname">availableDate</var></td>
 <td>The date when the item will be available for shipping. Only displayed for items that are not currently available for shipping.
 <p>Optional.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
-<td>availabilityType</td>
-<td><span class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.
+<td><var class="keyword varname">availabilityType</var></td>
+<td><span class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.
 <p>Optional.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__AvailabilityType" class="xref">AvailabilityType</a></p></td>
 </tr>

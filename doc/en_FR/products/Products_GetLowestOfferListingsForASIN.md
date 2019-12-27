@@ -85,8 +85,7 @@ by condition (new or used), for an item that you sell.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -179,11 +178,11 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ItemCondition</span> values:
 <ul>
-<li>New</li>
-<li>Used</li>
-<li>Collectible</li>
-<li>Refurbished</li>
-<li>Club</li>
+<li><var class="keyword varname">New</var></li>
+<li><var class="keyword varname">Used</var></li>
+<li><var class="keyword varname">Collectible</var></li>
+<li><var class="keyword varname">Refurbished</var></li>
+<li><var class="keyword varname">Club</var></li>
 </ul>
 <p>Default: All</p></td>
 </tr>
@@ -255,7 +254,7 @@ operation returns the following two sub-elements of the
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">Qualifiers</span>. Contains the following six qualifiers: <span class="keyword parmname">ItemCondition</span>, <span class="keyword parmname">ItemSubcondition</span>, <span class="keyword parmname">FulfillmentChannel</span>, <span class="keyword parmname">ShipsDomestically</span>, <span class="keyword parmname">ShippingTime</span>, and <span class="keyword parmname">SellerPositiveFeedbackRating</span>. These qualifiers identify the offer listing group from which the lowest offer listing was taken.</li>
-<li><span class="keyword parmname">NumberOfOfferListingsConsidered</span>. Of the offer listings considered, this number indicates how many belonged to this offer listing group. Note that if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of True, then the value of <span class="keyword parmname">NumberOfOfferListingsConsidered</span> is the actual number of active offer listings that met the six qualifying criteria of the offer listing group. However if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of False, then the actual number might be higher.</li>
+<li><span class="keyword parmname">NumberOfOfferListingsConsidered</span>. Of the offer listings considered, this number indicates how many belonged to this offer listing group. Note that if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of <var class="keyword varname">True</var>, then the value of <span class="keyword parmname">NumberOfOfferListingsConsidered</span> is the actual number of active offer listings that met the six qualifying criteria of the offer listing group. However if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of <var class="keyword varname">False</var>, then the actual number might be higher.</li>
 <li><span class="keyword parmname">SellerFeedbackCount</span>. The number of seller feedback ratings that have been submitted for the seller with the lowest-priced offer listing in the group.</li>
 <li><span class="keyword parmname">Price</span>. Pricing information for the lowest offer listing in the group. Contains the following elements:
 <ul>
@@ -267,9 +266,9 @@ operation returns the following two sub-elements of the
 <li><p><span class="keyword parmname">MultipleOfferListingsAtLowestPrice</span>. Indicates if there is more than one listing with the lowest landed price in the group.</p>
 <p>Valid values:</p>
 <ul>
-<li>True – There is more than one listing with the lowest listing price in the group.</li>
-<li>False – There is only one listing with the lowest listing price in the group.</li>
-<li>Unknown – The service cannot determine if there is more than one listing with the lowest listing price in the group. This can happen in certain cases when not all active offer listings were considered when the offer listings were sorted into groups (when <span class="keyword parmname">AllOfferListingsConsidered</span> = False).</li>
+<li><var class="keyword varname">True</var> – There is more than one listing with the lowest listing price in the group.</li>
+<li><var class="keyword varname">False</var> – There is only one listing with the lowest listing price in the group.</li>
+<li><var class="keyword varname">Unknown</var> – The service cannot determine if there is more than one listing with the lowest listing price in the group. This can happen in certain cases when not all active offer listings were considered when the offer listings were sorted into groups (when <span class="keyword parmname">AllOfferListingsConsidered</span> = <var class="keyword varname">False</var>).</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -467,8 +466,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetLowestOfferListingsForSKU](Products_GetLowestOfferListingsForSKU.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on SellerSKU.")
 

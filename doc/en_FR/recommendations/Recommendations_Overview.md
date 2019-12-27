@@ -55,16 +55,14 @@ provided for the following categories:
   - **Inventory**: Recommendations for restocking low or out-of-stock
     items in your inventory.
   - **Pricing**: Recommendations to review pricing on items in your
-    inventory where your offer is not the lowest
-price.
+    inventory where your offer is not the lowest price.
 
 <div id="Recommendations_Overview__RecommendationsOperations" class="section">
 
 ## The <span class="ph">Recommendations API section</span> operations
 
 The following operations are included in the
-<span class="ph">Recommendations API
-section</span>:
+<span class="ph">Recommendations API section</span>:
 
 <div class="tablenoborder">
 

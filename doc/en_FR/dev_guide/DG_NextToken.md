@@ -63,13 +63,13 @@ sections.
 1.  Call an operation.
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns false, there are no more response elements to
+    element returns `false`, there are no more response elements to
     return. Task is complete.
     
     OR
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns true, there are more response elements to return.
+    element returns `true`, there are more response elements to return.
     Continue to Step 2.
 
 2.  Call the "ByNextToken" operation that matches the operation you
@@ -80,18 +80,18 @@ sections.
     returned in Step 1.
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns false, there are no more response elements to
+    element returns `false`, there are no more response elements to
     return. Task is complete.
     
     OR
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns true, there are more response elements to return.
+    element returns `true`, there are more response elements to return.
     Continue to Step 3.
 
 3.  Continue calling the "ByNextToken" operation until the
     <span class="keyword parmname">HasNext</span> response element
-    returns false.
+    returns `false`.
 
 </div>
 
@@ -102,16 +102,17 @@ sections.
 1.  Call an operation.
     
     If the <span class="keyword parmname">MoreResultsAvailable</span>
-    response element returns false, there are no more response elements
-    currently available. However, more results might be available in the
-    future. Continue to Step 2 at some point in the future. The amount
-    of time to wait depends on your business processes and on how often
-    you expect the operation to return new results.
+    response element returns `false`, there are no more response
+    elements currently available. However, more results might be
+    available in the future. Continue to Step 2 at some point in the
+    future. The amount of time to wait depends on your business
+    processes and on how often you expect the operation to return new
+    results.
     
     OR
     
     If the <span class="keyword parmname">MoreResultsAvailable</span>
-    response element returns true, there are more response elements to
+    response element returns `true`, there are more response elements to
     return now. Continue to Step 2.
 
 2.  Call the "ByNextToken" operation that matches the operation you
@@ -122,25 +123,25 @@ sections.
     returned in Step 1.
     
     If the <span class="keyword parmname">MoreResultsAvailable</span>
-    response element returns false, there are no more response elements
-    currently available. However, more results might be available in the
-    future. Continue to Step 3 at some point in the future. The amount
-    of time to wait depends on your business processes and on how often
-    you expect the operation to return new results.
+    response element returns `false`, there are no more response
+    elements currently available. However, more results might be
+    available in the future. Continue to Step 3 at some point in the
+    future. The amount of time to wait depends on your business
+    processes and on how often you expect the operation to return new
+    results.
     
     OR
     
     If the <span class="keyword parmname">MoreResultsAvailable</span>
-    response element returns true, there are more response elements to
+    response element returns `true`, there are more response elements to
     return now. Continue to Step 3.
 
 3.  Continue calling the "ByNextToken" operation until the
     <span class="keyword parmname">MoreResultsAvailable</span> response
-    element returns false. Then, wait for a period of time before you
+    element returns `false`. Then, wait for a period of time before you
     call the "ByNextToken" operation again. The amount of time to wait
     depends on your business processes and on how often you expect the
-    operation to return new
-results.
+    operation to return new results.
 
 </div>
 

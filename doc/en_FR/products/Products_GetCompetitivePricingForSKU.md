@@ -88,8 +88,7 @@ as size and color) and can be sold.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -236,11 +235,11 @@ operation.
 <ul>
 <li><span class="keyword parmname">CompetitivePrice</span>. Contains pricing information. The <span class="keyword parmname">CompetitivePrice</span> element contains the following attributes:
 <ul>
-<li><span class="keyword parmname">condition</span>. Indicates the condition of the item whose pricing information is returned. Possible values are: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.</li>
-<li><span class="keyword parmname">subcondition</span>. Indicates the subcondition of the item whose pricing information is returned. Possible values are: <span class="ph">New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other</span>.</li>
-<li><span class="keyword parmname">belongsToRequester</span>. Indicates whether or not the pricing information is for an offer listing that belongs to the requester. The requester is the seller associated with the <span class="keyword parmname">SellerId</span> that was submitted with the request. Possible values are: true and false.</li>
+<li><span class="keyword parmname">condition</span>. Indicates the condition of the item whose pricing information is returned. Possible values are: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</li>
+<li><span class="keyword parmname">subcondition</span>. Indicates the subcondition of the item whose pricing information is returned. Possible values are: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</li>
+<li><span class="keyword parmname">belongsToRequester</span>. Indicates whether or not the pricing information is for an offer listing that belongs to the requester. The requester is the seller associated with the <span class="keyword parmname">SellerId</span> that was submitted with the request. Possible values are: <var class="keyword varname">true</var> and <var class="keyword varname">false</var>.</li>
 </ul></li>
-<li><span class="keyword parmname">CompetitivePriceId</span>. The pricing model for each price that is returned. Valid values: 1, 2. Value definitions: 1 = New Buy Box Price, 2 = Used Buy Box Price.</li>
+<li><span class="keyword parmname">CompetitivePriceId</span>. The pricing model for each price that is returned. Valid values: <var class="keyword varname">1</var>, <var class="keyword varname">2</var>. Value definitions: 1 = New Buy Box Price, 2 = Used Buy Box Price.</li>
 <li><span class="keyword parmname">Price</span>. Pricing information for a given <span class="keyword parmname">CompetitivePriceId</span> value. Contains the following elements:
 <ul>
 <li><span class="keyword parmname">ListingPrice</span>. The listing price of the item.</li>
@@ -248,7 +247,7 @@ operation.
 <li><span class="keyword parmname">LandedPrice</span>. <span class="keyword parmname">ListingPrice</span> + <span class="keyword parmname">Shipping</span> - <span class="keyword parmname">Points</span>. Note that if the landed price is not returned, the listing price represents the product with the lowest landed price.</li>
 <li><span class="keyword parmname">Points</span>. The number of <span class="ph">Amazon Points</span> offered with the purchase of an item, and their monetary value. Note that the <span class="keyword parmname">Points</span> element is only returned in Japan (JP).</li>
 </ul></li>
-<li><span class="keyword parmname">NumberOfOfferListings</span>. The number of active offer listings for the product that was submitted. The listing count is returned by condition, in <span class="keyword parmname">OfferListingCount</span> sub-elements, one for each listing condition value that is returned. Possible listing condition values are: Any, <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.</li>
+<li><span class="keyword parmname">NumberOfOfferListings</span>. The number of active offer listings for the product that was submitted. The listing count is returned by condition, in <span class="keyword parmname">OfferListingCount</span> sub-elements, one for each listing condition value that is returned. Possible listing condition values are: <var class="keyword varname">Any</var>, <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</li>
 <li><span class="keyword parmname">TradeInValue</span>. The trade-in value of the product in Amazon’s Trade-In program. For more information about Amazon’s Trade-In program, see the “Amazon Trade-In program” section of the Help pages for the Amazon website in your marketplace.</li>
 </ul></td>
 </tr>
@@ -439,8 +438,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetCompetitivePricingForASIN](Products_GetCompetitivePricingForASIN.md "Returns the current competitive price of a product, based on ASIN.")
 

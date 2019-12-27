@@ -47,8 +47,7 @@ through the <span class="ph">Feeds API</span> section.
 <div class="body conbody">
 
 The <span class="keyword apiname">FeedProcessingStatus</span>
-enumeration describes the processing status of a submitted
-feed.
+enumeration describes the processing status of a submitted feed.
 
 </div>
 

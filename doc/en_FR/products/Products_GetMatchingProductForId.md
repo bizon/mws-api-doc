@@ -81,8 +81,7 @@ ISBN,</span> and <span class="keyword">JAN</span>.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -162,7 +161,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">IdType</span></td>
 <td>The type of product identifier that <span class="keyword parmname">Id</span> values refer to.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">IdType</span> values: ASIN, GCID, SellerSKU, UPC, EAN, ISBN, JAN
+<td><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">GCID</var>, <var class="keyword varname">SellerSKU</var>, <var class="keyword varname">UPC</var>, <var class="keyword varname">EAN</var>, <var class="keyword varname">ISBN</var>, <var class="keyword varname">JAN</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -199,9 +198,9 @@ returns are described by the following publicly available XSDs:
     <http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd>
 
 <span class="keyword apiname">GetMatchingProductForId</span> returns
-Invalid UPC identifier when an external identifier is given (UPC, ISBN,
-etc.) and *no* offers/listings are active on <span class="ph">Amazon
-MWS</span>. See
+`Invalid UPC identifier` when an external identifier is given (UPC,
+ISBN, etc.) and *no* offers/listings are active on
+<span class="ph">Amazon MWS</span>. See
 [Restrictions](#Products_GetMatchingProductForId "Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.")
 for additional information.
 

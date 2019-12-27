@@ -54,8 +54,7 @@ returns all the subscriptions that you have created by using the
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

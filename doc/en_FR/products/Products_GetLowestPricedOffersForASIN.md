@@ -66,8 +66,7 @@ search for the ASIN.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -164,7 +163,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>Filters the results based on item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -178,7 +177,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 1.  If you specify an <span class="keyword parmname">ASIN</span> that
     identifies a variation parent ASIN, this operation returns
-    NoBuyableOffers. A variation parent ASIN represents a generic
+    `NoBuyableOffers`. A variation parent ASIN represents a generic
     product that cannot be sold. Variation child ASINs represent
     products that have specific characteristics (such as size and color)
     and can be sold.
@@ -203,8 +202,7 @@ operation returns are described by the publicly available XSD
 [ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
 The top-level elements returned by the
 <span class="keyword apiname">GetLowestPricedOffersForASIN</span>
-operation
-are:
+operation are:
 
 </div>
 
@@ -262,14 +260,14 @@ are:
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>The item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Status</span></td>
 <td>The status of the operation.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: Success, ActiveButTooSoonForProcessing, NoBuyableOffers, or NoOfferDueToMissingShippingCharge.
+<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -284,11 +282,11 @@ attributes match the original request parameters for the call.
 <span class="keyword parmname">Status</span> represents the overall
 result of the operation with one of the following values:
 
-  - Success
-  - ActiveButTooSoonForProcessing - the item is active but no offers can
-    be displayed until OffersAvailableTime
-  - NoBuyableOffers - the item is not being offered for sale
-  - NoOfferDueToMissingShippingCharge - the shipping charge is absent
+  - `Success`
+  - `ActiveButTooSoonForProcessing` - the item is active but no offers
+    can be displayed until `OffersAvailableTime`
+  - `NoBuyableOffers` - the item is not being offered for sale
+  - `NoOfferDueToMissingShippingCharge` - the shipping charge is absent
     (for example, when the shipping charge varies by region)
 
 </div>
@@ -346,7 +344,7 @@ and ASIN.</span>
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>The item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -396,7 +394,7 @@ and <span class="keyword parmname">NumberOfOffers</span> and
 | <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
 | <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
 | <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
-| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is ActiveButTooSoonForProcessing, this is the time when the offers will be available for processing.                                                                                                                                    | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
+| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is `ActiveButTooSoonForProcessing`, this is the time when the offers will be available for processing.                                                                                                                                  | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
 
 </div>
 
@@ -456,7 +454,7 @@ or 20, whichever is less.
 <td><span class="keyword parmname">Subcondition</span></td>
 <td>The subcondition of the item.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Subcondition</span> values: <span class="ph">New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other</span>.
+<td><span class="keyword parmname">Subcondition</span> values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -497,19 +495,19 @@ or 20, whichever is less.
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsFulfilledByAmazon</span></td>
-<td>true if the offer is fulfilled by Amazon.</td>
+<td><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsBuyBoxWinner</span></td>
-<td>true if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.</td>
+<td><var class="keyword varname">true</var> if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsFeaturedMerchant</span></td>
-<td>true if the seller of the item is eligible to win the Buy Box.</td>
+<td><var class="keyword varname">true</var> if the seller of the item is eligible to win the Buy Box.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -882,8 +880,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.md "Returns lowest priced offers for a single product, based on SellerSKU.")
 

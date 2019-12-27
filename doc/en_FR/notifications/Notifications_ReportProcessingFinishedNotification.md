@@ -43,7 +43,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span class="keyword parmname">ReportProcessingFinished</span>
 notification is sent whenever any report that you have requested using
 the <span class="ph">Reports API section</span> reaches a report
-processing status of DONE, CANCELLED, or DONE\_NO\_DATA.</span>
+processing status of `DONE`, `CANCELLED`, or `DONE_NO_DATA`.</span>
 
 <div class="section">
 
@@ -126,7 +126,7 @@ element:
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ReportProcessingStatus</span></td>
-<td>The processing status of the report request. This notification is only sent when the processing status reaches one of three terminal states: DONE, CANCELLED, or DONE_NO_DATA. In other words, the notification is sent only when report processing is complete.
+<td>The processing status of the report request. This notification is only sent when the processing status reaches one of three terminal states: <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>. In other words, the notification is sent only when report processing is complete.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

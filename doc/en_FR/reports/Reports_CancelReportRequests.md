@@ -69,8 +69,7 @@ begun processing, they cannot be canceled.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -155,11 +154,11 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ReportProcessingStatusList</span> values:
 <ul>
-<li>_SUBMITTED_</li>
-<li>_IN_PROGRESS_</li>
-<li>_CANCELLED_</li>
-<li>_DONE_</li>
-<li>_DONE_NO_DATA_</li>
+<li><var class="keyword varname">_SUBMITTED_</var></li>
+<li><var class="keyword varname">_IN_PROGRESS_</var></li>
+<li><var class="keyword varname">_CANCELLED_</var></li>
+<li><var class="keyword varname">_DONE_</var></li>
+<li><var class="keyword varname">_DONE_NO_DATA_</var></li>
 </ul>
 <p>Default: All</p>
 <p>Type: List of <span class="ph">Type: xs:string</span></p></td>

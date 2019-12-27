@@ -55,8 +55,8 @@ format. No truncated formats are allowed. Dates are based on the
 Gregorian calendar. All date and time data is expressed numerically,
 leading zeros are preserved.
 
-The basic type DateTime string patterns are yyyy-MM-ddTHH:mm:ss.sssZ
-(for UTC) or yyyy-MM-ddTHH:mm:ss.sss±hh:mm (for a local time offset).
+The basic type DateTime string patterns are `yyyy-MM-ddTHH:mm:ss.sssZ`
+(for UTC) or `yyyy-MM-ddTHH:mm:ss.sss±hh:mm` (for a local time offset).
 The character '**T**' is a required delimiter between the date and time
 sections. Times are expressed in the extended format: the '**:**' is
 used as a delimiter between hours, minutes and seconds. Fractional
@@ -96,8 +96,7 @@ not currently used in <span class="ph">Amazon MWS</span>.
 ```
 
 This example is read as the 16th day of March in 2016 at 14hrs 32min and
-16.50 seconds local time. The local time is 7 hours behind
-    UTC.
+16.50 seconds local time. The local time is 7 hours behind UTC.
 
 </div>
 

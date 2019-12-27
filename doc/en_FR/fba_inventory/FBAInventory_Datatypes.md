@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Fulfillment Inventory API
-section</span>:
+<span class="ph">Fulfillment Inventory API section</span>:
 
 <div class="tablenoborder">
 
@@ -72,8 +71,7 @@ for a single SKU.</span>
 <div class="p">
 
 The <span class="keyword cmdname">InventorySupply</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
   - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
@@ -131,24 +129,24 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="ph"><span class="keyword parmname">Condition</span> values:</span>
 <ul>
-<li>NewItem</li>
-<li>NewWithWarranty</li>
-<li>NewOEM</li>
-<li>NewOpenBox</li>
-<li>UsedLikeNew</li>
-<li>UsedVeryGood</li>
-<li>UsedGood</li>
-<li>UsedAcceptable</li>
-<li>UsedPoor</li>
-<li>UsedRefurbished</li>
-<li>CollectibleLikeNew</li>
-<li>CollectibleVeryGood</li>
-<li>CollectibleGood</li>
-<li>CollectibleAcceptable</li>
-<li>CollectiblePoor</li>
-<li>RefurbishedWithWarranty</li>
-<li>Refurbished</li>
-<li>Club</li>
+<li><var class="keyword varname">NewItem</var></li>
+<li><var class="keyword varname">NewWithWarranty</var></li>
+<li><var class="keyword varname">NewOEM</var></li>
+<li><var class="keyword varname">NewOpenBox</var></li>
+<li><var class="keyword varname">UsedLikeNew</var></li>
+<li><var class="keyword varname">UsedVeryGood</var></li>
+<li><var class="keyword varname">UsedGood</var></li>
+<li><var class="keyword varname">UsedAcceptable</var></li>
+<li><var class="keyword varname">UsedPoor</var></li>
+<li><var class="keyword varname">UsedRefurbished</var></li>
+<li><var class="keyword varname">CollectibleLikeNew</var></li>
+<li><var class="keyword varname">CollectibleVeryGood</var></li>
+<li><var class="keyword varname">CollectibleGood</var></li>
+<li><var class="keyword varname">CollectibleAcceptable</var></li>
+<li><var class="keyword varname">CollectiblePoor</var></li>
+<li><var class="keyword varname">RefurbishedWithWarranty</var></li>
+<li><var class="keyword varname">Refurbished</var></li>
+<li><var class="keyword varname">Club</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -206,8 +204,7 @@ between fulfillment centers.</span>
 <div class="p">
 
 The <span class="keyword cmdname">InventorySupplyDetail</span> datatype
-is used in a response element of the following
-    operations:
+is used in a response element of the following operations:
 
   - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
   - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
@@ -253,12 +250,12 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">SupplyType</span> values:
 <ul>
-<li>InStock - Inventory is in an <span class="ph">Amazon fulfillment center</span></li>
-<li>Inbound - Inventory is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span></li>
-<li>Transfer - Inventory is being transferred from one <span class="ph">Amazon fulfillment center</span> to another</li>
+<li><var class="keyword varname">InStock</var> - Inventory is in an <span class="ph">Amazon fulfillment center</span></li>
+<li><var class="keyword varname">Inbound</var> - Inventory is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span></li>
+<li><var class="keyword varname">Transfer</var> - Inventory is being transferred from one <span class="ph">Amazon fulfillment center</span> to another</li>
 </ul>
 <div class="note note">
-<span class="notetitle">Note:</span> InStock inventory items might not be immediately available for picking. For example, inventory in a reserve location in an <span class="ph">Amazon fulfillment center</span> might take up to 12 hours to become available for picking.
+<span class="notetitle">Note:</span> <var class="keyword varname">InStock</var> inventory items might not be immediately available for picking. For example, inventory in a reserve location in an <span class="ph">Amazon fulfillment center</span> might take up to 12 hours to become available for picking.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -305,8 +302,7 @@ date.</span>
 <div class="p">
 
 The <span class="keyword cmdname">Timepoint</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
   - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
@@ -346,9 +342,9 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">TimepointType</span> values:
 <ul>
-<li>Immediately - The seller's inventory is immediately available for picking.</li>
-<li>DateTime - The seller's inventory is expected to be available for picking at a specific date, represented by the <span class="keyword parmname">DateTime</span> element.</li>
-<li>Unknown - The seller's inventory is expected to be available for picking at some point in the future, but it is not known with confidence when that will be.</li>
+<li><var class="keyword varname">Immediately</var> - The seller's inventory is immediately available for picking.</li>
+<li><var class="keyword varname">DateTime</var> - The seller's inventory is expected to be available for picking at a specific date, represented by the <span class="keyword parmname">DateTime</span> element.</li>
+<li><var class="keyword varname">Unknown</var> - The seller's inventory is expected to be available for picking at some point in the future, but it is not known with confidence when that will be.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -357,7 +353,7 @@ The following table shows the elements of the
 <td>The date and time by which inventory is expected to be available for picking, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No
 <p>If the value of the <span class="keyword parmname">TimepointType</span> element is <span class="keyword parmname">DateTime</span>, then the <span class="keyword parmname">DateTime</span> element is required.</p></td>
-<td>If the value of the <span class="keyword parmname">TimepointType</span> element is Immediately or Unknown, then the value of the <span class="keyword parmname">DateTime</span> element is null.
+<td>If the value of the <span class="keyword parmname">TimepointType</span> element is <var class="keyword varname">Immediately</var> or <var class="keyword varname">Unknown</var>, then the value of the <span class="keyword parmname">DateTime</span> element is null.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>

@@ -65,8 +65,7 @@ applied to all marketplaces that share the same default country code.
 <span class="ph">Amazon MWS</span> <span class="ph">Sellers API
 section</span> to determine what
 <span class="keyword parmname">MarketplaceId</span> values are
-associated with your
-<span class="keyword parmname">SellerId</span>.
+associated with your <span class="keyword parmname">SellerId</span>.
 
 </div>
 
@@ -104,8 +103,7 @@ feed. For a list of <span class="keyword parmname">MarketplaceId</span>
 values, see [Amazon MWS endpoints and MarketplaceId
 values](../dev_guide/DG_Endpoints.md). You can also specify a
 <span class="ph">Checkout by Amazon</span>
-<span class="keyword parmname">MarketplaceId</span>
-value.
+<span class="keyword parmname">MarketplaceId</span> value.
 
 </div>
 
@@ -148,11 +146,10 @@ multiple <span class="keyword parmname">MarketplaceId</span> values:
     that it will process successfully.
   - When <span class="keyword apiname">SubmitFeed</span> is submitted
     with <span class="keyword parmname">PurgeAndReplace</span> set to
-    true, the purge will be applied to all EU or NA marketplaces
+    `true`, the purge will be applied to all EU or NA marketplaces
     specified by the EU or NA seller. When no EU or NA marketplace is
     specified, then for backwards compatibility all marketplaces within
-    a country will be
-updated.
+    a country will be updated.
 
 </div>
 
@@ -175,9 +172,9 @@ default marketplace. An FBA
 feed. This behavior applies to the following feeds:
 
   - <span class="keyword parmname">Product Feed</span>
-    (\_POST\_PRODUCT\_DATA\_)
+    (`_POST_PRODUCT_DATA_`)
   - <span class="keyword parmname">Relationships Feed</span>
-    (\_POST\_PRODUCT\_RELATIONSHIP\_DATA\_)
+    (`_POST_PRODUCT_RELATIONSHIP_DATA_`)
 
 </div>
 
@@ -200,7 +197,7 @@ still maintained in the system. An FBA
 feed. This behavior applies to the following feed:
 
   - <span class="keyword parmname">Inventory Feed</span>
-    (\_POST\_INVENTORY\_AVAILABILITY\_DATA\_)
+    (`_POST_INVENTORY_AVAILABILITY_DATA_`)
 
 </div>
 
@@ -214,7 +211,7 @@ FBA <span class="keyword parmname">MarketplaceId</span> is not a valid
 feed. This behavior applies to the following feed:
 
   - <span class="keyword parmname">Overrides Feed</span>
-    (\_POST\_PRODUCT\_OVERRIDES\_DATA\_)
+    (`_POST_PRODUCT_OVERRIDES_DATA_`)
 
 </div>
 
@@ -235,7 +232,7 @@ default marketplace. An FBA
 feed. This behavior applies to the following feed:
 
   - <span class="keyword parmname">Pricing Feed</span>
-    (\_POST\_PRODUCT\_PRICING\_DATA\_)
+    (`_POST_PRODUCT_PRICING_DATA_`)
 
 </div>
 
@@ -251,7 +248,7 @@ original marketplace registration. This behavior applies to the
 following feed:
 
   - <span class="keyword parmname">Product Images Feed</span>
-    (\_POST\_PRODUCT\_IMAGE\_DATA\_)
+    (`_POST_PRODUCT_IMAGE_DATA_`)
 
 </div>
 
@@ -279,20 +276,19 @@ information is still maintained in the system. An FBA
 feed. This behavior applies to the following feeds:
 
   - <span class="keyword parmname">Flat File Inventory Loader
-    Feed</span> (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_)
+    Feed</span> (`_POST_FLAT_FILE_INVLOADER_DATA_`)
   - <span class="keyword parmname">Flat File Listings Feed</span>
-    (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_)
+    (`_POST_FLAT_FILE_LISTINGS_DATA_`)
   - <span class="keyword parmname">Flat File Book Loader Feed</span>
-    (\_POST\_FLAT\_FILE\_BOOKLOADER\_DATA\_)
+    (`_POST_FLAT_FILE_BOOKLOADER_DATA_`)
   - <span class="keyword parmname">Flat File Music Loader Feed</span>
-    (\_POST\_FLAT\_FILE\_CONVERGENCE\_LISTINGS\_DATA\_)
+    (`_POST_FLAT_FILE_CONVERGENCE_LISTINGS_DATA_`)
   - <span class="keyword parmname">Flat File Video Loader Feed</span>
-    (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_)
+    (`_POST_FLAT_FILE_LISTINGS_DATA_`)
   - <span class="keyword parmname">Flat File Price and Quantity Update
-    Feed</span>
-    (\_POST\_FLAT\_FILE\_PRICEANDQUANTITYONLY\_UPDATE\_DATA\_)
+    Feed</span> (`_POST_FLAT_FILE_PRICEANDQUANTITYONLY_UPDATE_DATA_`)
   - <span class="keyword parmname">UIEE Inventory Feed</span>
-    (\_POST\_UIEE\_BOOKLOADER\_DATA\_)
+    (`_POST_UIEE_BOOKLOADER_DATA_`)
 
 </div>
 
@@ -305,18 +301,17 @@ identifier. Therefore, Order Feeds are not marketplace-specific. This
 behavior applies to the following feeds:
 
   - <span class="keyword parmname">Order Acknowledgement Feed</span>
-    (\_POST\_ORDER\_ACKNOWLEDGEMENT\_DATA\_)
+    (`_POST_ORDER_ACKNOWLEDGEMENT_DATA_`)
   - <span class="keyword parmname">Order Adjustments Feed</span>
-    (\_POST\_PAYMENT\_ADJUSTMENT\_DATA\_)
+    (`_POST_PAYMENT_ADJUSTMENT_DATA_`)
   - <span class="keyword parmname">Order Fulfillment Feed</span>
-    (\_POST\_ORDER\_FULFILLMENT\_DATA\_)
+    (`_POST_ORDER_FULFILLMENT_DATA_`)
   - <span class="keyword parmname">Flat File Order Acknowledgement
-    Feed</span> (\_POST\_FLAT\_FILE\_ORDER\_ACKNOWLEDGEMENT\_DATA\_)
+    Feed</span> (`_POST_FLAT_FILE_ORDER_ACKNOWLEDGEMENT_DATA_`)
   - <span class="keyword parmname">Flat File Order Adjustments
-    Feed</span> (\_POST\_FLAT\_FILE\_PAYMENT\_ADJUSTMENT\_DATA\_)
+    Feed</span> (`_POST_FLAT_FILE_PAYMENT_ADJUSTMENT_DATA_`)
   - <span class="keyword parmname">Flat File Order Fulfillment
-    Feed</span>
-(\_POST\_FLAT\_FILE\_FULFILLMENT\_DATA\_)
+    Feed</span> (`_POST_FLAT_FILE_FULFILLMENT_DATA_`)
 
 </div>
 
@@ -335,10 +330,9 @@ country, such as an Amazon seller
 feed. This behavior applies to the following feeds:
 
   - <span class="keyword parmname">FBA Fulfillment Order Feed</span>
-    (\_POST\_FULFILLMENT\_ORDER\_REQUEST\_DATA\_)
+    (`_POST_FULFILLMENT_ORDER_REQUEST_DATA_`)
   - <span class="keyword parmname">FBA Fulfillment Order Cancellation
-    Feed</span>
-    (\_POST\_FULFILLMENT\_ORDER\_CANCELLATION\_REQUEST\_DATA\_)
+    Feed</span> (`_POST_FULFILLMENT_ORDER_CANCELLATION_REQUEST_DATA_`)
 
 </div>
 
@@ -348,8 +342,7 @@ feed. This behavior applies to the following feeds:
 
 There are several error messages that can be sent when submitting
 requests with multiple
-<span class="keyword parmname">MarketplaceId</span>
-values:
+<span class="keyword parmname">MarketplaceId</span> values:
 
 <div class="p">
 

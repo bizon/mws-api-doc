@@ -65,13 +65,14 @@ unfulfillable items in fulfillment order previews.
 <div class="note note">
 
 <span class="notetitle">Note:</span> If an inbound shipment has a status
-of WORKING or SHIPPED, Amazon considers the items in that inbound
+of `WORKING` or `SHIPPED`, Amazon considers the items in that inbound
 shipment to be fulfillable. This means that the
 <span class="keyword apiname">GetFulfillmentPreview</span> operation can
 return weight and shipping fee estimates for fulfillable items that have
 not yet arrived at an <span class="ph">Amazon fulfillment center</span>.
 For this reason weight and shipping fee estimates for items in inbound
-shipments with a status of WORKING or SHIPPED will often be incorrect.
+shipments with a status of `WORKING` or `SHIPPED` will often be
+incorrect.
 
 </div>
 
@@ -150,10 +151,10 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ShippingSpeedCategories</span> values:
 <ul>
-<li>Standard - Standard shipping method.</li>
-<li>Expedited - Expedited shipping method.</li>
-<li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
+<li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
+<li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
+<li><var class="keyword varname">Priority</var> - Priority shipping method.</li>
+<li><var class="keyword varname">ScheduledDelivery</var> - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="p">
 <div class="note note">
@@ -169,10 +170,10 @@ Default: All
 <td>No</td>
 <td><span class="keyword parmname">IncludeCODFulfillmentPreview</span> values:
 <ul>
-<li>true - Returns all fulfillment order previews (both for COD and not for COD).</li>
-<li>false - Returns only fulfillment order previews that are not for COD.</li>
+<li><var class="keyword varname">true</var> - Returns all fulfillment order previews (both for COD and not for COD).</li>
+<li><var class="keyword varname">false</var> - Returns only fulfillment order previews that are not for COD.</li>
 </ul>
-<p>Default: false</p>
+<p>Default: <var class="keyword varname">false</var></p>
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">IncludeCODFulfillmentPreview</span> is a valid request parameter only in Japan (JP). In any other marketplace, the service ignores the <span class="keyword parmname">IncludeCODFulfillmentPreview</span> request parameter.
 </div>
@@ -180,18 +181,18 @@ Default: All
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IncludeDeliveryWindows</span></td>
-<td>Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = ScheduledDelivery.</td>
+<td>Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
 <td>No</td>
 <td><span class="keyword parmname">IncludeDeliveryWindows</span> values:
 <ul>
-<li>true - Returns the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
-<li>false – Does not return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
+<li><var class="keyword varname">true</var> - Returns the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
+<li><var class="keyword varname">false</var> – Does not return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> <span class="keyword parmname">IncludeDeliveryWindows</span> is a valid request parameter only in Japan (JP). In any other marketplace, the service ignores the <span class="keyword parmname">IncludeDeliveryWindows</span> request parameter.
 </div>
 <p>For more information about Scheduled Delivery, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</p>
-<p>Default: false</p>
+<p>Default: <var class="keyword varname">false</var></p>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 </tbody>

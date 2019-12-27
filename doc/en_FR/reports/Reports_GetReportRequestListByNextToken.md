@@ -44,8 +44,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 previous request to either
 <span class="keyword apiname">GetReportRequestListByNextToken</span> or
 <span class="keyword apiname">GetReportRequestList</span>, where the
-value of <span class="keyword parmname">HasNext</span> was true in that
-previous request.</span>
+value of <span class="keyword parmname">HasNext</span> was `true` in
+that previous request.</span>
 
 </div>
 
@@ -64,14 +64,13 @@ previous request to either
 <span class="keyword apiname">GetReportRequestListByNextToken</span> or
 a request to <span class="keyword apiname">GetReportRequestList</span>,
 where the value of <span class="keyword parmname">HasNext</span> was
-true in that previous request.
+`true` in that previous request.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -114,16 +113,15 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
 parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
-| Name                                            | Description                                                                                                                                                                                                                           | Required | Values                                  |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| <span class="keyword parmname">NextToken</span> | <span class="ph">A string token returned in a previous call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the return value of <span class="keyword parmname">HasNext</span> is true.</span> | Yes      | <span class="ph">Type: xs:string</span> |
+| Name                                            | Description                                                                                                                                                                                                                             | Required | Values                                  |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+| <span class="keyword parmname">NextToken</span> | <span class="ph">A string token returned in a previous call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the return value of <span class="keyword parmname">HasNext</span> is `true`.</span> | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
 
@@ -153,12 +151,12 @@ Guide</span>.</span>
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">NextToken</span></td>
-<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is true.</span>
+<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">HasNext</span></td>
-<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is true if there are more items to retrieve; otherwise false.</span>
+<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd">

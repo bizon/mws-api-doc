@@ -62,7 +62,7 @@ received and stored them successfully. Then, when you submit a
 specify to receive only reports that have not yet been acknowledged.
 
 To retrieve reports that have been lost, set the
-<span class="keyword parmname">Acknowledged</span> to false and then
+<span class="keyword parmname">Acknowledged</span> to `false` and then
 submit a <span class="keyword apiname">GetReportList</span> request.
 This action returns a list of all reports within the previous 90 days
 that match the query parameters.
@@ -84,8 +84,7 @@ query parameters are returned.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -159,7 +158,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Acknowledged</span></td>
-<td>A Boolean value that indicates that you have received and stored a report. Specify true to set the acknowledged status of a report to true. Specify false to set the acknowledged status of a report to false.</td>
+<td>A Boolean value that indicates that you have received and stored a report. Specify <var class="keyword varname">true</var> to set the acknowledged status of a report to <var class="keyword varname">true</var>. Specify <var class="keyword varname">false</var> to set the acknowledged status of a report to <var class="keyword varname">false</var>.</td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>

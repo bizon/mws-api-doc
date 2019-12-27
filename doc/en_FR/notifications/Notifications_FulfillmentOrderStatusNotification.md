@@ -70,8 +70,7 @@ schema:
 </div>
 
 These are the complex elements of the
-<span class="keyword parmname">FulfillmentOrderStatus</span>
-element:
+<span class="keyword parmname">FulfillmentOrderStatus</span> element:
 
 <div class="tablenoborder">
 
@@ -124,9 +123,9 @@ element:
 <td>Indicates whether the notification contains order, shipment, or return information.
 <p><span class="keyword parmname">EventType</span> values:</p>
 <ul>
-<li>Order - This notification contains information about a fulfillment order.</li>
-<li>Shipment - This notification contains information about a fulfillment shipment. For more information, see the <a href="#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> element.</li>
-<li>Return - This notification contains information about a fulfillment return. For more information, see the <a href="#FulfillmentReturnItem" class="xref" title="Information about an item that was returned to an Amazon fulfillment center.">FulfillmentReturnItem</a> element.</li>
+<li><var class="keyword varname">Order</var> - This notification contains information about a fulfillment order.</li>
+<li><var class="keyword varname">Shipment</var> - This notification contains information about a fulfillment shipment. For more information, see the <a href="#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> element.</li>
+<li><var class="keyword varname">Return</var> - This notification contains information about a fulfillment return. For more information, see the <a href="#FulfillmentReturnItem" class="xref" title="Information about an item that was returned to an Amazon fulfillment center.">FulfillmentReturnItem</a> element.</li>
 </ul>
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -148,14 +147,14 @@ element:
 <td>The current status of the fulfillment order.
 <p><span class="keyword parmname">FulfillmentOrderStatus</span> values:</p>
 <ul>
-<li>Received - The fulfillment order was received by <span class="ph">Amazon MWS</span> and validated. Validation includes determining that the destination address is valid and that Amazon's records indicate that the seller has enough sellable (undamaged) inventory to fulfill the order. The seller can cancel a fulfillment order that has a status of Received.</li>
-<li>Invalid - The fulfillment order was received by <span class="ph">Amazon MWS</span> but could not be validated. The reasons for this include an invalid destination address or Amazon's records indicating that the seller does not have enough sellable inventory to fulfill the order. When this happens, the fulfillment order is invalid and no items in the order will ship.</li>
-<li>Planning - The fulfillment order has been sent to <span class="ph">Amazon's fulfillment network</span> to begin shipment planning, but no unit in any shipment has been picked from inventory yet. The seller can cancel a fulfillment order that has a status of Planning.</li>
-<li>Processing - The process of picking units from inventory has begun on at least one shipment in the fulfillment order. The seller cannot cancel a fulfillment order that has a status of Processing.</li>
-<li>Cancelled - The fulfillment order has been cancelled by the seller.</li>
-<li>Complete - All item quantities in the fulfillment order have been fulfilled.</li>
-<li>CompletePartialled - Some item quantities in the fulfillment order were fulfilled; the rest were either cancelled or unfulfillable.</li>
-<li>Unfulfillable - No item quantities in the fulfillment order could be fulfilled because the <span class="ph">Amazon fulfillment center</span> workers found no inventory for those items or found no inventory that was in sellable (undamaged) condition.</li>
+<li><var class="keyword varname">Received</var> - The fulfillment order was received by <span class="ph">Amazon MWS</span> and validated. Validation includes determining that the destination address is valid and that Amazon's records indicate that the seller has enough sellable (undamaged) inventory to fulfill the order. The seller can cancel a fulfillment order that has a status of <var class="keyword varname">Received</var>.</li>
+<li><var class="keyword varname">Invalid</var> - The fulfillment order was received by <span class="ph">Amazon MWS</span> but could not be validated. The reasons for this include an invalid destination address or Amazon's records indicating that the seller does not have enough sellable inventory to fulfill the order. When this happens, the fulfillment order is invalid and no items in the order will ship.</li>
+<li><var class="keyword varname">Planning</var> - The fulfillment order has been sent to <span class="ph">Amazon's fulfillment network</span> to begin shipment planning, but no unit in any shipment has been picked from inventory yet. The seller can cancel a fulfillment order that has a status of <var class="keyword varname">Planning</var>.</li>
+<li><var class="keyword varname">Processing</var> - The process of picking units from inventory has begun on at least one shipment in the fulfillment order. The seller cannot cancel a fulfillment order that has a status of <var class="keyword varname">Processing</var>.</li>
+<li><var class="keyword varname">Cancelled</var> - The fulfillment order has been cancelled by the seller.</li>
+<li><var class="keyword varname">Complete</var> - All item quantities in the fulfillment order have been fulfilled.</li>
+<li><var class="keyword varname">CompletePartialled</var> - Some item quantities in the fulfillment order were fulfilled; the rest were either cancelled or unfulfillable.</li>
+<li><var class="keyword varname">Unfulfillable</var> - No item quantities in the fulfillment order could be fulfilled because the <span class="ph">Amazon fulfillment center</span> workers found no inventory for those items or found no inventory that was in sellable (undamaged) condition.</li>
 </ul>
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -163,13 +162,13 @@ element:
 <tr class="odd">
 <td><span class="keyword parmname">FulfillmentShipment</span></td>
 <td><span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>
-<p>Optional. Returned only when <span class="keyword parmname">EventType</span> is Shipment.</p>
+<p>Optional. Returned only when <span class="keyword parmname">EventType</span> is <var class="keyword varname">Shipment</var>.</p>
 <p>Type: <a href="#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FulfillmentReturnItem</span></td>
 <td><span class="ph">Information about an item that was returned to an <span class="ph">Amazon fulfillment center</span>.</span>
-<p>Optional. Returned only when <span class="keyword parmname">EventType</span> is Return.</p>
+<p>Optional. Returned only when <span class="keyword parmname">EventType</span> is <var class="keyword varname">Return</var>.</p>
 <p>Type: <a href="#FulfillmentReturnItem" class="xref" title="Information about an item that was returned to an Amazon fulfillment center.">FulfillmentReturnItem</a></p></td>
 </tr>
 </tbody>
@@ -283,10 +282,10 @@ The following table shows the child elements of the
 <td>The current status of the shipment.
 <p><span class="keyword parmname">FulfillmentShipmentStatus</span> values:</p>
 <ul>
-<li>Pending - The process of picking units from inventory has begun.</li>
-<li>Shipped - All packages in the shipment have left the fulfillment center.</li>
-<li>CancelledByFulfiller - The <span class="ph">Amazon fulfillment center</span> could not fulfill the shipment as planned. This might be because the inventory was not at the expected location in the fulfillment center. After cancelling the fulfillment order, Amazon immediately creates a new fulfillment shipment and again attempts to fulfill the order.</li>
-<li>CancelledBySeller - The shipment was cancelled using the <span class="keyword parmname">CancelFulfillmentOrder</span> operation.</li>
+<li><var class="keyword varname">Pending</var> - The process of picking units from inventory has begun.</li>
+<li><var class="keyword varname">Shipped</var> - All packages in the shipment have left the fulfillment center.</li>
+<li><var class="keyword varname">CancelledByFulfiller</var> - The <span class="ph">Amazon fulfillment center</span> could not fulfill the shipment as planned. This might be because the inventory was not at the expected location in the fulfillment center. After cancelling the fulfillment order, Amazon immediately creates a new fulfillment shipment and again attempts to fulfill the order.</li>
+<li><var class="keyword varname">CancelledBySeller</var> - The shipment was cancelled using the <span class="keyword parmname">CancelFulfillmentOrder</span> operation.</li>
 </ul>
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>

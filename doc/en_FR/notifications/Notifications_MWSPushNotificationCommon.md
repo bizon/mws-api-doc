@@ -107,8 +107,8 @@ the seller.</span>
 
 <span class="keyword parmname">FulfillmentChannelType</span> values:
 
-  - Amazon
-  - Merchant
+  - `Amazon`
+  - `Merchant`
 
 </div>
 
@@ -147,8 +147,7 @@ Restriction: \[0-9\]+\\.\[0-9\]
 
 <div class="body">
 
-These are the complex types of the MWSPushNotificationCommon.xsd
-schema:
+These are the complex types of the MWSPushNotificationCommon.xsd schema:
 
 <div class="tablenoborder">
 

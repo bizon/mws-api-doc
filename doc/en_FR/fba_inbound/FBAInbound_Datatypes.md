@@ -111,8 +111,7 @@ section</span>:
 ### Operations
 
 The <span class="keyword cmdname">Address</span> datatype is used in a
-request parameter or in a response element of the following
-    operations:
+request parameter or in a response element of the following operations:
 
   - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
   - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
@@ -228,8 +227,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword cmdname">AmazonPrepFeesDetails</span> datatype
-is used in a response element of the following
-    operations:
+is used in a response element of the following operations:
 
   - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 
@@ -298,8 +296,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword cmdname">Amount</span> datatype is used in a
-request parameter or in a response element of the following
-    operations:
+request parameter or in a response element of the following operations:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
@@ -337,8 +334,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">CurrencyCode</span> values:
 <ul>
-<li>USD - United States dollars</li>
-<li>GBP - Great Britain pounds</li>
+<li><var class="keyword varname">USD</var> - United States dollars</li>
+<li><var class="keyword varname">GBP</var> - Great Britain pounds</li>
 </ul>
 <p>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -374,8 +371,7 @@ shipment to <span class="ph">Amazon's fulfillment network</span>.</span>
 ### Operations
 
 The <span class="keyword cmdname">ASINInboundGuidance</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
 
@@ -386,8 +382,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">ASINInboundGuidance</span>
-datatype:
+<span class="keyword cmdname">ASINInboundGuidance</span> datatype:
 
 <div class="tablenoborder">
 
@@ -419,8 +414,7 @@ sourcing decisions.</span>
 ### Operations
 
 The <span class="keyword cmdname">ASINPrepInstructions</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
 
@@ -457,8 +451,8 @@ The following table shows the elements of the
 <td>Labeling requirements for the item.
 <p><span class="keyword parmname">BarcodeInstruction</span> values:</p>
 <ul>
-<li>RequiresFNSKULabel - Indicates that a scannable FBA product label must be applied to the item. Cover any original bar codes on the item.</li>
-<li>MustProvideSellerSKU - Amazon is unable to return labeling requirements. To get labeling requirements for items, call the <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment."><span class="keyword apiname">GetPrepInstructionsForSKU</span></a> operation.</li>
+<li><var class="keyword varname">RequiresFNSKULabel</var> - Indicates that a scannable FBA product label must be applied to the item. Cover any original bar codes on the item.</li>
+<li><var class="keyword varname">MustProvideSellerSKU</var> - Amazon is unable to return labeling requirements. To get labeling requirements for items, call the <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment."><span class="keyword apiname">GetPrepInstructionsForSKU</span></a> operation.</li>
 </ul>
 For more information about FBA labeling requirements, see the Seller Central Help for your marketplace.
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -468,12 +462,12 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 <td>Item preparation instructions.
 <p><span class="keyword parmname">PrepGuidance</span> values:</p>
 <ul>
-<li>ConsultHelpDocuments - Indicates that Amazon is currently unable to determine the preparation instructions for this item. Amazon might be able to provide guidance at a future date, after evaluating the item.
+<li><var class="keyword varname">ConsultHelpDocuments</var> - Indicates that Amazon is currently unable to determine the preparation instructions for this item. Amazon might be able to provide guidance at a future date, after evaluating the item.
 <div class="note note">
 <span class="notetitle">Note:</span> It remains your responsibility as a seller to ensure that the item is properly prepared for shipment to <span class="ph">Amazon's fulfillment network</span>. For more information about preparing items for shipment to the fulfillment network, see the Seller Central Help for your marketplace.
 </div></li>
-<li>NoAdditionalPrepRequired - Indicates that the item does not require preparation in addition to any item labeling that might be required.</li>
-<li>SeePrepInstructionsList - Indicates that the item requires preparation in addition to any item labeling that might be required. See the <span class="keyword parmname">PrepInstructionList</span> response element for item preparation instructions.</li>
+<li><var class="keyword varname">NoAdditionalPrepRequired</var> - Indicates that the item does not require preparation in addition to any item labeling that might be required.</li>
+<li><var class="keyword varname">SeePrepInstructionsList</var> - Indicates that the item requires preparation in addition to any item labeling that might be required. See the <span class="keyword parmname">PrepInstructionList</span> response element for item preparation instructions.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -481,7 +475,7 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 <td><span class="keyword parmname">PrepInstructionList</span></td>
 <td>Preparation instructions for shipping items to <span class="ph">Amazon's fulfillment network</span>.
 <div class="note note">
-<span class="notetitle">Note:</span> The <span class="keyword parmname">PrepInstructionList</span> element contains data only if <span class="keyword parmname">PrepGuidance</span> = SeePrepInstructionsList.
+<span class="notetitle">Note:</span> The <span class="keyword parmname">PrepInstructionList</span> element contains data only if <span class="keyword parmname">PrepGuidance</span> = <var class="keyword varname">SeePrepInstructionsList</var>.
 </div>
 <p>Type: List of <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a></p></td>
 </tr>
@@ -524,8 +518,7 @@ operations:
 ### Datatype content
 
 <span class="keyword cmdname">BoxContentsFeeDetails</span> contains
-these
-elements:
+these elements:
 
 <div class="tablenoborder">
 
@@ -558,8 +551,7 @@ marketplace.</span>
 ### Operations
 
 The <span class="keyword cmdname">BoxContentsSource</span> datatype is
-used in a request parameter of the following
-    operations:
+used in a request parameter of the following operations:
 
   - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
   - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
@@ -608,8 +600,7 @@ Truckload (LTL/FTL)</span> shipment.</span>
 ### Operations
 
 The <span class="keyword cmdname">Contact</span> datatype is used in a
-request parameter or in a response element of the following
-    operations:
+request parameter or in a response element of the following operations:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
@@ -732,8 +723,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">Unit</span> values:
 <ul>
-<li>inches</li>
-<li>centimeters</li>
+<li><var class="keyword varname">inches</var></li>
+<li><var class="keyword varname">centimeters</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -783,8 +774,7 @@ item.</span>
 ### Operations
 
 The <span class="keyword cmdname">GuidanceReason</span> datatype is used
-in a response element of the following
-    operations:
+in a response element of the following operations:
 
   - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
   - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
@@ -793,14 +783,12 @@ in a response element of the following
 
 <div class="section">
 
-**Type:**
-    xs:string
+**Type:** xs:string
 
 **Values:**
 
   - <span id="GuidanceReason__GuidanceReason_SlowMovingASIN"><span class="keyword parmname">SlowMovingASIN</span>
-    - The ASIN is well stocked and/or not selling
-    quickly.</span>
+    - The ASIN is well stocked and/or not selling quickly.</span>
   - <span id="GuidanceReason__GuidanceReason_NoApplicableGuidance"><span class="keyword parmname">NoApplicableGuidance</span>
     - No applicable guidance.</span>
 
@@ -823,8 +811,7 @@ in a response element of the following
 ### Operations
 
 The <span class="keyword cmdname">InboundGuidance</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
   - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
@@ -833,15 +820,13 @@ used in a response element of the following
 
 <div class="section">
 
-**Type:**
-    xs:string
+**Type:** xs:string
 
 **Values:**
 
   - <span id="InboundGuidance__InboundGuidance_InboundNotRecommended"><span class="keyword parmname">InboundNotRecommended</span>
     - Shipping this item to <span class="ph">Amazon's fulfillment
-    network</span> is not
-    recommended.</span>
+    network</span> is not recommended.</span>
   - <span id="InboundGuidance__InboundGuidance_InboundOK"><span class="keyword parmname">InboundOK</span>
     - Shipping this item to <span class="ph">Amazon's fulfillment
     network</span> should not cause any problems.</span>
@@ -866,8 +851,7 @@ inbound shipments.</span>
 ### Operations
 
 The <span class="keyword cmdname">InboundShipmentHeader</span> datatype
-is used in a request parameter of the following
-    operations:
+is used in a request parameter of the following operations:
 
   - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
@@ -923,14 +907,14 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
 <ul>
-<li>SELLER_LABEL - Seller labels the items in the inbound shipment when labels are required.</li>
-<li>AMAZON_LABEL_ONLY - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
-<li>AMAZON_LABEL_PREFERRED - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is included in the inbound shipment plan and the seller must label it.</li>
+<li><var class="keyword varname">SELLER_LABEL</var> - Seller labels the items in the inbound shipment when labels are required.</li>
+<li><var class="keyword varname">AMAZON_LABEL_ONLY</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
+<li><var class="keyword varname">AMAZON_LABEL_PREFERRED</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is included in the inbound shipment plan and the seller must label it.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Unless you are enrolled in the FBA Label Service, SELLER_LABEL is the only valid <span class="keyword parmname">LabelPrepPreference</span> value. The FBA Label Service is not available in India (IN) and is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
 </div>
-<p>Default: SELLER_LABEL</p>
+<p>Default: <var class="keyword varname">SELLER_LABEL</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -942,13 +926,13 @@ The following table shows the elements of the
 <td>No, unless the boxes in the shipment are case packed.</td>
 <td><span class="keyword parmname">AreCasesRequired</span> values:
 <ul>
-<li>true – All boxes in the shipment must be case packed.</li>
-<li>false – All boxes in the shipment must be individually packed.</li>
+<li><var class="keyword varname">true</var> – All boxes in the shipment must be case packed.</li>
+<li><var class="keyword varname">false</var> – All boxes in the shipment must be individually packed.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> If <span class="keyword parmname">AreCasesRequired</span> = true for an inbound shipment, then the value of <span class="keyword parmname">QuantityInCase</span> must be greater than zero for every item in the shipment. Otherwise the service returns an error.
 </div>
-<p>Default: false</p>
+<p>Default: <var class="keyword varname">false</var></p>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even">
@@ -957,13 +941,13 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">ShipmentStatus</span> values when <span class="keyword cmdname">InboundShipmentHeader</span> is used with the <span class="keyword apiname">CreateInboundShipment</span> operation:
 <ul>
-<li>WORKING - The shipment was created by the seller, but has not yet shipped.</li>
-<li>SHIPPED - The shipment was picked up by the carrier.</li>
+<li><var class="keyword varname">WORKING</var> - The shipment was created by the seller, but has not yet shipped.</li>
+<li><var class="keyword varname">SHIPPED</var> - The shipment was picked up by the carrier.</li>
 </ul>
 <div class="p">
 The following is an additional <span class="keyword parmname">ShipmentStatus</span> value when <span class="keyword cmdname">InboundShipmentHeader</span> is used with the <span class="keyword apiname">UpdateInboundShipment</span> operation:
 <ul>
-<li>CANCELLED - The shipment was cancelled by the seller after the shipment was sent to <span class="ph">Amazon's fulfillment network</span>.</li>
+<li><var class="keyword varname">CANCELLED</var> - The shipment was cancelled by the seller after the shipment was sent to <span class="ph">Amazon's fulfillment network</span>.</li>
 </ul>
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -973,8 +957,8 @@ The following is an additional <span class="keyword parmname">ShipmentStatus</sp
 <td><span id="InboundShipmentHeader__InboundShipmentHeader_IntendedBoxContentsSource" class="ph">How the seller intends to provide Carton Contents Info for this shipment.</span></td>
 <td>No</td>
 <td><span class="ph">This parameter is valid only in the US, Spain, UK, France, Germany, and Italy marketplaces.</span> Specifying <span class="keyword parmname">IntendedBoxContentsSource</span> in other marketplaces results in an error.
-<p><span class="keyword parmname">IntendedBoxContentsSource</span> values: NONE, FEED, and 2D_BARCODE</p>
-<p>Default: NONE</p>
+<p><span class="keyword parmname">IntendedBoxContentsSource</span> values: <var class="keyword varname">NONE</var>, <var class="keyword varname">FEED</var>, and <var class="keyword varname">2D_BARCODE</var></p>
+<p>Default: <var class="keyword varname">NONE</var></p>
 <p>Type: <a href="FBAInbound_Datatypes.md#IntendedBoxContentsSource" class="xref" title="How the seller intends to provide box contents information for a shipment.">IntendedBoxContentsSource</a></p></td>
 </tr>
 </tbody>
@@ -1003,8 +987,7 @@ operation.</span>
 ### Operations
 
 The <span class="keyword cmdname">InboundShipmentInfo</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
   - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
@@ -1066,12 +1049,12 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">LabelPrepType</span> values:
 <ul>
-<li>NO_LABEL - No label preparation is required. All items in this shipment will be handled as stickerless, commingled inventory. Note that stickerless, commingled inventory is not available for India (IN). IN sellers must label their items before shipping them to <span class="ph">Amazon's fulfillment network</span>.</li>
-<li>SELLER_LABEL - Label preparation by the seller is required.</li>
-<li>AMAZON_LABEL - Label preparation by Amazon is required.</li>
+<li><var class="keyword varname">NO_LABEL</var> - No label preparation is required. All items in this shipment will be handled as stickerless, commingled inventory. Note that stickerless, commingled inventory is not available for India (IN). IN sellers must label their items before shipping them to <span class="ph">Amazon's fulfillment network</span>.</li>
+<li><var class="keyword varname">SELLER_LABEL</var> - Label preparation by the seller is required.</li>
+<li><var class="keyword varname">AMAZON_LABEL</var> - Label preparation by Amazon is required.</li>
 </ul>
 <div id="InboundShipmentInfo__LabelPrepType_values_note" class="note note">
-<span class="notetitle">Note:</span> AMAZON_LABEL is available only if you are enrolled in the FBA Label Service. The FBA Label Service is not available in India (IN) and is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
+<span class="notetitle">Note:</span> <var class="keyword varname">AMAZON_LABEL</var> is available only if you are enrolled in the FBA Label Service. The FBA Label Service is not available in India (IN) and is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1081,29 +1064,29 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">ShipmentStatus</span> values:
 <ul>
-<li>WORKING - The shipment was created by the seller, but has not yet shipped.</li>
-<li>SHIPPED - The shipment was picked up by the carrier.</li>
-<li>IN_TRANSIT - The carrier has notified the <span class="ph">Amazon fulfillment center</span> that it is aware of the shipment.</li>
-<li>DELIVERED - The shipment was delivered by the carrier to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>CHECKED_IN - The shipment was checked-in at the receiving dock of the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>RECEIVING - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span>, but not all items have been marked as received.</li>
-<li>CLOSED - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span> and all items have been marked as received.</li>
-<li>CANCELLED - The shipment was cancelled by the seller after the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>DELETED - The shipment was cancelled by the seller before the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>ERROR - There was an error with the shipment and it was not processed by Amazon.</li>
+<li><var class="keyword varname">WORKING</var> - The shipment was created by the seller, but has not yet shipped.</li>
+<li><var class="keyword varname">SHIPPED</var> - The shipment was picked up by the carrier.</li>
+<li><var class="keyword varname">IN_TRANSIT</var> - The carrier has notified the <span class="ph">Amazon fulfillment center</span> that it is aware of the shipment.</li>
+<li><var class="keyword varname">DELIVERED</var> - The shipment was delivered by the carrier to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">CHECKED_IN</var> - The shipment was checked-in at the receiving dock of the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">RECEIVING</var> - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span>, but not all items have been marked as received.</li>
+<li><var class="keyword varname">CLOSED</var> - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span> and all items have been marked as received.</li>
+<li><var class="keyword varname">CANCELLED</var> - The shipment was cancelled by the seller after the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">DELETED</var> - The shipment was cancelled by the seller before the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">ERROR</var> - There was an error with the shipment and it was not processed by Amazon.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">AreCasesRequired</span></td>
-<td>Indicates whether or not an inbound shipment contains case-packed boxes. When <span class="keyword parmname">AreCasesRequired</span> = true for an inbound shipment, all items in the inbound shipment must be case packed.</td>
+<td>Indicates whether or not an inbound shipment contains case-packed boxes. When <span class="keyword parmname">AreCasesRequired</span> = <var class="keyword varname">true</var> for an inbound shipment, all items in the inbound shipment must be case packed.</td>
 <td>Yes.</td>
 <td><span class="keyword parmname">AreCasesRequired</span> values:
 <ul>
-<li>true All of the boxes in the inbound shipment are case packed.</li>
-<li>false None of the boxes in the inbound shipment are case packed.</li>
+<li><var class="keyword varname">true</var> All of the boxes in the inbound shipment are case packed.</li>
+<li><var class="keyword varname">false</var> None of the boxes in the inbound shipment are case packed.</li>
 </ul>
-Default: false
+Default: <var class="keyword varname">false</var>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even">
@@ -1117,7 +1100,7 @@ Default: false
 <td><span class="keyword parmname">BoxContentsSource</span></td>
 <td><span class="ph">Where the seller provided box contents information for a shipment.</span> This is only returned for shipments to US, Spain, UK, France, Germany, and Italy fulfillment centers.</td>
 <td>No</td>
-<td><span class="keyword parmname">BoxContentsSource</span> values: NONE, FEED, 2D_BARCODE, and INTERACTIVE
+<td><span class="keyword parmname">BoxContentsSource</span> values: <var class="keyword varname">NONE</var>, <var class="keyword varname">FEED</var>, <var class="keyword varname">2D_BARCODE</var>, and <var class="keyword varname">INTERACTIVE</var>
 <p>Type: <a href="FBAInbound_Datatypes.md#BoxContentsSource" class="xref" title="Where the seller provided box contents information for a shipment. This element is used only in the US marketplace.">BoxContentsSource</a></p></td>
 </tr>
 <tr class="even">
@@ -1226,7 +1209,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">QuantityInCase</span></td>
 <td>The item quantity in each case, for case-packed items. Note that <span class="keyword parmname">QuantityInCase</span> multiplied by the number of boxes in the inbound shipment equals <span class="keyword parmname">QuantityShipped</span>. Also note that all of the boxes of an inbound shipment must either be case packed or individually packed. For that reason, when you submit the <span class="keyword apiname">CreateInboundShipment</span> or the <span class="keyword apiname">UpdateInboundShipment</span> operation, the value of <span class="keyword parmname">QuantityInCase</span> must be provided for every item in the shipment or for none of the items in the shipment.</td>
 <td>No, unless you specified <span class="keyword parmname">QuantityInCase</span> when you submitted the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.
-<p><span class="keyword parmname">QuantityInCase</span> is always returned by the <span class="keyword apiname">ListShipmentItems</span> and <span class="keyword apiname">ListShipmentItemsByNextToken</span> operations. If you specified <span class="keyword parmname">AreCasesRequired</span> = false when you submitted the <span class="keyword apiname">CreateInboundShipment</span> or <span class="keyword apiname">UpdateInboundShipment</span> operation, <span class="keyword parmname">QuantityInCase</span> will be returned as 0.</p></td>
+<p><span class="keyword parmname">QuantityInCase</span> is always returned by the <span class="keyword apiname">ListShipmentItems</span> and <span class="keyword apiname">ListShipmentItemsByNextToken</span> operations. If you specified <span class="keyword parmname">AreCasesRequired</span> = <var class="keyword varname">false</var> when you submitted the <span class="keyword apiname">CreateInboundShipment</span> or <span class="keyword apiname">UpdateInboundShipment</span> operation, <span class="keyword parmname">QuantityInCase</span> will be returned as <var class="keyword varname">0</var>.</p></td>
 <td>If <span class="keyword parmname">QuantityInCase</span> is specified, its value must be a divisor of <span class="keyword parmname">QuantityShipped</span>.
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
@@ -1270,8 +1253,7 @@ operation.</span>
 ### Operations
 
 The <span class="keyword cmdname">InboundShipmentPlan</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
@@ -1326,12 +1308,12 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="ph"><span class="keyword parmname">LabelPrepType</span> values:</span>
 <ul>
-<li>NO_LABEL - No label preparation is required. All items in this shipment will be handled as stickerless, commingled inventory. Note that stickerless, commingled inventory is not available for India (IN). IN sellers must label their items before shipping them to <span class="ph">Amazon's fulfillment network</span>.</li>
-<li>SELLER_LABEL - Label preparation by the seller is required.</li>
-<li>AMAZON_LABEL - Label preparation by Amazon is required.</li>
+<li><var class="keyword varname">NO_LABEL</var> - No label preparation is required. All items in this shipment will be handled as stickerless, commingled inventory. Note that stickerless, commingled inventory is not available for India (IN). IN sellers must label their items before shipping them to <span class="ph">Amazon's fulfillment network</span>.</li>
+<li><var class="keyword varname">SELLER_LABEL</var> - Label preparation by the seller is required.</li>
+<li><var class="keyword varname">AMAZON_LABEL</var> - Label preparation by Amazon is required.</li>
 </ul>
 <div class="note note">
-<span class="notetitle">Note:</span> AMAZON_LABEL is available only if you are enrolled in the FBA Label Service. The FBA Label Service is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
+<span class="notetitle">Note:</span> <var class="keyword varname">AMAZON_LABEL</var> is available only if you are enrolled in the FBA Label Service. The FBA Label Service is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1374,8 +1356,7 @@ operation.</span>
 ### Operations
 
 The <span class="keyword cmdname">InboundShipmentItem</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
@@ -1460,8 +1441,7 @@ operation.</span>
 ### Operations
 
 The <span class="keyword cmdname">InboundShipmentPlanRequestItem</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
 
@@ -1513,24 +1493,24 @@ datatype:
 <td>No</td>
 <td><span class="ph"><span class="keyword parmname">Condition</span> values:</span>
 <ul>
-<li>NewItem</li>
-<li>NewWithWarranty</li>
-<li>NewOEM</li>
-<li>NewOpenBox</li>
-<li>UsedLikeNew</li>
-<li>UsedVeryGood</li>
-<li>UsedGood</li>
-<li>UsedAcceptable</li>
-<li>UsedPoor</li>
-<li>UsedRefurbished</li>
-<li>CollectibleLikeNew</li>
-<li>CollectibleVeryGood</li>
-<li>CollectibleGood</li>
-<li>CollectibleAcceptable</li>
-<li>CollectiblePoor</li>
-<li>RefurbishedWithWarranty</li>
-<li>Refurbished</li>
-<li>Club</li>
+<li><var class="keyword varname">NewItem</var></li>
+<li><var class="keyword varname">NewWithWarranty</var></li>
+<li><var class="keyword varname">NewOEM</var></li>
+<li><var class="keyword varname">NewOpenBox</var></li>
+<li><var class="keyword varname">UsedLikeNew</var></li>
+<li><var class="keyword varname">UsedVeryGood</var></li>
+<li><var class="keyword varname">UsedGood</var></li>
+<li><var class="keyword varname">UsedAcceptable</var></li>
+<li><var class="keyword varname">UsedPoor</var></li>
+<li><var class="keyword varname">UsedRefurbished</var></li>
+<li><var class="keyword varname">CollectibleLikeNew</var></li>
+<li><var class="keyword varname">CollectibleVeryGood</var></li>
+<li><var class="keyword varname">CollectibleGood</var></li>
+<li><var class="keyword varname">CollectibleAcceptable</var></li>
+<li><var class="keyword varname">CollectiblePoor</var></li>
+<li><var class="keyword varname">RefurbishedWithWarranty</var></li>
+<li><var class="keyword varname">Refurbished</var></li>
+<li><var class="keyword varname">Club</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1597,8 +1577,7 @@ information for a shipment.</span>
 ### Operations
 
 The <span class="keyword cmdname">IntendedBoxContentsSource</span>
-datatype is used in a request parameter of the following
-    operations:
+datatype is used in a request parameter of the following operations:
 
   - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
   - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
@@ -1607,19 +1586,16 @@ datatype is used in a request parameter of the following
 
 <div class="section">
 
-**Type:**
-    xs:string
+**Type:** xs:string
 
 **Values:**
 
   - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_NONE"><span class="keyword parmname">NONE</span>
     - There is no box content information for this shipment. Amazon will
-    manually process the box contents. This may incur a
-    fee.</span>
+    manually process the box contents. This may incur a fee.</span>
   - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_FEED"><span class="keyword parmname">FEED</span>
     - Box content information is provided through the
-    \_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_
-    feed.</span>
+    \_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_ feed.</span>
   - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_2D_BARCODE"><span class="keyword parmname">2D\_BARCODE</span>
     - Box content information is provided by a barcode on the shipment.
     For more information, see [Using 2D barcodes for box content
@@ -1645,8 +1621,7 @@ datatype is used in a request parameter of the following
 ### Operations
 
 The <span class="keyword cmdname">InvalidASIN</span> datatype is used in
-a response element of the following
-    operation:
+a response element of the following operation:
 
   - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
 
@@ -1683,7 +1658,7 @@ The following table shows the elements of the
 <td>The reason that the ASIN is invalid.
 <p><span class="keyword parmname">ErrorReason</span> values:</p>
 <ul>
-<li>DoesNotExist - Indicates that the ASIN is not included in the Amazon product catalog for any of the marketplaces that you participate in.</li>
+<li><var class="keyword varname">DoesNotExist</var> - Indicates that the ASIN is not included in the Amazon product catalog for any of the marketplaces that you participate in.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -1711,8 +1686,7 @@ invalid.</span>
 ### Operations
 
 The <span class="keyword cmdname">InvalidSKU</span> datatype is used in
-a response element of the following
-    operation:
+a response element of the following operation:
 
   - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 
@@ -1749,7 +1723,7 @@ The following table shows the elements of the
 <td>The reason that the Seller SKU is invalid.
 <p><span class="keyword parmname">ErrorReason</span> values:</p>
 <ul>
-<li>DoesNotExist - Indicates that you have never used this Seller SKU to list an item on Amazon's retail website.</li>
+<li><var class="keyword varname">DoesNotExist</var> - Indicates that you have never used this Seller SKU to list an item on Amazon's retail website.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -1778,8 +1752,7 @@ shipment by a carrier that has not partnered with Amazon.</span>
 ### Operations
 
 The <span class="keyword cmdname">NonPartneredLtlDataInput</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -1816,24 +1789,24 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">CarrierName</span> values in the United Kingdom (UK):
 <ul>
-<li>BUSINESS_POST</li>
-<li>DHL_AIRWAYS_INC</li>
-<li>DHL_UK</li>
-<li>PARCELFORCE</li>
-<li>DPD</li>
-<li>TNT_LOGISTICS_CORPORATION</li>
-<li>TNT</li>
-<li>YODEL</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">BUSINESS_POST</var></li>
+<li><var class="keyword varname">DHL_AIRWAYS_INC</var></li>
+<li><var class="keyword varname">DHL_UK</var></li>
+<li><var class="keyword varname">PARCELFORCE</var></li>
+<li><var class="keyword varname">DPD</var></li>
+<li><var class="keyword varname">TNT_LOGISTICS_CORPORATION</var></li>
+<li><var class="keyword varname">TNT</var></li>
+<li><var class="keyword varname">YODEL</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="keyword parmname">CarrierName</span> values in the United States (US):</p>
 <ul>
-<li>DHL_EXPRESS_USA_INC</li>
-<li>FEDERAL_EXPRESS_CORP</li>
-<li>UNITED_STATES_POSTAL_SERVICE</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">DHL_EXPRESS_USA_INC</var></li>
+<li><var class="keyword varname">FEDERAL_EXPRESS_CORP</var></li>
+<li><var class="keyword varname">UNITED_STATES_POSTAL_SERVICE</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1870,8 +1843,7 @@ shipment shipped by a carrier that has not partnered with Amazon.</span>
 ### Operations
 
 The <span class="keyword cmdname">NonPartneredLtlDataOutput</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -1908,24 +1880,24 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">CarrierName</span> values in the United Kingdom (UK):
 <ul>
-<li>BUSINESS_POST</li>
-<li>DHL_AIRWAYS_INC</li>
-<li>DHL_UK</li>
-<li>PARCELFORCE</li>
-<li>DPD</li>
-<li>TNT_LOGISTICS_CORPORATION</li>
-<li>TNT</li>
-<li>YODEL</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">BUSINESS_POST</var></li>
+<li><var class="keyword varname">DHL_AIRWAYS_INC</var></li>
+<li><var class="keyword varname">DHL_UK</var></li>
+<li><var class="keyword varname">PARCELFORCE</var></li>
+<li><var class="keyword varname">DPD</var></li>
+<li><var class="keyword varname">TNT_LOGISTICS_CORPORATION</var></li>
+<li><var class="keyword varname">TNT</var></li>
+<li><var class="keyword varname">YODEL</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="keyword parmname">CarrierName</span> values in the United States (US):</p>
 <ul>
-<li>DHL_EXPRESS_USA_INC</li>
-<li>FEDERAL_EXPRESS_CORP</li>
-<li>UNITED_STATES_POSTAL_SERVICE</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">DHL_EXPRESS_USA_INC</var></li>
+<li><var class="keyword varname">FEDERAL_EXPRESS_CORP</var></li>
+<li><var class="keyword varname">UNITED_STATES_POSTAL_SERVICE</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1963,8 +1935,7 @@ has not partnered with Amazon.</span>
 
 The
 <span class="keyword cmdname">NonPartneredSmallParcelDataInput</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -2002,24 +1973,24 @@ datatype:
 <td>Yes</td>
 <td><span class="keyword parmname">CarrierName</span> values in the United Kingdom (UK):
 <ul>
-<li>BUSINESS_POST</li>
-<li>DHL_AIRWAYS_INC</li>
-<li>DHL_UK</li>
-<li>PARCELFORCE</li>
-<li>DPD</li>
-<li>TNT_LOGISTICS_CORPORATION</li>
-<li>TNT</li>
-<li>YODEL</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">BUSINESS_POST</var></li>
+<li><var class="keyword varname">DHL_AIRWAYS_INC</var></li>
+<li><var class="keyword varname">DHL_UK</var></li>
+<li><var class="keyword varname">PARCELFORCE</var></li>
+<li><var class="keyword varname">DPD</var></li>
+<li><var class="keyword varname">TNT_LOGISTICS_CORPORATION</var></li>
+<li><var class="keyword varname">TNT</var></li>
+<li><var class="keyword varname">YODEL</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="keyword parmname">CarrierName</span> values in the United States (US):</p>
 <ul>
-<li>DHL_EXPRESS_USA_INC</li>
-<li>FEDERAL_EXPRESS_CORP</li>
-<li>UNITED_STATES_POSTAL_SERVICE</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">DHL_EXPRESS_USA_INC</var></li>
+<li><var class="keyword varname">FEDERAL_EXPRESS_CORP</var></li>
+<li><var class="keyword varname">UNITED_STATES_POSTAL_SERVICE</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2056,8 +2027,7 @@ partnered with Amazon.</span>
 
 The
 <span class="keyword cmdname">NonPartneredSmallParcelDataOutput</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2100,8 +2070,7 @@ carrier.</span>
 
 The
 <span class="keyword cmdname">NonPartneredSmallParcelPackageInput</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -2166,8 +2135,7 @@ the package.</span>
 
 The
 <span class="keyword cmdname">NonPartneredSmallParcelPackageOutput</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2205,24 +2173,24 @@ datatype:
 <td>Yes</td>
 <td><span class="keyword parmname">CarrierName</span> values in the United Kingdom (UK):
 <ul>
-<li>BUSINESS_POST</li>
-<li>DHL_AIRWAYS_INC</li>
-<li>DHL_UK</li>
-<li>PARCELFORCE</li>
-<li>DPD</li>
-<li>TNT_LOGISTICS_CORPORATION</li>
-<li>TNT</li>
-<li>YODEL</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">BUSINESS_POST</var></li>
+<li><var class="keyword varname">DHL_AIRWAYS_INC</var></li>
+<li><var class="keyword varname">DHL_UK</var></li>
+<li><var class="keyword varname">PARCELFORCE</var></li>
+<li><var class="keyword varname">DPD</var></li>
+<li><var class="keyword varname">TNT_LOGISTICS_CORPORATION</var></li>
+<li><var class="keyword varname">TNT</var></li>
+<li><var class="keyword varname">YODEL</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="keyword parmname">CarrierName</span> values in the United States (US):</p>
 <ul>
-<li>DHL_EXPRESS_USA_INC</li>
-<li>FEDERAL_EXPRESS_CORP</li>
-<li>UNITED_STATES_POSTAL_SERVICE</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">DHL_EXPRESS_USA_INC</var></li>
+<li><var class="keyword varname">FEDERAL_EXPRESS_CORP</var></li>
+<li><var class="keyword varname">UNITED_STATES_POSTAL_SERVICE</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2239,12 +2207,12 @@ datatype:
 <td>Yes</td>
 <td><span class="keyword parmname">PackageStatus</span> values:
 <ul>
-<li>SHIPPED – The carrier has picked up the package from your facility.</li>
-<li>IN_TRANSIT - The carrier has made an appointment for delivery to an Amazon fulfillment center.</li>
-<li>DELIVERED - The carrier has delivered the package to the loading dock of an Amazon fulfillment center.</li>
-<li>CHECKED_IN - The Amazon fulfillment center has accepted delivery of the package from the carrier.</li>
-<li>RECEIVING - The Amazon fulfillment center has begun the receiving process on the package.</li>
-<li>CLOSED - The Amazon fulfillment center has completed the receiving process on the package.</li>
+<li><var class="keyword varname">SHIPPED</var> – The carrier has picked up the package from your facility.</li>
+<li><var class="keyword varname">IN_TRANSIT</var> - The carrier has made an appointment for delivery to an Amazon fulfillment center.</li>
+<li><var class="keyword varname">DELIVERED</var> - The carrier has delivered the package to the loading dock of an Amazon fulfillment center.</li>
+<li><var class="keyword varname">CHECKED_IN</var> - The Amazon fulfillment center has accepted delivery of the package from the carrier.</li>
+<li><var class="keyword varname">RECEIVING</var> - The Amazon fulfillment center has begun the receiving process on the package.</li>
+<li><var class="keyword varname">CLOSED</var> - The Amazon fulfillment center has completed the receiving process on the package.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2272,8 +2240,7 @@ datatype:
 ### Operations
 
 The <span class="keyword cmdname">Pallet</span> datatype is used in a
-request parameter or in a response element of the following
-    operations:
+request parameter or in a response element of the following operations:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
@@ -2324,8 +2291,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">IsStacked</span> values:
 <ul>
-<li>true – Pallets will be stacked.</li>
-<li>false - Pallets will not be stacked.</li>
+<li><var class="keyword varname">true</var> – Pallets will be stacked.</li>
+<li><var class="keyword varname">false</var> - Pallets will not be stacked.</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -2354,8 +2321,7 @@ Amazon-partnered carrier.</span>
 ### Operations
 
 The <span class="keyword cmdname">PartneredEstimate</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2390,14 +2356,14 @@ The following table shows the elements of the
 <td><span class="keyword parmname">Amount</span></td>
 <td>The amount that the Amazon-partnered carrier will charge to ship the inbound shipment.</td>
 <td>No.
-<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is ESTIMATED, CONFIRMING, or CONFIRMED.</p></td>
+<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is <var class="keyword varname">ESTIMATED</var>, <var class="keyword varname">CONFIRMING</var>, or <var class="keyword varname">CONFIRMED</var>.</p></td>
 <td>Type: <a href="#Amount" class="xref" title="The currency code and value.">Amount</a></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ConfirmDeadline</span></td>
 <td>The date by which this estimate must be confirmed. After this date the estimate is no longer valid and cannot be confirmed.</td>
 <td>No.
-<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is ESTIMATED.</p></td>
+<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is <var class="keyword varname">ESTIMATED</var>.</p></td>
 <td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -2405,7 +2371,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">VoidDeadline</span></td>
 <td>The date after which a confirmed transportation request can no longer be voided. This date is 24 hours after you confirm a <span class="ph">Small Parcel</span> shipment transportation request or one hour after you confirm a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment transportation request. After the void deadline passes your account will be charged for the shipping cost.</td>
 <td>No.
-<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is CONFIRMED.</p></td>
+<p>Returned only if the <span class="keyword parmname">TransportStatus</span> value of the inbound shipment is <var class="keyword varname">CONFIRMED</var>.</p></td>
 <td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -2435,8 +2401,7 @@ carrier to ship a <span class="ph">Less Than Truckload/Full Truckload
 ### Operations
 
 The <span class="keyword cmdname">PartneredLtlDataInput</span> datatype
-is used in a request parameter of the following
-    operation:
+is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -2484,7 +2449,7 @@ The following table shows the elements of the
 <td>The freight class of the shipment. For information about determining the freight class, contact your carrier.</td>
 <td>No.
 <p>If you do not provide the freight class, Amazon will estimate the freight class based on the contents of the shipment.</p></td>
-<td><span class="keyword parmname">SellerFreightClass</span> values: 50, 55, 60, 65, 70, 77.5, 85, 92.5, 100, 110, 125, 150, 175, 200, 250, 300, 400, 500
+<td><span class="keyword parmname">SellerFreightClass</span> values: <var class="keyword varname">50</var>, <var class="keyword varname">55</var>, <var class="keyword varname">60</var>, <var class="keyword varname">65</var>, <var class="keyword varname">70</var>, <var class="keyword varname">77.5</var>, <var class="keyword varname">85</var>, <var class="keyword varname">92.5</var>, <var class="keyword varname">100</var>, <var class="keyword varname">110</var>, <var class="keyword varname">125</var>, <var class="keyword varname">150</var>, <var class="keyword varname">175</var>, <var class="keyword varname">200</var>, <var class="keyword varname">250</var>, <var class="keyword varname">300</var>, <var class="keyword varname">400</var>, <var class="keyword varname">500</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -2539,8 +2504,7 @@ shipment by an Amazon-partnered carrier.</span>
 ### Operations
 
 The <span class="keyword cmdname">PartneredLtlDataOutput</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2588,7 +2552,7 @@ The following table shows the elements of the
 <td>The freight class of the shipment. For information about determining the freight class, contact your carrier.</td>
 <td>No.
 <p>If you do not provide the freight class, Amazon will estimate the freight class based on the contents of the shipment.</p></td>
-<td><span class="keyword parmname">SellerFreightClass</span> values: 50, 55, 60, 65, 70, 77.5, 85, 92.5, 100, 110, 125, 150, 175, 200, 250, 300, 400, 500
+<td><span class="keyword parmname">SellerFreightClass</span> values: <var class="keyword varname">50</var>, <var class="keyword varname">55</var>, <var class="keyword varname">60</var>, <var class="keyword varname">65</var>, <var class="keyword varname">70</var>, <var class="keyword varname">77.5</var>, <var class="keyword varname">85</var>, <var class="keyword varname">92.5</var>, <var class="keyword varname">100</var>, <var class="keyword varname">110</var>, <var class="keyword varname">125</var>, <var class="keyword varname">150</var>, <var class="keyword varname">175</var>, <var class="keyword varname">200</var>, <var class="keyword varname">250</var>, <var class="keyword varname">300</var>, <var class="keyword varname">400</var>, <var class="keyword varname">500</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -2641,7 +2605,7 @@ The following table shows the elements of the
 <td><span class="keyword parmname">PreviewFreightClass</span></td>
 <td>The freight class of the shipment as estimated by Amazon if you did not include a freight class when you called the <span class="keyword apiname">PutTransportContent</span> operation.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">PreviewFreightClass</span> values: 50, 55, 60, 65, 70, 77.5, 85, 92.5, 100, 110, 125, 150, 175, 200, 250, 300, 400, 500
+<td><span class="keyword parmname">PreviewFreightClass</span> values: <var class="keyword varname">50</var>, <var class="keyword varname">55</var>, <var class="keyword varname">60</var>, <var class="keyword varname">65</var>, <var class="keyword varname">70</var>, <var class="keyword varname">77.5</var>, <var class="keyword varname">85</var>, <var class="keyword varname">92.5</var>, <var class="keyword varname">100</var>, <var class="keyword varname">110</var>, <var class="keyword varname">125</var>, <var class="keyword varname">150</var>, <var class="keyword varname">175</var>, <var class="keyword varname">200</var>, <var class="keyword varname">250</var>, <var class="keyword varname">300</var>, <var class="keyword varname">400</var>, <var class="keyword varname">500</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -2656,8 +2620,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">IsBillOfLadingAvailable</span> values:
 <ul>
-<li>true – Bill of lading is available.</li>
-<li>false – Bill of lading is not available.</li>
+<li><var class="keyword varname">true</var> – Bill of lading is available.</li>
+<li><var class="keyword varname">false</var> – Bill of lading is not available.</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -2673,11 +2637,11 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">CarrierName</span> values in the United States (US):
 <ul>
-<li>DHL_EXPRESS_USA_INC</li>
-<li>FEDERAL_EXPRESS_CORP</li>
-<li>UNITED_STATES_POSTAL_SERVICE</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
-<li>OTHER</li>
+<li><var class="keyword varname">DHL_EXPRESS_USA_INC</var></li>
+<li><var class="keyword varname">FEDERAL_EXPRESS_CORP</var></li>
+<li><var class="keyword varname">UNITED_STATES_POSTAL_SERVICE</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
+<li><var class="keyword varname">OTHER</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2707,8 +2671,7 @@ shipment.</span>
 ### Operations
 
 The <span class="keyword cmdname">PartneredSmallParcelDataInput</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -2746,14 +2709,14 @@ datatype:
 <td>No</td>
 <td><span class="keyword parmname">CarrierName</span> values in France (FR), Italy (IT), Spain (ES), the United Kingdom (UK), and the United States (US):
 <ul>
-<li>UNITED_PARCEL_SERVICE_INC</li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
 </ul>
 <p><span class="keyword parmname">CarrierName</span> values in Germany (DE):</p>
 <ul>
-<li>DHL_STANDARD</li>
-<li>UNITED_PARCEL_SERVICE_INC</li>
+<li><var class="keyword varname">DHL_STANDARD</var></li>
+<li><var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></li>
 </ul>
-<p>Default: UNITED_PARCEL_SERVICE_INC</p>
+<p>Default: <var class="keyword varname">UNITED_PARCEL_SERVICE_INC</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -2788,8 +2751,7 @@ carrier.</span>
 ### Operations
 
 The <span class="keyword cmdname">PartneredSmallParcelDataOutput</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2833,8 +2795,7 @@ package.</span>
 
 The
 <span class="keyword cmdname">PartneredSmallParcelPackageInput</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -2878,8 +2839,7 @@ package.</span>
 
 The
 <span class="keyword cmdname">PartneredSmallParcelPackageOutput</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -2936,12 +2896,12 @@ datatype:
 <td>Yes</td>
 <td><span class="keyword parmname">PackageStatus</span> values:
 <ul>
-<li>SHIPPED – The carrier has picked up the package from your facility.</li>
-<li>IN_TRANSIT - The carrier has made an appointment for delivery to an Amazon fulfillment center.</li>
-<li>DELIVERED - The carrier has delivered the package to the loading dock of an Amazon fulfillment center.</li>
-<li>CHECKED_IN - The Amazon fulfillment center has accepted delivery of the package from the carrier.</li>
-<li>RECEIVING - The Amazon fulfillment center has begun the receiving process on the package.</li>
-<li>CLOSED - The Amazon fulfillment center has completed the receiving process on the package.</li>
+<li><var class="keyword varname">SHIPPED</var> – The carrier has picked up the package from your facility.</li>
+<li><var class="keyword varname">IN_TRANSIT</var> - The carrier has made an appointment for delivery to an Amazon fulfillment center.</li>
+<li><var class="keyword varname">DELIVERED</var> - The carrier has delivered the package to the loading dock of an Amazon fulfillment center.</li>
+<li><var class="keyword varname">CHECKED_IN</var> - The Amazon fulfillment center has accepted delivery of the package from the carrier.</li>
+<li><var class="keyword varname">RECEIVING</var> - The Amazon fulfillment center has begun the receiving process on the package.</li>
+<li><var class="keyword varname">CLOSED</var> - The Amazon fulfillment center has completed the receiving process on the package.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2976,8 +2936,7 @@ that preparation.</span>
 ### Operations
 
 The <span class="keyword cmdname">PrepDetails</span> PrepDetails is used
-in a request and response element of the following
-    operations:
+in a request and response element of the following operations:
 
   - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
   - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
@@ -3025,10 +2984,10 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">PrepOwner</span> values:
 <ul>
-<li>AMAZON</li>
-<li>SELLER</li>
+<li><var class="keyword varname">AMAZON</var></li>
+<li><var class="keyword varname">SELLER</var></li>
 </ul>
-<p>Default: SELLER</p>
+<p>Default: <var class="keyword varname">SELLER</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -3056,8 +3015,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword cmdname">PrepInstruction</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
   - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
@@ -3090,12 +3048,12 @@ The following table shows the elements of the
 <td><span class="ph">Preparation instructions for shipping an item to <span class="ph">Amazon's fulfillment network</span>.</span>
 <p><span class="keyword parmname">PrepInstruction</span> values:</p>
 <ul>
-<li>Polybagging - Indicates that polybagging is required.</li>
-<li>BubbleWrapping - Indicates that bubble wrapping is required.</li>
-<li>Taping - Indicates that taping is required.</li>
-<li>BlackShrinkWrapping - Indicates that black shrink wrapping is required.</li>
-<li>Labeling - Indicates that the FNSKU label should be applied to the item.</li>
-<li>HangGarment - Indicates that the item should be placed on a hanger.</li>
+<li><var class="keyword varname">Polybagging</var> - Indicates that polybagging is required.</li>
+<li><var class="keyword varname">BubbleWrapping</var> - Indicates that bubble wrapping is required.</li>
+<li><var class="keyword varname">Taping</var> - Indicates that taping is required.</li>
+<li><var class="keyword varname">BlackShrinkWrapping</var> - Indicates that black shrink wrapping is required.</li>
+<li><var class="keyword varname">Labeling</var> - Indicates that the FNSKU label should be applied to the item.</li>
+<li><var class="keyword varname">HangGarment</var> - Indicates that the item should be placed on a hanger.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> One or more <span class="keyword parmname">PrepInstruction</span> elements can be returned.
@@ -3133,8 +3091,7 @@ shipment to <span class="ph">Amazon's fulfillment network</span></span>
 ### Operations
 
 The <span class="keyword cmdname">SKUInboundGuidance</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
 
@@ -3145,8 +3102,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">SKUInboundGuidance</span>
-datatype:
+<span class="keyword cmdname">SKUInboundGuidance</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3180,8 +3136,7 @@ fulfillment network</span>.</span>
 ### Operations
 
 The <span class="keyword cmdname">SKUPrepInstructions</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 
@@ -3223,8 +3178,8 @@ The following table shows the elements of the
 <td>Labeling requirements for the item.
 <p><span class="keyword parmname">BarcodeInstruction</span> values:</p>
 <ul>
-<li>RequiresFNSKULabel - Indicates that a scannable FBA product label must be applied to the item. Cover any original bar codes on the item.</li>
-<li>CanUseOriginalBarcode - Indicates that the item does not require a scannable FBA product label. The original manufacturer's bar code can be used.</li>
+<li><var class="keyword varname">RequiresFNSKULabel</var> - Indicates that a scannable FBA product label must be applied to the item. Cover any original bar codes on the item.</li>
+<li><var class="keyword varname">CanUseOriginalBarcode</var> - Indicates that the item does not require a scannable FBA product label. The original manufacturer's bar code can be used.</li>
 </ul>
 For more information about FBA labeling requirements, see the Seller Central Help for your marketplace.
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -3234,12 +3189,12 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 <td>Item preparation instructions.
 <p><span class="keyword parmname">PrepGuidance</span> values:</p>
 <ul>
-<li>ConsultHelpDocuments - Indicates that Amazon is currently unable to determine the preparation instructions for this item. Amazon might be able to provide guidance at a future date, after evaluating the item.
+<li><var class="keyword varname">ConsultHelpDocuments</var> - Indicates that Amazon is currently unable to determine the preparation instructions for this item. Amazon might be able to provide guidance at a future date, after evaluating the item.
 <div class="note note">
 <span class="notetitle">Note:</span> It remains your responsibility as a seller to ensure that the item is properly prepared for shipment to <span class="ph">Amazon's fulfillment network</span>. For more information about preparing items for shipment to the fulfillment network, see the Seller Central Help for your marketplace.
 </div></li>
-<li>NoAdditionalPrepRequired - Indicates that the item does not require preparation in addition to any item labeling that might be required.</li>
-<li>SeePrepInstructionsList - Indicates that the item requires preparation in addition to any item labeling that might be required. See the <span class="keyword parmname">PrepInstructionList</span> response element for item preparation instructions.</li>
+<li><var class="keyword varname">NoAdditionalPrepRequired</var> - Indicates that the item does not require preparation in addition to any item labeling that might be required.</li>
+<li><var class="keyword varname">SeePrepInstructionsList</var> - Indicates that the item requires preparation in addition to any item labeling that might be required. See the <span class="keyword parmname">PrepInstructionList</span> response element for item preparation instructions.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -3247,7 +3202,7 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 <td><span class="keyword parmname">PrepInstructionList</span></td>
 <td>Preparation instructions for shipping items to <span class="ph">Amazon's fulfillment network</span>.
 <div class="note note">
-<span class="notetitle">Note:</span> The <span class="keyword parmname">PrepInstructionList</span> element contains data only if <span class="keyword parmname">PrepGuidance</span> = SeePrepInstructionsList.
+<span class="notetitle">Note:</span> The <span class="keyword parmname">PrepInstructionList</span> element contains data only if <span class="keyword parmname">PrepGuidance</span> = <var class="keyword varname">SeePrepInstructionsList</var>.
 </div>
 <p>Type: List of <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a></p></td>
 </tr>
@@ -3282,8 +3237,7 @@ shipment with an Amazon-partnered carrier.</span>
 ### Operations
 
 The <span class="keyword cmdname">TransportContent</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -3294,8 +3248,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">TransportContent</span>
-datatype:
+<span class="keyword cmdname">TransportContent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3329,8 +3282,7 @@ non-Amazon-partnered carrier.</span>
 ### Operations
 
 The <span class="keyword cmdname">TransportDetailInput</span> datatype
-is used in a request parameter of the following
-    operation:
+is used in a request parameter of the following operation:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
 
@@ -3341,8 +3293,7 @@ is used in a request parameter of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">TransportDetailInput</span>
-datatype:
+<span class="keyword cmdname">TransportDetailInput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3375,8 +3326,7 @@ and shipment status.</span>
 ### Operations
 
 The <span class="keyword cmdname">TransportDetailOutput</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -3387,8 +3337,7 @@ is used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">TransportDetailOutput</span>
-datatype:
+<span class="keyword cmdname">TransportDetailOutput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3433,8 +3382,7 @@ used in a response element of the following operations:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">TransportDocument</span>
-datatype:
+<span class="keyword cmdname">TransportDocument</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3468,8 +3416,7 @@ shipment is <span class="ph">Small Parcel</span> or
 ### Operations
 
 The <span class="keyword cmdname">TransportHeader</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
 
@@ -3518,8 +3465,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">IsPartnered</span> values:
 <ul>
-<li>true – Request is for an Amazon-partnered carrier.</li>
-<li>false – Request is for a non-Amazon-partnered carrier.</li>
+<li><var class="keyword varname">true</var> – Request is for an Amazon-partnered carrier.</li>
+<li><var class="keyword varname">false</var> – Request is for a non-Amazon-partnered carrier.</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -3529,8 +3476,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">ShipmentType</span> values:
 <ul>
-<li>SP – <span class="ph">Small Parcel</span></li>
-<li>LTL – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
+<li><var class="keyword varname">SP</var> – <span class="ph">Small Parcel</span></li>
+<li><var class="keyword varname">LTL</var> – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -3601,16 +3548,16 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">TransportStatus</span> values:
 <ul>
-<li>WORKING - You have successfully called the <span class="keyword apiname">PutTransportContent</span> operation for this shipment but have not yet called the  <span class="keyword apiname">EstimateTransportRequest</span> operation.</li>
-<li>ERROR_ON_ESTIMATING - There was a problem with your call to the <span class="keyword apiname">EstimateTransportRequest</span> operation and an error was returned.</li>
-<li>ESTIMATING - You have successfully called the  <span class="keyword apiname">EstimateTransportRequest</span> operation for this shipment and the carrier is in the process of estimating the shipment cost.</li>
-<li>ESTIMATED – The carrier has completed the process of estimating the shipment cost. Your transportation request is ready to be confirmed by you.</li>
-<li>ERROR_ON_CONFIRMING - There was a problem with your call to the <span class="keyword apiname">ConfirmTransportRequest</span> operation and an error was returned.</li>
-<li>CONFIRMING - You have successfully called the <span class="keyword apiname">ConfirmTransportRequest</span> operation but the confirmation process is not yet complete.</li>
-<li>CONFIRMED – Your transportation request has been confirmed. <strong>Important:</strong> For a <span class="ph">Small Parcel</span> shipment, you can void your transportation request up to 24 hours after you confirm it. For a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment, you can void your transportation request up to one hour after you confirm it. After the grace period has expired your account will be charged for the shipping cost.</li>
-<li>VOIDING - You have successfully called the <span class="keyword apiname">VoidTransportRequest</span> operation for a confirmed carrier shipment but the voiding process is not yet complete.</li>
-<li>VOIDED – Your confirmed carrier shipment has been voided. Your account will not be charged for the shipping cost.</li>
-<li>ERROR_IN_VOIDING - There was a problem with your call to the <span class="keyword apiname">VoidTransportRequest</span> operation and an error was returned.</li>
+<li><var class="keyword varname">WORKING</var> - You have successfully called the <span class="keyword apiname">PutTransportContent</span> operation for this shipment but have not yet called the  <span class="keyword apiname">EstimateTransportRequest</span> operation.</li>
+<li><var class="keyword varname">ERROR_ON_ESTIMATING</var> - There was a problem with your call to the <span class="keyword apiname">EstimateTransportRequest</span> operation and an error was returned.</li>
+<li><var class="keyword varname">ESTIMATING</var> - You have successfully called the  <span class="keyword apiname">EstimateTransportRequest</span> operation for this shipment and the carrier is in the process of estimating the shipment cost.</li>
+<li><var class="keyword varname">ESTIMATED</var> – The carrier has completed the process of estimating the shipment cost. Your transportation request is ready to be confirmed by you.</li>
+<li><var class="keyword varname">ERROR_ON_CONFIRMING</var> - There was a problem with your call to the <span class="keyword apiname">ConfirmTransportRequest</span> operation and an error was returned.</li>
+<li><var class="keyword varname">CONFIRMING</var> - You have successfully called the <span class="keyword apiname">ConfirmTransportRequest</span> operation but the confirmation process is not yet complete.</li>
+<li><var class="keyword varname">CONFIRMED</var> – Your transportation request has been confirmed. <strong>Important:</strong> For a <span class="ph">Small Parcel</span> shipment, you can void your transportation request up to 24 hours after you confirm it. For a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment, you can void your transportation request up to one hour after you confirm it. After the grace period has expired your account will be charged for the shipping cost.</li>
+<li><var class="keyword varname">VOIDING</var> - You have successfully called the <span class="keyword apiname">VoidTransportRequest</span> operation for a confirmed carrier shipment but the voiding process is not yet complete.</li>
+<li><var class="keyword varname">VOIDED</var> – Your confirmed carrier shipment has been voided. Your account will not be charged for the shipping cost.</li>
+<li><var class="keyword varname">ERROR_IN_VOIDING</var> - There was a problem with your call to the <span class="keyword apiname">VoidTransportRequest</span> operation and an error was returned.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -3638,8 +3585,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword cmdname">Weight</span> datatype is used in a
-request parameter or in a response element of the following
-    operations:
+request parameter or in a response element of the following operations:
 
   - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
   - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
@@ -3677,8 +3623,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">Unit</span> values:
 <ul>
-<li>pounds</li>
-<li>kilograms</li>
+<li><var class="keyword varname">pounds</var></li>
+<li><var class="keyword varname">kilograms</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

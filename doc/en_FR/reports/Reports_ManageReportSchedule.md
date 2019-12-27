@@ -70,7 +70,7 @@ but with a different <span class="keyword parmname">Schedule</span>
 value, then the report request schedule is updated to use the new
 <span class="keyword parmname">Schedule</span> value. If you pass in a
 <span class="keyword apiname">ReportType</span> and set the
-<span class="keyword parmname">Schedule</span> value to \_NEVER\_ in the
+<span class="keyword parmname">Schedule</span> value to `_NEVER_` in the
 request, the report request schedule for that
 <span class="keyword apiname">ReportType</span> is deleted.
 
@@ -78,8 +78,7 @@ request, the report request schedule for that
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 

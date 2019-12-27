@@ -86,8 +86,7 @@ schema:
 </div>
 
 These are the complex elements of the
-<span class="keyword parmname">MWSPushNotification</span>
-element:
+<span class="keyword parmname">MWSPushNotification</span> element:
 
 <div class="tablenoborder">
 
@@ -189,9 +188,9 @@ The following table shows the child elements of the
 <div class="p">
 <span class="keyword parmname">NotificationType</span> values:
 <ul>
-<li>AnyOfferChanged</li>
-<li>FulfillmentOrderStatus</li>
-<li>TestNotification</li>
+<li><var class="keyword varname">AnyOfferChanged</var></li>
+<li><var class="keyword varname">FulfillmentOrderStatus</var></li>
+<li><var class="keyword varname">TestNotification</var></li>
 </ul>
 </div>
 <p>Required.</p>

@@ -118,8 +118,7 @@ GNU/Linux/Linux infong 2.4
 2009 i686 GNU/Linux)
 ```
 
-[↑
-Top](#DG_ErrorMessages_Examples)
+[↑ Top](#DG_ErrorMessages_Examples)
 
 </div>
 

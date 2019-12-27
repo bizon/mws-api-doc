@@ -68,7 +68,8 @@ returns the cancelled quantity for each item in the fulfillment order.
 <div class="note note">
 
 <span class="notetitle">Note:</span> You cannot cancel a fulfillment
-order with a status of Processing, Complete, or CompletePartialled.
+order with a status of `Processing`, `Complete`, or
+`CompletePartialled`.
 
 </div>
 

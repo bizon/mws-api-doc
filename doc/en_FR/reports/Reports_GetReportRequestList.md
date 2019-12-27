@@ -64,19 +64,19 @@ values by passing the
 
 In the first request, a maximum of 100 report requests are returned. If
 there are additional report requests to return,
-<span class="keyword parmname">HasNext</span> is returned set to true in
-the response . To retrieve all the results, you can pass the value of
+<span class="keyword parmname">HasNext</span> is returned set to `true`
+in the response . To retrieve all the results, you can pass the value of
 the <span class="keyword parmname">NextToken</span> parameter to call
 <span class="keyword apiname">GetReportRequestListByNextToken</span>
 operation iteratively until
-<span class="keyword parmname">HasNext</span> is returned set to false.
+<span class="keyword parmname">HasNext</span> is returned set to
+`false`.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -160,11 +160,11 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="ph">A structured list of report processing statuses by which to filter report requests.</span></td>
 <td>No</td>
 <td><ul>
-<li>_SUBMITTED_</li>
-<li>_IN_PROGRESS_</li>
-<li>_CANCELLED_</li>
-<li>_DONE_</li>
-<li>_DONE_NO_DATA_</li>
+<li><var class="keyword varname">_SUBMITTED_</var></li>
+<li><var class="keyword varname">_IN_PROGRESS_</var></li>
+<li><var class="keyword varname">_CANCELLED_</var></li>
+<li><var class="keyword varname">_DONE_</var></li>
+<li><var class="keyword varname">_DONE_NO_DATA_</var></li>
 </ul>
 <p>Default: All</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -222,12 +222,12 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">NextToken</span></td>
-<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is true.</span>
+<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">HasNext</span></td>
-<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is true if there are more items to retrieve; otherwise false.</span>
+<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd">
@@ -333,8 +333,7 @@ code</span> </span>
 </GetReportRequestListResponse>
 ```
 
-[↑
-Top](#Examples)
+[↑ Top](#Examples)
 
 </div>
 

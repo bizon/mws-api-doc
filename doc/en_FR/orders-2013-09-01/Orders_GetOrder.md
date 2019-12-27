@@ -74,8 +74,7 @@ The following tables show when the
 contact information (<span class="keyword parmname">BuyerEmail</span>,
 <span class="keyword parmname">BuyerName</span>,
 <span class="keyword parmname">ShippingAddress</span>) and charge
-information
-(<span class="keyword parmname">OrderTotal</span>).
+information (<span class="keyword parmname">OrderTotal</span>).
 
 <div class="tablenoborder">
 
@@ -84,8 +83,7 @@ information
 | <span class="keyword parmname">Pending</span>                                                                                                          | None                                                                                                                                                                                                                   |
 | <span class="keyword parmname">Unshipped</span>, <span class="keyword parmname">PartiallyShipped</span>, <span class="keyword parmname">Shipped</span> | <span class="keyword parmname">BuyerEmail</span><sup>1</sup>, <span class="keyword parmname">BuyerName</span>, <span class="keyword parmname">ShippingAddress</span>, <span class="keyword parmname">OrderTotal</span> |
 
-<span class="tablecap">Table 1. Standard
-orders</span>
+<span class="tablecap">Table 1. Standard orders</span>
 
 </div>
 

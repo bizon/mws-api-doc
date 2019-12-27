@@ -189,8 +189,8 @@ Amazon-partnered carrier. The estimate is returned in the
 <span class="keyword parmname">PartneredEstimate</span> response
 element. Note that the estimate will not be returned until the
 <span class="keyword parmname">TransportStatus</span> value of the
-inbound shipment is ESTIMATED, CONFIRMING, or CONFIRMED. Because the
-<span class="keyword apiname">GetTransportContent</span> operation
+inbound shipment is `ESTIMATED`, `CONFIRMING`, or `CONFIRMED`. Because
+the <span class="keyword apiname">GetTransportContent</span> operation
 returns <span class="keyword parmname">TransportStatus</span> values,
 you can use this operation to monitor the progress of your inbound
 shipment. If a <span class="keyword parmname">PartneredEstimate</span>
@@ -333,8 +333,7 @@ lading, you can use the following operations:
     Returns labels for the outside of the shrink-wrapped pallets of your
     inbound shipment.
   - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md) -
-    Returns a bill of lading for your inbound
-shipment.
+    Returns a bill of lading for your inbound shipment.
 
 </div>
 

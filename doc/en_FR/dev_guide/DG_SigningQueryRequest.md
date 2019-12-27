@@ -39,7 +39,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The request signature is part of the authentication process for
 identifying and verifying who is sending a request. It is used as the
-value for the Signature parameter in the request URL you construct.
+value for the `Signature` parameter in the request URL you construct.
 <span class="ph">Amazon MWS</span> verifies both the identity of the
 sender and whether the sender is registered to use
 <span class="ph">Amazon MWS</span>. Authentication is performed using
@@ -80,7 +80,7 @@ calculate your signature or time stamp.
 
 3.  Convert the resulting value to base64.
 
-4.  Use the resulting value as the value of the Signature request
+4.  Use the resulting value as the value of the `Signature` request
     parameter.
 
 The following example shows how to calculate the signature using Java:

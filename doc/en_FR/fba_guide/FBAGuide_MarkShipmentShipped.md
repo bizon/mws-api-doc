@@ -45,7 +45,7 @@ the Inbound Shipment API section. Include the
 called the <span class="keyword apiname">CreateInboundShipment</span>
 operation for that shipment. Also include the
 <span class="keyword parmname">ShipmentStatus</span> request parameter
-with its value set to SHIPPED. For more information about the Inbound
+with its value set to `SHIPPED`. For more information about the Inbound
 Shipment API section, see [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md). For code samples for
 calling the <span class="keyword apiname">UpdateInboundShipment</span>

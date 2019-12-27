@@ -64,8 +64,7 @@ discretion.
 
 ### Availability
 
-This operation is available in all marketplaces except
-Brazil.
+This operation is available in all marketplaces except Brazil.
 
 </div>
 

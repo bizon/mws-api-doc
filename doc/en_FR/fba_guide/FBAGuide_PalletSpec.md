@@ -47,8 +47,7 @@ they reach <span class="ph">Amazon's fulfillment network</span>:
 
 For height, overhang, wrapping, and pallet type specifications, see the
 "Arranging for an LTL or Truck Load Delivery to Amazon" section of the
-Amazon Seller Central Help for your
-marketplace.
+Amazon Seller Central Help for your marketplace.
 
 </div>
 

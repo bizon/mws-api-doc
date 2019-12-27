@@ -57,8 +57,7 @@ based on the items instead of requests.
 ## Per-Request Throttling
 
 These are the throttling rates for the <span class="ph">Products API
-section</span> operations that only throttle per
-request.
+section</span> operations that only throttle per request.
 
 <div class="tablenoborder">
 
@@ -99,8 +98,7 @@ request quota. In this case you will have to wait for the item restore
 rate to restore enough items to satisfy your next request.
 
 These are the throttling rates for the <span class="ph">Products API
-section</span> operations that throttle per
-item.
+section</span> operations that throttle per item.
 
 <div class="tablenoborder">
 

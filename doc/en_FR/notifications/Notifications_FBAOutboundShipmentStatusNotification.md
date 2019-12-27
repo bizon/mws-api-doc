@@ -116,7 +116,7 @@ element:
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentStatus</span></td>
-<td>The shipment status. <span class="keyword parmname">ShipmentStatus</span> values: Created, Cancelled.
+<td>The shipment status. <span class="keyword parmname">ShipmentStatus</span> values: <var class="keyword varname">Created</var>, <var class="keyword varname">Cancelled</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

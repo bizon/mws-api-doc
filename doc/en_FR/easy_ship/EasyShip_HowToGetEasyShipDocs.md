@@ -72,7 +72,7 @@ operation in **Task 2. Get the PDF**.
         content of the feed. For more information, see
         [SubmitFeed](../feeds/Feeds_SubmitFeed.md) and [Easy Ship
         feed](../feeds/Feeds_FeedType.md#EasyShipFeed).
-      - **FeedType.** Specify \_POST\_EASYSHIP\_DOCUMENTS\_
+      - **FeedType.** Specify `_POST_EASYSHIP_DOCUMENTS_`
       - **ContentMD5Value.** For information about calculating this
         value, see [SubmitFeed](../feeds/Feeds_SubmitFeed.md).
       - **AmazonOrderId.** The identifier for the
@@ -94,8 +94,8 @@ operation in **Task 2. Get the PDF**.
     <span class="keyword parmname">FeedSubmissionId</span> value from
     Step 1.
     
-    If the operation returns a status of \_Done\_, continue to Step 3.
-    If not, retry until it returns a status of \_Done\_. For more
+    If the operation returns a status of `_Done_`, continue to Step 3.
+    If not, retry until it returns a status of `_Done_`. For more
     information, see [What you should know about the Amazon MWS Feeds
     API section](../feeds/Feeds_Overview.md).
 
@@ -112,8 +112,7 @@ operation in **Task 2. Get the PDF**.
     PDF**. If there are errors, correct them and start again at Step 1.
     Repeat the process until there are no errors and the processing
     report contains the
-    <span class="keyword parmname">ReportReferenceId</span>
-value.
+    <span class="keyword parmname">ReportReferenceId</span> value.
 
 </div>
 

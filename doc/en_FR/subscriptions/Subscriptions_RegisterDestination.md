@@ -75,8 +75,7 @@ have registered from the list of registered destinations, call the
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

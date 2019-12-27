@@ -147,16 +147,16 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <p>If both <span class="keyword parmname">ShipmentStatusList</span> and <span class="keyword parmname">ShipmentIdList</span> are specified, only shipments that match both parameters are returned.</p></td>
 <td><span class="ph"><span class="keyword parmname">ShipmentStatus</span> values:</span>
 <ul>
-<li>WORKING - The shipment was created by the seller, but has not yet shipped.</li>
-<li>SHIPPED - The shipment was picked up by the carrier.</li>
-<li>IN_TRANSIT - The carrier has notified the <span class="ph">Amazon fulfillment center</span> that it is aware of the shipment.</li>
-<li>DELIVERED - The shipment was delivered by the carrier to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>CHECKED_IN - The shipment was checked-in at the receiving dock of the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>RECEIVING - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span>, but not all items have been marked as received.</li>
-<li>CLOSED - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span> and all items have been marked as received.</li>
-<li>CANCELLED - The shipment was cancelled by the seller after the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>DELETED - The shipment was cancelled by the seller before the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>ERROR - There was an error with the shipment and it was not processed by Amazon.</li>
+<li><var class="keyword varname">WORKING</var> - The shipment was created by the seller, but has not yet shipped.</li>
+<li><var class="keyword varname">SHIPPED</var> - The shipment was picked up by the carrier.</li>
+<li><var class="keyword varname">IN_TRANSIT</var> - The carrier has notified the <span class="ph">Amazon fulfillment center</span> that it is aware of the shipment.</li>
+<li><var class="keyword varname">DELIVERED</var> - The shipment was delivered by the carrier to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">CHECKED_IN</var> - The shipment was checked-in at the receiving dock of the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">RECEIVING</var> - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span>, but not all items have been marked as received.</li>
+<li><var class="keyword varname">CLOSED</var> - The shipment has arrived at the <span class="ph">Amazon fulfillment center</span> and all items have been marked as received.</li>
+<li><var class="keyword varname">CANCELLED</var> - The shipment was cancelled by the seller after the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">DELETED</var> - The shipment was cancelled by the seller before the shipment was sent to the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">ERROR</var> - There was an error with the shipment and it was not processed by Amazon.</li>
 </ul>
 <p>Type: List of type: xs:string</p></td>
 </tr>

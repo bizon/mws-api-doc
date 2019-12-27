@@ -62,10 +62,10 @@ However, if the labeling requirements for an item cannot be determined,
 the <span class="keyword apiname">GetPrepInstructionsForASIN</span>
 operation returns a
 <span class="keyword parmname">BarcodeInstruction</span> value of
-MustProvideSellerSKU for the item. To get complete labeling requirement
-information (in addition to item preparation instructions) to help you
-prepare items for shipment to <span class="ph">Amazon's fulfillment
-network</span>, use the
+`MustProvideSellerSKU` for the item. To get complete labeling
+requirement information (in addition to item preparation instructions)
+to help you prepare items for shipment to <span class="ph">Amazon's
+fulfillment network</span>, use the
 [<span class="keyword apiname">GetPrepInstructionsForSKU</span>](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
 operation.
 

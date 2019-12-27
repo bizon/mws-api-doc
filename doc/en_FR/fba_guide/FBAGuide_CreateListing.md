@@ -106,12 +106,12 @@ section](../feeds/Feeds_Overview.md).
     The feed should include:
     
       - The <span class="keyword parmname">FulfillmentCenterID</span>
-        element, set to AMAZON\_NA, AMAZON\_EU, AMAZON\_IN, or
-        AMAZON\_JP, depending on the seller's marketplace.
+        element, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
+        `AMAZON_JP`, depending on the seller's marketplace.
       - The <span class="keyword parmname">Lookup</span> element, set to
-        FulfillmentNetwork.
+        `FulfillmentNetwork`.
       - The <span class="keyword parmname">SwitchFulfillmentTo</span>
-        element, set to AFN.
+        element, set to `AFN`.
 
 For more information about feed types, see [FeedType
 enumeration](../feeds/Feeds_FeedType.md).
@@ -141,8 +141,8 @@ the product is in Amazon's catalog)**
         containing values that uniquely identify the product in Amazon's
         catalog.
       - The <span class="keyword parmname">fulfillment-center-id</span>
-        field, set to AMAZON\_NA, AMAZON\_EU, AMAZON\_IN, or AMAZON\_JP,
-        depending on the seller's marketplace.
+        field, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
+        `AMAZON_JP`, depending on the seller's marketplace.
       - Battery and dangerous goods information, according to the
         guidance in [Requirements for MWS Integrators
         (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf)
@@ -162,8 +162,8 @@ the product is not yet in Amazon's catalog)**
     submit the Flat File Listings Loader Feed
     (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_). The feed should include:
       - The <span class="keyword parmname">fulfillment-center-id</span>
-        field, set to AMAZON\_NA, AMAZON\_EU, AMAZON\_IN, or AMAZON\_JP,
-        depending on the seller's marketplace.
+        field, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
+        `AMAZON_JP`, depending on the seller's marketplace.
       - Battery and dangerous goods information, according to the
         guidance in [Requirements for MWS Integrators
         (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf)

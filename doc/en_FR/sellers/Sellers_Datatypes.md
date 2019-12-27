@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Sellers API
-section</span>:
+<span class="ph">Sellers API section</span>:
 
 <div class="tablenoborder">
 
@@ -169,7 +168,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">HasSellerSuspendedListings</span></td>
-<td>Specifies if the seller has suspended listings. Yes if the seller has set Listing Status to Inactive, otherwise No.
+<td>Specifies if the seller has suspended listings. <var class="keyword varname">Yes</var> if the seller has set Listing Status to Inactive, otherwise <var class="keyword varname">No</var>.
 <p>Type: xs:Restricted String</p></td>
 </tr>
 </tbody>

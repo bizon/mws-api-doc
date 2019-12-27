@@ -58,12 +58,12 @@ examine the <span class="keyword parmname">ShippingService</span>
 elements that are returned by the
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
 operation. When
-<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=true
+<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=`true`
 is included in a <span class="keyword parmname">ShippingService</span>
 element, that shipment service requires additional seller inputs. Call
 the <span class="keyword apiname">GetAdditionalSellerInputs</span>
 operation to find out which additional seller inputs are required. When
-<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=false
+<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=`false`
 is included in a <span class="keyword parmname">ShippingService</span>
 element, that shipment service offer does not require additional seller
 inputs. You can skip the

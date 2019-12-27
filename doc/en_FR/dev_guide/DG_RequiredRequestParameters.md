@@ -99,12 +99,12 @@ for all <span class="ph">Amazon MWS</span> operations:
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SignatureMethod</span></td>
-<td>The HMAC hash algorithm you are using to calculate your signature. Both HmacSHA256 and HmacSHA1 are supported hash algorithms, but Amazon recommends using HmacSHA256.</td>
+<td>The HMAC hash algorithm you are using to calculate your signature. Both <var class="keyword varname">HmacSHA256</var> and <var class="keyword varname">HmacSHA1</var> are supported hash algorithms, but Amazon recommends using <var class="keyword varname">HmacSHA256</var>.</td>
 <td>Yes</td>
 <td><span class="keyword parmname">SignatureMethod</span> values:
 <ul>
-<li>HmacSHA256 (recommended)</li>
-<li>HmacSHA1</li>
+<li><var class="keyword varname">HmacSHA256</var> (recommended)</li>
+<li><var class="keyword varname">HmacSHA1</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -114,7 +114,7 @@ for all <span class="ph">Amazon MWS</span> operations:
 <td>Yes</td>
 <td><span class="keyword parmname">SignatureVersion</span> values:
 <ul>
-<li>2</li>
+<li><var class="keyword varname">2</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

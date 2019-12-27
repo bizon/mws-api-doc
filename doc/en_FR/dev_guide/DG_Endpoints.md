@@ -65,8 +65,7 @@ fail.
 | Mexico             | MX           | <span id="DG_Endpoints__d2002e1199" class="ph">https://mws.amazonservices.com.mx</span> | <span id="DG_Endpoints__d2002e1203" class="ph">A1AM78C64UM0Y8</span> |
 | US                 | US           | <span id="DG_Endpoints__d2002e1216" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2002e1220" class="ph">ATVPDKIKX0DER</span>  |
 
-<span class="tablecap">Table 1. North America
-region</span>
+<span class="tablecap">Table 1. North America region</span>
 
 </div>
 
@@ -85,8 +84,7 @@ region</span>
 | Saudi Arabia                  | SA           | <span id="DG_Endpoints__d2002e1410" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1414" class="ph">A17E79C6D8DWNP</span> |
 | Turkey                        | TR           | <span id="DG_Endpoints__d2002e1427" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1431" class="ph">A33AVAJ2PDY3EV</span> |
 
-<span class="tablecap">Table 2. Europe
-region</span>
+<span class="tablecap">Table 2. Europe region</span>
 
 </div>
 

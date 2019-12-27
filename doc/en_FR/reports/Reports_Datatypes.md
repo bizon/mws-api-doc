@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Reports API
-section</span>:
+<span class="ph">Reports API section</span>:
 
 <div class="tablenoborder">
 
@@ -108,7 +107,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Acknowledged</span></td>
-<td>A Boolean value that indicates if the report was acknowledged by this call to the <span class="keyword apiname">UpdateReportAcknowledgements</span> operation. The value is true if the report was acknowledged; otherwise false.
+<td>A Boolean value that indicates if the report was acknowledged by this call to the <span class="keyword apiname">UpdateReportAcknowledgements</span> operation. The value is <var class="keyword varname">true</var> if the report was acknowledged; otherwise <var class="keyword varname">false</var>.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even">
@@ -181,7 +180,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Scheduled</span></td>
-<td><span class="ph">A Boolean value that indicates if a report is scheduled. The value is true if the report was scheduled; otherwise false.</span>
+<td><span class="ph">A Boolean value that indicates if a report is scheduled. The value is <var class="keyword varname">true</var> if the report was scheduled; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even">

@@ -78,13 +78,13 @@ push notifications:
 <tr class="even">
 <td><a href="Notifications_FeedProcessingFinishedNotification.md" class="xref">FeedProcessingFinishedNotification</a>
 <p>XSD: <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeedProcessingFinishedNotification.xsd" class="xref">FeedProcessingFinishedNotification.xsd</a></p></td>
-<td><span class="ph">The <span class="keyword parmname">FeedProcessingFinished</span> notification is sent whenever any feed that you have submitted using the <span class="ph">Feeds API section</span> reaches a feed processing status of DONE or CANCELLED.</span></td>
+<td><span class="ph">The <span class="keyword parmname">FeedProcessingFinished</span> notification is sent whenever any feed that you have submitted using the <span class="ph">Feeds API section</span> reaches a feed processing status of <var class="keyword varname">DONE</var> or <var class="keyword varname">CANCELLED</var>.</span></td>
 <td><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="odd">
 <td><a href="Notifications_FeePromotionNotification.md" class="xref">FeePromotionNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeePromotionNotification.xsd" class="xref">FeePromotionNotification.xsd</a></p></td>
-<td><span class="ph">Sellers using <span class="ph">Amazon MWS</span> can benefit from time-limited fee promotions. To receive notification of available fee promotions, sellers must subscribe to <span class="keyword parmname">FeePromotion</span> notification. When the seller initially signs up for the subscription and isEnabled is set to <em>true</em>, the seller receives all currently active promotions. Each promotion is sent as a single message. Subsequent promotion notifications are sent when the promotion becomes active. </span></td>
+<td><span class="ph">Sellers using <span class="ph">Amazon MWS</span> can benefit from time-limited fee promotions. To receive notification of available fee promotions, sellers must subscribe to <span class="keyword parmname">FeePromotion</span> notification. When the seller initially signs up for the subscription and <var class="keyword varname">isEnabled</var> is set to <em>true</em>, the seller receives all currently active promotions. Each promotion is sent as a single message. Subsequent promotion notifications are sent when the promotion becomes active. </span></td>
 <td><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="even">
@@ -102,7 +102,7 @@ push notifications:
 <tr class="even">
 <td><a href="Notifications_ReportProcessingFinishedNotification.md" class="xref">ReportProcessingFinishedNotification</a>
 <p>XSD: <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/ReportProcessingFinishedNotification.xsd" class="xref">ReportProcessingFinishedNotification.xsd</a></p></td>
-<td><span class="ph">The <span class="keyword parmname">ReportProcessingFinished</span> notification is sent whenever any report that you have requested using the <span class="ph">Reports API section</span> reaches a report processing status of DONE, CANCELLED, or DONE_NO_DATA.</span></td>
+<td><span class="ph">The <span class="keyword parmname">ReportProcessingFinished</span> notification is sent whenever any report that you have requested using the <span class="ph">Reports API section</span> reaches a report processing status of <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>.</span></td>
 <td><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="odd">

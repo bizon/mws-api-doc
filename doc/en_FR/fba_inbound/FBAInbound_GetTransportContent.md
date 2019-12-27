@@ -65,7 +65,7 @@ shipment by an Amazon-partnered carrier. Note that
 <span class="keyword parmname">PartneredEstimate</span> will not be
 returned unless the
 <span class="keyword parmname">TransportStatus</span> value of the
-inbound shipment is ESTIMATED, CONFIRMING, or CONFIRMED.
+inbound shipment is `ESTIMATED`, `CONFIRMING`, or `CONFIRMED`.
 <span class="ph">For more information, see [Using an Amazon-partnered
 carrier for your inbound
 shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md) in the
@@ -111,8 +111,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
 parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -295,8 +294,7 @@ code</span> </span>
 </GetTransportContentResponse>
 ```
 
-[↑
-Top](#Examples)
+[↑ Top](#Examples)
 
 </div>
 
@@ -382,8 +380,7 @@ code</span> </span>
 </GetTransportContentResponse>
 ```
 
-[↑
-Top](#Examples)
+[↑ Top](#Examples)
 
 </div>
 

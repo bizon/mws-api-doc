@@ -59,26 +59,26 @@ listing groups, each group representing a different combination of the
 following six qualifiers:
 
   - <span class="keyword parmname">ItemCondition</span>
-    (<span class="ph">New, Used, Collectible, Refurbished, or
-    Club</span>)
+    (<span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or
+    `Club`</span>)
   - <span class="keyword parmname">ItemSubcondition</span>
-    (<span class="ph">New, Mint, Very Good, Good, Acceptable, Poor,
-    Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or
-    Other</span>)
-  - <span class="keyword parmname">FulfillmentChannel</span> (Amazon or
-    Merchant)
-  - <span class="keyword parmname">ShipsDomestically</span> (True,
-    False, or Unknown) – Indicates whether the marketplace specified in
-    the request and the location that the item ships from are in the
+    (<span class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`,
+    `Poor`, `Club`, `OEM`, `Warranty`, `Refurbished Warranty`,
+    `Refurbished`, `Open Box`, or `Other`</span>)
+  - <span class="keyword parmname">FulfillmentChannel</span> (`Amazon`
+    or `Merchant`)
+  - <span class="keyword parmname">ShipsDomestically</span> (`True`,
+    `False`, or `Unknown`) – Indicates whether the marketplace specified
+    in the request and the location that the item ships from are in the
     same country.
-  - <span class="keyword parmname">ShippingTime</span> (0-2 days, 3-7
-    days, 8-13 days, or 14 or more days) – Indicates the maximum time
-    within which the item will likely be shipped once an order has been
-    placed
+  - <span class="keyword parmname">ShippingTime</span> (`0-2 days`, `3-7
+    days`, `8-13 days`, or `14 or more days`) – Indicates the maximum
+    time within which the item will likely be shipped once an order has
+    been placed
   - <span class="keyword parmname">SellerPositiveFeedbackRating</span>
-    (98-100%, 95-97%, 90-94%, 80-89%, 70-79%, Less than 70%, or Just
-    launched ) – Indicates the percentage of feedback ratings that were
-    positive over the past 12 months.
+    (`98-100%`, `95-97%`, `90-94%`, `80-89%`, `70-79%`, `Less than 70%`,
+    or `Just launched` ) – Indicates the percentage of feedback ratings
+    that were positive over the past 12 months.
 
 Some (but not necessarily all) of the active offer listings for the
 specified product and
@@ -110,7 +110,7 @@ expect the following:
 <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
 operation, your own offer listings are included in the response unless
 you use the <span class="keyword parmname">ExcludeMe</span> request
-parameter with a value of True.
+parameter with a value of `True`.
 
 </div>
 
@@ -137,8 +137,7 @@ by condition (new or used), for an item that you sell.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -231,14 +230,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ItemCondition</span> values:
 <ul>
-<li>Any</li>
-<li>New</li>
-<li>Used</li>
-<li>Collectible</li>
-<li>Refurbished</li>
-<li>Club</li>
+<li><var class="keyword varname">Any</var></li>
+<li><var class="keyword varname">New</var></li>
+<li><var class="keyword varname">Used</var></li>
+<li><var class="keyword varname">Collectible</var></li>
+<li><var class="keyword varname">Refurbished</var></li>
+<li><var class="keyword varname">Club</var></li>
 </ul>
-<p>Default: Any</p></td>
+<p>Default: <var class="keyword varname">Any</var></p></td>
 </tr>
 </tbody>
 </table>
@@ -308,7 +307,7 @@ operation returns the following two sub-elements of the
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">Qualifiers</span>. Contains the following six qualifiers: <span class="keyword parmname">ItemCondition</span>, <span class="keyword parmname">ItemSubcondition</span>, <span class="keyword parmname">FulfillmentChannel</span>, <span class="keyword parmname">ShipsDomestically</span>, <span class="keyword parmname">ShippingTime</span>, and <span class="keyword parmname">SellerPositiveFeedbackRating</span>. These qualifiers identify the offer listing group from which the lowest offer listing was taken.</li>
-<li><span class="keyword parmname">NumberOfOfferListingsConsidered</span>. Of the offer listings considered, this number indicates how many belonged to this offer listing group. Note that if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of True, then the value of <span class="keyword parmname">NumberOfOfferListingsConsidered</span> is the actual number of active offer listings that met the six qualifying criteria of the offer listing group. However if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of False, then the actual number might be higher.</li>
+<li><span class="keyword parmname">NumberOfOfferListingsConsidered</span>. Of the offer listings considered, this number indicates how many belonged to this offer listing group. Note that if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of <var class="keyword varname">True</var>, then the value of <span class="keyword parmname">NumberOfOfferListingsConsidered</span> is the actual number of active offer listings that met the six qualifying criteria of the offer listing group. However if <span class="keyword parmname">AllOfferListingsConsidered</span> is returned with a value of <var class="keyword varname">False</var>, then the actual number might be higher.</li>
 <li><span class="keyword parmname">SellerFeedbackCount</span>. The number of seller feedback ratings that have been submitted for the seller with the lowest-priced offer listing in the group.</li>
 <li><span class="keyword parmname">Price</span>. Pricing information for the lowest offer listing in the group. Contains the following elements:
 <ul>
@@ -320,9 +319,9 @@ operation returns the following two sub-elements of the
 <li><p><span class="keyword parmname">MultipleOfferListingsAtLowestPrice</span>. Indicates if there is more than one listing with the lowest landed price in the group.</p>
 <p>Valid values:</p>
 <ul>
-<li>True – There is more than one listing with the lowest listing price in the group.</li>
-<li>False – There is only one listing with the lowest listing price in the group.</li>
-<li>Unknown – The service cannot determine if there is more than one listing with the lowest listing price in the group. This can happen in certain cases when not all active offer listings were considered when the offer listings were sorted into groups (when <span class="keyword parmname">AllOfferListingsConsidered</span> = False).</li>
+<li><var class="keyword varname">True</var> – There is more than one listing with the lowest listing price in the group.</li>
+<li><var class="keyword varname">False</var> – There is only one listing with the lowest listing price in the group.</li>
+<li><var class="keyword varname">Unknown</var> – The service cannot determine if there is more than one listing with the lowest listing price in the group. This can happen in certain cases when not all active offer listings were considered when the offer listings were sorted into groups (when <span class="keyword parmname">AllOfferListingsConsidered</span> = <var class="keyword varname">False</var>).</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -526,8 +525,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.")
 

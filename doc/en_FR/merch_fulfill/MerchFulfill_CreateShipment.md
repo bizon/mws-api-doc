@@ -159,7 +159,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">LabelFormatOption</span> elements:
 <ul>
-<li><span class="keyword parmname">IncludePackingSlipWithLabel</span> - True indicates that you want Amazon to include a packing slip with the shipping label. If <span class="keyword parmname">LabelFormatOption</span> is not specified, no packing slip is returned. <span class="ph">Type: xs:boolean</span></li>
+<li><span class="keyword parmname">IncludePackingSlipWithLabel</span> - <var class="keyword varname">True</var> indicates that you want Amazon to include a packing slip with the shipping label. If <span class="keyword parmname">LabelFormatOption</span> is not specified, no packing slip is returned. <span class="ph">Type: xs:boolean</span></li>
 </ul></td>
 </tr>
 <tr class="even">

@@ -55,8 +55,7 @@ for the given <span class="keyword parmname">NotificationType</span> and
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

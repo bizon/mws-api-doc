@@ -86,14 +86,14 @@ you are sending to <span class="ph">Amazon's fulfillment network</span>.
 The following are valid
 <span class="keyword parmname">LabelPrepPreference</span> values:
 
-  - SELLER\_LABEL - Indicates that for items that require item labels
+  - `SELLER_LABEL` - Indicates that for items that require item labels
     (items that are not stickerless, commingled inventory) you will
     label each item yourself.
-  - AMAZON\_LABEL\_ONLY - Amazon attempts to label the items in the
+  - `AMAZON_LABEL_ONLY` - Amazon attempts to label the items in the
     inbound shipment when labels are required. If Amazon determines that
     it does not have the information required to successfully label an
     item, that item is not included in the inbound shipment plan.
-  - AMAZON\_LABEL\_PREFERRED - Amazon attempts to label the items in the
+  - `AMAZON_LABEL_PREFERRED` - Amazon attempts to label the items in the
     inbound shipment when labels are required. If Amazon determines that
     it does not have the information required to successfully label an
     item, that item is included in the inbound shipment plan and the
@@ -102,7 +102,7 @@ The following are valid
 <div class="note note">
 
 <span class="notetitle">Note:</span> Unless you are enrolled in the FBA
-Label Service, SELLER\_LABEL is the only valid
+Label Service, `SELLER_LABEL` is the only valid
 <span class="keyword parmname">LabelPrepPreference</span> value. For
 more information about the FBA Label Service, see the Seller Central
 Help for your marketplace.
@@ -115,7 +115,7 @@ indicates the labeling requirements for the items in each shipment. The
 following are valid <span class="keyword parmname">LabelPrepType</span>
 values:
 
-  - NO\_LABEL - No item labeling is required for this inbound shipment
+  - `NO_LABEL` - No item labeling is required for this inbound shipment
     because the items are stickerless, commingled inventory. This value
     cannot be returned unless your <span class="ph">Fulfillment by
     Amazon (FBA)</span> account has been configured by Amazon for
@@ -123,15 +123,15 @@ values:
     stickerless, commingled inventory and how to configure your FBA
     account for it, see the Amazon Seller Central Help for your
     marketplace.
-  - SELLER\_LABEL - Items in this inbound shipment must be labeled by
+  - `SELLER_LABEL` - Items in this inbound shipment must be labeled by
     the seller before sending the shipment to <span class="ph">Amazon's
     fulfillment network</span>.
-  - AMAZON\_LABEL - Label preparation by Amazon is required for this
+  - `AMAZON_LABEL` - Label preparation by Amazon is required for this
     inbound shipment.
 
 <div class="note note">
 
-<span class="notetitle">Note:</span> AMAZON\_LABEL is available only if
+<span class="notetitle">Note:</span> `AMAZON_LABEL` is available only if
 you are enrolled in the FBA Label Service. For more information about
 the FBA Label Service, see the Seller Central Help for your marketplace.
 

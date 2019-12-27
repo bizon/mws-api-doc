@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the request parameters and response
 elements of the <span class="ph">Amazon Marketplace Web Service (Amazon
-MWS)</span> <span class="ph">Easy Ship API
-section</span>:
+MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
@@ -117,7 +116,7 @@ section</span>:
 <td><span class="keyword parmname">Unit</span></td>
 <td>The unit of measurement.</td>
 <td>Yes</td>
-<td>Unit values: &quot;cm&quot;
+<td>Unit values: "cm"
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -143,8 +142,7 @@ section</span>:
 
 <div class="body refbody">
 
-<span class="ph">Invoice number and
-date.</span>
+<span class="ph">Invoice number and date.</span>
 
 <div id="InvoiceData__section_hkb_25z_42b" class="section">
 
@@ -171,8 +169,7 @@ date.</span>
 
 <div class="body refbody">
 
-<span class="ph">Item ID and serial number
-information.</span>
+<span class="ph">Item ID and serial number information.</span>
 
 <div id="Item__section_mxt_25z_42b" class="section">
 
@@ -271,8 +268,8 @@ information.</span>
 <td>No</td>
 <td><span class="keyword parmname">PackageStatus</span> values:
 <ul>
-<li>Unscheduled - Not scheduled for pickup.</li>
-<li>Scheduled - Scheduled for pickup.</li>
+<li><var class="keyword varname">Unscheduled</var> - Not scheduled for pickup.</li>
+<li><var class="keyword varname">Scheduled</var> - Scheduled for pickup.</li>
 </ul>
 <p>Type: xs:string</p></td>
 </tr>
@@ -365,8 +362,7 @@ information.</span>
 
 <div class="body refbody">
 
-<span class="ph">Pickup slot ID and pickup time
-information.</span>
+<span class="ph">Pickup slot ID and pickup time information.</span>
 
 <div id="PickupSlot__section_ezf_h5z_42b" class="section">
 
@@ -394,8 +390,7 @@ information.</span>
 
 <div class="body refbody">
 
-<span class="ph">Identifies the scheduled package to be
-updated.</span>
+<span class="ph">Identifies the scheduled package to be updated.</span>
 
 <div class="section">
 
@@ -422,8 +417,7 @@ updated.</span>
 
 <div class="body refbody">
 
-<span class="ph">Information for updating a
-package.</span>
+<span class="ph">Information for updating a package.</span>
 
 <div id="ScheduledPackageUpdateDetails__section_ehn_j5z_42b" class="section">
 
@@ -484,7 +478,7 @@ package.</span>
 <td><span class="keyword parmname">Unit</span></td>
 <td>The unit of measurement used for weight.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: g (for grams)
+<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">g</var> (for grams)
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

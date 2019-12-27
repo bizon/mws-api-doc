@@ -50,8 +50,7 @@ side error examples and possible solutions to the problem.
 
 <div class="parentlink">
 
-**Parent topic:** [Handling
-errors](../dev_guide/DG_Errors.md)
+**Parent topic:** [Handling errors](../dev_guide/DG_Errors.md)
 
 </div>
 
@@ -104,8 +103,7 @@ code</span> </span>
 
 </div>
 
-[↑
-Top](#DG_ErrorMessages_ClientSideExamples)
+[↑ Top](#DG_ErrorMessages_ClientSideExamples)
 
 </div>
 
@@ -149,8 +147,7 @@ parameter must be non-empty
 
 </div>
 
-[↑
-Top](#DG_ErrorMessages_ClientSideExamples)
+[↑ Top](#DG_ErrorMessages_ClientSideExamples)
 
 </div>
 
@@ -189,9 +186,9 @@ calculated for your feed (3cldK7kqMxK6orwvXXdzSQ==)
 
 **Reason**
 
-The Content-MD5 value 1B2M2Y8AsgTpgAmY7PhCfg== corresponds to the empty
-string. The MD5 provider instance used to calculate the Content-MD5 is
-not able to read any bytes from the stream.
+The Content-MD5 value `1B2M2Y8AsgTpgAmY7PhCfg==` corresponds to the
+empty string. The MD5 provider instance used to calculate the
+Content-MD5 is not able to read any bytes from the stream.
 
 **How to troubleshoot**
 

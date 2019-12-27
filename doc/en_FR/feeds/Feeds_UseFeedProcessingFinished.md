@@ -83,12 +83,12 @@ find out when feed processing is complete.
     <span class="keyword parmname">FeedProcessingStatus</span> element
     set to one of the following values:
     
-      - DONE - The feed was successfully submitted. Use the
+      - `DONE` - The feed was successfully submitted. Use the
         **FeedSubmissionId** value included in the notification as input
         for the
         [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
         operation in Step 4.
-      - CANCELLED - The feed was cancelled by the seller or by Amazon.
+      - `CANCELLED` - The feed was cancelled by the seller or by Amazon.
 
 4.  Call the
     [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)

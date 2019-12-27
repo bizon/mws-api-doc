@@ -77,8 +77,7 @@ The following tables show when the
 contact information (<span class="keyword parmname">BuyerEmail</span>,
 <span class="keyword parmname">BuyerName</span>,
 <span class="keyword parmname">ShippingAddress</span>) and charge
-information
-(<span class="keyword parmname">OrderTotal</span>).
+information (<span class="keyword parmname">OrderTotal</span>).
 
 <div class="tablenoborder">
 
@@ -87,8 +86,7 @@ information
 | <span class="keyword parmname">Pending</span>                                                                                                          | None                                                                                                                                                                                                                   |
 | <span class="keyword parmname">Unshipped</span>, <span class="keyword parmname">PartiallyShipped</span>, <span class="keyword parmname">Shipped</span> | <span class="keyword parmname">BuyerEmail</span><sup>1</sup>, <span class="keyword parmname">BuyerName</span>, <span class="keyword parmname">ShippingAddress</span>, <span class="keyword parmname">OrderTotal</span> |
 
-<span class="tablecap">Table 1. Standard
-orders</span>
+<span class="tablecap">Table 1. Standard orders</span>
 
 </div>
 
@@ -217,25 +215,25 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <td>No</td>
 <td><span class="keyword parmname">OrderStatus</span> values:
 <dl>
-<dt>PendingAvailability</dt>
-<dd>This status is available for pre-orders only. The order has been placed, payment has not been authorized, and the release date of the item is in the future. The order is not ready for shipment. Note that Preorder is a possible <span class="keyword parmname">OrderType</span> value in Japan (JP) only.
+<dt><var class="keyword varname">PendingAvailability</var></dt>
+<dd>This status is available for pre-orders only. The order has been placed, payment has not been authorized, and the release date of the item is in the future. The order is not ready for shipment. Note that <var class="keyword varname">Preorder</var> is a possible <span class="keyword parmname">OrderType</span> value in Japan (JP) only.
 </dd>
-<dt>Pending</dt>
-<dd>The order has been placed but payment has not been authorized. The order is not ready for shipment. Note that for orders with <span class="keyword parmname">OrderType</span> = Standard, the initial order status is Pending. For orders with <span class="keyword parmname">OrderType</span> = Preorder (available in JP only), the initial order status is PendingAvailability, and the order passes into the Pending status when the payment authorization process begins.
+<dt><var class="keyword varname">Pending</var></dt>
+<dd>The order has been placed but payment has not been authorized. The order is not ready for shipment. Note that for orders with <span class="keyword parmname">OrderType</span> = <var class="keyword varname">Standard</var>, the initial order status is <var class="keyword varname">Pending</var>. For orders with <span class="keyword parmname">OrderType</span> = <var class="keyword varname">Preorder</var> (available in JP only), the initial order status is <var class="keyword varname">PendingAvailability</var>, and the order passes into the <var class="keyword varname">Pending</var> status when the payment authorization process begins.
 </dd>
-<dt>Unshipped </dt>
+<dt><var class="keyword varname">Unshipped</var></dt>
 <dd>Payment has been authorized and order is ready for shipment, but no items in the order have been shipped.
 </dd>
-<dt>PartiallyShipped </dt>
+<dt><var class="keyword varname">PartiallyShipped</var></dt>
 <dd>One or more (but not all) items in the order have been shipped.
 </dd>
-<dt>Shipped </dt>
+<dt><var class="keyword varname">Shipped</var></dt>
 <dd>All items in the order have been shipped.
 </dd>
-<dt>Canceled </dt>
+<dt><var class="keyword varname">Canceled</var></dt>
 <dd>The order was canceled.
 </dd>
-<dt>Unfulfillable </dt>
+<dt><var class="keyword varname">Unfulfillable</var></dt>
 <dd>The order cannot be fulfilled. This state applies only to Amazon-fulfilled orders that were not placed on Amazon's retail web site.
 </dd>
 </dl>
@@ -258,10 +256,10 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentChannel</span> values:
 <dl>
-<dt>AFN </dt>
+<dt><var class="keyword varname">AFN</var></dt>
 <dd>Fulfilled by Amazon
 </dd>
-<dt>MFN </dt>
+<dt><var class="keyword varname">MFN</var></dt>
 <dd>Fulfilled by the seller
 </dd>
 </dl>
@@ -274,18 +272,18 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <td>No</td>
 <td><span class="keyword parmname">PaymentMethod</span> values:
 <dl>
-<dt>COD </dt>
+<dt><var class="keyword varname">COD</var></dt>
 <dd>Cash on delivery
 </dd>
-<dt>CVS </dt>
+<dt><var class="keyword varname">CVS</var></dt>
 <dd>Convenience store payment
 </dd>
-<dt>Other </dt>
-<dd>Any payment method other than COD or CVS
+<dt><var class="keyword varname">Other</var></dt>
+<dd>Any payment method other than <var class="keyword varname">COD</var> or <var class="keyword varname">CVS</var>
 </dd>
 </dl>
 <div class="note note">
-<span class="notetitle">Note:</span> COD and CVS values are valid only in Japan (JP).
+<span class="notetitle">Note:</span> <var class="keyword varname">COD</var> and <var class="keyword varname">CVS</var> values are valid only in Japan (JP).
 </div>
 <p>Default: All</p>
 <span class="ph">Type: xs:string</span></td>
@@ -322,37 +320,37 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 <td>No</td>
 <td><span class="keyword parmname">EasyShipShipmentStatus</span> values:
 <dl>
-<dt>PendingPickUp </dt>
+<dt><var class="keyword varname">PendingPickUp</var></dt>
 <dd>Amazon has not yet picked up the package from the seller.
 </dd>
-<dt>LabelCanceled </dt>
+<dt><var class="keyword varname">LabelCanceled</var></dt>
 <dd>The seller canceled the pickup.
 </dd>
-<dt>PickedUp </dt>
+<dt><var class="keyword varname">PickedUp</var></dt>
 <dd>Amazon has picked up the package from the seller.
 </dd>
-<dt>OutForDelivery </dt>
+<dt><var class="keyword varname">OutForDelivery</var></dt>
 <dd>The package is out for delivery.
 </dd>
-<dt>Damaged </dt>
+<dt><var class="keyword varname">Damaged</var></dt>
 <dd>The package was damaged by the carrier.
 </dd>
-<dt>Delivered </dt>
+<dt><var class="keyword varname">Delivered</var></dt>
 <dd>Package has been delivered to the buyer.
 </dd>
-<dt>RejectedByBuyer </dt>
+<dt><var class="keyword varname">RejectedByBuyer</var></dt>
 <dd>Package has been rejected by the buyer.
 </dd>
-<dt>Undeliverable </dt>
+<dt><var class="keyword varname">Undeliverable</var></dt>
 <dd>The package cannot be delivered.
 </dd>
-<dt>ReturnedToSeller </dt>
+<dt><var class="keyword varname">ReturnedToSeller</var></dt>
 <dd>The package was not delivered to the customer and was returned to the seller.
 </dd>
-<dt>ReturningToSeller </dt>
+<dt><var class="keyword varname">ReturningToSeller</var></dt>
 <dd>The package was not delivered to the customer and is being returned to the seller.
 </dd>
-<dt>Lost </dt>
+<dt><var class="keyword varname">Lost</var></dt>
 <dd>Package was lost by the carrier.
 </dd>
 </dl>
@@ -666,8 +664,7 @@ code</span> </span>
 
 <div class="body">
 
-[Orders
-API](../orders-2013-09-01/Orders_Overview.md)
+[Orders API](../orders-2013-09-01/Orders_Overview.md)
 
 [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
 

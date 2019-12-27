@@ -50,8 +50,7 @@ error so that the problem it can be fixed or reported.
 
 These error codes are common to all <span class="ph">Amazon MWS</span>
 API sections. For error codes that are specific to an API section, see
-that API's corresponding error codes section
-reference.
+that API's corresponding error codes section reference.
 
 <div class="tablenoborder">
 
@@ -67,8 +66,7 @@ reference.
 | <span class="keyword parmname">QuotaExceeded</span>           | 503              | The total number of requests in an hour was exceeded.                                                                |
 | <span class="keyword parmname">RequestThrottled</span>        | 503              | The frequency of requests was greater than allowed.                                                                  |
 
-<span class="tablecap">Table 1. Common HTTP error status
-codes</span>
+<span class="tablecap">Table 1. Common HTTP error status codes</span>
 
 </div>
 

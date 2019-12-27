@@ -54,8 +54,7 @@ the units of time that indicate how often a report request can be
 requested. For example, the
 <span class="keyword apiname">ManageReportSchedule</span> operation uses
 the <span class="keyword apiname">Schedule</span> value to indicate how
-often a report request is
-submitted.
+often a report request is submitted.
 
 </div>
 

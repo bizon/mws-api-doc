@@ -55,8 +55,7 @@ a given date range.
 
 <div class="body">
 
-The following table defines terminology for this API
-section:
+The following table defines terminology for this API section:
 
 <div class="tablenoborder">
 
@@ -77,8 +76,7 @@ section:
 <div class="body">
 
 The following operations are included in the <span class="ph">Finances
-API
-section</span>:
+API section</span>:
 
 <div class="tablenoborder">
 

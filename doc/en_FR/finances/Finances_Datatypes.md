@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the <span class="ph">Amazon
 Marketplace Web Service (Amazon MWS)</span> <span class="ph">Finances
-API
-section</span>:
+API section</span>:
 
 <div class="tablenoborder">
 
@@ -120,14 +119,14 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">AdjustmentType</span> values:
 <ul>
-<li>FBAInventoryReimbursement - An FBA inventory reimbursement to a seller's account. This occurs if a seller's inventory is damaged.</li>
-<li>ReserveEvent - A reserve event that is generated at the time of a settlement period closing. This occurs when some money from a seller's account is held back.</li>
-<li>PostageBilling - The amount paid by a seller for shipping labels purchased through Amazon.</li>
-<li>PostageRefund - The reimbursement of shipping labels purchased through Amazon for orders that were canceled or refunded.</li>
-<li>LostOrDamagedReimbursement - An Amazon Easy Ship reimbursement to a seller's account for a package that was lost or damaged by Amazon. <span class="ph">This value is used only in the India marketplace.</span></li>
-<li>CanceledButPickedUpReimbursement - An Amazon Easy Ship reimbursement to a seller's account. This occurs when a package is picked up and the order is subsequently canceled. <span class="ph">This value is used only in the India marketplace.</span></li>
-<li>ReimbursementClawback - An Amazon Easy Ship reimbursement clawback from a seller's account. This occurs when a prior reimbursement is reversed. <span class="ph">This value is used only in the India marketplace.</span></li>
-<li>SellerRewards - An award credited to a seller's account for their participation in an offer in the Seller Rewards program. <span class="ph">Applies only to the India marketplace.</span></li>
+<li><var class="keyword varname">FBAInventoryReimbursement</var> - An FBA inventory reimbursement to a seller's account. This occurs if a seller's inventory is damaged.</li>
+<li><var class="keyword varname">ReserveEvent</var> - A reserve event that is generated at the time of a settlement period closing. This occurs when some money from a seller's account is held back.</li>
+<li><var class="keyword varname">PostageBilling</var> - The amount paid by a seller for shipping labels purchased through Amazon.</li>
+<li><var class="keyword varname">PostageRefund</var> - The reimbursement of shipping labels purchased through Amazon for orders that were canceled or refunded.</li>
+<li><var class="keyword varname">LostOrDamagedReimbursement</var> - An Amazon Easy Ship reimbursement to a seller's account for a package that was lost or damaged by Amazon. <span class="ph">This value is used only in the India marketplace.</span></li>
+<li><var class="keyword varname">CanceledButPickedUpReimbursement</var> - An Amazon Easy Ship reimbursement to a seller's account. This occurs when a package is picked up and the order is subsequently canceled. <span class="ph">This value is used only in the India marketplace.</span></li>
+<li><var class="keyword varname">ReimbursementClawback</var> - An Amazon Easy Ship reimbursement clawback from a seller's account. This occurs when a prior reimbursement is reversed. <span class="ph">This value is used only in the India marketplace.</span></li>
+<li><var class="keyword varname">SellerRewards</var> - An award credited to a seller's account for their participation in an offer in the Seller Rewards program. <span class="ph">Applies only to the India marketplace.</span></li>
 </ul>
 <span class="ph">Type: xs:string</span></td>
 </tr>
@@ -173,20 +172,19 @@ The following table shows the elements of the
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">AdjustmentItem</span>
-datatype:
+<span class="keyword parmname">AdjustmentItem</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                                                                                                         | Required | Values                                                                                       |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">Quantity</span>           | Represents the number of units in the seller's inventory when the <span class="keyword parmname">AdustmentType</span> is FBAInventoryReimbursement. | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">PerUnitAmount</span>      | The per unit value of the item.                                                                                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">TotalAmount</span>        | The total value of the item.                                                                                                                        | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">SellerSKU</span>          | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>. | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">FnSKU</span>              | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.               | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">ProductDescription</span> | A short description of the item.                                                                                                                    | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">ASIN</span>               | The ASIN of the item.                                                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                      |
+| Name                                                     | Description                                                                                                                                           | Required | Values                                                                                       |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">Quantity</span>           | Represents the number of units in the seller's inventory when the <span class="keyword parmname">AdustmentType</span> is `FBAInventoryReimbursement`. | No       | <span class="ph">Type: xs:string</span>                                                      |
+| <span class="keyword parmname">PerUnitAmount</span>      | The per unit value of the item.                                                                                                                       | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| <span class="keyword parmname">TotalAmount</span>        | The total value of the item.                                                                                                                          | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| <span class="keyword parmname">SellerSKU</span>          | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>.   | No       | <span class="ph">Type: xs:string</span>                                                      |
+| <span class="keyword parmname">FnSKU</span>              | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.                 | No       | <span class="ph">Type: xs:string</span>                                                      |
+| <span class="keyword parmname">ProductDescription</span> | A short description of the item.                                                                                                                      | No       | <span class="ph">Type: xs:string</span>                                                      |
+| <span class="keyword parmname">ASIN</span>               | The ASIN of the item.                                                                                                                                 | No       | <span class="ph">Type: xs:string</span>                                                      |
 
 </div>
 
@@ -246,8 +244,8 @@ datatype:
 <td><span class="keyword parmname">TransactionType</span> values:
 <div class="p">
 <ul>
-<li>Charge - For an affordability promotion expense.</li>
-<li>Refund - For an affordability promotion expense reversal.</li>
+<li><var class="keyword varname">Charge - </var>For an affordability promotion expense.</li>
+<li><var class="keyword varname">Refund - </var>For an affordability promotion expense reversal.</li>
 </ul>
 <span class="ph">Type: xs:string</span>
 </div></td>
@@ -351,8 +349,8 @@ datatype:
 <td><span class="keyword parmname">TransactionType</span> values:
 <div class="p">
 <ul>
-<li>Charge - For an affordability promotion expense.</li>
-<li>Refund - For an affordability promotion expense reversal.</li>
+<li><var class="keyword varname">Charge - </var>For an affordability promotion expense.</li>
+<li><var class="keyword varname">Refund - </var>For an affordability promotion expense reversal.</li>
 </ul>
 <span class="ph">Type: xs:string</span>
 </div></td>
@@ -449,37 +447,37 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">ChargeType</span> values:
 <ul>
-<li>Principal - The selling price of the order item, equal to the selling price of the item multiplied by the quantity ordered.</li>
-<li>Tax - The tax collected by the seller on the Principal.</li>
-<li>MarketplaceFacilitatorTax-Principal - The tax withheld by Amazon on the Principal.</li>
-<li>MarketplaceFacilitatorTax-Shipping - The tax withheld by Amazon on the ShippingCharge.</li>
-<li>MarketplaceFacilitatorTax-Giftwrap - The tax withheld by Amazon on the Giftwrap charge.</li>
-<li>MarketplaceFacilitatorTax-Other - The tax withheld by Amazon on other miscellaneous charges.</li>
-<li>Discount - The promotional discount for an order item.</li>
-<li>TaxDiscount - The tax amount deducted for promotional rebates.</li>
-<li>CODItemCharge - The COD charge for an order item.</li>
-<li>CODItemTaxCharge - The tax collected by the seller on a CODItemCharge.</li>
-<li>CODOrderCharge - The COD charge for an order.</li>
-<li>CODOrderTaxCharge - The tax collected by the seller on a CODOrderCharge.</li>
-<li>CODShippingCharge - Shipping charges for a COD order.</li>
-<li>CODShippingTaxCharge - The tax collected by the seller on a CODShippingCharge.</li>
-<li>ShippingCharge - The shipping charge.</li>
-<li>ShippingTax - The tax collected by the seller on a ShippingCharge.</li>
-<li>Goodwill - The amount given to a buyer as a gesture of goodwill or to compensate for pain and suffering in the buying experience.</li>
-<li>Giftwrap - The gift wrap charge.</li>
-<li>GiftwrapTax - The tax collected by the seller on a Giftwrap charge.</li>
-<li>RestockingFee - The charge that Amazon charges the buyer when returning a product in certain categories.</li>
-<li>ReturnShipping - The amount given to the buyer to compensate for shipping the item back to Amazon in the event Amazon is at fault.</li>
-<li>PointsFee - The value of <span class="ph">Amazon Points</span> deducted from the refund if the buyer does not have enough <span class="ph">Amazon Points</span> to cover the deduction.</li>
-<li>GenericDeduction - A generic bad debt deduction.</li>
-<li>FreeReplacementReturnShipping - The compensation for return shipping when a buyer receives the wrong item, requests a free replacement, and returns the incorrect item to Amazon.</li>
-<li>PaymentMethodFee - The fee collected for certain payment methods in certain marketplaces.</li>
-<li>ExportCharge - The export duty that is charged when Amazon ships an item to an international destination as part of the Amazon Global program.</li>
-<li>SAFE-TReimbursement - The SAFE-T claim amount for the item.</li>
-<li>TCS-CGST - Tax Collected at Source (TCS) for Central Goods and Services Tax (CGST).</li>
-<li>TCS-SGST - Tax Collected at Source for State Goods and Services Tax (SGST).</li>
-<li>TCS-IGST - Tax Collected at Source for Integrated Goods and Services Tax (IGST).</li>
-<li>TCS-UTGST - Tax Collected at Source for Union Territories Goods and Services Tax (UTGST).</li>
+<li><var class="keyword varname">Principal</var> - The selling price of the order item, equal to the selling price of the item multiplied by the quantity ordered.</li>
+<li><var class="keyword varname">Tax</var> - The tax collected by the seller on the <var class="keyword varname">Principal</var>.</li>
+<li><var class="keyword varname">MarketplaceFacilitatorTax-Principal</var> - The tax withheld by Amazon on the <var class="keyword varname">Principal</var>.</li>
+<li><var class="keyword varname">MarketplaceFacilitatorTax-Shipping</var> - The tax withheld by Amazon on the <var class="keyword varname">ShippingCharge</var>.</li>
+<li><var class="keyword varname">MarketplaceFacilitatorTax-Giftwrap</var> - The tax withheld by Amazon on the <var class="keyword varname">Giftwrap</var> charge.</li>
+<li><var class="keyword varname">MarketplaceFacilitatorTax-Other</var> - The tax withheld by Amazon on other miscellaneous charges.</li>
+<li><var class="keyword varname">Discount</var> - The promotional discount for an order item.</li>
+<li><var class="keyword varname">TaxDiscount</var> - The tax amount deducted for promotional rebates.</li>
+<li><var class="keyword varname">CODItemCharge</var> - The COD charge for an order item.</li>
+<li><var class="keyword varname">CODItemTaxCharge</var> - The tax collected by the seller on a <var class="keyword varname">CODItemCharge</var>.</li>
+<li><var class="keyword varname">CODOrderCharge</var> - The COD charge for an order.</li>
+<li><var class="keyword varname">CODOrderTaxCharge</var> - The tax collected by the seller on a <var class="keyword varname">CODOrderCharge</var>.</li>
+<li><var class="keyword varname">CODShippingCharge</var> - Shipping charges for a COD order.</li>
+<li><var class="keyword varname">CODShippingTaxCharge</var> - The tax collected by the seller on a <var class="keyword varname">CODShippingCharge</var>.</li>
+<li><var class="keyword varname">ShippingCharge</var> - The shipping charge.</li>
+<li><var class="keyword varname">ShippingTax</var> - The tax collected by the seller on a <var class="keyword varname">ShippingCharge</var>.</li>
+<li><var class="keyword varname">Goodwill</var> - The amount given to a buyer as a gesture of goodwill or to compensate for pain and suffering in the buying experience.</li>
+<li><var class="keyword varname">Giftwrap</var> - The gift wrap charge.</li>
+<li><var class="keyword varname">GiftwrapTax</var> - The tax collected by the seller on a <var class="keyword varname">Giftwrap</var> charge.</li>
+<li><var class="keyword varname">RestockingFee</var> - The charge that Amazon charges the buyer when returning a product in certain categories.</li>
+<li><var class="keyword varname">ReturnShipping</var> - The amount given to the buyer to compensate for shipping the item back to Amazon in the event Amazon is at fault.</li>
+<li><var class="keyword varname">PointsFee</var> - The value of <span class="ph">Amazon Points</span> deducted from the refund if the buyer does not have enough <span class="ph">Amazon Points</span> to cover the deduction.</li>
+<li><var class="keyword varname">GenericDeduction</var> - A generic bad debt deduction.</li>
+<li><var class="keyword varname">FreeReplacementReturnShipping</var> - The compensation for return shipping when a buyer receives the wrong item, requests a free replacement, and returns the incorrect item to Amazon.</li>
+<li><var class="keyword varname">PaymentMethodFee</var> - The fee collected for certain payment methods in certain marketplaces.</li>
+<li><var class="keyword varname">ExportCharge</var> - The export duty that is charged when Amazon ships an item to an international destination as part of the Amazon Global program.</li>
+<li><var class="keyword varname">SAFE-TReimbursement</var> - The SAFE-T claim amount for the item.</li>
+<li><var class="keyword varname">TCS-CGST</var> - Tax Collected at Source (TCS) for Central Goods and Services Tax (CGST).</li>
+<li><var class="keyword varname">TCS-SGST</var> - Tax Collected at Source for State Goods and Services Tax (SGST).</li>
+<li><var class="keyword varname">TCS-IGST</var> - Tax Collected at Source for Integrated Goods and Services Tax (IGST).</li>
+<li><var class="keyword varname">TCS-UTGST</var> - Tax Collected at Source for Union Territories Goods and Services Tax (UTGST).</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -513,8 +511,7 @@ The following table shows the elements of the
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ChargeInstrument</span>
-datatype:
+<span class="keyword parmname">ChargeInstrument</span> datatype:
 
 <div class="tablenoborder">
 
@@ -545,8 +542,7 @@ datatype:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">CouponPaymentEvent</span>
-datatype:
+<span class="keyword parmname">CouponPaymentEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -582,8 +578,7 @@ datatype:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">CurrencyAmount</span>
-datatype:
+<span class="keyword parmname">CurrencyAmount</span> datatype:
 
 <div class="tablenoborder">
 
@@ -639,9 +634,9 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">DebtRecoveryType</span> values:
 <ul>
-<li>DebtPayment</li>
-<li>DebtPaymentFailure</li>
-<li>DebtAdjustment</li>
+<li><var class="keyword varname">DebtPayment</var></li>
+<li><var class="keyword varname">DebtPaymentFailure</var></li>
+<li><var class="keyword varname">DebtAdjustment</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -665,7 +660,7 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ChargeInstrumentList</span></td>
-<td>A list of charge instruments used for DebtPayment or DebtPaymentFailure recovery types.</td>
+<td>A list of charge instruments used for <var class="keyword varname">DebtPayment</var> or <var class="keyword varname">DebtPaymentFailure</var> recovery types.</td>
 <td>No</td>
 <td>Type: List of <a href="Finances_Datatypes.md#ChargeInstrument" class="xref" title="A payment instrument.">ChargeInstrument</a></td>
 </tr>
@@ -693,8 +688,7 @@ The following table shows the elements of the
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">DebtRecoveryItem</span>
-datatype:
+<span class="keyword parmname">DebtRecoveryItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -752,12 +746,12 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">DirectPaymentType</span> values:
 <ul>
-<li>StoredValueCardRevenue - The amount that is deducted from the seller's account because the seller received money through a stored value card.</li>
-<li>StoredValueCardRefund - The amount that Amazon returns to the seller if the order that is bought using a stored value card is refunded.</li>
-<li>PrivateLabelCreditCardRevenue - The amount that is deducted from the seller's account because the seller received money through a private label credit card offered by Amazon.</li>
-<li>PrivateLabelCreditCardRefund - The amount that Amazon returns to the seller if the order that is bought using a private label credit card offered by Amazon is refunded.</li>
-<li>CollectOnDeliveryRevenue - The COD amount that the seller collected directly from the buyer.</li>
-<li>CollectOnDeliveryRefund - The amount that Amazon refunds to the buyer if an order paid for by COD is refunded.</li>
+<li><var class="keyword varname">StoredValueCardRevenue</var> - The amount that is deducted from the seller's account because the seller received money through a stored value card.</li>
+<li><var class="keyword varname">StoredValueCardRefund</var> - The amount that Amazon returns to the seller if the order that is bought using a stored value card is refunded.</li>
+<li><var class="keyword varname">PrivateLabelCreditCardRevenue</var> - The amount that is deducted from the seller's account because the seller received money through a private label credit card offered by Amazon.</li>
+<li><var class="keyword varname">PrivateLabelCreditCardRefund</var> - The amount that Amazon returns to the seller if the order that is bought using a private label credit card offered by Amazon is refunded.</li>
+<li><var class="keyword varname">CollectOnDeliveryRevenue</var> - The COD amount that the seller collected directly from the buyer.</li>
+<li><var class="keyword varname">CollectOnDeliveryRefund</var> - The amount that Amazon refunds to the buyer if an order paid for by COD is refunded.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -793,8 +787,7 @@ is used only in the US marketplace.</span> </span>
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">FBALiquidationEvent</span>
-datatype:
+<span class="keyword parmname">FBALiquidationEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -916,8 +909,8 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">ProcessingStatus</span> values:
 <ul>
-<li>Open</li>
-<li>Closed</li>
+<li><var class="keyword varname">Open</var></li>
+<li><var class="keyword varname">Closed</var></li>
 </ul>
 <span class="ph">Type: xs:string</span></td>
 </tr>
@@ -1000,8 +993,7 @@ event.</span>
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">FinancialEvents</span>
-datatype:
+<span class="keyword parmname">FinancialEvents</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1051,8 +1043,7 @@ datatype:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ImagingServicesFeeEvent</span>
-datatype:
+<span class="keyword parmname">ImagingServicesFeeEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1116,9 +1107,9 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">SourceBusinessEventType</span> values:
 <ul>
-<li>LoanAdvance</li>
-<li>LoanPayment</li>
-<li>LoanRefund</li>
+<li><var class="keyword varname">LoanAdvance</var></li>
+<li><var class="keyword varname">LoanPayment</var></li>
+<li><var class="keyword varname">LoanRefund</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1191,8 +1182,8 @@ datatype:
 <td>No</td>
 <td><span class="keyword parmname">TransactionType</span> value:
 <ul>
-<li>NetCo - A <span class="ph">Fulfillment by Amazon</span> inventory pooling transaction. Available only in the India marketplace.</li>
-<li>ComminglingVAT - A commingling VAT transaction. Available only in the UK, Spain, France, Germany, and Italy marketplaces.</li>
+<li><var class="keyword varname">NetCo</var> - A <span class="ph">Fulfillment by Amazon</span> inventory pooling transaction. Available only in the India marketplace.</li>
+<li><var class="keyword varname">ComminglingVAT</var> - A commingling VAT transaction. Available only in the UK, Spain, France, Germany, and Italy marketplaces.</li>
 </ul>
 <span class="ph">Type: xs:string</span></td>
 </tr>
@@ -1283,7 +1274,7 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">BusinessObjectType</span> values:
 <ul>
-<li>PaymentContract</li>
+<li><var class="keyword varname">PaymentContract</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1311,7 +1302,7 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">PaymentAmountType</span> values:
 <ul>
-<li>Sales</li>
+<li><var class="keyword varname">Sales</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1327,8 +1318,8 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
-<li>AFN - Amazon Fulfillment Network (<span class="ph">Fulfillment by Amazon</span>)</li>
-<li>MFN - Merchant Fulfillment Network (<span class="ph">self-fulfilled</span>)</li>
+<li><var class="keyword varname">AFN</var> - Amazon Fulfillment Network (<span class="ph">Fulfillment by Amazon</span>)</li>
+<li><var class="keyword varname">MFN</var> - Merchant Fulfillment Network (<span class="ph">self-fulfilled</span>)</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1447,8 +1438,7 @@ The following table shows the elements of the
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">Promotion</span>
-datatype:
+<span class="keyword parmname">Promotion</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1511,19 +1501,19 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">RentalEventType</span> values:
 <ul>
-<li>RentalCustomerPayment-Buyout - Transaction type that represents when customer wants to buy out a rented item.</li>
-<li>RentalCustomerPayment-Extension - Transaction type that represents when customer wants to extend the rental period.</li>
-<li>RentalCustomerRefund-Buyout - Transaction type that represents when customer requests a refund for the buyout of the rented item.</li>
-<li>RentalCustomerRefund-Extension - Transaction type that represents when customer requests a refund over the extension on the rented item.</li>
-<li>RentalHandlingFee - Transaction type that represents the fee that Amazon charges sellers who rent through Amazon.</li>
-<li>RentalChargeFailureReimbursement - Transaction type that represents when Amazon sends money to the seller to compensate for a failed charge.</li>
-<li>RentalLostItemReimbursement - Transaction type that represents when Amazon sends money to the seller to compensate for a lost item.</li>
+<li><var class="keyword varname">RentalCustomerPayment-Buyout</var> - Transaction type that represents when customer wants to buy out a rented item.</li>
+<li><var class="keyword varname">RentalCustomerPayment-Extension</var> - Transaction type that represents when customer wants to extend the rental period.</li>
+<li><var class="keyword varname">RentalCustomerRefund-Buyout</var> - Transaction type that represents when customer requests a refund for the buyout of the rented item.</li>
+<li><var class="keyword varname">RentalCustomerRefund-Extension</var> - Transaction type that represents when customer requests a refund over the extension on the rented item.</li>
+<li><var class="keyword varname">RentalHandlingFee</var> - Transaction type that represents the fee that Amazon charges sellers who rent through Amazon.</li>
+<li><var class="keyword varname">RentalChargeFailureReimbursement</var> - Transaction type that represents when Amazon sends money to the seller to compensate for a failed charge.</li>
+<li><var class="keyword varname">RentalLostItemReimbursement</var> - Transaction type that represents when Amazon sends money to the seller to compensate for a lost item.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ExtensionLength</span></td>
-<td>The number of days that the buyer extended an already rented item. This value is only returned for RentalCustomerPayment-Extension and RentalCustomerRefund-Extension events.</td>
+<td>The number of days that the buyer extended an already rented item. This value is only returned for <var class="keyword varname">RentalCustomerPayment-Extension</var> and <var class="keyword varname">RentalCustomerRefund-Extension</var> events.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:int</span></td>
 </tr>
@@ -1553,13 +1543,13 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">RentalInitialValue</span></td>
-<td>The amount of money the customer originally paid to rent the item. This value is only returned for RentalChargeFailureReimbursement and RentalLostItemReimbursement events.</td>
+<td>The amount of money the customer originally paid to rent the item. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
 <td>No</td>
 <td>Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">RentalReimbursement</span></td>
-<td>The amount of money Amazon sends the seller to compensate for a lost item or a failed charge. This value is only returned for RentalChargeFailureReimbursement and RentalLostItemReimbursement events.</td>
+<td>The amount of money Amazon sends the seller to compensate for a lost item or a failed charge. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
 <td>No</td>
 <td>Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
@@ -1619,8 +1609,8 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">RetrochargeEventType</span> values:
 <ul>
-<li>Retrocharge</li>
-<li>RetrochargeReversal</li>
+<li><var class="keyword varname">Retrocharge</var></li>
+<li><var class="keyword varname">RetrochargeReversal</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1684,8 +1674,7 @@ The following table shows the elements of the
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">SAFETReimbursementEvent</span>
-datatype:
+<span class="keyword parmname">SAFETReimbursementEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1717,8 +1706,7 @@ datatype:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">SAFETReimbursementItem</span>
-datatype:
+<span class="keyword parmname">SAFETReimbursementItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1784,8 +1772,7 @@ datatype:
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ServiceFeeEvent</span>
-datatype:
+<span class="keyword parmname">ServiceFeeEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1821,8 +1808,7 @@ chargeback.</span>
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ShipmentEvent</span>
-datatype:
+<span class="keyword parmname">ShipmentEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1864,8 +1850,7 @@ chargeback.</span>
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ShipmentItem</span>
-datatype:
+<span class="keyword parmname">ShipmentItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1933,8 +1918,8 @@ datatype:
 <td>No</td>
 <td><span class="keyword parmname">ProviderTransactionType</span> values:
 <ul>
-<li>ProviderCredit</li>
-<li>ProviderCreditReversal</li>
+<li><var class="keyword varname">ProviderCredit</var></li>
+<li><var class="keyword varname">ProviderCreditReversal</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2030,8 +2015,8 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">TaxCollectionModel</span> value:
 <ul>
-<li>MarketplaceFacilitator - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.</li>
-<li>Standard - Tax is paid to the seller and not remitted to the taxing authority by Amazon.</li>
+<li><var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.</li>
+<li><var class="keyword varname">Standard</var> - Tax is paid to the seller and not remitted to the taxing authority by Amazon.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2040,7 +2025,7 @@ The following table shows the elements of the
 <td>A list of <span class="keyword parmname">ChargeComponent</span> elements that represent the types and amounts of taxes withheld.</td>
 <td>No</td>
 <td>Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>
-<p><span class="keyword parmname">ChargeType</span> values for <span class="keyword parmname">TaxesWithheld</span> are MarketplaceFacilitatorTax-Principal, MarketplaceFacilitatorTax-Shipping, MarketplaceFacilitatorTax-GiftWrap, and MarketplaceFacilitatorTax-Other.</p></td>
+<p><span class="keyword parmname">ChargeType</span> values for <span class="keyword parmname">TaxesWithheld</span> are <var class="keyword varname">MarketplaceFacilitatorTax-Principal</var>, <var class="keyword varname">MarketplaceFacilitatorTax-Shipping</var>, <var class="keyword varname">MarketplaceFacilitatorTax-GiftWrap</var>, and <var class="keyword varname">MarketplaceFacilitatorTax-Other</var>.</p></td>
 </tr>
 </tbody>
 </table>

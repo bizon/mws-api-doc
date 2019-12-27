@@ -59,14 +59,13 @@ which was supplied in a previous request to either the
 operation or the
 <span class="keyword apiname">GetFeedSubmissionList</span> operation
 where the value of <span class="keyword parmname">HasNext</span> was
-true.
+`true`.
 
 <div class="section">
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -109,16 +108,15 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 are required for all <span class="ph">Amazon MWS</span> operations, see
 [Required request
 parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
-| Name                                            | Description                                                                                                                                                                                                                                                             | Required | Valid values                            |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| <span class="keyword parmname">NextToken</span> | A string token returned by a previous request to either <span class="keyword apiname">GetFeedSubmissionList</span> or <span class="keyword apiname">GetFeedSubmission ListByNextToken</span> where the value of <span class="keyword parmname">HasNext</span> was true. | Yes      | <span class="ph">Type: xs:string</span> |
+| Name                                            | Description                                                                                                                                                                                                                                                               | Required | Valid values                            |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+| <span class="keyword parmname">NextToken</span> | A string token returned by a previous request to either <span class="keyword apiname">GetFeedSubmissionList</span> or <span class="keyword apiname">GetFeedSubmission ListByNextToken</span> where the value of <span class="keyword parmname">HasNext</span> was `true`. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
 
@@ -152,7 +150,7 @@ Guide</span>.</span>
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is true.</td>
+<td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -160,7 +158,7 @@ Guide</span>.</span>
 <td><span class="keyword parmname">HasNext</span></td>
 <td>A Boolean value that indicates whether there are more items to retrieve, requiring additional requests to <span class="keyword apiname">GetGetFeedSubmissionListByNextToken</span> to retrieve them.</td>
 <td>No</td>
-<td><p>The value true means there are more items to retrieve; otherwise false.</p>
+<td><p>The value <var class="keyword varname">true</var> means there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</p>
 <span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="odd">

@@ -71,8 +71,7 @@ operation whenever possible. For more information, see
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -473,8 +472,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetMatchingProductForId](Products_GetMatchingProductForId.md "Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.")
 

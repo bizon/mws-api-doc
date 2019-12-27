@@ -52,8 +52,7 @@ definitions, see
 ## Step 1. The buyer requests a return
 
 The buyer contacts the seller and requests a return for items that the
-seller fulfilled using the Fulfillment Outbound Shipment
-service.
+seller fulfilled using the Fulfillment Outbound Shipment service.
 
 </div>
 
@@ -79,8 +78,7 @@ value.
 
 The seller inputs a
 <span class="keyword parmname">SellerFulfillmentOrderId</span> value for
-each of the fulfillment orders that contain items to
-return.
+each of the fulfillment orders that contain items to return.
 
 </div>
 
@@ -129,8 +127,7 @@ Step 4. For each call, the application specifies both the
 <span class="keyword parmname">MarketplaceId</span> value. The operation
 returns reason codes for each return item. The application saves the
 return reason codes to use in subsequent calls to the
-<span class="keyword apiname">CreateFulfillmentReturn</span>
-operation.
+<span class="keyword apiname">CreateFulfillmentReturn</span> operation.
 
 </div>
 
@@ -155,8 +152,7 @@ fulfillment return:
         <span class="ph">An identifier assigned by the seller to the
         return item.</span> This identifier must be unique in the
         context of the fulfillment order that the return item is
-        associated
-        with.
+        associated with.
       - <span class="keyword parmname">SellerFulfillmentOrderItemId</span>.
         <span class="ph">The identifier assigned to the item by the
         seller when the fulfillment order was created.</span> This value
@@ -174,8 +170,7 @@ fulfillment return:
 
 If the items that the buyer wants to return come from multiple
 fulfillment orders, the seller needs to initiate a separate fulfillment
-return for each fulfillment
-order.
+return for each fulfillment order.
 
 </div>
 
@@ -195,8 +190,7 @@ operation, specifying the following:
     <span class="keyword parmname">AmazonShipmentId</span>,
     <span class="keyword parmname">ReturnReasonCode</span>, and
     (optional) <span class="keyword parmname">ReturnComment</span>
-    values input by the seller in Step
-6.
+    values input by the seller in Step 6.
 
 </div>
 
@@ -220,8 +214,7 @@ each return item with a return authorization.
 The application also returns a list of items that are invalid for
 return, if any, along with reasons they are invalid.
 <span class="keyword parmname">AmazonRmaId</span> values are not
-returned for items on this
-list.
+returned for items on this list.
 
 </div>
 
@@ -258,8 +251,7 @@ If the fulfillment return has multiple authorizations:
         the reasons they are invalid.
       - An <span class="keyword parmname">RmaPageURL</span> value and
         <span class="keyword parmname">ReturnToAddress</span> value for
-        each return
-authorization.
+        each return authorization.
 
 </div>
 
@@ -292,7 +284,7 @@ possible workflow:
 5.  The application exposes the
     <span class="keyword parmname">Status</span> value returned by the
     <span class="keyword apiname">CreateFulfillmentReturn</span>
-    operation, either New or Processed.
+    operation, either `New` or `Processed`.
 
 </div>
 

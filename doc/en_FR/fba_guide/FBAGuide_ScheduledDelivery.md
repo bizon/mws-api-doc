@@ -49,9 +49,9 @@ order**
     operation, specifying the following:
     
       - <span class="keyword parmname">ShippingSpeedCategories</span> =
-        ScheduledDelivery
+        `ScheduledDelivery`
       - <span class="keyword parmname">IncludeDeliveryWindows</span> =
-        true
+        `true`
     
     A range of <span class="keyword parmname">DeliveryWindow</span>
     response elements are returned, each containing a
@@ -66,7 +66,7 @@ order**
     operation, specifying the following:
     
       - <span class="keyword parmname">ShippingSpeedCategory</span> =
-        ScheduledDelivery
+        `ScheduledDelivery`
       - The <span class="keyword parmname">StartDateTime</span> and
         <span class="keyword parmname">EndDateTime</span> values
         contained in the

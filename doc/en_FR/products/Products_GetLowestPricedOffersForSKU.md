@@ -85,8 +85,7 @@ also returned.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -184,7 +183,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>Filters the results based on item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -227,8 +226,7 @@ operation returns are described by the publicly available XSD
 [ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
 The top-level elements returned by the
 <span class="keyword apiname">GetLowestPricedOffersForSKU</span>
-operation
-are:
+operation are:
 
 </div>
 
@@ -286,14 +284,14 @@ are:
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>The item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Status</span></td>
 <td>The status of the operation.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: Success, ActiveButTooSoonForProcessing, NoBuyableOffers, or NoOfferDueToMissingShippingCharge.
+<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -308,11 +306,11 @@ attributes match the original request parameters for the call.
 <span class="keyword parmname">Status</span> represents the overall
 result of the operation with one of the following values:
 
-  - Success
-  - ActiveButTooSoonForProcessing - the item is active but no offers can
-    be displayed until OffersAvailableTime
-  - NoBuyableOffers - the item is not being offered for sale
-  - NoOfferDueToMissingShippingCharge - the shipping charge is absent
+  - `Success`
+  - `ActiveButTooSoonForProcessing` - the item is active but no offers
+    can be displayed until `OffersAvailableTime`
+  - `NoBuyableOffers` - the item is not being offered for sale
+  - `NoOfferDueToMissingShippingCharge` - the shipping charge is absent
     (for example, when the shipping charge varies by region)
 
 </div>
@@ -370,7 +368,7 @@ and SKU.</span>
 <td><span class="keyword parmname">ItemCondition</span></td>
 <td>The item condition.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: New, Used, Collectible, Refurbished, Club.
+<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -421,7 +419,7 @@ and <span class="keyword parmname">NumberOfOffers</span> and
 | <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
 | <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
 | <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
-| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is ActiveButTooSoonForProcessing, this is the time when the offers will be available for processing.                                                                                                                                    | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
+| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is `ActiveButTooSoonForProcessing`, this is the time when the offers will be available for processing.                                                                                                                                  | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
 
 </div>
 
@@ -451,8 +449,7 @@ more.</span>
 This list is the same length as the
 <span class="keyword parmname">TotalOfferCount</span> provided in the
 [Summary](#Summary "Contains price information about the product, including the LowestPrices and BuyBoxPrices, the ListPrice, the SuggestedLowerPricePlusShipping, and NumberOfOffers and NumberOfBuyBoxEligibleOffers.")
-or 20, whichever is
-less.
+or 20, whichever is less.
 
 </div>
 
@@ -462,19 +459,19 @@ less.
 
 <div class="tablenoborder">
 
-| Name                                                       | Description                                                                                                                                                                                  | Required | Values                                                                                                                                                                                                         |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">MyOffer</span>              | true if this is your offer.                                                                                                                                                                  | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">SubCondition</span>         | The subcondition of the item. For example: <span class="ph">New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                        |
-| <span class="keyword parmname">SellerFeedbackRating</span> | <span id="Offers__d50795e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span>           | No       | Type: [SellerFeedbackRating](Products_Datatypes.md#SellerFeedbackRating "Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.") |
-| <span class="keyword parmname">ShippingTime</span>         | <span id="Offers__d50795e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span>                                                | Yes      | Type: [DetailedShippingTimeType](Products_Datatypes.md#DetailedShippingTimeType "The time range in which an item will likely be shipped once an order has been placed.")                                     |
-| <span class="keyword parmname">ListingPrice</span>         | The price of the item.                                                                                                                                                                       | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
-| <span class="keyword parmname">Points</span>               | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                                                            | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.")                                       |
-| <span class="keyword parmname">Shipping</span>             | The shipping cost.                                                                                                                                                                           | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
-| <span class="keyword parmname">ShipsFrom</span>            | <span id="Offers__d50795e1421" class="ph">The state and country from where the item is shipped.</span>                                                                                       | No       | Type: [ShipsFrom](Products_Datatypes.md#ShipsFrom "The state and country from where the item is shipped.")                                                                                                   |
-| <span class="keyword parmname">IsFulfilledByAmazon</span>  | true if the offer is fulfilled by Amazon.                                                                                                                                                    | Yes      | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">IsBuyBoxWinner</span>       | true if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.           | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">IsFeaturedMerchant</span>   | true if the seller of the item is eligible to win the Buy Box.                                                                                                                               | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
+| Name                                                       | Description                                                                                                                                                                                                                                | Required | Values                                                                                                                                                                                                         |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">MyOffer</span>              | `true` if this is your offer.                                                                                                                                                                                                              | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
+| <span class="keyword parmname">SubCondition</span>         | The subcondition of the item. For example: <span class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`, `Poor`, `Club`, `OEM`, `Warranty`, `Refurbished                     Warranty`, `Refurbished`, `Open Box`, or `Other`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                        |
+| <span class="keyword parmname">SellerFeedbackRating</span> | <span id="Offers__d50795e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span>                                                         | No       | Type: [SellerFeedbackRating](Products_Datatypes.md#SellerFeedbackRating "Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.") |
+| <span class="keyword parmname">ShippingTime</span>         | <span id="Offers__d50795e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span>                                                                                              | Yes      | Type: [DetailedShippingTimeType](Products_Datatypes.md#DetailedShippingTimeType "The time range in which an item will likely be shipped once an order has been placed.")                                     |
+| <span class="keyword parmname">ListingPrice</span>         | The price of the item.                                                                                                                                                                                                                     | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
+| <span class="keyword parmname">Points</span>               | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                                                                                                          | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.")                                       |
+| <span class="keyword parmname">Shipping</span>             | The shipping cost.                                                                                                                                                                                                                         | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
+| <span class="keyword parmname">ShipsFrom</span>            | <span id="Offers__d50795e1421" class="ph">The state and country from where the item is shipped.</span>                                                                                                                                     | No       | Type: [ShipsFrom](Products_Datatypes.md#ShipsFrom "The state and country from where the item is shipped.")                                                                                                   |
+| <span class="keyword parmname">IsFulfilledByAmazon</span>  | `true` if the offer is fulfilled by Amazon.                                                                                                                                                                                                | Yes      | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
+| <span class="keyword parmname">IsBuyBoxWinner</span>       | `true` if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.                                                       | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
+| <span class="keyword parmname">IsFeaturedMerchant</span>   | `true` if the seller of the item is eligible to win the Buy Box.                                                                                                                                                                           | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
 
 </div>
 
@@ -843,8 +840,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetLowestPricedOffersForASIN](Products_GetLowestPricedOffersForASIN.md "Returns lowest priced offers for a single product, based on ASIN.")
 

@@ -63,8 +63,7 @@ request.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -172,7 +171,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">HasNext</span></td>
-<td>A Boolean value that is always returned false because there can never be more than 100 report types scheduled.
+<td>A Boolean value that is always returned <var class="keyword varname">false</var> because there can never be more than 100 report types scheduled.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd">

@@ -67,8 +67,7 @@ you want to receive notifications at the
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

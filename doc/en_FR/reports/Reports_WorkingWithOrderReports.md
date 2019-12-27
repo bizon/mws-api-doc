@@ -48,7 +48,7 @@ report was created and the current request, no report is created. When
 you manually request an order report using the
 <span class="keyword apiname">RequestReport</span> operation, if there
 were no orders placed in the time frame specified in your request, the
-operation returns \_DONE\_NO\_DATA\_ to indicate there are no order
+operation returns `_DONE_NO_DATA_` to indicate there are no order
 reports to return.
 
 <div class="section">

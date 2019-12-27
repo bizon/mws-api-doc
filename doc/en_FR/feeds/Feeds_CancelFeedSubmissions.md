@@ -69,8 +69,7 @@ If a feed has begun processing, it cannot be canceled.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 

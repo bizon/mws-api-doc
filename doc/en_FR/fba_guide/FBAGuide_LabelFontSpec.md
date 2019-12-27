@@ -76,7 +76,7 @@ Amazon recommends the fonts listed in the following table.
 <tr class="odd">
 <td>Consolas</td>
 <td>Windows</td>
-<td>This system font is installed with Windows Vista and Microsoft Office 2007. To download Consolas, go to <a href="http://www.microsoft.com/downloads/" class="uri xref">http://www.microsoft.com/downloads/</a>.</td>
+<td>This system font is installed with Windows Vista and Microsoft Office 2007. To download Consolas, go to <a href="http://www.microsoft.com/downloads/" class="xref">http://www.microsoft.com/downloads/</a>.</td>
 </tr>
 <tr class="even">
 <td>Monaco</td>
@@ -87,7 +87,7 @@ Amazon recommends the fonts listed in the following table.
 <td>Andale Mono</td>
 <td>Mac, Linux</td>
 <td>This system font is installed with the Mac OS for version 10.4 and above.
-<p>For information about downloading Andale Mono to a Linux computer, go to <a href="http://corefonts.sourceforge.net/" class="uri xref">http://corefonts.sourceforge.net/</a>.</p></td>
+<p>For information about downloading Andale Mono to a Linux computer, go to <a href="http://corefonts.sourceforge.net/" class="xref">http://corefonts.sourceforge.net/</a>.</p></td>
 </tr>
 </tbody>
 </table>

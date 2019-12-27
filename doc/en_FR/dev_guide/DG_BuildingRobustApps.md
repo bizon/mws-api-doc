@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 Your <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
 client applications should gracefully handle changes to the reports and
 response elements that <span class="ph">Amazon MWS</span> returns, even
-without prior change notification from
-Amazon.
+without prior change notification from Amazon.
 
 <div id="DG_BuildingRobustApps__ChangesToReportsReturnedByAmazonMWS" class="section">
 
@@ -65,8 +64,7 @@ handle the following types of changes to the reports that
 validate reports returned by Amazon MWS, be sure to build error handling
 into your validation logic. Any report validation included in your
 client application should be able to gracefully handle new, unrecognized
-response elements or response element
-values.
+response elements or response element values.
 
 </div>
 

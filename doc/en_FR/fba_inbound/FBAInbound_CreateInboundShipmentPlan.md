@@ -167,23 +167,23 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
 <td><span class="keyword parmname">ShipToCountryCode</span> values for North America:
 <ul>
-<li>CA – Canada</li>
-<li>MX – Mexico</li>
-<li>US – United States</li>
+<li><var class="keyword varname">CA</var> – Canada</li>
+<li><var class="keyword varname">MX</var> – Mexico</li>
+<li><var class="keyword varname">US</var> – United States</li>
 </ul>
 <p><span class="keyword parmname">ShipToCountryCode</span> values for MCI sellers in Europe:</p>
 <ul>
-<li>DE – Germany</li>
-<li>ES – Spain</li>
-<li>FR – France</li>
-<li>GB – United Kingdom</li>
-<li>IT – Italy</li>
+<li><var class="keyword varname">DE</var> – Germany</li>
+<li><var class="keyword varname">ES</var> – Spain</li>
+<li><var class="keyword varname">FR</var> – France</li>
+<li><var class="keyword varname">GB</var> – United Kingdom</li>
+<li><var class="keyword varname">IT</var> – Italy</li>
 </ul>
 <p>Default: The country code for your home marketplace.</p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
-<td>The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, &quot;IN-MH&quot;. In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
+<td>The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, "IN-MH". In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
 <p>Only for sellers in India.</p></td>
 <td>No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
 <td>See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
@@ -195,14 +195,14 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
 <ul>
-<li>SELLER_LABEL - Seller labels the items in the inbound shipment when labels are required.</li>
-<li>AMAZON_LABEL_ONLY - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
-<li>AMAZON_LABEL_PREFERRED - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is included in the inbound shipment plan and the seller must label it.</li>
+<li><var class="keyword varname">SELLER_LABEL</var> - Seller labels the items in the inbound shipment when labels are required.</li>
+<li><var class="keyword varname">AMAZON_LABEL_ONLY</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
+<li><var class="keyword varname">AMAZON_LABEL_PREFERRED</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is included in the inbound shipment plan and the seller must label it.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Unless you are enrolled in the FBA Label Service, SELLER_LABEL is the only valid <span class="keyword parmname">LabelPrepPreference</span> value. The FBA Label Service is not available in India (IN) and is currently in beta development in Japan (JP). For more information about the FBA Label Service, see the Seller Central Help for your marketplace.
 </div>
-<p>Default: SELLER_LABEL</p>
+<p>Default: <var class="keyword varname">SELLER_LABEL</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">

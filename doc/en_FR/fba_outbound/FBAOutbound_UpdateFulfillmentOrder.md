@@ -65,7 +65,7 @@ order, see
 To ship a fulfillment order with an order hold on it, call the
 <span class="keyword apiname">UpdateFulfillmentOrder</span> operation
 for the order and specify
-<span class="keyword parmname">FulfillmentAction</span> = Ship.
+<span class="keyword parmname">FulfillmentAction</span> = `Ship`.
 
 <div class="note note">
 
@@ -162,10 +162,10 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentAction</span> values:
 <ul>
-<li>Ship - The fulfillment order ships now.</li>
-<li>Hold - The order hold remains on the fulfillment order.</li>
+<li><var class="keyword varname">Ship</var> - The fulfillment order ships now.</li>
+<li><var class="keyword varname">Hold</var> - The order hold remains on the fulfillment order.</li>
 </ul>
-<p>Default: Hold</p>
+<p>Default: <var class="keyword varname">Hold</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -198,9 +198,9 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ShippingSpeedCategory</span> values:
 <ul>
-<li>Standard - Standard shipping method.</li>
-<li>Expedited - Expedited shipping method.</li>
-<li>Priority - Priority shipping method.</li>
+<li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
+<li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
+<li><var class="keyword varname">Priority</var> - Priority shipping method.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -222,9 +222,9 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
-<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the Pending status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the Pending status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
-<li>FillAll - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
-<li>FillAllAvailable - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
+<li><var class="keyword varname">FillOrKill</var> - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the <var class="keyword varname">Pending</var> status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the <var class="keyword varname">Pending</var> status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
+<li><var class="keyword varname">FillAll</var> - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
+<li><var class="keyword varname">FillAllAvailable</var> - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
 </ul>
 <p>Default: If you specified a value with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> or <span class="keyword apiname">UpdateFulfillmentOrder</span> operation, then that value is the default. Otherwise the default is <span class="keyword parmname">FillOrKill</span>.</p>
 <p><span class="ph">Type: xs:string</span></p></td>

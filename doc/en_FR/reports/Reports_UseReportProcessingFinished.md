@@ -83,16 +83,16 @@ find out when report processing is complete.
     <span class="keyword parmname">ReportProcessingStatus</span> element
     set to one of the following values:
     
-      - DONE - The report was successfully generated. Use the
+      - `DONE` - The report was successfully generated. Use the
         **ReportId** value included in the notification as input for the
         [GetReport](../reports/Reports_GetReport.md) operation in Step
         4.
-      - CANCELLED - The report was cancelled. See the "Why are my
+      - `CANCELLED` - The report was cancelled. See the "Why are my
         reports cancelled?" section of the [Downloading
         Reports](https://sellercentral.amazon.com/forums/t/downloading-reports/185371)
         article in the <span class="ph">Amazon MWS</span> Knowledge Base
         for reasons why reports are cancelled.
-      - DONE\_NO\_DATA - The report was generated but there was no data
+      - `DONE_NO_DATA` - The report was generated but there was no data
         to report. This happens when there is no new data to report
         between consecutive report requests. Retry until there is data
         to report.

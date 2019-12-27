@@ -207,8 +207,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes</td>
 <td><span class="keyword parmname">IsPartnered</span> values:
 <ul>
-<li>true – Request is for an Amazon-partnered carrier.</li>
-<li>false – Request is for a non-Amazon-partnered carrier.</li>
+<li><var class="keyword varname">true</var> – Request is for an Amazon-partnered carrier.</li>
+<li><var class="keyword varname">false</var> – Request is for a non-Amazon-partnered carrier.</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -218,8 +218,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>Yes</td>
 <td><span class="keyword parmname">ShipmentType</span> values:
 <ul>
-<li>SP – <span class="ph">Small Parcel</span></li>
-<li>LTL – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
+<li><var class="keyword varname">SP</var> – <span class="ph">Small Parcel</span></li>
+<li><var class="keyword varname">LTL</var> – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

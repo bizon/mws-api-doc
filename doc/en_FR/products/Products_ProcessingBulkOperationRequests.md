@@ -95,13 +95,13 @@ https://mws.amazonservices.com/Products/2011-10-01
 
 A query request using the
 <span class="keyword parmname">SellerSKU</span> input parameter would be
-formed similarly, replacing \&ASINList.ASIN with
-\&SellerSKUList.SellerSKU and <span class="keyword parmname">ASIN</span>
-values with <span class="keyword parmname">SellerSKU</span> values.
-Likewise, a query request using the
-<span class="keyword parmname">Id</span> input parameter would be formed
-similarly, replacing \&ASINList.ASIN with \&IdList.Id and
+formed similarly, replacing `&ASINList.ASIN` with
+`&SellerSKUList.SellerSKU` and
 <span class="keyword parmname">ASIN</span> values with
+<span class="keyword parmname">SellerSKU</span> values. Likewise, a
+query request using the <span class="keyword parmname">Id</span> input
+parameter would be formed similarly, replacing `&ASINList.ASIN` with
+`&IdList.Id` and <span class="keyword parmname">ASIN</span> values with
 <span class="keyword parmname">Id</span> values.
 
 Bulk operations in the <span class="ph">Amazon MWS</span>
@@ -156,9 +156,9 @@ sections throughout this document.
 <td>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates whether or not data could be returned for the specified product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>).
 <p>Valid values:</p>
 <ul>
-<li>Success - Request succeeded.</li>
-<li>ClientError - Request failed. The problem was with the request.</li>
-<li>ServerError - Request failed. The problem was with the web service.</li>
+<li><var class="keyword varname">Success</var> - Request succeeded.</li>
+<li><var class="keyword varname">ClientError</var> - Request failed. The problem was with the request.</li>
+<li><var class="keyword varname">ServerError</var> - Request failed. The problem was with the web service.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -184,13 +184,13 @@ sections throughout this document.
 <tr class="odd">
 <td><span class="keyword parmname">Error</span></td>
 <td><p>The parent element of the following child elements: <span class="keyword parmname">Type</span>, <span class="keyword parmname">Code</span>, <span class="keyword parmname">Message</span>.</p>
-<p>This element is returned only if <span class="keyword parmname">status</span>=ClientError OR <span class="keyword parmname">status</span>=ServerError.</p>
+<p>This element is returned only if <span class="keyword parmname">status</span>=<var class="keyword varname">ClientError</var> OR <span class="keyword parmname">status</span>=<var class="keyword varname">ServerError</var>.</p>
 <p>Optional.</p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Code</span></td>
 <td><p>The type of error that resulted in a failed response.</p>
-<p>Example: InternalError</p>
+<p>Example: <var class="keyword varname">InternalError</var></p>
 <p>Optional.</p></td>
 </tr>
 <tr class="odd">
@@ -199,8 +199,8 @@ sections throughout this document.
 <div class="p">
 Valid values:
 <ul>
-<li>Sender - The problem was in the request.</li>
-<li>Receiver - The problem was with the web service.</li>
+<li><var class="keyword varname">Sender</var> - The problem was in the request.</li>
+<li><var class="keyword varname">Receiver</var> - The problem was with the web service.</li>
 </ul>
 </div>
 <p>Optional.</p></td>
@@ -208,7 +208,7 @@ Valid values:
 <tr class="even">
 <td><span class="keyword parmname">Message</span></td>
 <td><p>Contains a message that provides more information about the error.</p>
-<p>Example: SellerSKU1 is an invalid SellerSKU for marketplace ATVPDKIKX0DER.</p>
+<p>Example: <var class="keyword varname">SellerSKU1 is an invalid SellerSKU for marketplace                                             ATVPDKIKX0DER.</var></p>
 <p>Optional.</p></td>
 </tr>
 <tr class="odd">

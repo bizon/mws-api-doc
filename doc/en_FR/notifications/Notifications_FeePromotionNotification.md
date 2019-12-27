@@ -43,8 +43,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 benefit from time-limited fee promotions. To receive notification of
 available fee promotions, sellers must subscribe to
 <span class="keyword parmname">FeePromotion</span> notification. When
-the seller initially signs up for the subscription and isEnabled is set
-to *true*, the seller receives all currently active promotions. Each
+the seller initially signs up for the subscription and `isEnabled` is
+set to *true*, the seller receives all currently active promotions. Each
 promotion is sent as a single message. Subsequent promotion
 notifications are sent when the promotion becomes active. </span>
 
@@ -91,9 +91,9 @@ schema:
 
 <div class="tablenoborder">
 
-| Name                                                           | Description                                                                        |
-| -------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeePromotionNotification</span> | <span class="ph">The root element of the FeePromotion notification payload.</span> |
+| Name                                                           | Description                                                                          |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| <span class="keyword parmname">FeePromotionNotification</span> | <span class="ph">The root element of the `FeePromotion` notification payload.</span> |
 
 </div>
 
@@ -126,7 +126,7 @@ element is made up of the following data objects:
 <td><span class="keyword parmname">FeePromotionType</span></td>
 <td><span class="ph">The type of promotion.</span></td>
 <td>Yes</td>
-<td><span class="ph">Values: Pricing, SelectionASIN, or SelectionCategory. Additional types may become available in the future.</span>
+<td><span class="ph">Values: <var class="keyword varname">Pricing</var>, <var class="keyword varname">SelectionASIN</var>, or <var class="keyword varname">SelectionCategory</var>. Additional types may become available in the future.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -223,7 +223,7 @@ The following table describes the attributes of an item from the
 <td><span class="ph">The merchant identifier values to which this promotion will apply. </span></td>
 <td>Yes</td>
 <td><span class="ph">For example: the merchant's actual ASINs or SKUs, an actual list of brands (like <em>Nike</em>), an actual list of browse nodes.</span>
-<p>Type: List of type <a href="#IdentifierValue" class="xref" title="A description of identifier values to which this promotion applies.">IdentifierValue</a></p></td>
+<p>Type: List of type <a href="#IdentifierValue" class="xref" title="A description of identifier values to which this promotion applies."><var class="keyword varname">IdentifierValue</var></a></p></td>
 </tr>
 </tbody>
 </table>
@@ -303,8 +303,7 @@ A description of identifier values to which this promotion applies.
 ### PromotionActiveTimeRange Attributes
 
 The following table shows the child elements of the
-<span class="keyword parmname">PromotionActiveTimeRange</span>
-element:
+<span class="keyword parmname">PromotionActiveTimeRange</span> element:
 
 <div class="tablenoborder">
 
@@ -359,32 +358,32 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">FeeType</span></td>
 <td><span class="ph">The fee type which is being discounted in this promotion.</span></td>
 <td>Yes</td>
-<td><span class="ph">Allowed Fee types: ReferralFee, VariableClosingFee, PerItemFee, FBAFees, FBAPickAndPack, FBAWeightHandling, FBAOrderHandling, FBADeliveryServicesFee. </span>
+<td><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeeDiscountType</span></td>
 <td><span class="ph">The type of promotion you will be receiving for your fees.</span></td>
 <td>Yes</td>
-<td><span class="ph">Either Fixed, Discount, or Percentage points off.</span>
+<td><span class="ph">Either <var class="keyword varname">Fixed</var>, <var class="keyword varname">Discount</var>, or <var class="keyword varname">Percentage                                                 points off</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">PriceThreshold</span></td>
 <td><span class="ph">The qualifying threshold offer price, or less, that must be met for the promotion to apply.</span></td>
 <td>No</td>
-<td><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<td><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeeDiscountMonetaryAmount</span></td>
-<td><span class="ph">The amount you will receive off of your fees if the FeeDiscountType involves a monetary amount.</span></td>
+<td><span class="ph">The amount you will receive off of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a monetary amount.</span></td>
 <td>No</td>
 <td><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a monetary amount, this value will be populated.</span>
-<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FeeDiscountValue</span></td>
-<td><span class="ph">The percentage discount of your fees if the FeeDiscountType involves a non-monetary amount.</span></td>
+<td><span class="ph">The percentage discount of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a non-monetary amount.</span></td>
 <td>No</td>
 <td><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a non-monetary amount, this value will be populated.</span>
 <p><span class="ph">Type: xs:BigDecimal</span></p></td>
@@ -393,7 +392,7 @@ The following table shows the child elements of the
 <td><span class="keyword parmname">FeesEstimate</span></td>
 <td><span class="ph">The fee estimate for this promotion, if it is available. The estimate assumes that all condition required for the promotion have been met.</span></td>
 <td>No</td>
-<td>Type: <a href="#FeeEstimate" class="xref" title="The details of the fee estimate for this promotion, if it is available.">FeesEstimate</a></td>
+<td>Type: <a href="#FeeEstimate" class="xref" title="The details of the fee estimate for this promotion, if it is available."><var class="keyword varname">FeesEstimate</var></a></td>
 </tr>
 </tbody>
 </table>
@@ -420,16 +419,15 @@ it is available.</span>
 ### FeesEstimate Attributes
 
 The following table shows the child elements of the
-<span class="keyword parmname">FeesEstimate</span>
-element:
+<span class="keyword parmname">FeesEstimate</span> element:
 
 <div class="tablenoborder">
 
-| Name                                                      | Description                                                                                               | Required | Value                                                                                                                                                                  |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">TimeOfFeesEstimated</span> | <span class="ph">The date time when the fees were estimated.</span>                                       | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                                                                              |
-| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: [MoneyType](Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes)</span>                          |
-| <span class="keyword parmname">FeeDetailList</span>       | <span class="ph">An itemization of the TotalFeesEstimate).</span>                                         | Yes      | Type: List of [FeeDetail](#FeeDetail "The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed.") |
+| Name                                                      | Description                                                                                               | Required | Value                                                                                                                                                                    |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <span class="keyword parmname">TimeOfFeesEstimated</span> | <span class="ph">The date time when the fees were estimated.</span>                                       | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                                                                                |
+| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: [`MoneyType`](Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes)</span>                          |
+| <span class="keyword parmname">FeeDetailList</span>       | <span class="ph">An itemization of the `TotalFeesEstimate`).</span>                                       | Yes      | Type: List of [`FeeDetail`](#FeeDetail "The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed.") |
 
 </div>
 
@@ -478,39 +476,39 @@ The following table shows the attributes of a
 <td><span class="keyword parmname">FeeType</span></td>
 <td><span class="ph">The type of fees charged.</span></td>
 <td>Yes</td>
-<td><span class="ph">Allowed Fee types: ReferralFee, VariableClosingFee, PerItemFee, FBAFees, FBAPickAndPack, FBAWeightHandling, FBAOrderHandling, FBADeliveryServicesFee. </span>
+<td><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">FeeAmount</span></td>
 <td><span class="ph"> The fee amount corresponding to the fee type.</span></td>
 <td>Yes</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FeePromotion</span></td>
 <td><span class="ph"> The fee promotion amount corresponding to the fee type.</span></td>
 <td>No</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">TaxAmount</span></td>
 <td><span class="ph"> The tax calculated over fee that would be charged to the seller.</span></td>
 <td>No</td>
-<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></td>
+<td><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">FinalFee</span></td>
 <td><span class="ph">The final fee that would be charged to the seller.</span></td>
 <td>Yes</td>
-<td><span class="ph">The FeeAmount minus the FeePromotion.</span>
-<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref">MoneyType</a></span></p></td>
+<td><span class="ph">The <var class="keyword varname">FeeAmount</var> minus the <var class="keyword varname">FeePromotion</var>.</span>
+<p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IncludedFeeDetailList</span></td>
 <td><span class="ph"> A structured list of FeeDetail that contains the itemization of a specific fee type.</span></td>
 <td>No</td>
-<td>Type: List of <a href="#FeeDetail" class="xref" title="The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed.">FeeDetail</a></td>
+<td>Type: List of <a href="#FeeDetail" class="xref" title="The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed."><var class="keyword varname">FeeDetail</var></a></td>
 </tr>
 </tbody>
 </table>

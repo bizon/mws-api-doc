@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the request parameters and response
 elements of the Amazon Marketplace Web Service (Amazon MWS)
-<span class="ph">Subscriptions API
-section</span>:
+<span class="ph">Subscriptions API section</span>:
 
 <div class="tablenoborder">
 
@@ -79,7 +78,7 @@ differ depending on the
 <div class="tablenoborder">
 
 <span class="desc tabledesc"><span class="keyword parmname">AttributeKeyValue</span>
-values for the SQS
+values for the `SQS`
 <span class="keyword parmname">DeliveryChannel</span>:</span>
 
 Name
@@ -116,7 +115,7 @@ Yes
 
 <span class="keyword parmname">Key</span> values:
 
-  - sqsQueueUrl
+  - `sqsQueueUrl`
 
 <span class="keyword parmname">Value</span>
 
@@ -173,7 +172,7 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">DeliveryChannel</span> values:
 <ul>
-<li>SQS</li>
+<li><var class="keyword varname">SQS</var></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -247,7 +246,7 @@ The following table shows the elements of the
 <td>Indicates whether to enable subscriptions of the given notification type at the given destination.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 <td>Yes</td>
-<td>true if you want to enable the subscription at the destination; otherwise, false.</td>
+<td><var class="keyword varname">true</var> if you want to enable the subscription at the destination; otherwise, <var class="keyword varname">false</var>.</td>
 </tr>
 </tbody>
 </table>

@@ -77,8 +77,8 @@ The process for submitting feeds is as follows:
     As with all submissions to <span class="ph">Amazon MWS</span>, you
     must also include authentication information. The
     <span class="keyword apiname">SubmitFeed</span> operation returns a
-    FeedSubmissionId, which you can use to periodically check the status
-    of the feed using the
+    `FeedSubmissionId`, which you can use to periodically check the
+    status of the feed using the
     <span class="keyword apiname">GetFeedSubmissionList</span>
     operation.
     <div class="note note">
@@ -99,8 +99,8 @@ The process for submitting feeds is as follows:
     the <span class="keyword parmname">FeedProcessingStatus</span>
     element of the
     <span class="keyword apiname">GetFeedSubmissionList</span> operation
-    returns a status of \_IN\_PROGRESS\_. If the processing is complete,
-    a status of \_DONE\_ is returned.
+    returns a status of `_IN_PROGRESS_`. If the processing is complete,
+    a status of `_DONE_` is returned.
 3.  When the feed processing is complete, you can use the
     <span class="keyword apiname">GetFeedSubmissionResult</span>
     operation to receive a processing report that describes which

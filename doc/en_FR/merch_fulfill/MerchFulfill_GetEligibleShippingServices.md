@@ -54,7 +54,7 @@ operation returns a list of shipping service offers that satisfy the
 shipment request details that you specify. Use this operation to find a
 shipping service offer that meets your requirements. If the shipping
 service offer that you choose requires additional seller inputs (when
-<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=true),
+<span class="keyword parmname">RequiresAdditionalSellerInputs</span>=`true`),
 you must call the
 [GetAdditionalSellerInputs](MerchFulfill_GetAdditionalSellerInputs.md "Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.")
 operation to find out which additional seller inputs are required.
@@ -87,8 +87,7 @@ restore rate of five requests every second. For definitions of
 throttling terminology and for a complete explanation of throttling, see
 [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -180,7 +179,7 @@ code</span> </span>
 <div class="sectiondiv content">
 
 For domestic shipping
-(\&ShippingOfferingFilter.IncludeComplexShippingOptions=false)
+(`&ShippingOfferingFilter.IncludeComplexShippingOptions=false`)
 
 ``` pre codeblock
 https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
@@ -218,7 +217,7 @@ https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
 ```
 
 For international shipping
-(\&ShippingOfferingFilter.IncludeComplexShippingOptions=true)
+(`&ShippingOfferingFilter.IncludeComplexShippingOptions=true`)
 
 ``` pre codeblock
 https://mws.amazonservices.com/MerchantFulfillment/2015-06-01

@@ -47,8 +47,7 @@ To prepare your items for shipping, do the following:
     conforms to Amazon's product packaging requirements.</span>
     <div class="itemgroup info">
     For more information, see the Fulfillment by Amazon Prep
-    instructions for your
-    marketplace:
+    instructions for your marketplace:
     <div class="tablenoborder">
     | Country | FBA Prep Instructions                                                                           |
     | ------- | ----------------------------------------------------------------------------------------------- |

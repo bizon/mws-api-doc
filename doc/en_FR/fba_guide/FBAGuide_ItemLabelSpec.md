@@ -119,7 +119,7 @@ tracking.
 </tr>
 <tr class="even">
 <td>Height</td>
-<td>Greater than 0.25&quot; (6.3 mm), or 15% of the barcode length.</td>
+<td>Greater than 0.25" (6.3 mm), or 15% of the barcode length.</td>
 </tr>
 <tr class="odd">
 <td>Narrow barcode element</td>
@@ -135,11 +135,11 @@ tracking.
 </tr>
 <tr class="odd">
 <td>Quiet zone (sides)</td>
-<td>Greater than 0.25&quot; (6.4 mm)</td>
+<td>Greater than 0.25" (6.4 mm)</td>
 </tr>
 <tr class="even">
 <td>Quiet zone (top and bottom)</td>
-<td>Greater than 0.125&quot; (3.2 mm)</td>
+<td>Greater than 0.125" (3.2 mm)</td>
 </tr>
 </tbody>
 </table>

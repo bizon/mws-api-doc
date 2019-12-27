@@ -54,8 +54,7 @@ accurately.
     section</span>.
 
 2.  Include your shipment tracking numbers using the
-    <span class="keyword parmname">TrackingId</span> parameter.
-    Example:
+    <span class="keyword parmname">TrackingId</span> parameter. Example:
     
     ``` pre codeblock
     &TransportDetails.NonPartneredSmallParcelData.PackageList.member.1.TrackingId=A135KKEKWF1J5666

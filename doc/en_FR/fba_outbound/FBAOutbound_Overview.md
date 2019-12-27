@@ -48,8 +48,7 @@ for any existing fulfillment order. You can also return items to the
 fulfillment network that you fulfilled using this service.
 
 The following operations are included in the
-<span class="ph">Fulfillment Outbound Shipment API
-section</span>:
+<span class="ph">Fulfillment Outbound Shipment API section</span>:
 
 <div class="tablenoborder">
 
@@ -73,8 +72,7 @@ section</span>:
 
 ## Terminology
 
-The following table defines terminology for this API
-section:
+The following table defines terminology for this API section:
 
 <div class="tablenoborder">
 

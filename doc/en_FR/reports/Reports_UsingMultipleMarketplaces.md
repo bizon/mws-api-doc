@@ -74,8 +74,7 @@ marketplaces within the default country locale are shown.
 <span class="ph">Amazon MWS</span> <span class="ph">Sellers API
 section</span> to determine what
 <span class="keyword parmname">MarketplaceId</span> values are
-associated with your
-<span class="keyword parmname">SellerId</span>.
+associated with your <span class="keyword parmname">SellerId</span>.
 
 </div>
 
@@ -112,8 +111,7 @@ report request. For a list of
 <span class="keyword parmname">MarketplaceId</span> values, see [Amazon
 MWS endpoints and MarketplaceId values](../dev_guide/DG_Endpoints.md).
 You can also specify a <span class="ph">Checkout by Amazon</span>
-<span class="keyword parmname">MarketplaceId</span>
-value.
+<span class="keyword parmname">MarketplaceId</span> value.
 
 </div>
 
@@ -167,8 +165,7 @@ request with multiple
 The [Listings
 Reports](Reports_ReportType.md#ReportTypeCategories__ListingsReports)
 in the "ReportType enumeration" topic can only provide information for
-one marketplace per
-request.
+one marketplace per request.
 
 </div>
 
@@ -215,8 +212,7 @@ Reports](Reports_ReportType.md#ReportTypeCategories__OrderTrackingReports)
 in the "ReportType enumeration" topic return orders from all of the
 marketplaces that you are registered in even if you specify only a
 subset of the marketplaces that you are registered in when you submit a
-report
-request.
+report request.
 
 </div>
 

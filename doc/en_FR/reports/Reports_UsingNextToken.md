@@ -59,13 +59,13 @@ other Amazon MWS API sections.
 1.  Submit an operation.
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns false, there are no more response elements to
+    element returns `false`, there are no more response elements to
     return. Task is complete.
     
     OR
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns true, there are more response elements to return.
+    element returns `true`, there are more response elements to return.
     Continue to Step 2.
 
 2.  Submit the “ByNextToken” operation that matches the operation you
@@ -76,18 +76,18 @@ other Amazon MWS API sections.
     returned in Step 1.
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns false, there are no more response elements to
+    element returns `false`, there are no more response elements to
     return. Task is complete.
     
     OR
     
     If the <span class="keyword parmname">HasNext</span> response
-    element returns true, there are more response elements to return.
+    element returns `true`, there are more response elements to return.
     Continue to Step 3.
 
 3.  Continue submitting the “ByNextToken” operation until the
     <span class="keyword parmname">HasNext</span> response element
-    returns false.
+    returns `false`.
 
 <div class="note note">
 
@@ -95,7 +95,7 @@ other Amazon MWS API sections.
 <span class="keyword apiname">GetReportList</span> or
 <span class="keyword apiname">GetReportListByNextToken</span>
 operations, be sure that <span class="keyword parmname">HasNext</span>
-returns false before submitting the
+returns `false` before submitting the
 <span class="keyword apiname">UpdateReportAcknowledgements</span>
 operation. This helps to ensure that all of the reports that match your
 query parameters are returned. For more information, see

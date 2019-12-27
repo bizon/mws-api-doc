@@ -90,12 +90,12 @@ example below, the inbound shipment contains 500 items.
         <span class="keyword parmname">ShipmentId</span> = FBAEX0001,
         <span class="keyword parmname">DestinationFulfillmentCenterId</span>
         = RNO1 <span class="keyword parmname">LabelPrepType</span> =
-        NO\_LABEL
+        `NO_LABEL`
       - Plan 2: 150 items,
         <span class="keyword parmname">ShipmentId</span> = FBAEX0002,
         <span class="keyword parmname">DestinationFulfillmentCenterId</span>
         = PHX3, <span class="keyword parmname">LabelPrepType</span> =
-        NO\_LABEL
+        `NO_LABEL`
 
 2.  Call the <span class="keyword apiname">CreateInboundShipment</span>
     operation twice to create the following two inbound shipments:
@@ -113,12 +113,12 @@ example below, the inbound shipment contains 500 items.
         <span class="keyword parmname">ShipmentId</span> = FBAEX0003,
         <span class="keyword parmname">DestinationFulfillmentCenterId</span>
         = RNO1, <span class="keyword parmname">LabelPrepType</span> =
-        NO\_LABEL
+        `NO_LABEL`
       - Plan 4: 20 items,
         <span class="keyword parmname">ShipmentId</span> = FBAEX0004,
         <span class="keyword parmname">DestinationFulfillmentCenterId</span>
         = RNO1, <span class="keyword parmname">LabelPrepType</span> =
-        SELLER\_LABEL
+        `SELLER_LABEL`
 
 4.  Call the <span class="keyword apiname">UpdateInboundShipment</span>
     operation to add the 180 items from Plan 3 to shipment FBAEX0001, as
@@ -143,7 +143,7 @@ example below, the inbound shipment contains 500 items.
         <span class="keyword parmname">ShipmentId</span>: FBAEX0005,
         <span class="keyword parmname">DestinationFulfillmentCenterId</span>:
         PHX3, <span class="keyword parmname">LabelPrepType</span>:
-        NO\_LABEL
+        `NO_LABEL`
 
 7.  Call the <span class="keyword apiname">UpdateInboundShipment</span>
     operation to add the 100 items from Plan 5 to shipment FBAEX0002, as
@@ -156,15 +156,15 @@ The following three inbound shipments have been created:
   - Shipment FBAEX0001: 50 + 180 items,
     <span class="keyword parmname">DestinationFulfillmentCenterId</span>
     = RNO1, <span class="keyword parmname">LabelPrepType</span> =
-    NO\_LABEL
+    `NO_LABEL`
   - Shipment FBAEX0002: 150 + 100 items,
     <span class="keyword parmname">DestinationFulfillmentCenterId</span>
     = PHX3, <span class="keyword parmname">LabelPrepType</span> =
-    NO\_LABEL
+    `NO_LABEL`
   - Shipment FBAEX0004: 20 items,
     <span class="keyword parmname">DestinationFulfillmentCenterId</span>
     = RNO1, <span class="keyword parmname">LabelPrepType</span> =
-    SELLER\_LABEL
+    `SELLER_LABEL`
 
 For more information, see [Fulfillment Inbound Shipment
 API](../fba_inbound/FBAInbound_Overview.md).

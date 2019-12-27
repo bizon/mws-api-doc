@@ -136,8 +136,7 @@ The following example shows an error response:
 <div class="body">
 
 XML responses are limited to the Unicode characters compatible with the
-[Extensible Markup Language (XML)
-1.0](https://www.w3.org/TR/REC-xml/):
+[Extensible Markup Language (XML) 1.0](https://www.w3.org/TR/REC-xml/):
 
 ``` pre codeblock
 Char ::= #x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]

@@ -47,8 +47,7 @@ by Amazon</span> inventory regardless of whether you are selling your
 inventory on Amazon's retail web site or through other retail channels.
 
 The following operations are included in the
-<span class="ph">Fulfillment Inventory API
-section</span>:
+<span class="ph">Fulfillment Inventory API section</span>:
 
 <div class="tablenoborder">
 

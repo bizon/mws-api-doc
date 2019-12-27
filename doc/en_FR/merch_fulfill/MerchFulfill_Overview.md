@@ -97,8 +97,7 @@ error. See [Error codes](MerchFulfill_ErrorCodes.md).
 ## Operations
 
 These operations are included in the <span class="ph">Merchant
-Fulfillment
-service</span>
+Fulfillment service</span>
 
 <div class="tablenoborder">
 

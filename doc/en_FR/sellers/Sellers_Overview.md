@@ -50,8 +50,7 @@ listings in that marketplace.
 <div class="section">
 
 The following operations are included in the <span class="ph">Sellers
-API
-section</span>:
+API section</span>:
 
 <div class="p">
 
@@ -73,8 +72,7 @@ section</span>:
 
 ## Terminology
 
-The following table defines terminology for this API
-section:
+The following table defines terminology for this API section:
 
 <div class="tablenoborder">
 

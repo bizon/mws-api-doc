@@ -139,10 +139,10 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ResponseGroup</span> values:
 <ul>
-<li>Basic - Does not include the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
-<li>Detailed - Includes the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
+<li><var class="keyword varname">Basic</var> - Does not include the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
+<li><var class="keyword varname">Detailed</var> - Includes the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
 </ul>
-<p>Default: Basic</p>
+<p>Default: <var class="keyword varname">Basic</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">

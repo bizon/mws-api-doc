@@ -50,7 +50,7 @@ operation does the following:
     slot. This is a window of time when the seller can expect their
     package to be picked up for delivery to the buyer.
   - Marks the <span class="ph">Amazon Easy Ship</span> order status as
-    WaitingForPickup. You can check the status of
+    `WaitingForPickup`. You can check the status of
     <span class="ph">Amazon Easy Ship</span> orders by calling the
     [ListOrders](../orders-2013-09-01/Orders_ListOrders.md) operation
     of the Orders API section and examining the
@@ -110,8 +110,7 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 are required for all <span class="ph">Amazon MWS</span> operations, see
 <span class="ph">[Required request
 parameters](../dev_guide/DG_RequiredRequestParameters.md)</span> in
-the <span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div class="tablenoborder">
 

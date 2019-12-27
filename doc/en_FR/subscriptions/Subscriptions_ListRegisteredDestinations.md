@@ -56,8 +56,7 @@ registered to receive notifications by calling the
 
 ### Availability
 
-This operation is available in all marketplaces except
-Mexico.
+This operation is available in all marketplaces except Mexico.
 
 </div>
 

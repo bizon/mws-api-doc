@@ -63,8 +63,7 @@ product, and it does not return the
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -157,11 +156,11 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>No</td>
 <td><span class="keyword parmname">ItemCondition</span> values:
 <ul>
-<li>New</li>
-<li>Used</li>
-<li>Collectible</li>
-<li>Refurbished</li>
-<li>Club</li>
+<li><var class="keyword varname">New</var></li>
+<li><var class="keyword varname">Used</var></li>
+<li><var class="keyword varname">Collectible</var></li>
+<li><var class="keyword varname">Refurbished</var></li>
+<li><var class="keyword varname">Club</var></li>
 </ul>
 <p>Default: All</p></td>
 </tr>
@@ -234,17 +233,17 @@ key elements that are returned by the
 <td>The fulfillment channel for the offer listing.
 <p>Valid values:</p>
 <ul>
-<li>Amazon - Fulfilled by Amazon.</li>
-<li>Merchant - Fulfilled by the seller.</li>
+<li><var class="keyword varname">Amazon</var> - Fulfilled by Amazon.</li>
+<li><var class="keyword varname">Merchant</var> - Fulfilled by the seller.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition for the offer listing. Valid values: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.</td>
+<td>The item condition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ItemSubCondition</span></td>
-<td>The item subcondition for the offer listing. Valid values: <span class="ph">New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, or Other</span>.</td>
+<td>The item subcondition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">SellerId</span></td>
@@ -385,8 +384,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetMyPriceForSKU](Products_GetMyPriceForSKU.md "Returns pricing information for your own active offer listings, based on SellerSKU.")
 

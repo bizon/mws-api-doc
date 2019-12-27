@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Products API
-section</span>:
+<span class="ph">Products API section</span>:
 
 <div class="tablenoborder">
 
@@ -116,9 +115,9 @@ Box.</span>
 
 <div class="tablenoborder">
 
-| Name      | Description                                                                                                             | Required | Values                                  |
-| --------- | ----------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| condition | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>. | Yes      | <span class="ph">Type: xs:string</span> |
+| Name        | Description                                                                                                                       | Required | Values                                  |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+| `condition` | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
 
@@ -177,27 +176,27 @@ once an order has been placed.</span>
 </thead>
 <tbody>
 <tr class="odd">
-<td>minimumHours</td>
+<td><var class="keyword varname">minimumHours</var></td>
 <td>The minimum time, in hours, that the item will likely be shipped after the order has been placed.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:short</span></td>
 </tr>
 <tr class="even">
-<td>maximumHours</td>
+<td><var class="keyword varname">maximumHours</var></td>
 <td>The maximum time, in hours, that the item will likely be shipped after the order has been placed.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:short</span></td>
 </tr>
 <tr class="odd">
-<td>availableDate</td>
+<td><var class="keyword varname">availableDate</var></td>
 <td>The date when the item will be available for shipping. Only displayed for items that are not currently available for shipping.</td>
 <td>No</td>
 <td><span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even">
-<td>availabilityType</td>
-<td><span id="DetailedShippingTimeType__d50795e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the availableDate attribute indicates the date that the item will be available for shipping.</td>
+<td><var class="keyword varname">availabilityType</var></td>
+<td><span id="DetailedShippingTimeType__d50795e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.</td>
 <td>No</td>
 <td>Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
 </tr>
@@ -228,8 +227,7 @@ once an order has been placed.</span>
 Fee Schedule](https://sellercentral.amazon.co.uk/gp/help/200336920) and
 [FBA features and
 fees](https://sellercentral-europe.amazon.com/gp/help/201074400) on
-Seller
-Central.</span>
+Seller Central.</span>
 
 <div class="tablenoborder">
 
@@ -319,7 +317,7 @@ other details that identify an estimate.</span>
 <td><span class="keyword parmname">IdType</span></td>
 <td>The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">IdType</span> values: ASIN, SellerSKU
+<td><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -336,7 +334,7 @@ other details that identify an estimate.</span>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsAmazonFulfilled</span></td>
-<td>true if the offer is fulfilled by Amazon.</td>
+<td><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -404,7 +402,7 @@ request estimated fees.</span>
 <td><span class="keyword parmname">IdType</span></td>
 <td>The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">IdType</span> values: ASIN, SellerSKU
+<td><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -427,7 +425,7 @@ request estimated fees.</span>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsAmazonFulfilled</span></td>
-<td>true if the offer is fulfilled by Amazon.</td>
+<td><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -489,7 +487,7 @@ product.</span>
 <td><span class="keyword parmname">Status</span></td>
 <td>The status of the fee request.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: Success, ClientError, ServiceError
+<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ClientError</var>, <var class="keyword varname">ServiceError</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -503,7 +501,7 @@ product.</span>
 
 </div>
 
-For information on handling the Status or Error elements, see
+For information on handling the `Status` or `Error` elements, see
 [Processing bulk operation
 requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
 
@@ -557,8 +555,8 @@ the seller.</span>
 
 **Values:**
 
-  - Amazon
-  - Merchant
+  - `Amazon`
+  - `Merchant`
 
 </div>
 
@@ -572,8 +570,7 @@ the seller.</span>
 
 <div class="body refbody">
 
-<span class="ph">The lowest price of an
-item.</span>
+<span class="ph">The lowest price of an item.</span>
 
 <div class="section">
 
@@ -581,10 +578,10 @@ item.</span>
 
 <div class="tablenoborder">
 
-| Name               | Description                                                                                                               | Required | Values                                                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.   | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="LowestPrice__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| Name                 | Description                                                                                                                       | Required | Values                                                                                                                                               |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
+| `fulfillmentChannel` | <span id="LowestPrice__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>         | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -711,8 +708,7 @@ One of the following:
 <div class="body refbody">
 
 <span class="ph">The number of offers in a fulfillment channel that meet
-a specific
-condition.</span>
+a specific condition.</span>
 
 <div class="section">
 
@@ -720,10 +716,10 @@ condition.</span>
 
 <div class="tablenoborder">
 
-| Name               | Description                                                                                                              | Required | Values                                                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| condition          | Indicates the condition of the item. For example: <span class="ph">New, Used, Collectible, Refurbished, or Club</span>.  | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| fulfillmentChannel | <span id="OfferCount__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span> | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| Name                 | Description                                                                                                                       | Required | Values                                                                                                                                               |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
+| `fulfillmentChannel` | <span id="OfferCount__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>          | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -750,8 +746,7 @@ xs:int</span>.
 <div class="body refbody">
 
 <span class="ph">The total number of offers for the specified condition
-and fulfillment
-channel.</span>
+and fulfillment channel.</span>
 
 <div class="section">
 
@@ -779,8 +774,7 @@ channel.</span>
 
 <span class="ph">The number of <span class="ph">Amazon Points</span>
 offered with the purchase of an item.</span> The <span class="ph">Amazon
-Points</span> program is only available in
-Japan.
+Points</span> program is only available in Japan.
 
 <div class="section">
 

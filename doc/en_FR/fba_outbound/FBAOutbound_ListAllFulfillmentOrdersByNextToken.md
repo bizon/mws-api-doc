@@ -79,8 +79,7 @@ operations together share a **maximum request quota** of 30 and a
 definitions of throttling terminology and for a complete explanation of
 throttling, see [Throttling: Limits to how often you can submit
 requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer
-Guide</span>.</span>
+<span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 

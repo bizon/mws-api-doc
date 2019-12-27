@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 Fulfillment center instructions on shipping labels should be in the
 local language of the Amazon fulfillment center that is receiving the
 shipment. The following tables show common fulfillment center
-instructions translated into several
-languages.
+instructions translated into several languages.
 
 <div class="tablenoborder">
 

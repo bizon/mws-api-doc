@@ -55,7 +55,7 @@ and [CreateShipment](MerchFulfill_CreateShipment.md) operations. If
 you specify a
 <span class="keyword parmname">PredefinedPackageDimensions</span> token,
 you are not obligated to use a branded package from a carrier. For
-example, if you specify the FedEx\_Box\_10kg token, you do not have to
+example, if you specify the `FedEx_Box_10kg` token, you do not have to
 use that particular package from FedEx. You are only obligated to use a
 box that matches the dimensions specified by the token.
 
@@ -75,58 +75,58 @@ Envelope or Box.
 
 <div class="tablenoborder">
 
-| Token                           | Dimensions                 |
-| ------------------------------- | -------------------------- |
-| FedEx\_Box\_10kg                | 15.81 x 12.94 x 10.19 in   |
-| FedEx\_Box\_25kg                | 54.80 x 42.10 x 33.50 in   |
-| FedEx\_Box\_Extra\_Large\_1     | 11.88 x 11.00 x 10.75 in   |
-| FedEx\_Box\_Extra\_Large\_2     | 15.75 x 14.13 x 6.00 in    |
-| FedEx\_Box\_Large\_1            | 17.50 x 12.38 x 3.00 in    |
-| FedEx\_Box\_Large\_2            | 11.25 x 8.75 x 7.75 in     |
-| FedEx\_Box\_Medium\_1           | 13.25 x 11.50 x 2.38 in    |
-| FedEx\_Box\_Medium\_2           | 11.25 x 8.75 x 4.38 in     |
-| FedEx\_Box\_Small\_1            | 12.38 x 10.88 x 1.50 in    |
-| FedEx\_Box\_Small\_2            | 8.75 x 2.63 x 11.25 in     |
-| FedEx\_Envelope                 | 12.50 x 9.50 x 0.80 in     |
-| FedEx\_Padded\_Pak              | 11.75 x 14.75 x 2.00 in    |
-| FedEx\_Pak\_1                   | 15.50 x 12.00 x 0.80 in    |
-| FedEx\_Pak\_2                   | 12.75 x 10.25 x 0.80 in    |
-| FedEx\_Tube                     | 38.00 x 6.00 x 6.00 in     |
-| FedEx\_XL\_Pak                  | 17.50 x 20.75 x 2.00 in    |
-| UPS\_Box\_10kg                  | 41.00 x 33.50 x 26.50 cm   |
-| UPS\_Box\_25kg                  | 48.40 x 43.30 x 35.00 cm   |
-| UPS\_Express\_Box               | 46.00 x 31.50 x 9.50 cm    |
-| UPS\_Express\_Box\_Large        | 18.00 x 13.00 x 3.00 in    |
-| UPS\_Express\_Box\_Medium       | 15.00 x 11.00 x 3.00 in    |
-| UPS\_Express\_Box\_Small        | 13.00 x 11.00 x 2.00 in    |
-| UPS\_Express\_Envelope          | 12.50 x 9.50 x 2.00 in     |
-| UPS\_Express\_Hard\_Pak         | 14.75 x 11.50 x 2.00 in    |
-| UPS\_Express\_Legal\_Envelope   | 15.00 x 9.50 x 2.00 in     |
-| UPS\_Express\_Pak               | 16.00 x 12.75 x 2.00 in    |
-| UPS\_Express\_Tube              | 97.00 x 19.00 x 16.50 cm   |
-| UPS\_Laboratory\_Pak            | 17.25 x 12.75 x 2.00 in    |
-| UPS\_Pad\_Pak                   | 14.75 x 11.00 x 2.00 in    |
-| UPS\_Pallet                     | 120.00 x 80.00 x 200.00 cm |
-| USPS\_Card                      | 6.00 x 4.25 x 0.01 in      |
-| USPS\_Flat                      | 15.00 x 12.00 x 0.75 in    |
-| USPS\_FlatRateCardboardEnvelope | 12.50 x 9.50 x 4.00 in     |
-| USPS\_FlatRateEnvelope          | 12.50 x 9.50 x 4.00 in     |
-| USPS\_FlatRateGiftCardEnvelope  | 10.00 x 7.00 x 4.00 in     |
-| USPS\_FlatRateLegalEnvelope     | 15.00 x 9.50 x 4.00 in     |
-| USPS\_FlatRatePaddedEnvelope    | 12.50 x 9.50 x 4.00 in     |
-| USPS\_FlatRateWindowEnvelope    | 10.00 x 5.00 x 4.00 in     |
-| USPS\_LargeFlatRateBoardGameBox | 24.06 x 11.88 x 3.13 in    |
-| USPS\_LargeFlatRateBox          | 12.25 x 12.25 x 6.00 in    |
-| USPS\_Letter                    | 11.50 x 6.13 x 0.25 in     |
-| USPS\_MediumFlatRateBox1        | 11.25 x 8.75 x 6.00 in     |
-| USPS\_MediumFlatRateBox2        | 14.00 x 12.00 x 3.50 in    |
-| USPS\_RegionalRateBoxA1         | 10.13 x 7.13 x 5.00 in     |
-| USPS\_RegionalRateBoxA2         | 13.06 x 11.06 x 2.50 in    |
-| USPS\_RegionalRateBoxB1         | 16.25 x 14.50 x 3.00 in    |
-| USPS\_RegionalRateBoxB2         | 12.25 x 10.50 x 5.50 in    |
-| USPS\_RegionalRateBoxC          | 15.00 x 12.00 x 12.00 in   |
-| USPS\_SmallFlatRateBox          | 8.69 x 5.44 x 1.75 in      |
-| USPS\_SmallFlatRateEnvelope     | 10.00 x 6.00 x 4.00 in     |
+| Token                            | Dimensions                 |
+| -------------------------------- | -------------------------- |
+| `FedEx_Box_10kg`                 | 15.81 x 12.94 x 10.19 in   |
+| `FedEx_Box_25kg`                 | 54.80 x 42.10 x 33.50 in   |
+| `FedEx_Box_Extra_Large_1`        | 11.88 x 11.00 x 10.75 in   |
+| `FedEx_Box_Extra_Large_2`        | 15.75 x 14.13 x 6.00 in    |
+| `FedEx_Box_Large_1`              | 17.50 x 12.38 x 3.00 in    |
+| `FedEx_Box_Large_2`              | 11.25 x 8.75 x 7.75 in     |
+| `FedEx_Box_Medium_1`             | 13.25 x 11.50 x 2.38 in    |
+| `FedEx_Box_Medium_2`             | 11.25 x 8.75 x 4.38 in     |
+| `FedEx_Box_Small_1`              | 12.38 x 10.88 x 1.50 in    |
+| `FedEx_Box_Small_2`              | 8.75 x 2.63 x 11.25 in     |
+| `FedEx_Envelope`                 | 12.50 x 9.50 x 0.80 in     |
+| `FedEx_Padded_Pak`               | 11.75 x 14.75 x 2.00 in    |
+| `FedEx_Pak_1`                    | 15.50 x 12.00 x 0.80 in    |
+| `FedEx_Pak_2`                    | 12.75 x 10.25 x 0.80 in    |
+| `FedEx_Tube`                     | 38.00 x 6.00 x 6.00 in     |
+| `FedEx_XL_Pak`                   | 17.50 x 20.75 x 2.00 in    |
+| `UPS_Box_10kg`                   | 41.00 x 33.50 x 26.50 cm   |
+| `UPS_Box_25kg`                   | 48.40 x 43.30 x 35.00 cm   |
+| `UPS_Express_Box`                | 46.00 x 31.50 x 9.50 cm    |
+| `UPS_Express_Box_Large`          | 18.00 x 13.00 x 3.00 in    |
+| `UPS_Express_Box_Medium`         | 15.00 x 11.00 x 3.00 in    |
+| `UPS_Express_Box_Small`          | 13.00 x 11.00 x 2.00 in    |
+| `UPS_Express_Envelope`           | 12.50 x 9.50 x 2.00 in     |
+| `UPS_Express_Hard_Pak`           | 14.75 x 11.50 x 2.00 in    |
+| `UPS_Express_Legal_Envelope`     | 15.00 x 9.50 x 2.00 in     |
+| `UPS_Express_Pak`                | 16.00 x 12.75 x 2.00 in    |
+| `UPS_Express_Tube`               | 97.00 x 19.00 x 16.50 cm   |
+| `UPS_Laboratory_Pak`             | 17.25 x 12.75 x 2.00 in    |
+| `UPS_Pad_Pak`                    | 14.75 x 11.00 x 2.00 in    |
+| `UPS_Pallet`                     | 120.00 x 80.00 x 200.00 cm |
+| `USPS_Card`                      | 6.00 x 4.25 x 0.01 in      |
+| `USPS_Flat`                      | 15.00 x 12.00 x 0.75 in    |
+| `USPS_FlatRateCardboardEnvelope` | 12.50 x 9.50 x 4.00 in     |
+| `USPS_FlatRateEnvelope`          | 12.50 x 9.50 x 4.00 in     |
+| `USPS_FlatRateGiftCardEnvelope`  | 10.00 x 7.00 x 4.00 in     |
+| `USPS_FlatRateLegalEnvelope`     | 15.00 x 9.50 x 4.00 in     |
+| `USPS_FlatRatePaddedEnvelope`    | 12.50 x 9.50 x 4.00 in     |
+| `USPS_FlatRateWindowEnvelop`e    | 10.00 x 5.00 x 4.00 in     |
+| `USPS_LargeFlatRateBoardGameBox` | 24.06 x 11.88 x 3.13 in    |
+| `USPS_LargeFlatRateBox`          | 12.25 x 12.25 x 6.00 in    |
+| `USPS_Letter`                    | 11.50 x 6.13 x 0.25 in     |
+| `USPS_MediumFlatRateBox1`        | 11.25 x 8.75 x 6.00 in     |
+| `USPS_MediumFlatRateBox2`        | 14.00 x 12.00 x 3.50 in    |
+| `USPS_RegionalRateBoxA1`         | 10.13 x 7.13 x 5.00 in     |
+| `USPS_RegionalRateBoxA2`         | 13.06 x 11.06 x 2.50 in    |
+| `USPS_RegionalRateBoxB1`         | 16.25 x 14.50 x 3.00 in    |
+| `USPS_RegionalRateBoxB2`         | 12.25 x 10.50 x 5.50 in    |
+| `USPS_RegionalRateBoxC`          | 15.00 x 12.00 x 12.00 in   |
+| `USPS_SmallFlatRateBox`          | 8.69 x 5.44 x 1.75 in      |
+| `USPS_SmallFlatRateEnvelope`     | 10.00 x 6.00 x 4.00 in     |
 
 </div>
 
@@ -142,8 +142,7 @@ Envelope or Box.
 
 <div class="body">
 
-[Merchant Fulfillment
-API](../merch_fulfill/MerchFulfill_Overview.md)
+[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
 
 [GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
 

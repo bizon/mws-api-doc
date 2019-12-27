@@ -134,8 +134,8 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
     Amazon marketplace.**
     
     <span class="ph">Amazon MWS</span> requires that the size of the
-    HTTP request-line must be less than 8190 bytes and the size of the
-    HTTP request body be less than 2048 MB.
+    HTTP request-line must be less than `8190 bytes` and the size of the
+    HTTP request body be less than `2048 MB`.
     
     If you are sending an HTTP request-line that exceeds the limit, then
     you must reduce your HTTP query parameters and use the HTTP request

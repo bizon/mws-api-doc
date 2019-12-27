@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the response elements of the
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Orders API
-section</span>:
+<span class="ph">Orders API section</span>:
 
 <div class="tablenoborder">
 
@@ -80,8 +79,7 @@ section</span>:
 <div class="p">
 
 The <span class="keyword cmdname">Address</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -194,7 +192,7 @@ The following table shows the elements of the
 <td>Indicates whether the address is commercial or residential.
 <p><span class="ph">This element is used only in the US marketplace.</span></p></td>
 <td>No</td>
-<td><span class="keyword parmname">AddressType</span> values: Commercial, Residential
+<td><span class="keyword parmname">AddressType</span> values: <var class="keyword varname">Commercial</var>, <var class="keyword varname">Residential</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -224,8 +222,7 @@ The following table shows the elements of the
 <div class="p">
 
 The <span class="keyword cmdname">BuyerCustomizedInfo</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -239,8 +236,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">BuyerCustomizedInfo</span>
-datatype:
+<span class="keyword cmdname">BuyerCustomizedInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -271,8 +267,7 @@ datatype:
 <div class="p">
 
 The <span class="keyword cmdname">BuyerTaxInfo</span> datatype is used
-in a response element of the following
-    operations:
+in a response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -352,8 +347,7 @@ The following table shows the elements of the
 <div class="p">
 
 The <span class="keyword cmdname">Money</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -370,8 +364,7 @@ response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">Money</span>
-datatype:
+<span class="keyword cmdname">Money</span> datatype:
 
 <div class="tablenoborder">
 
@@ -403,8 +396,7 @@ datatype:
 <div class="p">
 
 The <span class="keyword cmdname">Order</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -523,9 +515,9 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PaymentExecutionDetail</span></td>
-<td>Information about sub-payment methods for a Cash On Delivery (COD) order. A COD order is an order with <span class="keyword parmname">PaymentMethod</span> = COD. Contains one or more <span class="keyword parmname">PaymentExecutionDetailItem</span> response elements.
+<td>Information about sub-payment methods for a Cash On Delivery (COD) order. A COD order is an order with <span class="keyword parmname">PaymentMethod</span> = <var class="keyword varname">COD</var>. Contains one or more <span class="keyword parmname">PaymentExecutionDetailItem</span> response elements.
 <div id="Order__PaymentExecutionDetail_Note" class="note note">
-<span class="notetitle">Note:</span> For a COD order that is paid for using one sub-payment method, one <span class="keyword parmname">PaymentExecutionDetailItem</span> response element is returned, with <span class="keyword parmname">PaymentExecutionDetailItem/PaymentMethod</span> = COD. For a COD order that is paid for using multiple sub-payment methods, two or more <span class="keyword parmname">PaymentExecutionDetailItem</span> response elements are returned.
+<span class="notetitle">Note:</span> For a COD order that is paid for using one sub-payment method, one <span class="keyword parmname">PaymentExecutionDetailItem</span> response element is returned, with <span class="keyword parmname">PaymentExecutionDetailItem/PaymentMethod</span> = <var class="keyword varname">COD</var>. For a COD order that is paid for using multiple sub-payment methods, two or more <span class="keyword parmname">PaymentExecutionDetailItem</span> response elements are returned.
 </div></td>
 <td>No. Returned only for COD orders. Available only in Japan (JP).</td>
 <td>Type: List of <a href="#PaymentExecutionDetailItem" class="xref" title="Information about a sub-payment method used to pay for a COD order.">PaymentExecutionDetailItem</a></td>
@@ -536,12 +528,12 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">PaymentMethod</span> values:
 <ul>
-<li>COD - Cash On Delivery. Available only in Japan (JP).</li>
-<li>CVS - Convenience Store. Available only in JP.</li>
-<li>Other - A payment method other than COD and CVS.</li>
+<li><var class="keyword varname">COD</var> - Cash On Delivery. Available only in Japan (JP).</li>
+<li><var class="keyword varname">CVS</var> - Convenience Store. Available only in JP.</li>
+<li><var class="keyword varname">Other</var> - A payment method other than COD and CVS.</li>
 </ul>
 <div id="Order__PaymentMethod_Note" class="note note">
-<span class="notetitle">Note:</span> Orders with <span class="keyword parmname">PaymentMethod</span> = COD can be paid for using multiple sub-payment methods. Each sub-payment method is represented by a <span class="keyword parmname">PaymentExecutionDetailItem</span> object.
+<span class="notetitle">Note:</span> Orders with <span class="keyword parmname">PaymentMethod</span> = <var class="keyword varname">COD</var> can be paid for using multiple sub-payment methods. Each sub-payment method is represented by a <span class="keyword parmname">PaymentExecutionDetailItem</span> object.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -553,14 +545,14 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsReplacementOrder</span></td>
-<td><span class="ph">true if this is a replacement order.</span></td>
+<td><span class="ph"><var class="keyword varname">true</var> if this is a replacement order.</span></td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ReplacedOrderId</span></td>
 <td>The <span class="keyword parmname">AmazonOrderId</span> value for the order that is being replaced.</td>
-<td>No. Returned only if <span class="keyword parmname">IsReplacementOrder</span> = true</td>
+<td>No. Returned only if <span class="keyword parmname">IsReplacementOrder</span> = <var class="keyword varname">true</var></td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
@@ -596,14 +588,14 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">ShipmentServiceLevelCategory</span></td>
 <td>The shipment service level category of the order.
-<p><span class="keyword parmname">ShipmentServiceLevelCategory</span> values: Expedited, FreeEconomy, NextDay, SameDay, SecondDay, Scheduled, Standard</p></td>
+<p><span class="keyword parmname">ShipmentServiceLevelCategory</span> values: <var class="keyword varname">Expedited</var>, <var class="keyword varname">FreeEconomy</var>, <var class="keyword varname">NextDay</var>, <var class="keyword varname">SameDay</var>, <var class="keyword varname">SecondDay</var>, <var class="keyword varname">Scheduled</var>, <var class="keyword varname">Standard</var></p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">EasyShipShipmentStatus</span></td>
 <td>The status of the <span class="ph">Amazon Easy Ship</span> order. This element is included only for <span class="ph">Amazon Easy Ship</span> orders.
-<p><span class="keyword parmname">EasyShipShipmentStatus</span> values: PendingPickUp, LabelCanceled, PickedUp, OutForDelivery, Damaged, Delivered, RejectedByBuyer, Undeliverable, ReturnedToSeller, ReturningToSeller</p>
+<p><span class="keyword parmname">EasyShipShipmentStatus</span> values: <var class="keyword varname">PendingPickUp</var>, <var class="keyword varname">LabelCanceled</var>, <var class="keyword varname">PickedUp</var>, <var class="keyword varname">OutForDelivery</var>, <var class="keyword varname">Damaged</var>, <var class="keyword varname">Delivered</var>, <var class="keyword varname">RejectedByBuyer</var>, <var class="keyword varname">Undeliverable</var>, <var class="keyword varname">ReturnedToSeller</var>, <var class="keyword varname">ReturningToSeller</var></p>
 <p><span class="ph"><span class="ph">Amazon Easy Ship</span> is available only in the India marketplace.</span></p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
@@ -613,12 +605,12 @@ The following table shows the elements of the
 <td>The type of the order.
 <p><span class="keyword parmname">OrderType</span> values:</p>
 <ul>
-<li>StandardOrder - An order that contains items for which you currently have inventory in stock.</li>
-<li>Preorder - An order that contains items with a release date that is in the future.</li>
-<li>SourcingOnDemandOrder - A Sourcing On Demand order.</li>
+<li><var class="keyword varname">StandardOrder</var> - An order that contains items for which you currently have inventory in stock.</li>
+<li><var class="keyword varname">Preorder</var> - An order that contains items with a release date that is in the future.</li>
+<li><var class="keyword varname">SourcingOnDemandOrder</var> - A Sourcing On Demand order.</li>
 </ul>
 <div class="note note">
-<span class="notetitle">Note:</span> Preorder and SourcingOnDemandOrder are possible <span class="keyword parmname">OrderType</span> values only in the Japan marketplace.
+<span class="notetitle">Note:</span> <var class="keyword varname">Preorder</var> and <var class="keyword varname">SourcingOnDemandOrder</var> are possible <span class="keyword parmname">OrderType</span> values only in the Japan marketplace.
 </div></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
@@ -646,22 +638,22 @@ The following table shows the elements of the
 <tr class="odd">
 <td><span class="keyword parmname">EarliestDeliveryDate</span></td>
 <td>The start of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>No. Returned only for seller-fulfilled orders that do not have a PendingAvailability, Pending, or Canceled status.</td>
+<td>No. Returned only for seller-fulfilled orders that do not have a <var class="keyword varname">PendingAvailability</var>, <var class="keyword varname">Pending</var>, or <var class="keyword varname">Canceled</var> status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">LatestDeliveryDate</span></td>
 <td>The end of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>No. Returned only for seller-fulfilled orders that do not have a PendingAvailability, Pending, or Canceled status.</td>
+<td>No. Returned only for seller-fulfilled orders that do not have a <var class="keyword varname">PendingAvailability</var>, <var class="keyword varname">Pending</var>, or <var class="keyword varname">Canceled</var> status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsBusinessOrder</span></td>
-<td>true if the order is an Amazon Business order. An Amazon Business order is an order where the buyer is a Verified Business Buyer.
+<td><var class="keyword varname">true</var> if the order is an Amazon Business order. An Amazon Business order is an order where the buyer is a Verified Business Buyer.
 <p><span class="keyword parmname">IsBusinessOrder</span> values:</p>
 <ul>
-<li>true - The order is an Amazon Business order.</li>
-<li>false - The order is not an Amazon Business order.</li>
+<li><var class="keyword varname">true</var> - The order is an Amazon Business order.</li>
+<li><var class="keyword varname">false</var> - The order is not an Amazon Business order.</li>
 </ul></td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
@@ -674,13 +666,13 @@ The following table shows the elements of the
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsPrime</span></td>
-<td>true if the order is a seller-fulfilled Amazon Prime order.</td>
+<td><var class="keyword varname">true</var> if the order is a seller-fulfilled Amazon Prime order.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsPremiumOrder</span></td>
-<td>true if the order has a Premium Shipping Service Level Agreement. For more information about Premium Shipping orders, see &quot;Premium Shipping Options&quot; in the Seller Central Help for your marketplace.</td>
+<td><var class="keyword varname">true</var> if the order has a Premium Shipping Service Level Agreement. For more information about Premium Shipping orders, see "Premium Shipping Options" in the Seller Central Help for your marketplace.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -692,7 +684,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsEstimatedShipDateSet</span></td>
-<td>true if the Estimated Ship Date is set for the order.</td>
+<td><var class="keyword varname">true</var> if the Estimated Ship Date is set for the order.</td>
 <td>No. Returned only for Sourcing on Demand orders.</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -722,8 +714,7 @@ The following table shows the elements of the
 <div class="p">
 
 The <span class="keyword cmdname">OrderItem</span> datatype is used in a
-response element of the following
-    operations:
+response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -906,7 +897,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">IsGift</span></td>
-<td>true if the item is a gift.</td>
+<td><var class="keyword varname">true</var> if the item is a gift.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -931,14 +922,14 @@ The following table shows the elements of the
 <tr class="even">
 <td><span class="keyword parmname">ConditionId</span></td>
 <td>The condition of the item.
-<p><span class="keyword parmname">ConditionId</span> values: New, Used, Collectible, Refurbished, Preorder, Club.</p></td>
+<p><span class="keyword parmname">ConditionId</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Preorder</var>, <var class="keyword varname">Club</var>.</p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">ConditionSubtypeId</span></td>
 <td>The subcondition of the item.
-<p><span class="keyword parmname">ConditionSubtypeId</span> values: New, Mint, Very Good, Good, Acceptable, Poor, Club, OEM, Warranty, Refurbished Warranty, Refurbished, Open Box, Any, Other</p></td>
+<p><span class="keyword parmname">ConditionSubtypeId</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open                                                 Box</var>, <var class="keyword varname">Any</var>, <var class="keyword varname">Other</var></p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -965,20 +956,20 @@ The following table shows the elements of the
 <td>Indicates that the selling price is a special price that is available only for Amazon Business orders. For more information about the Amazon Business Seller Program, see the <a href="https://www.amazon.com/b2b/info/amazon-business" class="xref">Amazon Business website</a>.
 <p><span class="keyword parmname">PriceDesignation</span> values:</p>
 <ul>
-<li>BusinessPrice - A special price that is available only for Amazon Business orders.</li>
+<li><var class="keyword varname">BusinessPrice</var> - A special price that is available only for Amazon Business orders.</li>
 </ul></td>
-<td>No. Returned only for order items from orders with <span class="keyword parmname">IsBusinessOrder</span> = true.</td>
+<td>No. Returned only for order items from orders with <span class="keyword parmname">IsBusinessOrder</span> = <var class="keyword varname">true</var>.</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">IsTransparency</span></td>
-<td>true if Transparency codes are required.</td>
+<td><var class="keyword varname">true</var> if Transparency codes are required.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">SerialNumberRequired</span></td>
-<td>true if the product type for this item has a serial number.</td>
+<td><var class="keyword varname">true</var> if the product type for this item has a serial number.</td>
 <td>No. Returned only for <span class="ph">Amazon Easy Ship</span> orders.</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -1009,8 +1000,7 @@ a COD order.</span>
 <div class="p">
 
 The <span class="keyword cmdname">PaymentExecutionDetailItem</span>
-datatype is used in a response element of the following
-    operations:
+datatype is used in a response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -1057,9 +1047,9 @@ datatype:
 <td>A sub-payment method for a COD order.
 <p><span class="keyword parmname">PaymentMethod</span> values:</p>
 <ul>
-<li>COD - Cash On Delivery. Available only in Japan (JP).</li>
-<li>GC - Gift Card. Available only in JP.</li>
-<li>PointsAccount - Amazon Points. Available only in JP.</li>
+<li><var class="keyword varname">COD</var> - Cash On Delivery. Available only in Japan (JP).</li>
+<li><var class="keyword varname">GC</var> - Gift Card. Available only in JP.</li>
+<li><var class="keyword varname">PointsAccount</var> - Amazon Points. Available only in JP.</li>
 </ul></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
@@ -1090,8 +1080,7 @@ datatype:
 <div class="p">
 
 The <span class="keyword cmdname">PaymentMethodDetails</span> datatype
-is used in a response element of the following
-    operations:
+is used in a response element of the following operations:
 
   - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
   - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
@@ -1106,14 +1095,13 @@ is used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">PaymentMethodDetails</span>
-datatype:
+<span class="keyword cmdname">PaymentMethodDetails</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                      | Description                                                                 | Required | Values                                  |
-| --------------------------------------------------------- | --------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| <span class="keyword parmname">PaymentMethodDetail</span> | A payment method for the order. For example, GiftCertificate or CreditCard. | No       | <span class="ph">Type: xs:string</span> |
+| Name                                                      | Description                                                                     | Required | Values                                  |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+| <span class="keyword parmname">PaymentMethodDetail</span> | A payment method for the order. For example, `GiftCertificate` or `CreditCard`. | No       | <span class="ph">Type: xs:string</span> |
 
 </div>
 
@@ -1140,8 +1128,7 @@ France, Germany, Italy, India, and Japan marketplaces.</span>
 <div class="p">
 
 The <span class="keyword cmdname">ProductInfo</span> datatype is used in
-a response element of the following
-    operations:
+a response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -1155,8 +1142,7 @@ a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">ProductInfo</span>
-datatype:
+<span class="keyword cmdname">ProductInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1190,8 +1176,7 @@ marketplace.</span>
 <div class="p">
 
 The <span class="keyword cmdname">PointsGranted</span> datatype is used
-in a response element of the following
-    operations:
+in a response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -1205,8 +1190,7 @@ in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">PointsGranted</span>
-datatype:
+<span class="keyword cmdname">PointsGranted</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1238,8 +1222,7 @@ datatype:
 <div class="p">
 
 The <span class="keyword cmdname">TaxClassification</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -1253,8 +1236,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword cmdname">TaxClassification</span>
-datatype:
+<span class="keyword cmdname">TaxClassification</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1286,8 +1268,7 @@ datatype:
 <div class="p">
 
 The <span class="keyword cmdname">TaxCollection</span> datatype is used
-in a response element of the following
-    operations:
+in a response element of the following operations:
 
   - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
   - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
@@ -1325,14 +1306,14 @@ The following table shows the elements of the
 <td><span class="keyword parmname">Model</span></td>
 <td>The tax collection model applied to the item.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Model</span> value: MarketplaceFacilitator - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.
+<td><span class="keyword parmname">Model</span> value: <var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ResponsibleParty</span></td>
 <td>The party responsible for withholding the taxes and remitting them to the taxing authority.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">ResponsibleParty</span> value: Amazon Services, Inc.
+<td><span class="keyword parmname">ResponsibleParty</span> value: <var class="keyword varname">Amazon Services, Inc.</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

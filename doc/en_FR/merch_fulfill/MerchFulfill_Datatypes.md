@@ -41,8 +41,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The following datatypes are used in the <span class="ph">Amazon
 Marketplace Web Service (Amazon MWS)</span> <span class="ph">Merchant
-Fulfillment
-service</span>:
+Fulfillment service</span>:
 
 <div class="tablenoborder">
 
@@ -115,7 +114,7 @@ map of additional seller inputs) and the
 <td><span class="keyword parmname">AdditionalInputFieldName</span></td>
 <td>The name of the additional seller input. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</td>
 <td>Yes</td>
-<td>Example values: NON_DELIVERABLE_INSTRUCTIONS, SENDER_ADDRESS_TRANSLATED
+<td>Example values: <var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var>, <var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -382,8 +381,7 @@ Valid values:
 
 <span class="ph">Hazardous materials options for a package.</span>
 Consult the terms and conditions for each carrier for more information
-on hazardous
-materials.
+on hazardous materials.
 
 <div id="HazmatType__DatatypeContent" class="section">
 
@@ -391,10 +389,10 @@ materials.
 
 <div class="tablenoborder">
 
-| Name     | Description                                                     |
-| -------- | --------------------------------------------------------------- |
-| None     | This package does not contain hazardous material.               |
-| LQHazmat | This package contains limited quantities of hazardous material. |
+| Name       | Description                                                     |
+| ---------- | --------------------------------------------------------------- |
+| `None`     | This package does not contain hazardous material.               |
+| `LQHazmat` | This package contains limited quantities of hazardous material. |
 
 </div>
 
@@ -410,8 +408,7 @@ materials.
 
 <div class="body refbody">
 
-<span class="ph">An Amazon order item identifier and a
-quantity.</span>
+<span class="ph">An Amazon order item identifier and a quantity.</span>
 
 <div id="Item__DatatypeContent" class="section">
 
@@ -502,13 +499,13 @@ operation.</span>
 <td>Yes</td>
 <td><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
 <ul>
-<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: ITEM_WEIGHT, ITEM_DESCRIPTION, HS_CODE. Get this value from an <span class="keyword parmname">AdditionalInputs</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
+<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">ITEM_WEIGHT</var>, <var class="keyword varname">ITEM_DESCRIPTION</var>, <var class="keyword varname">HS_CODE</var>. Get this value from an <span class="keyword parmname">AdditionalInputs</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 <li><strong>AdditionalSellerInput</strong> - Additional seller input information. <strong>AdditionalSellerInput</strong> contains these elements:
 <ul>
-<li><span class="keyword parmname">DataType</span> - The type of the additional seller input. Values: String, Boolean, Integer, Timestamp, Address, Weight, Dimension, Currency. Get the <span class="keyword parmname">DataType</span> value from an <span class="keyword parmname">SellerInputDefinition</span> element returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
+<li><span class="keyword parmname">DataType</span> - The type of the additional seller input. Values: <var class="keyword varname">String</var>, <var class="keyword varname">Boolean</var>, <var class="keyword varname">Integer</var>, <var class="keyword varname">Timestamp</var>, <var class="keyword varname">Address</var>, <var class="keyword varname">Weight</var>, <var class="keyword varname">Dimension</var>, <var class="keyword varname">Currency</var>. Get the <span class="keyword parmname">DataType</span> value from an <span class="keyword parmname">SellerInputDefinition</span> element returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 </ul>
 <ul>
-<li><span class="keyword parmname">ValueAs[DataType]</span> (where [DataType] matches the value of the <span class="keyword parmname">DataType</span> element) - The value of the additional seller input. For syntax requirements, see the <span class="keyword parmname">Constraints</span> element that is associated with this <span class="keyword parmname">ValueAs[DataType]</span>. Example values: ValueAsString (<span class="ph">Type: xs:string</span>), ValueAsCurrency (Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a>), ValueAsWeight (Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>). Get these values from the seller.</li>
+<li><span class="keyword parmname">ValueAs[DataType]</span> (where [DataType] matches the value of the <span class="keyword parmname">DataType</span> element) - The value of the additional seller input. For syntax requirements, see the <span class="keyword parmname">Constraints</span> element that is associated with this <span class="keyword parmname">ValueAs[DataType]</span>. Example values: <var class="keyword varname">ValueAsString</var> (<span class="ph">Type: xs:string</span>), <var class="keyword varname">ValueAsCurrency</var> (Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a>), <var class="keyword varname">ValueAsWeight</var> (Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>). Get these values from the seller.</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -587,7 +584,7 @@ printing the label.</span>
 <td><span class="keyword parmname">StandardIdForLabel</span></td>
 <td>The type of standard identifier to print on the label.</td>
 <td>No</td>
-<td><span class="keyword parmname">StandardIdForLabel</span> values: AmazonOrderId.
+<td><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -645,7 +642,7 @@ printing the label.</span>
 <td><span class="keyword parmname">StandardIdForLabel</span></td>
 <td>The type of standard identifier to print on the label.</td>
 <td>No</td>
-<td><span class="keyword parmname">StandardIdForLabel</span> values: AmazonOrderId.
+<td><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -707,7 +704,7 @@ printing the label.</span>
 <td><span class="keyword parmname">Unit</span></td>
 <td>The unit of measurement.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: inches or centimeters
+<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -777,7 +774,7 @@ shipment.</span>
 <td><span class="keyword parmname">Unit</span></td>
 <td>The unit of measurement.</td>
 <td>No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Unit</span> request parameter.</td>
-<td><span class="keyword parmname">Unit</span> values: inches or centimeters
+<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -831,7 +828,7 @@ from the seller.</span>
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">IsRequired</span></td>
-<td>True if this additional seller input is required when creating a shipment.</td>
+<td><var class="keyword varname">True</var> if this additional seller input is required when creating a shipment.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -839,7 +836,7 @@ from the seller.</span>
 <td><span class="keyword parmname">DataType</span></td>
 <td>The type of the additional seller input.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">DataType</span> values: String, Boolean, Integer, Timestamp, Address, Weight, Dimension, Currency.
+<td><span class="keyword parmname">DataType</span> values: <var class="keyword varname">String</var>, <var class="keyword varname">Boolean</var>, <var class="keyword varname">Integer</var>, <var class="keyword varname">Timestamp</var>, <var class="keyword varname">Address</var>, <var class="keyword varname">Weight</var>, <var class="keyword varname">Dimension</var>, <var class="keyword varname">Currency</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -862,7 +859,7 @@ from the seller.</span>
 <td><span class="keyword parmname">InputTarget</span></td>
 <td>Indicates whether the additional seller input is at the item or shipment level.</td>
 <td>No</td>
-<td><span class="keyword parmname">InputTarget</span> values: ITEM_LEVEL, SHIPMENT_LEVEL.
+<td><span class="keyword parmname">InputTarget</span> values: <var class="keyword varname">ITEM_LEVEL</var>, <var class="keyword varname">SHIPMENT_LEVEL</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even">
@@ -1005,7 +1002,7 @@ status.</span>
 <td><span class="keyword parmname">Status</span></td>
 <td>The shipment status.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: Purchased, RefundPending, RefundRejected, or RefundApplied. See <a href="MerchFulfill_Datatypes.md#Status_Values" class="xref">Status Values table</a> for details.
+<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Purchased</var>, <var class="keyword varname">RefundPending</var>, <var class="keyword varname">RefundRejected</var>, or <var class="keyword varname">RefundApplied</var>. See <a href="MerchFulfill_Datatypes.md#Status_Values" class="xref">Status Values table</a> for details.
 <p><span class="ph">Type: List of xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -1062,22 +1059,22 @@ the following values.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Purchased</td>
+<td><var class="keyword varname">Purchased</var></td>
 <td>The seller purchased a label by calling the <span class="keyword apiname">CreateShipment</span> operation.</td>
 </tr>
 <tr class="even">
-<td>RefundPending</td>
+<td><var class="keyword varname">RefundPending</var></td>
 <td>The seller requested a label refund by calling the <span class="keyword apiname">CancelShipment</span> operation, and the refund request is being processed by the carrier.
 <div class="note note">
 <span class="notetitle">Note:</span>
 <ul>
-<li>A seller can create a new shipment for an order while <span class="keyword parmname">Status</span>=RefundPending for a canceled shipment.</li>
-<li>After a label refund is requested by calling the <span class="keyword apiname">CancelShipment</span> operation, the order status of the order remains &quot;Shipped&quot;.</li>
+<li>A seller can create a new shipment for an order while <span class="keyword parmname">Status</span>=<var class="keyword varname">RefundPending</var> for a canceled shipment.</li>
+<li>After a label refund is requested by calling the <span class="keyword apiname">CancelShipment</span> operation, the order status of the order remains "Shipped".</li>
 </ul>
 </div></td>
 </tr>
 <tr class="odd">
-<td>RefundRejected</td>
+<td><var class="keyword varname">RefundRejected</var></td>
 <td>The label refund request was rejected by the carrier. A refund request is rejected for either of the following reasons:
 <ul>
 <li>The cancellation window has expired. <span class="ph">Cancellation policies vary by carrier. For more information about carrier cancellation policies, see the Seller Central Help.</span>.</li>
@@ -1085,7 +1082,7 @@ the following values.
 </ul></td>
 </tr>
 <tr class="even">
-<td>RefundApplied</td>
+<td><var class="keyword varname">RefundApplied</var></td>
 <td>The refund has been approved and credited to the seller's account.</td>
 </tr>
 </tbody>
@@ -1139,8 +1136,8 @@ level), used as input to the
 <td>No</td>
 <td><span class="keyword parmname">AdditionalInputFieldName</span> values:
 <ul>
-<li>NON_DELIVERABLE_INSTRUCTIONS</li>
-<li>SENDER_ADDRESS_TRANSLATED</li>
+<li><var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var></li>
+<li><var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -1198,13 +1195,13 @@ level), used as input to the
 <td>Yes</td>
 <td><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
 <ul>
-<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: NON_DELIVERABLE_INSTRUCTIONS, SENDER_ADDRESS_TRANSLATED. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
+<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var>, <var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var>. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 <li><strong>AdditionalSellerInput</strong> - Additional seller input information. <strong>AdditionalSellerInput</strong> contains these elements:
 <ul>
-<li><span class="keyword parmname">DataType</span> - The type of the additional seller input. Values: String, Address. Get the <span class="keyword parmname">DataType</span> value from an <span class="keyword parmname">SellerInputDefinition</span> element returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
+<li><span class="keyword parmname">DataType</span> - The type of the additional seller input. Values: <var class="keyword varname">String</var>, <var class="keyword varname">Address</var>. Get the <span class="keyword parmname">DataType</span> value from an <span class="keyword parmname">SellerInputDefinition</span> element returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 </ul>
 <ul>
-<li><span class="keyword parmname">ValueAs[DataType]</span> (where [DataType] matches the value of the <span class="keyword parmname">DataType</span> element) - The value of the additional seller input. For syntax requirements, see the <span class="keyword parmname">Constraints</span> element that is associated with this <span class="keyword parmname">ValueAs[DataType]</span>. Example values: ValueAsString (<span class="ph">Type: xs:string</span>), ValueAsAddress (Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a>). Get these values from the seller.</li>
+<li><span class="keyword parmname">ValueAs[DataType]</span> (where [DataType] matches the value of the <span class="keyword parmname">DataType</span> element) - The value of the additional seller input. For syntax requirements, see the <span class="keyword parmname">Constraints</span> element that is associated with this <span class="keyword parmname">ValueAs[DataType]</span>. Example values: <var class="keyword varname">ValueAsString</var> (<span class="ph">Type: xs:string</span>), <var class="keyword varname">ValueAsAddress</var> (Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a>). Get these values from the seller.</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -1331,8 +1328,7 @@ service offers or for creating a shipment.</span>
 <div class="body refbody">
 
 <span class="ph">Specifies particular requirements for eligible shipping
-service
-offers.</span>
+service offers.</span>
 
 <div id="ShippingOfferingFilter__DatatypeContent" class="section">
 
@@ -1340,9 +1336,9 @@ offers.</span>
 
 <div class="tablenoborder">
 
-| Name                                                                | Description                                                                                | Required | Values                                   |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------- | ---------------------------------------- |
-| <span class="keyword parmname">IncludeComplexShippingOptions</span> | True if you want to include shipping service offers that require additional seller inputs. | No       | <span class="ph">Type: xs:boolean</span> |
+| Name                                                                | Description                                                                                  | Required | Values                                   |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- |
+| <span class="keyword parmname">IncludeComplexShippingOptions</span> | `True` if you want to include shipping service offers that require additional seller inputs. | No       | <span class="ph">Type: xs:boolean</span> |
 
 </div>
 
@@ -1384,7 +1380,7 @@ offers.</span>
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ShippingServiceName</span></td>
-<td><span class="ph">A plain text representation of a carrier's shipping service. For example, &quot;UPS Ground&quot; or &quot;FedEx Standard Overnight&quot;.</span></td>
+<td><span class="ph">A plain text representation of a carrier's shipping service. For example, "UPS Ground" or "FedEx Standard Overnight".</span></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -1445,7 +1441,7 @@ offers.</span>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">RequiresAdditionalSellerInputs</span></td>
-<td>True if this shipping service requires additional seller inputs.</td>
+<td><var class="keyword varname">True</var> if this shipping service requires additional seller inputs.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
@@ -1496,10 +1492,10 @@ offers.</span>
 <td>Yes</td>
 <td><span class="keyword parmname">DeliveryExperience</span> values:
 <ul>
-<li>DeliveryConfirmationWithAdultSignature - Delivery confirmation with adult signature.</li>
-<li>DeliveryConfirmationWithSignature - Delivery confirmation with signature. Required for DPD (UK).</li>
-<li>DeliveryConfirmationWithoutSignature - Delivery confirmation without signature.</li>
-<li>NoTracking - No delivery confirmation.</li>
+<li><var class="keyword varname">DeliveryConfirmationWithAdultSignature</var> - Delivery confirmation with adult signature.</li>
+<li><var class="keyword varname">DeliveryConfirmationWithSignature</var> - Delivery confirmation with signature. Required for DPD (UK).</li>
+<li><var class="keyword varname">DeliveryConfirmationWithoutSignature</var> - Delivery confirmation without signature.</li>
+<li><var class="keyword varname">NoTracking</var> - No delivery confirmation.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1517,7 +1513,7 @@ offers.</span>
 <span class="notetitle">Note:</span> Scheduled carrier pickup is available only using Dynamex (US), DPD (UK), and Royal Mail (UK).
 </div></td>
 <td>Yes</td>
-<td>true if the carrier will pick up the package, otherwise false.
+<td><var class="keyword varname">true</var> if the carrier will pick up the package, otherwise <var class="keyword varname">false</var>.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even">
@@ -1550,8 +1546,7 @@ offers.</span>
 <div class="body refbody">
 
 <span class="ph">A carrier who is temporarily unavailable, most likely
-due to a service outage experienced by the
-carrier.</span>
+due to a service outage experienced by the carrier.</span>
 
 <div id="TemporarilyUnavailableCarrier__DatatypeContent" class="section">
 
@@ -1578,8 +1573,7 @@ carrier.</span>
 <div class="body refbody">
 
 <span class="ph">A carrier whose terms and conditions have not been
-accepted by the
-seller.</span>
+accepted by the seller.</span>
 
 <div class="section">
 
@@ -1605,8 +1599,7 @@ seller.</span>
 
 <div class="body refbody">
 
-<span class="ph">List of Transparency
-codes.</span>
+<span class="ph">List of Transparency codes.</span>
 
 <div class="section">
 
@@ -1666,7 +1659,7 @@ codes.</span>
 <td><span class="keyword parmname">Unit</span></td>
 <td>The unit of measurement for weight.</td>
 <td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: ounces, grams
+<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">ounces</var>, <var class="keyword varname">grams</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

@@ -96,8 +96,7 @@ section</span>:
 ### Operations
 
 The <span class="keyword parmname">Address</span> datatype is used in a
-request parameter or a response element of the following
-    operations:
+request parameter or a response element of the following operations:
 
   - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
@@ -227,8 +226,7 @@ available only in Japan (JP).</span>
 ### Operations
 
 The <span class="keyword parmname">CODSettings</span> datatype is used
-in a request parameter or response element in the following
-    operations:
+in a request parameter or response element in the following operations:
 
   - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
@@ -266,14 +264,14 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">IsCODRequired</span> values:
 <ul>
-<li>true - COD payment is required.</li>
-<li>false - COD payment is not required.</li>
+<li><var class="keyword varname">true</var> - COD payment is required.</li>
+<li><var class="keyword varname">false</var> - COD payment is not required.</li>
 </ul>
 <div class="note note">
-<span class="notetitle">Note:</span> true is a valid value for <span class="keyword parmname">IsCODRequired</span> only in Japan (JP). Specifying <span class="keyword parmname">IsCODRequired</span>=true with a call to <span class="keyword apiname">CreateFulfillmentOrder</span> in any other marketplace returns an error.
+<span class="notetitle">Note:</span> <var class="keyword varname">true</var> is a valid value for <span class="keyword parmname">IsCODRequired</span> only in Japan (JP). Specifying <span class="keyword parmname">IsCODRequired</span>=<var class="keyword varname">true</var> with a call to <span class="keyword apiname">CreateFulfillmentOrder</span> in any other marketplace returns an error.
 </div>
 <div class="note note">
-<span class="notetitle">Note:</span> If you specify <span class="keyword parmname">IsCODRequired</span>=true, then you must also specify <span class="keyword parmname">PerUnitPrice</span>. For more information about <span class="keyword parmname">PerUnitPrice</span>, see <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a>.
+<span class="notetitle">Note:</span> If you specify <span class="keyword parmname">IsCODRequired</span>=<var class="keyword varname">true</var>, then you must also specify <span class="keyword parmname">PerUnitPrice</span>. For more information about <span class="keyword parmname">PerUnitPrice</span>, see <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a>.
 </div>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -342,8 +340,7 @@ order.</span>
 ### Operations
 
 The <span class="keyword parmname">CreateFulfillmentOrderItem</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
 
@@ -470,8 +467,7 @@ datatype:
 ### Operations
 
 The <span class="keyword parmname">CreateReturnItem</span> datatype is
-used in a request parameter of the following
-    operation:
+used in a request parameter of the following operation:
 
   - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 
@@ -558,8 +554,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">Currency</span> datatype is used in a
-request parameter or a response element of the following
-    operations:
+request parameter or a response element of the following operations:
 
   - [CreateFulfillmentOrder](FBAOutbound_CreateFulfillmentOrder.md "Requests that Amazon ship items from the seller's inventory in Amazon's fulfillment network to a destination address.")
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
@@ -705,8 +700,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">Fee</span> datatype is used in a
-response element of the following
-    operation:
+response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -743,10 +737,10 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">Name</span> values:
 <ul>
-<li>FBAPerUnitFulfillmentFee - Estimated fee for each unit in the fulfillment order.</li>
-<li>FBAPerOrderFulfillmentFee - Estimated order-level fee.</li>
-<li>FBATransportationFee - Estimated shipping fee.</li>
-<li>FBAFulfillmentCODFee - Estimated COD (Cash On Delivery) fee. This fee applies only to fulfillment order previews for COD.
+<li><var class="keyword varname">FBAPerUnitFulfillmentFee</var> - Estimated fee for each unit in the fulfillment order.</li>
+<li><var class="keyword varname">FBAPerOrderFulfillmentFee</var> - Estimated order-level fee.</li>
+<li><var class="keyword varname">FBATransportationFee</var> - Estimated shipping fee.</li>
+<li><var class="keyword varname">FBAFulfillmentCODFee</var> - Estimated COD (Cash On Delivery) fee. This fee applies only to fulfillment order previews for COD.
 <div class="note note">
 <span class="notetitle">Note:</span> COD fulfillment orders are available only in Japan (JP).
 </div></li>
@@ -784,8 +778,7 @@ including its status.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentOrder</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
   - [ListAllFulfillmentOrders](FBAOutbound_ListAllFulfillmentOrders.md "Returns a list of fulfillment orders fulfilled after (or at) a specified date.")
@@ -855,10 +848,10 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">ShippingSpeedCategory</span> values:
 <ul>
-<li>Standard - Standard shipping method.</li>
-<li>Expedited - Expedited shipping method.</li>
-<li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
+<li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
+<li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
+<li><var class="keyword varname">Priority</var> - Priority shipping method.</li>
+<li><var class="keyword varname">ScheduledDelivery</var> - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -883,8 +876,8 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentAction</span> values:
 <ul>
-<li>Ship - The fulfillment order ships immediately.</li>
-<li>Hold - The fulfillment order ships later.</li>
+<li><var class="keyword varname">Ship</var> - The fulfillment order ships immediately.</li>
+<li><var class="keyword varname">Hold</var> - The fulfillment order ships later.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -894,11 +887,11 @@ The following table shows the elements of the
 <td>No</td>
 <td><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
-<li>FillOrKill - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order has acquired the status of Pending (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order has acquired the status of Pending, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
-<li>FillAll - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
-<li>FillAllAvailable - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
+<li><var class="keyword varname">FillOrKill</var> - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order has acquired the status of <var class="keyword varname">Pending</var> (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order has acquired the status of <var class="keyword varname">Pending</var>, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
+<li><var class="keyword varname">FillAll</var> - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
+<li><var class="keyword varname">FillAllAvailable</var> - All fulfillable items in the fulfillment order are shipped. All unfulfillable items in the order are cancelled by Amazon.</li>
 </ul>
-<p>Default: FillOrKill</p>
+<p>Default: <var class="keyword varname">FillOrKill</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd">
@@ -914,14 +907,14 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">FulfillmentOrderStatus</span> values:
 <ul>
-<li>RECEIVED - The fulfillment order was received by <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> and validated. Validation includes determining that the destination address is valid and that Amazon's records indicate that the seller has enough sellable (undamaged) inventory to fulfill the order. The seller can cancel a fulfillment order that has a status of RECEIVED.</li>
-<li>INVALID - The fulfillment order was received by <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> but could not be validated. The reasons for this include an invalid destination address or Amazon's records indicating that the seller does not have enough sellable inventory to fulfill the order. When this happens, the fulfillment order is invalid and no items in the order will ship.</li>
-<li>PLANNING - The fulfillment order has been sent to <span class="ph">Amazon's fulfillment network</span> to begin shipment planning, but no unit in any shipment has been picked from inventory yet. The seller can cancel a fulfillment order that has a status of PLANNING.</li>
-<li>PROCESSING - The process of picking units from inventory has begun on at least one shipment in the fulfillment order. The seller cannot cancel a fulfillment order that has a status of PROCESSING.</li>
-<li>CANCELLED - The fulfillment order has been cancelled by the seller.</li>
-<li>COMPLETE - All item quantities in the fulfillment order have been fulfilled.</li>
-<li>COMPLETE_PARTIALLED - Some item quantities in the fulfillment order were fulfilled; the rest were either cancelled or unfulfillable.</li>
-<li>UNFULFILLABLE - No item quantities in the fulfillment order could be fulfilled because the <span class="ph">Amazon fulfillment center</span> workers found no inventory for those items or found no inventory that was in sellable (undamaged) condition.</li>
+<li><var class="keyword varname">RECEIVED</var> - The fulfillment order was received by <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> and validated. Validation includes determining that the destination address is valid and that Amazon's records indicate that the seller has enough sellable (undamaged) inventory to fulfill the order. The seller can cancel a fulfillment order that has a status of <var class="keyword varname">RECEIVED</var>.</li>
+<li><var class="keyword varname">INVALID</var> - The fulfillment order was received by <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> but could not be validated. The reasons for this include an invalid destination address or Amazon's records indicating that the seller does not have enough sellable inventory to fulfill the order. When this happens, the fulfillment order is invalid and no items in the order will ship.</li>
+<li><var class="keyword varname">PLANNING</var> - The fulfillment order has been sent to <span class="ph">Amazon's fulfillment network</span> to begin shipment planning, but no unit in any shipment has been picked from inventory yet. The seller can cancel a fulfillment order that has a status of <var class="keyword varname">PLANNING</var>.</li>
+<li><var class="keyword varname">PROCESSING</var> - The process of picking units from inventory has begun on at least one shipment in the fulfillment order. The seller cannot cancel a fulfillment order that has a status of <var class="keyword varname">PROCESSING</var>.</li>
+<li><var class="keyword varname">CANCELLED</var> - The fulfillment order has been cancelled by the seller.</li>
+<li><var class="keyword varname">COMPLETE</var> - All item quantities in the fulfillment order have been fulfilled.</li>
+<li><var class="keyword varname">COMPLETE_PARTIALLED</var> - Some item quantities in the fulfillment order were fulfilled; the rest were either cancelled or unfulfillable.</li>
+<li><var class="keyword varname">UNFULFILLABLE</var> - No item quantities in the fulfillment order could be fulfilled because the <span class="ph">Amazon fulfillment center</span> workers found no inventory for those items or found no inventory that was in sellable (undamaged) condition.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -969,8 +962,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">FulfillmentOrderItem</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
@@ -1115,8 +1107,7 @@ including delivery and fee information based on shipping method.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentPreview</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -1153,10 +1144,10 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">ShippingSpeedCategory</span> values:
 <ul>
-<li>Standard - Standard shipping method.</li>
-<li>Expedited - Expedited shipping method.</li>
-<li>Priority - Priority shipping method.</li>
-<li>ScheduledDelivery - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
+<li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
+<li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
+<li><var class="keyword varname">Priority</var> - Priority shipping method.</li>
+<li><var class="keyword varname">ScheduledDelivery</var> - Scheduled Delivery shipping method. For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> Shipping method service level agreements vary by marketplace. See the Amazon Seller Central website in your marketplace for shipping method service level agreements and fulfillment fees.
@@ -1169,8 +1160,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">IsFulfillable</span> values:
 <ul>
-<li>true - Fulfillable</li>
-<li>false - Not fulfillable</li>
+<li><var class="keyword varname">true</var> - Fulfillable</li>
+<li><var class="keyword varname">false</var> - Not fulfillable</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -1180,8 +1171,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">IsCODCapable</span> values:
 <ul>
-<li>true - Fulfillment order preview is for COD.</li>
-<li>false - Fulfillment order preview is not for COD.</li>
+<li><var class="keyword varname">true</var> - Fulfillment order preview is for COD.</li>
+<li><var class="keyword varname">false</var> - Fulfillment order preview is not for COD.</li>
 </ul>
 <div class="note note">
 <span class="notetitle">Note:</span> COD fulfillment orders are available only in Japan (JP).
@@ -1259,8 +1250,7 @@ preview.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentPreviewItem</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -1321,8 +1311,8 @@ The following table shows the elements of the
 <td> </td>
 <td><span class="keyword parmname">ShippingWeightCalculationMethod</span> values:
 <ul>
-<li>Package - Based on the actual weight of the items.</li>
-<li>Dimensional - Based on the cubic space that the items occupy.</li>
+<li><var class="keyword varname">Package</var> - Based on the actual weight of the items.</li>
+<li><var class="keyword varname">Dimensional</var> - Based on the cubic space that the items occupy.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1351,8 +1341,7 @@ fulfillment order preview.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentPreviewShipment</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -1443,8 +1432,7 @@ fulfillment order.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentShipment</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
@@ -1493,10 +1481,10 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">FulfillmentShipmentStatus</span> values:
 <ul>
-<li>PENDING - The process of picking units from inventory has begun.</li>
-<li>SHIPPED - All packages in the shipment have left the fulfillment center.</li>
-<li>CANCELLED_BY_FULFILLER - The <span class="ph">Amazon fulfillment center</span> could not fulfill the shipment as planned. This might be because the inventory was not at the expected location in the fulfillment center. After cancelling the fulfillment order, Amazon immediately creates a new fulfillment shipment and again attempts to fulfill the order.</li>
-<li>CANCELLED_BY_SELLER - The shipment was cancelled using the <span class="keyword parmname">CancelFulfillmentOrder</span> request.</li>
+<li><var class="keyword varname">PENDING</var> - The process of picking units from inventory has begun.</li>
+<li><var class="keyword varname">SHIPPED </var> - All packages in the shipment have left the fulfillment center.</li>
+<li><var class="keyword varname">CANCELLED_BY_FULFILLER</var> - The <span class="ph">Amazon fulfillment center</span> could not fulfill the shipment as planned. This might be because the inventory was not at the expected location in the fulfillment center. After cancelling the fulfillment order, Amazon immediately creates a new fulfillment shipment and again attempts to fulfill the order.</li>
+<li><var class="keyword varname">CANCELLED_BY_SELLER</var> - The shipment was cancelled using the <span class="keyword parmname">CancelFulfillmentOrder</span> request.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -1504,10 +1492,10 @@ The following table shows the elements of the
 <td><span class="keyword parmname">ShippingDateTime</span></td>
 <td>The meaning of the <span class="keyword parmname">ShippingDateTime</span> value depends on the current status of the shipment. If the current value of <span class="keyword parmname">FulfillmentShipmentStatus</span> is:
 <ul>
-<li>Pending - <span class="keyword parmname">ShippingDateTime</span> represents the estimated time that the shipment will leave the <span class="ph">Amazon fulfillment center</span>.</li>
-<li>Shipped - <span class="keyword parmname">ShippingDateTime</span> represents the date that the shipment left the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">Pending</var> - <span class="keyword parmname">ShippingDateTime</span> represents the estimated time that the shipment will leave the <span class="ph">Amazon fulfillment center</span>.</li>
+<li><var class="keyword varname">Shipped</var> - <span class="keyword parmname">ShippingDateTime</span> represents the date that the shipment left the <span class="ph">Amazon fulfillment center</span>.</li>
 </ul>
-If a shipment includes more than one package, <span class="keyword parmname">ShippingDateTime</span> applies to all of the packages in the shipment. If the value of <span class="keyword parmname">FulfillmentShipmentStatus</span> is CancelledByFulfiller or CancelledBySeller, <span class="keyword parmname">ShippingDateTime</span> is not returned.</td>
+If a shipment includes more than one package, <span class="keyword parmname">ShippingDateTime</span> applies to all of the packages in the shipment. If the value of <span class="keyword parmname">FulfillmentShipmentStatus</span> is <var class="keyword varname">CancelledByFulfiller</var> or <var class="keyword varname">CancelledBySeller</var>, <span class="keyword parmname">ShippingDateTime</span> is not returned.</td>
 <td>No</td>
 <td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -1555,8 +1543,7 @@ Item information for a shipment in a fulfillment order.
 ### Operations
 
 The <span class="keyword parmname">FulfillmentShipmentItem</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
@@ -1567,8 +1554,7 @@ datatype is used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">FulfillmentShipmentItem</span>
-datatype:
+<span class="keyword parmname">FulfillmentShipmentItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1601,8 +1587,7 @@ order.</span>
 ### Operations
 
 The <span class="keyword parmname">FulfillmentShipmentPackage</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
 
@@ -1684,8 +1669,7 @@ preview.</span>
 ### Operations
 
 The <span class="keyword parmname">GetFulfillmentPreviewItem</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -1762,8 +1746,7 @@ datatype:
 ### Operations
 
 The <span class="keyword parmname">InvalidItemReason</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
@@ -1775,8 +1758,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">InvalidItemReason</span>
-datatype:
+<span class="keyword parmname">InvalidItemReason</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1807,12 +1789,12 @@ datatype:
 
 **Values:**
 
-  - InvalidValues - The item was not found in a fulfillment order.
-  - DuplicateRequest - A fulfillment return has already been requested
+  - `InvalidValues` - The item was not found in a fulfillment order.
+  - `DuplicateRequest` - A fulfillment return has already been requested
     for this item.
-  - NoCompletedShipItems - The fulfillment order containing this item
+  - `NoCompletedShipItems` - The fulfillment order containing this item
     has not yet shipped.
-  - NoReturnableQuantity - All item quantity available for return has
+  - `NoReturnableQuantity` - All item quantity available for return has
     been allocated to other return items.
 
 </div>
@@ -1834,8 +1816,7 @@ datatype:
 ### Operations
 
 The <span class="keyword parmname">InvalidReturnItem</span> datatype is
-used in a response element of the following
-    operations:
+used in a response element of the following operations:
 
   - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
@@ -1847,8 +1828,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">InvalidReturnItem</span>
-datatype:
+<span class="keyword parmname">InvalidReturnItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1880,8 +1860,7 @@ description translation.</span>
 ### Operations
 
 The <span class="keyword parmname">ReasonCodeDetails</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [ListReturnReasonCodes](FBAOutbound_ListReturnReasonCodes.md "Returns a list of return reason codes for a seller SKU in a given marketplace.")
 
@@ -1892,8 +1871,7 @@ used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ReasonCodeDetails</span>
-datatype:
+<span class="keyword parmname">ReasonCodeDetails</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1925,8 +1903,7 @@ return.</span>
 ### Operations
 
 The <span class="keyword parmname">ReturnAuthorization</span> datatype
-is used in a response element of the following
-    operations:
+is used in a response element of the following operations:
 
   - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
 
@@ -1941,8 +1918,7 @@ is used in a response element of the following
 ### Datatype content
 
 The following table shows the elements of the
-<span class="keyword parmname">ReturnAuthorization</span>
-datatype:
+<span class="keyword parmname">ReturnAuthorization</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1975,8 +1951,7 @@ datatype:
 ### Operations
 
 The <span class="keyword parmname">ReturnItem</span> datatype is used in
-a response element of the following
-    operations:
+a response element of the following operations:
 
   - [CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
   - [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
@@ -2101,11 +2076,11 @@ Amazon fulfillment center.</span>
 
 **Values:**
 
-  - CarrierDamaged - Item was damaged by the carrier.
-  - CustomerDamaged - Item was damaged by the buyer or the seller.
-  - Defective - Item is defective.
-  - FulfillerDamaged - Item was damaged by Amazon.
-  - Sellable - Item is in sellable condition.
+  - `CarrierDamaged` - Item was damaged by the carrier.
+  - `CustomerDamaged` - Item was damaged by the buyer or the seller.
+  - `Defective` - Item is defective.
+  - `FulfillerDamaged` - Item was damaged by Amazon.
+  - `Sellable` - Item is in sellable condition.
 
 </div>
 
@@ -2126,8 +2101,7 @@ Amazon fulfillment center.</span>
 ### Operations
 
 The <span class="keyword parmname">ScheduledDeliveryInfo</span> datatype
-is used in a response element of the following
-    operation:
+is used in a response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -2197,9 +2171,9 @@ Amazon fulfillment center.</span>
 
 **Values:**
 
-  - New - The return item has not yet been processed by an Amazon
+  - `New` - The return item has not yet been processed by an Amazon
     fulfillment center.
-  - Processed - The return item has been processed by an Amazon
+  - ` Processed  `- The return item has been processed by an Amazon
     fulfillment center.
 
 </div>
@@ -2221,8 +2195,7 @@ Amazon fulfillment center.</span>
 ### Operations
 
 The <span class="keyword parmname">TrackingAddress</span> datatype is
-used in a response element of the following
-    operation:
+used in a response element of the following operation:
 
   - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.md "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
 
@@ -2298,8 +2271,7 @@ The following table shows the elements of the
 ### Operations
 
 The <span class="keyword parmname">TrackingEvent</span> datatype is used
-in a response element of the following
-    operation:
+in a response element of the following operation:
 
   - [GetPackageTrackingDetails](FBAOutbound_GetPackageTrackingDetails.md "Returns delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order.")
 
@@ -2349,39 +2321,39 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">EventCode</span> values:
 <ul>
-<li>EVENT_101 - Carrier notified to pick up package.</li>
-<li>EVENT_102 - Shipment picked up from seller's facility.</li>
-<li>EVENT_201 - Arrival scan.</li>
-<li>EVENT_202 - Departure scan.</li>
-<li>EVENT_203 - Arrived at destination country.</li>
-<li>EVENT_204 - Initiated customs clearance process.</li>
-<li>EVENT_205 - Completed customs clearance process.</li>
-<li>EVENT_206 - In transit to pickup location.</li>
-<li>EVENT_301 - Delivered.</li>
-<li>EVENT_302 - Out for delivery.</li>
-<li>EVENT_304 - Delivery attempted.</li>
-<li>EVENT_306 - Customer contacted to arrange delivery.</li>
-<li>EVENT_307 - Delivery appointment scheduled.</li>
-<li>EVENT_308 - Available for pickup.</li>
-<li>EVENT_309 - Returned to seller.</li>
-<li>EVENT_401 - Held by carrier - incorrect address.</li>
-<li>EVENT_402 - Customs clearance delay.</li>
-<li>EVENT_403 - Customer moved.</li>
-<li>EVENT_404 - Delay in delivery due to external factors.</li>
-<li>EVENT_405 - Shipment damaged.</li>
-<li>EVENT_406 - Held by carrier.</li>
-<li>EVENT_407 - Customer refused delivery.</li>
-<li>EVENT_408 - Returning to seller.</li>
-<li>EVENT_409 - Lost by carrier.</li>
-<li>EVENT_411 - Paperwork received - did not receive shipment.</li>
-<li>EVENT_412 - Shipment received- did not receive paperwork.</li>
-<li>EVENT_413 - Held by carrier- customer refused shipment due to customs charges.</li>
-<li>EVENT_414 - Missorted by carrier.</li>
-<li>EVENT_415 - Received from prior carrier.</li>
-<li>EVENT_416 - Undeliverable.</li>
-<li>EVENT_417 - Shipment missorted.</li>
-<li>EVENT_418 - Shipment delayed.</li>
-<li>EVENT_419 - Address corrected - delivery rescheduled.</li>
+<li><var class="keyword varname">EVENT_101</var> - Carrier notified to pick up package.</li>
+<li><var class="keyword varname">EVENT_102</var> - Shipment picked up from seller's facility.</li>
+<li><var class="keyword varname">EVENT_201</var> - Arrival scan.</li>
+<li><var class="keyword varname">EVENT_202</var> - Departure scan.</li>
+<li><var class="keyword varname">EVENT_203</var> - Arrived at destination country.</li>
+<li><var class="keyword varname">EVENT_204</var> - Initiated customs clearance process.</li>
+<li><var class="keyword varname">EVENT_205</var> - Completed customs clearance process.</li>
+<li><var class="keyword varname">EVENT_206</var> - In transit to pickup location.</li>
+<li><var class="keyword varname">EVENT_301</var> - Delivered.</li>
+<li><var class="keyword varname">EVENT_302</var> - Out for delivery.</li>
+<li><var class="keyword varname">EVENT_304</var> - Delivery attempted.</li>
+<li><var class="keyword varname">EVENT_306</var> - Customer contacted to arrange delivery.</li>
+<li><var class="keyword varname">EVENT_307</var> - Delivery appointment scheduled.</li>
+<li><var class="keyword varname">EVENT_308</var> - Available for pickup.</li>
+<li><var class="keyword varname">EVENT_309</var> - Returned to seller.</li>
+<li><var class="keyword varname">EVENT_401</var> - Held by carrier - incorrect address.</li>
+<li><var class="keyword varname">EVENT_402</var> - Customs clearance delay.</li>
+<li><var class="keyword varname">EVENT_403</var> - Customer moved.</li>
+<li><var class="keyword varname">EVENT_404</var> - Delay in delivery due to external factors.</li>
+<li><var class="keyword varname">EVENT_405</var> - Shipment damaged.</li>
+<li><var class="keyword varname">EVENT_406</var> - Held by carrier.</li>
+<li><var class="keyword varname">EVENT_407</var> - Customer refused delivery.</li>
+<li><var class="keyword varname">EVENT_408</var> - Returning to seller.</li>
+<li><var class="keyword varname">EVENT_409</var> - Lost by carrier.</li>
+<li><var class="keyword varname">EVENT_411</var> - Paperwork received - did not receive shipment.</li>
+<li><var class="keyword varname">EVENT_412</var> - Shipment received- did not receive paperwork.</li>
+<li><var class="keyword varname">EVENT_413</var> - Held by carrier- customer refused shipment due to customs charges.</li>
+<li><var class="keyword varname">EVENT_414</var> - Missorted by carrier.</li>
+<li><var class="keyword varname">EVENT_415</var> - Received from prior carrier.</li>
+<li><var class="keyword varname">EVENT_416</var> - Undeliverable.</li>
+<li><var class="keyword varname">EVENT_417</var> - Shipment missorted.</li>
+<li><var class="keyword varname">EVENT_418</var> - Shipment delayed.</li>
+<li><var class="keyword varname">EVENT_419</var> - Address corrected - delivery rescheduled.</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -2410,8 +2382,7 @@ order preview.</span>
 ### Operations
 
 The <span class="keyword parmname">UnfulfillablePreviewItem</span>
-datatype is used in a response element of the following
-    operation:
+datatype is used in a response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -2498,8 +2469,7 @@ order.</span>
 ### Operations
 
 The <span class="keyword parmname">UpdateFulfillmentOrderItem</span>
-datatype is used in a request parameter of the following
-    operation:
+datatype is used in a request parameter of the following operation:
 
   - [UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.")
 
@@ -2612,8 +2582,7 @@ datatype:
 ### Operations
 
 The <span class="keyword parmname">Weight</span> datatype is used in a
-response element of the following
-    operation:
+response element of the following operation:
 
   - [GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
 
@@ -2650,8 +2619,8 @@ The following table shows the elements of the
 <td>Yes</td>
 <td><span class="keyword parmname">Unit</span> values:
 <ul>
-<li>KG - Kilograms</li>
-<li>LB - Pounds</li>
+<li><var class="keyword varname">KG</var> - Kilograms</li>
+<li><var class="keyword varname">LB</var> - Pounds</li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

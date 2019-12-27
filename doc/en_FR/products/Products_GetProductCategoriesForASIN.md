@@ -62,8 +62,7 @@ product.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -292,8 +291,7 @@ code</span> </span>
 
 <div class="body">
 
-[Products
-API](../products/Products_Overview.md)
+[Products API](../products/Products_Overview.md)
 
 [GetProductCategoriesForSKU](Products_GetProductCategoriesForSKU.md "Returns the parent product categories that a product belongs to, based on SellerSKU.")
 

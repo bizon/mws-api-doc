@@ -40,7 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div class="body">
 
 <span class="ph">Returns a count of the reports, created in the previous
-90 days, with a status of \_DONE\_ and that are available for
+90 days, with a status of `_DONE_` and that are available for
 download.</span>
 
 </div>
@@ -60,8 +60,7 @@ days, that are available for download.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -135,7 +134,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">Acknowledged</span></td>
-<td><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to true to list order reports that have been acknowledged; set to false to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
+<td><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
 <td>No</td>
 <td>Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>

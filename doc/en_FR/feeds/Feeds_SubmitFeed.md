@@ -70,8 +70,7 @@ hours.
 
 ### Availability
 
-This operation is available in all
-marketplaces.
+This operation is available in all marketplaces.
 
 </div>
 
@@ -124,8 +123,7 @@ following these guidelines:
 Your feeds must be in a valid encoding based on your marketplace and
 file type, and that encoding must be specified as an HTTP Content-Type
 header. The following table shows the HTTP Content-Type header you
-should use for flat files and XML files for each
-marketplace:
+should use for flat files and XML files for each marketplace:
 
 <div class="tablenoborder">
 
@@ -206,7 +204,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td><span class="keyword parmname">MarketplaceIdList</span></td>
 <td>A list of one or more marketplace IDs (of marketplaces you are registered to sell in) that you want the feed to be applied to. The feed will be applied to all the marketplaces you specify.
 <p>For example:</p>
-<p>&amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</p>
+<p><samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p>
 <p>See <a href="Feeds_EU_Global_Seller.md" class="xref">Using multiple marketplaces</a> for more information.</p></td>
 <td>No, except for Product Images Feeds.<sup>1</sup></td>
 <td>Marketplace IDs for marketplaces where you are registered to sell.
@@ -215,7 +213,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">PurgeAndReplace</span></td>
-<td>A Boolean value that enables the purge and replace functionality. Set to true to purge and replace the existing data; otherwise false. This value only applies to product-related flat file feed types, which do not have a mechanism for specifying purge and replace in the feed body. <strong>Use this parameter only in exceptional cases</strong>. Usage is throttled to allow only one purge and replace within a 24-hour period.</td>
+<td>A Boolean value that enables the purge and replace functionality. Set to <var class="keyword varname">true</var> to purge and replace the existing data; otherwise <var class="keyword varname">false</var>. This value only applies to product-related flat file feed types, which do not have a mechanism for specifying purge and replace in the feed body. <strong>Use this parameter only in exceptional cases</strong>. Usage is throttled to allow only one purge and replace within a 24-hour period.</td>
 <td>No</td>
 <td>Default: false
 <p><span class="ph">Type: xs:boolean</span></p></td>
@@ -239,7 +237,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <td>The type of PDF document that you want to get for the <span class="ph">Amazon Easy Ship</span> order identified with the <span class="keyword parmname">AmazonOrderId</span> parameter. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 <td>No</td>
 <td>Default: all
-<p>Values: ShippingLabel, Invoice, Warranty</p>
+<p>Values: <var class="keyword varname">ShippingLabel</var>, <var class="keyword varname">Invoice</var>, <var class="keyword varname">Warranty</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -250,10 +248,9 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 <div class="section">
 
 1.  A marketplace ID is required when submitting a Product Images Feed
-    (\_POST\_PRODUCT\_IMAGE\_DATA\_). If the marketplace ID is not
+    (`_POST_PRODUCT_IMAGE_DATA_`). If the marketplace ID is not
     included, the image might not be published on the product detail
-    page. See [FeedType
-enumeration](../feeds/Feeds_FeedType.md).
+    page. See [FeedType enumeration](../feeds/Feeds_FeedType.md).
 
 </div>
 
@@ -427,7 +424,7 @@ and body:
 
 Header:
 
-  HTTP/1.1 200 OK Content-Type: text/xml
+  `HTTP/1.1 200 OK Content-Type: text/xml`
 
 Body:
 
