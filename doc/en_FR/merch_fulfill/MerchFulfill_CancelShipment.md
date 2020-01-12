@@ -140,8 +140,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentId</span></td>
-<td><span id="RequestParameters__d37953e257" class="ph">An Amazon-defined shipment identifier.</span>
-<p><span id="RequestParameters__d37953e260" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
+<td><span id="RequestParameters__d37910e257" class="ph">An Amazon-defined shipment identifier.</span>
+<p><span id="RequestParameters__d37910e260" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>

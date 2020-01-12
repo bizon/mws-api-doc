@@ -73,7 +73,7 @@ The following feed categories are supported:
     feeds](#FeedType_Enumeration__ProductInventoryFeeds)
   - [Order feeds](#FeedType_Enumeration__OrderFeeds)
   - [Fulfillment by Amazon (FBA) feeds](#FeedType_Enumeration__FBAFeeds)
-  - [Business feeds](#FeedType_Enumeration__BusinessFeeds)
+  - [Business feed](#FeedType_Enumeration__BusinessFeeds)
   - [Easy Ship feed](#FeedType_Enumeration__EasyShipFeed)
 
 </div>
@@ -356,7 +356,7 @@ Excel templates for feeds.
 
 <div id="FeedType_Enumeration__BusinessFeeds" class="section">
 
-### Business feeds
+### Business feed
 
 <div class="tablenoborder">
 
@@ -373,13 +373,6 @@ Excel templates for feeds.
 </thead>
 <tbody>
 <tr class="odd">
-<td><span class="keyword parmname">Flat File Product Documents Feed</span>
-<p>Enumeration value: <samp class="ph codeph">_POST_ENHANCED_CONTENT_DATA_</samp></p></td>
-<td><a href="https://images-na.ssl-images-amazon.com/images/G/01/productdocuments/Flat.File.ProductDocuments.xls" class="xref">Flat.File.ProductDocuments.xls</a>
-<p><span class="ph">This functionality is available only in the US marketplace.</span> <span class="ph">For Amazon Business sellers only.</span></p>
-<p>More information: <a href="https://sellercentral.amazon.com/business/product-documents/uploader" class="xref">Product Documents Uploader</a></p></td>
-</tr>
-<tr class="even">
 <td><span class="keyword parmname">Flat File Manage Quotes Feed</span>
 <p>Enumeration value:<samp class="ph codeph">_RFQ_UPLOAD_FEED_</samp></p></td>
 <td>Amazon Business sellers can use this feed to upload quantity discounts in response to requests from business customers. This functionality is available only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces. <span class="ph">For Amazon Business sellers only.</span>

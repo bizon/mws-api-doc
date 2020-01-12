@@ -196,7 +196,7 @@ once an order has been placed.</span>
 </tr>
 <tr class="even">
 <td><var class="keyword varname">availabilityType</var></td>
-<td><span id="DetailedShippingTimeType__d50795e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.</td>
+<td><span id="DetailedShippingTimeType__d50752e1493" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.</td>
 <td>No</td>
 <td>Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
 </tr>
@@ -233,7 +233,7 @@ Seller Central.</span>
 
 | Name                                                        | Description                                                                              | Required | Values                                                                                                         |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50795e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.md#FeeType "The type of fee charged to a seller.")                        |
+| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d50752e1750" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: [FeeType](Products_Datatypes.md#FeeType "The type of fee charged to a seller.")                        |
 | <span class="keyword parmname">FeeAmount</span>             | The amount charged for a given fee.                                                      | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
 | <span class="keyword parmname">FeePromotion</span>          | The promotion amount for a given fee.                                                    | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
 | <span class="keyword parmname">TaxAmount</span>             | The tax amount for a given fee. This is only shown for the India marketplace.            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
@@ -263,10 +263,11 @@ details.</span>
 
 <div class="tablenoborder">
 
-| Name                                                    | Description                                                               | Required | Values                                                                                                         |
-| ------------------------------------------------------- | ------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">TotalFeesEstimate</span> | Total estimated fees for a given product, price, and fulfillment channel. | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
-| <span class="keyword parmname">FeeDetailList</span>     | A list of other fees that contributes to a given fee.                     | Yes      | Type: List of [FeeDetail](Products_Datatypes.md#FeeDetail "The type of fee, fee amount, and other details.") |
+| Name                                                       | Description                                                                                | Required | Values                                                                                                         |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">TimeOfFeesEstimation</span> | The time for which the fees were estimated. This defaults to the time the request is made. | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                      |
+| <span class="keyword parmname">TotalFeesEstimate</span>    | Total estimated fees for a given product, price, and fulfillment channel.                  | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")             |
+| <span class="keyword parmname">FeeDetailList</span>        | A list of other fees that contributes to a given fee.                                      | Yes      | Type: List of [FeeDetail](Products_Datatypes.md#FeeDetail "The type of fee, fee amount, and other details.") |
 
 </div>
 
@@ -343,12 +344,6 @@ other details that identify an estimate.</span>
 <td>A unique identifier provided by the caller to track this request.</td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
-</tr>
-<tr class="odd">
-<td><span class="keyword parmname">TimeOfFeesEstimation</span></td>
-<td>The time for which the fees were estimated. This defaults to the time the request is made.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 </tbody>
 </table>
@@ -581,7 +576,7 @@ the seller.</span>
 | Name                 | Description                                                                                                                       | Required | Values                                                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| `fulfillmentChannel` | <span id="LowestPrice__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>         | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| `fulfillmentChannel` | <span id="LowestPrice__d50752e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>         | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -719,7 +714,7 @@ a specific condition.</span>
 | Name                 | Description                                                                                                                       | Required | Values                                                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                              |
-| `fulfillmentChannel` | <span id="OfferCount__d50795e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>          | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
+| `fulfillmentChannel` | <span id="OfferCount__d50752e1475" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>          | Yes      | Type: [FulfillmentChannelType](Products_Datatypes.md#FulfillmentChannelType "Indicates whether the item is fulfilled by Amazon or by the seller.") |
 
 </div>
 
@@ -782,9 +777,10 @@ Points</span> program is only available in Japan.
 
 <div class="tablenoborder">
 
-| Name                                               | Description                                          | Required | Values                               |
-| -------------------------------------------------- | ---------------------------------------------------- | -------- | ------------------------------------ |
-| <span class="keyword parmname">PointsNumber</span> | The number of <span class="ph">Amazon Points</span>. | Yes      | <span class="ph">Type: xs:int</span> |
+| Name                                                      | Description                                          | Required | Values                                                                                             |
+| --------------------------------------------------------- | ---------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">PointsNumber</span>        | The number of <span class="ph">Amazon Points</span>. | Yes      | <span class="ph">Type: xs:int</span>                                                               |
+| <span class="keyword parmname">PointsMonetaryValue</span> | The monetary value of the points.                    | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.") |
 
 </div>
 

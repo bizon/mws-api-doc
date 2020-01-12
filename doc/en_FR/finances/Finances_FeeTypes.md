@@ -93,6 +93,12 @@ Coupon redemption fee
 
 <span class="ph">The US and Canada marketplaces.</span>
 
+<span class="keyword parmname">CSBAFee</span>
+
+CSBA fee
+
+The Japan marketplace.
+
 <span class="keyword parmname">FixedClosingFee</span>
 
 Per-item fees for Individual Sellers
