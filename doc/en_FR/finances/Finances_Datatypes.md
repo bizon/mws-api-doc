@@ -1021,6 +1021,7 @@ The following table shows the elements of the
 | <span class="keyword parmname">AffordabilityExpenseEventList</span>          | A list of events related to affordability promotion expenses.               | No       | Type: List of [AffordabilityExpenseEvent](Finances_Datatypes.md#AffordabilityExpenseEvent "An expense related to an affordability promotion.")                                                                      |
 | <span class="keyword parmname">AffordabilityExpenseReversalEventList</span>  | A list of events related to affordability promotion expense reversals.      | No       | Type: List of [AffordabilityExpenseReversalEvent](Finances_Datatypes.md#AffordabilityExpenseReversalEvent "An expense refund related to an affordability promotion.")                                               |
 | <span class="keyword parmname">NetworkComminglingTransactionEventList</span> | A list of network commingling transaction events.                           | No       | Type: List of [NetworkComminglingTransactionEvent](Finances_Datatypes.md#NetCoTransactionEvent "A network commingling transaction event.")                                                                          |
+| <span class="keyword parmname">TDSReimbursementEventList</span>              | A list of TDS (Tax Deduction at Source) claim reimbursement events.         | No       | Type: List of [TDSReimbursementEvent](Finances_Datatypes.md#TDSReimbursementEvent "A TDS (Tax Deduction at Source) claim reimbursement on the seller's account.")                                                   |
 
 </div>
 
@@ -1742,14 +1743,14 @@ datatype:
 
 <div class="tablenoborder">
 
-| Name                                                  | Description                                                                                                                        | Required | Values                                                                                                       |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">PostedDate</span>      | <span class="ph">The date when the financial event was posted.</span>                                                              | No.      | <span class="ph">Type: xs:dateTime</span>                                                                    |
-| <span class="keyword parmname">EnrollmentId</span>    | An enrollment identifier.                                                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                                      |
-| <span class="keyword parmname">ParentASIN</span>      | The ASIN that was enrolled in the Early Reviewer Program.                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                                      |
-| <span class="keyword parmname">FeeComponent</span>    | A fee associated with the event.                                                                                                   | No.      | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")          |
-| <span class="keyword parmname">ChargeComponent</span> | A charge associated with the event.                                                                                                | No.      | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.") |
-| <span class="keyword parmname">TotalAmount</span>     | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No.      | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")                 |
+| Name                                                  | Description                                                                                                                        | Required | Values                                                                                               |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">PostedDate</span>      | <span class="ph">The date when the financial event was posted.</span>                                                              | No.      | <span class="ph">Type: xs:dateTime</span>                                                            |
+| <span class="keyword parmname">EnrollmentId</span>    | An enrollment identifier.                                                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                              |
+| <span class="keyword parmname">ParentASIN</span>      | The ASIN that was enrolled in the Early Reviewer Program.                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                              |
+| <span class="keyword parmname">FeeComponent</span>    | A fee associated with the event.                                                                                                   | No.      | Type: [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")          |
+| <span class="keyword parmname">ChargeComponent</span> | A charge associated with the event.                                                                                                | No.      | Type: [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.") |
+| <span class="keyword parmname">TotalAmount</span>     | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No.      | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")         |
 
 </div>
 
@@ -1976,6 +1977,38 @@ datatype:
 
 </div>
 
+<div id="TDSReimbursementEvent" class="topic nested1">
+
+## TDSReimbursementEvent
+
+<div class="body">
+
+<span class="ph">A TDS (Tax Deduction at Source) claim reimbursement on
+the seller's account.</span>
+
+<div class="section">
+
+### Datatype content
+
+The following table shows the elements of the
+<span class="keyword parmname">TDSReimbursementEvent</span> datatype:
+
+<div class="tablenoborder">
+
+| Name                                                   | Description                                                                                        | Required | Values                                                                                       |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
+| <span class="keyword parmname">PostedDate</span>       | The date when the financial event was posted.                                                      | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
+| <span class="keyword parmname">TdsOrderId</span>       | A TDS claim identifier.                                                                            | No       | <span class="ph">Type: xs:string</span>                                                      |
+| <span class="keyword parmname">ReimbursedAmount</span> | <span id="TDSReimbursementEvent___Toc487430482" class="ph">The amount of the reimbursement.</span> | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 <div id="TaxWithheldComponent" class="topic nested1">
 
 ## TaxWithheldComponent
@@ -2018,7 +2051,7 @@ The following table shows the elements of the
 <li><var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.</li>
 <li><var class="keyword varname">Standard</var> - Tax is paid to the seller and not remitted to the taxing authority by Amazon.</li>
 </ul>
-<p><span class="ph">Type: xs:string</span></p></td>
+<span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">TaxesWithheld</span></td>

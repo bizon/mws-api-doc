@@ -178,12 +178,12 @@ requests](../dev_guide/DG_Throttling.md) in the
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentLevelFields</span></td>
 <td>A list of additional seller inputs that are required for this shipping service. These inputs are at the shipment level and are shared across multiple items in the same shipment.
-<p>Type: List of <a href="MerchFulfill_Datatypes.md#ShipmentLevelFields" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the operation.">ShipmentLevelFields</a></p></td>
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#ShipmentLevelFields" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelFields</a></p></td>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">ItemLevelFieldsList</span></td>
 <td>A list of additional seller inputs that are required for this shipping service. These inputs are at the item level and are different for each item in the shipment.
-<p>Type: List of <a href="MerchFulfill_Datatypes.md#ItemLevelFields" class="xref" title="A list of additional seller inputs (at the item level), returned by the operation.">ItemLevelFieldsList</a></p></td>
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#ItemLevelFields" class="xref" title="A list of additional seller inputs (at the item level), returned by the GetAdditionalSellerInputs operation.">ItemLevelFieldsList</a></p></td>
 </tr>
 </tbody>
 </table>

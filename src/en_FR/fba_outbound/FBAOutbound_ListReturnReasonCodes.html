@@ -98,13 +98,13 @@ var sidetoc_js = [ { title: "Developer Guides", isFolder: "true", children: [ { 
 						<thead class="thead" align="left">
 							<tr class="row">
 
-						<th class="entry" valign="top" width="34.18367346938776%" id="d113899e135">Name </th>
+						<th class="entry" valign="top" width="34.18367346938776%" id="d113981e135">Name </th>
 
-						<th class="entry" valign="top" width="25.510204081632654%" id="d113899e138">Description </th>
+						<th class="entry" valign="top" width="25.510204081632654%" id="d113981e138">Description </th>
 
-						<th class="entry" valign="top" width="12.755102040816327%" id="d113899e141">Required </th>
+						<th class="entry" valign="top" width="12.755102040816327%" id="d113981e141">Required </th>
 
-						<th class="entry" valign="top" width="27.551020408163268%" id="d113899e144">Values </th>
+						<th class="entry" valign="top" width="27.551020408163268%" id="d113981e144">Values </th>
 
 					</tr>
 
@@ -112,54 +112,54 @@ var sidetoc_js = [ { title: "Developer Guides", isFolder: "true", children: [ { 
 
 						<tbody class="tbody">
 							<tr class="row">
-								<td class="entry" valign="top" width="34.18367346938776%" headers="d113899e135 "><span class="keyword parmname">MarketplaceId</span></td>
+								<td class="entry" valign="top" width="34.18367346938776%" headers="d113981e135 "><span class="keyword parmname">MarketplaceId</span></td>
 
-								<td class="entry" valign="top" width="25.510204081632654%" headers="d113899e138 ">The marketplace for which the seller wants return reason codes.</td>
+								<td class="entry" valign="top" width="25.510204081632654%" headers="d113981e138 ">The marketplace for which the seller wants return reason codes.</td>
 
-								<td class="entry" valign="top" width="12.755102040816327%" headers="d113899e141 ">No. Not required if <span class="keyword parmname">SellerFulfillmentOrderId</span> is
+								<td class="entry" valign="top" width="12.755102040816327%" headers="d113981e141 ">No. Not required if <span class="keyword parmname">SellerFulfillmentOrderId</span> is
 									specified.</td>
 
-								<td class="entry" valign="top" width="27.551020408163268%" headers="d113899e144 "><span class="keyword parmname">MarketplaceId</span> values: see
+								<td class="entry" valign="top" width="27.551020408163268%" headers="d113981e144 "><span class="keyword parmname">MarketplaceId</span> values: see
                     <a class="xref" href="../dev_guide/DG_Endpoints.html">Amazon MWS endpoints and MarketplaceId values</a>.<p class="p"><span class="ph">Type: xs:string</span></p>
 </td>
 
 							</tr>
 
 							<tr class="row">
-								<td class="entry" valign="top" width="34.18367346938776%" headers="d113899e135 "><span class="keyword parmname">SellerFulfillmentOrderId</span>
+								<td class="entry" valign="top" width="34.18367346938776%" headers="d113981e135 "><span class="keyword parmname">SellerFulfillmentOrderId</span>
 								</td>
 
-								<td class="entry" valign="top" width="25.510204081632654%" headers="d113899e138 "><span class="ph">The identifier assigned to the
+								<td class="entry" valign="top" width="25.510204081632654%" headers="d113981e138 "><span class="ph">The identifier assigned to the
                     item by the seller when the fulfillment order was created.</span> The service
 									uses this value to determine the marketplace for which the
 									seller wants return reason codes.</td>
 
-								<td class="entry" valign="top" width="12.755102040816327%" headers="d113899e141 ">No. Not required if <span class="keyword parmname">MarketplaceId</span> is specified.</td>
+								<td class="entry" valign="top" width="12.755102040816327%" headers="d113981e141 ">No. Not required if <span class="keyword parmname">MarketplaceId</span> is specified.</td>
 
-								<td class="entry" valign="top" width="27.551020408163268%" headers="d113899e144 "><span class="ph">Type: xs:string</span></td>
-
-							</tr>
-
-							<tr class="row">
-								<td class="entry" valign="top" width="34.18367346938776%" headers="d113899e135 "><span class="keyword parmname">SellerSKU</span></td>
-
-								<td class="entry" valign="top" width="25.510204081632654%" headers="d113899e138 ">The seller SKU for which return reason codes are required.</td>
-
-								<td class="entry" valign="top" width="12.755102040816327%" headers="d113899e141 ">Yes</td>
-
-								<td class="entry" valign="top" width="27.551020408163268%" headers="d113899e144 "><span class="ph">Type: xs:string</span></td>
+								<td class="entry" valign="top" width="27.551020408163268%" headers="d113981e144 "><span class="ph">Type: xs:string</span></td>
 
 							</tr>
 
 							<tr class="row">
-								<td class="entry" valign="top" width="34.18367346938776%" headers="d113899e135 "><span class="keyword parmname">Language</span></td>
+								<td class="entry" valign="top" width="34.18367346938776%" headers="d113981e135 "><span class="keyword parmname">SellerSKU</span></td>
 
-								<td class="entry" valign="top" width="25.510204081632654%" headers="d113899e138 ">The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a class="xref" href="FBAOutbound_Datatypes.html#ReasonCodeDetails" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response
+								<td class="entry" valign="top" width="25.510204081632654%" headers="d113981e138 ">The seller SKU for which return reason codes are required.</td>
+
+								<td class="entry" valign="top" width="12.755102040816327%" headers="d113981e141 ">Yes</td>
+
+								<td class="entry" valign="top" width="27.551020408163268%" headers="d113981e144 "><span class="ph">Type: xs:string</span></td>
+
+							</tr>
+
+							<tr class="row">
+								<td class="entry" valign="top" width="34.18367346938776%" headers="d113981e135 "><span class="keyword parmname">Language</span></td>
+
+								<td class="entry" valign="top" width="25.510204081632654%" headers="d113981e138 ">The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a class="xref" href="FBAOutbound_Datatypes.html#ReasonCodeDetails" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response
 									element should be translated into.</td>
 
-								<td class="entry" valign="top" width="12.755102040816327%" headers="d113899e141 ">No</td>
+								<td class="entry" valign="top" width="12.755102040816327%" headers="d113981e141 ">No</td>
 
-								<td class="entry" valign="top" width="27.551020408163268%" headers="d113899e144 ">The <span class="ph">
+								<td class="entry" valign="top" width="27.551020408163268%" headers="d113981e144 ">The <span class="ph">
 				<a class="xref" href="../dev_guide/DG_ISO639.html">ISO 639-1 format</a>
 			</span> language code. Example: fr_CA<p class="p"><span class="ph">Type: xs:string</span></p>
 </td>
@@ -187,9 +187,9 @@ var sidetoc_js = [ { title: "Developer Guides", isFolder: "true", children: [ { 
 						
 						<thead class="thead" align="left">
 							<tr class="row">
-								<th class="entry" valign="top" width="25.380710659898476%" id="d113899e283">Name </th>
+								<th class="entry" valign="top" width="25.380710659898476%" id="d113981e283">Name </th>
 
-								<th class="entry" valign="top" width="74.61928934010153%" id="d113899e286">Description </th>
+								<th class="entry" valign="top" width="74.61928934010153%" id="d113981e286">Description </th>
 
 							</tr>
 
@@ -197,9 +197,9 @@ var sidetoc_js = [ { title: "Developer Guides", isFolder: "true", children: [ { 
 
 						<tbody class="tbody">
 							<tr class="row">
-								<td class="entry" valign="top" width="25.380710659898476%" headers="d113899e283 "><span class="keyword parmname">ReasonCodeDetailsList</span></td>
+								<td class="entry" valign="top" width="25.380710659898476%" headers="d113981e283 "><span class="keyword parmname">ReasonCodeDetailsList</span></td>
 
-								<td class="entry" valign="top" width="74.61928934010153%" headers="d113899e286 ">Type: List of <a class="xref" href="FBAOutbound_Datatypes.html#ReasonCodeDetails" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a></td>
+								<td class="entry" valign="top" width="74.61928934010153%" headers="d113981e286 ">Type: List of <a class="xref" href="FBAOutbound_Datatypes.html#ReasonCodeDetails" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a></td>
 
 							</tr>
 

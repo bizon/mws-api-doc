@@ -356,12 +356,15 @@ code</span> </span>
                     <CurrencyAmount>0.0</CurrencyAmount>
                     <CurrencyCode>USD</CurrencyCode>
                   </ChargeAmount>
-                </ChargeComponent>                  
-                <FeeType>ShippingChargeback</FeeType>
-                <FeeAmount>
-                  <CurrencyAmount>0.0</CurrencyAmount>
-                  <CurrencyCode>USD</CurrencyCode>
-                </FeeAmount>
+                </ChargeComponent>
+              </ItemChargeList>
+              <ItemFeeList>
+                <FeeComponent>
+                  <FeeType>ShippingChargeback</FeeType>
+                  <FeeAmount>
+                    <CurrencyAmount>0.0</CurrencyAmount>
+                    <CurrencyCode>USD</CurrencyCode>
+                  </FeeAmount>
                 </FeeComponent>
                 <FeeComponent>
                   <FeeType>VariableClosingFee</FeeType>
@@ -370,10 +373,10 @@ code</span> </span>
                     <CurrencyCode>USD</CurrencyCode>
                   </FeeAmount>
                 </FeeComponent>
-                </ItemFeeList>
-                <OrderItemId>46432915698730</OrderItemId>
-                <QuantityShipped>1</QuantityShipped>
-                <SellerSKU>HS223A-C00</SellerSKU>
+              </ItemFeeList>
+              <OrderItemId>46432915698730</OrderItemId>
+              <QuantityShipped>1</QuantityShipped>
+              <SellerSKU>HS223A-C00</SellerSKU>
             </ShipmentItem>
           </ShipmentItemList>
           <AmazonOrderId>105-0457358-1245022</AmazonOrderId>
@@ -386,12 +389,12 @@ code</span> </span>
         <AffordabilityExpenseEvent>
           <PostedDate>2018-02-08T13:17:15.000Z</PostedDate>
           <TransactionType>Charge</TransactionType>
-          <AmazonOrderId>931-2463294-5740665</AmazonOrderId >
+          <AmazonOrderId>931-2463294-5740665</AmazonOrderId>
           <MarketplaceId>A2XZLSVIQ0F4JT</MarketplaceId>
           <BaseExpense>
             <CurrencyAmount>-100.00</CurrencyAmount>
             <CurrencyCode>INR</CurrencyCode>
-          </BaseExpense > 
+          </BaseExpense>
           <TaxTypeIGST>
             <CurrencyAmount>-18.00</CurrencyAmount>
             <CurrencyCode>INR</CurrencyCode>
@@ -426,7 +429,7 @@ code</span> </span>
           <BaseExpense>
             <CurrencyAmount>100.00</CurrencyAmount>
             <CurrencyCode>INR</CurrencyCode>
-          </BaseExpense >
+          </BaseExpense>
           <TaxTypeIGST>
             <CurrencyAmount>18.00</CurrencyAmount>
             <CurrencyCode>INR</CurrencyCode>
@@ -445,6 +448,16 @@ code</span> </span>
           </TotalExpense>
         </AffordabilityExpenseReversalEvent>
       </AffordabilityExpenseReversalEventList>
+      <TDSReimbursementEventList>
+        <TDSReimbursementEvent>
+          <ReimbursedAmount>
+            <CurrencyCode>INR</CurrencyCode>
+            <CurrencyAmount>3.98</CurrencyAmount>
+          </ReimbursedAmount>
+          <PostedDate>2019-08-01T16:18:15.000Z</PostedDate>
+          <TdsOrderId>TDS-1235</TdsOrderId>
+        </TDSReimbursementEvent>
+      </TDSReimbursementEventList>
     </FinancialEvents>
   </ListFinancialEventsResult>
   <ResponseMetadata>

@@ -166,7 +166,7 @@ requests](../dev_guide/DG_Throttling.md) in the
 <td><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
 <td>A list of additional seller inputs, at the shipment level.</td>
 <td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the operation.">ShipmentLevelSellerInputsList</a></td>
+<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a></td>
 </tr>
 </tbody>
 </table>
