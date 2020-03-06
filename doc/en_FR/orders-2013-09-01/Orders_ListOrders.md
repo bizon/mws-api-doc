@@ -538,6 +538,7 @@ code</span> </span>
                 <PurchaseOrderNumber>PO12345678</PurchaseOrderNumber>
                 <IsPrime>false</IsPrime>
                 <IsPremiumOrder>false</IsPremiumOrder>
+                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
             </Order>
             <Order>
                 <AmazonOrderId>483-3488972-0896720</AmazonOrderId>
@@ -581,6 +582,7 @@ code</span> </span>
                 <IsBusinessOrder>false</IsBusinessOrder>
                 <IsPrime>false</IsPrime>
                 <IsPremiumOrder>false</IsPremiumOrder>
+                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
             </Order>
             <Order>
                 <AmazonOrderId>058-1233752-8214740</AmazonOrderId>
@@ -637,6 +639,7 @@ code</span> </span>
                 <IsBusinessOrder>false</IsBusinessOrder>
                 <IsPrime>false</IsPrime>
                 <IsPremiumOrder>false</IsPremiumOrder>
+                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
                 <PromiseResponseDueDate>2017-08-31T23:58:44Z</PromiseResponseDueDate>
                 <IsEstimatedShipDateSet>true</IsEstimatedShipDateSet>
             </Order>

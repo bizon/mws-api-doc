@@ -274,16 +274,16 @@ longer in a "pending" state), not when the orders were created.
 <p>Enumeration value: <samp class="ph codeph">_GET_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
 <td>Scheduled XML order report. For Seller Central sellers only.
-<p>You can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p></td>
+<p>You can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDERS_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p></td>
 </tr>
 <tr class="odd">
 <td><span class="keyword parmname">Requested or Scheduled Flat File Order Report</span>
-<p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ORDER_REPORT_DATA_</samp></p>
+<p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
 <td>Tab-delimited flat file order report that can be requested or scheduled. The report shows orders from the previous 60 days. For Marketplace and Seller Central sellers.
-<p>Seller Central sellers can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
-<p>Marketplace sellers can only schedule one _GET_FLAT_FILE_ORDER_REPORT_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
+<p>Seller Central sellers can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDERS_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
+<p>Marketplace sellers can only schedule one _GET_FLAT_FILE_ORDERS_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
 <div class="note note">
 <span class="notetitle">Note:</span> The format of this report will differ slightly depending on whether it is scheduled or requested.
 </div>
@@ -298,7 +298,7 @@ longer in a "pending" state), not when the orders were created.
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
 <td>Tab-delimited flat file order report that can be requested or scheduled. For Marketplace sellers only.
-<p>You can only schedule one _GET_FLAT_FILE_ORDER_REPORT_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
+<p>You can only schedule one _GET_FLAT_FILE_ORDERS_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
 <div class="note note">
 <span class="notetitle">Note:</span> The format of this report will differ slightly depending on whether it is scheduled or requested. For example, the format for the dates will differ, and the ship-method column is only returned when the report is requested.
 </div>

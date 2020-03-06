@@ -140,11 +140,16 @@ requests](../dev_guide/DG_Throttling.md) in the
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></p></td>
 </tr>
 <tr class="even">
+<td><span class="keyword parmname">RejectedShippingServiceList</span></td>
+<td>A list of ineligible shipping services.
+<p>Type: List of <a href="MerchFulfill_Datatypes.md#RejectedShippingService" class="xref" title="A shipping service that is ineligible based on the specified ShipmentRequestDetails information.">RejectedShippingService</a></p></td>
+</tr>
+<tr class="odd">
 <td><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
 <td>A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
 <td>A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
@@ -306,6 +311,16 @@ For shipping that does not require additional seller inputs.
                 <RequiresAdditionalSellerInputs>False</RequiresAdditionalSellerInputs>
             </ShippingService>
         </ShippingServiceList>
+        <RejectedShippingServiceList>
+            <RejectedShippingService>
+                <CarrierName>UPS</CarrierName>
+                <ShippingServiceId>UPS_PTP_3DS</ShippingServiceId>
+                <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
+                <RejectionReasonMessage>This ship method is not eligible for this
+                    order.</RejectionReasonMessage>
+                <ShippingServiceName>UPS Three Day Saver</ShippingServiceName>
+            </RejectedShippingService>
+        </RejectedShippingServiceList>
         <TemporarilyUnavailableCarrierList>
             <TemporarilyUnavailableCarrier>
                 <CarrierName>DYNAMEX</CarrierName>
@@ -388,6 +403,16 @@ For shipping that requires additional seller inputs.
                 <ShippingServiceOfferId>NH0sNBYSrqUP2+5yJdI14yLsCwFfk2413sYQHKbp0ILv8xkJemzkFK/wgUXeC9y4j6dNKuYn3EpQh7YJSc4gvPUfNDsISoAi9tCikbPjI5KOajdY75KvPLXPEC57Od/gAlOQv07JravlVU6oURFoVtc8nwZDviBPfA43owEPmxPglPTttIuS9LfcI0ky/kIP/OT7h+acfQj8JxAtomwX1WUYGZSbzkSL9c6ic5CAeriif1Kr0k8Y0RuloSZs2ZQwOv//nLvV3ZCZic8vU8cGVGHExM9sMKamBDopoh0Kx2JHcDwWHDcKB+lOntkABC84</ShippingServiceOfferId>
             </ShippingService>
         </ShippingServiceList>
+        <RejectedShippingServiceList>
+            <RejectedShippingService>
+                <CarrierName>CHINA_POST</CarrierName>
+                <ShippingServiceId>CHINA_POST_E_PACKET</ShippingServiceId>
+                <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
+                <RejectionReasonMessage>This ship method is not eligible for this
+                    order.</RejectionReasonMessage>
+                <ShippingServiceName>China Post e-Packet</ShippingServiceName>
+            </RejectedShippingService>
+        </RejectedShippingServiceList>
         <TermsAndConditionsNotAcceptedCarrierList>
             <TermsAndConditionsNotAcceptedCarrier>
                 <CarrierName>DHL</CarrierName>

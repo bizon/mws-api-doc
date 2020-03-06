@@ -59,6 +59,7 @@ Fulfillment service</span>:
 | [LabelCustomization](MerchFulfill_Datatypes.md#LabelCustomization "Custom text for shipping labels.")                                                                                                          | <span class="ph">Custom text for shipping labels.</span>                                                                                                                                                                                          |
 | [LabelDimensions](MerchFulfill_Datatypes.md#LabelDimensions "Dimensions for printing a shipping label.")                                                                                                       | <span class="ph">Dimensions for printing a shipping label.</span>                                                                                                                                                                                 |
 | [PackageDimensions](MerchFulfill_Datatypes.md#PackageDimensions "The dimensions of a package contained in a shipment.")                                                                                        | <span class="ph">The dimensions of a package contained in a shipment.</span>                                                                                                                                                                      |
+| [RejectedShippingService](MerchFulfill_Datatypes.md#RejectedShippingService "A shipping service that is ineligible based on the specified ShipmentRequestDetails information.")                                | <span class="ph">A shipping service that is ineligible based on the specified <span class="keyword parmname">ShipmentRequestDetails</span> information.</span>                                                                                    |
 | [SellerInputDefinition](MerchFulfill_Datatypes.md#SellerInputDefinition "Defines the additional seller input that is required from the seller.")                                                               | <span class="ph">Defines the additional seller input that is required from the seller.</span>                                                                                                                                                     |
 | [Shipment](MerchFulfill_Datatypes.md#Shipment "The details of a shipment, including the shipment status.")                                                                                                     | <span class="ph">The details of a shipment, including the shipment status.</span>                                                                                                                                                                 |
 | [ShipmentLevelFields](MerchFulfill_Datatypes.md#ShipmentLevelFields "A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.")                              | <span class="ph">A list of additional seller inputs (at the shipment level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                           |
@@ -420,6 +421,8 @@ on hazardous materials.
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <span class="keyword parmname">OrderItemId</span>               | An Amazon-defined identifier for an individual item in an order. Used in the XML response to an order query request (Order API/Order XML).                          | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                       |
 | <span class="keyword parmname">Quantity</span>                  | The number of items.                                                                                                                                                | Yes      | <span class="ph">Type: xs:int</span>                                                                                                                                                          |
+| <span class="keyword parmname">ItemWeight</span>                | The weight of the item.                                                                                                                                             | No       | Type: [Weight](MerchFulfill_Datatypes.md#Weight "The weight value and unit of measurement.")                                                                                                |
+| <span class="keyword parmname">ItemDescription</span>           | The description of the item.                                                                                                                                        | No       | <span class="ph">Type: xs:string</span>                                                                                                                                                       |
 | <span class="keyword parmname">TransparencyCodeList</span>      | <span class="ph">List of Transparency codes.</span>                                                                                                                 | No       | Type: [TransparencyCodeList](MerchFulfill_Datatypes.md#TransparencyCodeList "List of Transparency codes.")                                                                                  |
 | <span class="keyword parmname">ItemLevelSellerInputsList</span> | <span class="ph">A list of additional seller inputs (at the item level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span> | No       | Type: [ItemLevelSellerInputsList](MerchFulfill_Datatypes.md#ItemLevelSellerInputs "A list of additional seller inputs (at the item level), used as input to the CreateShipment operation.") |
 
@@ -499,7 +502,7 @@ operation.</span>
 <td>Yes</td>
 <td><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
 <ul>
-<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">ITEM_WEIGHT</var>, <var class="keyword varname">ITEM_DESCRIPTION</var>, <var class="keyword varname">HS_CODE</var>. Get this value from an <span class="keyword parmname">AdditionalInputs</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
+<li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">HS_CODE</var>. Get this value from an <span class="keyword parmname">AdditionalInputs</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 <li><strong>AdditionalSellerInput</strong> - Additional seller input information. <strong>AdditionalSellerInput</strong> contains these elements:
 <ul>
 <li><span class="keyword parmname">DataType</span> - The type of the additional seller input. Values: <var class="keyword varname">String</var>, <var class="keyword varname">Boolean</var>, <var class="keyword varname">Integer</var>, <var class="keyword varname">Timestamp</var>, <var class="keyword varname">Address</var>, <var class="keyword varname">Weight</var>, <var class="keyword varname">Dimension</var>, <var class="keyword varname">Currency</var>. Get the <span class="keyword parmname">DataType</span> value from an <span class="keyword parmname">SellerInputDefinition</span> element returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
@@ -782,6 +785,82 @@ shipment.</span>
 <td>A parcel token that specifies pre-defined package dimensions.</td>
 <td>No</td>
 <td>For <span class="keyword parmname">PredefinedPackageDimensions</span> values, see the <a href="MerchFulfill_PrePackDimenEnum.md" class="xref" title="An enumeration of predefined parcel tokens.">PredefinedPackageDimensions enumeration</a> table.
+<p><span class="ph">Type: xs:string</span></p></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="RejectedShippingService" class="topic reference nested1">
+
+## RejectedShippingService
+
+<div class="body refbody">
+
+<span class="ph">A shipping service that is ineligible based on the
+specified <span class="keyword parmname">ShipmentRequestDetails</span>
+information.</span>
+
+<div id="RejectedShippingService__DatatypeContent" class="section">
+
+### RejectedShippingService elements
+
+<div class="tablenoborder">
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="keyword parmname">CarrierName</span></td>
+<td>The name of the carrier.</td>
+<td>Yes</td>
+<td><span class="ph">Type: xs:string</span></td>
+</tr>
+<tr class="even">
+<td><span class="keyword parmname">ShippingServiceId</span></td>
+<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td>Yes</td>
+<td><span class="ph">Type: xs:string</span></td>
+</tr>
+<tr class="odd">
+<td><span class="keyword parmname">RejectionReasonCode</span></td>
+<td>An Amazon-defined reason code for why the shipping service is ineligible.</td>
+<td>Yes</td>
+<td>Examples: <span class="keyword parmname">INELIGIBLE</span>, <span class="keyword parmname">SHIP_DATE_OUT_OF_RANGE</span>, <span class="keyword parmname">CARRIER_CANNOT_SHIP_TO_POBOX</span>
+<p><span class="ph">Type: xs:string</span></p></td>
+</tr>
+<tr class="even">
+<td><span class="keyword parmname">RejectionReasonMessage</span></td>
+<td>A message that explains why the shipping service is ineligible.</td>
+<td>Yes</td>
+<td>Example: This ship method is not eligible for this order.
+<p><span class="ph">Type: xs:string</span></p></td>
+</tr>
+<tr class="odd">
+<td><span class="keyword parmname">ShippingServiceName</span></td>
+<td>The name of the carrier's shipping service.</td>
+<td>Yes</td>
+<td>Example: UPS Ground.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

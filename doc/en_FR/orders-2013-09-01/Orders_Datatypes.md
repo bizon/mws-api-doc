@@ -659,20 +659,37 @@ The following table shows the elements of the
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even">
+<td><span class="keyword parmname">IsSoldByAB</span></td>
+<td><var class="keyword varname">true</var> if the items in this order were bought and re-sold by Amazon Business EU SARL (ABEU).
+<p><span class="keyword parmname">IsSoldByAB</span> values:</p>
+<ul>
+<li><var class="keyword varname">true</var> - The items in this order were bought and re-sold by ABEU.</li>
+<li><var class="keyword varname">false</var> - The items in this order were not bought and re-sold by ABEU.</li>
+</ul></td>
+<td>No</td>
+<td><span class="ph">Type: xs:boolean</span></td>
+</tr>
+<tr class="odd">
 <td><span class="keyword parmname">PurchaseOrderNumber</span></td>
 <td>The purchase order (PO) number entered by the buyer at checkout.</td>
 <td>No. Returned only for orders where the buyer entered a PO number at checkout.</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">IsPrime</span></td>
 <td><var class="keyword varname">true</var> if the order is a seller-fulfilled Amazon Prime order.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">IsPremiumOrder</span></td>
-<td><var class="keyword varname">true</var> if the order has a Premium Shipping Service Level Agreement. For more information about Premium Shipping orders, see "Premium Shipping Options" in the Seller Central Help for your marketplace.</td>
+<td><var class="keyword varname">true</var> if the order has a Premium Shipping Service Level Agreement. For more information about Premium Shipping orders, see "Premium Shipping Options" in the Seller Central Help.</td>
+<td>No</td>
+<td><span class="ph">Type: xs:boolean</span></td>
+</tr>
+<tr class="even">
+<td><span class="keyword parmname">IsGlobalExpressEnabled</span></td>
+<td><var class="keyword varname">true</var> if the order is a Global Express order. For more information about the Global Express program, see "Global Express" in the Seller Central Help.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>

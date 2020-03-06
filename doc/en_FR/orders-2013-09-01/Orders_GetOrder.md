@@ -267,7 +267,8 @@ code</span> </span>
                 <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
                 <IsBusinessOrder>false</IsBusinessOrder>
                 <IsPrime>false</IsPrime>
-                <IsPremiumOrder>false</IsPremiumOrder>  
+                <IsPremiumOrder>false</IsPremiumOrder>
+                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
             </Order>
         </Orders>
     </GetOrderResult>

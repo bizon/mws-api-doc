@@ -317,40 +317,32 @@ POST /MerchantFulfillment/2015-06-01?AWSAccessKeyId=AKIAEE2ISSMCQLNRUXDQ
   &ShipmentRequestDetails.ItemList.Item.2.OrderItemId=61995533938438
   &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
   &ShipmentRequestDetails.ItemList.Item.2.Quantity=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Value=100
+  &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Value=200
+  &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Unit=grams
+  &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Unit=grams
+  &ShipmentRequestDetails.ItemList.Item.1.ItemDescription=poster
+  &ShipmentRequestDetails.ItemList.Item.2.ItemDescription=poster
   &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
   &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
   &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=12345
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
   &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=holder
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=STRING
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsString=%E6%9E%B6%E5%AD%90
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalInputFieldName=ITEM_VALUE
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.DataType=CURRENCY
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.Amount=1
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalInputFieldName=ITEM_WEIGHT
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.DataType=WEIGHT
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Value=100
-  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Unit=grams 
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%9E%B6%E5%AD%90
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
   &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
   &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
   &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=23456
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
   &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=poster
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=STRING
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsString=%E6%B5%B7%E6%8A%A5
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalInputFieldName=ITEM_VALUE
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.DataType=CURRENCY
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.Amount=0.7
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.4.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalInputFieldName=ITEM_WEIGHT
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.DataType=WEIGHT
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Value=50
-  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.5.AdditionalSellerInput.ValueAsWeight.Unit=grams
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%B5%B7%E6%8A%A5
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=0.7
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
   &LabelFormatOption.IncludePackingSlipWithLabel=false
   &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=NON_DELIVERABLE_INSTRUCTIONS
   &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=SENDER_ADDRESS_TRANSLATED
@@ -472,6 +464,8 @@ code</span> </span>
                 <Item>
                     <OrderItemId>40525960574974</OrderItemId>
                     <Quantity>1</Quantity>
+                    <ItemWeight>200</ItemWeight>
+                    <ItemDescription>Poster</ItemDescription>
                 </Item>
             </ItemList>
             <Status>Purchased</Status>
