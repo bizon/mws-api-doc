@@ -60,10 +60,10 @@ fail.
 
 | Amazon Marketplace | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
 | ------------------ | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Brazil             | BR           | <span id="DG_Endpoints__d2002e1165" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2002e1169" class="ph">A2Q3Y263D00KWC</span> |
-| Canada             | CA           | <span id="DG_Endpoints__d2002e1182" class="ph">https://mws.amazonservices.ca</span>     | <span id="DG_Endpoints__d2002e1186" class="ph">A2EUQ1WTGCTBG2</span> |
-| Mexico             | MX           | <span id="DG_Endpoints__d2002e1199" class="ph">https://mws.amazonservices.com.mx</span> | <span id="DG_Endpoints__d2002e1203" class="ph">A1AM78C64UM0Y8</span> |
-| US                 | US           | <span id="DG_Endpoints__d2002e1216" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2002e1220" class="ph">ATVPDKIKX0DER</span>  |
+| Brazil             | BR           | <span id="DG_Endpoints__d2028e1165" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2028e1169" class="ph">A2Q3Y263D00KWC</span> |
+| Canada             | CA           | <span id="DG_Endpoints__d2028e1182" class="ph">https://mws.amazonservices.ca</span>     | <span id="DG_Endpoints__d2028e1186" class="ph">A2EUQ1WTGCTBG2</span> |
+| Mexico             | MX           | <span id="DG_Endpoints__d2028e1199" class="ph">https://mws.amazonservices.com.mx</span> | <span id="DG_Endpoints__d2028e1203" class="ph">A1AM78C64UM0Y8</span> |
+| US                 | US           | <span id="DG_Endpoints__d2028e1216" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2028e1220" class="ph">ATVPDKIKX0DER</span>  |
 
 <span class="tablecap">Table 1. North America region</span>
 
@@ -73,17 +73,17 @@ fail.
 
 | Amazon Marketplace            | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
 | ----------------------------- | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| United Arab Emirates (U.A.E.) | AE           | <span id="DG_Endpoints__d2002e1273" class="ph">https://mws.amazonservices.ae</span>     | <span id="DG_Endpoints__d2002e1277" class="ph">A2VIGQ35RCS4UG</span> |
-| Germany                       | DE           | <span id="DG_Endpoints__d2002e1290" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1294" class="ph">A1PA6795UKMFR9</span> |
-| Egypt                         | EG           | <span id="DG_Endpoints__d2002e1307" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1311" class="ph">ARBP9OOSHTCHU</span>  |
-| Spain                         | ES           | <span id="DG_Endpoints__d2002e1324" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1328" class="ph">A1RKKUPIHCS9HS</span> |
-| France                        | FR           | <span id="DG_Endpoints__d2002e1341" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1345" class="ph">A13V1IB3VIYZZH</span> |
-| UK                            | GB           | <span id="DG_Endpoints__d2002e1359" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1363" class="ph">A1F83G8C2ARO7P</span> |
-| India                         | IN           | <span id="DG_Endpoints__d2002e1376" class="ph">https://mws.amazonservices.in</span>     | <span id="DG_Endpoints__d2002e1380" class="ph">A21TJRUUN4KGV</span>  |
-| Italy                         | IT           | <span id="DG_Endpoints__d2002e1393" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1397" class="ph">APJ6JRA9NG5V4</span>  |
-| Netherlands                   | NL           | <span id="DG_Endpoints__d2002e1410" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1414" class="ph">A1805IZSGTT6HS</span> |
-| Saudi Arabia                  | SA           | <span id="DG_Endpoints__d2002e1427" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1431" class="ph">A17E79C6D8DWNP</span> |
-| Turkey                        | TR           | <span id="DG_Endpoints__d2002e1444" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1448" class="ph">A33AVAJ2PDY3EV</span> |
+| United Arab Emirates (U.A.E.) | AE           | <span id="DG_Endpoints__d2028e1273" class="ph">https://mws.amazonservices.ae</span>     | <span id="DG_Endpoints__d2028e1277" class="ph">A2VIGQ35RCS4UG</span> |
+| Germany                       | DE           | <span id="DG_Endpoints__d2028e1290" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1294" class="ph">A1PA6795UKMFR9</span> |
+| Egypt                         | EG           | <span id="DG_Endpoints__d2028e1307" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1311" class="ph">ARBP9OOSHTCHU</span>  |
+| Spain                         | ES           | <span id="DG_Endpoints__d2028e1324" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1328" class="ph">A1RKKUPIHCS9HS</span> |
+| France                        | FR           | <span id="DG_Endpoints__d2028e1341" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1345" class="ph">A13V1IB3VIYZZH</span> |
+| UK                            | GB           | <span id="DG_Endpoints__d2028e1359" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1363" class="ph">A1F83G8C2ARO7P</span> |
+| India                         | IN           | <span id="DG_Endpoints__d2028e1376" class="ph">https://mws.amazonservices.in</span>     | <span id="DG_Endpoints__d2028e1380" class="ph">A21TJRUUN4KGV</span>  |
+| Italy                         | IT           | <span id="DG_Endpoints__d2028e1393" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1397" class="ph">APJ6JRA9NG5V4</span>  |
+| Netherlands                   | NL           | <span id="DG_Endpoints__d2028e1410" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1414" class="ph">A1805IZSGTT6HS</span> |
+| Saudi Arabia                  | SA           | <span id="DG_Endpoints__d2028e1427" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1431" class="ph">A17E79C6D8DWNP</span> |
+| Turkey                        | TR           | <span id="DG_Endpoints__d2028e1444" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1448" class="ph">A33AVAJ2PDY3EV</span> |
 
 <span class="tablecap">Table 2. Europe region</span>
 
@@ -93,9 +93,9 @@ fail.
 
 | Amazon Marketplace | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
 | ------------------ | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Singapore          | SG           | <span id="DG_Endpoints__d2002e1501" class="ph">https://mws-fe.amazonservices.com</span> | <span id="DG_Endpoints__d2002e1505" class="ph">A19VAU5U5O7RUS</span> |
-| Australia          | AU           | <span id="DG_Endpoints__d2002e1518" class="ph">https://mws.amazonservices.com.au</span> | <span id="DG_Endpoints__d2002e1522" class="ph">A39IBJ37TRP1C6</span> |
-| Japan              | JP           | <span id="DG_Endpoints__d2002e1535" class="ph">https://mws.amazonservices.jp</span>     | <span id="DG_Endpoints__d2002e1539" class="ph">A1VC38T7YXB528</span> |
+| Singapore          | SG           | <span id="DG_Endpoints__d2028e1501" class="ph">https://mws-fe.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1505" class="ph">A19VAU5U5O7RUS</span> |
+| Australia          | AU           | <span id="DG_Endpoints__d2028e1518" class="ph">https://mws.amazonservices.com.au</span> | <span id="DG_Endpoints__d2028e1522" class="ph">A39IBJ37TRP1C6</span> |
+| Japan              | JP           | <span id="DG_Endpoints__d2028e1535" class="ph">https://mws.amazonservices.jp</span>     | <span id="DG_Endpoints__d2028e1539" class="ph">A1VC38T7YXB528</span> |
 
 <span class="tablecap">Table 3. Far East region</span>
 

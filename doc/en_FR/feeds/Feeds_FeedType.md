@@ -265,7 +265,7 @@ Excel templates for feeds.
 <tr class="even">
 <td><span class="keyword parmname">Flat File Order Fulfillment Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FULFILLMENT_DATA_</samp></p></td>
-<td><a href="http://g-ec2.images-amazon.com/images/G/01/rainier/help/ff/release_1_9/Flat.File.ShippingConfirm.fr.xls" class="xref">Flat.File.ShippingConfirm.fr.xls</a>
+<td><a href="http://s3.amazonaws.com/seller-templates/ff/na/us/Flat.File.ShippingConfirm.xls" class="xref">Flat.File.ShippingConfirm.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/13491" class="xref">Shipping Confirmation Template</a></p></td>
 </tr>
 <tr class="odd">

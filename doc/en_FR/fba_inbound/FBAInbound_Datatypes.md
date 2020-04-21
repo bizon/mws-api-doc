@@ -1105,7 +1105,7 @@ Default: <var class="keyword varname">false</var>
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EstimatedBoxContentsFee</span></td>
-<td><span id="InboundShipmentInfo__d9787e1682" class="ph">An estimate of the manual processing fee charged by Amazon for boxes without box content information. This is only returned when <span class="keyword parmname">BoxContentsSource</span> is NONE.</span></td>
+<td><span id="InboundShipmentInfo__d9813e1682" class="ph">An estimate of the manual processing fee charged by Amazon for boxes without box content information. This is only returned when <span class="keyword parmname">BoxContentsSource</span> is NONE.</span></td>
 <td>No</td>
 <td>Type: <a href="FBAInbound_Datatypes.md#BoxContentsFeeDetails" class="xref" title="The manual processing fee per unit and total fee for a shipment.">BoxContentsFeeDetails</a></td>
 </tr>
@@ -1325,7 +1325,7 @@ The following table shows the elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">EstimatedBoxContentsFee</span></td>
-<td><span id="InboundShipmentPlan__d9787e1682" class="ph">An estimate of the manual processing fee charged by Amazon for boxes without box content information. This is only returned when <span class="keyword parmname">BoxContentsSource</span> is NONE.</span></td>
+<td><span id="InboundShipmentPlan__d9813e1682" class="ph">An estimate of the manual processing fee charged by Amazon for boxes without box content information. This is only returned when <span class="keyword parmname">BoxContentsSource</span> is NONE.</span></td>
 <td>No</td>
 <td>Type: <a href="FBAInbound_Datatypes.md#BoxContentsFeeDetails" class="xref" title="The manual processing fee per unit and total fee for a shipment.">BoxContentsFeeDetails</a></td>
 </tr>
