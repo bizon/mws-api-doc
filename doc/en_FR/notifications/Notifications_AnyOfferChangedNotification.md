@@ -1091,7 +1091,10 @@ The following table shows the child elements of the
 </tr>
 <tr class="even">
 <td><span class="keyword parmname">CompetitivePriceThreshold</span></td>
-<td>This price is based on competitive prices from other retailers (excluding other Amazon sellers). Your offer may be ineligible for the Buy Box if Your price + shipping is greater than this competitive price.
+<td>This price is based on competitive prices from other retailers (excluding other Amazon sellers). The offer may be ineligible for the Buy Box if the seller's price + shipping (minus Amazon Points) is greater than this competitive price.
+<div class="note note">
+<span class="notetitle">Note:</span> In Japan, <span class="keyword parmname">CompetitivePriceThreshold</span> considers any points that a non-Amazon retailer applies to their selling price.
+</div>
 <p>Optional.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#ComplexTypes__MoneyType" class="xref">MoneyType</a></p></td>
 </tr>
