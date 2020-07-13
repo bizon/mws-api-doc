@@ -91,7 +91,7 @@ inventory and product category Excel templates.
 
 <div class="tablenoborder">
 
-<table>
+<table id="FeedType_Enumeration__feeds_list" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -207,7 +207,7 @@ Excel templates for feeds.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -287,7 +287,7 @@ Excel templates for feeds.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -360,7 +360,7 @@ Excel templates for feeds.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -391,7 +391,7 @@ Excel templates for feeds.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

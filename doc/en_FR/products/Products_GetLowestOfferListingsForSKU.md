@@ -193,7 +193,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div class="tablenoborder">
 
-<table>
+<table id="RequestParameters__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -273,7 +273,7 @@ operation returns the following two sub-elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="ResponseElements__table_p1d_q2w_km" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

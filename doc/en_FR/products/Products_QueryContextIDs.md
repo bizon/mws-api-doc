@@ -44,7 +44,7 @@ The following table contains
 
 <div class="tablenoborder">
 
-<table>
+<table id="QueryContextIdValues__ResponseElementsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

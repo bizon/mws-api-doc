@@ -129,7 +129,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Address__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -242,7 +242,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="AmazonPrepFeesDetails__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -312,7 +312,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Amount__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -429,7 +429,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -616,7 +616,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Contact__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -701,7 +701,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Dimensions__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -867,7 +867,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentHeader__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1003,7 +1003,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentInfo__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1156,7 +1156,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1268,7 +1268,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentPlan__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1371,7 +1371,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentPlanItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1457,7 +1457,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="InboundShipmentPlanRequestItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1636,7 +1636,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1701,7 +1701,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InvalidSKU__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1767,7 +1767,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="NonPartneredLtlDataInput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1858,7 +1858,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="NonPartneredLtlDataOutput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1951,7 +1951,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="NonPartneredSmallParcelDataInput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2086,7 +2086,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="NonPartneredSmallParcelPackageInput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2151,7 +2151,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="NonPartneredSmallParcelPackageOutput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2256,7 +2256,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Pallet__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2336,7 +2336,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="PartneredEstimate__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2416,7 +2416,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="PartneredLtlDataInput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2519,7 +2519,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="PartneredLtlDataOutput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2687,7 +2687,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="PartneredSmallParcelDataInput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2855,7 +2855,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="PartneredSmallParcelPackageOutput__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2955,7 +2955,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="PrepDetails__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -3031,7 +3031,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -3151,7 +3151,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="SKUPrepInstructions__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -3431,7 +3431,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="TransportHeader__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -3526,7 +3526,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="TransportResult__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -3601,7 +3601,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Weight__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

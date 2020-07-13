@@ -113,7 +113,7 @@ Seller Central sellers.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__ListingReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -246,7 +246,7 @@ longer in a "pending" state), not when the orders were created.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__OrderReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -329,7 +329,7 @@ for orders in a "pending" state.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__OrderTrackingReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -387,7 +387,7 @@ These reports can be both scheduled and requested where noted.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__PendingOrderReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -433,7 +433,7 @@ These reports can be both scheduled and requested where noted.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__ReturnsReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -500,7 +500,7 @@ These reports can be both scheduled and requested where noted.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__PerformanceReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -540,7 +540,7 @@ automatically scheduled by Amazon.
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__SettlementReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1164,7 +1164,7 @@ and Japan marketplaces.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__SalesTaxReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1221,7 +1221,7 @@ and Japan marketplaces.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReportTypeCategories__BrowseTreeReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1279,7 +1279,7 @@ and Japan marketplaces.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1322,7 +1322,7 @@ and Japan marketplaces.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1363,7 +1363,7 @@ and Japan marketplaces.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

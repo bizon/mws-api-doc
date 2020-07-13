@@ -114,7 +114,7 @@ organization. Further information can be found in the
 
 </div>
 
-<table>
+<table class="simpletable" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="0">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />
@@ -123,7 +123,7 @@ organization. Further information can be found in the
 <tbody>
 <tr class="odd">
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../feeds/Feeds_Overview.md" class="xref">Feeds API</a></td>
@@ -135,7 +135,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../finances/Finances_Overview.md" class="xref">Finances API</a></td>
@@ -147,7 +147,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a></td>
@@ -161,7 +161,7 @@ organization. Further information can be found in the
 </tr>
 <tr class="even">
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../fba_inventory/FBAInventory_Overview.md" class="xref">Fulfillment Inventory API</a></td>
@@ -173,7 +173,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../fba_outbound/FBAOutbound_Overview.md" class="xref">Fulfillment Outbound Shipment API</a></td>
@@ -185,7 +185,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a></td>
@@ -199,7 +199,7 @@ organization. Further information can be found in the
 </tr>
 <tr class="odd">
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a></td>
@@ -211,7 +211,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../products/Products_Overview.md" class="xref">Products API</a></td>
@@ -223,7 +223,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../recommendations/Recommendations_Overview.md" class="xref">Recommendations API</a></td>
@@ -237,7 +237,7 @@ organization. Further information can be found in the
 </tr>
 <tr class="even">
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../reports/Reports_Overview.md" class="xref">Reports API</a></td>
@@ -249,7 +249,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../sellers/Sellers_Overview.md" class="xref">Sellers API</a></td>
@@ -261,7 +261,7 @@ organization. Further information can be found in the
 </table>
 </div></td>
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a></td>
@@ -275,7 +275,7 @@ organization. Further information can be found in the
 </tr>
 <tr class="odd">
 <td><div class="p">
-<table>
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
 <tr class="odd">
 <td><a href="../notifications/Notifications_Overview.md" class="xref">Push Notifications Schemas</a></td>

@@ -106,7 +106,7 @@ element:
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentOrderStatusNotification__table_v4j_lkj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -200,7 +200,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentReturnItem__table_k3g_gdb_54" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -265,7 +265,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentShipment__table_abj_4db_54" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -344,7 +344,7 @@ element:
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentShipmentPackage__table_mtb_vdb_54" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

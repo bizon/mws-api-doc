@@ -48,7 +48,7 @@ sections, see [Error Messages](../dev_guide/DG_Errors.md) in the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />

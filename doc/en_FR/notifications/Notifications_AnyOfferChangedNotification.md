@@ -82,7 +82,7 @@ element:
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -169,7 +169,7 @@ element:
 
 <div class="tablenoborder">
 
-<table>
+<table id="AnyOfferChangedNotification__table_v4j_lkj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -228,7 +228,7 @@ The following table shows the attributes of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="BuyBoxPrice__table_qwc_b4j_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -262,7 +262,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="BuyBoxPrice__table_zcf_24j_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -329,7 +329,7 @@ The following table shows the attributes of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="LowestPrice__table_mm2_nnj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -369,7 +369,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="LowestPrice__table_kdt_lnj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -437,7 +437,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Offer__table_q3v_pqj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -571,7 +571,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="OfferChangeTrigger__table_zss_glj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -647,7 +647,7 @@ The following table shows the attributes of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="OfferCount__table_k3l_smj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -710,7 +710,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Points__table_ev4_ckp_kq" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -756,7 +756,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="PrimeInformation__table_ev4_ckp_kq" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -809,7 +809,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="SalesRank__table_wzs_p4j_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -863,7 +863,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="SellerFeedbackRating__table_fsh_mrj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -916,7 +916,7 @@ The following table shows the attributes of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="ShippingTime__table_ktl_csj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -981,7 +981,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="ShipsFrom__table_zlb_msj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -1035,7 +1035,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Summary__table_scn_vlj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

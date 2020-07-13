@@ -98,7 +98,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -286,7 +286,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="BuyerTaxInfo__table_r5c_3tj_hy" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -415,7 +415,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Order__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -749,7 +749,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1037,7 +1037,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1303,7 +1303,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

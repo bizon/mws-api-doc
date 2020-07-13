@@ -59,7 +59,7 @@ Amazon recommends the fonts listed in the following table.
 
 <div class="tablenoborder">
 
-<table>
+<table id="FBAGuide_LabelFontSpec__ResponseElementsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />

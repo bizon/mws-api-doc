@@ -159,7 +159,7 @@ once an order has been placed.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table id="DetailedShippingTimeType__DetailedShippingTimeType" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -292,7 +292,7 @@ other details that identify an estimate.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -371,7 +371,7 @@ request estimated fees.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -450,7 +450,7 @@ product.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -643,7 +643,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div class="tablenoborder">
 
-<table>
+<table id="MoneyType__MoneyType" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

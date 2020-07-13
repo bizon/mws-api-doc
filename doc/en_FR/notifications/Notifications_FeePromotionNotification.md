@@ -106,7 +106,7 @@ element is made up of the following data objects:
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -195,7 +195,7 @@ The following table describes the attributes of an item from the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -250,7 +250,7 @@ A description of identifier values to which this promotion applies.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -338,7 +338,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -456,7 +456,7 @@ The following table shows the attributes of a
 
 <div class="tablenoborder">
 
-<table>
+<table id="FeeDetail__table_ktl_csj_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

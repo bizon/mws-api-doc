@@ -89,7 +89,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InventorySupply__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -222,7 +222,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="InventorySupplyDetail__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -320,7 +320,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Timepoint__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

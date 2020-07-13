@@ -75,7 +75,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-<table>
+<table id="Dimensions__table_jdj_c5z_42b" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -204,7 +204,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-<table>
+<table id="Package__table_qgn_f5z_42b" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -298,7 +298,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-<table>
+<table id="PackageRequestDetails__table_xlh_g5z_42b" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -452,7 +452,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

@@ -125,7 +125,7 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div class="tablenoborder">
 
-<table>
+<table id="RequestParameters__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -199,7 +199,7 @@ you choose to use these schemas for validation.
 
 <div class="tablenoborder">
 
-<table>
+<table class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />

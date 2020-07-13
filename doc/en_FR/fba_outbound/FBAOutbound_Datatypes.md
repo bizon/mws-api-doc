@@ -114,7 +114,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Address__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -242,7 +242,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="CODSettings__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -356,7 +356,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="CreateFulfillmentOrderItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -482,7 +482,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="CreateReturnItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -572,7 +572,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Currency__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -646,7 +646,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="DeliveryWindow__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -715,7 +715,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Fee__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -795,7 +795,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentOrder__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -977,7 +977,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentOrderItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1122,7 +1122,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentPreview__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1265,7 +1265,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentPreviewItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1357,7 +1357,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentPreviewShipment__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1447,7 +1447,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentShipment__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1603,7 +1603,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="FulfillmentShipmentPackage__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1685,7 +1685,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="GetFulfillmentPreviewItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -1967,7 +1967,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="ReturnItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2116,7 +2116,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="ScheduledDeliveryInfo__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2210,7 +2210,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="TrackingAddress__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2286,7 +2286,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="TrackingEvent__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2397,7 +2397,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="UnfulfillablePreviewItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2485,7 +2485,7 @@ datatype:
 
 <div class="tablenoborder">
 
-<table>
+<table id="UpdateFulfillmentOrderItem__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -2597,7 +2597,7 @@ The following table shows the elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Weight__RequestParametersTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />

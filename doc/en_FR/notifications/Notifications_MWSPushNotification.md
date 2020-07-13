@@ -118,7 +118,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="Notification__table_yff_zy3_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -170,7 +170,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="NotificationMetaData__table_pwd_3z3_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -254,7 +254,7 @@ The following table shows the child elements of the
 
 <div class="tablenoborder">
 
-<table>
+<table id="NotificationPayload__table_bmx_jz3_ll" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
