@@ -149,7 +149,7 @@ requirements:
     documentation must be made available to Amazon on request (if
     applicable).
     
-    Developers must inform Amazon (via email to security@amazon.com)
+    Developers must inform Amazon (via email to 3p-security@amazon.com)
     within 24 hours of detecting any Security Incidents. Developers
     cannot notify any regulatory authority, nor any customer, on behalf
     of Amazon unless Amazon specifically requests in writing that the
