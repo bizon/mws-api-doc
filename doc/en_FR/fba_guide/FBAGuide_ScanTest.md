@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Scan test
+Scan test
+=========
 
 <div class="body conbody">
 
@@ -42,9 +42,9 @@ ensure that they will scan properly at an <span class="ph">Amazon
 fulfillment center</span>. The following are the most common issues that
 cause scanning failure:
 
-  - The bars in the barcode are blurred.
-  - The bars in the barcode are too compact.
-  - The recommended font was not used.
+-   The bars in the barcode are blurred.
+-   The bars in the barcode are too compact.
+-   The recommended font was not used.
 
 </div>
 
@@ -54,8 +54,8 @@ cause scanning failure:
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShippingSpecs.md" class="link">Shipping Specifications</a>
 
 </div>
 

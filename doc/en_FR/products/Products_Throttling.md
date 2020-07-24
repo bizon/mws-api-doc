@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_Throttling" class="nested0">
 
-# Throttling in the Products API
+Throttling in the Products API
+==============================
 
 <div class="body">
 
@@ -45,16 +45,17 @@ section</span>.
 The <span class="ph">Products API section</span> uses two types of
 throttling. All the operations in the <span class="ph">Products API
 section</span> use the standard per-request throttling described in
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md). All of the operations have a
-**Maximum request quota** and **Hourly request quota** measured by
-request. Many of the operations also throttle based on the number of
-items returned by an operation. These operations use a **Restore rate**
-based on the items instead of requests.
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>.
+All of the operations have a **Maximum request quota** and **Hourly
+request quota** measured by request. Many of the operations also
+throttle based on the number of items returned by an operation. These
+operations use a **Restore rate** based on the items instead of
+requests.
 
 <div class="section">
 
-## Per-Request Throttling
+Per-Request Throttling
+----------------------
 
 These are the throttling rates for the <span class="ph">Products API
 section</span> operations that only throttle per request.
@@ -62,7 +63,7 @@ section</span> operations that only throttle per request.
 <div class="tablenoborder">
 
 | Operation                                                                                                                            | Maximum request quota | Restore rate                   | Hourly request quota  |
-| ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------------------------------ | --------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------------|-----------------------|
 | <span class="keyword apiname">ListMatchingProducts</span>                                                                            | 20 requests           | One request every five seconds | 720 requests per hour |
 | <span class="keyword apiname">GetProductCategoriesForSKU</span> and <span class="keyword apiname">GetProductCategoriesForASIN</span> | 20 requests           | One request every five seconds | 720 requests per hour |
 
@@ -72,7 +73,8 @@ section</span> operations that only throttle per request.
 
 <div class="section">
 
-## Per-Item Throttling
+Per-Item Throttling
+-------------------
 
 Operations in the <span class="ph">Products API section</span> that send
 lists of items as input parameters have restore rates that are measured
@@ -84,13 +86,12 @@ pair.
 Restore rates measured by item improve throughput for sellers who look
 up many items one at a time. In this scenario (scanning single items
 with a scanner, for example) the seller includes a single item with each
-request. Suppose, for example, that a seller is submitting the
-<span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-operation many times in succession. After depleting their request quota,
-they only need to wait one second to submit ten more
-<span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-requests in succession (provided that each request contains only one
-item).
+request. Suppose, for example, that a seller is submitting the <span
+class="keyword apiname">GetLowestOfferListingsForSKU</span> operation
+many times in succession. After depleting their request quota, they only
+need to wait one second to submit ten more <span
+class="keyword apiname">GetLowestOfferListingsForSKU</span> requests in
+succession (provided that each request contains only one item).
 
 When restore rates are by item, and you batch multiple items in a
 request, it is possible to exceed your item quota without exceeding your
@@ -103,7 +104,7 @@ section</span> operations that throttle per item.
 <div class="tablenoborder">
 
 | Operation                                                                                                                                | Maximum request quota | Restore rate            | Hourly request quota    |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ----------------------- | ----------------------- |
+|------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-------------------------|-------------------------|
 | <span class="keyword apiname">GetMatchingProduct</span>                                                                                  | 20 requests           | Two items every second  | 7200 requests per hour  |
 | <span class="keyword apiname">GetMatchingProductForId</span>                                                                             | 20 requests           | Five items every second | 18000 requests per hour |
 | <span class="keyword apiname">GetCompetitivePricingForSKU</span> and <span class="keyword apiname">GetCompetitivePricingForASIN</span>   | 20 requests           | 10 items every second   | 36000 requests per hour |
@@ -116,27 +117,25 @@ section</span> operations that throttle per item.
 
 **Note:**
 
-  - The <span class="keyword apiname">GetCompetitivePricingForSKU</span>
-    and
-    <span class="keyword apiname">GetCompetitivePricingForASIN</span>
+-   The <span class="keyword apiname">GetCompetitivePricingForSKU</span>
+    and <span
+    class="keyword apiname">GetCompetitivePricingForASIN</span>
     operations together share the same maximum request quota and the
     same restore rate.
-  - The
-    <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-    and
+-   The <span
+    class="keyword apiname">GetLowestOfferListingsForSKU</span> and
     <span class="keyword apiname">GetLowestOfferListingsForASIN</span>
     operations together share the same maximum request quota and the
     same restore rate.
-  - The <span class="keyword apiname">GetLowestPricedOffersForSKU</span>
-    and
-    <span class="keyword apiname">GetLowestPricedOffersForASIN</span>
+-   The <span class="keyword apiname">GetLowestPricedOffersForSKU</span>
+    and <span
+    class="keyword apiname">GetLowestPricedOffersForASIN</span>
     operations together share the same maximum request quota and the
     same restore rate.
-  - The <span class="keyword apiname">GetMyPriceForSKU</span> and
-    <span class="keyword apiname">GetMyPriceForASIN</span> operations
-    together share the same maximum request quota and the same restore
-    rate.
-  - The <span class="keyword apiname">GetProductCategoriesForSKU</span>
+-   The <span class="keyword apiname">GetMyPriceForSKU</span> and <span
+    class="keyword apiname">GetMyPriceForASIN</span> operations together
+    share the same maximum request quota and the same restore rate.
+-   The <span class="keyword apiname">GetProductCategoriesForSKU</span>
     and <span class="keyword apiname">GetProductCategoriesForASIN</span>
     operations together share the same maximum request quota and the
     same restore rate.
@@ -151,8 +150,8 @@ section</span> operations that throttle per item.
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS Products
-API section](../products/Products_Overview.md)
+**Parent topic:**
+<a href="../products/Products_Overview.md" class="link">What you should know about the Amazon MWS Products API section</a>
 
 </div>
 
@@ -164,8 +163,7 @@ API section](../products/Products_Overview.md)
 
 <div>
 
-[Processing bulk operation
-requests](../products/Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
+<a href="../products/Products_ProcessingBulkOperationRequests.md" class="link" title="Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.">Processing bulk operation requests</a>
 
 </div>
 

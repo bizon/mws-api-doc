@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReport" class="nested0">
 
-# GetReport
+GetReport
+=========
 
 <div class="body">
 
@@ -46,15 +46,15 @@ header for the returned report body.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetReport" class="keyword apiname">GetReport</span>
-operation returns the contents of a report and the Content-MD5 header
-for the returned report body. Reports are retained for 90 days from the
-time they are generated.
+The <span id="Description__GetReport"
+class="keyword apiname">GetReport</span> operation returns the contents
+of a report and the Content-MD5 header for the returned report body.
+Reports are retained for 90 days from the time they are generated.
 
 You should compute the MD5 hash of the HTTP body and compare that with
 the returned Content- MD5 header value. If they do not match, it means
@@ -64,8 +64,8 @@ three more times. Please notify <span class="ph">Amazon MWS</span> if
 you receive a corrupted report body. The client library for the Reports
 API section, found on the <span class="ph">Amazon MWS</span> website,
 contains code for processing and comparing Content-MD5 headers. For more
-information on working with the Content-MD5 header, see the
-<span class="ph">Amazon MWS Developer Guide</span>.
+information on working with the Content-MD5 header, see the <span
+class="ph">Amazon MWS Developer Guide</span>.
 
 <div class="section">
 
@@ -84,15 +84,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate             | Hourly request quota |
-| --------------------- | ------------------------ | -------------------- |
+|-----------------------|--------------------------|----------------------|
 | 15 requests           | One request every minute | 60 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -104,7 +104,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -112,9 +113,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -154,7 +154,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -188,7 +189,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -197,8 +199,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -206,26 +208,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Reports/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Reports/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-&Action=GetReport
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATVPDKIKX0DER
-&ReportId=624169093
-&SellerId=A1XEXAMPLE5E6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-02-04T18%3A12%3A20.015Z
-&Version=2009-01-01
-&Signature=sY%2BEJFLA1gmz78dEOofUcBWSM44%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+    &Action=GetReport
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATVPDKIKX0DER
+    &ReportId=624169093
+    &SellerId=A1XEXAMPLE5E6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-02-04T18%3A12%3A20.015Z
+    &Version=2009-01-01
+    &Signature=sY%2BEJFLA1gmz78dEOofUcBWSM44%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -236,7 +236,7 @@ AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
 ### Example response (tab-delimited flat file)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -244,24 +244,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-  order-id order-item-id purchase-date payments-date buyer-email 
-  buyer-name buyer-phone-number sku product-name quantity-purchased 
-  currency item-price item-tax shipping-price shipping-tax 
-  ship-service-level recipient-name ship-address-1 ship-address-2 
-  ship-address-3 ship-city ship-state ship-postal-code ship-country
-  ship-phone-number delivery-start-date delivery-end-date 
-  delivery-time-zone delivery-Instructions
-103-26010-55904 394929210114 2011-02-09T02:46:57-08:00
-2011-02-09T02:46:57-08:00 0g9lx423zn5@marketplace.amazon.com 
-Joe Customer 404-555-1212 JW-RT1-HLD9 The Structure of Aikido: 
-Volume 1: Kenjutsu and Taijutsu Sword and Open-Hand Movement 
-Relationships (Structure of Aikido, Vol 1) 1 USD 19.49 0.00 3.99 
-0.00 Standard Joe Customer 123 Main Street LAWRENCE CA 90044-2463 
-US 404-555-1212
-```
+      order-id order-item-id purchase-date payments-date buyer-email 
+      buyer-name buyer-phone-number sku product-name quantity-purchased 
+      currency item-price item-tax shipping-price shipping-tax 
+      ship-service-level recipient-name ship-address-1 ship-address-2 
+      ship-address-3 ship-city ship-state ship-postal-code ship-country
+      ship-phone-number delivery-start-date delivery-end-date 
+      delivery-time-zone delivery-Instructions
+    103-26010-55904 394929210114 2011-02-09T02:46:57-08:00
+    2011-02-09T02:46:57-08:00 0g9lx423zn5@marketplace.amazon.com 
+    Joe Customer 404-555-1212 JW-RT1-HLD9 The Structure of Aikido: 
+    Volume 1: Kenjutsu and Taijutsu Sword and Open-Hand Movement 
+    Relationships (Structure of Aikido, Vol 1) 1 USD 19.49 0.00 3.99 
+    0.00 Standard Joe Customer 123 Main Street LAWRENCE CA 90044-2463 
+    US 404-555-1212
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -273,12 +271,12 @@ US 404-555-1212
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
 </div>
 

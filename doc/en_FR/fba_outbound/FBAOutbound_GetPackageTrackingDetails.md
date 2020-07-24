@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_GetPackageTrackingDetails" class="nested0">
 
-# GetPackageTrackingDetails
+GetPackageTrackingDetails
+=========================
 
 <div class="body">
 
@@ -46,16 +46,17 @@ an outbound shipment for a Multi-Channel Fulfillment order.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">GetPackageTrackingDetails</span>
 operation returns delivery tracking information for a package in an
-outbound shipment, based on the
-<span class="keyword parmname">PackageNumber</span> that you specify.
-This operation returns the current tracking status of the package as
-well as a list of tracking events.
+outbound shipment, based on the <span
+class="keyword parmname">PackageNumber</span> that you specify. This
+operation returns the current tracking status of the package as well as
+a list of tracking events.
 
 <div class="section">
 
@@ -73,9 +74,8 @@ The <span class="keyword apiname">GetPackageTrackingDetails</span>
 operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -85,15 +85,16 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
-| Name                                                | Description                                                                                                                                                                                        | Required | Values                               |
-| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------ |
-| <span class="keyword parmname">PackageNumber</span> | Unencrypted package identifier returned by the [GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.") operation. | Yes      | <span class="ph">Type: xs:int</span> |
+| Name                                                | Description                                                                                                                                                                                                                      | Required | Values                               |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------|
+| <span class="keyword parmname">PackageNumber</span> | Unencrypted package identifier returned by the <a href="FBAOutbound_GetFulfillmentOrder.md" class="xref" title="Returns a fulfillment order based on a specified SellerFulfillmentOrderId.">GetFulfillmentOrder</a> operation. | Yes      | <span class="ph">Type: xs:int</span> |
 
 </div>
 
@@ -103,7 +104,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -232,7 +234,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -241,8 +244,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -250,21 +253,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonservices.com/FulfillmentOutboundShipment/2010-10-01/
-  ?Action=GetPackageTrackingDetails
-  &Version=2010-10-01
-  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &Timestamp=2010-10-01T02:40:36Z
-  &SellerId=A2NKEXAMPLEF53
-  &PackageNumber=42343
-```
+    http://mws.amazonservices.com/FulfillmentOutboundShipment/2010-10-01/
+      ?Action=GetPackageTrackingDetails
+      &Version=2010-10-01
+      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &Timestamp=2010-10-01T02:40:36Z
+      &SellerId=A2NKEXAMPLEF53
+      &PackageNumber=42343
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -275,7 +276,7 @@ http://mws.amazonservices.com/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -283,54 +284,52 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetPackageTrackingDetailsResponse xmlns="http://mws.amazonaws.com/
-    FulfillmentOutboundShipment/2010-10-01/">
-    <GetPackageTrackingDetailsResult>
-        <PackageNumber>42343</PackageNumber>
-        <TrackingNumber>3A18351E0390447173</TrackingNumber>
-        <CarrierCode>UPS</CarrierCode>
-        <CarrierPhoneNumber>206-000-0000</CarrierPhoneNumber>
-        <CarrierURL>http://www.ups.com/</CarrierURL>
-        <ShipDate>2012-03-09T10:27:10Z</ShipDate>
-        <ShipToAddress>
-            <City>Seattle</City>
-            <State>WA</State>
-            <Country>US</Country>
-        </ShipToAddress>
-        <CurrentStatus>DELIVERED</CurrentStatus>
-        <SignedForBy>John</SignedForBy>
-        <EstimatedArrivalDate>2012-03-09T10:00:00Z</EstimatedArrivalDate>
-        <TrackingEvents>
-            <member>
-                <EventDate>2012-03-09T08:48:53Z</EventDate>
-                <EventAddress>
-                    <City>Reno</City>
-                    <State>NV</State>
-                    <Country>US</Country>
-                </EventAddress>
-                <EventCode>EVENT_202</EventCode>
-            </member>
-            <member>
-                <EventDate>2012-03-10T10:27:10Z</EventDate>
-                <EventAddress>
-                    <City>Seattle</City>
-                    <State>WA</State>
-                    <Country>US</Country>
-                </EventAddress>
-                <EventCode>EVENT_301</EventCode>
-            </member>
-        </TrackingEvents>
-        <AdditionalLocationInfo>FRONT_DESK</AdditionalLocationInfo>
-    </GetPackageTrackingDetailsResult>
-    <ResponseMetaData>
-        <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
-    </ResponseMetaData>
-</GetPackageTrackingDetailsResponse>
-```
+    <?xml version="1.0"?>
+    <GetPackageTrackingDetailsResponse xmlns="http://mws.amazonaws.com/
+        FulfillmentOutboundShipment/2010-10-01/">
+        <GetPackageTrackingDetailsResult>
+            <PackageNumber>42343</PackageNumber>
+            <TrackingNumber>3A18351E0390447173</TrackingNumber>
+            <CarrierCode>UPS</CarrierCode>
+            <CarrierPhoneNumber>206-000-0000</CarrierPhoneNumber>
+            <CarrierURL>http://www.ups.com/</CarrierURL>
+            <ShipDate>2012-03-09T10:27:10Z</ShipDate>
+            <ShipToAddress>
+                <City>Seattle</City>
+                <State>WA</State>
+                <Country>US</Country>
+            </ShipToAddress>
+            <CurrentStatus>DELIVERED</CurrentStatus>
+            <SignedForBy>John</SignedForBy>
+            <EstimatedArrivalDate>2012-03-09T10:00:00Z</EstimatedArrivalDate>
+            <TrackingEvents>
+                <member>
+                    <EventDate>2012-03-09T08:48:53Z</EventDate>
+                    <EventAddress>
+                        <City>Reno</City>
+                        <State>NV</State>
+                        <Country>US</Country>
+                    </EventAddress>
+                    <EventCode>EVENT_202</EventCode>
+                </member>
+                <member>
+                    <EventDate>2012-03-10T10:27:10Z</EventDate>
+                    <EventAddress>
+                        <City>Seattle</City>
+                        <State>WA</State>
+                        <Country>US</Country>
+                    </EventAddress>
+                    <EventCode>EVENT_301</EventCode>
+                </member>
+            </TrackingEvents>
+            <AdditionalLocationInfo>FRONT_DESK</AdditionalLocationInfo>
+        </GetPackageTrackingDetailsResult>
+        <ResponseMetaData>
+            <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
+        </ResponseMetaData>
+    </GetPackageTrackingDetailsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -342,14 +341,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.md)
+<a href="FBAOutbound_Overview.md" class="xref">What you should know about the Fulfillment Outbound Shipment API section</a>
 
-[GetFulfillmentOrder](FBAOutbound_GetFulfillmentOrder.md "Returns a fulfillment order based on a specified SellerFulfillmentOrderId.")
+<a href="FBAOutbound_GetFulfillmentOrder.md" class="xref" title="Returns a fulfillment order based on a specified SellerFulfillmentOrderId.">GetFulfillmentOrder</a>
 
 </div>
 

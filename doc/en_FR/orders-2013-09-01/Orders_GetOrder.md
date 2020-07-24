@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,19 +34,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Orders_GetOrder" class="nested0">
 
-# GetOrder
+GetOrder
+========
 
 <div class="body">
 
-<span class="ph">Returns orders based on the
-<span class="keyword parmname">AmazonOrderId</span> values that you
+<span class="ph">Returns orders based on the <span
+class="keyword parmname">AmazonOrderId</span> values that you
 specify.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -55,13 +56,13 @@ specify.</span>
 
 The <span class="keyword apiname">GetOrder</span> operation returns an
 order for each <span class="keyword parmname">AmazonOrderId</span> that
-you specify, up to a maximum of 50. The
-<span class="keyword apiname">GetOrder</span> operation includes order
-information for each order returned, including
-<span class="keyword parmname">PurchaseDate</span>,
-<span class="keyword parmname">OrderStatus</span>,
-<span class="keyword parmname">FulfillmentChannel</span>, and
-<span class="keyword parmname">LastUpdateDate</span>.
+you specify, up to a maximum of 50. The <span
+class="keyword apiname">GetOrder</span> operation includes order
+information for each order returned, including <span
+class="keyword parmname">PurchaseDate</span>, <span
+class="keyword parmname">OrderStatus</span>, <span
+class="keyword parmname">FulfillmentChannel</span>, and <span
+class="keyword parmname">LastUpdateDate</span>.
 
 </div>
 
@@ -69,17 +70,17 @@ information for each order returned, including
 
 ### Availability of buyer contact and charge information
 
-The following tables show when the
-<span class="keyword apiname">GetOrder</span> operation returns buyer
-contact information (<span class="keyword parmname">BuyerEmail</span>,
-<span class="keyword parmname">BuyerName</span>,
-<span class="keyword parmname">ShippingAddress</span>) and charge
-information (<span class="keyword parmname">OrderTotal</span>).
+The following tables show when the <span
+class="keyword apiname">GetOrder</span> operation returns buyer contact
+information (<span class="keyword parmname">BuyerEmail</span>, <span
+class="keyword parmname">BuyerName</span>, <span
+class="keyword parmname">ShippingAddress</span>) and charge information
+(<span class="keyword parmname">OrderTotal</span>).
 
 <div class="tablenoborder">
 
 | For a standard order with this order status:                                                                                                           | …the GetOrder operation returns these buyer contact and charge information response elements:                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">Pending</span>                                                                                                          | None                                                                                                                                                                                                                   |
 | <span class="keyword parmname">Unshipped</span>, <span class="keyword parmname">PartiallyShipped</span>, <span class="keyword parmname">Shipped</span> | <span class="keyword parmname">BuyerEmail</span><sup>1</sup>, <span class="keyword parmname">BuyerName</span>, <span class="keyword parmname">ShippingAddress</span>, <span class="keyword parmname">OrderTotal</span> |
 
@@ -90,7 +91,7 @@ information (<span class="keyword parmname">OrderTotal</span>).
 <div class="tablenoborder">
 
 | For a pre-order with this order status:                                                                                                                | …the GetOrder operation returns these buyer contact and charge information response elements:                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">PendingAvailability</span><sup>2</sup>, <span class="keyword parmname">Pending</span>                                   | <span class="keyword parmname">BuyerEmail</span><sup>1</sup>, <span class="keyword parmname">BuyerName</span>                                                                                                          |
 | <span class="keyword parmname">Unshipped</span>, <span class="keyword parmname">PartiallyShipped</span>, <span class="keyword parmname">Shipped</span> | <span class="keyword parmname">BuyerEmail</span><sup>1</sup>, <span class="keyword parmname">BuyerName</span>, <span class="keyword parmname">ShippingAddress</span>, <span class="keyword parmname">OrderTotal</span> |
 
@@ -119,8 +120,8 @@ This operation is available in all marketplaces.
 
 The <span class="keyword apiname">GetOrder</span> operation has a
 **maximum request quota** of six and a **restore rate** of one request
-every minute. For definitions of throttling terminology, see [Orders
-API](../orders-2013-09-01/Orders_Overview.md).
+every minute. For definitions of throttling terminology, see
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>.
 
 </div>
 
@@ -130,7 +131,8 @@ API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -170,15 +172,16 @@ API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
-| Name                                         | Description       | Required | Values                                                                  |
-| -------------------------------------------- | ----------------- | -------- | ----------------------------------------------------------------------- |
-| <span class="keyword parmname">Orders</span> | A list of orders. | Yes      | Type: List of [Order](Orders_Datatypes.md#Order "Order information.") |
+| Name                                         | Description       | Required | Values                                                                                                |
+|----------------------------------------------|-------------------|----------|-------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">Orders</span> | A list of orders. | Yes      | Type: List of <a href="Orders_Datatypes.md#Order" class="xref" title="Order information.">Order</a> |
 
 </div>
 
@@ -188,7 +191,8 @@ API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -197,8 +201,8 @@ API](../orders-2013-09-01/Orders_Overview.md).
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -206,22 +210,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.jp/Orders/2013-09-01
-  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-  &Action=GetOrder
-  &AmazonOrderId.Id.1=902-3159896-1390916
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A2986ZQ066CH2F
-  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &LastUpdatedAfter=2017-02-01T18%3A12%3A21
-  &Timestamp=2017-02-05T18%3A12%3A21.687Z
-  &Version=2013-09-01
-```
+    https://mws.amazonservices.jp/Orders/2013-09-01
+      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+      &Action=GetOrder
+      &AmazonOrderId.Id.1=902-3159896-1390916
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A2986ZQ066CH2F
+      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &LastUpdatedAfter=2017-02-01T18%3A12%3A21
+      &Timestamp=2017-02-05T18%3A12%3A21.687Z
+      &Version=2013-09-01
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -232,7 +234,7 @@ https://mws.amazonservices.jp/Orders/2013-09-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -240,45 +242,43 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetOrderResponse xmlns="https://mws.amazonservices.com/
-    Orders/2013-09-01">
-    <GetOrderResult>
-        <Orders>
-            <Order>
-                <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
-                <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
-                <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
-                <OrderStatus>Pending</OrderStatus>
-                <FulfillmentChannel>MFN</FulfillmentChannel>
-                <NumberOfItemsShipped>0</NumberOfItemsShipped>
-                <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
-                <PaymentMethod>Other</PaymentMethod>
-                <PaymentMethodDetails>
-                    <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
-                    <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
-                </PaymentMethodDetails>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>>
-                <ShipmentServiceLevelCategory>Standard
-                </ShipmentServiceLevelCategory>
-                <OrderType>StandardOrder</OrderType>
-                <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
-                <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
-                <IsBusinessOrder>false</IsBusinessOrder>
-                <IsPrime>false</IsPrime>
-                <IsPremiumOrder>false</IsPremiumOrder>
-                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
-            </Order>
-        </Orders>
-    </GetOrderResult>
-    <ResponseMetadata>
-        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-    </ResponseMetadata>
-</GetOrderResponse>
-```
+    <?xml version="1.0"?>
+    <GetOrderResponse xmlns="https://mws.amazonservices.com/
+        Orders/2013-09-01">
+        <GetOrderResult>
+            <Orders>
+                <Order>
+                    <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
+                    <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
+                    <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
+                    <OrderStatus>Pending</OrderStatus>
+                    <FulfillmentChannel>MFN</FulfillmentChannel>
+                    <NumberOfItemsShipped>0</NumberOfItemsShipped>
+                    <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+                    <PaymentMethod>Other</PaymentMethod>
+                    <PaymentMethodDetails>
+                        <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
+                        <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
+                    </PaymentMethodDetails>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>>
+                    <ShipmentServiceLevelCategory>Standard
+                    </ShipmentServiceLevelCategory>
+                    <OrderType>StandardOrder</OrderType>
+                    <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
+                    <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
+                    <IsBusinessOrder>false</IsBusinessOrder>
+                    <IsPrime>false</IsPrime>
+                    <IsPremiumOrder>false</IsPremiumOrder>
+                    <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
+                </Order>
+            </Orders>
+        </GetOrderResult>
+        <ResponseMetadata>
+            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+        </ResponseMetadata>
+    </GetOrderResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -290,11 +290,12 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Orders API](../orders-2013-09-01/Orders_Overview.md)
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>
 
 </div>
 

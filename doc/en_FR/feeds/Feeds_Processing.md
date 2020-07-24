@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Feeds Processing
+Feeds Processing
+================
 
 <div class="body conbody">
 
@@ -42,26 +42,26 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 Here are a few points to help you better understand how feeds are
 processed:
 
-  - Inventory feeds, (product, price, inventory, relationship, image, or
+-   Inventory feeds, (product, price, inventory, relationship, image, or
     override feeds) and order feeds are processed separately; they can
     be submitted simultaneously.
-  - \_POST\_PRODUCT\_DATA\_ feeds can be processed along with price,
+-   \_POST\_PRODUCT\_DATA\_ feeds can be processed along with price,
     inventory, and other XML feeds. However, the price, inventory, and
     other feeds will fail if they refer to SKUs that the product feed
     hasn't finished processing. You should serialize price, inventory,
     and image updates after product feeds have completed.
-  - All inventory feeds, other than \_POST\_PRODUCT\_DATA\_, can be
+-   All inventory feeds, other than \_POST\_PRODUCT\_DATA\_, can be
     submitted at the same time. For example price, inventory
     availability, relationship, and image feeds can all be submitted at
     the same time.
-  - Feeds of the same type are processed sequentially. This applies to
+-   Feeds of the same type are processed sequentially. This applies to
     all inventory feed types. For example, if you submit two pricing
     feeds, only one is processed at a time.
-  - Optimize your feeds submissions. Uploading many small feeds every
+-   Optimize your feeds submissions. Uploading many small feeds every
     few seconds is very inefficient and can result in a backlog,
     blocking other feeds from processing and forcing you to cancel some
     of the previously submitted feeds.
-  - The feed processing report is stored in the output stream that was
+-   The feed processing report is stored in the output stream that was
     set on the request. For example, in the Java client library, you can
     call
     GetFeedSubmissionResultRequest\#setFeedSubmissionResultOutputStream()
@@ -78,8 +78,8 @@ processed:
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+**Parent topic:**
+<a href="../feeds/Feeds_Overview.md" class="link">What you should know about the Amazon MWS Feeds API section</a>
 
 </div>
 

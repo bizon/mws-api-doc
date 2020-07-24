@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,14 +34,16 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_FeedProcessingStatus" class="nested0">
 
-# FeedProcessingStatus enumeration
+FeedProcessingStatus enumeration
+================================
 
 Enumerates all the feed processing status values that are available
 through the <span class="ph">Feeds API</span> section.
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -53,19 +54,21 @@ enumeration describes the processing status of a submitted feed.
 
 </div>
 
-<div id="FeedProcessingStatus_Enumeration" class="topic reference nested1">
+<div id="FeedProcessingStatus_Enumeration"
+class="topic reference nested1">
 
-## FeedProcessingStatus enumeration
+FeedProcessingStatus enumeration
+--------------------------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
 | Value                                                                   | Description                                                                                                                                                                                                                                                                                           |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">\_AWAITING\_ASYNCHRONOUS\_REPLY\_</span> | The request is being processed, but is waiting for external information before it can complete.                                                                                                                                                                                                       |
 | <span class="keyword parmname">\_CANCELLED\_</span>                     | The request has been aborted due to a fatal error.                                                                                                                                                                                                                                                    |
-| <span class="keyword parmname">\_DONE\_</span>                          | The request has been processed. You can call the [GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md) operation to receive a processing report that describes which records in the feed were successful and which records generated errors.                                         |
+| <span class="keyword parmname">\_DONE\_</span>                          | The request has been processed. You can call the <a href="../feeds/Feeds_GetFeedSubmissionResult.md" class="xref">GetFeedSubmissionResult</a> operation to receive a processing report that describes which records in the feed were successful and which records generated errors.                 |
 | <span class="keyword parmname">\_IN\_PROGRESS\_</span>                  | The request is being processed.                                                                                                                                                                                                                                                                       |
 | <span class="keyword parmname">\_IN\_SAFETY\_NET\_</span>               | The request is being processed, but the system has determined that there is a potential error with the feed (for example, the request will remove all inventory from a seller's account.) An Amazon seller support associate will contact the seller to confirm whether the feed should be processed. |
 | <span class="keyword parmname">\_SUBMITTED\_</span>                     | The request has been received, but has not yet started processing.                                                                                                                                                                                                                                    |
@@ -79,22 +82,22 @@ enumeration describes the processing status of a submitted feed.
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
-[SubmitFeed](../feeds/Feeds_SubmitFeed.md)
+<a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a>
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
+<a href="Feeds_GetFeedSubmissionList.md" class="xref" title="Returns a list of all feed submissions submitted in the previous 90 days.">GetFeedSubmissionList</a>
 
-[GetFeedSubmissionListByNextToken](Feeds_GetFeedSubmissionListByNextToken.md "Returns a list of feed submissions using the NextToken parameter.")
+<a href="Feeds_GetFeedSubmissionListByNextToken.md" class="xref" title="Returns a list of feed submissions using the NextToken parameter.">GetFeedSubmissionListByNextToken</a>
 
-[GetFeedSubmissionCount](Feeds_GetFeedSubmissionCount.md "Returns a count of the feeds submitted in the previous 90 days.")
+<a href="Feeds_GetFeedSubmissionCount.md" class="xref" title="Returns a count of the feeds submitted in the previous 90 days.">GetFeedSubmissionCount</a>
 
-[CancelFeedSubmissions](Feeds_CancelFeedSubmissions.md "Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.")
+<a href="Feeds_CancelFeedSubmissions.md" class="xref" title="Cancels one or more feed submissions and returns a count of the feed submissions that were canceled.">CancelFeedSubmissions</a>
 
 </div>
 

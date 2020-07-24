@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,12 +34,15 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToExtractShippingLabel" class="nested0">
 
-# How to extract a shipping label file
+How to extract a shipping label file
+====================================
 
 <div class="body">
 
-The [CreateShipment](MerchFulfill_CreateShipment.md) and
-[GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
+The
+<a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a>
+and
+<a href="MerchFulfill_GetShipment.md" class="xref" title="Returns an existing shipment for a given identifier.">GetShipment</a>
 operations return a shipping label file in PDF, PNG, or ZPL format,
 depending on the carrier. Amazon compresses the document data before
 returning it as a Base64-encoded string.
@@ -51,19 +53,18 @@ returning it as a Base64-encoded string.
 2.  Save the decoded string with a “.gzip” extension.
 3.  Extract the PDF, PNG, or ZPL file from the GZIP file.
 
-<span class="keyword apiname">CreateShipment</span> and
-<span class="keyword apiname">GetShipment</span> also return a
-Base64-encoded MD5 hash to validate the document data.
+<span class="keyword apiname">CreateShipment</span> and <span
+class="keyword apiname">GetShipment</span> also return a Base64-encoded
+MD5 hash to validate the document data.
 
 <div class="section">
 
-## Related topics
+Related topics
+--------------
 
-[How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md)
+<a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 
-[How to reprint a shipping
-label](MerchFulfill_HowToGetNewShippingLabel.md)
+<a href="MerchFulfill_HowToGetNewShippingLabel.md" class="xref">How to reprint a shipping label</a>
 
 </div>
 
@@ -75,8 +76,8 @@ label](MerchFulfill_HowToGetNewShippingLabel.md)
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.md)
+**Parent topic:**
+<a href="../merch_fulfill/MerchFulfill_Overview.md" class="link">What you should know about the Merchant Fulfillment service</a>
 
 </div>
 

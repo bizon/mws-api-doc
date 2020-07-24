@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Step 9 - Request pallet labels or bills of lading (LTL/FTL only)
+Step 9 - Request pallet labels or bills of lading (LTL/FTL only)
+================================================================
 
 <div class="body conbody">
 
@@ -41,10 +41,10 @@ For <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
 shipments, if you don’t create your own pallet labels or bills of
 lading, you can use the following operations:
 
-  - [GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md) -
+-   <a href="../fba_inbound/FBAInbound_GetPalletLabels.md" class="xref">GetPalletLabels</a> -
     Returns labels for the outside of the shrink-wrapped pallets of your
     inbound shipment.
-  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md) -
+-   <a href="../fba_inbound/FBAInbound_GetBillOfLading.md" class="xref">GetBillOfLading</a> -
     Returns a bill of lading for your inbound shipment.
 
 </div>
@@ -55,22 +55,22 @@ lading, you can use the following operations:
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="link">Shipping inventory to Amazon's fulfillment network</a>
 
 </div>
 
 <div class="previouslink">
 
-**Previous topic:** [Step 8 - Request shipping labels for your inbound
-shipment](../fba_guide/FBAGuide_RequestTransportDocs.md)
+**Previous topic:**
+<a href="../fba_guide/FBAGuide_RequestTransportDocs.md" class="link">Step 8 - Request shipping labels for your inbound shipment</a>
 
 </div>
 
 <div class="nextlink">
 
-**Next topic:** [Step 10 - Send your shipments to Amazon's fulfillment
-network](../fba_guide/FBAGuide_SendShipmentsToAFN.md)
+**Next topic:**
+<a href="../fba_guide/FBAGuide_SendShipmentsToAFN.md" class="link">Step 10 - Send your shipments to Amazon's fulfillment network</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,34 +34,35 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetServiceStatus" class="nested0">
 
-# GetServiceStatus
+GetServiceStatus
+================
 
 <div class="body">
 
-<span class="ph">Returns the operational status of the
-<span class="ph">Products API section</span>.</span>
+<span class="ph">Returns the operational status of the <span
+class="ph">Products API section</span>.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetServiceStatus" class="keyword apiname">GetServiceStatus</span>
-operation returns the operational status of the
-<span class="ph">Products API section</span> of <span class="ph">Amazon
-Marketplace Web Service (Amazon MWS)</span>. Status values are `GREEN`,
-`YELLOW`, and `RED`.
+The <span id="Description__GetServiceStatus"
+class="keyword apiname">GetServiceStatus</span> operation returns the
+operational status of the <span class="ph">Products API section</span>
+of <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>.
+Status values are `GREEN`, `YELLOW`, and `RED`.
 
-<span class="ph">The
-<span class="keyword apiname">GetServiceStatus</span> operation has a
+<span class="ph">The <span
+class="keyword apiname">GetServiceStatus</span> operation has a
 **maximum request quota** of two and a **restore rate** of one request
 every five minutes. </span> For definitions of throttling terminology,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 
 <div class="section">
 
@@ -78,7 +78,8 @@ This operation is available in all marketplaces.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -86,10 +87,10 @@ This operation is available in all marketplaces.
 
 The <span class="keyword apiname">GetServiceStatus</span> operation only
 accepts the required request parameters. <span class="ph">For more
-information about the request parameters that are required for all
-<span class="ph">Amazon MWS</span> operations, see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+information about the request parameters that are required for all <span
+class="ph">Amazon MWS</span> operations, see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -99,7 +100,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -167,7 +169,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -176,8 +179,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -185,24 +188,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetServiceStatus
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=A1IMEXAMPLEWRC
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T22%3A53%3A58Z
-&Version=2011-10-01
-&Signature=7LYTEXAMPLE%2BrxcZsx%2BUjnYCvU9BeloQoQtEXAMPLEQ%3D
-```
+    AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetServiceStatus
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=A1IMEXAMPLEWRC
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T22%3A53%3A58Z
+    &Version=2011-10-01
+    &Signature=7LYTEXAMPLE%2BrxcZsx%2BUjnYCvU9BeloQoQtEXAMPLEQ%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -213,7 +214,7 @@ AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -221,21 +222,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetServiceStatusResponse
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetServiceStatusResult>
-        <Status>GREEN</Status>
-        <Timestamp>2012-12-04T22:53:58.830Z</Timestamp>
-    </GetServiceStatusResult>
-    <ResponseMetadata>
-        <RequestId>0a51dc17-20bf-4e0d-8ac5-5d53bd1129cf</RequestId>
-    </ResponseMetadata>
-</GetServiceStatusResponse>
-```
+    <?xml version="1.0"?>
+    <GetServiceStatusResponse
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetServiceStatusResult>
+            <Status>GREEN</Status>
+            <Timestamp>2012-12-04T22:53:58.830Z</Timestamp>
+        </GetServiceStatusResult>
+        <ResponseMetadata>
+            <RequestId>0a51dc17-20bf-4e0d-8ac5-5d53bd1129cf</RequestId>
+        </ResponseMetadata>
+    </GetServiceStatusResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -247,11 +246,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
 </div>
 

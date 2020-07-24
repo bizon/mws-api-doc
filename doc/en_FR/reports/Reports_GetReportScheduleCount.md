@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportScheduleCount" class="nested0">
 
-# GetReportScheduleCount
+GetReportScheduleCount
+======================
 
 <div class="body">
 
@@ -46,16 +46,17 @@ scheduled to be submitted to <span class="ph">Amazon MWS</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetReportScheduleCount" class="keyword apiname">GetReportScheduleCount</span>
-operation returns a count of report requests that are scheduled to be
-submitted to <span class="ph">Amazon MWS</span>. Only [Order
-Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports) can
-be scheduled.
+The <span id="Description__GetReportScheduleCount"
+class="keyword apiname">GetReportScheduleCount</span> operation returns
+a count of report requests that are scheduled to be submitted to <span
+class="ph">Amazon MWS</span>. Only
+<a href="Reports_ReportType.md#ReportTypeCategories__OrderReports" class="xref">Order Reports</a>
+can be scheduled.
 
 <div class="section">
 
@@ -74,15 +75,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                 | Hourly request quota |
-| --------------------- | ---------------------------- | -------------------- |
+|-----------------------|------------------------------|----------------------|
 | 10 requests           | One request every 45 seconds | 80 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -94,7 +95,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -102,9 +104,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -144,7 +145,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -178,7 +180,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -187,8 +190,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -196,26 +199,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Reports/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Reports/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PExampleR2
-&Action=GetReportScheduleCount
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATExampleER
-&ReportTypeList.Type.1=_GET_MERCHANT_LISTINGS_DATA_
-&SellerId=A1ExampleE6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-01-07T19%3A12%3A13.859Z
-&Version=2009-01-01
-&Signature=ltExample8%3D
-```
+    AWSAccessKeyId=0PExampleR2
+    &Action=GetReportScheduleCount
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATExampleER
+    &ReportTypeList.Type.1=_GET_MERCHANT_LISTINGS_DATA_
+    &SellerId=A1ExampleE6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-01-07T19%3A12%3A13.859Z
+    &Version=2009-01-01
+    &Signature=ltExample8%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -226,7 +227,7 @@ AWSAccessKeyId=0PExampleR2
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -234,20 +235,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetReportScheduleCountResponse
-    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-    <GetReportScheduleCountResult>
-        <Count>18</Count>
-    </GetReportScheduleCountResult>
-    <ResponseMetadata>
-        <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
-    </ResponseMetadata>
-</GetReportScheduleCountResponse>
-```
+    <?xml version="1.0"?>
+    <GetReportScheduleCountResponse
+        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+        <GetReportScheduleCountResult>
+            <Count>18</Count>
+        </GetReportScheduleCountResult>
+        <ResponseMetadata>
+            <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
+        </ResponseMetadata>
+    </GetReportScheduleCountResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -259,14 +258,14 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
-[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
+<a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a>
 
 </div>
 

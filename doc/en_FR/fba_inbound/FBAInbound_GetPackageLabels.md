@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPackageLabels" class="nested0">
 
-# GetPackageLabels
+GetPackageLabels
+================
 
 <div class="body">
 
@@ -45,7 +45,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -55,17 +56,15 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div class="note important">
 
-<span class="importanttitle">Important:</span> The
-<span class="keyword apiname">GetPackageLabels</span> operation is
-provided for backwards compatibility only. Amazon strongly recommends
-using the
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
-operation to get package labels instead of the
-<span class="keyword apiname">GetPackageLabels</span> operation. Using
-the <span class="keyword apiname">GetUniquePackageLabels</span>
-operation helps to ensure that your shipment is processed at the
-<span class="ph">Amazon fulfillment center</span> quickly and
-accurately.
+<span class="importanttitle">Important:</span> The <span
+class="keyword apiname">GetPackageLabels</span> operation is provided
+for backwards compatibility only. Amazon strongly recommends using the
+<a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md" class="xref">GetUniquePackageLabels</a>
+operation to get package labels instead of the <span
+class="keyword apiname">GetPackageLabels</span> operation. Using the
+<span class="keyword apiname">GetUniquePackageLabels</span> operation
+helps to ensure that your shipment is processed at the <span
+class="ph">Amazon fulfillment center</span> quickly and accurately.
 
 </div>
 
@@ -74,16 +73,16 @@ accurately.
 The <span class="keyword apiname">GetPackageLabels</span> operation
 returns PDF document data for printing shipping labels and carrier
 labels for an inbound shipment. <span class="ph">For information about
-extracting PDF document data, see [Extracting PDF Document
-Data](FBAInbound_ExtractingPdfDocumentData.md).</span>
+extracting PDF document data, see
+<a href="FBAInbound_ExtractingPdfDocumentData.md" class="xref">Extracting PDF Document Data</a>.</span>
 
 The language of the address section of a shipping label is determined by
 the <span class="keyword parmname">ShipFromAddress</span> value for the
-shipment, which was specified with a previous call to the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
-operation. The language of the FC Prep instructions (if applicable) is
-determined by the marketplace of the <span class="ph">Amazon fulfillment
-center</span> receiving the shipment.
+shipment, which was specified with a previous call to the <span
+class="keyword apiname">CreateInboundShipmentPlan</span> operation. The
+language of the FC Prep instructions (if applicable) is determined by
+the marketplace of the <span class="ph">Amazon fulfillment center</span>
+receiving the shipment.
 
 </div>
 
@@ -92,21 +91,21 @@ center</span> receiving the shipment.
 ### Non-Amazon-partnered, <span class="ph">Small Parcel</span> shipments
 
 For Non-Amazon-partnered, <span class="ph">Small Parcel</span>
-shipments, use the
-<span class="keyword parmname">NumberOfPackages</span> parameter to
-specify the number of boxes in your shipment. The
-<span class="keyword apiname">GetPackageLabels</span> operation returns
-a shipping label with a unique barcode for every box in your shipment.
+shipments, use the <span
+class="keyword parmname">NumberOfPackages</span> parameter to specify
+the number of boxes in your shipment. The <span
+class="keyword apiname">GetPackageLabels</span> operation returns a
+shipping label with a unique barcode for every box in your shipment.
 
 <div class="note note">
 
 <span class="notetitle">Note:</span> To help ensure that your shipment
-is processed in a timely manner when it reaches the
-<span class="ph">Amazon fulfillment center</span>, never photocopy a
-shipping label and put the copied label on multiple boxes in a
-<span class="ph">Small Parcel</span> shipment. Each shipping label for a
-<span class="ph">Small Parcel</span> shipment has a unique barcode and
-should be placed on a different box in the shipment.
+is processed in a timely manner when it reaches the <span
+class="ph">Amazon fulfillment center</span>, never photocopy a shipping
+label and put the copied label on multiple boxes in a <span
+class="ph">Small Parcel</span> shipment. Each shipping label for a <span
+class="ph">Small Parcel</span> shipment has a unique barcode and should
+be placed on a different box in the shipment.
 
 </div>
 
@@ -120,8 +119,8 @@ For Amazon-partnered, <span class="ph">Small Parcel</span> shipments,
 the <span class="keyword apiname">GetPackageLabels</span> operation
 returns a carrier label and a shipping label for each box in your
 shipment. The <span class="keyword parmname">NumberOfPackages</span>
-parameter is not required; if you include the
-<span class="keyword parmname">NumberOfPackages</span> parameter it is
+parameter is not required; if you include the <span
+class="keyword parmname">NumberOfPackages</span> parameter it is
 ignored. The number of boxes in your shipment was specified with your
 call to the <span class="keyword apiname">PutTransportContent</span>
 operation.
@@ -129,9 +128,9 @@ operation.
 <div class="note note">
 
 <span class="notetitle">Note:</span> To help ensure that your shipment
-is processed in a timely manner when it reaches an
-<span class="ph">Amazon fulfillment center</span>, always put the
-shipping label and carrier label from the same PDF on the same box.
+is processed in a timely manner when it reaches an <span
+class="ph">Amazon fulfillment center</span>, always put the shipping
+label and carrier label from the same PDF on the same box.
 
 </div>
 
@@ -142,14 +141,14 @@ shipping label and carrier label from the same PDF on the same box.
 ### <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipments
 
 For LTL/FTL shipments, regardless of whether they are Amazon-partnered
-or non-Amazon-partnered, use the
-<span class="keyword parmname">NumberOfPackages</span> parameter to
-indicate the number of shipping labels that you want for your shipment.
-You will need one shipping label for every box in your shipment, plus
-one for each of the four sides of each of your shrink-wrapped pallets.
-Unlike the unique shipping labels that are returned for a
-<span class="ph">Small Parcel</span> shipment, the shipping labels that
-are returned for a LTL/FTL shipment are identical.
+or non-Amazon-partnered, use the <span
+class="keyword parmname">NumberOfPackages</span> parameter to indicate
+the number of shipping labels that you want for your shipment. You will
+need one shipping label for every box in your shipment, plus one for
+each of the four sides of each of your shrink-wrapped pallets. Unlike
+the unique shipping labels that are returned for a <span
+class="ph">Small Parcel</span> shipment, the shipping labels that are
+returned for a LTL/FTL shipment are identical.
 
 </div>
 
@@ -168,9 +167,9 @@ This operation is available in all marketplaces except Brazil.
 The <span class="keyword apiname">GetPackageLabels</span> operation has
 a **maximum request quota** of 30 and a **restore rate** of two requests
 every second. <span class="ph">For definitions of throttling terminology
-and for a complete explanation of throttling, see [Throttling: Limits to
-how often you can submit requests](../dev_guide/DG_Throttling.md) in
-the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+and for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -180,7 +179,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -188,9 +188,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -251,7 +250,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -285,7 +285,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -294,8 +295,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -303,21 +304,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-  &Action=GetPackageLabels
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A13EXAMPLE1J56
-  &SignatureVersion=2
-  &Timestamp=2013-08-10T00%3A25%3A41Z
-  &Version=2010-10-01
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBAQFGQZ
-  &PageType=PackageLabel_Letter_4
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+    ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+      &Action=GetPackageLabels
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A13EXAMPLE1J56
+      &SignatureVersion=2
+      &Timestamp=2013-08-10T00%3A25%3A41Z
+      &Version=2010-10-01
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBAQFGQZ
+      &PageType=PackageLabel_Letter_4
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -328,7 +327,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -336,24 +335,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetPackageLabelsResponse 
-    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <GetPackageLabelsResult>
-        <TransportDocument>
-            <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
-            </PdfDocument>
-            <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
-        </TransportDocument>
-    </GetPackageLabelsResult>
-    <ResponseMetadata>
-        <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
-    </ResponseMetadata>
-</GetPackageLabelsResponse>
-```
+    <?xml version="1.0"?>
+    <GetPackageLabelsResponse 
+        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <GetPackageLabelsResult>
+            <TransportDocument>
+                <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
+                </PdfDocument>
+                <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
+            </TransportDocument>
+        </GetPackageLabelsResult>
+        <ResponseMetadata>
+            <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
+        </ResponseMetadata>
+    </GetPackageLabelsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -365,11 +362,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md)
+<a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md" class="xref">GetUniquePackageLabels</a>
 
 </div>
 

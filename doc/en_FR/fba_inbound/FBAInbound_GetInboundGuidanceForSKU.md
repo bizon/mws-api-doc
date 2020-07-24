@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetInboundGuidanceForSKU" class="nested0">
 
-# <span id="Operation" class="ph">GetInboundGuidanceForSKU</span>
+<span id="Operation" class="ph">GetInboundGuidanceForSKU</span>
+===============================================================
 
 <div class="body">
 
@@ -46,16 +46,17 @@ SKU.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__apiname_operation" class="keyword apiname">GetInboundGuidanceForSKU</span>
-operation lets a seller know if Amazon recommends sending an item to a
-given marketplace. In some cases, Amazon provides guidance for why a
-given Seller SKU is not recommended for shipment to
-<span class="ph">Amazon's fulfillment network</span>.
+The <span id="Description__apiname_operation"
+class="keyword apiname">GetInboundGuidanceForSKU</span> operation lets a
+seller know if Amazon recommends sending an item to a given marketplace.
+In some cases, Amazon provides guidance for why a given Seller SKU is
+not recommended for shipment to <span class="ph">Amazon's fulfillment
+network</span>.
 
 Sellers may still ship items that are not recommended, at their
 discretion.
@@ -77,15 +78,15 @@ This operation is available in all marketplaces except Brazil.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate            | Hourly request quota  |
-| --------------------- | ----------------------- | --------------------- |
+|-----------------------|-------------------------|-----------------------|
 | 200 requests          | 200 requests per second | 500 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -97,7 +98,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -105,9 +107,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -171,7 +172,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -179,14 +181,13 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
-The top-level elements returned by the
-<span class="keyword apiname">GetInboundGuidanceForSKU</span> operation
-are:
+The top-level elements returned by the <span
+class="keyword apiname">GetInboundGuidanceForSKU</span> operation are:
 
 </div>
 
@@ -196,10 +197,10 @@ are:
 
 <div class="tablenoborder">
 
-| Name                                                         | Description                                                  | Required | Values                                                                                                                                                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">SKUInboundGuidanceList</span> | A list of Seller SKUs and their associated inbound guidance. | Yes      | Type: List of [SKUInboundGuidance](FBAInbound_Datatypes.md#SKUInboundGuidance "Reasons why a given Seller SKU is not recommended for shipment to Amazon's fulfillment network") |
-| <span class="keyword parmname">InvalidSKUList</span>         | A list of Seller SKUs that were not found.                   | No       | <span class="ph">Type: List of xs:string</span>                                                                                                                                   |
+| Name                                                         | Description                                                  | Required | Values                                                                                                                                                                                                              |
+|--------------------------------------------------------------|--------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">SKUInboundGuidanceList</span> | A list of Seller SKUs and their associated inbound guidance. | Yes      | Type: List of <a href="FBAInbound_Datatypes.md#SKUInboundGuidance" class="xref" title="Reasons why a given Seller SKU is not recommended for shipment to Amazon&#39;s fulfillment network">SKUInboundGuidance</a> |
+| <span class="keyword parmname">InvalidSKUList</span>         | A list of Seller SKUs that were not found.                   | No       | <span class="ph">Type: List of xs:string</span>                                                                                                                                                                     |
 
 </div>
 
@@ -211,7 +212,8 @@ are:
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -220,8 +222,8 @@ are:
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -229,22 +231,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-  &Action=GetInboundGuidanceForSKU
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A1XEXAMPLE5E6
-  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Timestamp=2016-09-26T18%3A12%3A21
-  &Version=2010-10-01
-  &SellerSKUList.Id.1=us001
-  &MarketplaceId=ATVPDKIKX0DER
-```
+    https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+      &Action=GetInboundGuidanceForSKU
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A1XEXAMPLE5E6
+      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Timestamp=2016-09-26T18%3A12%3A21
+      &Version=2010-10-01
+      &SellerSKUList.Id.1=us001
+      &MarketplaceId=ATVPDKIKX0DER
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -255,7 +255,7 @@ https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -263,28 +263,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetInboundGuidanceForSKUResponse
-  xmlns="https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01">
-  <GetInboundGuidanceForSKUResult>
-    <SKUInboundGuidanceList>
-      <SellerSKU>us001</SellerSKU>
-      <ASIN>B00005N5PF</ASIN>
-      <InboundGuidance>InboundNotRecommended</InboundGuidance>
-      <GuidanceReasonList>
-        <GuidanceReason>SlowMovingASIN</GuidanceReason>
-      </GuidanceReasonList>
-    </SKUInboundGuidanceList>
-    <InvalidSKUList></InvalidSKUList>
-  </GetInboundGuidanceForSKUResult>
-  <ResponseMetadata>
-    <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
-  </ResponseMetadata>
-</GetInboundGuidanceForSKUResponse>
-```
+    <?xml version="1.0"?>
+    <GetInboundGuidanceForSKUResponse
+      xmlns="https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01">
+      <GetInboundGuidanceForSKUResult>
+        <SKUInboundGuidanceList>
+          <SellerSKU>us001</SellerSKU>
+          <ASIN>B00005N5PF</ASIN>
+          <InboundGuidance>InboundNotRecommended</InboundGuidance>
+          <GuidanceReasonList>
+            <GuidanceReason>SlowMovingASIN</GuidanceReason>
+          </GuidanceReasonList>
+        </SKUInboundGuidanceList>
+        <InvalidSKUList></InvalidSKUList>
+      </GetInboundGuidanceForSKUResult>
+      <ResponseMetadata>
+        <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
+      </ResponseMetadata>
+    </GetInboundGuidanceForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -296,12 +294,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
 </div>
 

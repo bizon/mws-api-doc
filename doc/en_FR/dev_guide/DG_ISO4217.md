@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO4217" class="nested0">
 
-# ISO 4217 use in <span class="ph">Amazon MWS</span>
+ISO 4217 use in <span class="ph">Amazon MWS</span>
+==================================================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ MWS</span>.
 
 <div id="DG_ISO4217__formats" class="section">
 
-## Currency number formats
+Currency number formats
+-----------------------
 
 All currency data is expressed as a three-letter code. The first two
 letters of the code are taken from the two letters of ISO 3166-1 alpha-2
@@ -56,8 +57,8 @@ Australia's currency code is AUD: AU for Australia and D for dollar.
 
 There are also codes for "supranational" currencies, procedural
 purposes, and several things which are "similar to" currencies (the
-so-called [X
-currencies](https://en.wikipedia.org/wiki/ISO_4217#X_currencies)).
+so-called
+<a href="https://en.wikipedia.org/wiki/ISO_4217#X_currencies" class="xref">X currencies</a>).
 Changes in the codes take place as needed to reflect changes to
 countries and currencies. For example, Gold has the code XAU, Silver has
 the code XAG and XXX is the code for a transaction involving no
@@ -66,10 +67,10 @@ currency.
 There is no provision for embedding exchange rates in these codes.
 
 There is also a three-digit code number assigned to each currency, based
-on ISO 3166-1 numeric codes, but this is not currently used by
-<span class="ph">Amazon MWS</span>. Minor currency units are also
-defined in ISO 4217, but they are not currently used by
-<span class="ph">Amazon MWS</span>.
+on ISO 3166-1 numeric codes, but this is not currently used by <span
+class="ph">Amazon MWS</span>. Minor currency units are also defined in
+ISO 4217, but they are not currently used by <span class="ph">Amazon
+MWS</span>.
 
 Amazon MWS uses currency codes as values for operation parameters. This
 means that only the currency code is required. Other parameters are used
@@ -79,13 +80,12 @@ for amounts.
 
 <div id="DG_ISO4217__4217References" class="section">
 
-## References
+References
+----------
 
-  - [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
-  - [Official currency & funds code list (XML
-    format)](https://www.currency-iso.org/en/home/tables/table-a1.html)
-  - [ISO 4217 Maintenance
-    Agency](https://www.currency-iso.org/en/home.html)
+-   <a href="https://en.wikipedia.org/wiki/ISO_4217" class="xref">ISO 4217</a>
+-   <a href="https://www.currency-iso.org/en/home/tables/table-a1.html" class="xref">Official currency &amp; funds code list (XML format)</a>
+-   <a href="https://www.currency-iso.org/en/home.html" class="xref">ISO 4217 Maintenance Agency</a>
 
 </div>
 
@@ -97,8 +97,8 @@ for amounts.
 
 <div class="parentlink">
 
-**Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.md)
+**Parent topic:**
+<a href="../dev_guide/DG_StandardsCompliance.md" class="link">Standards compliance in Amazon MWS</a>
 
 </div>
 

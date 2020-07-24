@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,29 +34,32 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_PrePackDimenEnum" class="nested0">
 
-# PredefinedPackageDimensions enumeration
+PredefinedPackageDimensions enumeration
+=======================================
 
 An enumeration of predefined parcel tokens.
 
 <div id="ReportTypeCategories" class="topic reference nested1">
 
-## PredefinedPackageDimensions enumeration
+PredefinedPackageDimensions enumeration
+---------------------------------------
 
 <div class="body refbody">
 
 <div class="section">
 
-This table contains token values that can be specified using the
-<span class="keyword parmname">PredefinedPackageDimensions</span>
-request parameter of the
-[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
-and [CreateShipment](MerchFulfill_CreateShipment.md) operations. If
-you specify a
-<span class="keyword parmname">PredefinedPackageDimensions</span> token,
-you are not obligated to use a branded package from a carrier. For
-example, if you specify the `FedEx_Box_10kg` token, you do not have to
-use that particular package from FedEx. You are only obligated to use a
-box that matches the dimensions specified by the token.
+This table contains token values that can be specified using the <span
+class="keyword parmname">PredefinedPackageDimensions</span> request
+parameter of the
+<a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>
+and
+<a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a>
+operations. If you specify a <span
+class="keyword parmname">PredefinedPackageDimensions</span> token, you
+are not obligated to use a branded package from a carrier. For example,
+if you specify the `FedEx_Box_10kg` token, you do not have to use that
+particular package from FedEx. You are only obligated to use a box that
+matches the dimensions specified by the token.
 
 <div class="note note">
 
@@ -76,7 +78,7 @@ Envelope or Box.
 <div class="tablenoborder">
 
 | Token                            | Dimensions                 |
-| -------------------------------- | -------------------------- |
+|----------------------------------|----------------------------|
 | `FedEx_Box_10kg`                 | 15.81 x 12.94 x 10.19 in   |
 | `FedEx_Box_25kg`                 | 54.80 x 42.10 x 33.50 in   |
 | `FedEx_Box_Extra_Large_1`        | 11.88 x 11.00 x 10.75 in   |
@@ -138,17 +140,18 @@ Envelope or Box.
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
+<a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a>
 
-[GetEligibleShippingServices](MerchFulfill_GetEligibleShippingServices.md "Returns a list of shipping service offers.")
+<a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>
 
-[CreateShipment](MerchFulfill_CreateShipment.md)
+<a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a>
 
-[PackageDimensions](MerchFulfill_Datatypes.md#PackageDimensions "The dimensions of a package contained in a shipment.")
+<a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,29 +32,30 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# What you should know about the Fulfillment Inventory API section
+What you should know about the Fulfillment Inventory API section
+================================================================
 
 <div class="body conbody">
 
-The <span class="ph">Fulfillment Inventory API section</span> of
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> can
-help you stay up-to-date on the availability of your inventory in
-<span class="ph">Amazon's fulfillment network</span>. The
-<span class="ph">Fulfillment Inventory API section</span> reports
-real-time availability information for your <span class="ph">Fulfillment
-by Amazon</span> inventory regardless of whether you are selling your
+The <span class="ph">Fulfillment Inventory API section</span> of <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> can help
+you stay up-to-date on the availability of your inventory in <span
+class="ph">Amazon's fulfillment network</span>. The <span
+class="ph">Fulfillment Inventory API section</span> reports real-time
+availability information for your <span class="ph">Fulfillment by
+Amazon</span> inventory regardless of whether you are selling your
 inventory on Amazon's retail web site or through other retail channels.
 
-The following operations are included in the
-<span class="ph">Fulfillment Inventory API section</span>:
+The following operations are included in the <span
+class="ph">Fulfillment Inventory API section</span>:
 
 <div class="tablenoborder">
 
-| Operation                                                                                                                                                                                               | Description                                                                                                                                                                      | Availability                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")                                                                      | <span class="ph">Returns information about the availability of a seller's inventory.</span>                                                                                      | <span class="ph">All marketplaces except Brazil.</span> |
-| [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.") | <span class="ph">Returns the next page of information about the availability of a seller's inventory using the <span class="keyword parmname">NextToken</span> parameter.</span> | <span class="ph">All marketplaces except Brazil.</span> |
-| [GetServiceStatus](MWS_GetServiceStatus.md "Returns the operational status of the Fulfillment Inventory API section.")                                                                                | <span class="ph">Returns the operational status of the <span class="ph">Fulfillment Inventory API section</span>.</span>                                                         | <span class="ph">All marketplaces except Brazil.</span> |
+| Operation                                                                                                                                                                                                                                 | Description                                                                                                                                                                      | Availability                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| <a href="FBAInventory_ListInventorySupply.md" class="xref" title="Returns information about the availability of a seller&#39;s inventory.">ListInventorySupply</a>                                                                      | <span class="ph">Returns information about the availability of a seller's inventory.</span>                                                                                      | <span class="ph">All marketplaces except Brazil.</span> |
+| <a href="FBAInventory_ListInventorySupplyByNextToken.md" class="xref" title="Returns the next page of information about the availability of a seller&#39;s inventory using the NextToken parameter.">ListInventorySupplyByNextToken</a> | <span class="ph">Returns the next page of information about the availability of a seller's inventory using the <span class="keyword parmname">NextToken</span> parameter.</span> | <span class="ph">All marketplaces except Brazil.</span> |
+| <a href="MWS_GetServiceStatus.md" class="xref" title="Returns the operational status of the Fulfillment Inventory API section.">GetServiceStatus</a>                                                                                    | <span class="ph">Returns the operational status of the <span class="ph">Fulfillment Inventory API section</span>.</span>                                                         | <span class="ph">All marketplaces except Brazil.</span> |
 
 </div>
 

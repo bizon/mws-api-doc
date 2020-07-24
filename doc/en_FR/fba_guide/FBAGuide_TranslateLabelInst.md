@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Translations for label instructions
+Translations for label instructions
+===================================
 
 <div class="body conbody">
 
@@ -45,7 +45,7 @@ instructions translated into several languages.
 <div class="tablenoborder">
 
 | English                                                                                                                                             | French                                                                                                                                                                                          | German                                                                                                                                                                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Amazon Use Only                                                                                                                                     | Réservé à Amazon                                                                                                                                                                                | Zur internen Verwendung bei Amazon                                                                                                                                                   |
 | Mixed SKUs                                                                                                                                          | SKU multiples                                                                                                                                                                                   | Verschiedene SKUs                                                                                                                                                                    |
 | Items in this shipment (carton) **REQUIRE** FBA Item Labels - Please scan the FBA Item Label barcode to receive.                                    | Les articles dans cette expédition (carton) **NECESSITENT** des étiquettes article FBA - Veuillez scanner le code barre de l'étiquette article FBA pour recevoir.                               | Die Artikel dieser Lieferung (dieses Kartons) **ERFORDERN** Versand-durch-Amazon-Artikeletiketten. Scannen Sie hierzu bitte den entsprechenden Artikeletiketten-Strichcode.          |
@@ -56,7 +56,7 @@ instructions translated into several languages.
 <div class="tablenoborder">
 
 | Italian                                                                                                                                                                                                            | Spanish                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A uso esclusivo di Amazon                                                                                                                                                                                          | Para uso exclusivo de Amazon                                                                                                                                                        |
 | SKU misti                                                                                                                                                                                                          | Identificadores SKU mixtos                                                                                                                                                          |
 | Gli articoli in questa spedizione (cartone) **NECESSITANO** di etichette articolo Logistica di Amazon - Scansiona il codice a barre sull'etichetta articolo Logistica di Amazon per la ricezione.                  | Los artículos de este envío en caja **requieren** etiquetas de Logística de Amazon. Escanea el código de barras de la etiqueta del artículo para recibir el envío.                  |
@@ -72,8 +72,8 @@ instructions translated into several languages.
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShippingSpecs.md" class="link">Shipping Specifications</a>
 
 </div>
 

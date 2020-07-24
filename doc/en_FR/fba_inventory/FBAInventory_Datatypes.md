@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,21 +34,22 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInventoy_Datatypes" class="nested0">
 
-# Inventory Datatypes
+Inventory Datatypes
+===================
 
 <div class="body">
 
-The following datatypes are used in the response elements of the
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Fulfillment Inventory API section</span>:
+The following datatypes are used in the response elements of the <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> <span
+class="ph">Fulfillment Inventory API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                                                                                                       | Description                                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [InventorySupply](#InventorySupply "General information about the availability of inventory for a single SKU.")                                                                                                                                                                | <span class="ph">General information about the availability of inventory for a single SKU.</span>                                                                                                                                                    |
-| [InventorySupplyDetail](#InventorySupplyDetail "Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.") | <span class="ph">Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.</span> |
-| [Timepoint](#Timepoint "Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.")                                                        | <span class="ph">Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.</span>                                |
+| Datatype                                                                                                                                                                                                                                                                                                     | Description                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a>                                                                                                                                                                | <span class="ph">General information about the availability of inventory for a single SKU.</span>                                                                                                                                                    |
+| <a href="#InventorySupplyDetail" class="xref" title="Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.">InventorySupplyDetail</a> | <span class="ph">Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.</span> |
+| <a href="#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a>                                                        | <span class="ph">Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.</span>                                |
 
 </div>
 
@@ -57,7 +57,8 @@ The following datatypes are used in the response elements of the
 
 <div id="InventorySupply" class="topic reference nested1">
 
-## InventorySupply
+InventorySupply
+---------------
 
 <div class="body refbody">
 
@@ -73,8 +74,8 @@ for a single SKU.</span>
 The <span class="keyword cmdname">InventorySupply</span> datatype is
 used in a response element of the following operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+-   <a href="FBAInventory_ListInventorySupply.md" class="xref" title="Returns information about the availability of a seller&#39;s inventory.">ListInventorySupply</a>
+-   <a href="FBAInventory_ListInventorySupplyByNextToken.md" class="xref" title="Returns the next page of information about the availability of a seller&#39;s inventory using the NextToken parameter.">ListInventorySupplyByNextToken</a>
 
 </div>
 
@@ -84,8 +85,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InventorySupply</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InventorySupply</span> datatype:
 
 <div class="tablenoborder">
 
@@ -188,7 +189,8 @@ The following table shows the elements of the
 
 <div id="InventorySupplyDetail" class="topic reference nested1">
 
-## InventorySupplyDetail
+InventorySupplyDetail
+---------------------
 
 <div class="body refbody">
 
@@ -206,8 +208,8 @@ between fulfillment centers.</span>
 The <span class="keyword cmdname">InventorySupplyDetail</span> datatype
 is used in a response element of the following operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+-   <a href="FBAInventory_ListInventorySupply.md" class="xref" title="Returns information about the availability of a seller&#39;s inventory.">ListInventorySupply</a>
+-   <a href="FBAInventory_ListInventorySupplyByNextToken.md" class="xref" title="Returns the next page of information about the availability of a seller&#39;s inventory using the NextToken parameter.">ListInventorySupplyByNextToken</a>
 
 </div>
 
@@ -217,8 +219,8 @@ is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InventorySupplyDetail</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InventorySupplyDetail</span> datatype:
 
 <div class="tablenoborder">
 
@@ -286,7 +288,8 @@ The following table shows the elements of the
 
 <div id="Timepoint" class="topic reference nested1">
 
-## Timepoint
+Timepoint
+---------
 
 <div class="body refbody">
 
@@ -304,8 +307,8 @@ date.</span>
 The <span class="keyword cmdname">Timepoint</span> datatype is used in a
 response element of the following operations:
 
-  - [ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
-  - [ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+-   <a href="FBAInventory_ListInventorySupply.md" class="xref" title="Returns information about the availability of a seller&#39;s inventory.">ListInventorySupply</a>
+-   <a href="FBAInventory_ListInventorySupplyByNextToken.md" class="xref" title="Returns the next page of information about the availability of a seller&#39;s inventory using the NextToken parameter.">ListInventorySupplyByNextToken</a>
 
 </div>
 
@@ -315,8 +318,8 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Timepoint</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Timepoint</span> datatype:
 
 <div class="tablenoborder">
 
@@ -369,12 +372,12 @@ The following table shows the elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.md)
+<a href="FBAInventory_Overview.md" class="xref">What you should know about the Fulfillment Inventory API section</a>
 
 </div>
 

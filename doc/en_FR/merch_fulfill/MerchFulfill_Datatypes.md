@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_Datatypes" class="nested0">
 
-# Merchant Fulfillment Datatypes
+Merchant Fulfillment Datatypes
+==============================
 
 <div class="body">
 
@@ -45,33 +45,33 @@ Fulfillment service</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                                         | Description                                                                                                                                                                                                                                       |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [AdditionalInputs](MerchFulfill_Datatypes.md#AdditionalInputs "Contains the SellerInputDefinition element (a map of additional seller inputs) and the AdditionalInputFieldName element (the key to the map).") | <span class="ph">Contains the <span class="keyword parmname">SellerInputDefinition</span> element (a map of additional seller inputs) and the <span class="keyword parmname">AdditionalInputFieldName</span> element (the key to the map).</span> |
-| [Address](MerchFulfill_Datatypes.md#Address "Postal address information.")                                                                                                                                     | <span class="ph">Postal address information.</span>                                                                                                                                                                                               |
-| [CurrencyAmount](MerchFulfill_Datatypes.md#CurrencyAmount "Currency type and amount.")                                                                                                                         | <span class="ph">Currency type and amount.</span>                                                                                                                                                                                                 |
-| [FileContents](MerchFulfill_Datatypes.md#FileContents "Document data and checksum.")                                                                                                                           | <span class="ph">Document data and checksum.</span>                                                                                                                                                                                               |
-| [HazmatType](MerchFulfill_Datatypes.md#HazmatType "Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.")                 | <span class="ph">Hazardous materials options for a package.</span>                                                                                                                                                                                |
-| [Item](MerchFulfill_Datatypes.md#Item "An Amazon order item identifier and a quantity.")                                                                                                                       | <span class="ph">An Amazon order item identifier and a quantity.</span>                                                                                                                                                                           |
-| [ItemLevelFieldsList](MerchFulfill_Datatypes.md#ItemLevelFields "A list of additional seller inputs (at the item level), returned by the GetAdditionalSellerInputs operation.")                                | <span class="ph">A list of additional seller inputs (at the item level), returned by the <span class="keyword apiname">GetAdditionalSellerInputs</span> operation.</span>                                                                         |
-| [ItemLevelSellerInputsList](MerchFulfill_Datatypes.md#ItemLevelSellerInputs "A list of additional seller inputs (at the item level), used as input to the CreateShipment operation.")                          | <span class="ph">A list of additional seller inputs (at the item level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                               |
-| [Label](MerchFulfill_Datatypes.md#Label "Data for creating a shipping label and dimensions for printing the label.")                                                                                           | <span class="ph">Data for creating a shipping label and dimensions for printing the label.</span>                                                                                                                                                 |
-| [LabelCustomization](MerchFulfill_Datatypes.md#LabelCustomization "Custom text for shipping labels.")                                                                                                          | <span class="ph">Custom text for shipping labels.</span>                                                                                                                                                                                          |
-| [LabelDimensions](MerchFulfill_Datatypes.md#LabelDimensions "Dimensions for printing a shipping label.")                                                                                                       | <span class="ph">Dimensions for printing a shipping label.</span>                                                                                                                                                                                 |
-| [PackageDimensions](MerchFulfill_Datatypes.md#PackageDimensions "The dimensions of a package contained in a shipment.")                                                                                        | <span class="ph">The dimensions of a package contained in a shipment.</span>                                                                                                                                                                      |
-| [RejectedShippingService](MerchFulfill_Datatypes.md#RejectedShippingService "A shipping service that is ineligible based on the specified ShipmentRequestDetails information.")                                | <span class="ph">A shipping service that is ineligible based on the specified <span class="keyword parmname">ShipmentRequestDetails</span> information.</span>                                                                                    |
-| [SellerInputDefinition](MerchFulfill_Datatypes.md#SellerInputDefinition "Defines the additional seller input that is required from the seller.")                                                               | <span class="ph">Defines the additional seller input that is required from the seller.</span>                                                                                                                                                     |
-| [Shipment](MerchFulfill_Datatypes.md#Shipment "The details of a shipment, including the shipment status.")                                                                                                     | <span class="ph">The details of a shipment, including the shipment status.</span>                                                                                                                                                                 |
-| [ShipmentLevelFields](MerchFulfill_Datatypes.md#ShipmentLevelFields "A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.")                              | <span class="ph">A list of additional seller inputs (at the shipment level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                           |
-| [ShipmentLevelSellerInputsList](MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs "A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.")              | <span class="ph">A list of additional seller inputs (at the shipment level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                           |
-| [ShipmentRequestDetails](MerchFulfill_Datatypes.md#ShipmentRequestDetails "Shipment information required for requesting shipping service offers or for creating a shipment.")                                  | <span class="ph">Shipment information required for requesting shipping service offers or for creating a shipment.</span>                                                                                                                          |
-| [ShippingOfferingFilter](MerchFulfill_Datatypes.md#ShippingOfferingFilter "Specifies particular requirements for eligible shipping service offers.")                                                           | <span class="ph">Specifies particular requirements for eligible shipping service offers.</span>                                                                                                                                                   |
-| [ShippingService](MerchFulfill_Datatypes.md#ShippingService "A shipping service offer made by a carrier.")                                                                                                     | <span class="ph">A shipping service offer made by a carrier.</span>                                                                                                                                                                               |
-| [ShippingServiceOptions](MerchFulfill_Datatypes.md#ShippingServiceOptions "Extra services provided by a carrier.")                                                                                             | <span class="ph">Extra services provided by a carrier.</span>                                                                                                                                                                                     |
-| [TemporarilyUnavailableCarrier](MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier "A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.")           | <span class="ph">A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.</span>                                                                                                                 |
-| [TermsAndConditionsNotAcceptedCarrier](MerchFulfill_Datatypes.md#TermsAndConditionsNotAcceptedCarrier "A carrier whose terms and conditions have not been accepted by the seller.")                            | <span class="ph">A carrier whose terms and conditions have not been accepted by the seller.</span>                                                                                                                                                |
-| [TransparencyCodeList](MerchFulfill_Datatypes.md#TransparencyCodeList "List of Transparency codes.")                                                                                                           | <span class="ph">List of Transparency codes.</span>                                                                                                                                                                                               |
-| [Weight](MerchFulfill_Datatypes.md#Weight "The weight value and unit of measurement.")                                                                                                                         | <span class="ph">The weight value and unit of measurement.</span>                                                                                                                                                                                 |
+| Datatype                                                                                                                                                                                                                                       | Description                                                                                                                                                                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="MerchFulfill_Datatypes.md#AdditionalInputs" class="xref" title="Contains the SellerInputDefinition element (a map of additional seller inputs) and the AdditionalInputFieldName element (the key to the map).">AdditionalInputs</a> | <span class="ph">Contains the <span class="keyword parmname">SellerInputDefinition</span> element (a map of additional seller inputs) and the <span class="keyword parmname">AdditionalInputFieldName</span> element (the key to the map).</span> |
+| <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a>                                                                                                                                     | <span class="ph">Postal address information.</span>                                                                                                                                                                                               |
+| <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a>                                                                                                                         | <span class="ph">Currency type and amount.</span>                                                                                                                                                                                                 |
+| <a href="MerchFulfill_Datatypes.md#FileContents" class="xref" title="Document data and checksum.">FileContents</a>                                                                                                                           | <span class="ph">Document data and checksum.</span>                                                                                                                                                                                               |
+| <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a>                 | <span class="ph">Hazardous materials options for a package.</span>                                                                                                                                                                                |
+| <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a>                                                                                                                       | <span class="ph">An Amazon order item identifier and a quantity.</span>                                                                                                                                                                           |
+| <a href="MerchFulfill_Datatypes.md#ItemLevelFields" class="xref" title="A list of additional seller inputs (at the item level), returned by the GetAdditionalSellerInputs operation.">ItemLevelFieldsList</a>                                | <span class="ph">A list of additional seller inputs (at the item level), returned by the <span class="keyword apiname">GetAdditionalSellerInputs</span> operation.</span>                                                                         |
+| <a href="MerchFulfill_Datatypes.md#ItemLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the item level), used as input to the CreateShipment operation.">ItemLevelSellerInputsList</a>                          | <span class="ph">A list of additional seller inputs (at the item level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                               |
+| <a href="MerchFulfill_Datatypes.md#Label" class="xref" title="Data for creating a shipping label and dimensions for printing the label.">Label</a>                                                                                           | <span class="ph">Data for creating a shipping label and dimensions for printing the label.</span>                                                                                                                                                 |
+| <a href="MerchFulfill_Datatypes.md#LabelCustomization" class="xref" title="Custom text for shipping labels.">LabelCustomization</a>                                                                                                          | <span class="ph">Custom text for shipping labels.</span>                                                                                                                                                                                          |
+| <a href="MerchFulfill_Datatypes.md#LabelDimensions" class="xref" title="Dimensions for printing a shipping label.">LabelDimensions</a>                                                                                                       | <span class="ph">Dimensions for printing a shipping label.</span>                                                                                                                                                                                 |
+| <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a>                                                                                        | <span class="ph">The dimensions of a package contained in a shipment.</span>                                                                                                                                                                      |
+| <a href="MerchFulfill_Datatypes.md#RejectedShippingService" class="xref" title="A shipping service that is ineligible based on the specified ShipmentRequestDetails information.">RejectedShippingService</a>                                | <span class="ph">A shipping service that is ineligible based on the specified <span class="keyword parmname">ShipmentRequestDetails</span> information.</span>                                                                                    |
+| <a href="MerchFulfill_Datatypes.md#SellerInputDefinition" class="xref" title="Defines the additional seller input that is required from the seller.">SellerInputDefinition</a>                                                               | <span class="ph">Defines the additional seller input that is required from the seller.</span>                                                                                                                                                     |
+| <a href="MerchFulfill_Datatypes.md#Shipment" class="xref" title="The details of a shipment, including the shipment status.">Shipment</a>                                                                                                     | <span class="ph">The details of a shipment, including the shipment status.</span>                                                                                                                                                                 |
+| <a href="MerchFulfill_Datatypes.md#ShipmentLevelFields" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelFields</a>                              | <span class="ph">A list of additional seller inputs (at the shipment level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                           |
+| <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a>              | <span class="ph">A list of additional seller inputs (at the shipment level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span>                                                                           |
+| <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a>                                  | <span class="ph">Shipment information required for requesting shipping service offers or for creating a shipment.</span>                                                                                                                          |
+| <a href="MerchFulfill_Datatypes.md#ShippingOfferingFilter" class="xref" title="Specifies particular requirements for eligible shipping service offers.">ShippingOfferingFilter</a>                                                           | <span class="ph">Specifies particular requirements for eligible shipping service offers.</span>                                                                                                                                                   |
+| <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a>                                                                                                     | <span class="ph">A shipping service offer made by a carrier.</span>                                                                                                                                                                               |
+| <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a>                                                                                             | <span class="ph">Extra services provided by a carrier.</span>                                                                                                                                                                                     |
+| <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a>           | <span class="ph">A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.</span>                                                                                                                 |
+| <a href="MerchFulfill_Datatypes.md#TermsAndConditionsNotAcceptedCarrier" class="xref" title="A carrier whose terms and conditions have not been accepted by the seller.">TermsAndConditionsNotAcceptedCarrier</a>                            | <span class="ph">A carrier whose terms and conditions have not been accepted by the seller.</span>                                                                                                                                                |
+| <a href="MerchFulfill_Datatypes.md#TransparencyCodeList" class="xref" title="List of Transparency codes.">TransparencyCodeList</a>                                                                                                           | <span class="ph">List of Transparency codes.</span>                                                                                                                                                                                               |
+| <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>                                                                                                                         | <span class="ph">The weight value and unit of measurement.</span>                                                                                                                                                                                 |
 
 </div>
 
@@ -79,15 +79,16 @@ Fulfillment service</span>:
 
 <div id="AdditionalInputs" class="topic reference nested1">
 
-## AdditionalInputs
+AdditionalInputs
+----------------
 
 <div class="body refbody">
 
-<span class="ph">Contains the
-<span class="keyword parmname">SellerInputDefinition</span> element (a
-map of additional seller inputs) and the
-<span class="keyword parmname">AdditionalInputFieldName</span> element
-(the key to the map).</span>
+<span class="ph">Contains the <span
+class="keyword parmname">SellerInputDefinition</span> element (a map of
+additional seller inputs) and the <span
+class="keyword parmname">AdditionalInputFieldName</span> element (the
+key to the map).</span>
 
 <div class="section">
 
@@ -137,7 +138,8 @@ map of additional seller inputs) and the
 
 <div id="Address" class="topic reference nested1">
 
-## Address
+Address
+-------
 
 <div class="body refbody">
 
@@ -255,7 +257,8 @@ map of additional seller inputs) and the
 
 <div id="CurrencyAmount" class="topic reference nested1">
 
-## CurrencyAmount
+CurrencyAmount
+--------------
 
 <div class="body refbody">
 
@@ -309,7 +312,8 @@ map of additional seller inputs) and the
 
 <div id="FileContents" class="topic reference nested1">
 
-## FileContents
+FileContents
+------------
 
 <div class="body refbody">
 
@@ -376,7 +380,8 @@ Valid values:
 
 <div id="HazmatType" class="topic reference nested1">
 
-## HazmatType
+HazmatType
+----------
 
 <div class="body refbody">
 
@@ -391,7 +396,7 @@ on hazardous materials.
 <div class="tablenoborder">
 
 | Name       | Description                                                     |
-| ---------- | --------------------------------------------------------------- |
+|------------|-----------------------------------------------------------------|
 | `None`     | This package does not contain hazardous material.               |
 | `LQHazmat` | This package contains limited quantities of hazardous material. |
 
@@ -405,7 +410,8 @@ on hazardous materials.
 
 <div id="Item" class="topic reference nested1">
 
-## Item
+Item
+----
 
 <div class="body refbody">
 
@@ -417,14 +423,14 @@ on hazardous materials.
 
 <div class="tablenoborder">
 
-| Name                                                            | Description                                                                                                                                                         | Required | Values                                                                                                                                                                                        |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">OrderItemId</span>               | An Amazon-defined identifier for an individual item in an order. Used in the XML response to an order query request (Order API/Order XML).                          | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                       |
-| <span class="keyword parmname">Quantity</span>                  | The number of items.                                                                                                                                                | Yes      | <span class="ph">Type: xs:int</span>                                                                                                                                                          |
-| <span class="keyword parmname">ItemWeight</span>                | The weight of the item.                                                                                                                                             | No       | Type: [Weight](MerchFulfill_Datatypes.md#Weight "The weight value and unit of measurement.")                                                                                                |
-| <span class="keyword parmname">ItemDescription</span>           | The description of the item.                                                                                                                                        | No       | <span class="ph">Type: xs:string</span>                                                                                                                                                       |
-| <span class="keyword parmname">TransparencyCodeList</span>      | <span class="ph">List of Transparency codes.</span>                                                                                                                 | No       | Type: [TransparencyCodeList](MerchFulfill_Datatypes.md#TransparencyCodeList "List of Transparency codes.")                                                                                  |
-| <span class="keyword parmname">ItemLevelSellerInputsList</span> | <span class="ph">A list of additional seller inputs (at the item level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span> | No       | Type: [ItemLevelSellerInputsList](MerchFulfill_Datatypes.md#ItemLevelSellerInputs "A list of additional seller inputs (at the item level), used as input to the CreateShipment operation.") |
+| Name                                                            | Description                                                                                                                                                         | Required | Values                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">OrderItemId</span>               | An Amazon-defined identifier for an individual item in an order. Used in the XML response to an order query request (Order API/Order XML).                          | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                                     |
+| <span class="keyword parmname">Quantity</span>                  | The number of items.                                                                                                                                                | Yes      | <span class="ph">Type: xs:int</span>                                                                                                                                                                                        |
+| <span class="keyword parmname">ItemWeight</span>                | The weight of the item.                                                                                                                                             | No       | Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>                                                                                                |
+| <span class="keyword parmname">ItemDescription</span>           | The description of the item.                                                                                                                                        | No       | <span class="ph">Type: xs:string</span>                                                                                                                                                                                     |
+| <span class="keyword parmname">TransparencyCodeList</span>      | <span class="ph">List of Transparency codes.</span>                                                                                                                 | No       | Type: <a href="MerchFulfill_Datatypes.md#TransparencyCodeList" class="xref" title="List of Transparency codes.">TransparencyCodeList</a>                                                                                  |
+| <span class="keyword parmname">ItemLevelSellerInputsList</span> | <span class="ph">A list of additional seller inputs (at the item level), used as input to the <span class="keyword apiname">CreateShipment</span> operation.</span> | No       | Type: <a href="MerchFulfill_Datatypes.md#ItemLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the item level), used as input to the CreateShipment operation.">ItemLevelSellerInputsList</a> |
 
 </div>
 
@@ -436,13 +442,14 @@ on hazardous materials.
 
 <div id="ItemLevelFields" class="topic reference nested1">
 
-## ItemLevelFieldsList
+ItemLevelFieldsList
+-------------------
 
 <div class="body refbody">
 
 <span class="ph">A list of additional seller inputs (at the item level),
-returned by the
-<span class="keyword apiname">GetAdditionalSellerInputs</span>
+returned by the <span
+class="keyword apiname">GetAdditionalSellerInputs</span>
 operation.</span>
 
 <div id="ItemLevelFields__DatatypeContent" class="section">
@@ -451,10 +458,10 @@ operation.</span>
 
 <div class="tablenoborder">
 
-| Name                                                   | Description                                                                                                                                                                                                                                       | Required | Values                                                                                                                                                                                                                 |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">Asin</span>             | The ASIN of the item for which you are getting additional seller inputs.                                                                                                                                                                          | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                                |
-| <span class="keyword parmname">AdditionalInputs</span> | <span class="ph">Contains the <span class="keyword parmname">SellerInputDefinition</span> element (a map of additional seller inputs) and the <span class="keyword parmname">AdditionalInputFieldName</span> element (the key to the map).</span> | Yes      | Type: [AdditionalInputs](MerchFulfill_Datatypes.md#AdditionalInputs "Contains the SellerInputDefinition element (a map of additional seller inputs) and the AdditionalInputFieldName element (the key to the map).") |
+| Name                                                   | Description                                                                                                                                                                                                                                       | Required | Values                                                                                                                                                                                                                                               |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">Asin</span>             | The ASIN of the item for which you are getting additional seller inputs.                                                                                                                                                                          | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                                                              |
+| <span class="keyword parmname">AdditionalInputs</span> | <span class="ph">Contains the <span class="keyword parmname">SellerInputDefinition</span> element (a map of additional seller inputs) and the <span class="keyword parmname">AdditionalInputFieldName</span> element (the key to the map).</span> | Yes      | Type: <a href="MerchFulfill_Datatypes.md#AdditionalInputs" class="xref" title="Contains the SellerInputDefinition element (a map of additional seller inputs) and the AdditionalInputFieldName element (the key to the map).">AdditionalInputs</a> |
 
 </div>
 
@@ -466,7 +473,8 @@ operation.</span>
 
 <div id="ItemLevelSellerInputs" class="topic reference nested1">
 
-## ItemLevelSellerInputsList
+ItemLevelSellerInputsList
+-------------------------
 
 <div class="body refbody">
 
@@ -525,7 +533,8 @@ operation.</span>
 
 <div id="Label" class="topic reference nested1">
 
-## Label
+Label
+-----
 
 <div class="body refbody">
 
@@ -603,7 +612,8 @@ printing the label.</span>
 
 <div id="LabelCustomization" class="topic reference nested1">
 
-## LabelCustomization
+LabelCustomization
+------------------
 
 <div class="body refbody">
 
@@ -661,7 +671,8 @@ printing the label.</span>
 
 <div id="LabelDimensions" class="topic reference nested1">
 
-## LabelDimensions
+LabelDimensions
+---------------
 
 <div class="body refbody">
 
@@ -723,7 +734,8 @@ printing the label.</span>
 
 <div id="PackageDimensions" class="topic reference nested1">
 
-## PackageDimensions
+PackageDimensions
+-----------------
 
 <div class="body refbody">
 
@@ -800,7 +812,8 @@ shipment.</span>
 
 <div id="RejectedShippingService" class="topic reference nested1">
 
-## RejectedShippingService
+RejectedShippingService
+-----------------------
 
 <div class="body refbody">
 
@@ -876,7 +889,8 @@ information.</span>
 
 <div id="SellerInputDefinition" class="topic reference nested1">
 
-## SellerInputDefinition
+SellerInputDefinition
+---------------------
 
 <div class="body refbody">
 
@@ -977,7 +991,8 @@ from the seller.</span>
 
 <div id="Shipment" class="topic reference nested1">
 
-## Shipment
+Shipment
+--------
 
 <div class="body refbody">
 
@@ -1179,13 +1194,14 @@ the following values.
 
 <div id="ShipmentLevelFields" class="topic reference nested1">
 
-## ShipmentLevelFields
+ShipmentLevelFields
+-------------------
 
 <div class="body refbody">
 
 <span class="ph">A list of additional seller inputs (at the shipment
-level), used as input to the
-<span class="keyword apiname">CreateShipment</span> operation.</span>
+level), used as input to the <span
+class="keyword apiname">CreateShipment</span> operation.</span>
 
 <div id="ShipmentLevelFields__DatatypeContent" class="section">
 
@@ -1238,13 +1254,14 @@ level), used as input to the
 
 <div id="ShipmentLevelSellerInputs" class="topic reference nested1">
 
-## ShipmentLevelSellerInputsList
+ShipmentLevelSellerInputsList
+-----------------------------
 
 <div class="body refbody">
 
 <span class="ph">A list of additional seller inputs (at the shipment
-level), used as input to the
-<span class="keyword apiname">CreateShipment</span> operation.</span>
+level), used as input to the <span
+class="keyword apiname">CreateShipment</span> operation.</span>
 
 <div id="ShipmentLevelSellerInputs__DatatypeContent" class="section">
 
@@ -1297,7 +1314,8 @@ level), used as input to the
 
 <div id="ShipmentRequestDetails" class="topic reference nested1">
 
-## ShipmentRequestDetails
+ShipmentRequestDetails
+----------------------
 
 <div class="body refbody">
 
@@ -1402,7 +1420,8 @@ service offers or for creating a shipment.</span>
 
 <div id="ShippingOfferingFilter" class="topic reference nested1">
 
-## ShippingOfferingFilter
+ShippingOfferingFilter
+----------------------
 
 <div class="body refbody">
 
@@ -1416,7 +1435,7 @@ service offers.</span>
 <div class="tablenoborder">
 
 | Name                                                                | Description                                                                                  | Required | Values                                   |
-| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- |
+|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------|------------------------------------------|
 | <span class="keyword parmname">IncludeComplexShippingOptions</span> | `True` if you want to include shipping service offers that require additional seller inputs. | No       | <span class="ph">Type: xs:boolean</span> |
 
 </div>
@@ -1429,7 +1448,8 @@ service offers.</span>
 
 <div id="ShippingService" class="topic reference nested1">
 
-## ShippingService
+ShippingService
+---------------
 
 <div class="body refbody">
 
@@ -1537,7 +1557,8 @@ service offers.</span>
 
 <div id="ShippingServiceOptions" class="topic reference nested1">
 
-## ShippingServiceOptions
+ShippingServiceOptions
+----------------------
 
 <div class="body refbody">
 
@@ -1620,21 +1641,23 @@ service offers.</span>
 
 <div id="TemporarilyUnavailableCarrier" class="topic reference nested1">
 
-## TemporarilyUnavailableCarrier
+TemporarilyUnavailableCarrier
+-----------------------------
 
 <div class="body refbody">
 
 <span class="ph">A carrier who is temporarily unavailable, most likely
 due to a service outage experienced by the carrier.</span>
 
-<div id="TemporarilyUnavailableCarrier__DatatypeContent" class="section">
+<div id="TemporarilyUnavailableCarrier__DatatypeContent"
+class="section">
 
 ### TemporarilyUnavailableCarrier elements
 
 <div class="tablenoborder">
 
 | Name                                              | Description              | Required | Values                                  |
-| ------------------------------------------------- | ------------------------ | -------- | --------------------------------------- |
+|---------------------------------------------------|--------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">CarrierName</span> | The name of the carrier. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -1645,9 +1668,11 @@ due to a service outage experienced by the carrier.</span>
 
 </div>
 
-<div id="TermsAndConditionsNotAcceptedCarrier" class="topic reference nested1">
+<div id="TermsAndConditionsNotAcceptedCarrier"
+class="topic reference nested1">
 
-## TermsAndConditionsNotAcceptedCarrier
+TermsAndConditionsNotAcceptedCarrier
+------------------------------------
 
 <div class="body refbody">
 
@@ -1661,7 +1686,7 @@ accepted by the seller.</span>
 <div class="tablenoborder">
 
 | Name                                              | Description              | Required | Values                                  |
-| ------------------------------------------------- | ------------------------ | -------- | --------------------------------------- |
+|---------------------------------------------------|--------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">CarrierName</span> | The name of the carrier. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -1674,7 +1699,8 @@ accepted by the seller.</span>
 
 <div id="TransparencyCodeList" class="topic reference nested1">
 
-## TransparencyCodeList
+TransparencyCodeList
+--------------------
 
 <div class="body refbody">
 
@@ -1687,7 +1713,7 @@ accepted by the seller.</span>
 <div class="tablenoborder">
 
 | Name                                                   | Description                                     | Required | Values                                  |
-| ------------------------------------------------------ | ----------------------------------------------- | -------- | --------------------------------------- |
+|--------------------------------------------------------|-------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">TransparencyCode</span> | The Transparency code associated with the item. | No       | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -1700,7 +1726,8 @@ accepted by the seller.</span>
 
 <div id="Weight" class="topic reference nested1">
 
-## Weight
+Weight
+------
 
 <div class="body refbody">
 
@@ -1754,11 +1781,12 @@ accepted by the seller.</span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Merchant Fulfillment API](../merch_fulfill/MerchFulfill_Overview.md)
+<a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,52 +34,54 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToCancelShipment" class="nested0">
 
-# How to cancel a shipment
+How to cancel a shipment
+========================
 
 <div class="body">
 
 <span class="ph">This shows how to add functionality to the workflow
-described in [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md).</span>
+described in
+<a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>.</span>
 
 **To cancel a shipment**
 
 1.  Call the
-    [CancelShipment](MerchFulfill_CancelShipment.md "Cancels an existing shipment.")
-    operation, specifying the
-    <span class="keyword parmname">ShipmentId</span> value of the
-    shipment to be canceled.
+    <a href="MerchFulfill_CancelShipment.md" class="xref" title="Cancels an existing shipment.">CancelShipment</a>
+    operation, specifying the <span
+    class="keyword parmname">ShipmentId</span> value of the shipment to
+    be canceled.
 2.  (Optional) Check the status of the canceled shipment. See the
     following procedure.
 
 **To check the status of a canceled shipment (optional)**
 
 1.  Call the
-    [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
-    operation, specifying the
-    <span class="keyword parmname">ShipmentId</span> value of the
-    canceled shipment.
-2.  Get the cancellation status from the
-    <span class="keyword parmname">Status</span> element returned by the
-    <span class="keyword apiname">GetShipment</span> operation.
+    <a href="MerchFulfill_GetShipment.md" class="xref" title="Returns an existing shipment for a given identifier.">GetShipment</a>
+    operation, specifying the <span
+    class="keyword parmname">ShipmentId</span> value of the canceled
+    shipment.
+2.  Get the cancellation status from the <span
+    class="keyword parmname">Status</span> element returned by the <span
+    class="keyword apiname">GetShipment</span> operation.
 
 <div class="section">
 
-## Errors
+Errors
+------
 
-The service returns the
-<span class="keyword parmname">LabelCancelWindowExpired</span> error if
-the window for canceling a label has expired. See [Error
-codes](MerchFulfill_ErrorCodes.md).
+The service returns the <span
+class="keyword parmname">LabelCancelWindowExpired</span> error if the
+window for canceling a label has expired. See
+<a href="MerchFulfill_ErrorCodes.md" class="xref">Error codes</a>.
 
 </div>
 
 <div class="section">
 
-## Related topics
+Related topics
+--------------
 
-[How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md)
+<a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 
 </div>
 
@@ -92,8 +93,8 @@ orders](MerchFulfill_HowToUseForPrime.md)
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.md)
+**Parent topic:**
+<a href="../merch_fulfill/MerchFulfill_Overview.md" class="link">What you should know about the Merchant Fulfillment service</a>
 
 </div>
 

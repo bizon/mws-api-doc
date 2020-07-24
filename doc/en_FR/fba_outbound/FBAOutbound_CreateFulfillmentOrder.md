@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_CreateFulfillmentOrder" class="nested0">
 
-# CreateFulfillmentOrder
+CreateFulfillmentOrder
+======================
 
 <div class="body">
 
@@ -47,7 +47,8 @@ destination address.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -83,12 +84,12 @@ Amazon’s retail website. This can help you avoid overselling your FBA
 inventory that is available both on Amazon’s retail website and through
 Multi-Channel Fulfillment.
 
-To create a fulfillment order with an order hold on it, call the
-<span class="keyword apiname">CreateFulfillmentOrder</span> operation
-and specify <span class="keyword parmname">FulfillmentAction</span> =
+To create a fulfillment order with an order hold on it, call the <span
+class="keyword apiname">CreateFulfillmentOrder</span> operation and
+specify <span class="keyword parmname">FulfillmentAction</span> =
 `Hold`. For information about shipping or updating a fulfillment order
 with an order hold on it, see
-[UpdateFulfillmentOrder](FBAOutbound_UpdateFulfillmentOrder.md "Updates and/or requests shipment for a fulfillment order with an order hold on it.").
+<a href="FBAOutbound_UpdateFulfillmentOrder.md" class="xref" title="Updates and/or requests shipment for a fulfillment order with an order hold on it.">UpdateFulfillmentOrder</a>.
 
 <div class="note note">
 
@@ -118,9 +119,8 @@ The <span class="keyword apiname">CreateFulfillmentOrder</span>
 operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -130,7 +130,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -280,7 +281,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -297,7 +299,8 @@ elements.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -306,8 +309,8 @@ elements.</span>
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -315,68 +318,66 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
-  ?Action=CreateFulfillmentOrder   
-  &Version=2010-10-01   
-  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
-  &SignatureVersion=2   
-  &SignatureMethod=HmacSHA256
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
-  &Timestamp=2014-01-02T02:40:36Z   
-  &SellerId=A2NKEXAMPLEF53   
-  &MarketplaceId=ATVPDKIKX0DER
-  &SellerFulfillmentOrderId=mws-test-query-20100713023203751   
-  &DisplayableOrderId=mws-test-query-20100713023203751   
-  &ShippingSpeedCategory=ScheduledDelivery   
-  &DeliveryWindow.StartDateTime=2014-01-03T03:00:00Z   
-  &DeliveryWindow.EndDateTime=2014-01-03T05:00:00Z   
-  &DestinationAddress.Name=Amazon%20Taro   
-  &DestinationAddress.Line1=Meguro-ku%20Shimomeguro%2012-34-56   
-  &DestinationAddress.Line2=XXX%20building%20101   
-  &DestinationAddress.CountryCode=JP   
-  &DestinationAddress.StateOrProvinceCode=Tokyo   
-  &DestinationAddress.PostalCode=1500002   
-  &DisplayableOrderComment=Seller%20comment%20here   
-  &DisplayableOrderDateTime=2013-12-29   
-  &FulfillmentAction=Hold   
-  &CODSettings.IsCODRequired=true   
-  &CODSettings.CODCharge.CurrencyCode=JPY   
-  &CODSettings.CODCharge.Value=10.00   
-  &CODSettings.CODChargeTax.CurrencyCode=JPY   
-  &CODSettings.CODChargeTax.Value=2.00   
-  &CODSettings.ShippingCharge.CurrencyCode=JPY   
-  &CODSettings.ShippingCharge.Value=5.00   
-  &CODSettings.ShippingChargeTax.CurrencyCode=JPY   
-  &CODSettings.ShippingChargeTax.Value=3.00   
-  &Items.member.1.DisplayableComment=Seller%20comment%20here   
-  &Items.member.1.GiftMessage=Gift%20comment%20here   
-  &Items.member.1.PerUnitDeclaredValue.CurrencyCode=JPY   
-  &Items.member.1.PerUnitDeclaredValue.Value=30   
-  &Items.member.1.PerUnitPrice.CurrencyCode=JPY   
-  &Items.member.1.PerUnitPrice.Value=40.00   
-  &Items.member.1.PerUnitTax.CurrencyCode=JPY   
-  &Items.member.1.PerUnitTax.Value=2.00   
-  &Items.member.1.Quantity=1   
-  &Items.member.1.SellerFulfillmentOrderItemId=mws-test-1   
-  &Items.member.1.SellerSKU=Sample_SKU_1   
-  &Items.member.2.DisplayableComment=Seller%20comment%20here   
-  &Items.member.2.GiftMessage=Gift%20comment%20here   
-  &Items.member.2.PerUnitDeclaredValue.CurrencyCode=JPY   
-  &Items.member.2.PerUnitDeclaredValue.Value=20.00   
-  &Items.member.2.PerUnitPrice.CurrencyCode=JPY   
-  &Items.member.2.PerUnitPrice.Value=22.00   
-  &Items.member.2.PerUnitTax.CurrencyCode=JPY   
-  &Items.member.2.PerUnitTax.Value=6.00   
-  &Items.member.2.Quantity=2   
-  &Items.member.2.SellerFulfillmentOrderItemId=mws-test-2   
-  &Items.member.2.SellerSKU=Sample_SKU_2   
-  &NotificationEmailList.member.1=test1%40amazon.com   
-  &NotificationEmailList.member.2=test2%40amazon.com
-```
+    http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
+      ?Action=CreateFulfillmentOrder   
+      &Version=2010-10-01   
+      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
+      &SignatureVersion=2   
+      &SignatureMethod=HmacSHA256
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
+      &Timestamp=2014-01-02T02:40:36Z   
+      &SellerId=A2NKEXAMPLEF53   
+      &MarketplaceId=ATVPDKIKX0DER
+      &SellerFulfillmentOrderId=mws-test-query-20100713023203751   
+      &DisplayableOrderId=mws-test-query-20100713023203751   
+      &ShippingSpeedCategory=ScheduledDelivery   
+      &DeliveryWindow.StartDateTime=2014-01-03T03:00:00Z   
+      &DeliveryWindow.EndDateTime=2014-01-03T05:00:00Z   
+      &DestinationAddress.Name=Amazon%20Taro   
+      &DestinationAddress.Line1=Meguro-ku%20Shimomeguro%2012-34-56   
+      &DestinationAddress.Line2=XXX%20building%20101   
+      &DestinationAddress.CountryCode=JP   
+      &DestinationAddress.StateOrProvinceCode=Tokyo   
+      &DestinationAddress.PostalCode=1500002   
+      &DisplayableOrderComment=Seller%20comment%20here   
+      &DisplayableOrderDateTime=2013-12-29   
+      &FulfillmentAction=Hold   
+      &CODSettings.IsCODRequired=true   
+      &CODSettings.CODCharge.CurrencyCode=JPY   
+      &CODSettings.CODCharge.Value=10.00   
+      &CODSettings.CODChargeTax.CurrencyCode=JPY   
+      &CODSettings.CODChargeTax.Value=2.00   
+      &CODSettings.ShippingCharge.CurrencyCode=JPY   
+      &CODSettings.ShippingCharge.Value=5.00   
+      &CODSettings.ShippingChargeTax.CurrencyCode=JPY   
+      &CODSettings.ShippingChargeTax.Value=3.00   
+      &Items.member.1.DisplayableComment=Seller%20comment%20here   
+      &Items.member.1.GiftMessage=Gift%20comment%20here   
+      &Items.member.1.PerUnitDeclaredValue.CurrencyCode=JPY   
+      &Items.member.1.PerUnitDeclaredValue.Value=30   
+      &Items.member.1.PerUnitPrice.CurrencyCode=JPY   
+      &Items.member.1.PerUnitPrice.Value=40.00   
+      &Items.member.1.PerUnitTax.CurrencyCode=JPY   
+      &Items.member.1.PerUnitTax.Value=2.00   
+      &Items.member.1.Quantity=1   
+      &Items.member.1.SellerFulfillmentOrderItemId=mws-test-1   
+      &Items.member.1.SellerSKU=Sample_SKU_1   
+      &Items.member.2.DisplayableComment=Seller%20comment%20here   
+      &Items.member.2.GiftMessage=Gift%20comment%20here   
+      &Items.member.2.PerUnitDeclaredValue.CurrencyCode=JPY   
+      &Items.member.2.PerUnitDeclaredValue.Value=20.00   
+      &Items.member.2.PerUnitPrice.CurrencyCode=JPY   
+      &Items.member.2.PerUnitPrice.Value=22.00   
+      &Items.member.2.PerUnitTax.CurrencyCode=JPY   
+      &Items.member.2.PerUnitTax.Value=6.00   
+      &Items.member.2.Quantity=2   
+      &Items.member.2.SellerFulfillmentOrderItemId=mws-test-2   
+      &Items.member.2.SellerSKU=Sample_SKU_2   
+      &NotificationEmailList.member.1=test1%40amazon.com   
+      &NotificationEmailList.member.2=test2%40amazon.com
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -387,7 +388,7 @@ http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -395,16 +396,14 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<CreateFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-    <ResponseMetadata>
-        <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
-    </ResponseMetadata>
-</CreateFulfillmentOrderResponse>
-```
+    <?xml version="1.0"?>
+    <CreateFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+        <ResponseMetadata>
+            <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
+        </ResponseMetadata>
+    </CreateFulfillmentOrderResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -416,12 +415,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.md)
+<a href="FBAOutbound_Overview.md" class="xref">What you should know about the Fulfillment Outbound Shipment API section</a>
 
 </div>
 

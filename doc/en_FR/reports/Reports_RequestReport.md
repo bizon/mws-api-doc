@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,39 +34,40 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_RequestReport" class="nested0">
 
-# RequestReport
+RequestReport
+=============
 
 <span class="ph">Creates a report request and submits the request to
 <span class="ph">Amazon MWS</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__RequestReport" class="keyword apiname">RequestReport</span>
-operation creates a report request. <span class="ph">Amazon MWS</span>
-processes the report request and when the report is completed, sets the
-status of the report request to `_DONE_`. Reports are retained for 90
-days.
+The <span id="Description__RequestReport"
+class="keyword apiname">RequestReport</span> operation creates a report
+request. <span class="ph">Amazon MWS</span> processes the report request
+and when the report is completed, sets the status of the report request
+to `_DONE_`. Reports are retained for 90 days.
 
 You specify what marketplaces you want a report to cover by supplying a
-list of marketplace IDs to the optional
-<span class="keyword parmname">MarketplaceIdList</span> request
-parameter when you call the
-<span class="keyword apiname">RequestReport</span> operation. If you do
-not specify a marketplace ID, your home marketplace ID is used. Note
-that the <span class="keyword parmname">MarketplaceIdList</span> request
-parameter is not used in the Japan marketplace.
+list of marketplace IDs to the optional <span
+class="keyword parmname">MarketplaceIdList</span> request parameter when
+you call the <span class="keyword apiname">RequestReport</span>
+operation. If you do not specify a marketplace ID, your home marketplace
+ID is used. Note that the <span
+class="keyword parmname">MarketplaceIdList</span> request parameter is
+not used in the Japan marketplace.
 
 The <span class="keyword apiname">RequestReport</span> operation has a
 maximum request quota of 15 and a restore rate of one request every
 minute. <span class="ph">For definitions of throttling terminology and
-for a complete explanation of throttling, see [Throttling: Limits to how
-often you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div class="section">
 
@@ -89,15 +89,15 @@ not available in the Japan marketplace.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate             | Hourly request quota |
-| --------------------- | ------------------------ | -------------------- |
+|-----------------------|--------------------------|----------------------|
 | 15 requests           | One request every minute | 60 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -109,7 +109,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -117,9 +118,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -194,7 +194,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -228,7 +229,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -237,8 +239,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -246,28 +248,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Reports/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Reports/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-&Action=RequestReport
-&EndDate=2008-06-26T18%3A12%3A21
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATVPDKIKX0DER
-&ReportType=_GET_MERCHANT_LISTINGS_DATA_
-&SellerId=A1XEXAMPLE5E6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&StartDate=2009-01-03T18%3A12%3A21
-&Timestamp=2009-02-04T18%3A12%3A21.687Z
-&Version=2009-01-01
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+    &Action=RequestReport
+    &EndDate=2008-06-26T18%3A12%3A21
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATVPDKIKX0DER
+    &ReportType=_GET_MERCHANT_LISTINGS_DATA_
+    &SellerId=A1XEXAMPLE5E6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &StartDate=2009-01-03T18%3A12%3A21
+    &Timestamp=2009-02-04T18%3A12%3A21.687Z
+    &Version=2009-01-01
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -278,7 +278,7 @@ AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -286,28 +286,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<RequestReportResponse
-    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-    <RequestReportResult>
-        <ReportRequestInfo>
-            <ReportRequestId>2291326454</ReportRequestId>
-            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-            <StartDate>2009-01-21T02:10:39+00:00</StartDate>
-            <EndDate>2009-02-13T02:10:39+00:00</EndDate>
-            <Scheduled>false</Scheduled>
-            <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
-            <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
-        </ReportRequestInfo>
-    </RequestReportResult>
-    <ResponseMetadata>
-        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-    </ResponseMetadata>
-</RequestReportResponse>
-```
+    <?xml version="1.0"?>
+    <RequestReportResponse
+        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+        <RequestReportResult>
+            <ReportRequestInfo>
+                <ReportRequestId>2291326454</ReportRequestId>
+                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+                <StartDate>2009-01-21T02:10:39+00:00</StartDate>
+                <EndDate>2009-02-13T02:10:39+00:00</EndDate>
+                <Scheduled>false</Scheduled>
+                <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
+                <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
+            </ReportRequestInfo>
+        </RequestReportResult>
+        <ResponseMetadata>
+            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+        </ResponseMetadata>
+    </RequestReportResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -319,14 +317,14 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
-[GetReportRequestList](Reports_GetReportRequestList.md "Returns a list of report requests that you can use to get the ReportRequestId for a report.")
+<a href="Reports_GetReportRequestList.md" class="xref" title="Returns a list of report requests that you can use to get the ReportRequestId for a report.">GetReportRequestList</a>
 
 </div>
 

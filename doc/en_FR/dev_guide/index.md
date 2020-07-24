@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_WhatIs" class="nested0">
 
-# What is Amazon MWS?
+What is Amazon MWS?
+===================
 
 <div class="body">
 
@@ -43,26 +43,26 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 an integrated web service API that helps Amazon sellers to
 programmatically exchange data on listings, orders, payments, reports,
 and more. Data integration with Amazon enables high levels of selling
-automation, which can help sellers grow their business. By using
-<span class="ph">Amazon MWS</span>, sellers can increase selling
-efficiency, reduce labor requirements, and improve response time to
-customers.
+automation, which can help sellers grow their business. By using <span
+class="ph">Amazon MWS</span>, sellers can increase selling efficiency,
+reduce labor requirements, and improve response time to customers.
 
 There are no fees associated with <span class="ph">Amazon MWS</span>,
 but to use the <span class="ph">Amazon MWS</span> API you must have an
 <span class="ph">Amazon MWS</span>-eligible seller account and you must
-[register](DG_Registering.md) to use <span class="ph">Amazon
-MWS</span>.
+<a href="DG_Registering.md" class="xref">register</a> to use <span
+class="ph">Amazon MWS</span>.
 
 <div class="section">
 
-## What <span class="ph">Amazon MWS</span> Provides
+What <span class="ph">Amazon MWS</span> Provides
+------------------------------------------------
 
 With <span class="ph">Amazon MWS</span>, you can build applications for
 your own Amazon seller account. You can also build applications for
-other sellers to help them manage their online business. Using
-<span class="ph">Amazon MWS</span> you can create applications that look
-up products for sale, download orders for fulfillment, confirm shipment,
+other sellers to help them manage their online business. Using <span
+class="ph">Amazon MWS</span> you can create applications that look up
+products for sale, download orders for fulfillment, confirm shipment,
 and schedule and receive reports. These API operations are accessible by
 using a web service interface.
 
@@ -70,32 +70,32 @@ using a web service interface.
 
 <span class="ph">Amazon MWS</span> provides the following features:
 
-  - Inventory management — You can perform batch uploads of inventory,
+-   Inventory management — You can perform batch uploads of inventory,
     add products, check inventory levels, examine pricing information,
     and other inventory management tasks.
-  - Order management — You can download order information, obtain
+-   Order management — You can download order information, obtain
     payment data, acknowledge orders, and schedule reports.
-  - Reports management — You can request a variety of reports as well as
+-   Reports management — You can request a variety of reports as well as
     query the status of these reports, and then download them.
 
 </div>
 
 <div class="p">
 
-For <span class="ph">Fulfillment by Amazon (FBA)</span> sellers,
-<span class="ph">Amazon MWS</span> also allows you to:
+For <span class="ph">Fulfillment by Amazon (FBA)</span> sellers, <span
+class="ph">Amazon MWS</span> also allows you to:
 
-  - Create inbound shipments to an Amazon fulfillment center — You can
+-   Create inbound shipments to an Amazon fulfillment center — You can
     automate the process for creating labels for units you ship to a
     fulfillment center.
-  - Check status of inbound shipments — You can check to see if your
+-   Check status of inbound shipments — You can check to see if your
     shipment has reached a fulfillment center and, if so, whether the
     shipment has been processed.
-  - Submit fulfillment orders — By integrating your system with
-    <span class="ph">Amazon MWS</span>, you can enable your customers to
+-   Submit fulfillment orders — By integrating your system with <span
+    class="ph">Amazon MWS</span>, you can enable your customers to
     submit multi-channel fulfillment orders at any time. There is no lag
     time while you process or batch orders.
-  - Track and manage outbound shipment requests — Once orders have left
+-   Track and manage outbound shipment requests — Once orders have left
     an Amazon fulfillment center, you can track shipments and keep your
     customers aware of arrival times.
 
@@ -105,12 +105,13 @@ For <span class="ph">Fulfillment by Amazon (FBA)</span> sellers,
 
 <div class="section">
 
-## The MWS API
+The MWS API
+-----------
 
 The <span class="ph">Amazon MWS</span> API is divided into sections
 based on functionality. The following is a summary of the API
-organization. Further information can be found in the
-<span class="ph">Amazon MWS</span> API References.
+organization. Further information can be found in the <span
+class="ph">Amazon MWS</span> API References.
 
 </div>
 

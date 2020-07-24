@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Recommendations_Datatypes" class="nested0">
 
-# Recommendations Datatypes
+Recommendations Datatypes
+=========================
 
 <div class="body">
 
@@ -45,19 +45,19 @@ MWS)</span> <span class="ph">Recommendations API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                                        | Description                                                                                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [AdvertisingRecommendation](#AdvertisingRecommendation "A recommendation for advertising your products and for using the sponsored products program. This datatype is used in all marketplaces except Brazil.") | <span class="ph">A recommendation for advertising your products and for using the sponsored products program.</span>                            |
-| [CategoryQuery](#CategoryQuery "A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.")                                                       | <span class="ph">A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.</span> |
-| [DimensionMeasure](#DimensionMeasure)                                                                                                                                                                           | <span class="ph">Dimension unit and amount</span>                                                                                               |
-| [FulfillmentRecommendation](#FulfillmentRecommendation "A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA). This datatype is used in all marketplaces except Brazil.")        | <span class="ph">A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA).</span>                                   |
-| [GlobalSellingRecommendation](#GlobalSellingRecommendation "A recommendation for expanding your products to more regions and marketplaces.")                                                                    | <span class="ph">A recommendation for expanding your products to more regions and marketplaces.</span>                                          |
-| [InventoryRecommendation](#InventoryRecommendation "A recommendation for restocking low or out-of-stock items in your inventory.")                                                                              | <span class="ph">A recommendation for restocking low or out-of-stock items in your inventory.</span>                                            |
-| [ItemDimensions](#ItemDimensions "The dimensions of an item.")                                                                                                                                                  | <span class="ph">The dimensions of an item.</span>                                                                                              |
-| [Price](#Price "Currency type and amount.")                                                                                                                                                                     | <span class="ph">Currency type and amount.</span>                                                                                               |
-| [PricingRecommendation](#PricingRecommendation "A recommendation to review pricing on items in your inventory where your offer is not the lowest price.")                                                       | <span class="ph">A recommendation to review pricing on items in your inventory where your offer is not the lowest price.</span>                 |
-| [ProductIdentifier](#ProductIdentifier "The ASIN, SKU, and UPC of the item.")                                                                                                                                   | <span class="ph">The ASIN, SKU, and UPC of the item.</span>                                                                                     |
-| [WeightMeasure](#WeightMeasure "Weight unit and amount.")                                                                                                                                                       | <span class="ph">Weight unit and amount.</span>                                                                                                 |
+| Datatype                                                                                                                                                                                                                                      | Description                                                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#AdvertisingRecommendation" class="xref" title="A recommendation for advertising your products and for using the sponsored products program. This datatype is used in all marketplaces except Brazil.">AdvertisingRecommendation</a> | <span class="ph">A recommendation for advertising your products and for using the sponsored products program.</span>                            |
+| <a href="#CategoryQuery" class="xref" title="A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.">CategoryQuery</a>                                                       | <span class="ph">A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.</span> |
+| <a href="#DimensionMeasure" class="xref">DimensionMeasure</a>                                                                                                                                                                                 | <span class="ph">Dimension unit and amount</span>                                                                                               |
+| <a href="#FulfillmentRecommendation" class="xref" title="A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA). This datatype is used in all marketplaces except Brazil.">FulfillmentRecommendation</a>        | <span class="ph">A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA).</span>                                   |
+| <a href="#GlobalSellingRecommendation" class="xref" title="A recommendation for expanding your products to more regions and marketplaces.">GlobalSellingRecommendation</a>                                                                    | <span class="ph">A recommendation for expanding your products to more regions and marketplaces.</span>                                          |
+| <a href="#InventoryRecommendation" class="xref" title="A recommendation for restocking low or out-of-stock items in your inventory.">InventoryRecommendation</a>                                                                              | <span class="ph">A recommendation for restocking low or out-of-stock items in your inventory.</span>                                            |
+| <a href="#ItemDimensions" class="xref" title="The dimensions of an item.">ItemDimensions</a>                                                                                                                                                  | <span class="ph">The dimensions of an item.</span>                                                                                              |
+| <a href="#Price" class="xref" title="Currency type and amount.">Price</a>                                                                                                                                                                     | <span class="ph">Currency type and amount.</span>                                                                                               |
+| <a href="#PricingRecommendation" class="xref" title="A recommendation to review pricing on items in your inventory where your offer is not the lowest price.">PricingRecommendation</a>                                                       | <span class="ph">A recommendation to review pricing on items in your inventory where your offer is not the lowest price.</span>                 |
+| <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a>                                                                                                                                   | <span class="ph">The ASIN, SKU, and UPC of the item.</span>                                                                                     |
+| <a href="#WeightMeasure" class="xref" title="Weight unit and amount.">WeightMeasure</a>                                                                                                                                                       | <span class="ph">Weight unit and amount.</span>                                                                                                 |
 
 </div>
 
@@ -65,7 +65,8 @@ MWS)</span> <span class="ph">Recommendations API section</span>:
 
 <div id="AdvertisingRecommendation" class="topic nested1">
 
-## AdvertisingRecommendation
+AdvertisingRecommendation
+-------------------------
 
 <div class="body">
 
@@ -80,8 +81,8 @@ datatype is used in all marketplaces except Brazil.</span>
 The <span class="keyword parmname">AdvertisingRecommendation</span>
 datatype is used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -89,9 +90,8 @@ datatype is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AdvertisingRecommendation</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword parmname">AdvertisingRecommendation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -188,7 +188,8 @@ datatype:
 
 <div id="CategoryQuery" class="topic nested1">
 
-## CategoryQuery
+CategoryQuery
+-------------
 
 <div class="body">
 
@@ -203,7 +204,7 @@ category.</span>
 The <span class="keyword parmname">CategoryQuery</span> datatype is used
 in a request parameter of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
 
 </div>
 
@@ -211,8 +212,8 @@ in a request parameter of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">CategoryQuery</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">CategoryQuery</span> datatype:
 
 <div class="tablenoborder">
 
@@ -285,7 +286,8 @@ The following table shows the elements of the
 
 <div id="DimensionMeasure" class="topic nested1">
 
-## DimensionMeasure
+DimensionMeasure
+----------------
 
 <div class="body">
 
@@ -296,8 +298,8 @@ The following table shows the elements of the
 The <span class="keyword parmname">DimensionMeasure</span> datatype is
 used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -305,8 +307,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">DimensionMeasure</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">DimensionMeasure</span> datatype:
 
 <div class="tablenoborder">
 
@@ -345,7 +347,8 @@ The following table shows the elements of the
 
 <div id="FulfillmentRecommendation" class="topic nested1">
 
-## FulfillmentRecommendation
+FulfillmentRecommendation
+-------------------------
 
 <div class="body">
 
@@ -360,8 +363,8 @@ datatype is used in all marketplaces except Brazil.</span>
 The <span class="keyword parmname">FulfillmentRecommendation</span>
 datatype is used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -369,9 +372,8 @@ datatype is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FulfillmentRecommendation</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FulfillmentRecommendation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -480,7 +482,8 @@ datatype:
 
 <div id="GlobalSellingRecommendation" class="topic nested1">
 
-## GlobalSellingRecommendation
+GlobalSellingRecommendation
+---------------------------
 
 <div class="body">
 
@@ -494,8 +497,8 @@ regions and marketplaces.</span>
 The <span class="keyword parmname">GlobalSellingRecommendation</span>
 datatype is used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -503,9 +506,8 @@ datatype is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">GlobalSellingRecommendation</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword parmname">GlobalSellingRecommendation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -614,7 +616,8 @@ datatype:
 
 <div id="InventoryRecommendation" class="topic nested1">
 
-## InventoryRecommendation
+InventoryRecommendation
+-----------------------
 
 <div class="body">
 
@@ -628,8 +631,8 @@ items in your inventory.</span>
 The <span class="keyword parmname">InventoryRecommendation</span>
 datatype is used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -637,8 +640,8 @@ datatype is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">InventoryRecommendation</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">InventoryRecommendation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -721,7 +724,8 @@ The following table shows the elements of the
 
 <div id="ItemDimensions" class="topic nested1">
 
-## ItemDimensions
+ItemDimensions
+--------------
 
 <div class="body">
 
@@ -734,8 +738,8 @@ The following table shows the elements of the
 The <span class="keyword parmname">ItemDimensions</span> datatype is
 used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -743,8 +747,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ItemDimensions</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ItemDimensions</span> datatype:
 
 <div class="tablenoborder">
 
@@ -793,7 +797,8 @@ The following table shows the elements of the
 
 <div id="Price" class="topic nested1">
 
-## Price
+Price
+-----
 
 <div class="body">
 
@@ -806,8 +811,8 @@ The following table shows the elements of the
 The <span class="keyword parmname">Price</span> datatype is used in a
 response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -815,8 +820,8 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Price</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Price</span> datatype:
 
 <div class="tablenoborder">
 
@@ -855,7 +860,8 @@ The following table shows the elements of the
 
 <div id="PricingRecommendation" class="topic nested1">
 
-## PricingRecommendation
+PricingRecommendation
+---------------------
 
 <div class="body">
 
@@ -869,8 +875,8 @@ inventory where your offer is not the lowest price.</span>
 The <span class="keyword parmname">PricingRecommendation</span> datatype
 is used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -878,8 +884,8 @@ is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">PricingRecommendation</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">PricingRecommendation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1010,7 +1016,8 @@ The following table shows the elements of the
 
 <div id="ProductIdentifier" class="topic nested1">
 
-## ProductIdentifier
+ProductIdentifier
+-----------------
 
 <div class="body">
 
@@ -1023,8 +1030,8 @@ The following table shows the elements of the
 The <span class="keyword parmname">ProductIdentifier</span> datatype is
 used in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -1032,8 +1039,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ProductIdentifier</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ProductIdentifier</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1077,7 +1084,8 @@ The following table shows the elements of the
 
 <div id="WeightMeasure" class="topic nested1">
 
-## WeightMeasure
+WeightMeasure
+-------------
 
 <div class="body">
 
@@ -1090,8 +1098,8 @@ The following table shows the elements of the
 The <span class="keyword parmname">WeightMeasure</span> datatype is used
 in a response element of the following operations:
 
-  - [ListRecommendations](Recommendations_ListRecommendations.md "Returns your active recommendations for a specific category or for all categories for a specific marketplace.")
-  - [ListRecommendationsByNextToken](Recommendations_ListRecommendationsByNextToken.md "Returns the next page of recommendations using the NextToken parameter.")
+-   <a href="Recommendations_ListRecommendations.md" class="xref" title="Returns your active recommendations for a specific category or for all categories for a specific marketplace.">ListRecommendations</a>
+-   <a href="Recommendations_ListRecommendationsByNextToken.md" class="xref" title="Returns the next page of recommendations using the NextToken parameter.">ListRecommendationsByNextToken</a>
 
 </div>
 
@@ -1099,8 +1107,8 @@ in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">WeightMeasure</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">WeightMeasure</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1139,12 +1147,12 @@ The following table shows the elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Recommendations API
-section](Recommendations_Overview.md)
+<a href="Recommendations_Overview.md" class="xref">What you should know about the Amazon MWS Recommendations API section</a>
 
 </div>
 

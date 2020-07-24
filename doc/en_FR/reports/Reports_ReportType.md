@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,52 +34,41 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_ReportType" class="nested0">
 
-# ReportType enumeration
+ReportType enumeration
+======================
 
-An enumeration of the types of reports that can be requested from
-<span class="ph">Amazon MWS</span>.
+An enumeration of the types of reports that can be requested from <span
+class="ph">Amazon MWS</span>.
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ReportType</span> enumeration is used
 by operations in the <span class="ph">Reports API</span> section to
-indicate a particular report. For example, the
-<span class="keyword apiname">RequestReport</span> operation uses the
-<span class="keyword apiname">ReportType</span> value to indicate the
-type of report requested.
+indicate a particular report. For example, the <span
+class="keyword apiname">RequestReport</span> operation uses the <span
+class="keyword apiname">ReportType</span> value to indicate the type of
+report requested.
 
 The following report categories are supported:
 
-  - [Inventory
-    Reports](Reports_ReportType.md#ReportTypeCategories__ListingsReports)
-  - [Order
-    Reports](Reports_ReportType.md#ReportTypeCategories__OrderReports)
-  - [Order Tracking
-    Reports](Reports_ReportType.md#ReportTypeCategories__OrderTrackingReports)
-  - [Pending Order
-    Reports](Reports_ReportType.md#ReportTypeCategories__PendingOrderReports)
-  - [Returns
-    Reports](Reports_ReportType.md#ReportTypeCategories__ReturnsReports)
-  - [Performance
-    Reports](Reports_ReportType.md#ReportTypeCategories__PerformanceReports)
-  - [Settlement
-    Reports](Reports_ReportType.md#ReportTypeCategories__SettlementReports)
-  - [Fulfillment By Amazon (FBA)
-    Reports](Reports_ReportType.md#ReportTypeCategories__FBAReports)
-  - [Tax
-    Reports](Reports_ReportType.md#ReportTypeCategories__SalesTaxReports)
-  - [Browse Tree
-    Report](Reports_ReportType.md#ReportTypeCategories__BrowseTreeReports)
-  - [Easy Ship
-    Report](Reports_ReportType.md#ReportTypeCategories__EasyShipReport)
-  - [Amazon Business
-    Reports](Reports_ReportType.md#ReportTypeCategories__AmazonBusinessReports)
-  - [AmazonPay
-    Reports](Reports_ReportType.md#ReportTypeCategories__AmazonPayReports)
+-   <a href="Reports_ReportType.md#ReportTypeCategories__ListingsReports" class="xref">Inventory Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__OrderReports" class="xref">Order Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__OrderTrackingReports" class="xref">Order Tracking Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__PendingOrderReports" class="xref">Pending Order Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__ReturnsReports" class="xref">Returns Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__PerformanceReports" class="xref">Performance Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__SettlementReports" class="xref">Settlement Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__FBAReports" class="xref">Fulfillment By Amazon (FBA) Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__SalesTaxReports" class="xref">Tax Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__BrowseTreeReports" class="xref">Browse Tree Report</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__EasyShipReport" class="xref">Easy Ship Report</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__AmazonBusinessReports" class="xref">Amazon Business Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__AmazonPayReports" class="xref">AmazonPay Reports</a>
 
 </div>
 
@@ -88,7 +76,8 @@ The following report categories are supported:
 
 <div id="ReportTypeCategories" class="topic reference nested1">
 
-## ReportType enumeration by report category
+ReportType enumeration by report category
+-----------------------------------------
 
 <div class="body refbody">
 
@@ -323,9 +312,9 @@ Europe (EU). For all sellers. These reports return all orders,
 regardless of fulfillment channel or shipment status. These reports are
 intended for order tracking, not to drive your fulfillment process, as
 the reports do not include customer-identifying information and
-scheduling is not supported. Also note that for
-<span class="ph">self-fulfilled</span> orders, item price is not shown
-for orders in a "pending" state.
+scheduling is not supported. Also note that for <span
+class="ph">self-fulfilled</span> orders, item price is not shown for
+orders in a "pending" state.
 
 <div class="tablenoborder">
 
@@ -584,24 +573,24 @@ automatically scheduled by Amazon.
 
 ### Fulfillment By Amazon (FBA) Reports
 
-There are limits to how often Amazon will generate
-<span class="ph">FBA</span> reports. These limits depend on whether an
-<span class="ph">FBA</span> report is a near real-time report or a daily
+There are limits to how often Amazon will generate <span
+class="ph">FBA</span> reports. These limits depend on whether an <span
+class="ph">FBA</span> report is a near real-time report or a daily
 report. See the following table to see which <span class="ph">FBA</span>
 reports are near real-time and which are daily.
 
 A near real-time <span class="ph">FBA</span> report is generated no more
-than once every 30 minutes. This means that after a near real-time
-<span class="ph">FBA</span> report is generated following your report
-request, a 30-minute waiting period must pass before Amazon will
-generate an updated version of that report. Note that the four "All
-Orders" reports are not subject to this limitation.
+than once every 30 minutes. This means that after a near real-time <span
+class="ph">FBA</span> report is generated following your report request,
+a 30-minute waiting period must pass before Amazon will generate an
+updated version of that report. Note that the four "All Orders" reports
+are not subject to this limitation.
 
 A daily <span class="ph">FBA</span> report is generated no more than
-once every four hours. This means that after a daily
-<span class="ph">FBA</span> report is generated following your report
-request, a four-hour waiting period must pass before Amazon will
-generate an updated version of that report.
+once every four hours. This means that after a daily <span
+class="ph">FBA</span> report is generated following your report request,
+a four-hour waiting period must pass before Amazon will generate an
+updated version of that report.
 
 For more information, see the "Do not request FBA reports more
 frequently than they are generated" section of the MWS for FBA Sellers
@@ -637,7 +626,7 @@ Report</span>
 Enumeration value: `_GET_AMAZON_FULFILLED_SHIPMENTS_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains detailed order/shipment/item
 information including price, address, and tracking data. You can request
@@ -661,7 +650,7 @@ Update</span>
 Enumeration value: `_GET_FLAT_FILE_ALL_ORDERS_DATA_BY_LAST_UPDATE_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Returns all orders updated in the specified
 date range regardless of fulfillment channel or shipment status. This
@@ -675,7 +664,7 @@ Date</span>
 Enumeration value: `_GET_FLAT_FILE_ALL_ORDERS_DATA_BY_ORDER_DATE_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Returns all orders placed in the specified date
 range regardless of fulfillment channel or shipment status. This report
@@ -689,7 +678,7 @@ Update</span>
 Enumeration value: `_GET_XML_ALL_ORDERS_DATA_BY_LAST_UPDATE_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 XML file order report that returns all orders updated in the specified
 date range regardless of fulfillment channel or shipment status. This
@@ -703,7 +692,7 @@ Date</span>
 Enumeration value: `_GET_XML_ALL_ORDERS_DATA_BY_ORDER_DATE_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 XML file order report that returns all orders placed in the specified
 date range regardless of fulfillment channel or shipment status. This
@@ -716,7 +705,7 @@ scheduling is not supported. For all sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_CUSTOMER_SHIPMENT_SALES_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains condensed item level data on shipped
 FBA customer orders including price, quantity, and ship to location.
@@ -739,7 +728,7 @@ Enumeration value:
 `_GET_FBA_FULFILLMENT_CUSTOMER_SHIPMENT_PROMOTION_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains promotions applied to FBA customer
 orders sold through Amazon; e.g. Super Saver Shipping. Content updated
@@ -752,12 +741,12 @@ sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_CUSTOMER_TAXES_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file for tax-enabled US sellers. This report contains
 data through February 28, 2013. All new transaction data can be found in
-the [Sales Tax
-Report](Reports_ReportType.md#ReportTypeCategories__SalesTaxReports).
+the
+<a href="Reports_ReportType.md#ReportTypeCategories__SalesTaxReports" class="xref">Sales Tax Report</a>.
 For FBA sellers only. For Marketplace and Seller Central sellers.
 
 <span class="keyword parmname">Remote Fulfillment Eligibility</span>
@@ -765,7 +754,7 @@ For FBA sellers only. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_REMOTE_FULFILLMENT_ELIGIBILITY_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file that contains all of your US Fulfillment by
 Amazon offers and whether they qualify for the North America Remote
@@ -790,7 +779,7 @@ Report</span>
 Enumeration value: `_GET_AFN_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Content updated in near real-time. For FBA
 sellers only. For Marketplace and Seller Central sellers.
@@ -800,7 +789,7 @@ sellers only. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_AFN_INVENTORY_DATA_BY_COUNTRY_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains quantity available for local
 fulfillment by country, helping Multi-Country Inventory sellers in
@@ -813,7 +802,7 @@ marketplaces. For Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_CURRENT_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains historical daily snapshots of your
 available inventory in Amazon’s fulfillment centers including quantity,
@@ -826,7 +815,7 @@ Report</span>
 Enumeration value: `_GET_FBA_FULFILLMENT_MONTHLY_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains historical monthly snapshots of your
 available inventory in Amazon’s fulfillment centers including average
@@ -838,7 +827,7 @@ daily. For FBA sellers only. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_INVENTORY_RECEIPTS_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains inventory that has completed the
 receive process at Amazon’s fulfillment centers. Content updated daily.
@@ -849,7 +838,7 @@ For FBA sellers only. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_RESERVED_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Provides data about the number of reserved
 units in your inventory. Content updated in near real-time. For FBA
@@ -860,7 +849,7 @@ sellers only. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_INVENTORY_SUMMARY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains history of inventory events (e.g.
 receipts, shipments, adjustments etc.) by SKU and Fulfillment Center.
@@ -872,7 +861,7 @@ Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_INVENTORY_ADJUSTMENTS_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains corrections and updates to your
 inventory in response to issues such as damage, loss, receiving
@@ -884,7 +873,7 @@ Marketplace and Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_INVENTORY_HEALTH_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains information about inventory age,
 condition, sales volume, weeks of cover, and price. Content updated
@@ -896,7 +885,7 @@ This report is not available in the Mexico and Australia marketplaces.
 Enumeration value: `_GET_FBA_MYI_UNSUPPRESSED_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains current details of active (not
 archived) inventory including condition, quantity and volume. Content
@@ -908,7 +897,7 @@ Seller Central sellers.
 Enumeration value: `_GET_FBA_MYI_ALL_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains current details of all (including
 archived) inventory including condition, quantity and volume. Content
@@ -921,13 +910,13 @@ sellers.
 Enumeration value: `_GET_RESTOCK_INVENTORY_RECOMMENDATIONS_REPORT_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab delimited flat file. Provides recommendations on products to
 restock, suggested order quantities, and reorder dates. For more
-information, see [Restock Inventory
-Report](https://sellercentral.amazon.com/gp/help/202105670). Content
-updated in near real-time. <span class="ph">This report is only
+information, see
+<a href="https://sellercentral.amazon.com/gp/help/202105670" class="xref">Restock Inventory Report</a>.
+Content updated in near real-time. <span class="ph">This report is only
 available to FBA sellers in the US marketplace.</span>
 
 <span class="keyword parmname">FBA Inbound Performance Report</span>
@@ -935,7 +924,7 @@ available to FBA sellers in the US marketplace.</span>
 Enumeration value: `_GET_FBA_FULFILLMENT_INBOUND_NONCOMPLIANCE_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains inbound shipment problems by product
 and shipment. Content updated daily. For Marketplace and Seller Central
@@ -947,14 +936,14 @@ sellers.</span>
 Enumeration value: `_GET_STRANDED_INVENTORY_UI_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains a breakdown of inventory in stranded
 status, including recommended actions. Content updated in near
 real-time. <span class="ph">This report is only available to FBA sellers
 in the US, India, and Japan marketplaces.</span> For more information,
-see [Stranded Inventory
-Report](https://sellercentral-europe.amazon.com/gp/help/201835130).
+see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201835130" class="xref">Stranded Inventory Report</a>.
 
 <span class="keyword parmname">FBA Bulk Fix Stranded Inventory
 Report</span>
@@ -962,55 +951,54 @@ Report</span>
 Enumeration value: `_GET_STRANDED_INVENTORY_LOADER_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains a list of stranded inventory. Update
 the listing information in this report file and then submit the file
 using the Flat File Inventory Loader Feed
 (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_) of the <span class="ph">Feeds
-API section</span>. Content updated in near real-time.
-<span class="ph">This report is only available to FBA sellers in the US,
-India, and Japan marketplaces.</span> For more information, see [Bulk
-Fix Stranded Inventory
-Report](https://sellercentral-europe.amazon.com/gp/help/201968550).
+API section</span>. Content updated in near real-time. <span
+class="ph">This report is only available to FBA sellers in the US,
+India, and Japan marketplaces.</span> For more information, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201968550" class="xref">Bulk Fix Stranded Inventory Report</a>.
 
 <span class="keyword parmname">FBA Inventory Age Report</span>
 
 Enumeration value: `_GET_FBA_INVENTORY_AGED_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Indicates the age of inventory, which helps
 sellers take action to avoid paying the Long Term Storage Fee. Content
 updated daily. <span class="ph">This report is only available to FBA
 sellers in the US, India, and Japan marketplaces.</span> For more
-information, see [Inventory Age
-Report](https://sellercentral-europe.amazon.com/gp/help/201979220).
+information, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201979220" class="xref">Inventory Age Report</a>.
 
 <span class="keyword parmname">FBA Manage Excess Inventory Report</span>
 
 Enumeration value: `_GET_EXCESS_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains listings with excess inventory, which
 helps sellers take action to sell through faster. Content updated in
 near real-time. <span class="ph">This report is only available to FBA
 sellers in the US, India, and Japan marketplaces.</span> For more
-information, see [Excess Inventory
-Report](https://sellercentral-europe.amazon.com/gp/help/201835150).
+information, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201835150" class="xref">Excess Inventory Report</a>.
 
 <span class="keyword parmname">FBA Storage Fees Report</span>
 
 Enumeration value: `_GET_FBA_STORAGE_FEE_CHARGES_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 <span class="ph">API operation:
-[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")</span>
+<a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span>
 
 Tab-delimited flat file. Contains estimated monthly inventory storage
 fees for each ASIN of a seller's inventory in <span class="ph">Amazon
@@ -1021,7 +1009,7 @@ fulfillment centers</span>. For FBA sellers only.
 Enumeration value: `_GET_PRODUCT_EXCHANGE_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file that contains product exchange information for
 the specified time duration.<span class="ph">This report is only
@@ -1034,22 +1022,22 @@ FBA Payments Reports
 Enumeration value: `_GET_FBA_ESTIMATED_FBA_FEES_TXT_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains the estimated Amazon Selling and
 Fulfillment Fees for your FBA inventory with active offers. The content
 is updated at least once every 72 hours. To successfully generate a
 report, specify the <span class="keyword parmname">StartDate</span>
-parameter of a minimum 72 hours prior to NOW and
-<span class="keyword parmname">EndDate</span> to NOW. For FBA sellers in
-the NA and EU only. For Marketplace and Seller Central sellers.
+parameter of a minimum 72 hours prior to NOW and <span
+class="keyword parmname">EndDate</span> to NOW. For FBA sellers in the
+NA and EU only. For Marketplace and Seller Central sellers.
 
 <span class="keyword parmname">FBA Reimbursements Report</span>
 
 Enumeration value: `_GET_FBA_REIMBURSEMENTS_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains itemized details of your inventory
 reimbursements including the reason for the reimbursement. Content
@@ -1063,7 +1051,7 @@ Enumeration value:
 `_GET_FBA_FULFILLMENT_LONGTERM_STORAGE_FEE_CHARGES_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file that contains the charge data for long-term
 storage. <span class="ph">This report is only available in the Canada,
@@ -1077,7 +1065,7 @@ FBA Customer Concessions Reports
 Enumeration value: `_GET_FBA_FULFILLMENT_CUSTOMER_RETURNS_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains customer returned items received at an
 <span class="ph">Amazon fulfillment center</span>, including Return
@@ -1090,7 +1078,7 @@ Enumeration value:
 `_GET_FBA_FULFILLMENT_CUSTOMER_SHIPMENT_REPLACEMENT_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains replacements that have been issued to
 customers for completed orders. Content updated daily. For FBA sellers
@@ -1104,7 +1092,7 @@ FBA Removals Reports
 Enumeration value: `_GET_FBA_RECOMMENDED_REMOVAL_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. The report identifies sellable items that will
 be 365 days or older during the next Long-Term Storage cleanup event, if
@@ -1117,7 +1105,7 @@ daily. For FBA sellers. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_REMOVAL_ORDER_DETAIL_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. This report contains all the removal orders,
 including the items in each removal order, placed during any given time
@@ -1132,7 +1120,7 @@ real-time. For FBA sellers. For Marketplace and Seller Central sellers.
 Enumeration value: `_GET_FBA_FULFILLMENT_REMOVAL_SHIPMENT_DETAIL_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. This report provides shipment tracking
 information for all removal orders and includes the items that have been
@@ -1149,14 +1137,14 @@ FBA Small and Light Reports
 Enumeration value: `_GET_FBA_UNO_INVENTORY_DATA_`
 
 <span class="ph">API operation:
-[RequestReport](../reports/Reports_RequestReport.md)</span>
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span>
 
 Tab-delimited flat file. Contains all of your products are enrolled in
 the Small & Light program and how much inventory you currently have in
 Small & Light fulfillment centers. The report also shows your current
-prices and whether any of your products are in unsellable status.
-<span class="ph">This report is only available in the US, UK, Germany,
-and Japan marketplaces.</span>
+prices and whether any of your products are in unsellable status. <span
+class="ph">This report is only available in the US, UK, Germany, and
+Japan marketplaces.</span>
 
 <div id="ReportTypeCategories__SalesTaxReports" class="section">
 
@@ -1397,18 +1385,18 @@ and Japan marketplaces.</span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
-[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
+<a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a>
 
-[RequestReport](../reports/Reports_RequestReport.md)
+<a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a>
 
-[GetReportList](Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
+<a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a>
 
 </div>
 

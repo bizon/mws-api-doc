@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_CancelFulfillmentOrder" class="nested0">
 
-# CancelFulfillmentOrder
+CancelFulfillmentOrder
+======================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ existing fulfillment order.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -56,13 +57,12 @@ existing fulfillment order. Amazon attempts to stop shipment of items
 that have not already shipped, but cannot guarantee success.
 
 You can check the extent to which the cancellation of your fulfillment
-order succeeded by submitting the
-<span class="keyword apiname">GetFulfillmentOrder</span> operation.
-Submit the same
-<span class="keyword parmname">SellerFulfillmentOrderId</span> that you
-submitted with the
-<span class="keyword apiname">CancelFulfillmentOrder</span> operation.
-The <span class="keyword apiname">GetFulfillmentOrder</span> operation
+order succeeded by submitting the <span
+class="keyword apiname">GetFulfillmentOrder</span> operation. Submit the
+same <span class="keyword parmname">SellerFulfillmentOrderId</span> that
+you submitted with the <span
+class="keyword apiname">CancelFulfillmentOrder</span> operation. The
+<span class="keyword apiname">GetFulfillmentOrder</span> operation
 returns the cancelled quantity for each item in the fulfillment order.
 
 <div class="note note">
@@ -89,9 +89,8 @@ The <span class="keyword apiname">CancelFulfillmentOrder</span>
 operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -101,7 +100,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -141,7 +141,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -158,7 +159,8 @@ elements.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -167,8 +169,8 @@ elements.</span>
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -176,21 +178,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
-  ?Action=CancelFulfillmentOrder
-  &Version=2010-10-01
-  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &Timestamp=2010-10-01T02:40:36Z
-  &SellerId=A2NKEXAMPLEF53
-  &SellerFulfillmentOrderId=six-test-order
-```
+    http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
+      ?Action=CancelFulfillmentOrder
+      &Version=2010-10-01
+      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &Timestamp=2010-10-01T02:40:36Z
+      &SellerId=A2NKEXAMPLEF53
+      &SellerFulfillmentOrderId=six-test-order
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -201,7 +201,7 @@ http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -209,16 +209,14 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<CancelFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-    <ResponseMetadata>
-        <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
-    </ResponseMetadata>
-</CancelFulfillmentOrderResponse>
-```
+    <?xml version="1.0"?>
+    <CancelFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+        <ResponseMetadata>
+            <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
+        </ResponseMetadata>
+    </CancelFulfillmentOrderResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -230,14 +228,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.md)
+<a href="FBAOutbound_Overview.md" class="xref">What you should know about the Fulfillment Outbound Shipment API section</a>
 
-[GetFulfillmentPreview](FBAOutbound_GetFulfillmentPreview.md "Returns a list of fulfillment order previews based on shipping criteria that you specify.")
+<a href="FBAOutbound_GetFulfillmentPreview.md" class="xref" title="Returns a list of fulfillment order previews based on shipping criteria that you specify.">GetFulfillmentPreview</a>
 
 </div>
 

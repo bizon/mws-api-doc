@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,13 +32,15 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Frequently Asked Questions
+Frequently Asked Questions
+==========================
 
 <div class="body">
 
 <div id="faq__DeveloperRegistrationAndAssessmentFAQ" class="section">
 
-## Developer Registration and Assessment FAQ
+Developer Registration and Assessment FAQ
+-----------------------------------------
 
 <div class="sectiondiv">
 
@@ -103,40 +104,40 @@ IDs, separate them with commas.
 Choose the functionality you need for your application(s) based on the
 following descriptions:
 
-  - **Listing**: Managing Amazon listings with tools that translate
+-   **Listing**: Managing Amazon listings with tools that translate
     internal product listings, match to existing ASINs, and reduce
     listing errors.
-  - **Pricing**: Maintaining competitive pricing with tools that
+-   **Pricing**: Maintaining competitive pricing with tools that
     automate product pricing based on business rules.
-  - **Inventory management/order management**: Automating Amazon order
+-   **Inventory management/order management**: Automating Amazon order
     management to keep inventory levels in sync across systems, not
     including shipping functionality.
-  - **Merchant fulfilled shipping**: Automating Amazon order management
+-   **Merchant fulfilled shipping**: Automating Amazon order management
     for seller fulfillment, including shipping functionality.
-  - **Fulfillment by Amazon**: Automating processes such as inbound and
+-   **Fulfillment by Amazon**: Automating processes such as inbound and
     outbound shipments as well as submitting fulfillment orders.
-  - **Advertising**: Optimizing pay-per-click advertising budgets and
+-   **Advertising**: Optimizing pay-per-click advertising budgets and
     strategies to improve product visibility.
-  - **Promotions**: Improving discoverability of products by creating
+-   **Promotions**: Improving discoverability of products by creating
     targeted promotions such as coupons or Lightning Deals.
-  - **Product research and scouting**: Screening prospective products
+-   **Product research and scouting**: Screening prospective products
     using criteria such as customer demand, allowing more data-driven
     sourcing decisions.
-  - **Buyer/seller messaging**: Assisting with responses to customer
+-   **Buyer/seller messaging**: Assisting with responses to customer
     questions in order to meet response timelines and provide a high
     level of customer service.
-  - **Analytics and reporting**: Analyzing profitability and
+-   **Analytics and reporting**: Analyzing profitability and
     cost-per-product to refine business strategies.
-  - **Accounting**: Tracking finance and accounting with tools to
+-   **Accounting**: Tracking finance and accounting with tools to
     consolidate sales data.
-  - **Tax calculation and reporting**: Calculating, reporting, and/or
+-   **Tax calculation and reporting**: Calculating, reporting, and/or
     filing sales taxes to drive compliance with tax regulations.
-  - **Tax invoicing**: Generating tax invoices to comply with regional
+-   **Tax invoicing**: Generating tax invoices to comply with regional
     tax requirements (e.g., EU VAT).
-  - **Ecommerce solution connector**: Integrating ecommerce sites with
+-   **Ecommerce solution connector**: Integrating ecommerce sites with
     Amazon for functionality such as improved listing and order
     management as well as cross-channel inventory syncing.
-  - **Other**: Any functionality that is not described in the previous
+-   **Other**: Any functionality that is not described in the previous
     options.
 
 </div>
@@ -168,8 +169,9 @@ submitted the form.
 **8. Can I hire someone to help me meet the requirements described in
 the Data Protection Policy?**
 
-Yes. The [AWS Partner Network](https://aws.amazon.com/partners/) is a
-resource that might be of assistance.
+Yes. The
+<a href="https://aws.amazon.com/partners/" class="xref">AWS Partner Network</a>
+is a resource that might be of assistance.
 
 </div>
 
@@ -179,12 +181,12 @@ resource that might be of assistance.
 I cannot sign into my Seller Central account to access the form. What
 should I do?**
 
-To get help signing into your Seller Central account, go to [Seller
-Central sign in
-help](https://sellercentral.amazon.com/gp/help/external/G200123250). If
-you are still unable to sign in, click this link to create a support
-case: <https://sellercentral-europe.amazon.com/cu/help/contact-us>. On
-the **Seller Central Technical Support Page**: (1) In the **Topic**
+To get help signing into your Seller Central account, go to
+<a href="https://sellercentral.amazon.com/gp/help/external/G200123250" class="xref">Seller Central sign in help</a>.
+If you are still unable to sign in, click this link to create a support
+case:
+<a href="https://sellercentral-europe.amazon.com/cu/help/contact-us" class="xref">https://sellercentral-europe.amazon.com/cu/help/contact-us</a>.
+On the **Seller Central Technical Support Page**: (1) In the **Topic**
 list, select **Other question or request**. (2) In the **Business Name**
 box, enter the name associated with your developer account. (3) In the
 **Primary E-mail recipient** box, enter your email address. (4) In the
@@ -201,11 +203,13 @@ or email. My Amazon MWS Developer ID is xxx. Please assist." (5) Click
 Access decisions are made based on the information that you provide in
 the <span class="ph">Developer Registration and Assessment form</span>,
 including but not limited to your application functionality and your
-compliance with the [Acceptable Use
-Policy](dev_guide/DG_AcceptableUsePolicy.md) and the [Data Protection
-Policy](dev_guide/DG_DataProtectionPolicy.md). Our goal is to provide
-you only with the data that is relevant to you in order to protect
-customers and simplify your data protection obligations.
+compliance with the
+<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+and the
+<a href="dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+Our goal is to provide you only with the data that is relevant to you in
+order to protect customers and simplify your data protection
+obligations.
 
 </div>
 
@@ -216,12 +220,13 @@ customers and simplify your data protection obligations.
 The decision to grant or deny MWS Access Keys is made based on the
 information that you provide in the <span class="ph">Developer
 Registration and Assessment form</span>, including but not limited to
-your application functionality and your compliance with the [Acceptable
-Use Policy](dev_guide/DG_AcceptableUsePolicy.md) and the [Data
-Protection Policy](dev_guide/DG_DataProtectionPolicy.md). We cannot
-provide detailed information about how we determine MWS Access Key
-eligibility, but we prioritize data security in decisions. If you want
-to appeal our decision, then please see the next question here.
+your application functionality and your compliance with the
+<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+and the
+<a href="dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+We cannot provide detailed information about how we determine MWS Access
+Key eligibility, but we prioritize data security in decisions. If you
+want to appeal our decision, then please see the next question here.
 
 </div>
 
@@ -234,13 +239,13 @@ the <span class="ph">Developer Registration and Assessment form</span>,
 but we will consider appeals on a case-by-case basis. If you believe
 that we misunderstood your form, or that the Amazon MWS updates will
 materially impact the application functionality that you provide under
-the terms of the [Acceptable Use
-Policy](dev_guide/DG_AcceptableUsePolicy.md), please respond to your
-<span class="ph">Developer Registration and Assessment form</span>
-support case at least five business days prior to your adjustment date
-and ask for an "Appeal Request". Please clearly state the reason for
-your request and offer a detailed description of the application
-functionality that is impacted by the updates.
+the terms of the
+<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>,
+please respond to your <span class="ph">Developer Registration and
+Assessment form</span> support case at least five business days prior to
+your adjustment date and ask for an "Appeal Request". Please clearly
+state the reason for your request and offer a detailed description of
+the application functionality that is impacted by the updates.
 
 </div>
 
@@ -257,8 +262,8 @@ You may need to conduct a review of your application to determine
 whether it can safely handle receiving null values for data you may have
 previously used, either directly or as lookup values. You may find it
 useful to review the "Building robust Amazon MWS applications" topic in
-the Amazon MWS Developer Guide here: [Building robust Amazon MWS
-applications](dev_guide/DG_BuildingRobustApps.md).
+the Amazon MWS Developer Guide here:
+<a href="dev_guide/DG_BuildingRobustApps.md" class="xref">Building robust Amazon MWS applications</a>.
 
 </div>
 
@@ -282,7 +287,8 @@ to complete during the extension period.
 
 <div id="faq__GeneralFAQ" class="section">
 
-## General FAQ
+General FAQ
+-----------
 
 <div class="sectiondiv">
 
@@ -305,9 +311,9 @@ improve response time to customers.
 
 There are no fees associated with <span class="ph">Amazon MWS</span>,
 but you must have a Professional selling plan to use it. For more
-information, see [Selling
-plans](https://sellercentral-europe.amazon.com/gp/help/64491) in the
-Seller Central Help.
+information, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/64491" class="xref">Selling plans</a>
+in the Seller Central Help.
 
 </div>
 
@@ -316,14 +322,12 @@ Seller Central Help.
 **How do I get help using <span class="ph">Amazon MWS</span>?**
 
 First, make sure you have read the documentation provided for each API
-section. If you need additional help, go to the [Marketplace Web Service
-(<span class="ph">Amazon MWS</span>)
-Questions](https://sellercentral.amazon.com/forums/forum.jspa?forumID=35)
+section. If you need additional help, go to the
+<a href="https://sellercentral.amazon.com/forums/forum.jspa?forumID=35" class="xref">Marketplace Web Service (<span class="ph">Amazon MWS</span>) Questions</a>
 forum, search to find out if your question has already been resolved on
 the forum, or create a new forum thread. If you still require
 assistance, you can submit your question using the <span class="ph">
-[Contact Amazon
-MWS](https://sellercentral-europe.amazon.com/gp/mws/contactus.html)
+<a href="https://sellercentral-europe.amazon.com/gp/mws/contactus.html" class="xref">Contact Amazon MWS</a>
 </span>form.
 
 </div>
@@ -332,27 +336,25 @@ MWS](https://sellercentral-europe.amazon.com/gp/mws/contactus.html)
 
 **How do I register for <span class="ph">Amazon MWS</span>?**
 
-1.  Go to the [User
-    Permissions](https://sellercentral.amazon.fr/gp/account-manager/home.html)
+1.  Go to the
+    <a href="https://sellercentral.amazon.fr/gp/account-manager/home.html" class="xref">User Permissions</a>
     page in Seller Central and log into your Amazon selling account as
     the primary account holder.
 2.  Under <span class="keyword parmname">Amazon MWS Developer Access
     Keys</span>, click the <span class="ph uicontrol">Visit Developer
     Credentials</span> button.
-3.  On **Developer Central** page, under
-    <span class="keyword parmname">Are you a software developer building
-    applications using MWS?</span>, click the
-    <span class="ph uicontrol">apply for access here</span> link, and
-    then follow the instructions on the <span class="ph">Amazon
-    MWS</span> <span class="ph">Developer Registration and Assessment
-    form</span>.
+3.  On **Developer Central** page, under <span
+    class="keyword parmname">Are you a software developer building
+    applications using MWS?</span>, click the <span
+    class="ph uicontrol">apply for access here</span> link, and then
+    follow the instructions on the <span class="ph">Amazon MWS</span>
+    <span class="ph">Developer Registration and Assessment form</span>.
 
 We will evaluate the information that you provide in the form and then
 follow up with a support case log and next steps. For more information
-about developer registration and assessment, see **[Developer
-Registration and Assessment
-FAQ](#faq__DeveloperRegistrationAndAssessmentFAQ)** at the top of this
-page.
+about developer registration and assessment, see
+**<a href="#faq__DeveloperRegistrationAndAssessmentFAQ" class="xref">Developer Registration and Assessment FAQ</a>**
+at the top of this page.
 
 </div>
 
@@ -380,10 +382,10 @@ process of authorizing you as a developer.
 **Instructions for a seller to authorize a developer to access their
 selling account**
 
-1.  Go to the [Manage your
-    apps](https://sellercentral.amazon.com/apps/manage) page in Seller
-    Central and log into your Amazon selling account as the primary
-    account holder.
+1.  Go to the
+    <a href="https://sellercentral.amazon.com/apps/manage" class="xref">Manage your apps</a>
+    page in Seller Central and log into your Amazon selling account as
+    the primary account holder.
 2.  Click the <span class="ph uicontrol">Authorize new developer</span>
     button and follow the authorization workflow.
 
@@ -393,15 +395,15 @@ selling account**
 
 **Where do I find my identifiers and developer credentials?**
 
-1.  Go to the [User
-    Permissions](https://sellercentral.amazon.fr/gp/account-manager/home.html)
+1.  Go to the
+    <a href="https://sellercentral.amazon.fr/gp/account-manager/home.html" class="xref">User Permissions</a>
     page in Seller Central and log into your Amazon selling account as
     the account holder.
 
 2.  Under <span class="ph uicontrol">Amazon MWS Developer Access
     Keys</span>, click the <span class="ph uicontrol">Visit Developer
     Credentials</span> button.
-    
+
     The **Developer Central** page appears.
 
 3.  Under **MWS credentials**, click the **view** link.
@@ -418,10 +420,10 @@ Use the following instructions to authorize an application developer to
 access your selling account using <span class="ph">Amazon MWS</span>.
 The application developer should have given you their Developer ID.
 
-1.  Go to the [Manage your
-    apps](https://sellercentral.amazon.com/apps/manage) page in Seller
-    Central and log into your Amazon selling account as the primary
-    account holder.
+1.  Go to the
+    <a href="https://sellercentral.amazon.com/apps/manage" class="xref">Manage your apps</a>
+    page in Seller Central and log into your Amazon selling account as
+    the primary account holder.
 2.  Click the <span class="ph uicontrol">Authorize new developer</span>
     button and follow the authorization workflow.
 
@@ -434,10 +436,10 @@ account. How do I revoke that authorization?**
 
 To revoke authorization for a developer to access your selling account:
 
-1.  Go to the [Manage your
-    apps](https://sellercentral.amazon.com/apps/manage) page in Seller
-    Central and log into your Amazon selling account as the primary
-    account holder.
+1.  Go to the
+    <a href="https://sellercentral.amazon.com/apps/manage" class="xref">Manage your apps</a>
+    page in Seller Central and log into your Amazon selling account as
+    the primary account holder.
 2.  Click the <span class="ph uicontrol">Disable</span> button for the
     application that you want to revoke access for.
 
@@ -450,11 +452,10 @@ To revoke authorization for a developer to access your selling account:
 When a new version of an <span class="ph">Amazon Marketplace Web Service
 (Amazon MWS)</span> API section is released, a sunset date for the
 previous version is set. The sunset date for the previous version is
-announced on the [Marketplace Web Service (<span class="ph">Amazon
-MWS</span>)
-Questions](https://sellercentral.amazon.com/forums/forum.jspa?forumID=35)
-forum and is also on the relevant API section page on the
-<span class="ph">Amazon MWS</span> portal.
+announced on the
+<a href="https://sellercentral.amazon.com/forums/forum.jspa?forumID=35" class="xref">Marketplace Web Service (<span class="ph">Amazon MWS</span>) Questions</a>
+forum and is also on the relevant API section page on the <span
+class="ph">Amazon MWS</span> portal.
 
 </div>
 
@@ -462,7 +463,8 @@ forum and is also on the relevant API section page on the
 
 <div id="faq__ProductsFAQ" class="section">
 
-## Products FAQ
+Products FAQ
+------------
 
 **Why do Products operations and notifications not return Buy Box values
 for used products outside of North America?**

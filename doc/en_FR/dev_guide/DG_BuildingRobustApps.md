@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_BuildingRobustApps" class="nested0">
 
-# Building robust <span class="ph">Amazon MWS</span> applications
+Building robust <span class="ph">Amazon MWS</span> applications
+===============================================================
 
 <div class="body">
 
@@ -44,18 +44,20 @@ client applications should gracefully handle changes to the reports and
 response elements that <span class="ph">Amazon MWS</span> returns, even
 without prior change notification from Amazon.
 
-<div id="DG_BuildingRobustApps__ChangesToReportsReturnedByAmazonMWS" class="section">
+<div id="DG_BuildingRobustApps__ChangesToReportsReturnedByAmazonMWS"
+class="section">
 
-## Changes to reports returned by <span class="ph">Amazon MWS</span>
+Changes to reports returned by <span class="ph">Amazon MWS</span>
+-----------------------------------------------------------------
 
 Build report parsers into your client applications that can gracefully
-handle the following types of changes to the reports that
-<span class="ph">Amazon MWS</span> returns:
+handle the following types of changes to the reports that <span
+class="ph">Amazon MWS</span> returns:
 
-  - **New fields in reports.** Your client applications should handle
+-   **New fields in reports.** Your client applications should handle
     new fields in reports as they become available. These include new
     columns in flat file reports and new elements in XML reports.
-  - **New field values in reports.** Your client applications should
+-   **New field values in reports.** Your client applications should
     handle new field values in reports as they become available. These
     include new column values in flat file reports and new element
     values in XML reports.
@@ -68,43 +70,46 @@ response elements or response element values.
 
 </div>
 
-<div id="DG_BuildingRobustApps__ChangesToAmazonMWSResponseElements" class="section">
+<div id="DG_BuildingRobustApps__ChangesToAmazonMWSResponseElements"
+class="section">
 
-## Changes to <span class="ph">Amazon MWS</span> response elements
+Changes to <span class="ph">Amazon MWS</span> response elements
+---------------------------------------------------------------
 
 Build your client applications to gracefully handle the following types
 of changes to <span class="ph">Amazon MWS</span> responses:
 
-  - **New response elements.** Your client applications should handle
+-   **New response elements.** Your client applications should handle
     new, unrecognized response elements.
-  - **New response element values.** Your client applications should
+-   **New response element values.** Your client applications should
     handle new, unrecognized response element values.
 
 </div>
 
 <div id="DG_BuildingRobustApps__BestPractices" class="section">
 
-## Best practices
+Best practices
+--------------
 
 What does it mean to "gracefully handle" changes? Here are some
 examples:
 
-  - **Expect changes.** At a minimum, ensure that your client
+-   **Expect changes.** At a minimum, ensure that your client
     applications do not break when new response elements, response
     element values, report fields or report field values are introduced
     by Amazon. Don’t code your client applications to expect only
     certain elements, fields, and values.
-  - **Log unrecognized elements, fields, or values.** Keep a log of all
-    unrecognized elements, fields, or values returned by
-    <span class="ph">Amazon MWS</span>. You can use this log to flag new
+-   **Log unrecognized elements, fields, or values.** Keep a log of all
+    unrecognized elements, fields, or values returned by <span
+    class="ph">Amazon MWS</span>. You can use this log to flag new
     functionality that has been introduced by Amazon, and then update
     your client application to take advantage of this functionality.
-  - **Surface unrecognized elements, fields, or values.** If
-    <span class="ph">Amazon MWS</span> begins returning a report with a
-    new field, for example, you might devise a way to automatically
-    surface the new field values in your client application in a way
-    that is useful to your users.
-  - **Expect response elements in any order.** Response elements can be
+-   **Surface unrecognized elements, fields, or values.** If <span
+    class="ph">Amazon MWS</span> begins returning a report with a new
+    field, for example, you might devise a way to automatically surface
+    the new field values in your client application in a way that is
+    useful to your users.
+-   **Expect response elements in any order.** Response elements can be
     returned in any order within a structure. Ensure that your client
     applications do not depend on the order in which response elements
     are returned by <span class="ph">Amazon MWS</span>.

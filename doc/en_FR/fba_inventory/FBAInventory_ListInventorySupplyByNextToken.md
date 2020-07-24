@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,31 +34,33 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInventory_ListInventorySupplyByNextToken" class="nested0">
 
-# ListInventorySupplyByNextToken
+ListInventorySupplyByNextToken
+==============================
 
 <div class="body">
 
 <span class="ph">Returns the next page of information about the
-availability of a seller's inventory using the
-<span class="keyword parmname">NextToken</span> parameter.</span>
+availability of a seller's inventory using the <span
+class="keyword parmname">NextToken</span> parameter.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ListInventorySupplyByNextToken</span>
 operation returns the next page of information about the availability of
-a seller's inventory using the
-<span class="keyword parmname">NextToken</span> value that was returned
-by your previous request to either
-<span class="keyword apiname">ListInventorySupply</span> or
-<span class="keyword apiname">ListInventorySupplyByNextToken</span>. If
-<span class="keyword parmname">NextToken</span> is not returned, there
-are no more pages to return.
+a seller's inventory using the <span
+class="keyword parmname">NextToken</span> value that was returned by
+your previous request to either <span
+class="keyword apiname">ListInventorySupply</span> or <span
+class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span
+class="keyword parmname">NextToken</span> is not returned, there are no
+more pages to return.
 
 <div class="section">
 
@@ -73,14 +74,13 @@ This operation is available in all marketplaces except Brazil.
 
 ### Throttling
 
-The <span class="keyword apiname">ListInventorySupply</span> and
-<span class="keyword apiname">ListInventorySupplyByNextToken</span>
-operations together share a **maximum request quota** of 30 and a
-**restore rate** of two requests every second. <span class="ph">For
-definitions of throttling terminology and for a complete explanation of
-throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+The <span class="keyword apiname">ListInventorySupply</span> and <span
+class="keyword apiname">ListInventorySupplyByNextToken</span> operations
+together share a **maximum request quota** of 30 and a **restore rate**
+of two requests every second. <span class="ph">For definitions of
+throttling terminology and for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -90,14 +90,15 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
 | Name                                            | Description                                                                                                                                                                                                 | Required | Values                                  |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">NextToken</span> | A string token returned in the response of your previous request to either <span class="keyword apiname">ListInventorySupply</span> or <span class="keyword apiname">ListInventorySupplyByNextToken</span>. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -108,7 +109,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -148,7 +150,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -157,8 +160,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -166,21 +169,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
-  ?Action=ListInventorySupplyByNextToken
-  &Version=2010-10-01
-  &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
-  &Timestamp=2010-10-01T02:40:36Z
-  &SellerId=1234567890
-  &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
-```
+    http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
+      ?Action=ListInventorySupplyByNextToken
+      &Version=2010-10-01
+      &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
+      &Timestamp=2010-10-01T02:40:36Z
+      &SellerId=1234567890
+      &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -191,7 +192,7 @@ http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -199,42 +200,40 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListInventorySupplyByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
-    <ListInventorySupplyByNextTokenResult>
-        <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
-        <InventorySupplyList>
-            <member>
-                <SellerSKU>SampleSKU5</SellerSKU>
-                <ASIN>B00008UI0R</ASIN>
-                <TotalSupplyQuantity>0</TotalSupplyQuantity>
-                <FNSKU>B00008UI0R</FNSKU>
-                <Condition/>
-                <SupplyDetail/>
-                <InStockSupplyQuantity>0</InStockSupplyQuantity>
-            </member>
-            <member>
-                <SellerSKU>SampleSKU6</SellerSKU>
-                <ASIN>B00000K3CQ</ASIN>
-                <TotalSupplyQuantity>5259</TotalSupplyQuantity>
-                <FNSKU>X0000000FM</FNSKU>
-                <Condition>NewItem</Condition>
-                <SupplyDetail/>
-                <InStockSupplyQuantity>5259</InStockSupplyQuantity>
-                <EarliestAvailability>
-                    <TimepointType>Immediately</TimepointType>
-                </EarliestAvailability>
-            </member>
-        </InventorySupplyList>
-    </ListInventorySupplyByNextTokenResult>
-    <ResponseMetadata>
-        <RequestId>b3a020ac-8e5e-11df-9acb-230ae7a8b736</RequestId>
-    </ResponseMetadata>
-</ListInventorySupplyByNextTokenResponse>
-```
+    <?xml version="1.0"?>
+    <ListInventorySupplyByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
+        <ListInventorySupplyByNextTokenResult>
+            <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
+            <InventorySupplyList>
+                <member>
+                    <SellerSKU>SampleSKU5</SellerSKU>
+                    <ASIN>B00008UI0R</ASIN>
+                    <TotalSupplyQuantity>0</TotalSupplyQuantity>
+                    <FNSKU>B00008UI0R</FNSKU>
+                    <Condition/>
+                    <SupplyDetail/>
+                    <InStockSupplyQuantity>0</InStockSupplyQuantity>
+                </member>
+                <member>
+                    <SellerSKU>SampleSKU6</SellerSKU>
+                    <ASIN>B00000K3CQ</ASIN>
+                    <TotalSupplyQuantity>5259</TotalSupplyQuantity>
+                    <FNSKU>X0000000FM</FNSKU>
+                    <Condition>NewItem</Condition>
+                    <SupplyDetail/>
+                    <InStockSupplyQuantity>5259</InStockSupplyQuantity>
+                    <EarliestAvailability>
+                        <TimepointType>Immediately</TimepointType>
+                    </EarliestAvailability>
+                </member>
+            </InventorySupplyList>
+        </ListInventorySupplyByNextTokenResult>
+        <ResponseMetadata>
+            <RequestId>b3a020ac-8e5e-11df-9acb-230ae7a8b736</RequestId>
+        </ResponseMetadata>
+    </ListInventorySupplyByNextTokenResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -246,17 +245,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.md)
+<a href="FBAInventory_Overview.md" class="xref">What you should know about the Fulfillment Inventory API section</a>
 
-[ListInventorySupply](FBAInventory_ListInventorySupply.md "Returns information about the availability of a seller's inventory.")
+<a href="FBAInventory_ListInventorySupply.md" class="xref" title="Returns information about the availability of a seller&#39;s inventory.">ListInventorySupply</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_DG_AcceptableUsePolicy" class="nested0">
 
-# Acceptable Use Policy
+Acceptable Use Policy
+=====================
 
 <div class="body">
 
@@ -132,10 +132,11 @@ manage, and grow successful businesses in Amazon's store.*
     Application users or any outside parties, unless required by law.
 2.  Do not calculate or publish insights about the health of Amazon's
     business.
-3.  Comply with the [Data Protection Policy
-    ("DPP")](DG_DataProtectionPolicy.md), which provides specific
-    requirements on the receipt, storage, usage, transfer, and
-    disposition of the data accessed through Marketplace APIs.
+3.  Comply with the
+    <a href="DG_DataProtectionPolicy.md" class="xref">Data Protection Policy ("DPP")</a>,
+    which provides specific requirements on the receipt, storage, usage,
+    transfer, and disposition of the data accessed through Marketplace
+    APIs.
 
 </div>
 

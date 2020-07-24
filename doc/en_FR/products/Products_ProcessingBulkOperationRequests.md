@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,103 +34,102 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_BulkProcessing" class="nested0">
 
-# Processing bulk operation requests
+Processing bulk operation requests
+==================================
 
 <div class="body">
 
-Describes how to process operations in bulk by using the
-<span class="keyword parmname">ASINList</span>,
-<span class="keyword parmname">SellerSKUList</span>, and
-<span class="keyword parmname">IdList</span> request parameters.
+Describes how to process operations in bulk by using the <span
+class="keyword parmname">ASINList</span>, <span
+class="keyword parmname">SellerSKUList</span>, and <span
+class="keyword parmname">IdList</span> request parameters.
 
-Operations in the <span class="ph">Amazon MWS</span>
-<span class="ph">Products API section</span> that take an
-<span class="keyword parmname">ASINList</span>,
-<span class="keyword parmname">SellerSKUList</span>, or
-<span class="keyword parmname">IdList</span> as input parameters can
-return the results from each of these inputs separately from all the
-other inputs. This means that if you specify 20 ASINs with the
-<span class="keyword parmname">ASINList</span> input parameter of the
-<span class="keyword apiname">GetCompetitivePricingForASIN</span>
-operation, for example, and the operation can only get data for 18 of
-these ASINs, the operation will return results for the 18 ASINs instead
-of failing the entire request. The operation will also indicate that the
-remaining two ASINs failed. The seven bulk operations that take either
-an <span class="keyword parmname">ASINList</span>,
-<span class="keyword parmname">SellerSKUList</span>, or
-<span class="keyword parmname">IdList</span> as input parameters are:
-<span class="keyword apiname">GetMatchingProduct</span>,
-<span class="keyword apiname">GetMatchingProductForId</span>,
-<span class="keyword apiname">GetCompetitivePricingForSKU</span>,
-<span class="keyword apiname">GetCompetitivePricingForASIN</span>,
-<span class="keyword apiname">GetLowestOfferListingsForSKU</span>,
-<span class="keyword apiname">GetLowestOfferListingsForASIN</span>, and
-<span class="keyword apiname">GetMyFeesEstimate</span>.
+Operations in the <span class="ph">Amazon MWS</span> <span
+class="ph">Products API section</span> that take an <span
+class="keyword parmname">ASINList</span>, <span
+class="keyword parmname">SellerSKUList</span>, or <span
+class="keyword parmname">IdList</span> as input parameters can return
+the results from each of these inputs separately from all the other
+inputs. This means that if you specify 20 ASINs with the <span
+class="keyword parmname">ASINList</span> input parameter of the <span
+class="keyword apiname">GetCompetitivePricingForASIN</span> operation,
+for example, and the operation can only get data for 18 of these ASINs,
+the operation will return results for the 18 ASINs instead of failing
+the entire request. The operation will also indicate that the remaining
+two ASINs failed. The seven bulk operations that take either an <span
+class="keyword parmname">ASINList</span>, <span
+class="keyword parmname">SellerSKUList</span>, or <span
+class="keyword parmname">IdList</span> as input parameters are: <span
+class="keyword apiname">GetMatchingProduct</span>, <span
+class="keyword apiname">GetMatchingProductForId</span>, <span
+class="keyword apiname">GetCompetitivePricingForSKU</span>, <span
+class="keyword apiname">GetCompetitivePricingForASIN</span>, <span
+class="keyword apiname">GetLowestOfferListingsForSKU</span>, <span
+class="keyword apiname">GetLowestOfferListingsForASIN</span>, and <span
+class="keyword apiname">GetMyFeesEstimate</span>.
 
-The following example shows how to use the
-<span class="keyword parmname">ASINList</span> input parameter to
-specify three ASINs in a query request:
+The following example shows how to use the <span
+class="keyword parmname">ASINList</span> input parameter to specify
+three ASINs in a query request:
 
 <div class="p">
 
-``` pre codeblock
-https://mws.amazonservices.com/Products/2011-10-01
-?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
-&Action=GetMatchingProduct
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=A2NK2PX936TF53
-&SignatureVersion=2
-&Timestamp=2012-02-07T01%3A22%3A39Z
-&Version=2011-10-01
-&Signature=MhSREjubAxTGSldGGWROxk4qvi3sawX1inVGF%2FepJOI%3D
-&SignatureMethod=HmacSHA256
-&MarketplaceId=ATVPDKIKX0DER
-&ASINList.ASIN.1=B002KT3XRQ
-&ASINList.ASIN.2=B002KT3XQC
-&ASINList.ASIN.3=B002KT3XQM
-```
+    https://mws.amazonservices.com/Products/2011-10-01
+    ?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
+    &Action=GetMatchingProduct
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=A2NK2PX936TF53
+    &SignatureVersion=2
+    &Timestamp=2012-02-07T01%3A22%3A39Z
+    &Version=2011-10-01
+    &Signature=MhSREjubAxTGSldGGWROxk4qvi3sawX1inVGF%2FepJOI%3D
+    &SignatureMethod=HmacSHA256
+    &MarketplaceId=ATVPDKIKX0DER
+    &ASINList.ASIN.1=B002KT3XRQ
+    &ASINList.ASIN.2=B002KT3XQC
+    &ASINList.ASIN.3=B002KT3XQM
 
 </div>
 
-A query request using the
-<span class="keyword parmname">SellerSKU</span> input parameter would be
+A query request using the <span
+class="keyword parmname">SellerSKU</span> input parameter would be
 formed similarly, replacing `&ASINList.ASIN` with
-`&SellerSKUList.SellerSKU` and
-<span class="keyword parmname">ASIN</span> values with
-<span class="keyword parmname">SellerSKU</span> values. Likewise, a
-query request using the <span class="keyword parmname">Id</span> input
+`&SellerSKUList.SellerSKU` and <span
+class="keyword parmname">ASIN</span> values with <span
+class="keyword parmname">SellerSKU</span> values. Likewise, a query
+request using the <span class="keyword parmname">Id</span> input
 parameter would be formed similarly, replacing `&ASINList.ASIN` with
 `&IdList.Id` and <span class="keyword parmname">ASIN</span> values with
 <span class="keyword parmname">Id</span> values.
 
-Bulk operations in the <span class="ph">Amazon MWS</span>
-<span class="ph">Products API section</span> return an
-<span class="keyword parmname">OperationNameResult</span> response
-element for each product identifier
-(<span class="keyword parmname">ASIN</span>,
-<span class="keyword parmname">SellerSKU</span>, or
-<span class="keyword parmname">Id</span>) that is specified in the
-request. Each <span class="keyword parmname">OperationNameResult</span>
-response element contains a <span class="keyword parmname">Status</span>
+Bulk operations in the <span class="ph">Amazon MWS</span> <span
+class="ph">Products API section</span> return an <span
+class="keyword parmname">OperationNameResult</span> response element for
+each product identifier (<span class="keyword parmname">ASIN</span>,
+<span class="keyword parmname">SellerSKU</span>, or <span
+class="keyword parmname">Id</span>) that is specified in the request.
+Each <span class="keyword parmname">OperationNameResult</span> response
+element contains a <span class="keyword parmname">Status</span>
 attribute that indicates whether or not data could be returned for the
-specified product identifier, and an
-<span class="keyword parmname">ASIN</span>,
-<span class="keyword parmname">SellerSKU</span>, or
-<span class="keyword parmname">Id</span> attribute that indicates the
-<span class="keyword parmname">ASIN</span>,
-<span class="keyword parmname">SellerSKU</span>, or
-<span class="keyword parmname">Id</span> value that was specified in the
+specified product identifier, and an <span
+class="keyword parmname">ASIN</span>, <span
+class="keyword parmname">SellerSKU</span>, or <span
+class="keyword parmname">Id</span> attribute that indicates the <span
+class="keyword parmname">ASIN</span>, <span
+class="keyword parmname">SellerSKU</span>, or <span
+class="keyword parmname">Id</span> value that was specified in the
 request.
 
 The following table shows response elements that are returned by bulk
-operations in the <span class="ph">Amazon MWS</span>
-<span class="ph">Products API section</span>. Note that you can find
-examples of these response elements in the appropriate Example response
-sections throughout this document.
+operations in the <span class="ph">Amazon MWS</span> <span
+class="ph">Products API section</span>. Note that you can find examples
+of these response elements in the appropriate Example response sections
+throughout this document.
 
 <div class="section">
 
-## Response elements in bulk operations
+Response elements in bulk operations
+------------------------------------
 
 <div class="tablenoborder">
 
@@ -225,27 +223,26 @@ Valid values:
 
 <div class="section">
 
-## Example response
+Example response
+----------------
 
-``` pre codeblock
-<?xml version="1.0"?>
-<OperationNameResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-<OperationNameResult ASIN=”B002KT3XQM” status=”Success”>
-  <!—Successful response goes here-->
-</OperationNameResult>
-<OperationNameResult ASIN=”B000O15GSG” status=”ClientError”>
-  <Error>
-    <Code>InvalidParameterValue</Code>
-    <Type>Sender</Type>
-    <Message>B000O15GSG is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
-    <Detail/>
-  </Error>
-</OperationNameResult>
-<ResponseMetadata>
-  <RequestId>454d8b3c-5514-4919-b5ca-6a08fb974272</RequestId>
-</ResponseMetadata>
-</OperationNameResponse>
-```
+    <?xml version="1.0"?>
+    <OperationNameResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <OperationNameResult ASIN=”B002KT3XQM” status=”Success”>
+      <!—Successful response goes here-->
+    </OperationNameResult>
+    <OperationNameResult ASIN=”B000O15GSG” status=”ClientError”>
+      <Error>
+        <Code>InvalidParameterValue</Code>
+        <Type>Sender</Type>
+        <Message>B000O15GSG is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
+        <Detail/>
+      </Error>
+    </OperationNameResult>
+    <ResponseMetadata>
+      <RequestId>454d8b3c-5514-4919-b5ca-6a08fb974272</RequestId>
+    </ResponseMetadata>
+    </OperationNameResponse>
 
 </div>
 
@@ -257,8 +254,8 @@ Valid values:
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS Products
-API section](../products/Products_Overview.md)
+**Parent topic:**
+<a href="../products/Products_Overview.md" class="link">What you should know about the Amazon MWS Products API section</a>
 
 </div>
 
@@ -270,8 +267,7 @@ API section](../products/Products_Overview.md)
 
 <div>
 
-[Throttling in the Products
-API](../products/Products_Throttling.md "Describes the throttling policy for the Products API section.")
+<a href="../products/Products_Throttling.md" class="link" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>
 
 </div>
 

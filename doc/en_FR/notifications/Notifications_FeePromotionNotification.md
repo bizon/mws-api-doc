@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,16 +34,17 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_FeePromotionNotification" class="nested0">
 
-# FeePromotionNotification
+FeePromotionNotification
+========================
 
 <div class="body">
 
 <span class="ph">Sellers using <span class="ph">Amazon MWS</span> can
 benefit from time-limited fee promotions. To receive notification of
-available fee promotions, sellers must subscribe to
-<span class="keyword parmname">FeePromotion</span> notification. When
-the seller initially signs up for the subscription and `isEnabled` is
-set to *true*, the seller receives all currently active promotions. Each
+available fee promotions, sellers must subscribe to <span
+class="keyword parmname">FeePromotion</span> notification. When the
+seller initially signs up for the subscription and `isEnabled` is set to
+*true*, the seller receives all currently active promotions. Each
 promotion is sent as a single message. Subsequent promotion
 notifications are sent when the promotion becomes active. </span>
 
@@ -57,18 +57,19 @@ fields.
 
 <span class="notetitle">Note:</span> <span class="ph">The estimated fees
 returned by this API are not guaranteed. Actual fees may vary.</span>
-<span id="Notifications_FeePromotionNotification__Fees_links" class="ph">For
-more information on fees, see [Selling on Amazon Fee
-Schedule](https://sellercentral.amazon.co.uk/gp/help/200336920) and [FBA
-features and
-fees](https://sellercentral-europe.amazon.com/gp/help/201074400) on
-Seller Central.</span>
+<span id="Notifications_FeePromotionNotification__Fees_links"
+class="ph">For more information on fees, see
+<a href="https://sellercentral.amazon.co.uk/gp/help/200336920" class="xref">Selling on Amazon Fee Schedule</a>
+and
+<a href="https://sellercentral-europe.amazon.com/gp/help/201074400" class="xref">FBA features and fees</a>
+on Seller Central.</span>
 
 </div>
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -78,7 +79,8 @@ This notification is available in all marketplaces.
 
 <div id="FeePromotionNotification" class="topic nested1">
 
-## FeePromotionNotification
+FeePromotionNotification
+------------------------
 
 <div class="body">
 
@@ -86,18 +88,19 @@ This notification is available in all marketplaces.
 for the given merchant/marketplace.</span>
 
 This is the root element of the
-[FeePromotionNotification.xsd](http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeePromotionNotification.xsd)
+<a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeePromotionNotification.xsd" class="xref">FeePromotionNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
 | Name                                                           | Description                                                                          |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+|----------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | <span class="keyword parmname">FeePromotionNotification</span> | <span class="ph">The root element of the `FeePromotion` notification payload.</span> |
 
 </div>
 
-<div id="FeePromotionNotification__FeePromotionNotification_Elements" class="section">
+<div id="FeePromotionNotification__FeePromotionNotification_Elements"
+class="section">
 
 ### FeePromotionNotification Attributes
 
@@ -179,7 +182,8 @@ element is made up of the following data objects:
 
 <div id="IdentifierList" class="topic nested1">
 
-## Identifier
+Identifier
+----------
 
 <div class="body">
 
@@ -190,8 +194,8 @@ applies.</span>
 
 ### Identifier Attributes
 
-The following table describes the attributes of an item from the
-<span class="keyword parmname">IdentifierList</span> element:
+The following table describes the attributes of an item from the <span
+class="keyword parmname">IdentifierList</span> element:
 
 <div class="tablenoborder">
 
@@ -238,7 +242,8 @@ The following table describes the attributes of an item from the
 
 <div id="IdentifierValue" class="topic nested1">
 
-## IdentifierValue
+IdentifierValue
+---------------
 
 <div class="body">
 
@@ -292,7 +297,8 @@ A description of identifier values to which this promotion applies.
 
 <div id="TimeRange" class="topic nested1">
 
-## PromotionActiveTimeRange
+PromotionActiveTimeRange
+------------------------
 
 <div class="body">
 
@@ -302,13 +308,13 @@ A description of identifier values to which this promotion applies.
 
 ### PromotionActiveTimeRange Attributes
 
-The following table shows the child elements of the
-<span class="keyword parmname">PromotionActiveTimeRange</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">PromotionActiveTimeRange</span> element:
 
 <div class="tablenoborder">
 
 | Name                                                       | Description                                                                 | Required | Value                                     |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------- | -------- | ----------------------------------------- |
+|------------------------------------------------------------|-----------------------------------------------------------------------------|----------|-------------------------------------------|
 | <span class="keyword parmname">EffectiveFromDate</span>    | <span class="ph">Date (inclusive) when the promotion becomes active.</span> | Yes      | <span class="ph">Type: xs:dateTime</span> |
 | <span class="keyword parmname">EffectiveThroughDate</span> | <span class="ph">Date (exclusive) when the promotion has ended.</span>      | Yes      | <span class="ph">Type: xs:dateTime</span> |
 
@@ -322,7 +328,8 @@ The following table shows the child elements of the
 
 <div id="PromotionInformation" class="topic nested1">
 
-## PromotionInformation
+PromotionInformation
+--------------------
 
 <div class="body">
 
@@ -333,8 +340,8 @@ promotion. A fee estimate is included if applicable.</span>
 
 ### PromotionInformation Attributes
 
-The following table shows the child elements of the
-<span class="keyword parmname">PromotionInformation</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">PromotionInformation</span> element:
 
 <div class="tablenoborder">
 
@@ -407,7 +414,8 @@ The following table shows the child elements of the
 
 <div id="FeeEstimate" class="topic nested1">
 
-## FeesEstimate
+FeesEstimate
+------------
 
 <div class="body">
 
@@ -418,16 +426,16 @@ it is available.</span>
 
 ### FeesEstimate Attributes
 
-The following table shows the child elements of the
-<span class="keyword parmname">FeesEstimate</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">FeesEstimate</span> element:
 
 <div class="tablenoborder">
 
-| Name                                                      | Description                                                                                               | Required | Value                                                                                                                                                                    |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">TimeOfFeesEstimated</span> | <span class="ph">The date time when the fees were estimated.</span>                                       | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                                                                                |
-| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: [`MoneyType`](Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes)</span>                          |
-| <span class="keyword parmname">FeeDetailList</span>       | <span class="ph">An itemization of the `TotalFeesEstimate`).</span>                                       | Yes      | Type: List of [`FeeDetail`](#FeeDetail "The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed.") |
+| Name                                                      | Description                                                                                               | Required | Value                                                                                                                                                                                                                                   |
+|-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">TimeOfFeesEstimated</span> | <span class="ph">The date time when the fees were estimated.</span>                                       | Yes      | <span class="ph">Type: xs:dateTime</span>                                                                                                                                                                                               |
+| <span class="keyword parmname">TotalFeesEstimate</span>   | <span class="ph">The total amount of fees if the price is lowered to or below the price threshold.</span> | Yes      | <span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span>                                |
+| <span class="keyword parmname">FeeDetailList</span>       | <span class="ph">An itemization of the `TotalFeesEstimate`).</span>                                       | Yes      | Type: List of <a href="#FeeDetail" class="xref" title="The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed."><var class="keyword varname">FeeDetail</var></a> |
 
 </div>
 
@@ -439,7 +447,8 @@ The following table shows the child elements of the
 
 <div id="FeeDetail" class="topic nested1">
 
-## FeeDetail
+FeeDetail
+---------
 
 <div class="body">
 
@@ -451,8 +460,8 @@ needed.</span>
 
 ### FeeDetail Attributes
 
-The following table shows the attributes of a
-<span class="keyword parmname">FeeDetail</span> element:
+The following table shows the attributes of a <span
+class="keyword parmname">FeeDetail</span> element:
 
 <div class="tablenoborder">
 
@@ -523,7 +532,8 @@ The following table shows the attributes of a
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -531,9 +541,9 @@ The following table shows the attributes of a
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
@@ -551,113 +561,111 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01>
-    <MerchantId>ATEXAMPLERGR</MerchantId>
-    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-    <FeePromotionType>Pricing</FeePromotionType>
-    <FeePromotionTypeDescription>A promotion encouraging you to lower your price on an item to receive lower fees.</FeePromotionTypeDescription>
-    <PromotionActiveTimeRange>
-        <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
-        <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
-    </PromotionActiveTimeRange >
-    <IdentifierList>
-        <Identifier>
-            <IdentifierValueList>
-                <IdentifierValue>
-                    <IdentifierValueId>B0002GTTRC</IdentifierValueId>
-                </IdentifierValue>
-            </IdentifierValueList>
-            <IdentifierType>ASIN</IdentifierType>
-        </Identifier>
-    </IdentifierList>
-    <PromotionInformationList>
-        <PromotionInformation>
-            <FeeType>ReferralFee</FeeType>
-            <FeeDiscountType>Percentage points off</FeeDiscountType>
-            <FeeDiscountValue>6.0</FeeDiscountValue>
-            <PriceThreshold>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>100.00</Amount>
-            </PriceThreshold>
-            <FeesEstimate>
-                <TimeOfFeesEstimated>2015-07-12T23:15:11.859Z </TimeOfFeesEstimated>
-                <TotalFeesEstimate>
+    <?xml version="1.0"?>
+    <FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01>
+        <MerchantId>ATEXAMPLERGR</MerchantId>
+        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+        <FeePromotionType>Pricing</FeePromotionType>
+        <FeePromotionTypeDescription>A promotion encouraging you to lower your price on an item to receive lower fees.</FeePromotionTypeDescription>
+        <PromotionActiveTimeRange>
+            <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
+            <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
+        </PromotionActiveTimeRange >
+        <IdentifierList>
+            <Identifier>
+                <IdentifierValueList>
+                    <IdentifierValue>
+                        <IdentifierValueId>B0002GTTRC</IdentifierValueId>
+                    </IdentifierValue>
+                </IdentifierValueList>
+                <IdentifierType>ASIN</IdentifierType>
+            </Identifier>
+        </IdentifierList>
+        <PromotionInformationList>
+            <PromotionInformation>
+                <FeeType>ReferralFee</FeeType>
+                <FeeDiscountType>Percentage points off</FeeDiscountType>
+                <FeeDiscountValue>6.0</FeeDiscountValue>
+                <PriceThreshold>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>6.30</Amount>
-                </TotalFeesEstimate>
-                <FeeDetailList>
-                    <FeeDetail>
-                        <FeeType>ReferralFee</FeeType>
-                        <FeeAmount>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>10.00</Amount>
-                        </FeeAmount>
-                        <FeePromotion>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>6.00</Amount>
-                        </FeePromotion>
-                        <FinalFee>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>4.00</Amount>
-                        </FinalFee>
-                    </FeeDetail>
-                    <FeeDetail>
-                        <FeeType>VariableClosingFee</FeeType>
-                        <FeeAmount>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </FeeAmount>
-                    </FeeDetail>
-                    <FeeDetail>
-                        <FeeType>PerItemFee</FeeType>
-                        <FeeAmount>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </FeeAmount>
-                    </FeeDetail>
-                    <FeeDetail>
-                        <FeeType>FBAFees</FeeType>
-                        <FeeAmount>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>2.30</Amount>
-                        </FeeAmount>
-                        <IncludedFeeList>
-                            <FeeDetail>
-                                <FeeType>FBAOrderHandling</FeeType>
-                                <FeeAmount>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>1.00</Amount>
-                                </FeeAmount>
-                            </FeeDetail>
-                            <FeeDetail>
-                                <FeeType>FBAPickAndPack</FeeType>
-                                <FeeAmount>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>0.30</Amount>
-                                </FeeAmount>
-                            </FeeDetail>
-                            <FeeDetail>
-                                <FeeType>FBAWeightHandling</FeeType>
-                                <FeeAmount>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>1.00</Amount>
-                                </FeeAmount>
-                            </FeeDetail>
-                        </IncludedFeeList>
-                    </FeeDetail>
-                </FeeDetailList>
-            </FeesEstimate>
-        </PromotionInformation>
-    </PromotionInformationList>
-</FeePromotionNotification>
-<ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-</ResponseMetadata>
-```
+                    <Amount>100.00</Amount>
+                </PriceThreshold>
+                <FeesEstimate>
+                    <TimeOfFeesEstimated>2015-07-12T23:15:11.859Z </TimeOfFeesEstimated>
+                    <TotalFeesEstimate>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>6.30</Amount>
+                    </TotalFeesEstimate>
+                    <FeeDetailList>
+                        <FeeDetail>
+                            <FeeType>ReferralFee</FeeType>
+                            <FeeAmount>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>10.00</Amount>
+                            </FeeAmount>
+                            <FeePromotion>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>6.00</Amount>
+                            </FeePromotion>
+                            <FinalFee>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>4.00</Amount>
+                            </FinalFee>
+                        </FeeDetail>
+                        <FeeDetail>
+                            <FeeType>VariableClosingFee</FeeType>
+                            <FeeAmount>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </FeeAmount>
+                        </FeeDetail>
+                        <FeeDetail>
+                            <FeeType>PerItemFee</FeeType>
+                            <FeeAmount>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </FeeAmount>
+                        </FeeDetail>
+                        <FeeDetail>
+                            <FeeType>FBAFees</FeeType>
+                            <FeeAmount>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>2.30</Amount>
+                            </FeeAmount>
+                            <IncludedFeeList>
+                                <FeeDetail>
+                                    <FeeType>FBAOrderHandling</FeeType>
+                                    <FeeAmount>
+                                        <CurrencyCode>USD</CurrencyCode>
+                                        <Amount>1.00</Amount>
+                                    </FeeAmount>
+                                </FeeDetail>
+                                <FeeDetail>
+                                    <FeeType>FBAPickAndPack</FeeType>
+                                    <FeeAmount>
+                                        <CurrencyCode>USD</CurrencyCode>
+                                        <Amount>0.30</Amount>
+                                    </FeeAmount>
+                                </FeeDetail>
+                                <FeeDetail>
+                                    <FeeType>FBAWeightHandling</FeeType>
+                                    <FeeAmount>
+                                        <CurrencyCode>USD</CurrencyCode>
+                                        <Amount>1.00</Amount>
+                                    </FeeAmount>
+                                </FeeDetail>
+                            </IncludedFeeList>
+                        </FeeDetail>
+                    </FeeDetailList>
+                </FeesEstimate>
+            </PromotionInformation>
+        </PromotionInformationList>
+    </FeePromotionNotification>
+    <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+    </ResponseMetadata>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -676,41 +684,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01">
-    <MerchantId>ATEXAMPLERGR</MerchantId>
-    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-    <FeePromotionType>SelectionASIN</FeePromotionType>
-    <FeePromotionTypeDescription>A promotion encouraging you to list a particular ASIN or set of ASINs.</FeePromotionTypeDescription>
-    <PromotionActiveTimeRange>
-        <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
-        <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
-    </PromotionActiveTimeRange >
-    <IdentifierList>
-        <Identifier>
-            <IdentifierValueList>
-                <IdentifierValue>
-                    <IdentifierValueId>B0002GTTRC</IdentifierValueId>
-                </IdentifierValue>
-            </IdentifierValueList>
-            <IdentifierType>ASIN</IdentifierType>
-        </Identifier>
-    </IdentifierList>
-    <PromotionInformationList>
-        <PromotionInformation>
-            <FeeType>ReferralFee</FeeType>
-            <FeeDiscountType>PercentagePoints</FeeDiscountType>
-            <FeeDiscountValue>6.0</FeeDiscountValue>
-        </PromotionInformation>
-    </PromotionInformationList>
-</FeePromotionNotification>
-<ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-</ResponseMetadata>
-```
+    <?xml version="1.0"?>
+    <FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01">
+        <MerchantId>ATEXAMPLERGR</MerchantId>
+        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+        <FeePromotionType>SelectionASIN</FeePromotionType>
+        <FeePromotionTypeDescription>A promotion encouraging you to list a particular ASIN or set of ASINs.</FeePromotionTypeDescription>
+        <PromotionActiveTimeRange>
+            <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
+            <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
+        </PromotionActiveTimeRange >
+        <IdentifierList>
+            <Identifier>
+                <IdentifierValueList>
+                    <IdentifierValue>
+                        <IdentifierValueId>B0002GTTRC</IdentifierValueId>
+                    </IdentifierValue>
+                </IdentifierValueList>
+                <IdentifierType>ASIN</IdentifierType>
+            </Identifier>
+        </IdentifierList>
+        <PromotionInformationList>
+            <PromotionInformation>
+                <FeeType>ReferralFee</FeeType>
+                <FeeDiscountType>PercentagePoints</FeeDiscountType>
+                <FeeDiscountValue>6.0</FeeDiscountValue>
+            </PromotionInformation>
+        </PromotionInformationList>
+    </FeePromotionNotification>
+    <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+    </ResponseMetadata>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -729,46 +735,44 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01">
-    <MerchantId>ATEXAMPLERGR</MerchantId>
-    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-    <FeePromotionType>SelectionCategory</FeePromotionType>
-    <FeePromotionTypeDescription>A promotion encouraging you to begin selling new items in a  brand, category or area to increase sales..</FeePromotionTypeDescription>
-    <PromotionActiveTimeRange>
-        <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
-        <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
-    </PromotionActiveTimeRange >
-    <IdentifierList>
-        <Identifier>
-            <IdentifierValueList>
-                <IdentifierValue>
-                    <IdentifierValueId>123456789</IdentifierValueId>
-                    <IdentifierValueFriendlyName>Espresso Machines</IdentifierValueFriendlyName>
-                </IdentifierValue>
-                <IdentifierValue>
-                    <IdentifierValueId>987654321</IdentifierValueId>
-                    <IdentifierValueFriendlyName>Espresso Accessories</IdentifierValueFriendlyName>
-                </IdentifierValue>
-            </IdentifierValueList>
-            <IdentifierType>BrowseNode</IdentifierType>
-        </Identifier>
-    </IdentifierList>
-    <PromotionInformationList>
-        <PromotionInformation>
-            <FeeType>ReferralFee</FeeType>
-            <FeeDiscountType>PercentagePoints</FeeDiscountType>
-            <FeeDiscountValue>6.0</FeeDiscountValue>
-        </PromotionInformation>
-    </PromotionInformationList>
-</FeePromotionNotification>
-<ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-</ResponseMetadata>
-```
+    <?xml version="1.0"?>
+    <FeePromotionNotification xmlns="http://mws.amazonservices.com/schema/Subscription/2011-10-01">
+        <MerchantId>ATEXAMPLERGR</MerchantId>
+        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+        <FeePromotionType>SelectionCategory</FeePromotionType>
+        <FeePromotionTypeDescription>A promotion encouraging you to begin selling new items in a  brand, category or area to increase sales..</FeePromotionTypeDescription>
+        <PromotionActiveTimeRange>
+            <EffectiveFromDate>2015-07-19T23:15:11.859Z </EffectiveFromDate>
+            <EffectiveThroughDate>2015-08-19T23:15:11.859Z </EffectiveThroughDate>
+        </PromotionActiveTimeRange >
+        <IdentifierList>
+            <Identifier>
+                <IdentifierValueList>
+                    <IdentifierValue>
+                        <IdentifierValueId>123456789</IdentifierValueId>
+                        <IdentifierValueFriendlyName>Espresso Machines</IdentifierValueFriendlyName>
+                    </IdentifierValue>
+                    <IdentifierValue>
+                        <IdentifierValueId>987654321</IdentifierValueId>
+                        <IdentifierValueFriendlyName>Espresso Accessories</IdentifierValueFriendlyName>
+                    </IdentifierValue>
+                </IdentifierValueList>
+                <IdentifierType>BrowseNode</IdentifierType>
+            </Identifier>
+        </IdentifierList>
+        <PromotionInformationList>
+            <PromotionInformation>
+                <FeeType>ReferralFee</FeeType>
+                <FeeDiscountType>PercentagePoints</FeeDiscountType>
+                <FeeDiscountValue>6.0</FeeDiscountValue>
+            </PromotionInformation>
+        </PromotionInformationList>
+    </FeePromotionNotification>
+    <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+    </ResponseMetadata>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -780,17 +784,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
-[Selling on Amazon Fee
-Schedule](https://sellercentral.amazon.com/gp/help/200336920)
+<a href="https://sellercentral.amazon.com/gp/help/200336920" class="xref">Selling on Amazon Fee Schedule</a>
 
-[FBA\_Fee\_Overview](https://sellercentral.amazon.com/gp/help/201185590)
+<a href="https://sellercentral.amazon.com/gp/help/201185590" class="xref">FBA_Fee_Overview</a>
 
 </div>
 

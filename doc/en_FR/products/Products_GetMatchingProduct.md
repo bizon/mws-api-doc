@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetProductMatchingAttributes" class="nested0">
 
-# GetMatchingProduct
+GetMatchingProduct
+==================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ on a list of <span class="keyword parmname">ASIN</span> values.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -55,17 +56,17 @@ returns a list of products and their attributes, based on a list of
 <span class="keyword parmname">ASIN</span> values that you specify. This
 operation returns a maximum of ten products.
 
-**Important**. All of the functionality of the
-<span class="keyword apiname">GetMatchingProduct</span> operation can be
-found in the new
-[GetMatchingProductForId](Products_GetMatchingProductForId.md "Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.")
+**Important**. All of the functionality of the <span
+class="keyword apiname">GetMatchingProduct</span> operation can be found
+in the new
+<a href="Products_GetMatchingProductForId.md" class="xref" title="Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.">GetMatchingProductForId</a>
 operation. The <span class="keyword apiname">GetMatchingProduct</span>
 operation is included in the Products API section for backward
-compatibility, but you should use the
-<span class="keyword apiname">GetMatchingProductForId</span> operation
-in favor of the <span class="keyword apiname">GetMatchingProduct</span>
+compatibility, but you should use the <span
+class="keyword apiname">GetMatchingProductForId</span> operation in
+favor of the <span class="keyword apiname">GetMatchingProduct</span>
 operation whenever possible. For more information, see
-[GetMatchingProductForId](Products_GetMatchingProductForId.md "Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.").
+<a href="Products_GetMatchingProductForId.md" class="xref" title="Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.">GetMatchingProductForId</a>.
 
 <div class="section">
 
@@ -84,7 +85,7 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate           | Hourly request quota   |
-| --------------------- | ---------------------- | ---------------------- |
+|-----------------------|------------------------|------------------------|
 | 20 requests           | Two items every second | 7200 requests per hour |
 
 </div>
@@ -92,12 +93,12 @@ This operation is available in all marketplaces.
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>. </span>
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
 
@@ -109,7 +110,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -117,9 +119,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -166,29 +167,30 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="section">
 
-The response elements that the
-<span class="keyword apiname">GetMatchingProduct</span> operation
-returns are described by the following publicly available XSDs:
+The response elements that the <span
+class="keyword apiname">GetMatchingProduct</span> operation returns are
+described by the following publicly available XSDs:
 
-  - ProductsAPI\_Response.xsd:
-    <http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd>
-  - default.xsd:
-    <http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd>
+-   ProductsAPI\_Response.xsd:
+    <a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd</a>
+-   default.xsd:
+    <a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd" class="xref">http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd</a>
 
 The following table provides additional information about some of the
-key elements that are returned by the
-<span class="keyword apiname">GetMatchingProduct</span> operation.
+key elements that are returned by the <span
+class="keyword apiname">GetMatchingProduct</span> operation.
 
 <div class="note note">
 
-<span class="notetitle">Note:</span> As Amazon updates the
-<span class="ph">Amazon MWS</span> <span class="ph">Products API
+<span class="notetitle">Note:</span> As Amazon updates the <span
+class="ph">Amazon MWS</span> <span class="ph">Products API
 section</span> to include new response elements, we may update the
 ProductsAPI\_Response.xsd and default.xsd schemas. Keep this in mind if
 you choose to use these schemas for validation.
@@ -257,7 +259,8 @@ you choose to use these schemas for validation.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -266,8 +269,8 @@ you choose to use these schemas for validation.
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -275,26 +278,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-ASINList.ASIN.1=B002KT3XRQ
-&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetMatchingProduct
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=A1IMEXAMPLEWRC
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T21%3A01%3A53Z
-&Version=2011-10-01
-&Signature=5O%2EXAMPLEtpSD0NbC%2FltDxXuLe2TXAd%2B48AEXAMPLE0%3D
-```
+    ASINList.ASIN.1=B002KT3XRQ
+    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetMatchingProduct
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=A1IMEXAMPLEWRC
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T21%3A01%3A53Z
+    &Version=2011-10-01
+    &Signature=5O%2EXAMPLEtpSD0NbC%2FltDxXuLe2TXAd%2B48AEXAMPLE0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -305,7 +306,7 @@ ASINList.ASIN.1=B002KT3XRQ
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -313,150 +314,148 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMatchingProductResponse
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetMatchingProductResult ASIN="B002KT3XRQ" status="Success">
-        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-            <Identifiers>
-                <MarketplaceASIN>
-                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                    <ASIN>B002KT3XRQ</ASIN>
-                </MarketplaceASIN>
-            </Identifiers>
-            <AttributeSets>
-                <ns2:ItemAttributes xml:lang="en-US">
-                    <ns2:Binding>Apparel</ns2:Binding>
-                    <ns2:Brand>Pearl iZUMi</ns2:Brand>
-                    <ns2:Department>mens</ns2:Department>
-                    <ns2:Feature>
-                        Select transfer fabric sets the benchmark for moisture transfer and
-                        four-way performance stretch
-                    </ns2:Feature>
-                    <ns2:Feature>
-                        6-Panel anatomic design for superior, chafe-free comfort, UPF 50+ sun
-                        protection
-                    </ns2:Feature>
-                    <ns2:Feature>
-                        Comfortable silicone leg grippers keep shorts in place,
-                        moisture-wicking, antimicrobial properties
-                    </ns2:Feature>
-                    <ns2:Feature>
-                        Tour 3D Chamois is male-specific and non-chafing with padding in
-                        key areas
-                    </ns2:Feature>
-                    <ns2:Feature>86 percent nylon, 14% spandex, 9-Inch inseam</ns2:Feature>
-                    <ns2:ItemDimensions>
-                        <ns2:Height Units="inches">2.00</ns2:Height>
-                        <ns2:Length Units="inches">9.00</ns2:Length>
-                        <ns2:Width Units="inches">9.00</ns2:Width>
-                    </ns2:ItemDimensions>
-                    <ns2:Label>Pearl iZUMi</ns2:Label>
-                    <ns2:ListPrice>
-                        <ns2:Amount>50.00</ns2:Amount>
-                        <ns2:CurrencyCode>USD</ns2:CurrencyCode>
-                    </ns2:ListPrice>
-                    <ns2:Manufacturer>Pearl iZUMi</ns2:Manufacturer>
-                    <ns2:Model>0275</ns2:Model>
-                    <ns2:PackageDimensions>
-                        <ns2:Height Units="inches">2.80</ns2:Height>
-                        <ns2:Length Units="inches">9.75</ns2:Length>
-                        <ns2:Width Units="inches">8.40</ns2:Width>
-                        <ns2:Weight Units="pounds">0.40</ns2:Weight>
-                    </ns2:PackageDimensions>
-                    <ns2:PackageQuantity>1</ns2:PackageQuantity>
-                    <ns2:PartNumber>0275</ns2:PartNumber>
-                    <ns2:ProductGroup>Apparel</ns2:ProductGroup>
-                    <ns2:ProductTypeName>SHORTS</ns2:ProductTypeName>
-                    <ns2:Publisher>Pearl iZUMi</ns2:Publisher>
-                    <ns2:SmallImage>
-                        <ns2:URL>
-                            http://ecx.images-amazon.com/images/I/41ty3Sn%2BU8L._SL75_.jpg
-                        </ns2:URL>
-                        <ns2:Height Units="pixels">75</ns2:Height>
-                        <ns2:Width Units="pixels">58</ns2:Width>
-                    </ns2:SmallImage>
-                    <ns2:Studio>Pearl iZUMi</ns2:Studio>
-                    <ns2:Title>Pearl iZUMi Men's Quest Cycling Short</ns2:Title>
-                </ns2:ItemAttributes>
-            </AttributeSets>
-            <Relationships>
-                <ns2:VariationChild>
-                    <Identifiers>
-                        <MarketplaceASIN>
-                            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                            <ASIN>B002KT3XQC</ASIN>
-                        </MarketplaceASIN>
-                    </Identifiers>
-                    <ns2:Color>Black</ns2:Color>
-                    <ns2:Size>Small</ns2:Size>
-                </ns2:VariationChild>
-                <ns2:VariationChild>
-                    <Identifiers>
-                        <MarketplaceASIN>
-                            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                            <ASIN>B002KT3XQW</ASIN>
-                        </MarketplaceASIN>
-                    </Identifiers>
-                    <ns2:Color>Black</ns2:Color>
-                    <ns2:Size>Medium</ns2:Size>
-                </ns2:VariationChild>
-                <ns2:VariationChild>
-                    <Identifiers>
-                        <MarketplaceASIN>
-                            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                            <ASIN>B002KT3XQM</ASIN>
-                        </MarketplaceASIN>
-                    </Identifiers>
-                    <ns2:Color>Black</ns2:Color>
-                    <ns2:Size>Large</ns2:Size>
-                </ns2:VariationChild>
-                <ns2:VariationChild>
-                    <Identifiers>
-                        <MarketplaceASIN>
-                            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                            <ASIN>B002KT3XR6</ASIN>
-                        </MarketplaceASIN>
-                    </Identifiers>
-                    <ns2:Color>Black</ns2:Color>
-                    <ns2:Size>X-Large</ns2:Size>
-                </ns2:VariationChild>
-                <ns2:VariationChild>
-                    <Identifiers>
-                        <MarketplaceASIN>
-                            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                            <ASIN>B002KT3XRG</ASIN>
-                        </MarketplaceASIN>
-                    </Identifiers>
-                    <ns2:Color>Black</ns2:Color>
-                    <ns2:Size>XX-Large</ns2:Size>
-                </ns2:VariationChild>
-            </Relationships>
-            <SalesRankings>
-                <SalesRank>
-                    <ProductCategoryId>apparel_display_on_website</ProductCategoryId>
-                    <Rank>159</Rank>
-                </SalesRank>
-                <SalesRank>
-                    <ProductCategoryId>2420095011</ProductCategoryId>
-                    <Rank>1</Rank>
-                </SalesRank>
-                <SalesRank>
-                    <ProductCategoryId>2611189011</ProductCategoryId>
-                    <Rank>4</Rank>
-                </SalesRank>
-            </SalesRankings>
-        </Product>
-    </GetMatchingProductResult>
-    <ResponseMetadata>
-        <RequestId>b12caada-d330-4d87-a789-EXAMPLE35872</RequestId>
-    </ResponseMetadata>
-</GetMatchingProductResponse>
-```
+    <?xml version="1.0"?>
+    <GetMatchingProductResponse
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetMatchingProductResult ASIN="B002KT3XRQ" status="Success">
+            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                        <ASIN>B002KT3XRQ</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="en-US">
+                        <ns2:Binding>Apparel</ns2:Binding>
+                        <ns2:Brand>Pearl iZUMi</ns2:Brand>
+                        <ns2:Department>mens</ns2:Department>
+                        <ns2:Feature>
+                            Select transfer fabric sets the benchmark for moisture transfer and
+                            four-way performance stretch
+                        </ns2:Feature>
+                        <ns2:Feature>
+                            6-Panel anatomic design for superior, chafe-free comfort, UPF 50+ sun
+                            protection
+                        </ns2:Feature>
+                        <ns2:Feature>
+                            Comfortable silicone leg grippers keep shorts in place,
+                            moisture-wicking, antimicrobial properties
+                        </ns2:Feature>
+                        <ns2:Feature>
+                            Tour 3D Chamois is male-specific and non-chafing with padding in
+                            key areas
+                        </ns2:Feature>
+                        <ns2:Feature>86 percent nylon, 14% spandex, 9-Inch inseam</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">2.00</ns2:Height>
+                            <ns2:Length Units="inches">9.00</ns2:Length>
+                            <ns2:Width Units="inches">9.00</ns2:Width>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Pearl iZUMi</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>50.00</ns2:Amount>
+                            <ns2:CurrencyCode>USD</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Pearl iZUMi</ns2:Manufacturer>
+                        <ns2:Model>0275</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.80</ns2:Height>
+                            <ns2:Length Units="inches">9.75</ns2:Length>
+                            <ns2:Width Units="inches">8.40</ns2:Width>
+                            <ns2:Weight Units="pounds">0.40</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>0275</ns2:PartNumber>
+                        <ns2:ProductGroup>Apparel</ns2:ProductGroup>
+                        <ns2:ProductTypeName>SHORTS</ns2:ProductTypeName>
+                        <ns2:Publisher>Pearl iZUMi</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>
+                                http://ecx.images-amazon.com/images/I/41ty3Sn%2BU8L._SL75_.jpg
+                            </ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">58</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Pearl iZUMi</ns2:Studio>
+                        <ns2:Title>Pearl iZUMi Men's Quest Cycling Short</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <ns2:VariationChild>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                                <ASIN>B002KT3XQC</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                        <ns2:Color>Black</ns2:Color>
+                        <ns2:Size>Small</ns2:Size>
+                    </ns2:VariationChild>
+                    <ns2:VariationChild>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                                <ASIN>B002KT3XQW</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                        <ns2:Color>Black</ns2:Color>
+                        <ns2:Size>Medium</ns2:Size>
+                    </ns2:VariationChild>
+                    <ns2:VariationChild>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                                <ASIN>B002KT3XQM</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                        <ns2:Color>Black</ns2:Color>
+                        <ns2:Size>Large</ns2:Size>
+                    </ns2:VariationChild>
+                    <ns2:VariationChild>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                                <ASIN>B002KT3XR6</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                        <ns2:Color>Black</ns2:Color>
+                        <ns2:Size>X-Large</ns2:Size>
+                    </ns2:VariationChild>
+                    <ns2:VariationChild>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                                <ASIN>B002KT3XRG</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                        <ns2:Color>Black</ns2:Color>
+                        <ns2:Size>XX-Large</ns2:Size>
+                    </ns2:VariationChild>
+                </Relationships>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>apparel_display_on_website</ProductCategoryId>
+                        <Rank>159</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>2420095011</ProductCategoryId>
+                        <Rank>1</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>2611189011</ProductCategoryId>
+                        <Rank>4</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+        </GetMatchingProductResult>
+        <ResponseMetadata>
+            <RequestId>b12caada-d330-4d87-a789-EXAMPLE35872</RequestId>
+        </ResponseMetadata>
+    </GetMatchingProductResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -468,13 +467,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[GetMatchingProductForId](Products_GetMatchingProductForId.md "Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.")
+<a href="Products_GetMatchingProductForId.md" class="xref" title="Returns a list of products and their attributes, based on a list of ASIN, GCID, SellerSKU, UPC, EAN, ISBN, and JAN values.">GetMatchingProductForId</a>
 
 </div>
 

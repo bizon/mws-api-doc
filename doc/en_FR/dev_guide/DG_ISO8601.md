@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO8601" class="nested0">
 
-# ISO 8601 use in <span class="ph">Amazon MWS</span>
+ISO 8601 use in <span class="ph">Amazon MWS</span>
+==================================================
 
 <div class="body">
 
@@ -47,7 +47,8 @@ use date and time data in <span class="ph">Amazon MWS</span>.
 
 <div id="DG_ISO8601__formats" class="section">
 
-## Type DateTime
+Type DateTime
+-------------
 
 All date and time data is expressed as calendar dates (year, month, day)
 and a 24-hour day. Day and time data is always expressed in a combined
@@ -67,11 +68,12 @@ needed.
 
 <div id="DG_ISO8601__datetimetype" class="section">
 
-## Type conflicts
+Type conflicts
+--------------
 
 All use of date and time data in <span class="ph">Amazon MWS</span>
-should be expressed as type
-<span class="keyword parmname">DateTime</span>. However, there are a few
+should be expressed as type <span
+class="keyword parmname">DateTime</span>. However, there are a few
 parameters that express date or time as a simple string. Check the
 parameter type definition to be sure of which type to use. Using the
 wrong type will generate an error.
@@ -80,7 +82,8 @@ wrong type will generate an error.
 
 <div id="DG_ISO8601__time_intervals" class="section">
 
-## Time intervals
+Time intervals
+--------------
 
 While time intervals and durations are allowed under ISO 8601, they are
 not currently used in <span class="ph">Amazon MWS</span>.
@@ -89,11 +92,10 @@ not currently used in <span class="ph">Amazon MWS</span>.
 
 <div id="DG_ISO8601__8601_example" class="section">
 
-## Example:
+Example:
+--------
 
-``` pre codeblock
-  2016-03-16T14:32:16.50-07
-```
+      2016-03-16T14:32:16.50-07
 
 This example is read as the 16th day of March in 2016 at 14hrs 32min and
 16.50 seconds local time. The local time is 7 hours behind UTC.
@@ -102,13 +104,13 @@ This example is read as the 16th day of March in 2016 at 14hrs 32min and
 
 <div id="DG_ISO8601__8601References" class="section">
 
-## References
+References
+----------
 
-  - [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
-  - [ISO 8601:2004](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=40874)
-  - [RFC 3339](https://tools.ietf.org/html/rfc3339)
-  - [List of UTC time
-    offsets](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets)
+-   <a href="https://en.wikipedia.org/wiki/ISO_8601" class="xref">ISO 8601</a>
+-   <a href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=40874" class="xref">ISO 8601:2004</a>
+-   <a href="https://tools.ietf.org/html/rfc3339" class="xref">RFC 3339</a>
+-   <a href="https://en.wikipedia.org/wiki/List_of_UTC_time_offsets" class="xref">List of UTC time offsets</a>
 
 </div>
 
@@ -120,8 +122,8 @@ This example is read as the 16th day of March in 2016 at 14hrs 32min and
 
 <div class="parentlink">
 
-**Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.md)
+**Parent topic:**
+<a href="../dev_guide/DG_StandardsCompliance.md" class="link">Standards compliance in Amazon MWS</a>
 
 </div>
 

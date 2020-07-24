@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,14 +34,16 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPrepInstructionsForSKU" class="nested0">
 
-# GetPrepInstructionsForSKU
+GetPrepInstructionsForSKU
+=========================
 
 <span class="ph">Returns labeling requirements and item preparation
 instructions to help you prepare items for an inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -50,21 +51,21 @@ instructions to help you prepare items for an inbound shipment.</span>
 
 The <span class="keyword apiname">GetPrepInstructionsForSKU</span>
 operation returns labeling requirements and item preparation
-instructions to help you prepare items for shipment to
-<span class="ph">Amazon's fulfillment network</span>.
+instructions to help you prepare items for shipment to <span
+class="ph">Amazon's fulfillment network</span>.
 
 If you have not yet listed an item and only want item preparation
 instructions to help with sourcing decisions for that item, use the
-[<span class="keyword apiname">GetPrepInstructionsForASIN</span>](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
+<a href="FBAInbound_GetPrepInstructionsForASIN.md" class="xref" title="Returns item preparation instructions to help with item sourcing decisions."><span class="keyword apiname">GetPrepInstructionsForASIN</span></a>
 operation.
 
 <div class="note important">
 
 <span class="importanttitle">Important:</span> Labeling requirements and
 item preparation instructions are subject to change. Before creating a
-new inbound shipment, call the
-<span class="keyword apiname">GetPrepInstructionsForSKU</span> operation
-to get the most current labeling requirements and item preparation
+new inbound shipment, call the <span
+class="keyword apiname">GetPrepInstructionsForSKU</span> operation to
+get the most current labeling requirements and item preparation
 instructions for the <span class="keyword parmname">SellerSKU</span>
 values in the shipment. Do not rely on values received from previous
 calls to <span class="keyword apiname">GetPrepInstructionsForSKU</span>.
@@ -89,9 +90,8 @@ The <span class="keyword apiname">GetPrepInstructionsForSKU</span>
 operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -101,7 +101,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -109,9 +110,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -161,7 +161,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -200,7 +201,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -209,8 +211,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -218,20 +220,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-&Action=GetPrepInstructionsForSKU
-&SellerId=A13EXAMPLE1J56
-&SignatureVersion=2
-&Timestamp=2013-08-09T22%3A52%3A25Z
-&Version=2010-10-01
-&SignatureMethod=HmacSHA256
-&SellerSKUList.Id.1=ca_001
-&ShipToCountryCode=US
-```
+    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+    ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+    &Action=GetPrepInstructionsForSKU
+    &SellerId=A13EXAMPLE1J56
+    &SignatureVersion=2
+    &Timestamp=2013-08-09T22%3A52%3A25Z
+    &Version=2010-10-01
+    &SignatureMethod=HmacSHA256
+    &SellerSKUList.Id.1=ca_001
+    &ShipToCountryCode=US
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -242,7 +242,7 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -250,57 +250,55 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0" encoding="UTF-8"?>
-<GetPrepInstructionsForSKUResponse 
-  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-  <GetPrepInstructionsForSKUResult>
-    <SKUPrepInstructionsList>
-      <SKUPrepInstructions>
-        <SellerSKU>ca_001</SellerSKU>
-        <ASIN>B00EXAMPLE</ASIN>
-        <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
-        <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
-        <PrepInstructionList>
-          <PrepInstruction>Polybagging</PrepInstruction>
-          <PrepInstruction>Taping</PrepInstruction>
-          <PrepInstruction>Labeling</PrepInstruction>
-        </PrepInstructionList>
-        <AmazonPrepFeesDetailsList>
-          <AmazonPrepFeesDetails>
-            <PrepInstruction>Polybagging</PrepInstruction>
-            <Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <Value>0.2</Value>
-            </Amount>
-          </AmazonPrepFeesDetails>
-          <AmazonPrepFeesDetails>
-            <PrepInstruction>Taping</PrepInstruction>
-            <Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <Value>0.2</Value>
-            </Amount>
-          </AmazonPrepFeesDetails>
-          <AmazonPrepFeesDetails>
-            <PrepInstruction>Labeling</PrepInstruction>
-            <Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <Value>0.2</Value>
-            </Amount>
-          </AmazonPrepFeesDetails>          
-        </AmazonPrepFeesDetailsList>        
-      </SKUPrepInstructions>
-    </SKUPrepInstructionsList>
-    <InvalidSKUList>
-    </InvalidSKUList>
-  </GetPrepInstructionsForSKUResult>
-  <ResponseMetadata>
-    <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
-  </ResponseMetadata>
-</GetPrepInstructionsForSKUResponse>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <GetPrepInstructionsForSKUResponse 
+      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+      <GetPrepInstructionsForSKUResult>
+        <SKUPrepInstructionsList>
+          <SKUPrepInstructions>
+            <SellerSKU>ca_001</SellerSKU>
+            <ASIN>B00EXAMPLE</ASIN>
+            <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
+            <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
+            <PrepInstructionList>
+              <PrepInstruction>Polybagging</PrepInstruction>
+              <PrepInstruction>Taping</PrepInstruction>
+              <PrepInstruction>Labeling</PrepInstruction>
+            </PrepInstructionList>
+            <AmazonPrepFeesDetailsList>
+              <AmazonPrepFeesDetails>
+                <PrepInstruction>Polybagging</PrepInstruction>
+                <Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <Value>0.2</Value>
+                </Amount>
+              </AmazonPrepFeesDetails>
+              <AmazonPrepFeesDetails>
+                <PrepInstruction>Taping</PrepInstruction>
+                <Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <Value>0.2</Value>
+                </Amount>
+              </AmazonPrepFeesDetails>
+              <AmazonPrepFeesDetails>
+                <PrepInstruction>Labeling</PrepInstruction>
+                <Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <Value>0.2</Value>
+                </Amount>
+              </AmazonPrepFeesDetails>          
+            </AmazonPrepFeesDetailsList>        
+          </SKUPrepInstructions>
+        </SKUPrepInstructionsList>
+        <InvalidSKUList>
+        </InvalidSKUList>
+      </GetPrepInstructionsForSKUResult>
+      <ResponseMetadata>
+        <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
+      </ResponseMetadata>
+    </GetPrepInstructionsForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -312,14 +310,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
+<a href="FBAInbound_GetPrepInstructionsForASIN.md" class="xref" title="Returns item preparation instructions to help with item sourcing decisions.">GetPrepInstructionsForASIN</a>
 
 </div>
 

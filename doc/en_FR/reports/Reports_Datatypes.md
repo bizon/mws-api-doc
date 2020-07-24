@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,21 +34,22 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_Datatypes" class="nested0">
 
-# Reports Datatypes
+Reports Datatypes
+=================
 
 <div class="body">
 
-The following datatypes are used in the response elements of the
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Reports API section</span>:
+The following datatypes are used in the response elements of the <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> <span
+class="ph">Reports API section</span>:
 
 <div class="tablenoborder">
 
-| Name                                                                                   | Description                                                           |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [ReportInfo](#ReportInfo "Detailed information about a report.")                       | <span class="ph">Detailed information about a report.</span>          |
-| [ReportRequestInfo](#ReportRequestInfo "Detailed information about a report request.") | <span class="ph">Detailed information about a report request.</span>  |
-| [ReportSchedule](#ReportSchedule "Detailed information about a report schedule.")      | <span class="ph">Detailed information about a report schedule.</span> |
+| Name                                                                                                                 | Description                                                           |
+|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| <a href="#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a>                       | <span class="ph">Detailed information about a report.</span>          |
+| <a href="#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a> | <span class="ph">Detailed information about a report request.</span>  |
+| <a href="#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a>      | <span class="ph">Detailed information about a report schedule.</span> |
 
 </div>
 
@@ -57,7 +57,8 @@ The following datatypes are used in the response elements of the
 
 <div id="ReportInfo" class="topic nested1">
 
-## ReportInfo
+ReportInfo
+----------
 
 <div class="body">
 
@@ -67,8 +68,8 @@ The following datatypes are used in the response elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ReportInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ReportInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -129,7 +130,8 @@ The following table shows the elements of the
 
 <div id="ReportRequestInfo" class="topic nested1">
 
-## ReportRequestInfo
+ReportRequestInfo
+-----------------
 
 <div class="body">
 
@@ -139,8 +141,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ReportRequestInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ReportRequestInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -224,7 +226,8 @@ The following table shows the elements of the
 
 <div id="ReportSchedule" class="topic nested1">
 
-## ReportSchedule
+ReportSchedule
+--------------
 
 <div class="body">
 
@@ -234,8 +237,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ReportSchedule</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ReportSchedule</span> datatype:
 
 <div class="tablenoborder">
 
@@ -280,12 +283,12 @@ The following table shows the elements of the
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>
 
 </div>
 

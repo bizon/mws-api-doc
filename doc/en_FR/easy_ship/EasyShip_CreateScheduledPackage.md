@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,33 +34,35 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_CreateScheduledPackage" class="nested0">
 
-# CreateScheduledPackage
+CreateScheduledPackage
+======================
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 Calling the <span class="keyword apiname">CreateScheduledPackage</span>
 operation does the following:
 
-  - Schedules an <span class="ph">Amazon Easy Ship</span> package pickup
+-   Schedules an <span class="ph">Amazon Easy Ship</span> package pickup
     slot. This is a window of time when the seller can expect their
     package to be picked up for delivery to the buyer.
-  - Marks the <span class="ph">Amazon Easy Ship</span> order status as
-    `WaitingForPickup`. You can check the status of
-    <span class="ph">Amazon Easy Ship</span> orders by calling the
-    [ListOrders](../orders-2013-09-01/Orders_ListOrders.md) operation
-    of the Orders API section and examining the
-    <span class="keyword parmname">EasyShipShipmentStatus</span>
-    response element.
-  - Generates a shipping label and an invoice. Calling
-    <span class="keyword apiname">CreateScheduledPackage</span> also
-    generates a warranty document if you specify a
-    <span class="keyword parmname">SerialNumber</span> value. To get
-    these documents, see [How to get invoice, shipping label, and
-    warranty documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)
+-   Marks the <span class="ph">Amazon Easy Ship</span> order status as
+    `WaitingForPickup`. You can check the status of <span
+    class="ph">Amazon Easy Ship</span> orders by calling the
+    <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+    operation of the Orders API section and examining the <span
+    class="keyword parmname">EasyShipShipmentStatus</span> response
+    element.
+-   Generates a shipping label and an invoice. Calling <span
+    class="keyword apiname">CreateScheduledPackage</span> also generates
+    a warranty document if you specify a <span
+    class="keyword parmname">SerialNumber</span> value. To get these
+    documents, see
+    <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>
 
 <div class="section">
 
@@ -80,15 +81,15 @@ This operation is available only in the India marketplace.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate             |
-| --------------------- | ------------------------ |
+|-----------------------|--------------------------|
 | 15 requests           | 15 requests every minute |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -100,7 +101,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -108,17 +110,17 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-<span class="ph">[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md)</span> in
-the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<span
+class="ph"><a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a></span>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div class="tablenoborder">
 
-| Name                                                        | Description                                                                                                                                                       | Required | Values                                                                                                               |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">AmazonOrderId</span>         | <span class="ph">An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using <span class="ph">Amazon Easy Ship</span>.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                              |
-| <span class="keyword parmname">MarketplaceId</span>         | The marketplace that the seller is selling in.                                                                                                                    | Yes      | <span class="ph">Type: xs:string</span>                                                                              |
-| <span class="keyword parmname">PackageRequestDetails</span> | The package information required for creating the scheduled package                                                                                               | Yes      | Type: [PackageRequestDetails](EasyShip_Datatypes.md#PackageRequestDetails "Information for scheduling a package.") |
+| Name                                                        | Description                                                                                                                                                       | Required | Values                                                                                                                                             |
+|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">AmazonOrderId</span>         | <span class="ph">An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using <span class="ph">Amazon Easy Ship</span>.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                                            |
+| <span class="keyword parmname">MarketplaceId</span>         | The marketplace that the seller is selling in.                                                                                                                    | Yes      | <span class="ph">Type: xs:string</span>                                                                                                            |
+| <span class="keyword parmname">PackageRequestDetails</span> | The package information required for creating the scheduled package                                                                                               | Yes      | Type: <a href="EasyShip_Datatypes.md#PackageRequestDetails" class="xref" title="Information for scheduling a package.">PackageRequestDetails</a> |
 
 </div>
 
@@ -130,7 +132,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -164,7 +167,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -173,8 +177,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -182,32 +186,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.in/EasyShip/2018-09-01
-  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-  &Action=CreateScheduledPackage
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A1XEXAMPLE5E6
-  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Timestamp=2018-11-05T18%3A12%3A21
-  &Version=2018-09-01
-  &AmazonOrderId=903-1713775-3598252
-  &MarketplaceId=A21TJRUUN4KGV
-  &PackageRequestDetails.PackageDimensions.Length=12.00
-  &PackageRequestDetails.PackageDimensions.Width=12.00
-  &PackageRequestDetails.PackageDimensions.Height=12.00
-  &PackageRequestDetails.PackageDimensions.Unit=cm
-  &PackageRequestDetails.PackageWeight.Unit=23.00
-  &PackageRequestDetails.PackageWeight.Value=g
-  &PackageRequestDetails.PackagePickupSlot.SlotId=Xyt123bbdg=
-  &PackageRequestDetails.PackagePickupSlot.PickupTimeStart=2018-02-21T07:30:00.00Z
-  &PackageRequestDetails.PackagePickupSlot.PickupTimeEnd=2018-02-21T10:30:00.00Z
-  &PackageRequestDetails.PackageIdentifier=Package1
-```
+    https://mws.amazonservices.in/EasyShip/2018-09-01
+      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+      &Action=CreateScheduledPackage
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A1XEXAMPLE5E6
+      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Timestamp=2018-11-05T18%3A12%3A21
+      &Version=2018-09-01
+      &AmazonOrderId=903-1713775-3598252
+      &MarketplaceId=A21TJRUUN4KGV
+      &PackageRequestDetails.PackageDimensions.Length=12.00
+      &PackageRequestDetails.PackageDimensions.Width=12.00
+      &PackageRequestDetails.PackageDimensions.Height=12.00
+      &PackageRequestDetails.PackageDimensions.Unit=cm
+      &PackageRequestDetails.PackageWeight.Unit=23.00
+      &PackageRequestDetails.PackageWeight.Value=g
+      &PackageRequestDetails.PackagePickupSlot.SlotId=Xyt123bbdg=
+      &PackageRequestDetails.PackagePickupSlot.PickupTimeStart=2018-02-21T07:30:00.00Z
+      &PackageRequestDetails.PackagePickupSlot.PickupTimeEnd=2018-02-21T10:30:00.00Z
+      &PackageRequestDetails.PackageIdentifier=Package1
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -218,7 +220,7 @@ https://mws.amazonservices.in/EasyShip/2018-09-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -226,40 +228,38 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<CreateScheduledPackageResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
-    <CreateScheduledPackageResult>
-        <ScheduledPackage>
-            <ScheduledPackageId>
-                <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-                <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
-            </ScheduledPackageId>
-            <PackageDimensions>
-                <Length>12.00</Length>
-                <Width>12.00</Width>
-                <Height>12.00</Height>
-                <Unit>cm</Unit>
-            </PackageDimensions>
-            <PackageWeight>
-                <Unit>g</Unit>
-                <Value>23.00</Value>
-            </PackageWeight>
-            <PackagePickupSlot>
-                <SlotId>Xyt123bbdg=</SlotId>
-                <PickupTimeStart>2018-02-19T14:00:00.50+05:30</PickupTimeStart>
-                <PickupTimeEnd>2018-02-19T16:00:00.50+05:30</PickupTimeEnd>
-            </PackagePickupSlot>
-            <PackageStatus>ReadyForPickup</PackageStatus>
-        </ScheduledPackage>
-    </CreateScheduledPackageResult>
-    <ResponseMetadata>
-        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-    </ResponseMetadata>
-</CreateScheduledPackageResponse>
-```
+    <?xml version="1.0"?>
+    <CreateScheduledPackageResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
+        <CreateScheduledPackageResult>
+            <ScheduledPackage>
+                <ScheduledPackageId>
+                    <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+                    <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
+                </ScheduledPackageId>
+                <PackageDimensions>
+                    <Length>12.00</Length>
+                    <Width>12.00</Width>
+                    <Height>12.00</Height>
+                    <Unit>cm</Unit>
+                </PackageDimensions>
+                <PackageWeight>
+                    <Unit>g</Unit>
+                    <Value>23.00</Value>
+                </PackageWeight>
+                <PackagePickupSlot>
+                    <SlotId>Xyt123bbdg=</SlotId>
+                    <PickupTimeStart>2018-02-19T14:00:00.50+05:30</PickupTimeStart>
+                    <PickupTimeEnd>2018-02-19T16:00:00.50+05:30</PickupTimeEnd>
+                </PackagePickupSlot>
+                <PackageStatus>ReadyForPickup</PackageStatus>
+            </ScheduledPackage>
+        </CreateScheduledPackageResult>
+        <ResponseMetadata>
+            <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+        </ResponseMetadata>
+    </CreateScheduledPackageResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -271,20 +271,18 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Easy Ship API
-section](EasyShip_Overview.md)
+<a href="EasyShip_Overview.md" class="xref">What you should know about the Easy Ship API section</a>
 
-[ListPickupSlots](EasyShip_ListPickupSlots.md)
+<a href="EasyShip_ListPickupSlots.md" class="xref">ListPickupSlots</a>
 
-[How to handle order items that require serial
-numbers](EasyShip_HowToHandleSerialNumbers.md)
+<a href="EasyShip_HowToHandleSerialNumbers.md" class="xref">How to handle order items that require serial numbers</a>
 
-[How to get invoice, shipping label, and warranty
-documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)
+<a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>
 
 </div>
 

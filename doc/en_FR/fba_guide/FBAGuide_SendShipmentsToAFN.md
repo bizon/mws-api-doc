@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,18 +32,18 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Step 10 - Send your shipments to <span class="ph">Amazon's fulfillment network</span>
+Step 10 - Send your shipments to <span class="ph">Amazon's fulfillment network</span>
+=====================================================================================
 
 <div class="body conbody">
 
 Send your shipments to <span class="ph">Amazon's fulfillment
 network</span> using an Amazon-Partenered carrier or a
 non-Amazon-Partnered carrier that is registered with Amazon. For more
-information about sending shipments to
-<span id="ShipItems__AmazonsFN" class="ph">Amazon's fulfillment
-network</span>, see the Amazon Seller Central Help for your marketplace.
-For more information, see [Using an Amazon-partnered carrier for your
-inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
+information about sending shipments to <span id="ShipItems__AmazonsFN"
+class="ph">Amazon's fulfillment network</span>, see the Amazon Seller
+Central Help for your marketplace. For more information, see
+<a href="FBAGuide_UsingAmazonCarrierToShip.md" class="xref">Using an Amazon-partnered carrier for your inbound shipment</a>.
 
 </div>
 
@@ -54,22 +53,22 @@ inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="link">Shipping inventory to Amazon's fulfillment network</a>
 
 </div>
 
 <div class="previouslink">
 
-**Previous topic:** [Step 9 - Request pallet labels or bills of lading
-(LTL/FTL only)](../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.md)
+**Previous topic:**
+<a href="../fba_guide/FBAGuide_RequestPalletLabelsOrBOL.md" class="link">Step 9 - Request pallet labels or bills of lading (LTL/FTL only)</a>
 
 </div>
 
 <div class="nextlink">
 
-**Next topic:** [Step 11 - Mark your shipments as
-shipped](../fba_guide/FBAGuide_MarkShipmentShipped.md)
+**Next topic:**
+<a href="../fba_guide/FBAGuide_MarkShipmentShipped.md" class="link">Step 11 - Mark your shipments as shipped</a>
 
 </div>
 

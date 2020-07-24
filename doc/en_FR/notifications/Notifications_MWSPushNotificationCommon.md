@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,18 +34,19 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_MWSPushNotificationCommon" class="nested0">
 
-# MWSPushNotificationCommon
+MWSPushNotificationCommon
+=========================
 
 <div class="body">
 
 <span class="ph">Contains common types that are used by all
-notifications that are contained in the
-<span class="keyword parmname">NotificationPayload</span>
-element.</span>
+notifications that are contained in the <span
+class="keyword parmname">NotificationPayload</span> element.</span>
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -56,22 +56,23 @@ This notification is available in all marketplaces.
 
 <div id="SimpleTypes" class="topic nested1">
 
-## Simple types
+Simple types
+------------
 
 <div class="body">
 
 These are the simple types of the
-[MWSPushNotificationCommon.xsd](http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd)
+<a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd" class="xref">MWSPushNotificationCommon.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Simple type                                                    | Description                                                                                                                       |
-| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [AvailabilityType](#SimpleTypes__AvailabilityType)             | <span class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> |
-| [FulfillmentChannelType](#SimpleTypes__FulfillmentChannelType) | <span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>                                       |
-| [MarketplaceType](#SimpleTypes__MarketplaceType)               | <span class="ph">Represents the unique identifier of a marketplace.</span>                                                        |
-| [VersionType](#SimpleTypes__VersionType)                       | <span class="ph">Represents a version.</span>                                                                                     |
+| Simple type                                                                            | Description                                                                                                                       |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#SimpleTypes__AvailabilityType" class="xref">AvailabilityType</a>             | <span class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> |
+| <a href="#SimpleTypes__FulfillmentChannelType" class="xref">FulfillmentChannelType</a> | <span class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>                                       |
+| <a href="#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a>               | <span class="ph">Represents the unique identifier of a marketplace.</span>                                                        |
+| <a href="#SimpleTypes__VersionType" class="xref">VersionType</a>                       | <span class="ph">Represents a version.</span>                                                                                     |
 
 </div>
 
@@ -86,12 +87,12 @@ now, or on a known or an unknown date in the future.</span>
 
 <span class="keyword parmname">AvailabilityType</span> values:
 
-  - <span class="keyword parmname">NOW</span> - The item is available
+-   <span class="keyword parmname">NOW</span> - The item is available
     for shipping now.
-  - <span class="keyword parmname">FUTURE\_WITHOUT\_DATE</span> - The
+-   <span class="keyword parmname">FUTURE\_WITHOUT\_DATE</span> - The
     item will be available for shipping on an unknown date in the
     future.
-  - <span class="keyword parmname">FUTURE\_WITH\_DATE</span> - The item
+-   <span class="keyword parmname">FUTURE\_WITH\_DATE</span> - The item
     will be available for shipping on a known date in the future.
 
 </div>
@@ -107,8 +108,8 @@ the seller.</span>
 
 <span class="keyword parmname">FulfillmentChannelType</span> values:
 
-  - `Amazon`
-  - `Merchant`
+-   `Amazon`
+-   `Merchant`
 
 </div>
 
@@ -143,7 +144,8 @@ Restriction: \[0-9\]+\\.\[0-9\]
 
 <div id="ComplexTypes" class="topic nested1">
 
-## Complex types
+Complex types
+-------------
 
 <div class="body">
 
@@ -151,9 +153,9 @@ These are the complex types of the MWSPushNotificationCommon.xsd schema:
 
 <div class="tablenoborder">
 
-| Complex type                          | Description                                       |
-| ------------------------------------- | ------------------------------------------------- |
-| [MoneyType](#ComplexTypes__MoneyType) | <span class="ph">Currency type and amount.</span> |
+| Complex type                                                  | Description                                       |
+|---------------------------------------------------------------|---------------------------------------------------|
+| <a href="#ComplexTypes__MoneyType" class="xref">MoneyType</a> | <span class="ph">Currency type and amount.</span> |
 
 </div>
 
@@ -163,8 +165,8 @@ These are the complex types of the MWSPushNotificationCommon.xsd schema:
 
 <span class="ph">Currency type and amount.</span>
 
-The following table shows the elements of the
-<span class="keyword parmname">MoneyType</span> element:
+The following table shows the elements of the <span
+class="keyword parmname">MoneyType</span> element:
 
 <div class="tablenoborder">
 
@@ -203,12 +205,12 @@ The following table shows the elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Fulfilling <span class="ph">Multi-Channel Fulfillment</span> orders
+Fulfilling <span class="ph">Multi-Channel Fulfillment</span> orders
+===================================================================
 
 <div class="body conbody">
 
@@ -47,11 +47,10 @@ Shipment API section</span> has the advantage of being real-time,
 however, while the <span class="ph">Feeds API section</span> operates
 asynchronously.
 
-For more information, see [What you should know about the Fulfillment
-Outbound Shipment API
-section](../fba_outbound/FBAOutbound_Overview.md) and [What you should
-know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.md).
+For more information, see
+<a href="../fba_outbound/FBAOutbound_Overview.md" class="xref">What you should know about the Fulfillment Outbound Shipment API section</a>
+and
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 
 </div>
 
@@ -61,7 +60,8 @@ section](../reports/Reports_Overview.md).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_CommonTasks.md" class="link">Common tasks</a>
 
 </div>
 

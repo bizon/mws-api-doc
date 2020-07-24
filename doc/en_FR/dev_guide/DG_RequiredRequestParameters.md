@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_RequiredRequestParameters" class="nested0">
 
-# Required request parameters
+Required request parameters
+===========================
 
 <div class="body">
 
@@ -145,13 +145,15 @@ for all <span class="ph">Amazon MWS</span> operations:
 
 <div id="Examples" class="topic reference nested0">
 
-# Example request
+Example request
+===============
 
 <div class="body refbody">
 
 <div class="section">
 
-## Get request method
+Get request method
+------------------
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -159,24 +161,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.com/CustomerInformation/2014-03-01/
-?AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=ListCustomers
-&DateRangeEnd=2014-04-30T00%3A06%3A07.000Z
-&DateRangeStart=2014-04-01T00%3A06%3A07.000Z
-&DateRangeType=AssociatedDate
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=A1IMEXAMPLEWRC
-&Signature=FUbIEXAMPLETUGtTS6sqNDt3OuLH8tbhz5YEXAMPLEw%3D
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2014-04-01T21%3A53%3A02Z
-&Version=2014-03-01
-```
+    https://mws.amazonservices.com/CustomerInformation/2014-03-01/
+    ?AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=ListCustomers
+    &DateRangeEnd=2014-04-30T00%3A06%3A07.000Z
+    &DateRangeStart=2014-04-01T00%3A06%3A07.000Z
+    &DateRangeType=AssociatedDate
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=A1IMEXAMPLEWRC
+    &Signature=FUbIEXAMPLETUGtTS6sqNDt3OuLH8tbhz5YEXAMPLEw%3D
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2014-04-01T21%3A53%3A02Z
+    &Version=2014-03-01
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -184,7 +184,8 @@ https://mws.amazonservices.com/CustomerInformation/2014-03-01/
 
 <div class="section">
 
-## Post request method
+Post request method
+-------------------
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -192,28 +193,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Feeds/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Feeds/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PExampleR2
-&Action=CancelFeedSubmissions
-&FeedSubmissionIdList.Id.1=1058369303
-&FeedTypeList.Type.1=_POST_PRODUCT_DATA_
-&FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATExampleER
-&SellerId=A1ExampleE6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-02-04T17%3A34%3A14.203Z
-&Version=2009-01-01
-&Signature=0RExample0%3D
-```
+    AWSAccessKeyId=0PExampleR2
+    &Action=CancelFeedSubmissions
+    &FeedSubmissionIdList.Id.1=1058369303
+    &FeedTypeList.Type.1=_POST_PRODUCT_DATA_
+    &FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATExampleER
+    &SellerId=A1ExampleE6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-02-04T17%3A34%3A14.203Z
+    &Version=2009-01-01
+    &Signature=0RExample0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -225,13 +224,14 @@ AWSAccessKeyId=0PExampleR2
 
 <div id="RelatedTopics" class="topic nested0">
 
-# Related topics
+Related topics
+==============
 
 <div class="body">
 
-[Working with Content-MD5 checksums](DG_MD5.md)
+<a href="DG_MD5.md" class="xref">Working with Content-MD5 checksums</a>
 
-[Response format](../dev_guide/DG_ResponseFormat.md)
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 
 </div>
 

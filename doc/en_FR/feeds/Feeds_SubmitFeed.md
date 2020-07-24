@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,28 +34,29 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_SubmitFeed" class="nested0">
 
-# SubmitFeed
+SubmitFeed
+==========
 
 <div class="body">
 
-<span class="ph">Uploads a feed for processing by
-<span class="ph">Amazon MWS</span>.</span>
+<span class="ph">Uploads a feed for processing by <span
+class="ph">Amazon MWS</span>.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__SubmitFeed" class="keyword apiname">SubmitFeed</span>
-operation uploads a file and any necessary metadata for processing. Note
-that you *must* calculate a Content-MD5 value for the submitted file.
-For more information about creating a Content-MD5 value, see [Using the
-Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult
-operations](Feeds_MD5.md).
+The <span id="Description__SubmitFeed"
+class="keyword apiname">SubmitFeed</span> operation uploads a file and
+any necessary metadata for processing. Note that you *must* calculate a
+Content-MD5 value for the submitted file. For more information about
+creating a Content-MD5 value, see
+<a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.
 
 Feed size must be below 2 GiB (2<sup>31</sup>, or 2,147,483,648 bytes)
 per feed. If you have a large amount of data to submit, you should
@@ -83,15 +83,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                  | Hourly request quota |
-| --------------------- | ----------------------------- | -------------------- |
+|-----------------------|-------------------------------|----------------------|
 | 15 requests           | One request every two minutes | 30 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -104,14 +104,14 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 You can generally get the best overall feed processing performance by
 following these guidelines:
 
-  - Avoid submitting a lot of feeds with only a few records in each
+-   Avoid submitting a lot of feeds with only a few records in each
     feed. When possible, combine the data into less frequent larger
     feeds.
-  - Include only the products you are updating, not your entire
+-   Include only the products you are updating, not your entire
     inventory.
-  - Upload one feed of the same type no more than once every 20 minutes.
+-   Upload one feed of the same type no more than once every 20 minutes.
     Allow more time between larger feeds.
-  - Keep file size below 10 MiB (5\*2<sup>21</sup>, or 10,485,760
+-   Keep file size below 10 MiB (5\*2<sup>21</sup>, or 10,485,760
     bytes).
 
 </div>
@@ -128,7 +128,7 @@ should use for flat files and XML files for each marketplace:
 <div class="tablenoborder">
 
 | Marketplace              | Flat File Content-Type                        | XML Content-Type |
-| ------------------------ | --------------------------------------------- | ---------------- |
+|--------------------------|-----------------------------------------------|------------------|
 | North America and Europe | text/tab-separated-values; charset=iso-8859-1 | text/xml         |
 | Japan                    | text/tab-separated-values; charset=Shift\_JIS | text/xml         |
 
@@ -143,8 +143,8 @@ should use for flat files and XML files for each marketplace:
 If an Amazon seller is registered in multiple marketplaces, then the
 seller has multiple marketplace IDs associated with their
 merchant/seller ID. <span class="ph">For more information on submitting
-a feed using multiple marketplace IDs, see [Using Multiple
-Marketplaces](Feeds_EU_Global_Seller.md).</span>
+a feed using multiple marketplace IDs, see
+<a href="Feeds_EU_Global_Seller.md" class="xref">Using Multiple Marketplaces</a>.</span>
 
 </div>
 
@@ -154,7 +154,8 @@ Marketplaces](Feeds_EU_Global_Seller.md).</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -162,9 +163,8 @@ Marketplaces](Feeds_EU_Global_Seller.md).</span>
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -250,7 +250,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 1.  A marketplace ID is required when submitting a Product Images Feed
     (`_POST_PRODUCT_IMAGE_DATA_`). If the marketplace ID is not
     included, the image might not be published on the product detail
-    page. See [FeedType enumeration](../feeds/Feeds_FeedType.md).
+    page. See
+    <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType enumeration</a>.
 
 </div>
 
@@ -260,15 +261,16 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                           | Required | Valid values                                                                                                        |
-| -------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeedSubmissionInfo</span> | <span class="ph">Detailed information about a feed submission.</span> | Yes      | Type: [FeedSubmissionInfo](Feeds_Datatypes.md#FeedSubmissionInfo "Detailed information about a feed submission.") |
+| Name                                                     | Description                                                           | Required | Valid values                                                                                                                                      |
+|----------------------------------------------------------|-----------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">FeedSubmissionInfo</span> | <span class="ph">Detailed information about a feed submission.</span> | Yes      | Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a> |
 
 </div>
 
@@ -278,7 +280,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -299,9 +302,8 @@ GET operation. You must use POST.
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -309,27 +311,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Feeds/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Feeds/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-?AWSAccessKeyId=0PB842ExampleN4ZTR2
-&Action=SubmitFeed
-&FeedType=_POST_PRODUCT_DATA_
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceIdList.Id.1=ATVExampleDER
-&SellerId=A1XExample5E6
-&ContentMD5Value=ExampleMd5HashOfHttpBodyAsPerRfc2616Example
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-01-26T23%3A51%3A31.315Z
-&Version=2009-01-01
-&Signature=SvSExamplefZpSignaturex2cs%3D
-```
+    ?AWSAccessKeyId=0PB842ExampleN4ZTR2
+    &Action=SubmitFeed
+    &FeedType=_POST_PRODUCT_DATA_
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceIdList.Id.1=ATVExampleDER
+    &SellerId=A1XExample5E6
+    &ContentMD5Value=ExampleMd5HashOfHttpBodyAsPerRfc2616Example
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-01-26T23%3A51%3A31.315Z
+    &Version=2009-01-01
+    &Signature=SvSExamplefZpSignaturex2cs%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -341,14 +341,13 @@ User-Agent: <Your User Agent Header>
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
-The following is an example HTTP body for a
-<span class="keyword apiname">SubmitFeed</span> request for a
-health-related product. See the note above on
-<span class="keyword parmname">FeedContent</span>. The HTTP body in
+The following is an example HTTP body for a <span
+class="keyword apiname">SubmitFeed</span> request for a health-related
+product. See the note above on <span
+class="keyword parmname">FeedContent</span>. The HTTP body in
 unencrypted form looks like the following:
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -357,52 +356,50 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0" encoding="iso-8859-1"?>
-<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
-  <Header>
-    <DocumentVersion>1.01</DocumentVersion>
-    <MerchantIdentifier>M_EXAMPLE_123456</MerchantIdentifier>
-  </Header>
-  <MessageType>Product</MessageType>
-  <PurgeAndReplace>false</PurgeAndReplace>
-  <Message>
-    <MessageID>1</MessageID>
-    <OperationType>Update</OperationType>
-    <Product>
-      <SKU>56789</SKU>
-      <StandardProductID>
-        <Type>ASIN</Type>
-        <Value>B0EXAMPLEG</Value>
-      </StandardProductID>
-      <ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
-      <DescriptionData>
-        <Title>Example Product Title</Title>
-        <Brand>Example Product Brand</Brand>
-        <Description>This is an example product description.</Description>
-        <BulletPoint>Example Bullet Point 1</BulletPoint>
-        <BulletPoint>Example Bullet Point 2</BulletPoint>
-        <MSRP currency="USD">25.19</MSRP>
-        <Manufacturer>Example Product Manufacturer</Manufacturer>
-        <ItemType>example-item-type</ItemType>
-      </DescriptionData>
-      <ProductData>
-        <Health>
-          <ProductType>
-            <HealthMisc>
-              <Ingredients>Example Ingredients</Ingredients>
-              <Directions>Example Directions</Directions>
-            </HealthMisc>
-          </ProductType>
-        </Health>
-      </ProductData>
-    </Product>
-  </Message>
-</AmazonEnvelope>
-```
+    <?xml version="1.0" encoding="iso-8859-1"?>
+    <AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+      <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>M_EXAMPLE_123456</MerchantIdentifier>
+      </Header>
+      <MessageType>Product</MessageType>
+      <PurgeAndReplace>false</PurgeAndReplace>
+      <Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <Product>
+          <SKU>56789</SKU>
+          <StandardProductID>
+            <Type>ASIN</Type>
+            <Value>B0EXAMPLEG</Value>
+          </StandardProductID>
+          <ProductTaxCode>A_GEN_NOTAX</ProductTaxCode>
+          <DescriptionData>
+            <Title>Example Product Title</Title>
+            <Brand>Example Product Brand</Brand>
+            <Description>This is an example product description.</Description>
+            <BulletPoint>Example Bullet Point 1</BulletPoint>
+            <BulletPoint>Example Bullet Point 2</BulletPoint>
+            <MSRP currency="USD">25.19</MSRP>
+            <Manufacturer>Example Product Manufacturer</Manufacturer>
+            <ItemType>example-item-type</ItemType>
+          </DescriptionData>
+          <ProductData>
+            <Health>
+              <ProductType>
+                <HealthMisc>
+                  <Ingredients>Example Ingredients</Ingredients>
+                  <Directions>Example Directions</Directions>
+                </HealthMisc>
+              </ProductType>
+            </Health>
+          </ProductData>
+        </Product>
+      </Message>
+    </AmazonEnvelope>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -414,9 +411,9 @@ code</span> </span>
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph">Amazon MWS</span> responds with the following header
@@ -434,25 +431,23 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<SubmitFeedResponse
-    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-  <SubmitFeedResult>
-    <FeedSubmissionInfo>
-      <FeedSubmissionId>2291326430</FeedSubmissionId>
-      <FeedType>_POST_PRODUCT_DATA_</FeedType>
-      <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
-      <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
-    </FeedSubmissionInfo>
-  </SubmitFeedResult>
-  <ResponseMetadata>
-    <RequestId>75424a38-f333-4105-98f0-2aa9592d665c</RequestId>
-  </ResponseMetadata>
-</SubmitFeedResponse>
-```
+    <?xml version="1.0"?>
+    <SubmitFeedResponse
+        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+      <SubmitFeedResult>
+        <FeedSubmissionInfo>
+          <FeedSubmissionId>2291326430</FeedSubmissionId>
+          <FeedType>_POST_PRODUCT_DATA_</FeedType>
+          <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
+          <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
+        </FeedSubmissionInfo>
+      </SubmitFeedResult>
+      <ResponseMetadata>
+        <RequestId>75424a38-f333-4105-98f0-2aa9592d665c</RequestId>
+      </ResponseMetadata>
+    </SubmitFeedResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -464,21 +459,20 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
+<a href="Feeds_GetFeedSubmissionList.md" class="xref" title="Returns a list of all feed submissions submitted in the previous 90 days.">GetFeedSubmissionList</a>
 
-[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
+<a href="../feeds/Feeds_GetFeedSubmissionResult.md" class="xref">GetFeedSubmissionResult</a>
 
-[Using the Content-MD5 hash with the SubmitFeed and
-GetFeedSubmissionResult operations](Feeds_MD5.md)
+<a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>
 
-[Working with Content-MD5 checksums](../dev_guide/DG_MD5.md)
+<a href="../dev_guide/DG_MD5.md" class="xref">Working with Content-MD5 checksums</a>
 
 </div>
 

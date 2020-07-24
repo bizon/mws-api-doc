@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,34 +34,35 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportRequestListByNextToken" class="nested0">
 
-# GetReportRequestListByNextToken
+GetReportRequestListByNextToken
+===============================
 
 <div class="body">
 
-<span class="ph">Returns a list of report requests using the
-<span class="keyword parmname">NextToken</span>, which was supplied by a
-previous request to either
-<span class="keyword apiname">GetReportRequestListByNextToken</span> or
-<span class="keyword apiname">GetReportRequestList</span>, where the
-value of <span class="keyword parmname">HasNext</span> was `true` in
-that previous request.</span>
+<span class="ph">Returns a list of report requests using the <span
+class="keyword parmname">NextToken</span>, which was supplied by a
+previous request to either <span
+class="keyword apiname">GetReportRequestListByNextToken</span> or <span
+class="keyword apiname">GetReportRequestList</span>, where the value of
+<span class="keyword parmname">HasNext</span> was `true` in that
+previous request.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetReportRequestListByNextToken" class="keyword apiname">GetReportRequestListByNextToken</span>
-operation returns a list of report requests that match the query
-parameters. This operation uses the
-<span class="keyword parmname">NextToken</span>, which was supplied by a
-previous request to either
-<span class="keyword apiname">GetReportRequestListByNextToken</span> or
-a request to <span class="keyword apiname">GetReportRequestList</span>,
+The <span id="Description__GetReportRequestListByNextToken"
+class="keyword apiname">GetReportRequestListByNextToken</span> operation
+returns a list of report requests that match the query parameters. This
+operation uses the <span class="keyword parmname">NextToken</span>,
+which was supplied by a previous request to either <span
+class="keyword apiname">GetReportRequestListByNextToken</span> or a
+request to <span class="keyword apiname">GetReportRequestList</span>,
 where the value of <span class="keyword parmname">HasNext</span> was
 `true` in that previous request.
 
@@ -83,15 +83,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                  | Hourly request quota   |
-| --------------------- | ----------------------------- | ---------------------- |
+|-----------------------|-------------------------------|------------------------|
 | 30 requests           | One request every two seconds | 1800 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -103,7 +103,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -111,16 +112,15 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
 | Name                                            | Description                                                                                                                                                                                                                             | Required | Values                                  |
-| ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">NextToken</span> | <span class="ph">A string token returned in a previous call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the return value of <span class="keyword parmname">HasNext</span> is `true`.</span> | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -131,7 +131,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -175,7 +176,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -184,8 +186,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -193,26 +195,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Reports/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Reports/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-&Action=GetReportRequestListByNextToken
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATVPDKIKX0DER
-&NextToken=2YgYW55IPQhcm5hbCBwbGVhc3VyZS4=
-&SellerId=A1XEXAMPLE5E6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-02-04T18%3A12%3A21.921Z
-&Version=2009-01-01
-&Signature=pBixmXKBaS%2Bq3EbPzgFhv%2BDf6do%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+    &Action=GetReportRequestListByNextToken
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATVPDKIKX0DER
+    &NextToken=2YgYW55IPQhcm5hbCBwbGVhc3VyZS4=
+    &SellerId=A1XEXAMPLE5E6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-02-04T18%3A12%3A21.921Z
+    &Version=2009-01-01
+    &Signature=pBixmXKBaS%2Bq3EbPzgFhv%2BDf6do%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -223,7 +223,7 @@ AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -231,30 +231,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetReportRequestListByNextTokenResponse
-    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-    <GetReportRequestLisByNextTokentResult>
-        <NextToken>none</NextToken>
-        <HasNext>false</HasNext>
-        <ReportRequestInfo>
-            <ReportRequestId>2291326454</ReportRequestId>
-            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-            <StartDate>2009-01-21T02:10:39+00:00</StartDate>
-            <EndDate>2009-02-13T02:10:39+00:00</EndDate>
-            <Scheduled>false</Scheduled>
-            <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
-            <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
-        </ReportRequestInfo>
-        </GetReportRequestListByNextTokenResult>
-        <ResponseMetadata>
-            <RequestId>732480cb-84a8-4c15-9084-a46bd9a0889b</RequestId>
-        </ResponseMetadata>
-</GetReportRequestListByNextTokenResponse>
-```
+    <?xml version="1.0"?>
+    <GetReportRequestListByNextTokenResponse
+        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+        <GetReportRequestLisByNextTokentResult>
+            <NextToken>none</NextToken>
+            <HasNext>false</HasNext>
+            <ReportRequestInfo>
+                <ReportRequestId>2291326454</ReportRequestId>
+                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+                <StartDate>2009-01-21T02:10:39+00:00</StartDate>
+                <EndDate>2009-02-13T02:10:39+00:00</EndDate>
+                <Scheduled>false</Scheduled>
+                <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
+                <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
+            </ReportRequestInfo>
+            </GetReportRequestListByNextTokenResult>
+            <ResponseMetadata>
+                <RequestId>732480cb-84a8-4c15-9084-a46bd9a0889b</RequestId>
+            </ResponseMetadata>
+    </GetReportRequestListByNextTokenResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -266,17 +264,16 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
-[GetReportList](Reports_GetReportList.md "Returns a list of reports that were created in the previous 90 days.")
+<a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a>
 
 </div>
 

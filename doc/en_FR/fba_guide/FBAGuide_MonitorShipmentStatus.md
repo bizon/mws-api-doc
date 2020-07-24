@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_MonitorShipmentStatus" class="nested0">
 
-# Monitoring and tracking <span class="ph">FBA</span> shipment status
+Monitoring and tracking <span class="ph">FBA</span> shipment status
+===================================================================
 
 <div class="body">
 
@@ -51,10 +51,10 @@ update your local systems with billing information and customer payment
 information, including shipping fees, gift wrapping fees, and promotion
 information.
 
-For more information, see [Orders
-API](../orders-2013-09-01/Orders_Overview.md) and [What you should
-know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.md).
+For more information, see
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>
+and
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 
 </div>
 
@@ -64,7 +64,8 @@ section](../reports/Reports_Overview.md).
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_CommonTasks.md" class="link">Common tasks</a>
 
 </div>
 

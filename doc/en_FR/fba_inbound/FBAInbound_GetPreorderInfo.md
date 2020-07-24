@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPreorderInfo" class="nested0">
 
-# GetPreorderInfo
+GetPreorderInfo
+===============
 
 <div class="body">
 
@@ -47,7 +47,8 @@ if a shipment has already been confirmed for pre-order. </span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -57,11 +58,11 @@ The <span class="keyword apiname">GetPreorderInfo</span> operation
 returns pre-order information, including dates, that a seller needs
 before confirming a shipment for pre-order. Call this operation after
 creating the shipment using the
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
+<a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
 operation. You can also call this operation to find out if a shipment
 has already been confirmed for pre-order. To confirm the shipment for
 pre-order, call the
-[ConfirmPreorder](FBAInbound_ConfirmPreorder.md "Confirms a shipment for pre-order.")
+<a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>
 operation.
 
 Pre-orders are available only in India and Japan.
@@ -84,9 +85,9 @@ marketplaces.
 The <span class="keyword apiname">GetPreorderInfo</span> operation has a
 **maximum request quota** of 30 and a **restore rate** of two requests
 every second. <span class="ph">For definitions of throttling terminology
-and for a complete explanation of throttling, see [Throttling: Limits to
-how often you can submit requests](../dev_guide/DG_Throttling.md) in
-the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+and for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -96,7 +97,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -104,16 +106,15 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
 | Name                                             | Description                                                                                                                                        | Required | Values                                  |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">ShipmentId</span> | <span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span> | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -124,7 +125,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -173,7 +175,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -182,8 +185,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -191,21 +194,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &Action=GetPreorderInfo
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A2NKEXAMPLEF53
-  &SignatureVersion=2
-  &Timestamp=2015-11-02T02:40:36Z
-  &Version=2010-10-01
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBA2F3KCQF
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &Action=GetPreorderInfo
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A2NKEXAMPLEF53
+      &SignatureVersion=2
+      &Timestamp=2015-11-02T02:40:36Z
+      &Version=2010-10-01
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBA2F3KCQF
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -216,7 +217,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -224,23 +225,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetPreorderInfoResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <GetPreorderInfoResult>
-        <ShipmentContainsPreorderableItems>true
-        </ShipmentContainsPreorderableItems>
-        <NeedByDate>2015-12-27</NeedByDate>
-        <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
-        <ShipmentConfirmedForPreorder>true</ShipmentConfirmedForPreorder>
-    </GetPreorderInfoResult>
-    <ResponseMetadata>
-        <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
-    </ResponseMetadata>
-</GetPreorderInfoResponse>
-```
+    <?xml version="1.0"?>
+    <GetPreorderInfoResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <GetPreorderInfoResult>
+            <ShipmentContainsPreorderableItems>true
+            </ShipmentContainsPreorderableItems>
+            <NeedByDate>2015-12-27</NeedByDate>
+            <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
+            <ShipmentConfirmedForPreorder>true</ShipmentConfirmedForPreorder>
+        </GetPreorderInfoResult>
+        <ResponseMetadata>
+            <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
+        </ResponseMetadata>
+    </GetPreorderInfoResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -252,18 +251,18 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[ConfirmPreorder](FBAInbound_ConfirmPreorder.md "Confirms a shipment for pre-order.")
+<a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>
 
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
+<a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
 
-[ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
+<a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionCount" class="nested0">
 
-# GetFeedSubmissionCount
+GetFeedSubmissionCount
+======================
 
 <div class="body">
 
@@ -46,14 +46,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetFeedSubmissionCount" class="keyword apiname">GetFeedSubmissionCount</span>
-operation returns a count of the total number of feeds submitted in the
-previous 90 days.
+The <span id="Description__GetFeedSubmissionCount"
+class="keyword apiname">GetFeedSubmissionCount</span> operation returns
+a count of the total number of feeds submitted in the previous 90 days.
 
 <div class="section">
 
@@ -72,15 +72,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                 | Hourly request quota |
-| --------------------- | ---------------------------- | -------------------- |
+|-----------------------|------------------------------|----------------------|
 | 10 requests           | One request every 45 seconds | 80 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -92,7 +92,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -100,9 +101,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -165,14 +165,15 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
 | Name                                        | Description                                                             | Required | Valid Values                                        |
-| ------------------------------------------- | ----------------------------------------------------------------------- | -------- | --------------------------------------------------- |
+|---------------------------------------------|-------------------------------------------------------------------------|----------|-----------------------------------------------------|
 | <span class="keyword parmname">Count</span> | The total number of feed submissions that match the request parameters. | Yes      | <span class="ph">Type: xs:nonNegativeInteger</span> |
 
 </div>
@@ -183,7 +184,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -193,9 +195,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -203,28 +204,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Feeds/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Feeds/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PExampleR2
-&Action=GetFeedSubmissionCount
-&FeedProcessingStatusList.Status.1=_DONE_
-&FeedProcessingStatusList.Status.2=_CANCELLED_
-&FeedTypeList.Type.1=_POST_PRODUCT_DATA_
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATExampleER
-&SellerId=A1ExampleE6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-02-04T15%3A51%3A49.312Z
-&Version=2009-01-01
-&Signature=ewExampleU%3D
-```
+    AWSAccessKeyId=0PExampleR2
+    &Action=GetFeedSubmissionCount
+    &FeedProcessingStatusList.Status.1=_DONE_
+    &FeedProcessingStatusList.Status.2=_CANCELLED_
+    &FeedTypeList.Type.1=_POST_PRODUCT_DATA_
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATExampleER
+    &SellerId=A1ExampleE6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-02-04T15%3A51%3A49.312Z
+    &Version=2009-01-01
+    &Signature=ewExampleU%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -236,9 +235,9 @@ AWSAccessKeyId=0PExampleR2
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -247,20 +246,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetFeedSubmissionCountResponse
-    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-    <GetFeedSubmissionCountResult>
-        <Count>463</Count>
-    </GetFeedSubmissionCountResult>
-    <ResponseMetadata>
-        <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
-    </ResponseMetadata>
-</GetFeedSubmissionCountResponse>
-```
+    <?xml version="1.0"?>
+    <GetFeedSubmissionCountResponse
+        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+        <GetFeedSubmissionCountResult>
+            <Count>463</Count>
+        </GetFeedSubmissionCountResult>
+        <ResponseMetadata>
+            <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
+        </ResponseMetadata>
+    </GetFeedSubmissionCountResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -272,14 +269,14 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
+<a href="Feeds_GetFeedSubmissionList.md" class="xref" title="Returns a list of all feed submissions submitted in the previous 90 days.">GetFeedSubmissionList</a>
 
 </div>
 

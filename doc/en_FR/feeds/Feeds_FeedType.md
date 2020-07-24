@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,25 +34,26 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_FeedType" class="nested0">
 
-# FeedType enumeration
+FeedType enumeration
+====================
 
 <div class="body">
 
-Enumerates all the feed types that are available through the
-<span class="ph">Feeds API</span> section.
+Enumerates all the feed types that are available through the <span
+class="ph">Feeds API</span> section.
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">FeedType</span> enumeration includes
-all the feed types that you can submit using the operations in
-<span class="ph">Amazon MWS</span> <span class="ph">Feeds API</span>
-section.
+all the feed types that you can submit using the operations in <span
+class="ph">Amazon MWS</span> <span class="ph">Feeds API</span> section.
 
 </div>
 
@@ -61,7 +61,8 @@ section.
 
 <div id="FeedType_Enumeration" class="topic reference nested1">
 
-## FeedType enumeration
+FeedType enumeration
+--------------------
 
 <div class="body refbody">
 
@@ -69,12 +70,11 @@ section.
 
 The following feed categories are supported:
 
-  - [Product and inventory
-    feeds](#FeedType_Enumeration__ProductInventoryFeeds)
-  - [Order feeds](#FeedType_Enumeration__OrderFeeds)
-  - [Fulfillment by Amazon (FBA) feeds](#FeedType_Enumeration__FBAFeeds)
-  - [Business feed](#FeedType_Enumeration__BusinessFeeds)
-  - [Easy Ship feed](#FeedType_Enumeration__EasyShipFeed)
+-   <a href="#FeedType_Enumeration__ProductInventoryFeeds" class="xref">Product and inventory feeds</a>
+-   <a href="#FeedType_Enumeration__OrderFeeds" class="xref">Order feeds</a>
+-   <a href="#FeedType_Enumeration__FBAFeeds" class="xref">Fulfillment by Amazon (FBA) feeds</a>
+-   <a href="#FeedType_Enumeration__BusinessFeeds" class="xref">Business feed</a>
+-   <a href="#FeedType_Enumeration__EasyShipFeed" class="xref">Easy Ship feed</a>
 
 </div>
 
@@ -84,10 +84,10 @@ The following feed categories are supported:
 
 Each feed listed below includes a link to the appropriate XSD or Excel
 template file. You can also see
-[XSDs](https://sellercentral-europe.amazon.com/gp/help/1611) for product
-category XSDs, and [Inventory File
-Templates](https://sellercentral-europe.amazon.com/gp/help/1641) for
-inventory and product category Excel templates.
+<a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a>
+for product category XSDs, and
+<a href="https://sellercentral-europe.amazon.com/gp/help/1641" class="xref">Inventory File Templates</a>
+for inventory and product category Excel templates.
 
 <div class="tablenoborder">
 
@@ -200,10 +200,10 @@ inventory and product category Excel templates.
 
 Each feed listed below includes a link to the appropriate XSD or Excel
 template file. You can also see
-[XSDs](https://sellercentral-europe.amazon.com/gp/help/1611) in Seller
-Central help for a list of XSDs for feeds, and the [Text File
-Templates](https://sellercentral-europe.amazon.com/gp/help/13461) for
-Excel templates for feeds.
+<a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a>
+in Seller Central help for a list of XSDs for feeds, and the
+<a href="https://sellercentral-europe.amazon.com/gp/help/13461" class="xref">Text File Templates</a>
+for Excel templates for feeds.
 
 <div class="tablenoborder">
 
@@ -422,17 +422,16 @@ Excel templates for feeds.
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
-[Selling on Amazon Guide to
-XML](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf)
+<a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf" class="xref">Selling on Amazon Guide to XML</a>
 
-[SubmitFeed](../feeds/Feeds_SubmitFeed.md)
+<a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a>
 
 </div>
 

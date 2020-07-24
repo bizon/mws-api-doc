@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_Datatypes" class="nested0">
 
-# Finances Datatypes
+Finances Datatypes
+==================
 
 <div class="body">
 
@@ -45,36 +45,36 @@ API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                   | Description                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [AdjustmentEvent](Finances_Datatypes.md#AdjustmentEvent "An adjustment to your account.")                                                                                                | <span class="ph">An adjustment to your account.</span>                                                                                                                                         |
-| [AdjustmentItem](Finances_Datatypes.md#AdjustmentItem "An item of an adjustment to your account.")                                                                                       | <span class="ph">An item of an adjustment to your account.</span>                                                                                                                              |
-| [AffordabilityExpenseEvent](Finances_Datatypes.md#AffordabilityExpenseEvent "An expense related to an affordability promotion.")                                                         | <span class="ph">An expense related to an affordability promotion.</span>                                                                                                                      |
-| [AffordabilityExpenseReversalEvent](Finances_Datatypes.md#AffordabilityExpenseReversalEvent "An expense refund related to an affordability promotion.")                                  | <span class="ph">An expense refund related to an affordability promotion.</span>                                                                                                               |
-| [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.")                                                                                             | <span class="ph">A charge on the seller's account.</span>                                                                                                                                      |
-| [ChargeInstrument](Finances_Datatypes.md#ChargeInstrument "A payment instrument.")                                                                                                       | <span class="ph">A payment instrument.</span>                                                                                                                                                  |
-| [CouponPaymentEvent](Finances_Datatypes.md#CouponPaymentEvent "An event related to coupon payments.")                                                                                    | <span class="ph">An event related to coupon payments.</span>                                                                                                                                   |
-| [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")                                                                                                     | <span class="ph">A currency type and amount.</span>                                                                                                                                            |
-| [DebtRecoveryEvent](Finances_Datatypes.md#DebtRecoveryEvent "A debt payment or debt adjustment.")                                                                                        | <span class="ph">A debt payment or debt adjustment.</span>                                                                                                                                     |
-| [DebtRecoveryItem](Finances_Datatypes.md#DebtRecoveryItem "An item of a debt payment or debt adjustment.")                                                                               | <span class="ph">An item of a debt payment or debt adjustment.</span>                                                                                                                          |
-| [DirectPayment](Finances_Datatypes.md#DirectPayment "A payment made directly to a seller.")                                                                                              | <span class="ph">A payment made directly to a seller.</span>                                                                                                                                   |
-| [FBALiquidationEvent](Finances_Datatypes.md#FBALiquidationEvent "A payment event for Fulfillment by Amazon (FBA) inventory liquidation. This event is used only in the US marketplace.") | <span class="ph">A payment event for <span class="ph">Fulfillment by Amazon (FBA)</span> inventory liquidation. <span class="ph">This event is used only in the US marketplace.</span> </span> |
-| [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                                                                                                      | <span class="ph">A fee on the seller's account.</span>                                                                                                                                         |
-| [FinancialEventGroup](Finances_Datatypes.md#FinancialEventGroup "Contains information related to a financial event group.")                                                              | <span class="ph">Contains information related to a financial event group.</span>                                                                                                               |
-| [FinancialEvents](Finances_Datatypes.md#FinancialEvents "Contains all information related to a financial event.")                                                                        | <span class="ph">Contains all information related to a financial event.</span>                                                                                                                 |
-| [ImagingServicesFeeEvent](Finances_Datatypes.md#ImagingServicesFeeEvent "An event related to Amazon Imaging services.")                                                                  | <span class="ph">An event related to Amazon Imaging services.</span>                                                                                                                           |
-| [LoanServicingEvent](Finances_Datatypes.md#LoanServicingEvent "A loan advance, loan payment, or loan refund.")                                                                           | <span class="ph">A loan advance, loan payment, or loan refund.</span>                                                                                                                          |
-| [NetworkComminglingTransactionEvent](Finances_Datatypes.md#NetCoTransactionEvent "A network commingling transaction event.")                                                             | <span class="ph">A network commingling transaction event.</span>                                                                                                                               |
-| [PayWithAmazonEvent](Finances_Datatypes.md#PayWithAmazonEvent "An event related to your Pay with Amazon account.")                                                                       | <span class="ph">An event related to your Pay with Amazon account.</span>                                                                                                                      |
-| [Promotion](Finances_Datatypes.md#Promotion "A promotion applied to an item.")                                                                                                           | <span class="ph">A promotion applied to an item.</span>                                                                                                                                        |
-| [RentalTransactionEvent](Finances_Datatypes.md#RentalTransactionEvent "An event related to a rental transaction.")                                                                       | <span class="ph">An event related to a rental transaction.</span>                                                                                                                              |
-| [RetrochargeEvent](Finances_Datatypes.md#RetrochargeEvent "A retrocharge or retrocharge reversal.")                                                                                      | <span class="ph">A retrocharge or retrocharge reversal.</span>                                                                                                                                 |
-| [SAFETReimbursementEvent](Finances_Datatypes.md#SAFETReimbursementEvent "A SAFE-T claim reimbursement on your account.")                                                                 | <span class="ph">A SAFE-T claim reimbursement on your account.</span>                                                                                                                          |
-| [SAFETReimbursementItem](Finances_Datatypes.md#SAFETReimbursementItem "An item from a SAFE-T claim reimbursement.")                                                                      | <span class="ph">An item from a SAFE-T claim reimbursement.</span>                                                                                                                             |
-| [ServiceFeeEvent](Finances_Datatypes.md#ServiceFeeEvent "A service fee on your account.")                                                                                                | <span class="ph">A service fee on your account.</span>                                                                                                                                         |
-| [ShipmentItem](Finances_Datatypes.md#ShipmentItem "An item of a shipment, refund, guarantee claim, or chargeback.")                                                                      | <span class="ph">An item of a shipment, refund, guarantee claim, or chargeback.</span>                                                                                                         |
-| [SolutionProviderCreditEvent](Finances_Datatypes.md#SolutionProviderCreditEvent "A credit given to a solution provider.")                                                                | <span class="ph">A credit given to a solution provider.</span>                                                                                                                                 |
-| [TaxWithheldComponent](Finances_Datatypes.md#TaxWithheldComponent "Information about the taxes withheld.")                                                                               | <span class="ph">Information about the taxes withheld.</span>                                                                                                                                  |
+| Datatype                                                                                                                                                                                                                 | Description                                                                                                                                                                                    |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="Finances_Datatypes.md#AdjustmentEvent" class="xref" title="An adjustment to your account.">AdjustmentEvent</a>                                                                                                | <span class="ph">An adjustment to your account.</span>                                                                                                                                         |
+| <a href="Finances_Datatypes.md#AdjustmentItem" class="xref" title="An item of an adjustment to your account.">AdjustmentItem</a>                                                                                       | <span class="ph">An item of an adjustment to your account.</span>                                                                                                                              |
+| <a href="Finances_Datatypes.md#AffordabilityExpenseEvent" class="xref" title="An expense related to an affordability promotion.">AffordabilityExpenseEvent</a>                                                         | <span class="ph">An expense related to an affordability promotion.</span>                                                                                                                      |
+| <a href="Finances_Datatypes.md#AffordabilityExpenseReversalEvent" class="xref" title="An expense refund related to an affordability promotion.">AffordabilityExpenseReversalEvent</a>                                  | <span class="ph">An expense refund related to an affordability promotion.</span>                                                                                                               |
+| <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>                                                                                         | <span class="ph">A charge on the seller's account.</span>                                                                                                                                      |
+| <a href="Finances_Datatypes.md#ChargeInstrument" class="xref" title="A payment instrument.">ChargeInstrument</a>                                                                                                       | <span class="ph">A payment instrument.</span>                                                                                                                                                  |
+| <a href="Finances_Datatypes.md#CouponPaymentEvent" class="xref" title="An event related to coupon payments.">CouponPaymentEvent</a>                                                                                    | <span class="ph">An event related to coupon payments.</span>                                                                                                                                   |
+| <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                                                                                                     | <span class="ph">A currency type and amount.</span>                                                                                                                                            |
+| <a href="Finances_Datatypes.md#DebtRecoveryEvent" class="xref" title="A debt payment or debt adjustment.">DebtRecoveryEvent</a>                                                                                        | <span class="ph">A debt payment or debt adjustment.</span>                                                                                                                                     |
+| <a href="Finances_Datatypes.md#DebtRecoveryItem" class="xref" title="An item of a debt payment or debt adjustment.">DebtRecoveryItem</a>                                                                               | <span class="ph">An item of a debt payment or debt adjustment.</span>                                                                                                                          |
+| <a href="Finances_Datatypes.md#DirectPayment" class="xref" title="A payment made directly to a seller.">DirectPayment</a>                                                                                              | <span class="ph">A payment made directly to a seller.</span>                                                                                                                                   |
+| <a href="Finances_Datatypes.md#FBALiquidationEvent" class="xref" title="A payment event for Fulfillment by Amazon (FBA) inventory liquidation. This event is used only in the US marketplace.">FBALiquidationEvent</a> | <span class="ph">A payment event for <span class="ph">Fulfillment by Amazon (FBA)</span> inventory liquidation. <span class="ph">This event is used only in the US marketplace.</span> </span> |
+| <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                                                                                                  | <span class="ph">A fee on the seller's account.</span>                                                                                                                                         |
+| <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a>                                                              | <span class="ph">Contains information related to a financial event group.</span>                                                                                                               |
+| <a href="Finances_Datatypes.md#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a>                                                                        | <span class="ph">Contains all information related to a financial event.</span>                                                                                                                 |
+| <a href="Finances_Datatypes.md#ImagingServicesFeeEvent" class="xref" title="An event related to Amazon Imaging services.">ImagingServicesFeeEvent</a>                                                                  | <span class="ph">An event related to Amazon Imaging services.</span>                                                                                                                           |
+| <a href="Finances_Datatypes.md#LoanServicingEvent" class="xref" title="A loan advance, loan payment, or loan refund.">LoanServicingEvent</a>                                                                           | <span class="ph">A loan advance, loan payment, or loan refund.</span>                                                                                                                          |
+| <a href="Finances_Datatypes.md#NetCoTransactionEvent" class="xref" title="A network commingling transaction event.">NetworkComminglingTransactionEvent</a>                                                             | <span class="ph">A network commingling transaction event.</span>                                                                                                                               |
+| <a href="Finances_Datatypes.md#PayWithAmazonEvent" class="xref" title="An event related to your Pay with Amazon account.">PayWithAmazonEvent</a>                                                                       | <span class="ph">An event related to your Pay with Amazon account.</span>                                                                                                                      |
+| <a href="Finances_Datatypes.md#Promotion" class="xref" title="A promotion applied to an item.">Promotion</a>                                                                                                           | <span class="ph">A promotion applied to an item.</span>                                                                                                                                        |
+| <a href="Finances_Datatypes.md#RentalTransactionEvent" class="xref" title="An event related to a rental transaction.">RentalTransactionEvent</a>                                                                       | <span class="ph">An event related to a rental transaction.</span>                                                                                                                              |
+| <a href="Finances_Datatypes.md#RetrochargeEvent" class="xref" title="A retrocharge or retrocharge reversal.">RetrochargeEvent</a>                                                                                      | <span class="ph">A retrocharge or retrocharge reversal.</span>                                                                                                                                 |
+| <a href="Finances_Datatypes.md#SAFETReimbursementEvent" class="xref" title="A SAFE-T claim reimbursement on your account.">SAFETReimbursementEvent</a>                                                                 | <span class="ph">A SAFE-T claim reimbursement on your account.</span>                                                                                                                          |
+| <a href="Finances_Datatypes.md#SAFETReimbursementItem" class="xref" title="An item from a SAFE-T claim reimbursement.">SAFETReimbursementItem</a>                                                                      | <span class="ph">An item from a SAFE-T claim reimbursement.</span>                                                                                                                             |
+| <a href="Finances_Datatypes.md#ServiceFeeEvent" class="xref" title="A service fee on your account.">ServiceFeeEvent</a>                                                                                                | <span class="ph">A service fee on your account.</span>                                                                                                                                         |
+| <a href="Finances_Datatypes.md#ShipmentItem" class="xref" title="An item of a shipment, refund, guarantee claim, or chargeback.">ShipmentItem</a>                                                                      | <span class="ph">An item of a shipment, refund, guarantee claim, or chargeback.</span>                                                                                                         |
+| <a href="Finances_Datatypes.md#SolutionProviderCreditEvent" class="xref" title="A credit given to a solution provider.">SolutionProviderCreditEvent</a>                                                                | <span class="ph">A credit given to a solution provider.</span>                                                                                                                                 |
+| <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a>                                                                               | <span class="ph">Information about the taxes withheld.</span>                                                                                                                                  |
 
 </div>
 
@@ -82,7 +82,8 @@ API section</span>:
 
 <div id="AdjustmentEvent" class="topic nested1">
 
-## AdjustmentEvent
+AdjustmentEvent
+---------------
 
 <div class="body">
 
@@ -92,8 +93,8 @@ API section</span>:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AdjustmentEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">AdjustmentEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -161,7 +162,8 @@ The following table shows the elements of the
 
 <div id="AdjustmentItem" class="topic nested1">
 
-## AdjustmentItem
+AdjustmentItem
+--------------
 
 <div class="body">
 
@@ -171,20 +173,20 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AdjustmentItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">AdjustmentItem</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                                                                                                           | Required | Values                                                                                       |
-| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">Quantity</span>           | Represents the number of units in the seller's inventory when the <span class="keyword parmname">AdustmentType</span> is `FBAInventoryReimbursement`. | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">PerUnitAmount</span>      | The per unit value of the item.                                                                                                                       | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">TotalAmount</span>        | The total value of the item.                                                                                                                          | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">SellerSKU</span>          | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>.   | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">FnSKU</span>              | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.                 | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">ProductDescription</span> | A short description of the item.                                                                                                                      | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">ASIN</span>               | The ASIN of the item.                                                                                                                                 | No       | <span class="ph">Type: xs:string</span>                                                      |
+| Name                                                     | Description                                                                                                                                           | Required | Values                                                                                                                     |
+|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">Quantity</span>           | Represents the number of units in the seller's inventory when the <span class="keyword parmname">AdustmentType</span> is `FBAInventoryReimbursement`. | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">PerUnitAmount</span>      | The per unit value of the item.                                                                                                                       | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
+| <span class="keyword parmname">TotalAmount</span>        | The total value of the item.                                                                                                                          | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
+| <span class="keyword parmname">SellerSKU</span>          | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>.   | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">FnSKU</span>              | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.                 | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">ProductDescription</span> | A short description of the item.                                                                                                                      | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">ASIN</span>               | The ASIN of the item.                                                                                                                                 | No       | <span class="ph">Type: xs:string</span>                                                                                    |
 
 </div>
 
@@ -196,7 +198,8 @@ The following table shows the elements of the
 
 <div id="AffordabilityExpenseEvent" class="topic nested1">
 
-## AffordabilityExpenseEvent
+AffordabilityExpenseEvent
+-------------------------
 
 <div class="body">
 
@@ -207,9 +210,8 @@ promotion.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AffordabilityExpenseEvent</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword parmname">AffordabilityExpenseEvent</span> datatype:
 
 </div>
 
@@ -303,7 +305,8 @@ datatype:
 
 <div id="AffordabilityExpenseReversalEvent" class="topic nested1">
 
-## AffordabilityExpenseReversalEvent
+AffordabilityExpenseReversalEvent
+---------------------------------
 
 <div class="body">
 
@@ -314,8 +317,8 @@ promotion.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AffordabilityExpenseReversalEvent</span>
+The following table shows the elements of the <span
+class="keyword parmname">AffordabilityExpenseReversalEvent</span>
 datatype:
 
 <div class="tablenoborder">
@@ -410,7 +413,8 @@ datatype:
 
 <div id="ChargeComponent" class="topic nested1">
 
-## ChargeComponent
+ChargeComponent
+---------------
 
 <div class="body">
 
@@ -420,8 +424,8 @@ datatype:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ChargeComponent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ChargeComponent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -500,7 +504,8 @@ The following table shows the elements of the
 
 <div id="ChargeInstrument" class="topic nested1">
 
-## ChargeInstrument
+ChargeInstrument
+----------------
 
 <div class="body">
 
@@ -510,16 +515,16 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ChargeInstrument</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ChargeInstrument</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                              | Description                                                  | Required | Values                                                                                       |
-| ------------------------------------------------- | ------------------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">Description</span> | A short description of the charge instrument.                | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">Tail</span>        | The account tail (trailing digits) of the charge instrument. | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">Amount</span>      | The amount charged to this charge instrument.                | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| Name                                              | Description                                                  | Required | Values                                                                                                                     |
+|---------------------------------------------------|--------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">Description</span> | A short description of the charge instrument.                | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">Tail</span>        | The account tail (trailing digits) of the charge instrument. | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">Amount</span>      | The amount charged to this charge instrument.                | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
 
 </div>
 
@@ -531,7 +536,8 @@ The following table shows the elements of the
 
 <div id="CouponPaymentEvent" class="topic nested1">
 
-## CouponPaymentEvent
+CouponPaymentEvent
+------------------
 
 <div class="body">
 
@@ -541,21 +547,21 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">CouponPaymentEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">CouponPaymentEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                          | Description                                                                                                                        | Required | Values                                                                                         |
-| ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PostedDate</span>              | <span class="ph">The date when the financial event was posted.</span>                                                              | No       | <span class="ph">Type: xs:dateTime</span>                                                      |
-| <span class="keyword parmname">CouponId</span>                | A coupon identifier.                                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                        |
-| <span class="keyword parmname">SellerCouponDescription</span> | The description provided by the seller when they created the coupon.                                                               | No       | <span class="ph">Type: xs:string</span>                                                        |
-| <span class="keyword parmname">ClipOrRedemptionCount</span>   | The number of coupon clips or redemptions.                                                                                         | No       | <span class="ph">Type: xs:int</span>                                                           |
-| <span class="keyword parmname">PaymentEventId</span>          | A payment event identifier.                                                                                                        | No       | <span class="ph">Type: xs:string</span>                                                        |
-| <span class="keyword parmname">FeeComponent</span>            | A fee associated with the event.                                                                                                   | No       | [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")          |
-| <span class="keyword parmname">ChargeComponent</span>         | A charge associated with the event.                                                                                                | No       | [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.") |
-| <span class="keyword parmname">TotalAmount</span>             | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")   |
+| Name                                                          | Description                                                                                                                        | Required | Values                                                                                                                           |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PostedDate</span>              | <span class="ph">The date when the financial event was posted.</span>                                                              | No       | <span class="ph">Type: xs:dateTime</span>                                                                                        |
+| <span class="keyword parmname">CouponId</span>                | A coupon identifier.                                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                                                          |
+| <span class="keyword parmname">SellerCouponDescription</span> | The description provided by the seller when they created the coupon.                                                               | No       | <span class="ph">Type: xs:string</span>                                                                                          |
+| <span class="keyword parmname">ClipOrRedemptionCount</span>   | The number of coupon clips or redemptions.                                                                                         | No       | <span class="ph">Type: xs:int</span>                                                                                             |
+| <span class="keyword parmname">PaymentEventId</span>          | A payment event identifier.                                                                                                        | No       | <span class="ph">Type: xs:string</span>                                                                                          |
+| <span class="keyword parmname">FeeComponent</span>            | A fee associated with the event.                                                                                                   | No       | <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>          |
+| <span class="keyword parmname">ChargeComponent</span>         | A charge associated with the event.                                                                                                | No       | <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a> |
+| <span class="keyword parmname">TotalAmount</span>             | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>       |
 
 </div>
 
@@ -567,7 +573,8 @@ The following table shows the elements of the
 
 <div id="CurrencyAmount" class="topic nested1">
 
-## CurrencyAmount
+CurrencyAmount
+--------------
 
 <div class="body">
 
@@ -577,15 +584,15 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">CurrencyAmount</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">CurrencyAmount</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                 | Description                                                                                                 | Required | Values                                   |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- |
-| <span class="keyword parmname">CurrencyCode</span>   | The three-digit currency code in <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.md) </span>. | No       | <span class="ph">Type: xs:string</span>  |
-| <span class="keyword parmname">CurrencyAmount</span> | The currency amount.                                                                                        | No       | <span class="ph">Type: xs:decimal</span> |
+| Name                                                 | Description                                                                                                                         | Required | Values                                   |
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------|
+| <span class="keyword parmname">CurrencyCode</span>   | The three-digit currency code in <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>. | No       | <span class="ph">Type: xs:string</span>  |
+| <span class="keyword parmname">CurrencyAmount</span> | The currency amount.                                                                                                                | No       | <span class="ph">Type: xs:decimal</span> |
 
 </div>
 
@@ -597,7 +604,8 @@ The following table shows the elements of the
 
 <div id="DebtRecoveryEvent" class="topic nested1">
 
-## DebtRecoveryEvent
+DebtRecoveryEvent
+-----------------
 
 <div class="body">
 
@@ -607,8 +615,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">DebtRecoveryEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">DebtRecoveryEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -677,7 +685,8 @@ The following table shows the elements of the
 
 <div id="DebtRecoveryItem" class="topic nested1">
 
-## DebtRecoveryItem
+DebtRecoveryItem
+----------------
 
 <div class="body">
 
@@ -687,17 +696,17 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">DebtRecoveryItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">DebtRecoveryItem</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                 | Description                                                                                                                                                   | Required | Values                                                                                       |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">RecoveryAmount</span> | The amount applied for the recovery item.                                                                                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">OriginalAmount</span> | The original debt amount.                                                                                                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">GroupBeginDate</span> | The beginning date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.md)</span>. | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
-| <span class="keyword parmname">GroupEndDate</span>   | The ending date of the financial event group that contains the debt. In <span class="ph">[ISO 8601 date time format](../dev_guide/DG_ISO8601.md)</span>.    | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
+| Name                                                 | Description                                                                                                                                                                           | Required | Values                                                                                                                     |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">RecoveryAmount</span> | The amount applied for the recovery item.                                                                                                                                             | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
+| <span class="keyword parmname">OriginalAmount</span> | The original debt amount.                                                                                                                                                             | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
+| <span class="keyword parmname">GroupBeginDate</span> | The beginning date of the financial event group that contains the debt. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. | No       | <span class="ph">Type: xs:dateTime</span>                                                                                  |
+| <span class="keyword parmname">GroupEndDate</span>   | The ending date of the financial event group that contains the debt. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.    | No       | <span class="ph">Type: xs:dateTime</span>                                                                                  |
 
 </div>
 
@@ -709,7 +718,8 @@ The following table shows the elements of the
 
 <div id="DirectPayment" class="topic nested1">
 
-## DirectPayment
+DirectPayment
+-------------
 
 <div class="body">
 
@@ -719,8 +729,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">DirectPayment</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">DirectPayment</span> datatype:
 
 <div class="tablenoborder">
 
@@ -774,7 +784,8 @@ The following table shows the elements of the
 
 <div id="FBALiquidationEvent" class="topic nested1">
 
-## FBALiquidationEvent
+FBALiquidationEvent
+-------------------
 
 <div class="body">
 
@@ -786,17 +797,17 @@ is used only in the US marketplace.</span> </span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FBALiquidationEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FBALiquidationEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                            | Description                                                                                                                                                     | Required | Values                                                                                       |
-| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PostedDate</span>                | <span class="ph">The date when the financial event was posted.</span>                                                                                           | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
-| <span class="keyword parmname">OriginalRemovalOrderId</span>    | The identifier for the original removal order.                                                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">LiquidationProceedsAmount</span> | The amount paid by the liquidator for the seller’s inventory. The seller receives this amount minus <span class="keyword parmname">LiquidationFeeAmount.</span> | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
-| <span class="keyword parmname">LiquidationFeeAmount</span>      | The fee charged to the seller by Amazon for liquidating the seller's <span class="ph">FBA</span> inventory.                                                     | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| Name                                                            | Description                                                                                                                                                     | Required | Values                                                                                                                     |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PostedDate</span>                | <span class="ph">The date when the financial event was posted.</span>                                                                                           | No       | <span class="ph">Type: xs:dateTime</span>                                                                                  |
+| <span class="keyword parmname">OriginalRemovalOrderId</span>    | The identifier for the original removal order.                                                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">LiquidationProceedsAmount</span> | The amount paid by the liquidator for the seller’s inventory. The seller receives this amount minus <span class="keyword parmname">LiquidationFeeAmount.</span> | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
+| <span class="keyword parmname">LiquidationFeeAmount</span>      | The fee charged to the seller by Amazon for liquidating the seller's <span class="ph">FBA</span> inventory.                                                     | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
 
 </div>
 
@@ -808,7 +819,8 @@ The following table shows the elements of the
 
 <div id="FeeComponent" class="topic nested1">
 
-## FeeComponent
+FeeComponent
+------------
 
 <div class="body">
 
@@ -818,8 +830,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FeeComponent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FeeComponent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -865,7 +877,8 @@ The following table shows the elements of the
 
 <div id="FinancialEventGroup" class="topic nested1">
 
-## FinancialEventGroup
+FinancialEventGroup
+-------------------
 
 <div class="body">
 
@@ -876,8 +889,8 @@ group.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FinancialEventGroup</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FinancialEventGroup</span> datatype:
 
 <div class="tablenoborder">
 
@@ -981,7 +994,8 @@ The following table shows the elements of the
 
 <div id="FinancialEvents" class="topic nested1">
 
-## FinancialEvents
+FinancialEvents
+---------------
 
 <div class="body">
 
@@ -992,36 +1006,36 @@ event.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FinancialEvents</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FinancialEvents</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                                         | Description                                                                 | Required | Values                                                                                                                                                                                                                |
-| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ShipmentEventList</span>                      | A list of shipment events.                                                  | No       | Type: List of [ShipmentEvent](Finances_Datatypes.md#ShipmentEvent "A shipment, refund, guarantee claim, or chargeback.")                                                                                            |
-| <span class="keyword parmname">RefundEventList</span>                        | A list of refund events.                                                    | No       | Type: List of [ShipmentEvent](Finances_Datatypes.md#ShipmentEvent "A shipment, refund, guarantee claim, or chargeback.")                                                                                            |
-| <span class="keyword parmname">GuaranteeClaimEventList</span>                | A list of guarantee claim events.                                           | No       | Type: List of [ShipmentEvent](Finances_Datatypes.md#ShipmentEvent "A shipment, refund, guarantee claim, or chargeback.")                                                                                            |
-| <span class="keyword parmname">ChargebackEventList</span>                    | A list of chargeback events.                                                | No       | Type: List of [ShipmentEvent](Finances_Datatypes.md#ShipmentEvent "A shipment, refund, guarantee claim, or chargeback.")                                                                                            |
-| <span class="keyword parmname">PayWithAmazonEventList</span>                 | A list of Pay with Amazon events.                                           | No       | Type: List of [PayWithAmazonEvent](Finances_Datatypes.md#PayWithAmazonEvent "An event related to your Pay with Amazon account.")                                                                                    |
-| <span class="keyword parmname">ServiceProviderCreditEventList</span>         | A list of service provider credit events.                                   | No       | Type: List of [SolutionProviderCreditEvent](Finances_Datatypes.md#SolutionProviderCreditEvent "A credit given to a solution provider.")                                                                             |
-| <span class="keyword parmname">RetrochargeEventList</span>                   | A list of retrocharge events.                                               | No       | Type: List of [RetrochargeEvent](Finances_Datatypes.md#RetrochargeEvent "A retrocharge or retrocharge reversal.")                                                                                                   |
-| <span class="keyword parmname">RentalTransactionEventList</span>             | A list of rental transaction events.                                        | No       | Type: List of [RentalTransactionEvent](Finances_Datatypes.md#RentalTransactionEvent "An event related to a rental transaction.")                                                                                    |
-| <span class="keyword parmname">PerformanceBondRefundEventList</span>         | A list of performance bond refund events.                                   | No       | Type: List of <span class="xref"></span>                                                                                                                                                                              |
-| <span class="keyword parmname">ProductAdsPaymentEventList</span>             | A list of Sponsored Products payment events.                                | No       | Type: List of [ProductAdsPaymentEvent](Finances_Datatypes.md#ProductAdsPaymentEventList "A Sponsored Products payment event.")                                                                                      |
-| <span class="keyword parmname">ServiceFeeEventList</span>                    | A list of service fee events.                                               | No       | Type: List of [ServiceFeeEvent](Finances_Datatypes.md#ServiceFeeEvent "A service fee on your account.")                                                                                                             |
-| <span class="keyword parmname">DebtRecoveryEventList</span>                  | A list of debt recovery events.                                             | No       | Type: List of [DebtRecoveryEvent](Finances_Datatypes.md#DebtRecoveryEvent "A debt payment or debt adjustment.")                                                                                                     |
-| <span class="keyword parmname">LoanServicingEventList</span>                 | A list of loan servicing events.                                            | No       | Type: List of [LoanServicingEvent](Finances_Datatypes.md#LoanServicingEvent "A loan advance, loan payment, or loan refund.")                                                                                        |
-| <span class="keyword parmname">AdjustmentEventList</span>                    | A list of adjustment events.                                                | No       | Type: List of [AdjustmentEvent](Finances_Datatypes.md#AdjustmentEvent "An adjustment to your account.")                                                                                                             |
-| <span class="keyword parmname">CouponPaymentEventList</span>                 | A list of coupon payment events.                                            | No       | Type: List of [CouponPaymentEvent](Finances_Datatypes.md#CouponPaymentEvent "An event related to coupon payments.")                                                                                                 |
-| <span class="keyword parmname">SAFETReimbursementEventList</span>            | A list of SAFE-T reimbursement events.                                      | No       | Type: List of [SAFETReimbursementEvent](Finances_Datatypes.md#SAFETReimbursementEvent "A SAFE-T claim reimbursement on your account.")                                                                              |
-| <span class="keyword parmname">SellerReviewEnrollmentPaymentEventList</span> | A list of fee payment events for the Early Reviewer Program.                | No       | Type: List of [SellerReviewEnrollmentPaymentEvent](Finances_Datatypes.md#SellerReviewEnrollmentPaymentEvent "A fee payment event for the Early Reviewer Program. This element is used only in the US marketplace.") |
-| <span class="keyword parmname">FBALiquidationEventList</span>                | A list of <span class="ph">Fulfillment by Amazon</span> liquidation events. | No       | Type: List of [FBALiquidationEvent](Finances_Datatypes.md#FBALiquidationEvent "A payment event for Fulfillment by Amazon (FBA) inventory liquidation. This event is used only in the US marketplace.")              |
-| <span class="keyword parmname">ImagingServicesFeeEventList</span>            | A list of Amazon Imaging service events.                                    | No       | Type: List of [ImagingServicesFeeEvent](Finances_Datatypes.md#ImagingServicesFeeEvent "An event related to Amazon Imaging services.")                                                                               |
-| <span class="keyword parmname">AffordabilityExpenseEventList</span>          | A list of events related to affordability promotion expenses.               | No       | Type: List of [AffordabilityExpenseEvent](Finances_Datatypes.md#AffordabilityExpenseEvent "An expense related to an affordability promotion.")                                                                      |
-| <span class="keyword parmname">AffordabilityExpenseReversalEventList</span>  | A list of events related to affordability promotion expense reversals.      | No       | Type: List of [AffordabilityExpenseReversalEvent](Finances_Datatypes.md#AffordabilityExpenseReversalEvent "An expense refund related to an affordability promotion.")                                               |
-| <span class="keyword parmname">NetworkComminglingTransactionEventList</span> | A list of network commingling transaction events.                           | No       | Type: List of [NetworkComminglingTransactionEvent](Finances_Datatypes.md#NetCoTransactionEvent "A network commingling transaction event.")                                                                          |
-| <span class="keyword parmname">TDSReimbursementEventList</span>              | A list of TDS (Tax Deduction at Source) claim reimbursement events.         | No       | Type: List of [TDSReimbursementEvent](Finances_Datatypes.md#TDSReimbursementEvent "A TDS (Tax Deduction at Source) claim reimbursement on the seller's account.")                                                   |
+| Name                                                                         | Description                                                                 | Required | Values                                                                                                                                                                                                                                              |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ShipmentEventList</span>                      | A list of shipment events.                                                  | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentEvent" class="xref" title="A shipment, refund, guarantee claim, or chargeback.">ShipmentEvent</a>                                                                                            |
+| <span class="keyword parmname">RefundEventList</span>                        | A list of refund events.                                                    | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentEvent" class="xref" title="A shipment, refund, guarantee claim, or chargeback.">ShipmentEvent</a>                                                                                            |
+| <span class="keyword parmname">GuaranteeClaimEventList</span>                | A list of guarantee claim events.                                           | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentEvent" class="xref" title="A shipment, refund, guarantee claim, or chargeback.">ShipmentEvent</a>                                                                                            |
+| <span class="keyword parmname">ChargebackEventList</span>                    | A list of chargeback events.                                                | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentEvent" class="xref" title="A shipment, refund, guarantee claim, or chargeback.">ShipmentEvent</a>                                                                                            |
+| <span class="keyword parmname">PayWithAmazonEventList</span>                 | A list of Pay with Amazon events.                                           | No       | Type: List of <a href="Finances_Datatypes.md#PayWithAmazonEvent" class="xref" title="An event related to your Pay with Amazon account.">PayWithAmazonEvent</a>                                                                                    |
+| <span class="keyword parmname">ServiceProviderCreditEventList</span>         | A list of service provider credit events.                                   | No       | Type: List of <a href="Finances_Datatypes.md#SolutionProviderCreditEvent" class="xref" title="A credit given to a solution provider.">SolutionProviderCreditEvent</a>                                                                             |
+| <span class="keyword parmname">RetrochargeEventList</span>                   | A list of retrocharge events.                                               | No       | Type: List of <a href="Finances_Datatypes.md#RetrochargeEvent" class="xref" title="A retrocharge or retrocharge reversal.">RetrochargeEvent</a>                                                                                                   |
+| <span class="keyword parmname">RentalTransactionEventList</span>             | A list of rental transaction events.                                        | No       | Type: List of <a href="Finances_Datatypes.md#RentalTransactionEvent" class="xref" title="An event related to a rental transaction.">RentalTransactionEvent</a>                                                                                    |
+| <span class="keyword parmname">PerformanceBondRefundEventList</span>         | A list of performance bond refund events.                                   | No       | Type: List of <span class="xref"></span>                                                                                                                                                                                                            |
+| <span class="keyword parmname">ProductAdsPaymentEventList</span>             | A list of Sponsored Products payment events.                                | No       | Type: List of <a href="Finances_Datatypes.md#ProductAdsPaymentEventList" class="xref" title="A Sponsored Products payment event.">ProductAdsPaymentEvent</a>                                                                                      |
+| <span class="keyword parmname">ServiceFeeEventList</span>                    | A list of service fee events.                                               | No       | Type: List of <a href="Finances_Datatypes.md#ServiceFeeEvent" class="xref" title="A service fee on your account.">ServiceFeeEvent</a>                                                                                                             |
+| <span class="keyword parmname">DebtRecoveryEventList</span>                  | A list of debt recovery events.                                             | No       | Type: List of <a href="Finances_Datatypes.md#DebtRecoveryEvent" class="xref" title="A debt payment or debt adjustment.">DebtRecoveryEvent</a>                                                                                                     |
+| <span class="keyword parmname">LoanServicingEventList</span>                 | A list of loan servicing events.                                            | No       | Type: List of <a href="Finances_Datatypes.md#LoanServicingEvent" class="xref" title="A loan advance, loan payment, or loan refund.">LoanServicingEvent</a>                                                                                        |
+| <span class="keyword parmname">AdjustmentEventList</span>                    | A list of adjustment events.                                                | No       | Type: List of <a href="Finances_Datatypes.md#AdjustmentEvent" class="xref" title="An adjustment to your account.">AdjustmentEvent</a>                                                                                                             |
+| <span class="keyword parmname">CouponPaymentEventList</span>                 | A list of coupon payment events.                                            | No       | Type: List of <a href="Finances_Datatypes.md#CouponPaymentEvent" class="xref" title="An event related to coupon payments.">CouponPaymentEvent</a>                                                                                                 |
+| <span class="keyword parmname">SAFETReimbursementEventList</span>            | A list of SAFE-T reimbursement events.                                      | No       | Type: List of <a href="Finances_Datatypes.md#SAFETReimbursementEvent" class="xref" title="A SAFE-T claim reimbursement on your account.">SAFETReimbursementEvent</a>                                                                              |
+| <span class="keyword parmname">SellerReviewEnrollmentPaymentEventList</span> | A list of fee payment events for the Early Reviewer Program.                | No       | Type: List of <a href="Finances_Datatypes.md#SellerReviewEnrollmentPaymentEvent" class="xref" title="A fee payment event for the Early Reviewer Program. This element is used only in the US marketplace.">SellerReviewEnrollmentPaymentEvent</a> |
+| <span class="keyword parmname">FBALiquidationEventList</span>                | A list of <span class="ph">Fulfillment by Amazon</span> liquidation events. | No       | Type: List of <a href="Finances_Datatypes.md#FBALiquidationEvent" class="xref" title="A payment event for Fulfillment by Amazon (FBA) inventory liquidation. This event is used only in the US marketplace.">FBALiquidationEvent</a>              |
+| <span class="keyword parmname">ImagingServicesFeeEventList</span>            | A list of Amazon Imaging service events.                                    | No       | Type: List of <a href="Finances_Datatypes.md#ImagingServicesFeeEvent" class="xref" title="An event related to Amazon Imaging services.">ImagingServicesFeeEvent</a>                                                                               |
+| <span class="keyword parmname">AffordabilityExpenseEventList</span>          | A list of events related to affordability promotion expenses.               | No       | Type: List of <a href="Finances_Datatypes.md#AffordabilityExpenseEvent" class="xref" title="An expense related to an affordability promotion.">AffordabilityExpenseEvent</a>                                                                      |
+| <span class="keyword parmname">AffordabilityExpenseReversalEventList</span>  | A list of events related to affordability promotion expense reversals.      | No       | Type: List of <a href="Finances_Datatypes.md#AffordabilityExpenseReversalEvent" class="xref" title="An expense refund related to an affordability promotion.">AffordabilityExpenseReversalEvent</a>                                               |
+| <span class="keyword parmname">NetworkComminglingTransactionEventList</span> | A list of network commingling transaction events.                           | No       | Type: List of <a href="Finances_Datatypes.md#NetCoTransactionEvent" class="xref" title="A network commingling transaction event.">NetworkComminglingTransactionEvent</a>                                                                          |
+| <span class="keyword parmname">TDSReimbursementEventList</span>              | A list of TDS (Tax Deduction at Source) claim reimbursement events.         | No       | Type: List of <a href="Finances_Datatypes.md#TDSReimbursementEvent" class="xref" title="A TDS (Tax Deduction at Source) claim reimbursement on the seller&#39;s account.">TDSReimbursementEvent</a>                                               |
 
 </div>
 
@@ -1033,7 +1047,8 @@ The following table shows the elements of the
 
 <div id="ImagingServicesFeeEvent" class="topic nested1">
 
-## ImagingServicesFeeEvent
+ImagingServicesFeeEvent
+-----------------------
 
 <div class="body">
 
@@ -1043,17 +1058,17 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ImagingServicesFeeEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ImagingServicesFeeEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                              | Description                                                                                                                      | Required | Values                                                                                              |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ImagingRequestBillingItemID</span> | The identifier for the imaging services request.                                                                                 | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">ASIN</span>                        | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item that the imaging service was requested for.</span> | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">PostedDate</span>                  | <span class="ph">The date when the financial event was posted.</span>                                                            | No       | <span class="ph">Type: xs:dateTime</span>                                                           |
-| <span class="keyword parmname">FeeList</span>                     | A list of fees associated with the event.                                                                                        | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.") |
+| Name                                                              | Description                                                                                                                      | Required | Values                                                                                                                                |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ImagingRequestBillingItemID</span> | The identifier for the imaging services request.                                                                                 | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">ASIN</span>                        | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item that the imaging service was requested for.</span> | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">PostedDate</span>                  | <span class="ph">The date when the financial event was posted.</span>                                                            | No       | <span class="ph">Type: xs:dateTime</span>                                                                                             |
+| <span class="keyword parmname">FeeList</span>                     | A list of fees associated with the event.                                                                                        | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a> |
 
 </div>
 
@@ -1065,7 +1080,8 @@ The following table shows the elements of the
 
 <div id="LoanServicingEvent" class="topic nested1">
 
-## LoanServicingEvent
+LoanServicingEvent
+------------------
 
 <div class="body">
 
@@ -1075,8 +1091,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">LoanServicingEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">LoanServicingEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1127,7 +1143,8 @@ The following table shows the elements of the
 
 <div id="NetCoTransactionEvent" class="topic nested1">
 
-## NetworkComminglingTransactionEvent
+NetworkComminglingTransactionEvent
+----------------------------------
 
 <div class="body">
 
@@ -1137,8 +1154,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">NetworkComminglingTransactionEvent</span>
+The following table shows the elements of the <span
+class="keyword parmname">NetworkComminglingTransactionEvent</span>
 datatype:
 
 <div class="tablenoborder">
@@ -1225,7 +1242,8 @@ datatype:
 
 <div id="PayWithAmazonEvent" class="topic nested1">
 
-## PayWithAmazonEvent
+PayWithAmazonEvent
+------------------
 
 <div class="body">
 
@@ -1236,8 +1254,8 @@ account.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">PayWithAmazonEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">PayWithAmazonEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1343,7 +1361,8 @@ The following table shows the elements of the
 
 <div id="ProductAdsPaymentEventList" class="topic nested1">
 
-## ProductAdsPaymentEvent
+ProductAdsPaymentEvent
+----------------------
 
 <div class="body">
 
@@ -1353,8 +1372,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ProductAdsPaymentEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ProductAdsPaymentEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1428,7 +1447,8 @@ The following table shows the elements of the
 
 <div id="Promotion" class="topic nested1">
 
-## Promotion
+Promotion
+---------
 
 <div class="body">
 
@@ -1438,16 +1458,16 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Promotion</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Promotion</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                  | Description                                             | Required | Values                                                                                       |
-| ----------------------------------------------------- | ------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PromotionType</span>   | The type of promotion.                                  | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">PromotionId</span>     | The seller-specified identifier for the promotion.      | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">PromotionAmount</span> | The amount of promotional discount applied to the item. | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| Name                                                  | Description                                             | Required | Values                                                                                                                     |
+|-------------------------------------------------------|---------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PromotionType</span>   | The type of promotion.                                  | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">PromotionId</span>     | The seller-specified identifier for the promotion.      | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">PromotionAmount</span> | The amount of promotional discount applied to the item. | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
 
 </div>
 
@@ -1459,7 +1479,8 @@ The following table shows the elements of the
 
 <div id="RentalTransactionEvent" class="topic nested1">
 
-## RentalTransactionEvent
+RentalTransactionEvent
+----------------------
 
 <div class="body">
 
@@ -1469,8 +1490,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">RentalTransactionEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">RentalTransactionEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1573,7 +1594,8 @@ The following table shows the elements of the
 
 <div id="RetrochargeEvent" class="topic nested1">
 
-## RetrochargeEvent
+RetrochargeEvent
+----------------
 
 <div class="body">
 
@@ -1583,8 +1605,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">RetrochargeEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">RetrochargeEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1664,7 +1686,8 @@ The following table shows the elements of the
 
 <div id="SAFETReimbursementEvent" class="topic nested1">
 
-## SAFETReimbursementEvent
+SAFETReimbursementEvent
+-----------------------
 
 <div class="body">
 
@@ -1674,17 +1697,17 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">SAFETReimbursementEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">SAFETReimbursementEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                             | Description                                                           | Required | Values                                                                                                                              |
-| ---------------------------------------------------------------- | --------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PostedDate</span>                 | <span class="ph">The date when the financial event was posted.</span> | No       | <span class="ph">Type: xs:dateTime</span>                                                                                           |
-| <span class="keyword parmname">SAFETClaimId</span>               | A SAFE-T claim identifier.                                            | No       | <span class="ph">Type: xs:string</span>                                                                                             |
-| <span class="keyword parmname">ReimbursedAmount</span>           | The amount of the reimbursement.                                      | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")                                        |
-| <span class="keyword parmname">SAFETReimbursementItemList</span> | A list of SAFE-T reimbursement items.                                 | No       | Type: List of [SAFETReimbursementItem](Finances_Datatypes.md#SAFETReimbursementItem "An item from a SAFE-T claim reimbursement.") |
+| Name                                                             | Description                                                           | Required | Values                                                                                                                                                            |
+|------------------------------------------------------------------|-----------------------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PostedDate</span>                 | <span class="ph">The date when the financial event was posted.</span> | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                                         |
+| <span class="keyword parmname">SAFETClaimId</span>               | A SAFE-T claim identifier.                                            | No       | <span class="ph">Type: xs:string</span>                                                                                                                           |
+| <span class="keyword parmname">ReimbursedAmount</span>           | The amount of the reimbursement.                                      | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                                        |
+| <span class="keyword parmname">SAFETReimbursementItemList</span> | A list of SAFE-T reimbursement items.                                 | No       | Type: List of <a href="Finances_Datatypes.md#SAFETReimbursementItem" class="xref" title="An item from a SAFE-T claim reimbursement.">SAFETReimbursementItem</a> |
 
 </div>
 
@@ -1696,7 +1719,8 @@ The following table shows the elements of the
 
 <div id="SAFETReimbursementItem" class="topic nested1">
 
-## SAFETReimbursementItem
+SAFETReimbursementItem
+----------------------
 
 <div class="body">
 
@@ -1706,14 +1730,14 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">SAFETReimbursementItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">SAFETReimbursementItem</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                 | Description                                               | Required | Values                                                                                                       |
-| ---------------------------------------------------- | --------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ItemChargeList</span> | A list of charges associated with the reimbursement item. | No       | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.") |
+| Name                                                 | Description                                               | Required | Values                                                                                                                                         |
+|------------------------------------------------------|-----------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ItemChargeList</span> | A list of charges associated with the reimbursement item. | No       | Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a> |
 
 </div>
 
@@ -1725,7 +1749,8 @@ The following table shows the elements of the
 
 <div id="SellerReviewEnrollmentPaymentEvent" class="topic nested1">
 
-## SellerReviewEnrollmentPaymentEvent
+SellerReviewEnrollmentPaymentEvent
+----------------------------------
 
 <div class="body">
 
@@ -1737,20 +1762,20 @@ marketplace.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">SellerReviewEnrollmentPaymentEvent</span>
+The following table shows the elements of the <span
+class="keyword parmname">SellerReviewEnrollmentPaymentEvent</span>
 datatype:
 
 <div class="tablenoborder">
 
-| Name                                                  | Description                                                                                                                        | Required | Values                                                                                               |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PostedDate</span>      | <span class="ph">The date when the financial event was posted.</span>                                                              | No.      | <span class="ph">Type: xs:dateTime</span>                                                            |
-| <span class="keyword parmname">EnrollmentId</span>    | An enrollment identifier.                                                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                              |
-| <span class="keyword parmname">ParentASIN</span>      | The ASIN that was enrolled in the Early Reviewer Program.                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                              |
-| <span class="keyword parmname">FeeComponent</span>    | A fee associated with the event.                                                                                                   | No.      | Type: [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")          |
-| <span class="keyword parmname">ChargeComponent</span> | A charge associated with the event.                                                                                                | No.      | Type: [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.") |
-| <span class="keyword parmname">TotalAmount</span>     | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No.      | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")         |
+| Name                                                  | Description                                                                                                                        | Required | Values                                                                                                                                 |
+|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PostedDate</span>      | <span class="ph">The date when the financial event was posted.</span>                                                              | No.      | <span class="ph">Type: xs:dateTime</span>                                                                                              |
+| <span class="keyword parmname">EnrollmentId</span>    | An enrollment identifier.                                                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                                                                |
+| <span class="keyword parmname">ParentASIN</span>      | The ASIN that was enrolled in the Early Reviewer Program.                                                                          | No.      | <span class="ph">Type: xs:string</span>                                                                                                |
+| <span class="keyword parmname">FeeComponent</span>    | A fee associated with the event.                                                                                                   | No.      | Type: <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>          |
+| <span class="keyword parmname">ChargeComponent</span> | A charge associated with the event.                                                                                                | No.      | Type: <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a> |
+| <span class="keyword parmname">TotalAmount</span>     | The <span class="keyword parmname">FeeComponent</span> value plus the <span class="keyword parmname">ChargeComponent</span> value. | No.      | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>             |
 
 </div>
 
@@ -1762,7 +1787,8 @@ datatype:
 
 <div id="ServiceFeeEvent" class="topic nested1">
 
-## ServiceFeeEvent
+ServiceFeeEvent
+---------------
 
 <div class="body">
 
@@ -1772,20 +1798,20 @@ datatype:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ServiceFeeEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ServiceFeeEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                 | Description                                                                                                                                         | Required | Values                                                                                              |
-| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">AmazonOrderId</span>  | <span class="ph">An Amazon-defined identifier for an order.</span>                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">FeeReason</span>      | A short description of the service fee reason.                                                                                                      | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">FeeList</span>        | A list of fee components associated with the service fee.                                                                                           | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.") |
-| <span class="keyword parmname">SellerSKU</span>      | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>. | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">FnSKU</span>          | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.               | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">FeeDescription</span> | A short description of the service fee event.                                                                                                       | No       | <span class="ph">Type: xs:string</span>                                                             |
-| <span class="keyword parmname">ASIN</span>           | The ASIN of the item.                                                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                             |
+| Name                                                 | Description                                                                                                                                         | Required | Values                                                                                                                                |
+|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">AmazonOrderId</span>  | <span class="ph">An Amazon-defined identifier for an order.</span>                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">FeeReason</span>      | A short description of the service fee reason.                                                                                                      | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">FeeList</span>        | A list of fee components associated with the service fee.                                                                                           | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a> |
+| <span class="keyword parmname">SellerSKU</span>      | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>. | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">FnSKU</span>          | A unique identifier assigned by Amazon to products stored in and fulfilled from an <span class="ph">Amazon fulfillment center</span>.               | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">FeeDescription</span> | A short description of the service fee event.                                                                                                       | No       | <span class="ph">Type: xs:string</span>                                                                                               |
+| <span class="keyword parmname">ASIN</span>           | The ASIN of the item.                                                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                                                               |
 
 </div>
 
@@ -1797,7 +1823,8 @@ The following table shows the elements of the
 
 <div id="ShipmentEvent" class="topic nested1">
 
-## ShipmentEvent
+ShipmentEvent
+-------------
 
 <div class="body">
 
@@ -1808,26 +1835,26 @@ chargeback.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ShipmentEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ShipmentEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                             | Description                                                                                                                                         | Required | Values                                                                                                                              |
-| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">AmazonOrderId</span>              | <span class="ph">An Amazon-defined identifier for an order.</span>                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                                                             |
-| <span class="keyword parmname">SellerOrderId</span>              | A seller-defined identifier for an order.                                                                                                           | No       | <span class="ph">Type: xs:string</span>                                                                                             |
-| <span class="keyword parmname">MarketplaceName</span>            | The name of the marketplace where the event occurred.                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                                                             |
-| <span class="keyword parmname">OrderChargeList</span>            | A list of order-level charges. These charges are applicable to <span class="ph">Multi-Channel Fulfillment</span> COD orders.                        | No       | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.")                        |
-| <span class="keyword parmname">OrderChargeAdjustmentList</span>  | A list of order-level charge adjustments. These adjustments are applicable to <span class="ph">Multi-Channel Fulfillment</span> COD orders.         | No       | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.")                        |
-| <span class="keyword parmname">ShipmentFeeList</span>            | A list of shipment-level fees.                                                                                                                      | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                                 |
-| <span class="keyword parmname">ShipmentFeeAdjustmentList</span>  | A list of shipment-level fee adjustments.                                                                                                           | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                                 |
-| <span class="keyword parmname">OrderFeeList</span>               | A list of order-level fees. These charges are applicable to <span class="ph">Multi-Channel Fulfillment</span> orders.                               | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                                 |
-| <span class="keyword parmname">OrderFeeAdjustmentList</span>     | A list of order-level fee adjustments. These adjustments are applicable to <span class="ph">Multi-Channel Fulfillment</span> orders.                | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                                 |
-| <span class="keyword parmname">DirectPaymentList</span>          | A list of transactions where buyers pay Amazon through one of the credit cards offered by Amazon or where buyers pay a seller directly through COD. | No       | Type: List of [DirectPayment](Finances_Datatypes.md#DirectPayment "A payment made directly to a seller.")                         |
-| <span class="keyword parmname">PostedDate</span>                 | <span class="ph">The date when the financial event was posted.</span>                                                                               | No       | <span class="ph">Type: xs:dateTime</span>                                                                                           |
-| <span class="keyword parmname">ShipmentItemList</span>           | A list of shipment items.                                                                                                                           | No       | Type: List of [ShipmentItem](Finances_Datatypes.md#ShipmentItem "An item of a shipment, refund, guarantee claim, or chargeback.") |
-| <span class="keyword parmname">ShipmentItemAdjustmentList</span> | A list of shipment item adjustments.                                                                                                                | No       | Type: List of [ShipmentItem](Finances_Datatypes.md#ShipmentItem "An item of a shipment, refund, guarantee claim, or chargeback.") |
+| Name                                                             | Description                                                                                                                                         | Required | Values                                                                                                                                                            |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">AmazonOrderId</span>              | <span class="ph">An Amazon-defined identifier for an order.</span>                                                                                  | No       | <span class="ph">Type: xs:string</span>                                                                                                                           |
+| <span class="keyword parmname">SellerOrderId</span>              | A seller-defined identifier for an order.                                                                                                           | No       | <span class="ph">Type: xs:string</span>                                                                                                                           |
+| <span class="keyword parmname">MarketplaceName</span>            | The name of the marketplace where the event occurred.                                                                                               | No       | <span class="ph">Type: xs:string</span>                                                                                                                           |
+| <span class="keyword parmname">OrderChargeList</span>            | A list of order-level charges. These charges are applicable to <span class="ph">Multi-Channel Fulfillment</span> COD orders.                        | No       | Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>                    |
+| <span class="keyword parmname">OrderChargeAdjustmentList</span>  | A list of order-level charge adjustments. These adjustments are applicable to <span class="ph">Multi-Channel Fulfillment</span> COD orders.         | No       | Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>                    |
+| <span class="keyword parmname">ShipmentFeeList</span>            | A list of shipment-level fees.                                                                                                                      | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                             |
+| <span class="keyword parmname">ShipmentFeeAdjustmentList</span>  | A list of shipment-level fee adjustments.                                                                                                           | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                             |
+| <span class="keyword parmname">OrderFeeList</span>               | A list of order-level fees. These charges are applicable to <span class="ph">Multi-Channel Fulfillment</span> orders.                               | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                             |
+| <span class="keyword parmname">OrderFeeAdjustmentList</span>     | A list of order-level fee adjustments. These adjustments are applicable to <span class="ph">Multi-Channel Fulfillment</span> orders.                | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                             |
+| <span class="keyword parmname">DirectPaymentList</span>          | A list of transactions where buyers pay Amazon through one of the credit cards offered by Amazon or where buyers pay a seller directly through COD. | No       | Type: List of <a href="Finances_Datatypes.md#DirectPayment" class="xref" title="A payment made directly to a seller.">DirectPayment</a>                         |
+| <span class="keyword parmname">PostedDate</span>                 | <span class="ph">The date when the financial event was posted.</span>                                                                               | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                                         |
+| <span class="keyword parmname">ShipmentItemList</span>           | A list of shipment items.                                                                                                                           | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentItem" class="xref" title="An item of a shipment, refund, guarantee claim, or chargeback.">ShipmentItem</a> |
+| <span class="keyword parmname">ShipmentItemAdjustmentList</span> | A list of shipment item adjustments.                                                                                                                | No       | Type: List of <a href="Finances_Datatypes.md#ShipmentItem" class="xref" title="An item of a shipment, refund, guarantee claim, or chargeback.">ShipmentItem</a> |
 
 </div>
 
@@ -1839,7 +1866,8 @@ The following table shows the elements of the
 
 <div id="ShipmentItem" class="topic nested1">
 
-## ShipmentItem
+ShipmentItem
+------------
 
 <div class="body">
 
@@ -1850,26 +1878,26 @@ chargeback.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">ShipmentItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">ShipmentItem</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                           | Description                                                                                                                                                       | Required | Values                                                                                                                     |
-| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">SellerSKU</span>                | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>.               | No       | <span class="ph">Type: xs:string</span>                                                                                    |
-| <span class="keyword parmname">OrderItemId</span>              | An Amazon-defined order item identifier.                                                                                                                          | No       | <span class="ph">Type: xs:string</span>                                                                                    |
-| <span class="keyword parmname">OrderAdjustmentItemId</span>    | An Amazon-defined order adjustment identifier defined for refunds, guarantee claims, and chargeback events.                                                       | No       | <span class="ph">Type: xs:string</span>                                                                                    |
-| <span class="keyword parmname">QuantityShipped</span>          | The number of items shipped.                                                                                                                                      | No       | <span class="ph">Type: xs:int</span>                                                                                       |
-| <span class="keyword parmname">ItemChargeList</span>           | A list of charges associated with the shipment item.                                                                                                              | No       | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.")               |
-| <span class="keyword parmname">ItemTaxWithheldList</span>      | A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for a shipment item.                                                                | No       | Type: List of [TaxWithheldComponent](Finances_Datatypes.md#TaxWithheldComponent "Information about the taxes withheld.") |
-| <span class="keyword parmname">ItemChargeAdjustmentList</span> | A list of charge adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.                 | No       | Type: List of [ChargeComponent](Finances_Datatypes.md#ChargeComponent "A charge on the seller's account.")               |
-| <span class="keyword parmname">ItemFeeList</span>              | A list of fees associated with the shipment item.                                                                                                                 | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                        |
-| <span class="keyword parmname">ItemFeeAdjustmentList</span>    | A list of fee adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.                    | No       | Type: List of [FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")                        |
-| <span class="keyword parmname">PromotionList</span>            | A list of promotions associated with the shipment item.                                                                                                           | No       | Type: List of [Promotion](Finances_Datatypes.md#Promotion "A promotion applied to an item.")                             |
-| <span class="keyword parmname">PromotionAdjustmentList</span>  | A list of promotion adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.              | No       | Type: List of [Promotion](Finances_Datatypes.md#Promotion "A promotion applied to an item.")                             |
-| <span class="keyword parmname">CostOfPointsGranted</span>      | The cost of <span class="ph">Amazon Points</span> granted for a shipment item.                                                                                    | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")                               |
-| <span class="keyword parmname">CostOfPointsReturned</span>     | The cost of <span class="ph">Amazon Points</span> returned for a shipment item. This value is only returned for refunds, guarantee claims, and chargeback events. | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.")                               |
+| Name                                                           | Description                                                                                                                                                       | Required | Values                                                                                                                                                   |
+|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">SellerSKU</span>                | The Seller SKU of the item. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon MWS</span>.               | No       | <span class="ph">Type: xs:string</span>                                                                                                                  |
+| <span class="keyword parmname">OrderItemId</span>              | An Amazon-defined order item identifier.                                                                                                                          | No       | <span class="ph">Type: xs:string</span>                                                                                                                  |
+| <span class="keyword parmname">OrderAdjustmentItemId</span>    | An Amazon-defined order adjustment identifier defined for refunds, guarantee claims, and chargeback events.                                                       | No       | <span class="ph">Type: xs:string</span>                                                                                                                  |
+| <span class="keyword parmname">QuantityShipped</span>          | The number of items shipped.                                                                                                                                      | No       | <span class="ph">Type: xs:int</span>                                                                                                                     |
+| <span class="keyword parmname">ItemChargeList</span>           | A list of charges associated with the shipment item.                                                                                                              | No       | Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>           |
+| <span class="keyword parmname">ItemTaxWithheldList</span>      | A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for a shipment item.                                                                | No       | Type: List of <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a> |
+| <span class="keyword parmname">ItemChargeAdjustmentList</span> | A list of charge adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.                 | No       | Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>           |
+| <span class="keyword parmname">ItemFeeList</span>              | A list of fees associated with the shipment item.                                                                                                                 | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                    |
+| <span class="keyword parmname">ItemFeeAdjustmentList</span>    | A list of fee adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.                    | No       | Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>                    |
+| <span class="keyword parmname">PromotionList</span>            | A list of promotions associated with the shipment item.                                                                                                           | No       | Type: List of <a href="Finances_Datatypes.md#Promotion" class="xref" title="A promotion applied to an item.">Promotion</a>                             |
+| <span class="keyword parmname">PromotionAdjustmentList</span>  | A list of promotion adjustments associated with the shipment item. This value is only returned for refunds, guarantee claims, and chargeback events.              | No       | Type: List of <a href="Finances_Datatypes.md#Promotion" class="xref" title="A promotion applied to an item.">Promotion</a>                             |
+| <span class="keyword parmname">CostOfPointsGranted</span>      | The cost of <span class="ph">Amazon Points</span> granted for a shipment item.                                                                                    | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                               |
+| <span class="keyword parmname">CostOfPointsReturned</span>     | The cost of <span class="ph">Amazon Points</span> returned for a shipment item. This value is only returned for refunds, guarantee claims, and chargeback events. | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                               |
 
 </div>
 
@@ -1881,7 +1909,8 @@ The following table shows the elements of the
 
 <div id="SolutionProviderCreditEvent" class="topic nested1">
 
-## SolutionProviderCreditEvent
+SolutionProviderCreditEvent
+---------------------------
 
 <div class="body">
 
@@ -1891,9 +1920,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">SolutionProviderCreditEvent</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword parmname">SolutionProviderCreditEvent</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1979,7 +2007,8 @@ datatype:
 
 <div id="TDSReimbursementEvent" class="topic nested1">
 
-## TDSReimbursementEvent
+TDSReimbursementEvent
+---------------------
 
 <div class="body">
 
@@ -1990,16 +2019,16 @@ the seller's account.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">TDSReimbursementEvent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">TDSReimbursementEvent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                   | Description                                                                                        | Required | Values                                                                                       |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PostedDate</span>       | The date when the financial event was posted.                                                      | No       | <span class="ph">Type: xs:dateTime</span>                                                    |
-| <span class="keyword parmname">TdsOrderId</span>       | A TDS claim identifier.                                                                            | No       | <span class="ph">Type: xs:string</span>                                                      |
-| <span class="keyword parmname">ReimbursedAmount</span> | <span id="TDSReimbursementEvent___Toc487430482" class="ph">The amount of the reimbursement.</span> | No       | Type: [CurrencyAmount](Finances_Datatypes.md#CurrencyAmount "A currency type and amount.") |
+| Name                                                   | Description                                                                                        | Required | Values                                                                                                                     |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PostedDate</span>       | The date when the financial event was posted.                                                      | No       | <span class="ph">Type: xs:dateTime</span>                                                                                  |
+| <span class="keyword parmname">TdsOrderId</span>       | A TDS claim identifier.                                                                            | No       | <span class="ph">Type: xs:string</span>                                                                                    |
+| <span class="keyword parmname">ReimbursedAmount</span> | <span id="TDSReimbursementEvent___Toc487430482" class="ph">The amount of the reimbursement.</span> | No       | Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a> |
 
 </div>
 
@@ -2011,7 +2040,8 @@ The following table shows the elements of the
 
 <div id="TaxWithheldComponent" class="topic nested1">
 
-## TaxWithheldComponent
+TaxWithheldComponent
+--------------------
 
 <div class="body">
 
@@ -2021,8 +2051,8 @@ The following table shows the elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">TaxWithheldComponent</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">TaxWithheldComponent</span> datatype:
 
 <div class="tablenoborder">
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetMyPriceForASIN" class="nested0">
 
-# GetMyPriceForASIN
+GetMyPriceForASIN
+=================
 
 <div class="body">
 
@@ -46,18 +46,19 @@ listings, based on <span class="keyword parmname">ASIN</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">GetMyPriceForASIN</span> operation is
 the same as the
-[GetMyPriceForSKU](Products_GetMyPriceForSKU.md "Returns pricing information for your own active offer listings, based on SellerSKU.")
-operation except that it uses a
-<span class="keyword parmname">MarketplaceId</span> and an
-<span class="keyword parmname">ASIN</span> to uniquely identify a
-product, and it does not return the
-<span class="keyword parmname">SKUIdentifier</span> element.
+<a href="Products_GetMyPriceForSKU.md" class="xref" title="Returns pricing information for your own active offer listings, based on SellerSKU.">GetMyPriceForSKU</a>
+operation except that it uses a <span
+class="keyword parmname">MarketplaceId</span> and an <span
+class="keyword parmname">ASIN</span> to uniquely identify a product, and
+it does not return the <span
+class="keyword parmname">SKUIdentifier</span> element.
 
 <div class="section">
 
@@ -76,22 +77,22 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate          | Hourly request quota    |
-| --------------------- | --------------------- | ----------------------- |
+|-----------------------|-----------------------|-------------------------|
 | 20 requests           | 10 items every second | 36000 requests per hour |
 
 </div>
 
 This quota and restore rate is shared with
-[GetMyPriceForSKU](Products_GetMyPriceForSKU.md "Returns pricing information for your own active offer listings, based on SellerSKU.").
+<a href="Products_GetMyPriceForSKU.md" class="xref" title="Returns pricing information for your own active offer listings, based on SellerSKU.">GetMyPriceForSKU</a>.
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>. </span>
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
 
@@ -103,7 +104,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -111,9 +113,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -175,19 +176,20 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="section">
 
-The response elements that the
-<span class="keyword apiname">GetMyPriceForASIN</span> operation returns
-are described by the following publicly available XSD:
-[ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
+The response elements that the <span
+class="keyword apiname">GetMyPriceForASIN</span> operation returns are
+described by the following publicly available XSD:
+<a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">ProductsAPI_Response.xsd</a>.
 The following table provides additional information about some of the
-key elements that are returned by the
-<span class="keyword apiname">GetMyPriceForASIN</span> operation.
+key elements that are returned by the <span
+class="keyword apiname">GetMyPriceForASIN</span> operation.
 
 </div>
 
@@ -264,7 +266,8 @@ key elements that are returned by the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -273,8 +276,8 @@ key elements that are returned by the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -282,26 +285,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-ASINList.ASIN.1=1933890517
-&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetMyPriceForASIN
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=A1IMEXAMPLEWRC
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T22%3A40%3A47Z
-&Version=2011-10-01
-&Signature=x%2FEXAMPLEFSPqX7tAN83%2FROsuHWc04SEaepLkEXAMPLEo%3D
-```
+    ASINList.ASIN.1=1933890517
+    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetMyPriceForASIN
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=A1IMEXAMPLEWRC
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T22%3A40%3A47Z
+    &Version=2011-10-01
+    &Signature=x%2FEXAMPLEFSPqX7tAN83%2FROsuHWc04SEaepLkEXAMPLEo%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -312,7 +313,7 @@ ASINList.ASIN.1=1933890517
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -320,55 +321,53 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMyPriceForASINResponse
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetMyPriceForASINResult ASIN="1933890517" status="Success">
-        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-            <Identifiers>
-                <MarketplaceASIN>
-                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                    <ASIN>1933890517</ASIN>
-                </MarketplaceASIN>
-            </Identifiers>
-            <Offers>
-                <Offer>
-                    <BuyingPrice>
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>303.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
+    <?xml version="1.0"?>
+    <GetMyPriceForASINResponse
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetMyPriceForASINResult ASIN="1933890517" status="Success">
+            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                        <ASIN>1933890517</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <Offers>
+                    <Offer>
+                        <BuyingPrice>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>303.99</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>300.00</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>3.99</Amount>
+                            </Shipping>
+                        </BuyingPrice>
+                        <RegularPrice>
                             <CurrencyCode>USD</CurrencyCode>
                             <Amount>300.00</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>3.99</Amount>
-                        </Shipping>
-                    </BuyingPrice>
-                    <RegularPrice>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>300.00</Amount>
-                    </RegularPrice>
-                    <FulfillmentChannel>MERCHANT</FulfillmentChannel>
-                    <ItemCondition>Used</ItemCondition>
-                    <ItemSubCondition>Acceptable</ItemSubCondition>
-                    <SellerId>A1IMEXAMPLEWRC</SellerId>
-                    <SellerSKU>SKU2468</SellerSKU>
-                </Offer>
-            </Offers>
-        </Product>
-    </GetMyPriceForASINResult>
-    <ResponseMetadata>
-        <RequestId>a3381684-87bd-416e-9b95-EXAMPLE9c236</RequestId>
-    </ResponseMetadata>
-</GetMyPriceForASINResponse>
-```
+                        </RegularPrice>
+                        <FulfillmentChannel>MERCHANT</FulfillmentChannel>
+                        <ItemCondition>Used</ItemCondition>
+                        <ItemSubCondition>Acceptable</ItemSubCondition>
+                        <SellerId>A1IMEXAMPLEWRC</SellerId>
+                        <SellerSKU>SKU2468</SellerSKU>
+                    </Offer>
+                </Offers>
+            </Product>
+        </GetMyPriceForASINResult>
+        <ResponseMetadata>
+            <RequestId>a3381684-87bd-416e-9b95-EXAMPLE9c236</RequestId>
+        </ResponseMetadata>
+    </GetMyPriceForASINResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -380,13 +379,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[GetMyPriceForSKU](Products_GetMyPriceForSKU.md "Returns pricing information for your own active offer listings, based on SellerSKU.")
+<a href="Products_GetMyPriceForSKU.md" class="xref" title="Returns pricing information for your own active offer listings, based on SellerSKU.">GetMyPriceForSKU</a>
 
 </div>
 

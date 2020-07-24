@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,19 +34,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetProductCategoriesForSKU" class="nested0">
 
-# GetProductCategoriesForSKU
+GetProductCategoriesForSKU
+==========================
 
 <div class="body">
 
 <span class="ph">Returns the parent product categories that a product
-belongs to, based on
-<span class="keyword parmname">SellerSKU</span>.</span>
+belongs to, based on <span
+class="keyword parmname">SellerSKU</span>.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -73,22 +74,22 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                   | Hourly request quota  |
-| --------------------- | ------------------------------ | --------------------- |
+|-----------------------|--------------------------------|-----------------------|
 | 20 requests           | One request every five seconds | 720 requests per hour |
 
 </div>
 
 This quota and restore rate is shared with
-[GetProductCategoriesForASIN](Products_GetProductCategoriesForASIN.md "Returns the parent product categories that a product belongs to, based on ASIN.").
+<a href="Products_GetProductCategoriesForASIN.md" class="xref" title="Returns the parent product categories that a product belongs to, based on ASIN.">GetProductCategoriesForASIN</a>.
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>. </span>
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
 
@@ -100,7 +101,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -108,9 +110,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -157,14 +158,15 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
 | Name                                                      | Description                                                                                                                                                                                                                                                            |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">Self</span>                | Contains the <span class="keyword parmname">ProductCategoryId</span> for the product that you submitted. Also contains a <span class="keyword parmname">ProductCategoryId</span> for each of the parent categories of the product, up to the root for the Marketplace. |
 | <span class="keyword parmname">ProductCategoryId</span>   | Identifier for a product category (or browse node).                                                                                                                                                                                                                    |
 | <span class="keyword parmname">ProductCategoryName</span> | Name of a product category (or browse node).                                                                                                                                                                                                                           |
@@ -177,7 +179,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -186,8 +189,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -195,26 +198,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetProductCategoriesForSKU
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=A1IMEXAMPLEWRC
-&SellerSKU=SKU2468
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T22%3A48%3A25Z
-&Version=2011-10-01
-&Signature=nLBMEXAMPLE6ASMKD1YTcNk7E8vW6Qzha8cEXAMPLEY%3D
-```
+    AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetProductCategoriesForSKU
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=A1IMEXAMPLEWRC
+    &SellerSKU=SKU2468
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T22%3A48%3A25Z
+    &Version=2011-10-01
+    &Signature=nLBMEXAMPLE6ASMKD1YTcNk7E8vW6Qzha8cEXAMPLEY%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -225,7 +226,7 @@ AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -233,59 +234,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetProductCategoriesForSKUResponse
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetProductCategoriesForSKUResult>
-        <Self>
-            <ProductCategoryId>271578011</ProductCategoryId>
-            <ProductCategoryName>Project Management</ProductCategoryName>
-            <Parent>
-                <ProductCategoryId>2675</ProductCategoryId>
-                <ProductCategoryName>Management &#x26; Leadership</ProductCategoryName>
+    <?xml version="1.0"?>
+    <GetProductCategoriesForSKUResponse
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetProductCategoriesForSKUResult>
+            <Self>
+                <ProductCategoryId>271578011</ProductCategoryId>
+                <ProductCategoryName>Project Management</ProductCategoryName>
                 <Parent>
-                    <ProductCategoryId>3</ProductCategoryId>
-                    <ProductCategoryName>Business &#x26; Investing</ProductCategoryName>
+                    <ProductCategoryId>2675</ProductCategoryId>
+                    <ProductCategoryName>Management &#x26; Leadership</ProductCategoryName>
                     <Parent>
-                        <ProductCategoryId>1000</ProductCategoryId>
-                        <ProductCategoryName>Subjects</ProductCategoryName>
+                        <ProductCategoryId>3</ProductCategoryId>
+                        <ProductCategoryName>Business &#x26; Investing</ProductCategoryName>
                         <Parent>
-                            <ProductCategoryId>283155</ProductCategoryId>
+                            <ProductCategoryId>1000</ProductCategoryId>
                             <ProductCategoryName>Subjects</ProductCategoryName>
+                            <Parent>
+                                <ProductCategoryId>283155</ProductCategoryId>
+                                <ProductCategoryName>Subjects</ProductCategoryName>
+                            </Parent>
                         </Parent>
                     </Parent>
                 </Parent>
-            </Parent>
-        </Self>
-        <Self>
-            <ProductCategoryId>684248011</ProductCategoryId>
-            <ProductCategoryName>Management</ProductCategoryName>
-            <Parent>
-                <ProductCategoryId>468220</ProductCategoryId>
-                <ProductCategoryName>Business &#x26; Finance</ProductCategoryName>
+            </Self>
+            <Self>
+                <ProductCategoryId>684248011</ProductCategoryId>
+                <ProductCategoryName>Management</ProductCategoryName>
                 <Parent>
-                    <ProductCategoryId>465600</ProductCategoryId>
-                    <ProductCategoryName>New, Used &#x26; Rental Textbooks</ProductCategoryName>
+                    <ProductCategoryId>468220</ProductCategoryId>
+                    <ProductCategoryName>Business &#x26; Finance</ProductCategoryName>
                     <Parent>
-                        <ProductCategoryId>2349030011</ProductCategoryId>
-                        <ProductCategoryName>Specialty Boutique</ProductCategoryName>
+                        <ProductCategoryId>465600</ProductCategoryId>
+                        <ProductCategoryName>New, Used &#x26; Rental Textbooks</ProductCategoryName>
                         <Parent>
-                            <ProductCategoryId>283155</ProductCategoryId>
+                            <ProductCategoryId>2349030011</ProductCategoryId>
                             <ProductCategoryName>Specialty Boutique</ProductCategoryName>
+                            <Parent>
+                                <ProductCategoryId>283155</ProductCategoryId>
+                                <ProductCategoryName>Specialty Boutique</ProductCategoryName>
+                            </Parent>
                         </Parent>
                     </Parent>
                 </Parent>
-            </Parent>
-        </Self>
-    </GetProductCategoriesForSKUResult>
-    <ResponseMetadata>
-        <RequestId>e058aabd-b4c3-48ba-9bfa-EXAMPLE9a267</RequestId>
-    </ResponseMetadata>
-</GetProductCategoriesForSKUResponse>
-```
+            </Self>
+        </GetProductCategoriesForSKUResult>
+        <ResponseMetadata>
+            <RequestId>e058aabd-b4c3-48ba-9bfa-EXAMPLE9a267</RequestId>
+        </ResponseMetadata>
+    </GetProductCategoriesForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -297,13 +296,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[GetProductCategoriesForASIN](Products_GetProductCategoriesForASIN.md "Returns the parent product categories that a product belongs to, based on ASIN.")
+<a href="Products_GetProductCategoriesForASIN.md" class="xref" title="Returns the parent product categories that a product belongs to, based on ASIN.">GetProductCategoriesForASIN</a>
 
 </div>
 

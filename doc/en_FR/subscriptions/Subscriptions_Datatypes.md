@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,21 +34,22 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_Datatypes" class="nested0">
 
-# Subscriptions Datatypes
+Subscriptions Datatypes
+=======================
 
 <div class="body">
 
 The following datatypes are used in the request parameters and response
-elements of the Amazon Marketplace Web Service (Amazon MWS)
-<span class="ph">Subscriptions API section</span>:
+elements of the Amazon Marketplace Web Service (Amazon MWS) <span
+class="ph">Subscriptions API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                    | Description                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| [AttributeKeyValue](#AttributeKeyValue "A structure that contains attributes related to a Destination.")                                    | <span class="ph">A structure that contains attributes related to a <span class="keyword parmname">Destination</span>. </span>       |
-| [Destination](#Destination "A delivery channel that you create to receive notifications.")                                                  | <span class="ph">A delivery channel that you create to receive notifications.</span>                                                |
-| [Subscription](#Subscription "Represents the type of notification that you want to receive and the location where you want to receive it.") | <span class="ph">Represents the type of notification that you want to receive and the location where you want to receive it.</span> |
+| Datatype                                                                                                                                                                  | Description                                                                                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#AttributeKeyValue" class="xref" title="A structure that contains attributes related to a Destination.">AttributeKeyValue</a>                                    | <span class="ph">A structure that contains attributes related to a <span class="keyword parmname">Destination</span>. </span>       |
+| <a href="#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a>                                                  | <span class="ph">A delivery channel that you create to receive notifications.</span>                                                |
+| <a href="#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a> | <span class="ph">Represents the type of notification that you want to receive and the location where you want to receive it.</span> |
 
 </div>
 
@@ -57,28 +57,28 @@ elements of the Amazon Marketplace Web Service (Amazon MWS)
 
 <div id="AttributeKeyValue" class="topic nested1">
 
-## AttributeKeyValue
+AttributeKeyValue
+-----------------
 
 <div class="body">
 
-<span class="ph">A structure that contains attributes related to a
-<span class="keyword parmname">Destination</span>. </span>
+<span class="ph">A structure that contains attributes related to a <span
+class="keyword parmname">Destination</span>. </span>
 
 <div class="section">
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">AttributeKeyValue</span> datatype. Each
-<span class="keyword parmname">AttributeKeyValue</span> datatype will
-differ depending on the
-<span class="keyword parmname">DeliveryChannel</span> specified in the
-<span class="keyword parmname">Destination</span>:
+The following table shows the elements of the <span
+class="keyword parmname">AttributeKeyValue</span> datatype. Each <span
+class="keyword parmname">AttributeKeyValue</span> datatype will differ
+depending on the <span class="keyword parmname">DeliveryChannel</span>
+specified in the <span class="keyword parmname">Destination</span>:
 
 <div class="tablenoborder">
 
-<span class="desc tabledesc"><span class="keyword parmname">AttributeKeyValue</span>
-values for the `SQS`
+<span class="desc tabledesc"><span
+class="keyword parmname">AttributeKeyValue</span> values for the `SQS`
 <span class="keyword parmname">DeliveryChannel</span>:</span>
 
 Name
@@ -115,7 +115,7 @@ Yes
 
 <span class="keyword parmname">Key</span> values:
 
-  - `sqsQueueUrl`
+-   `sqsQueueUrl`
 
 <span class="keyword parmname">Value</span>
 
@@ -127,13 +127,14 @@ Yes
 
 <span class="keyword parmname">Value</span> values:
 
-  - The URL for the <span class="ph">Amazon SQS</span> queue you are
-    using to receive notifications. For more information, see [Receiving
-    notifications](Subscriptions_ReceivingNotifications.md "Describes how to set up a Destination to receive notifications.").
+-   The URL for the <span class="ph">Amazon SQS</span> queue you are
+    using to receive notifications. For more information, see
+    <a href="Subscriptions_ReceivingNotifications.md" class="xref" title="Describes how to set up a Destination to receive notifications.">Receiving notifications</a>.
 
 <div id="Destination" class="topic nested1">
 
-## Destination
+Destination
+-----------
 
 <div class="body">
 
@@ -144,8 +145,8 @@ notifications.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Destination</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Destination</span> datatype:
 
 <div class="tablenoborder">
 
@@ -195,7 +196,8 @@ The following table shows the elements of the
 
 <div id="Subscription" class="topic nested1">
 
-## Subscription
+Subscription
+------------
 
 <div class="body">
 
@@ -206,8 +208,8 @@ receive and the location where you want to receive it.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Subscription</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Subscription</span> datatype:
 
 <div class="tablenoborder">
 

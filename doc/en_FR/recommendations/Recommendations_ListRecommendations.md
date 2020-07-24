@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,14 +34,16 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Recommendations_ListRecommendations" class="nested0">
 
-# ListRecommendations
+ListRecommendations
+===================
 
 <span class="ph">Returns your active recommendations for a specific
 category or for all categories for a specific marketplace.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -51,16 +52,17 @@ returns the most recent recommendations for you in a given category or
 for all categories.
 
 To determine whether you need to check for new recommendations for a
-category, first call the
-<span class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
+category, first call the <span
+class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
 operation. If the last updated timestamp returned for a category in the
-<span class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
+<span
+class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
 operation is newer than the previous time you called that operation,
-then you should call the
-<span class="keyword apiname">ListRecommendations</span> operation to
-get your latest recommendations. Otherwise, there is no need to call the
-<span class="keyword apiname">ListRecommendations</span> operation
-because you already have the most current set of recommendations.
+then you should call the <span
+class="keyword apiname">ListRecommendations</span> operation to get your
+latest recommendations. Otherwise, there is no need to call the <span
+class="keyword apiname">ListRecommendations</span> operation because you
+already have the most current set of recommendations.
 
 <div class="note note">
 
@@ -75,10 +77,10 @@ timestamp is not returned for listing quality recommendations.
 
 This operation is available in all marketplaces.
 
-The
-<span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
-and
-<span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
+The <span
+class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
+and <span
+class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
 elements are used in all marketplaces except Brazil.
 
 </div>
@@ -90,9 +92,8 @@ elements are used in all marketplaces except Brazil.
 <span class="ph">This operation has a maximum request quota of 8 and a
 restore rate of one request every two seconds. For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -102,7 +103,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -110,9 +112,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -176,7 +177,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -246,7 +248,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Example 1
+Example 1
+---------
 
 <div class="body refbody">
 
@@ -257,8 +260,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 This example shows how to request your ListingQuality recommendations.
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -266,30 +269,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Recommendations/2013-04-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Recommendations/2013-04-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLESDX
-&Action=ListRecommendations
-&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
-    QualitySet%3DDefect
-&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
-    ListingStatus%3DActive
-&CategoryQueryList.CategoryQuery.1.RecommendationCategory=ListingQuality
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&RecommendationCategory=ListingQuality
-&SellerId=A1XEXAMPLEDF
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2013-03-04T18%3A12%3A21.687Z
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLESDX
+    &Action=ListRecommendations
+    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
+        QualitySet%3DDefect
+    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
+        ListingStatus%3DActive
+    &CategoryQueryList.CategoryQuery.1.RecommendationCategory=ListingQuality
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &RecommendationCategory=ListingQuality
+    &SellerId=A1XEXAMPLEDF
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2013-03-04T18%3A12%3A21.687Z
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -300,7 +301,7 @@ AWSAccessKeyId=0PB842EXAMPLESDX
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -308,17 +309,15 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
-    <ListRecommendationsResult> </ListRecommendationsResult>
-    <ResponseMetadata>
-        <RequestId>d0305dfc-b83e-11e2-8aeb-c93b3EXAMPLE</RequestId>
-    </ResponseMetadata>
-</ListRecommendationsResponse>
-```
+    <?xml version="1.0"?>
+    <ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
+        <ListRecommendationsResult> </ListRecommendationsResult>
+        <ResponseMetadata>
+            <RequestId>d0305dfc-b83e-11e2-8aeb-c93b3EXAMPLE</RequestId>
+        </ResponseMetadata>
+    </ListRecommendationsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -330,7 +329,8 @@ code</span> </span>
 
 <div id="reference_el5_zxr_lp" class="topic reference nested1">
 
-## Example 2
+Example 2
+---------
 
 <div class="body refbody">
 
@@ -341,8 +341,8 @@ code</span> </span>
 This example shows how to request your Selection recommendations.
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -350,32 +350,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-CDATA[POST /Recommendations/2013-04-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    CDATA[POST /Recommendations/2013-04-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLESDX
-&Action=ListRecommendations
-&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
-    BrandName%3DDEWALT
-&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
-    ProductCategory%3DHome%20Improvement
-&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.3=
-    IncludeCommonRecommendations%3Dtrue
-&CategoryQueryList.CategoryQuery.1.RecommendationCategory=Selection
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&RecommendationCategory=Selection
-&SellerId=A1XEXAMPLEDF
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2013-03-04T18%3A12%3A21.687Z
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLESDX
+    &Action=ListRecommendations
+    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
+        BrandName%3DDEWALT
+    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
+        ProductCategory%3DHome%20Improvement
+    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.3=
+        IncludeCommonRecommendations%3Dtrue
+    &CategoryQueryList.CategoryQuery.1.RecommendationCategory=Selection
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &RecommendationCategory=Selection
+    &SellerId=A1XEXAMPLEDF
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2013-03-04T18%3A12%3A21.687Z
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -385,7 +383,8 @@ AWSAccessKeyId=0PB842EXAMPLESDX
 
 ### Example response
 
-See also [Response format](../dev_guide/DG_ResponseFormat.md).
+See also
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -393,18 +392,16 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
-    <ListRecommendationsResult>
-        <NextToken>SAMPLE-TOKENE</NextToken>
-    </ListRecommendationsResult>
-    <ResponseMetadata>
-        <RequestId>45f1ba88-862f-SAMPLE-ce318b534859</RequestId>
-    </ResponseMetadata>
-</ListRecommendationsResponse>
-```
+    <ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
+        <ListRecommendationsResult>
+            <NextToken>SAMPLE-TOKENE</NextToken>
+        </ListRecommendationsResult>
+        <ResponseMetadata>
+            <RequestId>45f1ba88-862f-SAMPLE-ce318b534859</RequestId>
+        </ResponseMetadata>
+    </ListRecommendationsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -416,15 +413,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Recommendations API
-section](Recommendations_Overview.md)
+<a href="Recommendations_Overview.md" class="xref">What you should know about the Amazon MWS Recommendations API section</a>
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
 </div>
 

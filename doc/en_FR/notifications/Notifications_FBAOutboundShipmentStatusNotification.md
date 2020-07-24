@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,19 +32,22 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-<div id="Notifications_FBAOutboundShipmentStatusNotification" class="nested0">
+<div id="Notifications_FBAOutboundShipmentStatusNotification"
+class="nested0">
 
-# FBAOutboundShipmentStatusNotification
+FBAOutboundShipmentStatusNotification
+=====================================
 
 <div class="body">
 
 The <span class="keyword parmname">FBAOutboundShipmentStatus</span>
-notification is sent whenever Amazon creates or cancels a
-<span class="ph">Fulfillment by Amazon</span> shipment for a seller.
+notification is sent whenever Amazon creates or cancels a <span
+class="ph">Fulfillment by Amazon</span> shipment for a seller.
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces except Brazil and
 China.
@@ -54,17 +56,18 @@ China.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[FBAOutboundShipmentStatusNotification.xsd](https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FBAOutboundShipmentStatusNotification.xsd)
+<a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FBAOutboundShipmentStatusNotification.xsd" class="xref">FBAOutboundShipmentStatusNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                                                                          | Description                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [FBAOutboundShipmentStatusNotification](#FBAOutboundShipmentStatusNotification "The root element of the payload that is sent when Amazon creates or cancels an Fulfillment by Amazon shipment for a seller.") | <span class="ph">The root element of the payload that is sent when Amazon creates or cancels an <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</span> |
+| Name                                                                                                                                                                                                                                        | Description                                                                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#FBAOutboundShipmentStatusNotification" class="xref" title="The root element of the payload that is sent when Amazon creates or cancels an Fulfillment by Amazon shipment for a seller.">FBAOutboundShipmentStatusNotification</a> | <span class="ph">The root element of the payload that is sent when Amazon creates or cancels an <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</span> |
 
 </div>
 
@@ -74,7 +77,8 @@ schema:
 
 <div id="FBAOutboundShipmentStatusNotification" class="topic nested1">
 
-## FBAOutboundShipmentStatusNotification
+FBAOutboundShipmentStatusNotification
+-------------------------------------
 
 <div class="body">
 
@@ -86,8 +90,8 @@ Amazon</span> shipment for a seller.</span>
 
 ### FBAOutboundShipmentStatusNotification Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">FBAOutboundShipmentStatusNotification</span>
+The following table shows the child elements of the <span
+class="keyword parmname">FBAOutboundShipmentStatusNotification</span>
 element:
 
 <div class="tablenoborder">
@@ -132,12 +136,12 @@ element:
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

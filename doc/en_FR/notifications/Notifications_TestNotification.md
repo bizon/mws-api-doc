@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,19 +34,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_TestNotification" class="nested0">
 
-# TestNotification
+TestNotification
+================
 
 <div class="body">
 
-<span class="ph">Describes the contents of the
-<span class="keyword parmname">NotificationPayload</span> element for a
-test notification sent by using the
-<span class="keyword apiname">SendTestNotificationToDestination</span>
+<span class="ph">Describes the contents of the <span
+class="keyword parmname">NotificationPayload</span> element for a test
+notification sent by using the <span
+class="keyword apiname">SendTestNotificationToDestination</span>
 operation.</span>
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -55,10 +56,11 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[TestNotification.xsd](http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd)
+<a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
@@ -91,12 +93,12 @@ schema:
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

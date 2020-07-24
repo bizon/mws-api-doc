@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_DataProtectionPolicy" class="nested0">
 
-# Data Protection Policy
+Data Protection Policy
+======================
 
 <div class="body">
 
@@ -43,9 +43,10 @@ The Data Protection Policy (**"DPP"**) governs the treatment (e.g.,
 receipt, storage, usage, transfer, and disposition) of the data vended
 and retrieved through the Marketplace APIs (including the Marketplace
 Web Service APIs). This Policy supplements the Amazon Marketplace
-Developer Agreement and the [Acceptable Use
-Policy](DG_AcceptableUsePolicy.md). Failure to comply may result in
-suspension or termination of Marketplace API access.
+Developer Agreement and the
+<a href="DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>.
+Failure to comply may result in suspension or termination of Marketplace
+API access.
 
 **Definitions**
 
@@ -148,7 +149,7 @@ requirements:
     chain of custody for all evidences or records collected, and such
     documentation must be made available to Amazon on request (if
     applicable).
-    
+
     Developers must inform Amazon (via email to 3p-security@amazon.com)
     within 24 hours of detecting any Security Incidents. Developers
     cannot notify any regulatory authority, nor any customer, on behalf

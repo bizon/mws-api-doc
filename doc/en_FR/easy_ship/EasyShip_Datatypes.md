@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_Datatypes" class="nested0">
 
-# Easy Ship Datatypes
+Easy Ship Datatypes
+===================
 
 <div class="body">
 
@@ -45,17 +45,17 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                              | Description                                                             |
-| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [Dimensions](#Dimensions "The dimensions of the scheduled package.")                                  | <span class="ph">The dimensions of the scheduled package.</span>        |
-| [InvoiceData](#InvoiceData "Invoice number and date.")                                                | <span class="ph">Invoice number and date.</span>                        |
-| [Item](#Item "Item ID and serial number information.")                                                | <span class="ph">Item ID and serial number information.</span>          |
-| [Package](#Package "Information about a scheduled package.")                                          | <span class="ph">Information about a scheduled package.</span>          |
-| [PackageRequestDetails](#PackageRequestDetails "Information for scheduling a package.")               | <span class="ph">Information for scheduling a package.</span>           |
-| [PickupSlot](#PickupSlot "Pickup slot ID and pickup time information.")                               | <span class="ph">Pickup slot ID and pickup time information.</span>     |
-| [ScheduledPackageId](#ScheduledPackageId "Identifies the scheduled package to be updated.")           | <span class="ph">Identifies the scheduled package to be updated.</span> |
-| [ScheduledPackageUpdateDetails](#ScheduledPackageUpdateDetails "Information for updating a package.") | <span class="ph">Information for updating a package.</span>             |
-| [Weight](#Weight "The weight of the scheduled package.")                                              | <span class="ph">The weight of the scheduled package.</span>            |
+| Datatype                                                                                                                            | Description                                                             |
+|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| <a href="#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a>                                  | <span class="ph">The dimensions of the scheduled package.</span>        |
+| <a href="#InvoiceData" class="xref" title="Invoice number and date.">InvoiceData</a>                                                | <span class="ph">Invoice number and date.</span>                        |
+| <a href="#Item" class="xref" title="Item ID and serial number information.">Item</a>                                                | <span class="ph">Item ID and serial number information.</span>          |
+| <a href="#Package" class="xref" title="Information about a scheduled package.">Package</a>                                          | <span class="ph">Information about a scheduled package.</span>          |
+| <a href="#PackageRequestDetails" class="xref" title="Information for scheduling a package.">PackageRequestDetails</a>               | <span class="ph">Information for scheduling a package.</span>           |
+| <a href="#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a>                               | <span class="ph">Pickup slot ID and pickup time information.</span>     |
+| <a href="#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a>           | <span class="ph">Identifies the scheduled package to be updated.</span> |
+| <a href="#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a> | <span class="ph">Information for updating a package.</span>             |
+| <a href="#Weight" class="xref" title="The weight of the scheduled package.">Weight</a>                                              | <span class="ph">The weight of the scheduled package.</span>            |
 
 </div>
 
@@ -63,7 +63,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="Dimensions" class="topic reference nested1">
 
-## Dimensions
+Dimensions
+----------
 
 <div class="body refbody">
 
@@ -138,7 +139,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="InvoiceData" class="topic reference nested1">
 
-## InvoiceData
+InvoiceData
+-----------
 
 <div class="body refbody">
 
@@ -151,7 +153,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 <div class="tablenoborder">
 
 | Name                                                | Description                              | Required | Values                                    |
-| --------------------------------------------------- | ---------------------------------------- | -------- | ----------------------------------------- |
+|-----------------------------------------------------|------------------------------------------|----------|-------------------------------------------|
 | <span class="keyword parmname">InvoiceNumber</span> | The invoice number.                      | Yes      | <span class="ph">Type: xs:string</span>   |
 | <span class="keyword parmname">InvoiceDate</span>   | The date that the invoice was generated. | No       | <span class="ph">Type: xs:dateTime</span> |
 
@@ -165,7 +167,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="Item" class="topic reference nested1">
 
-## Item
+Item
+----
 
 <div class="body refbody">
 
@@ -178,7 +181,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 <div class="tablenoborder">
 
 | Name                                                            | Description                                                                                                         | Required | Values                                  |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">OrderItemId</span>               | The Amazon-defined order item identifier.                                                                           | Yes      | <span class="ph">Type: xs:string</span> |
 | <span class="keyword parmname">OrderItemSerialNumberList</span> | A list of serial numbers for the items associated with the <span class="keyword parmname">OrderItemId</span> value. | Yes      | <span class="ph">Type: xs:string</span> |
 
@@ -192,7 +195,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="Package" class="topic reference nested1">
 
-## Package
+Package
+-------
 
 <div class="body refbody">
 
@@ -286,7 +290,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="PackageRequestDetails" class="topic reference nested1">
 
-## PackageRequestDetails
+PackageRequestDetails
+---------------------
 
 <div class="body refbody">
 
@@ -358,7 +363,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="PickupSlot" class="topic reference nested1">
 
-## PickupSlot
+PickupSlot
+----------
 
 <div class="body refbody">
 
@@ -370,11 +376,11 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div class="tablenoborder">
 
-| Name                                                  | Description                                                                                                                        | Required | Values                                    |
-| ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------- |
-| <span class="keyword parmname">SlotId</span>          | An Amazon-defined identifier for a pickup slot. Get this from a previous call to [ListPickupSlots](EasyShip_ListPickupSlots.md). | Yes      | <span class="ph">Type: xs:string</span>   |
-| <span class="keyword parmname">PickupTimeStart</span> | The start of the pickup time slot.                                                                                                 | No       | <span class="ph">Type: xs:dateTime</span> |
-| <span class="keyword parmname">PickupTimeEnd</span>   | The end of the pickup time slot.                                                                                                   | No       | <span class="ph">Type: xs:dateTime</span> |
+| Name                                                  | Description                                                                                                                                                | Required | Values                                    |
+|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------|
+| <span class="keyword parmname">SlotId</span>          | An Amazon-defined identifier for a pickup slot. Get this from a previous call to <a href="EasyShip_ListPickupSlots.md" class="xref">ListPickupSlots</a>. | Yes      | <span class="ph">Type: xs:string</span>   |
+| <span class="keyword parmname">PickupTimeStart</span> | The start of the pickup time slot.                                                                                                                         | No       | <span class="ph">Type: xs:dateTime</span> |
+| <span class="keyword parmname">PickupTimeEnd</span>   | The end of the pickup time slot.                                                                                                                           | No       | <span class="ph">Type: xs:dateTime</span> |
 
 </div>
 
@@ -386,7 +392,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="ScheduledPackageId" class="topic reference nested1">
 
-## ScheduledPackageId
+ScheduledPackageId
+------------------
 
 <div class="body refbody">
 
@@ -399,7 +406,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 <div class="tablenoborder">
 
 | Name                                                | Description                                                                                                                                                       | Required | Values                                  |
-| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">AmazonOrderId</span> | <span class="ph">An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using <span class="ph">Amazon Easy Ship</span>.</span> | Yes      | <span class="ph">Type: xs:string</span> |
 | <span class="keyword parmname">PackageId</span>     | An Amazon-defined identifier for the scheduled package.                                                                                                           | No       | <span class="ph">Type: xs:string</span> |
 
@@ -413,22 +420,24 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="ScheduledPackageUpdateDetails" class="topic reference nested1">
 
-## ScheduledPackageUpdateDetails
+ScheduledPackageUpdateDetails
+-----------------------------
 
 <div class="body refbody">
 
 <span class="ph">Information for updating a package.</span>
 
-<div id="ScheduledPackageUpdateDetails__section_ehn_j5z_42b" class="section">
+<div id="ScheduledPackageUpdateDetails__section_ehn_j5z_42b"
+class="section">
 
 ### ScheduledPackageUpdateDetails elements
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                                                                                                                                          | Required | Values                                                                                                                   |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md) operation. | Yes      | Type: [ScheduledPackageId](EasyShip_Datatypes.md#ScheduledPackageId "Identifies the scheduled package to be updated.") |
-| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the [ListPickupSlots](EasyShip_ListPickupSlots.md) operation.                   | Yes      | Type: [PickupSlot](EasyShip_Datatypes.md#PickupSlot "Pickup slot ID and pickup time information.")                     |
+| Name                                                     | Description                                                                                                                                                                                                  | Required | Values                                                                                                                                                 |
+|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ScheduledPackageId</span> | <span class="ph">Identifies the scheduled package to be updated.</span> Returned by a previous call to the <a href="EasyShip_CreateScheduledPackage.md" class="xref">CreateScheduledPackage</a> operation. | Yes      | Type: <a href="EasyShip_Datatypes.md#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a> |
+| <span class="keyword parmname">PackagePickupSlot</span>  | <span class="ph">Pickup slot ID and pickup time information.</span> Returned by a previous call to the <a href="EasyShip_ListPickupSlots.md" class="xref">ListPickupSlots</a> operation.                   | Yes      | Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a>                     |
 
 </div>
 
@@ -440,7 +449,8 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="Weight" class="topic reference nested1">
 
-## Weight
+Weight
+------
 
 <div class="body refbody">
 
@@ -494,12 +504,12 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Easy Ship API
-section](EasyShip_Overview.md)
+<a href="EasyShip_Overview.md" class="xref">What you should know about the Easy Ship API section</a>
 
 </div>
 

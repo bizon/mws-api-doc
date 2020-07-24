@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,36 +34,35 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToGetNewShippingLabel" class="nested0">
 
-# How to reprint a shipping label
+How to reprint a shipping label
+===============================
 
 <div class="body">
 
 <span class="ph">This shows how to add functionality to the workflow
-described in [How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md).</span>
+described in
+<a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>.</span>
 
 **To reprint a shipping label**
 
 1.  Call the
-    [GetShipment](MerchFulfill_GetShipment.md "Returns an existing shipment for a given identifier.")
-    operation, specifying the
-    <span class="keyword parmname">ShipmentId</span> value of the
-    shipment for which you want to reprint the shipping label.
-2.  Extract and print the shipping label from the
-    <span class="keyword parmname">FileContents</span> element returned
-    by the <span class="keyword apiname">GetShipment</span> operation.
-    See [How to extract a shipping label
-    file](MerchFulfill_HowToExtractShippingLabel.md).
+    <a href="MerchFulfill_GetShipment.md" class="xref" title="Returns an existing shipment for a given identifier.">GetShipment</a>
+    operation, specifying the <span
+    class="keyword parmname">ShipmentId</span> value of the shipment for
+    which you want to reprint the shipping label.
+2.  Extract and print the shipping label from the <span
+    class="keyword parmname">FileContents</span> element returned by the
+    <span class="keyword apiname">GetShipment</span> operation. See
+    <a href="MerchFulfill_HowToExtractShippingLabel.md" class="xref">How to extract a shipping label file</a>.
 
 <div class="section">
 
-## Related topics
+Related topics
+--------------
 
-[How to fulfill Seller Fulfilled Prime
-orders](MerchFulfill_HowToUseForPrime.md)
+<a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 
-[How to extract a shipping label
-file](MerchFulfill_HowToExtractShippingLabel.md)
+<a href="MerchFulfill_HowToExtractShippingLabel.md" class="xref">How to extract a shipping label file</a>
 
 </div>
 
@@ -76,8 +74,8 @@ file](MerchFulfill_HowToExtractShippingLabel.md)
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Merchant Fulfillment
-service](../merch_fulfill/MerchFulfill_Overview.md)
+**Parent topic:**
+<a href="../merch_fulfill/MerchFulfill_Overview.md" class="link">What you should know about the Merchant Fulfillment service</a>
 
 </div>
 

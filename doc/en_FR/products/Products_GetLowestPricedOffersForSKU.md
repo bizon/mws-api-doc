@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetLowestPricedOffersForSKU" class="nested0">
 
-# GetLowestPricedOffersForSKU
+GetLowestPricedOffersForSKU
+===========================
 
 <div class="body">
 
@@ -46,19 +46,19 @@ based on <span class="keyword parmname">SellerSKU</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">GetLowestPricedOffersForSKU</span>
-operation returns the top 20 offers for a given
-<span class="keyword parmname">MarketplaceId</span>,
-<span class="keyword parmname">SellerSKU</span>, and
-<span class="keyword parmname">ItemCondition</span> that you specify.
-The top 20 offers are determined by the lowest landed price, which is
-the price plus shipping minus Amazon Points. If multiple sellers are
-charging the same landed price, the results will be returned in random
-order.
+operation returns the top 20 offers for a given <span
+class="keyword parmname">MarketplaceId</span>, <span
+class="keyword parmname">SellerSKU</span>, and <span
+class="keyword parmname">ItemCondition</span> that you specify. The top
+20 offers are determined by the lowest landed price, which is the price
+plus shipping minus Amazon Points. If multiple sellers are charging the
+same landed price, the results will be returned in random order.
 
 <div class="section">
 
@@ -71,13 +71,13 @@ Box Price, respectively, on a detail page from an Amazon marketplace
 website. Products with active offer listings might not return either of
 these prices. This could happen, for example, if none of the sellers
 with offer listings for a product are qualified for the New Buy Box or
-the Used Buy Box. Your own price for the
-<span class="keyword parmname">SellerSKU</span> that you specify is not
+the Used Buy Box. Your own price for the <span
+class="keyword parmname">SellerSKU</span> that you specify is not
 excluded from the response, so your price will be returned if it is
 among the lowest listed prices. The number of offer listings, the
-trade-in value, and the sales rankings for the
-<span class="keyword parmname">SellerSKU</span> that you specify are
-also returned.
+trade-in value, and the sales rankings for the <span
+class="keyword parmname">SellerSKU</span> that you specify are also
+returned.
 
 </div>
 
@@ -98,33 +98,33 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate            | Hourly request quota  |
-| --------------------- | ----------------------- | --------------------- |
+|-----------------------|-------------------------|-----------------------|
 | 10 requests           | Five items every second | 200 requests per hour |
 
 </div>
 
 This quota and restore rate is shared with
-[GetLowestPricedOffersForASIN](Products_GetLowestPricedOffersForASIN.md "Returns lowest priced offers for a single product, based on ASIN.").
+<a href="Products_GetLowestPricedOffersForASIN.md" class="xref" title="Returns lowest priced offers for a single product, based on ASIN.">GetLowestPricedOffersForASIN</a>.
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>. </span>
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
 
 Because you can only query 200 SKUs or ASINs per hour, after you call
 <span class="keyword apiname">GetLowestPricedOffersForSKU</span> to get
-the top 20 offers for a SKU you sell, you should call
-<span class="keyword apiname">CreateSubscription</span> and subscribe to
-an <span class="keyword parmname">AnyOfferChanged</span> notification.
-That will inform you if the top 20 offers change for any SKU you sell
-without using any of your
-<span class="keyword apiname">GetLowestPricedOffersForSKU</span> quota.
+the top 20 offers for a SKU you sell, you should call <span
+class="keyword apiname">CreateSubscription</span> and subscribe to an
+<span class="keyword parmname">AnyOfferChanged</span> notification. That
+will inform you if the top 20 offers change for any SKU you sell without
+using any of your <span
+class="keyword apiname">GetLowestPricedOffersForSKU</span> quota.
 
 </div>
 
@@ -134,7 +134,8 @@ without using any of your
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -142,9 +143,8 @@ without using any of your
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -214,19 +214,20 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="section">
 
-The response elements that the
-<span class="keyword apiname">GetLowestPricedOffersForSKU</span>
-operation returns are described by the publicly available XSD
-[ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
-The top-level elements returned by the
-<span class="keyword apiname">GetLowestPricedOffersForSKU</span>
-operation are:
+The response elements that the <span
+class="keyword apiname">GetLowestPricedOffersForSKU</span> operation
+returns are described by the publicly available XSD
+<a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">ProductsAPI_Response.xsd</a>.
+The top-level elements returned by the <span
+class="keyword apiname">GetLowestPricedOffersForSKU</span> operation
+are:
 
 </div>
 
@@ -236,11 +237,11 @@ operation are:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Identifier](#Identifier "Identifies a product by marketplace and SKU.")                                                                                                                                                  | <span class="ph">Identifies a product by marketplace and SKU.</span>                                                                                                                                                                                                                                                                                                                                                                                            |
-| [Summary](#Summary "Contains price information about the product, including the LowestPrices and BuyBoxPrices, the ListPrice, the SuggestedLowerPricePlusShipping, and NumberOfOffers and NumberOfBuyBoxEligibleOffers.") | <span class="ph">Contains price information about the product, including the <span class="keyword parmname">LowestPrices</span> and <span class="keyword parmname">BuyBoxPrices</span>, the <span class="keyword parmname">ListPrice</span>, the <span class="keyword parmname">SuggestedLowerPricePlusShipping</span>, and <span class="keyword parmname">NumberOfOffers</span> and <span class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span> |
-| [Offers](#Offers "A list of Offer elements, including Points, ShippingTime, Shipping, ShipsFrom, ListingPrice, SellerFeedbackRating, and more.")                                                                          | <span class="ph">A list of [Offer](#Offers__Offer) elements, including <span class="keyword parmname">Points</span>, <span class="keyword parmname">ShippingTime</span>, <span class="keyword parmname">Shipping</span>, <span class="keyword parmname">ShipsFrom</span>, <span class="keyword parmname">ListingPrice</span>, <span class="keyword parmname">SellerFeedbackRating</span>, and more.</span>                                                      |
+| Name                                                                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#Identifier" class="xref" title="Identifies a product by marketplace and SKU.">Identifier</a>                                                                                                                                                  | <span class="ph">Identifies a product by marketplace and SKU.</span>                                                                                                                                                                                                                                                                                                                                                                                            |
+| <a href="#Summary" class="xref" title="Contains price information about the product, including the LowestPrices and BuyBoxPrices, the ListPrice, the SuggestedLowerPricePlusShipping, and NumberOfOffers and NumberOfBuyBoxEligibleOffers.">Summary</a> | <span class="ph">Contains price information about the product, including the <span class="keyword parmname">LowestPrices</span> and <span class="keyword parmname">BuyBoxPrices</span>, the <span class="keyword parmname">ListPrice</span>, the <span class="keyword parmname">SuggestedLowerPricePlusShipping</span>, and <span class="keyword parmname">NumberOfOffers</span> and <span class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span> |
+| <a href="#Offers" class="xref" title="A list of Offer elements, including Points, ShippingTime, Shipping, ShipsFrom, ListingPrice, SellerFeedbackRating, and more.">Offers</a>                                                                          | <span class="ph">A list of <a href="#Offers__Offer" class="xref">Offer</a> elements, including <span class="keyword parmname">Points</span>, <span class="keyword parmname">ShippingTime</span>, <span class="keyword parmname">Shipping</span>, <span class="keyword parmname">ShipsFrom</span>, <span class="keyword parmname">ListingPrice</span>, <span class="keyword parmname">SellerFeedbackRating</span>, and more.</span>                              |
 
 </div>
 
@@ -302,15 +303,15 @@ operation are:
 <div class="p">
 
 Except for <span class="keyword parmname">Status</span>, each of these
-attributes match the original request parameters for the call.
-<span class="keyword parmname">Status</span> represents the overall
-result of the operation with one of the following values:
+attributes match the original request parameters for the call. <span
+class="keyword parmname">Status</span> represents the overall result of
+the operation with one of the following values:
 
-  - `Success`
-  - `ActiveButTooSoonForProcessing` - the item is active but no offers
+-   `Success`
+-   `ActiveButTooSoonForProcessing` - the item is active but no offers
     can be displayed until `OffersAvailableTime`
-  - `NoBuyableOffers` - the item is not being offered for sale
-  - `NoOfferDueToMissingShippingCharge` - the shipping charge is absent
+-   `NoBuyableOffers` - the item is not being offered for sale
+-   `NoOfferDueToMissingShippingCharge` - the shipping charge is absent
     (for example, when the shipping charge varies by region)
 
 </div>
@@ -323,7 +324,8 @@ result of the operation with one of the following values:
 
 <div id="Identifier" class="topic reference nested1">
 
-## Identifier
+Identifier
+----------
 
 <div class="body refbody">
 
@@ -391,18 +393,19 @@ and SKU.</span>
 
 <div id="Summary" class="topic reference nested1">
 
-## Summary
+Summary
+-------
 
 <div class="body refbody">
 
 <span id="sd_Summary" class="ph">Contains price information about the
-product, including the
-<span class="keyword parmname">LowestPrices</span> and
-<span class="keyword parmname">BuyBoxPrices</span>, the
-<span class="keyword parmname">ListPrice</span>, the
-<span class="keyword parmname">SuggestedLowerPricePlusShipping</span>,
-and <span class="keyword parmname">NumberOfOffers</span> and
-<span class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span>
+product, including the <span
+class="keyword parmname">LowestPrices</span> and <span
+class="keyword parmname">BuyBoxPrices</span>, the <span
+class="keyword parmname">ListPrice</span>, the <span
+class="keyword parmname">SuggestedLowerPricePlusShipping</span>, and
+<span class="keyword parmname">NumberOfOffers</span> and <span
+class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span>
 
 <div class="section">
 
@@ -410,16 +413,16 @@ and <span class="keyword parmname">NumberOfOffers</span> and
 
 <div class="tablenoborder">
 
-| Name                                                                  | Description                                                                                                                                                                                                                                             | Required | Values                                                                                                                                           |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <span class="keyword parmname">TotalOfferCount</span>                 | The number of unique offers contained in <span class="keyword parmname">NumberOfOffers</span>.                                                                                                                                                          | Yes      | <span class="ph">Type: xs:int</span>                                                                                                             |
-| <span class="keyword parmname">NumberOfOffers</span>                  | A list that contains the total number of offers for the item for the given conditions and fulfillment channels.                                                                                                                                         | Yes      | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
-| <span class="keyword parmname">LowestPrices</span>                    | A list of the lowest prices for the item.                                                                                                                                                                                                               | No       | Type: List of [LowestPrice](Products_Datatypes.md#LowestPrice "The lowest price of an item.")                                                  |
-| <span class="keyword parmname">BuyBoxPrices</span>                    | A list of item prices.                                                                                                                                                                                                                                  | No       | Type: List of [BuyBoxPrice](Products_Datatypes.md#BuyBoxPrice "The price of an item that is displayed in the Buy Box.")                        |
-| <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
-| <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                               |
-| <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: [OfferCountType](Products_Datatypes.md#OfferCountType "The total number of offers for the specified condition and fulfillment channel.") |
-| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is `ActiveButTooSoonForProcessing`, this is the time when the offers will be available for processing.                                                                                                                                  | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                        |
+| Name                                                                  | Description                                                                                                                                                                                                                                             | Required | Values                                                                                                                                                                         |
+|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">TotalOfferCount</span>                 | The number of unique offers contained in <span class="keyword parmname">NumberOfOffers</span>.                                                                                                                                                          | Yes      | <span class="ph">Type: xs:int</span>                                                                                                                                           |
+| <span class="keyword parmname">NumberOfOffers</span>                  | A list that contains the total number of offers for the item for the given conditions and fulfillment channels.                                                                                                                                         | Yes      | Type: <a href="Products_Datatypes.md#OfferCountType" class="xref" title="The total number of offers for the specified condition and fulfillment channel.">OfferCountType</a> |
+| <span class="keyword parmname">LowestPrices</span>                    | A list of the lowest prices for the item.                                                                                                                                                                                                               | No       | Type: List of <a href="Products_Datatypes.md#LowestPrice" class="xref" title="The lowest price of an item.">LowestPrice</a>                                                  |
+| <span class="keyword parmname">BuyBoxPrices</span>                    | A list of item prices.                                                                                                                                                                                                                                  | No       | Type: List of <a href="Products_Datatypes.md#BuyBoxPrice" class="xref" title="The price of an item that is displayed in the Buy Box.">BuyBoxPrice</a>                        |
+| <span class="keyword parmname">ListPrice</span>                       | The list price of the item as suggested by the manufacturer.                                                                                                                                                                                            | No       | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>                                               |
+| <span class="keyword parmname">SuggestedLowerPricePlusShipping</span> | The suggested lower price of the item, including shipping and Amazon Points. The suggested lower price is based on a range of factors, including historical selling prices, recent Buy Box-eligible prices, and input from customers for your products. | No       | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>                                               |
+| <span class="keyword parmname">BuyBoxEligibleOffers</span>            | A list that contains the total number of offers that are eligible for the Buy Box for the given conditions and fulfillment channels.                                                                                                                    | No       | Type: <a href="Products_Datatypes.md#OfferCountType" class="xref" title="The total number of offers for the specified condition and fulfillment channel.">OfferCountType</a> |
+| <span class="keyword parmname">OffersAvailableTime</span>             | When the status is `ActiveButTooSoonForProcessing`, this is the time when the offers will be available for processing.                                                                                                                                  | No       | <span class="ph">Type: xs:dateTime</span>                                                                                                                                      |
 
 </div>
 
@@ -431,24 +434,25 @@ and <span class="keyword parmname">NumberOfOffers</span> and
 
 <div id="Offers" class="topic reference nested1">
 
-## Offers
+Offers
+------
 
 <div class="body refbody">
 
-<span id="sd_Offers" class="ph">A list of [Offer](#Offers__Offer)
-elements, including <span class="keyword parmname">Points</span>,
-<span class="keyword parmname">ShippingTime</span>,
-<span class="keyword parmname">Shipping</span>,
-<span class="keyword parmname">ShipsFrom</span>,
-<span class="keyword parmname">ListingPrice</span>,
-<span class="keyword parmname">SellerFeedbackRating</span>, and
-more.</span>
+<span id="sd_Offers" class="ph">A list of
+<a href="#Offers__Offer" class="xref">Offer</a> elements, including
+<span class="keyword parmname">Points</span>, <span
+class="keyword parmname">ShippingTime</span>, <span
+class="keyword parmname">Shipping</span>, <span
+class="keyword parmname">ShipsFrom</span>, <span
+class="keyword parmname">ListingPrice</span>, <span
+class="keyword parmname">SellerFeedbackRating</span>, and more.</span>
 
 <div class="section">
 
-This list is the same length as the
-<span class="keyword parmname">TotalOfferCount</span> provided in the
-[Summary](#Summary "Contains price information about the product, including the LowestPrices and BuyBoxPrices, the ListPrice, the SuggestedLowerPricePlusShipping, and NumberOfOffers and NumberOfBuyBoxEligibleOffers.")
+This list is the same length as the <span
+class="keyword parmname">TotalOfferCount</span> provided in the
+<a href="#Summary" class="xref" title="Contains price information about the product, including the LowestPrices and BuyBoxPrices, the ListPrice, the SuggestedLowerPricePlusShipping, and NumberOfOffers and NumberOfBuyBoxEligibleOffers.">Summary</a>
 or 20, whichever is less.
 
 </div>
@@ -459,19 +463,19 @@ or 20, whichever is less.
 
 <div class="tablenoborder">
 
-| Name                                                       | Description                                                                                                                                                                                                                                | Required | Values                                                                                                                                                                                                         |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">MyOffer</span>              | `true` if this is your offer.                                                                                                                                                                                                              | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">SubCondition</span>         | The subcondition of the item. For example: <span class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`, `Poor`, `Club`, `OEM`, `Warranty`, `Refurbished                     Warranty`, `Refurbished`, `Open Box`, or `Other`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                        |
-| <span class="keyword parmname">SellerFeedbackRating</span> | <span id="Offers__d50958e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span>                                                         | No       | Type: [SellerFeedbackRating](Products_Datatypes.md#SellerFeedbackRating "Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.") |
-| <span class="keyword parmname">ShippingTime</span>         | <span id="Offers__d50958e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span>                                                                                              | Yes      | Type: [DetailedShippingTimeType](Products_Datatypes.md#DetailedShippingTimeType "The time range in which an item will likely be shipped once an order has been placed.")                                     |
-| <span class="keyword parmname">ListingPrice</span>         | The price of the item.                                                                                                                                                                                                                     | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
-| <span class="keyword parmname">Points</span>               | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                                                                                                          | No       | Type: [Points](Products_Datatypes.md#Points "The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.")                                       |
-| <span class="keyword parmname">Shipping</span>             | The shipping cost.                                                                                                                                                                                                                         | Yes      | Type: [MoneyType](Products_Datatypes.md#MoneyType "An amount of money in a specified currency.")                                                                                                             |
-| <span class="keyword parmname">ShipsFrom</span>            | <span id="Offers__d50958e1421" class="ph">The state and country from where the item is shipped.</span>                                                                                                                                     | No       | Type: [ShipsFrom](Products_Datatypes.md#ShipsFrom "The state and country from where the item is shipped.")                                                                                                   |
-| <span class="keyword parmname">IsFulfilledByAmazon</span>  | `true` if the offer is fulfilled by Amazon.                                                                                                                                                                                                | Yes      | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">IsBuyBoxWinner</span>       | `true` if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.                                                       | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
-| <span class="keyword parmname">IsFeaturedMerchant</span>   | `true` if the seller of the item is eligible to win the Buy Box.                                                                                                                                                                           | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                       |
+| Name                                                       | Description                                                                                                                                                                                                                                | Required | Values                                                                                                                                                                                                                                           |
+|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">MyOffer</span>              | `true` if this is your offer.                                                                                                                                                                                                              | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                                                         |
+| <span class="keyword parmname">SubCondition</span>         | The subcondition of the item. For example: <span class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`, `Poor`, `Club`, `OEM`, `Warranty`, `Refurbished                     Warranty`, `Refurbished`, `Open Box`, or `Other`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                                                          |
+| <span class="keyword parmname">SellerFeedbackRating</span> | <span id="Offers__d50958e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span>                                                         | No       | Type: <a href="Products_Datatypes.md#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a> |
+| <span class="keyword parmname">ShippingTime</span>         | <span id="Offers__d50958e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span>                                                                                              | Yes      | Type: <a href="Products_Datatypes.md#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a>                                         |
+| <span class="keyword parmname">ListingPrice</span>         | The price of the item.                                                                                                                                                                                                                     | Yes      | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>                                                                                                                 |
+| <span class="keyword parmname">Points</span>               | <span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span>                                                                                                                          | No       | Type: <a href="Products_Datatypes.md#Points" class="xref" title="The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.">Points</a>                                           |
+| <span class="keyword parmname">Shipping</span>             | The shipping cost.                                                                                                                                                                                                                         | Yes      | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>                                                                                                                 |
+| <span class="keyword parmname">ShipsFrom</span>            | <span id="Offers__d50958e1421" class="ph">The state and country from where the item is shipped.</span>                                                                                                                                     | No       | Type: <a href="Products_Datatypes.md#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a>                                                                                                       |
+| <span class="keyword parmname">IsFulfilledByAmazon</span>  | `true` if the offer is fulfilled by Amazon.                                                                                                                                                                                                | Yes      | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                                                         |
+| <span class="keyword parmname">IsBuyBoxWinner</span>       | `true` if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.                                                       | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                                                         |
+| <span class="keyword parmname">IsFeaturedMerchant</span>   | `true` if the seller of the item is eligible to win the Buy Box.                                                                                                                                                                           | No       | <span class="ph">Type: xs:boolean</span>                                                                                                                                                                                                         |
 
 </div>
 
@@ -483,7 +487,8 @@ or 20, whichever is less.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -492,8 +497,8 @@ or 20, whichever is less.
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -501,27 +506,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-&SellerSKU=24478624
-&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action= GetLowestPricedOffersForSKU
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&ItemCondition=New
-&SellerId=A1IMEXAMPLEWRC
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2015-05-22T21%3A23%3A31Z
-&Version=2011-10-01
-&Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
-```
+    &SellerSKU=24478624
+    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action= GetLowestPricedOffersForSKU
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &ItemCondition=New
+    &SellerId=A1IMEXAMPLEWRC
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2015-05-22T21%3A23%3A31Z
+    &Version=2011-10-01
+    &Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -532,7 +535,7 @@ User-Agent: <Your User Agent Header>
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -540,100 +543,98 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetLowestPricedOffersForSKUResponse 
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
-        SKU="GE Product" ItemCondition="New" status="Success">
-        <Identifier>
-            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-            <SellerSKU>GE Product</SellerSKU>
-            <ItemCondition>New</ItemCondition>
-            <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
-        </Identifier>
-        <Summary>
-            <TotalOfferCount>1</TotalOfferCount>
-            <NumberOfOffers>
-                <OfferCount condition="new" 
-                    fulfillmentChannel="Amazon">1</OfferCount>
-            </NumberOfOffers>
-            <LowestPrices>
-                <LowestPrice condition="new" fulfillmentChannel="Amazon">
-                    <LandedPrice>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>32.99</Amount>
-                    </LandedPrice>
-                    <ListingPrice>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>32.99</Amount>
-                    </ListingPrice>
-                    <Shipping>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.00</Amount>
-                    </Shipping>
-                </LowestPrice>
-            </LowestPrices>
-            <BuyBoxPrices>
-                <BuyBoxPrice condition="New">
-                    <LandedPrice>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>32.99</Amount>
-                    </LandedPrice>
-                    <ListingPrice>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>32.99</Amount>
-                    </ListingPrice>
-                    <Shipping>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.00</Amount>
-                    </Shipping>
-                </BuyBoxPrice>
-            </BuyBoxPrices>
-            <ListPrice>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>58.34</Amount>
-            </ListPrice>
-            <SuggestedLowerPricePlusShipping>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>32.99</Amount>
-            </SuggestedLowerPricePlusShipping>
-            <BuyBoxEligibleOffers>
-                <OfferCount condition="new" 
-                    fulfillmentChannel="Amazon">1</OfferCount>
-            </BuyBoxEligibleOffers>
-        </Summary>
-        <Offers>
-            <Offer>
-                <MyOffer>false</MyOffer>
-                <SubCondition>new</SubCondition>
-                <SellerFeedbackRating>
-                    <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
-                    <FeedbackCount>1</FeedbackCount>
-                </SellerFeedbackRating>
-                <ShippingTime minimumHours="0" maximumHours="0" 
-                    availabilityType="NOW"/>
-                <ListingPrice>
+    <?xml version="1.0"?>
+    <GetLowestPricedOffersForSKUResponse 
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
+            SKU="GE Product" ItemCondition="New" status="Success">
+            <Identifier>
+                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                <SellerSKU>GE Product</SellerSKU>
+                <ItemCondition>New</ItemCondition>
+                <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
+            </Identifier>
+            <Summary>
+                <TotalOfferCount>1</TotalOfferCount>
+                <NumberOfOffers>
+                    <OfferCount condition="new" 
+                        fulfillmentChannel="Amazon">1</OfferCount>
+                </NumberOfOffers>
+                <LowestPrices>
+                    <LowestPrice condition="new" fulfillmentChannel="Amazon">
+                        <LandedPrice>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>32.99</Amount>
+                        </LandedPrice>
+                        <ListingPrice>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>32.99</Amount>
+                        </ListingPrice>
+                        <Shipping>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>0.00</Amount>
+                        </Shipping>
+                    </LowestPrice>
+                </LowestPrices>
+                <BuyBoxPrices>
+                    <BuyBoxPrice condition="New">
+                        <LandedPrice>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>32.99</Amount>
+                        </LandedPrice>
+                        <ListingPrice>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>32.99</Amount>
+                        </ListingPrice>
+                        <Shipping>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>0.00</Amount>
+                        </Shipping>
+                    </BuyBoxPrice>
+                </BuyBoxPrices>
+                <ListPrice>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>58.34</Amount>
+                </ListPrice>
+                <SuggestedLowerPricePlusShipping>
                     <CurrencyCode>USD</CurrencyCode>
                     <Amount>32.99</Amount>
-                </ListingPrice>
-                <Shipping>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.00</Amount>
-                </Shipping>
-                <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
-                <IsBuyBoxWinner>true</IsBuyBoxWinner>
-                <IsFeaturedMerchant>true</IsFeaturedMerchant>
-            </Offer>
-        </Offers>
-    </GetLowestPricedOffersForSKUResult>
-    <ResponseMetadata>
-        <RequestId>fd2e6c6d-0b6d-499b-9fea-074175c0547a</RequestId>
-    </ResponseMetadata>
-</GetLowestPricedOffersForSKUResponse>
-```
+                </SuggestedLowerPricePlusShipping>
+                <BuyBoxEligibleOffers>
+                    <OfferCount condition="new" 
+                        fulfillmentChannel="Amazon">1</OfferCount>
+                </BuyBoxEligibleOffers>
+            </Summary>
+            <Offers>
+                <Offer>
+                    <MyOffer>false</MyOffer>
+                    <SubCondition>new</SubCondition>
+                    <SellerFeedbackRating>
+                        <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
+                        <FeedbackCount>1</FeedbackCount>
+                    </SellerFeedbackRating>
+                    <ShippingTime minimumHours="0" maximumHours="0" 
+                        availabilityType="NOW"/>
+                    <ListingPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </ListingPrice>
+                    <Shipping>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.00</Amount>
+                    </Shipping>
+                    <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
+                    <IsBuyBoxWinner>true</IsBuyBoxWinner>
+                    <IsFeaturedMerchant>true</IsFeaturedMerchant>
+                </Offer>
+            </Offers>
+        </GetLowestPricedOffersForSKUResult>
+        <ResponseMetadata>
+            <RequestId>fd2e6c6d-0b6d-499b-9fea-074175c0547a</RequestId>
+        </ResponseMetadata>
+    </GetLowestPricedOffersForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -644,7 +645,7 @@ code</span> </span>
 ### Example response (Success with no offers)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -652,29 +653,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetLowestPricedOffersForSKUResponse 
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
-        SKU="0I-RIAS-6UA0" ItemCondition="new" status="NoBuyableOffers">
-        <Identifier>
-            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-            <SellerSKU>0I-RIAS-6UA0</SellerSKU>
-            <ItemCondition>New</ItemCondition>
-        </Identifier>
-        <Summary>
-            <TotalOfferCount>0</TotalOfferCount>
-        </Summary>
-        <Offers/>
-    </GetLowestPricedOffersForSKUResult>
-    <ResponseMetadata>
-        <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
-    </ResponseMetadata>
-</GetLowestPricedOffersForSKUResponse>
-```
+    <?xml version="1.0"?>
+    <GetLowestPricedOffersForSKUResponse 
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
+            SKU="0I-RIAS-6UA0" ItemCondition="new" status="NoBuyableOffers">
+            <Identifier>
+                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                <SellerSKU>0I-RIAS-6UA0</SellerSKU>
+                <ItemCondition>New</ItemCondition>
+            </Identifier>
+            <Summary>
+                <TotalOfferCount>0</TotalOfferCount>
+            </Summary>
+            <Offers/>
+        </GetLowestPricedOffersForSKUResult>
+        <ResponseMetadata>
+            <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
+        </ResponseMetadata>
+    </GetLowestPricedOffersForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -685,7 +684,7 @@ code</span> </span>
 ### Example response (Missing shipping charge)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -693,29 +692,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0" encoding="UTF-8"?>
-<GetLowestPricedOffersForSKUResponse
-  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" SKU="0I-RIAS-6UA0"
-    ItemCondition="new" status="NoOfferDueToMissingShippingCharge">
-    <Identifier>
-      <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-      <SellerSKU>0I-RIAS-6UA0</SellerSKU>
-      <ItemCondition>New</ItemCondition>
-    </Identifier>
-    <Summary>
-      <TotalOfferCount>0</TotalOfferCount>
-    </Summary>
-    <Offers/>
-  </GetLowestPricedOffersForSKUResult>
-  <ResponseMetadata>
-    <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
-  </ResponseMetadata>
-</GetLowestPricedOffersForSKUResponse>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <GetLowestPricedOffersForSKUResponse
+      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" SKU="0I-RIAS-6UA0"
+        ItemCondition="new" status="NoOfferDueToMissingShippingCharge">
+        <Identifier>
+          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+          <SellerSKU>0I-RIAS-6UA0</SellerSKU>
+          <ItemCondition>New</ItemCondition>
+        </Identifier>
+        <Summary>
+          <TotalOfferCount>0</TotalOfferCount>
+        </Summary>
+        <Offers/>
+      </GetLowestPricedOffersForSKUResult>
+      <ResponseMetadata>
+        <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
+      </ResponseMetadata>
+    </GetLowestPricedOffersForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -726,7 +723,7 @@ code</span> </span>
 ### Example response (Active but too soon for processing)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -734,28 +731,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetLowestPricedOffersForSKUResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetLowestPricedOffersForSKUResult MarketplaceID="A2EUQ1WTGCTBG2" SKU="ACA-8039-6PK-DL57" ItemCondition="New" status="ActiveButTooSoonForProcessing">
-        <Identifier>
-            <MarketplaceId>A2EUQ1WTGCTBG2</MarketplaceId>
-            <SellerSKU>ACA-8039-6PK-DL57</SellerSKU>
-            <ItemCondition>New</ItemCondition>
-        </Identifier>
-        <Summary>
-            <TotalOfferCount>0</TotalOfferCount>
-            <OffersAvailableTime>2017-03-08T07:13:21.763Z</OffersAvailableTime>
-        </Summary>
-        <Offers/>
-    </GetLowestPricedOffersForSKUResult>
-    <ResponseMetadata>
-        <RequestId>1212334</RequestId>
-    </ResponseMetadata>
-</GetLowestPricedOffersForSKUResponse>
-```
+    <?xml version="1.0"?>
+    <GetLowestPricedOffersForSKUResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetLowestPricedOffersForSKUResult MarketplaceID="A2EUQ1WTGCTBG2" SKU="ACA-8039-6PK-DL57" ItemCondition="New" status="ActiveButTooSoonForProcessing">
+            <Identifier>
+                <MarketplaceId>A2EUQ1WTGCTBG2</MarketplaceId>
+                <SellerSKU>ACA-8039-6PK-DL57</SellerSKU>
+                <ItemCondition>New</ItemCondition>
+            </Identifier>
+            <Summary>
+                <TotalOfferCount>0</TotalOfferCount>
+                <OffersAvailableTime>2017-03-08T07:13:21.763Z</OffersAvailableTime>
+            </Summary>
+            <Offers/>
+        </GetLowestPricedOffersForSKUResult>
+        <ResponseMetadata>
+            <RequestId>1212334</RequestId>
+        </ResponseMetadata>
+    </GetLowestPricedOffersForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -766,7 +761,7 @@ code</span> </span>
 ### Example response (Server error)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -774,23 +769,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <Error MarketplaceID="ATVPDKIKX0DER" SKU="24478624" ItemCondition="New" 
-    status="ServerError">
-    <Type>Receiver</Type>
-    <Message>Server Error. Try back later</Message>
-    <Detail/>
-  </Error>
-  <ResponseMetadata>
-    <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-  </ResponseMetadata>
-</ErrorResponse>
+    <?xml version="1.0"?>
+    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <Error MarketplaceID="ATVPDKIKX0DER" SKU="24478624" ItemCondition="New" 
+        status="ServerError">
+        <Type>Receiver</Type>
+        <Message>Server Error. Try back later</Message>
+        <Detail/>
+      </Error>
+      <ResponseMetadata>
+        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+      </ResponseMetadata>
+    </ErrorResponse>
 
-```
-
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -801,7 +793,7 @@ code</span> </span>
 ### Example response (Client error)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -809,22 +801,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <Error MarketplaceID="ATVPDKIKX0DER" SKU="asdgv" ItemCondition="new" 
-        status="ClientError">
-        <Code>InvalidParameterValue</Code>
-        <Type>Sender</Type>
-        <Message>asdgv is an invalid SKU for marketplace ATVPDKIKX0DER</Message>
-    </Error>
-    <ResponseMetadata>
-        <RequestId>1714394f-07a3-4bc4-8072-53abf8c3759a</RequestId>
-    </ResponseMetadata>
-</ErrorResponse>
-```
+    <?xml version="1.0"?>
+    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <Error MarketplaceID="ATVPDKIKX0DER" SKU="asdgv" ItemCondition="new" 
+            status="ClientError">
+            <Code>InvalidParameterValue</Code>
+            <Type>Sender</Type>
+            <Message>asdgv is an invalid SKU for marketplace ATVPDKIKX0DER</Message>
+        </Error>
+        <ResponseMetadata>
+            <RequestId>1714394f-07a3-4bc4-8072-53abf8c3759a</RequestId>
+        </ResponseMetadata>
+    </ErrorResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -836,13 +826,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[GetLowestPricedOffersForASIN](Products_GetLowestPricedOffersForASIN.md "Returns lowest priced offers for a single product, based on ASIN.")
+<a href="Products_GetLowestPricedOffersForASIN.md" class="xref" title="Returns lowest priced offers for a single product, based on ASIN.">GetLowestPricedOffersForASIN</a>
 
 </div>
 

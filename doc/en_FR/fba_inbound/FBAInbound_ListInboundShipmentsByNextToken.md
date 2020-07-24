@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ListInboundShipmentsByNextToken" class="nested0">
 
-# ListInboundShipmentsByNextToken
+ListInboundShipmentsByNextToken
+===============================
 
 <div class="body">
 
@@ -46,20 +46,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 <div class="section">
 
 The <span class="keyword apiname">ListInboundShipmentsByNextToken</span>
-operation returns the next page of inbound shipments using the
-<span class="keyword parmname">NextToken</span> value that was returned
-by your previous request to either
-<span class="keyword apiname">ListInboundShipments</span> or
-<span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If
-<span class="keyword parmname">NextToken</span> is not returned, there
-are no more pages to return.
+operation returns the next page of inbound shipments using the <span
+class="keyword parmname">NextToken</span> value that was returned by
+your previous request to either <span
+class="keyword apiname">ListInboundShipments</span> or <span
+class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span
+class="keyword parmname">NextToken</span> is not returned, there are no
+more pages to return.
 
 </div>
 
@@ -75,14 +76,14 @@ This operation is available in all marketplaces except Brazil.
 
 ### Throttling
 
-The <span class="keyword apiname">ListInboundShipments</span> and
-<span class="keyword apiname">ListInboundShipmentsByNextToken</span>
+The <span class="keyword apiname">ListInboundShipments</span> and <span
+class="keyword apiname">ListInboundShipmentsByNextToken</span>
 operations together share a **maximum request quota** of 30 and a
 **restore rate** of two requests every second. <span class="ph">For
 definitions of throttling terminology and for a complete explanation of
-throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -92,7 +93,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -100,16 +102,15 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
 | Name                                            | Description                                                                                                                                                                                                   | Required | Values                                  |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">NextToken</span> | A string token returned in the response of your previous request to either <span class="keyword apiname">ListInboundShipments</span> or <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -120,7 +121,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -160,7 +162,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -169,8 +172,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -178,22 +181,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
-  ?Action=ListInboundShipmentsByNextToken
-  &Version=2010-10-01
-  &AWSAccessKeyId=1QZHP8EXAMPLE1N5R44N
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=VY6sqvdk01VEG0VEXAMPLEh4oj3
-  &Timestamp=2015-12-02T02:40:36Z
-  &SellerId=1234567890
-  &NextToken=QVYyVTY5NUVaQzBDWHw0ODh8MjAwfCB8IHw1OTM0MDZ8IHwwLDJ8
-  IHwgfCB8IHx0cnVl
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
+      ?Action=ListInboundShipmentsByNextToken
+      &Version=2010-10-01
+      &AWSAccessKeyId=1QZHP8EXAMPLE1N5R44N
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=VY6sqvdk01VEG0VEXAMPLEh4oj3
+      &Timestamp=2015-12-02T02:40:36Z
+      &SellerId=1234567890
+      &NextToken=QVYyVTY5NUVaQzBDWHw0ODh8MjAwfCB8IHw1OTM0MDZ8IHwwLDJ8
+      IHwgfCB8IHx0cnVl
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -204,7 +205,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -212,59 +213,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListInboundShipmentsByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <ListInboundShipmentsByNextTokenResult>
-        <NextToken>QVYyVTY5NUVaQzBDWHw0ODh8MjAwfCB8IHw1OTM0MDZ8IHwwLDJ8
-            IHwgfCB8IHx0cnVl</NextToken>
-        <ShipmentData>
-            <member>
-                <ShipFromAddress>
-                    <PostalCode>98101</PostalCode>
-                    <Name>Joan Doe</Name>
-                    <CountryCode>US</CountryCode>
-                    <StateOrProvinceCode>WA</StateOrProvinceCode>
-                    <AddressLine2>Apt 2</AddressLine2>
-                    <AddressLine1>876 Elm St</AddressLine1>
-                    <City>Seattle</City>
-                </ShipFromAddress>
-                <AreCasesRequired>false</AreCasesRequired>
-                <ShipmentId>SSF85DGIZZ7PKF</ShipmentId>
-                <ShipmentStatus>WORKING</ShipmentStatus>
-                <ShipmentName>ExampleShipmentName4</ShipmentName>
-                <DestinationFulfillmentCenterId>RNO2
-                </DestinationFulfillmentCenterId>
-                <LabelPrepType>SELLER_LABEL</LabelPrepType>
-            </member>
-            <member>
-                <ShipFromAddress>
-                    <PostalCode>98101</PostalCode>
-                    <Name>Joan Doe</Name>
-                    <CountryCode>US</CountryCode>
-                    <StateOrProvinceCode>WA</StateOrProvinceCode>
-                    <AddressLine2>Apt 2</AddressLine2>
-                    <AddressLine1>876 Elm St</AddressLine1>
-                    <City>Seattle</City>
-                </ShipFromAddress>
-                <AreCasesRequired>true</AreCasesRequired>
-                <ShipmentId>SSF85DGIZZ7PL3</ShipmentId>
-                <ShipmentStatus>SHIPPED</ShipmentStatus>
-                <ShipmentName>ExampleShipmentName5</ShipmentName>
-                <DestinationFulfillmentCenterId>RNO2
-                </DestinationFulfillmentCenterId>
-                <LabelPrepType>SELLER_LABEL</LabelPrepType>
-                <ConfirmedNeedByDate>2015-12-30</ConfirmedNeedByDate>
-            </member>
-        </ShipmentData>
-    </ListInboundShipmentsByNextTokenResult>
-    <ResponseMetadata>
-        <RequestId>8547a35c-8e70-11df-8af1-5bf2881764d8</RequestId>
-    </ResponseMetadata>
-</ListInboundShipmentsByNextTokenResponse>
-```
+    <?xml version="1.0"?>
+    <ListInboundShipmentsByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <ListInboundShipmentsByNextTokenResult>
+            <NextToken>QVYyVTY5NUVaQzBDWHw0ODh8MjAwfCB8IHw1OTM0MDZ8IHwwLDJ8
+                IHwgfCB8IHx0cnVl</NextToken>
+            <ShipmentData>
+                <member>
+                    <ShipFromAddress>
+                        <PostalCode>98101</PostalCode>
+                        <Name>Joan Doe</Name>
+                        <CountryCode>US</CountryCode>
+                        <StateOrProvinceCode>WA</StateOrProvinceCode>
+                        <AddressLine2>Apt 2</AddressLine2>
+                        <AddressLine1>876 Elm St</AddressLine1>
+                        <City>Seattle</City>
+                    </ShipFromAddress>
+                    <AreCasesRequired>false</AreCasesRequired>
+                    <ShipmentId>SSF85DGIZZ7PKF</ShipmentId>
+                    <ShipmentStatus>WORKING</ShipmentStatus>
+                    <ShipmentName>ExampleShipmentName4</ShipmentName>
+                    <DestinationFulfillmentCenterId>RNO2
+                    </DestinationFulfillmentCenterId>
+                    <LabelPrepType>SELLER_LABEL</LabelPrepType>
+                </member>
+                <member>
+                    <ShipFromAddress>
+                        <PostalCode>98101</PostalCode>
+                        <Name>Joan Doe</Name>
+                        <CountryCode>US</CountryCode>
+                        <StateOrProvinceCode>WA</StateOrProvinceCode>
+                        <AddressLine2>Apt 2</AddressLine2>
+                        <AddressLine1>876 Elm St</AddressLine1>
+                        <City>Seattle</City>
+                    </ShipFromAddress>
+                    <AreCasesRequired>true</AreCasesRequired>
+                    <ShipmentId>SSF85DGIZZ7PL3</ShipmentId>
+                    <ShipmentStatus>SHIPPED</ShipmentStatus>
+                    <ShipmentName>ExampleShipmentName5</ShipmentName>
+                    <DestinationFulfillmentCenterId>RNO2
+                    </DestinationFulfillmentCenterId>
+                    <LabelPrepType>SELLER_LABEL</LabelPrepType>
+                    <ConfirmedNeedByDate>2015-12-30</ConfirmedNeedByDate>
+                </member>
+            </ShipmentData>
+        </ListInboundShipmentsByNextTokenResult>
+        <ResponseMetadata>
+            <RequestId>8547a35c-8e70-11df-8af1-5bf2881764d8</RequestId>
+        </ResponseMetadata>
+    </ListInboundShipmentsByNextTokenResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -276,17 +275,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
+<a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
 
 </div>
 

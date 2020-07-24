@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_HowToHandleSerialNumbers" class="nested0">
 
-# How to handle order items that require serial numbers
+How to handle order items that require serial numbers
+=====================================================
 
 <div class="body">
 
@@ -49,39 +49,38 @@ find out which items require serial numbers.
 **To handle order items with serial numbers**
 
 1.  Before calling the
-    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
+    <a href="EasyShip_CreateScheduledPackage.md" class="xref">CreateScheduledPackage</a>
     operation, call the
-    [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
+    <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
     operation, specifying the Amazon Order ID for the order that you
     want to create a scheduled package for.
-    
+
     Amazon returns the items in the order, marking the items that
-    require a serial number with
-    <span class="keyword parmname">SerialNumberRequired</span>=`true`.
+    require a serial number with <span
+    class="keyword parmname">SerialNumberRequired</span>=`true`.
 
 2.  Call the
-    [CreateScheduledPackage](EasyShip_CreateScheduledPackage.md)
-    operation using
-    <span class="keyword parmname">PackageItemList</span> to specify
-    serial numbers for all of the items marked
-    <span class="keyword parmname">SerialNumberRequired</span>=`true` in
-    Step 1. Don't specify serial numbers for items marked
-    <span class="keyword parmname">SerialNumberRequired</span>=`false`.
-    
+    <a href="EasyShip_CreateScheduledPackage.md" class="xref">CreateScheduledPackage</a>
+    operation using <span
+    class="keyword parmname">PackageItemList</span> to specify serial
+    numbers for all of the items marked <span
+    class="keyword parmname">SerialNumberRequired</span>=`true` in
+    Step 1. Don't specify serial numbers for items marked <span
+    class="keyword parmname">SerialNumberRequired</span>=`false`.
+
     Amazon generates warranty documents for the items that you specified
     serial numbers for. For information about getting the documents that
-    Amazon generates when you create a scheduled package, see [How to
-    get invoice, shipping label, and warranty
-    documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md).
+    Amazon generates when you create a scheduled package, see
+    <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.
 
 </div>
 
 <div class="section">
 
-## Releated topics
+Releated topics
+---------------
 
-[How to get invoice, shipping label, and warranty
-documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)
+<a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>
 
 </div>
 
@@ -93,8 +92,8 @@ documents](../easy_ship/EasyShip_HowToGetEasyShipDocs.md)
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Easy Ship API
-section](../easy_ship/EasyShip_Overview.md)
+**Parent topic:**
+<a href="../easy_ship/EasyShip_Overview.md" class="link">What you should know about the Easy Ship API section</a>
 
 </div>
 

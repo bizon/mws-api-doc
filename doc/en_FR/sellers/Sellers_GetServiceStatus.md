@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Sellers_GetServiceStatus" class="nested0">
 
-# GetServiceStatus
+GetServiceStatus
+================
 
 <div class="body">
 
@@ -46,25 +46,25 @@ section</span>.
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetServiceStatus" class="keyword apiname">GetServiceStatus</span>
-operation returns the operational status of the <span class="ph">Sellers
-API section</span> of <span class="ph">Amazon Marketplace Web Service
-(Amazon MWS)</span>. Status values are `GREEN`, `YELLOW`, and `RED`.
+The <span id="Description__GetServiceStatus"
+class="keyword apiname">GetServiceStatus</span> operation returns the
+operational status of the <span class="ph">Sellers API section</span> of
+<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>.
+Status values are `GREEN`, `YELLOW`, and `RED`.
 
-<span class="ph">The
-<span class="keyword apiname">GetServiceStatus</span> operation has a
+<span class="ph">The <span
+class="keyword apiname">GetServiceStatus</span> operation has a
 **maximum request quota** of two and a **restore rate** of one request
-every five minutes. </span>
-<span id="Description__CartInfo_throttling" class="ph">For definitions
-of throttling terminology and for a complete explanation of throttling,
-see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+every five minutes. </span> <span id="Description__CartInfo_throttling"
+class="ph">For definitions of throttling terminology and for a complete
+explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -72,7 +72,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -88,7 +89,8 @@ None.
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -156,7 +158,8 @@ None.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -165,8 +168,8 @@ None.
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -174,24 +177,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Sellers/2011-07-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Sellers/2011-07-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=AKIAJI4WZFKGX2VWVORQ
-&Action=GetServiceStatus
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=A1SYRH96RHOLW7
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2011-09-19T22%3A06%3A20Z
-&Version=2011-07-01
-&Signature=mSwY4c4roi%2BTQZZbG1q17gZVYBkpsrPf0TmRTJkVi8A%3D
-```
+    AWSAccessKeyId=AKIAJI4WZFKGX2VWVORQ
+    &Action=GetServiceStatus
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=A1SYRH96RHOLW7
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2011-09-19T22%3A06%3A20Z
+    &Version=2011-07-01
+    &Signature=mSwY4c4roi%2BTQZZbG1q17gZVYBkpsrPf0TmRTJkVi8A%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -202,7 +203,7 @@ AWSAccessKeyId=AKIAJI4WZFKGX2VWVORQ
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -210,18 +211,16 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetServiceStatusResponse
-    xmlns="https://mws.amazonservices.com/Sellers/2011-07-01">
-    <GetServiceStatusResult>
-        <Status>GREEN</Status>
-        <Timestamp>2010-09-24T21:38:09.676Z</Timestamp>
-    </GetServiceStatusResult>
-</GetServiceStatusResponse>
-```
+    <?xml version="1.0"?>
+    <GetServiceStatusResponse
+        xmlns="https://mws.amazonservices.com/Sellers/2011-07-01">
+        <GetServiceStatusResult>
+            <Status>GREEN</Status>
+            <Timestamp>2010-09-24T21:38:09.676Z</Timestamp>
+        </GetServiceStatusResult>
+    </GetServiceStatusResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -233,12 +232,12 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Sellers API
-Section](Sellers_Overview.md)
+<a href="Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a>
 
 </div>
 

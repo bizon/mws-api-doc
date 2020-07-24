@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_ProcessingNotifications" class="nested0">
 
-# Processing notifications
+Processing notifications
+========================
 
 <div class="body">
 
@@ -93,8 +93,8 @@ following XSDs:
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS
-Subscriptions API section](../subscriptions/Subscriptions_Overview.md)
+**Parent topic:**
+<a href="../subscriptions/Subscriptions_Overview.md" class="link">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 
@@ -106,8 +106,7 @@ Subscriptions API section](../subscriptions/Subscriptions_Overview.md)
 
 <div>
 
-[Receiving
-notifications](../subscriptions/Subscriptions_ReceivingNotifications.md "Describes how to set up a Destination to receive notifications.")
+<a href="../subscriptions/Subscriptions_ReceivingNotifications.md" class="link" title="Describes how to set up a Destination to receive notifications.">Receiving notifications</a>
 
 </div>
 

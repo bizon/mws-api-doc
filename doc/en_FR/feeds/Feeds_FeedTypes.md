@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# FeedTypes
+FeedTypes
+=========
 
 <div class="body conbody">
 
@@ -42,12 +42,12 @@ spreadsheet application, and XML documents. You can find templates for
 creating flat text files and XML files for inventory and orders on
 Seller Central for your locale.
 
-If you are using XML-formatted feeds, see [Selling on Amazon Guide to
-XML](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf)
+If you are using XML-formatted feeds, see
+<a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl.pdf" class="xref">Selling on Amazon Guide to XML</a>
 for guidance. If you need to determine the correct ItemType for a feed,
-see the [Category-Specific XSDs
-table](https://sellercentral.amazon.com/gp/help/200385010) in the Seller
-Central Help.
+see the
+<a href="https://sellercentral.amazon.com/gp/help/200385010" class="xref">Category-Specific XSDs table</a>
+in the Seller Central Help.
 
 </div>
 
@@ -57,8 +57,8 @@ Central Help.
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+**Parent topic:**
+<a href="../feeds/Feeds_Overview.md" class="link">What you should know about the Amazon MWS Feeds API section</a>
 
 </div>
 

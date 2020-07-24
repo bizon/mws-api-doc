@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Item label specifications
+Item label specifications
+=========================
 
 <div class="body conbody">
 
@@ -41,10 +41,10 @@ When labeling your items, follow these guidelines to ensure that your
 items can be processed in a timely manner after they reach the
 fulfillment center:
 
-  - **Cover all existing barcodes.** Unless you are sending stickerless,
+-   **Cover all existing barcodes.** Unless you are sending stickerless,
     commingled inventory, be sure to cover the existing barcodes on each
     item.
-  - **Use the proper print media for your printer.** Each label must be
+-   **Use the proper print media for your printer.** Each label must be
     readable and scannable for at least 24 months. This means that the
     label must not smudge or fade over that period of time. Using laser
     paper and laser toner with a laser printer, for example, can help
@@ -52,9 +52,10 @@ fulfillment center:
 
 <div class="section">
 
-## Item label example
+Item label example
+------------------
 
-![Item label](ItemLabel.png)
+<img src="ItemLabel.png" class="image" alt="Item label" />
 
 The label that you place on each item must include the following
 information:
@@ -80,14 +81,15 @@ tracking.
 
 <div class="section">
 
-## Print specifications
+Print specifications
+--------------------
 
 <div class="tablenoborder">
 
 | Specification | Description                                                                                                                                                                                                                                                             |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Label color   | White                                                                                                                                                                                                                                                                   |
-| Font          | See [Label font specifications](FBAGuide_LabelFontSpec.md).                                                                                                                                                                                                           |
+| Font          | See <a href="FBAGuide_LabelFontSpec.md" class="xref">Label font specifications</a>.                                                                                                                                                                                   |
 | Label size    | Use a label with a height by width dimension from 1" x 2" (2.5 cm x 5.0 cm) up to 2" x 3" (5.1 cm x 7.6 cm). For example, you could use a label that is 1" x 3" (2.5 cm x 7.6 cm) or 2" x 2" (5.1 cm x 5.1 cm), as long as all of the required information is included. |
 | Label type    | Removable adhesive.                                                                                                                                                                                                                                                     |
 
@@ -97,7 +99,8 @@ tracking.
 
 <div class="section">
 
-## Barcode specifications
+Barcode specifications
+----------------------
 
 <div class="tablenoborder">
 
@@ -156,8 +159,8 @@ tracking.
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShippingSpecs.md" class="link">Shipping Specifications</a>
 
 </div>
 

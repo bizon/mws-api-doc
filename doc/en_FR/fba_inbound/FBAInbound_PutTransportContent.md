@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_PutTransportContent" class="nested0">
 
-# PutTransportContent
+PutTransportContent
+===================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -73,37 +74,36 @@ inbound shipments using <span class="ph">Amazon Marketplace Web Service
 
 <span class="importanttitle">Important:</span>
 
-  - Before using an Amazon-partnered carrier for an inbound shipment,
+-   Before using an Amazon-partnered carrier for an inbound shipment,
     you must read the Seller Central Help about Amazon's Partnered
     Carrier Program to help ensure that you successfully follow the
     program instructions and guidelines
-    ([Europe](https://sellercentral.amazon.co.uk/gp/help/201119120))
-    ([US](https://sellercentral.amazon.com/gp/help/201119120)).
-  - In the EU region, before using an Amazon-partnered carrier for an
+    (<a href="https://sellercentral.amazon.co.uk/gp/help/201119120" class="xref">Europe</a>)
+    (<a href="https://sellercentral.amazon.com/gp/help/201119120" class="xref">US</a>).
+-   In the EU region, before using an Amazon-partnered carrier for an
     inbound shipment, you must first review and accept the terms and
     conditions of the carrier and the terms and conditions of Amazon's
-    Partnered Carrier Program. You can do this on [Seller
-    Central](https://sellercentral.amazon.co.uk/gp/help/201119120). If
-    you attempt to use <span class="ph">Amazon Marketplace Web Service
-    (Amazon MWS)</span> to create an inbound shipment using an
+    Partnered Carrier Program. You can do this on
+    <a href="https://sellercentral.amazon.co.uk/gp/help/201119120" class="xref">Seller Central</a>.
+    If you attempt to use <span class="ph">Amazon Marketplace Web
+    Service (Amazon MWS)</span> to create an inbound shipment using an
     Amazon-partnered carrier before accepting these terms and
     conditions, the service returns an error.
 
 </div>
 
 If you want to use an Amazon-partnered carrier for an inbound shipment,
-you can call the
-<span class="keyword apiname">PutTransportContent</span> operation to
-submit the transportation details that are required to get shipping
-costs. After calling the
-<span class="keyword apiname">PutTransportContent</span> operation, you
-can call the
-<span class="keyword apiname">EstimateTransportRequest</span> operation
-to get an estimate of the shipping cost of an inbound shipment using an
-Amazon-partnered carrier. <span class="ph">For more information, see
-[Using an Amazon-partnered carrier for your inbound
-shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md) in the
-MWS for FBA Sellers guide.</span>
+you can call the <span
+class="keyword apiname">PutTransportContent</span> operation to submit
+the transportation details that are required to get shipping costs.
+After calling the <span
+class="keyword apiname">PutTransportContent</span> operation, you can
+call the <span class="keyword apiname">EstimateTransportRequest</span>
+operation to get an estimate of the shipping cost of an inbound shipment
+using an Amazon-partnered carrier. <span class="ph">For more
+information, see
+<a href="../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md" class="xref">Using an Amazon-partnered carrier for your inbound shipment</a>
+in the MWS for FBA Sellers guide.</span>
 
 </div>
 
@@ -118,20 +118,20 @@ MWS for FBA Sellers guide.</span>
 If you use a non-Amazon-partnered carrier for your inbound shipment, you
 can call the <span class="keyword apiname">PutTransportContent</span>
 operation to send Amazon the shipment tracking numbers for your inbound
-shipment. Calling the
-<span class="keyword apiname">PutTransportContent</span> operation:
+shipment. Calling the <span
+class="keyword apiname">PutTransportContent</span> operation:
 
-  - Helps Amazon process your inbound shipment at the Amazon fulfillment
+-   Helps Amazon process your inbound shipment at the Amazon fulfillment
     center faster and more accurately.
-  - Provides Amazon with your shipment tracking numbers so that you can
-    subsequently call the
-    <span class="keyword apiname">GetTransportContent</span> operation
-    to get the shipment status for your <span class="ph">Small
-    Parcel</span> shipments.
+-   Provides Amazon with your shipment tracking numbers so that you can
+    subsequently call the <span
+    class="keyword apiname">GetTransportContent</span> operation to get
+    the shipment status for your <span class="ph">Small Parcel</span>
+    shipments.
 
-For more information, see [Step 6 - Send shipment tracking numbers to
-Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md) in the MWS for
-FBA Sellers guide.
+For more information, see
+<a href="../fba_guide/FBAGuide_SendShipTrackNumbers.md" class="xref">Step 6 - Send shipment tracking numbers to Amazon</a>
+in the MWS for FBA Sellers guide.
 
 </div>
 
@@ -151,9 +151,8 @@ The <span class="keyword apiname">PutTransportContent</span> operation
 has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -163,7 +162,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -171,9 +171,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -240,7 +239,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -274,7 +274,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -283,8 +284,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -292,26 +293,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-  &Action=PutTransportContent
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A13EXAMPLE1J56
-  &SignatureVersion=2
-  &Timestamp=2013-08-09T22%3A52%3A25Z
-  &Version=2010-10-01
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBAQ6QBP
-  &IsPartnered=false
-  &ShipmentType=SP
-  &TransportDetails.NonPartneredSmallParcelData.
-CarrierName=DHL%20EXPRESS%20%28USA%29%20INC
-  &TransportDetails.NonPartneredSmallParcelData.
-PackageList.member.1.TrackingId=A135KKEKWF1J5666
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+      &Action=PutTransportContent
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A13EXAMPLE1J56
+      &SignatureVersion=2
+      &Timestamp=2013-08-09T22%3A52%3A25Z
+      &Version=2010-10-01
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBAQ6QBP
+      &IsPartnered=false
+      &ShipmentType=SP
+      &TransportDetails.NonPartneredSmallParcelData.
+    CarrierName=DHL%20EXPRESS%20%28USA%29%20INC
+      &TransportDetails.NonPartneredSmallParcelData.
+    PackageList.member.1.TrackingId=A135KKEKWF1J5666
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -322,7 +321,7 @@ PackageList.member.1.TrackingId=A135KKEKWF1J5666
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -330,22 +329,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<PutTransportContentResponse 
-    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <PutTransportContentResult>
-        <TransportResult>
-            <TransportStatus>WORKING</TransportStatus>
-        </TransportResult>
-    </PutTransportContentResult>
-    <ResponseMetadata>
-        <RequestId>616f4f53-973e-4bb3-8dd3-0b46978a45c5</RequestId>
-    </ResponseMetadata>
-</PutTransportContentResponse>
-```
+    <?xml version="1.0"?>
+    <PutTransportContentResponse 
+        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <PutTransportContentResult>
+            <TransportResult>
+                <TransportStatus>WORKING</TransportStatus>
+            </TransportResult>
+        </PutTransportContentResult>
+        <ResponseMetadata>
+            <RequestId>616f4f53-973e-4bb3-8dd3-0b46978a45c5</RequestId>
+        </ResponseMetadata>
+    </PutTransportContentResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -356,7 +353,7 @@ code</span> </span>
 ### Example error response (InvalidParameterValue)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -364,19 +361,17 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ErrorResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">;
-    <Error>
-        <Type>Sender</Type>
-        <Code>InvalidParameterValue</Code>
-        <Message>Maximum request size was exceeded</Message>
-    </Error>
-    <RequestID>79e44ae7-b6f0-4154-a3ad-3b95298ff084</RequestID>
-</ErrorResponse>
-```
+    <?xml version="1.0"?>
+    <ErrorResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">;
+        <Error>
+            <Type>Sender</Type>
+            <Code>InvalidParameterValue</Code>
+            <Message>Maximum request size was exceeded</Message>
+        </Error>
+        <RequestID>79e44ae7-b6f0-4154-a3ad-3b95298ff084</RequestID>
+    </ErrorResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -388,20 +383,20 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+<a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
-[EstimateTransportRequest](FBAInbound_EstimateTransportRequest.md "Requests an estimate of the shipping cost for an inbound shipment.")
+<a href="FBAInbound_EstimateTransportRequest.md" class="xref" title="Requests an estimate of the shipping cost for an inbound shipment.">EstimateTransportRequest</a>
 
-[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.md "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
+<a href="FBAInbound_ConfirmTransportRequest.md" class="xref" title="Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.">ConfirmTransportRequest</a>
 
-[VoidTransportRequest](FBAInbound_VoidTransportRequest.md "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
+<a href="FBAInbound_VoidTransportRequest.md" class="xref" title="Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.">VoidTransportRequest</a>
 
 </div>
 

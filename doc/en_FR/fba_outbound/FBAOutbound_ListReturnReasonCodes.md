@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_ListReturnReasonCodes" class="nested0">
 
-# ListReturnReasonCodes
+ListReturnReasonCodes
+=====================
 
 <div class="body">
 
@@ -46,16 +46,17 @@ in a given marketplace.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ListReturnReasonCodes</span> operation
 returns a list of valid return reasons codes for a seller SKU in a given
 marketplace. Valid reason codes are required in subsequent calls to the
-[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
-operation. See [Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md).
+<a href="FBAOutbound_CreateFulfillmentReturn.md" class="xref" title="Creates a fulfillment return.">CreateFulfillmentReturn</a>
+operation. See
+<a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.md" class="xref">Creating a fulfillment return</a>.
 
 <div class="section">
 
@@ -74,9 +75,8 @@ The <span class="keyword apiname">ListReturnReasonCodes</span> operation
 has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -86,7 +86,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -145,15 +146,16 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
-| Name                                                        | Description                                                                                                                                                     |
-| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ReasonCodeDetailsList</span> | Type: List of [ReasonCodeDetails](FBAOutbound_Datatypes.md#ReasonCodeDetails "A return reason code, a description, and an optional description translation.") |
+| Name                                                        | Description                                                                                                                                                                                   |
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ReasonCodeDetailsList</span> | Type: List of <a href="FBAOutbound_Datatypes.md#ReasonCodeDetails" class="xref" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> |
 
 </div>
 
@@ -163,7 +165,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -172,8 +175,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -181,23 +184,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
-  ?Action=ListReturnReasonCodes 
-  &Version=2010-10-01
-  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &Timestamp=2016-09-29T02:40:36Z
-  &SellerId=A2NKEXAMPLEF53 
-  &MarketplaceId=A13V1IB3VIYZZH 
-  &SellerSKU=DV-001 
-  &Language=fr_FR  
-```
+    http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
+      ?Action=ListReturnReasonCodes 
+      &Version=2010-10-01
+      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &Timestamp=2016-09-29T02:40:36Z
+      &SellerId=A2NKEXAMPLEF53 
+      &MarketplaceId=A13V1IB3VIYZZH 
+      &SellerSKU=DV-001 
+      &Language=fr_FR  
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -208,7 +209,7 @@ http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -216,25 +217,23 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListReturnReasonCodesResponse  xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-    <ListReturnReasonCodesResult>
-        <ReasonCodeDetailsList>
-            <ReasonCodeDetails>
-                <ReturnReasonCode>REASON-CODE</ReturnReasonCode>
-                <Description>This is a description of the reason code.</Description>
-                <TranslatedDescription>This is an optional translated description of the reason code.</TranslatedDescription>
-            </ReasonCodeDetails>
-        </ReasonCodeDetailsList>
-    </ListReturnReasonCodesResult> 
-    <ResponseMetadata>     
-        <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
-    </ResponseMetadata> 
-</ListReturnReasonCodesResponse>
-```
+    <?xml version="1.0"?>
+    <ListReturnReasonCodesResponse  xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+        <ListReturnReasonCodesResult>
+            <ReasonCodeDetailsList>
+                <ReasonCodeDetails>
+                    <ReturnReasonCode>REASON-CODE</ReturnReasonCode>
+                    <Description>This is a description of the reason code.</Description>
+                    <TranslatedDescription>This is an optional translated description of the reason code.</TranslatedDescription>
+                </ReasonCodeDetails>
+            </ReasonCodeDetailsList>
+        </ListReturnReasonCodesResult> 
+        <ResponseMetadata>     
+            <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
+        </ResponseMetadata> 
+    </ListReturnReasonCodesResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -246,17 +245,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Outbound Shipment API
-section](FBAOutbound_Overview.md)
+<a href="FBAOutbound_Overview.md" class="xref">What you should know about the Fulfillment Outbound Shipment API section</a>
 
-[CreateFulfillmentReturn](FBAOutbound_CreateFulfillmentReturn.md "Creates a fulfillment return.")
+<a href="FBAOutbound_CreateFulfillmentReturn.md" class="xref" title="Creates a fulfillment return.">CreateFulfillmentReturn</a>
 
-[Creating a fulfillment
-return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)
+<a href="../fba_guide/FBAGuide_CreateFulfillmentReturn.md" class="xref">Creating a fulfillment return</a>
 
 </div>
 

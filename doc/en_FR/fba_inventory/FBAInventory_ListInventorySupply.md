@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInventory_ListInventorySupply" class="nested0">
 
-# ListInventorySupply
+ListInventorySupply
+===================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ seller's inventory.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -62,8 +63,8 @@ as discover when availability status changes.
 This operation does not return availability information for inventory
 that is:
 
-  - Unsellable
-  - Bound to a customer order
+-   Unsellable
+-   Bound to a customer order
 
 </div>
 
@@ -83,9 +84,8 @@ The <span class="keyword apiname">ListInventorySupply</span> operation
 has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -95,7 +95,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -167,16 +168,17 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
-| Name                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                    | Required | Values                                                                                                                                                   |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">NextToken</span>           | A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return. | Optional | <span class="ph">Type: xs:string</span>                                                                                                                  |
-| <span class="keyword parmname">InventorySupplyList</span> | A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.                                            | Yes      | Type: List of [InventorySupply](FBAInventory_Datatypes.md#InventorySupply "General information about the availability of inventory for a single SKU.") |
+| Name                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                    | Required | Values                                                                                                                                                                                 |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">NextToken</span>           | A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return. | Optional | <span class="ph">Type: xs:string</span>                                                                                                                                                |
+| <span class="keyword parmname">InventorySupplyList</span> | A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.                                            | Yes      | Type: List of <a href="FBAInventory_Datatypes.md#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a> |
 
 </div>
 
@@ -186,7 +188,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -195,8 +198,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -204,23 +207,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.com/FulfillmentInventory/2010-10-01
-  ?Action=ListInventorySupply
-  &Version=2011-03-01
-  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &Timestamp=2010-10-01T02:40:36Z
-  &SellerId=A2NKEXAMPLEF53
-  &SellerSkus.member.1=SampleSKU1
-  &SellerSkus.member.2=SampleSKU2
-  &ResponseGroup=Basic
-```
+    https://mws.amazonservices.com/FulfillmentInventory/2010-10-01
+      ?Action=ListInventorySupply
+      &Version=2011-03-01
+      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &Timestamp=2010-10-01T02:40:36Z
+      &SellerId=A2NKEXAMPLEF53
+      &SellerSkus.member.1=SampleSKU1
+      &SellerSkus.member.2=SampleSKU2
+      &ResponseGroup=Basic
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -231,7 +232,7 @@ https://mws.amazonservices.com/FulfillmentInventory/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -239,41 +240,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01">
-    <ListInventorySupplyResult>
-        <InventorySupplyList>
-            <member>
-                <SellerSKU>SampleSKU1</SellerSKU>
-                <ASIN>B00000K3CQ</ASIN>
-                <TotalSupplyQuantity>20</TotalSupplyQuantity>
-                <FNSKU>X0000000FM</FNSKU>
-                <Condition>NewItem</Condition>
-                <SupplyDetail/>
-                <InStockSupplyQuantity>15</InStockSupplyQuantity>
-                <EarliestAvailability>
-                    <TimepointType>Immediately</TimepointType>
-                </EarliestAvailability>
-            </member>
-            <member>
-                <SellerSKU>SampleSKU2</SellerSKU>
-                <ASIN>B00004RWQR</ASIN>
-                <TotalSupplyQuantity>0</TotalSupplyQuantity>
-                <FNSKU>X00008FZR1</FNSKU>
-                <Condition>UsedLikeNew</Condition>
-                <SupplyDetail/>
-                <InStockSupplyQuantity>0</InStockSupplyQuantity>
-            </member>
-        </InventorySupplyList>
-    </ListInventorySupplyResult>
-    <ResponseMetadata>
-        <RequestId>e8698ffa-8e59-11df-9acb-230ae7a8b736</RequestId>
-    </ResponseMetadata>
-</ListInventorySupplyResponse>
-```
+    <?xml version="1.0"?>
+    <ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01">
+        <ListInventorySupplyResult>
+            <InventorySupplyList>
+                <member>
+                    <SellerSKU>SampleSKU1</SellerSKU>
+                    <ASIN>B00000K3CQ</ASIN>
+                    <TotalSupplyQuantity>20</TotalSupplyQuantity>
+                    <FNSKU>X0000000FM</FNSKU>
+                    <Condition>NewItem</Condition>
+                    <SupplyDetail/>
+                    <InStockSupplyQuantity>15</InStockSupplyQuantity>
+                    <EarliestAvailability>
+                        <TimepointType>Immediately</TimepointType>
+                    </EarliestAvailability>
+                </member>
+                <member>
+                    <SellerSKU>SampleSKU2</SellerSKU>
+                    <ASIN>B00004RWQR</ASIN>
+                    <TotalSupplyQuantity>0</TotalSupplyQuantity>
+                    <FNSKU>X00008FZR1</FNSKU>
+                    <Condition>UsedLikeNew</Condition>
+                    <SupplyDetail/>
+                    <InStockSupplyQuantity>0</InStockSupplyQuantity>
+                </member>
+            </InventorySupplyList>
+        </ListInventorySupplyResult>
+        <ResponseMetadata>
+            <RequestId>e8698ffa-8e59-11df-9acb-230ae7a8b736</RequestId>
+        </ResponseMetadata>
+    </ListInventorySupplyResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -284,8 +283,8 @@ code</span> </span>
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -293,22 +292,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
-  ?Action=ListInventorySupply
-  &Version=2010-10-01
-  &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
-  &Timestamp=2010-10-01T02:40:36Z
-  &SellerId=1234567890
-  &QueryStartDateTime=2011-05-03T06%3A00%3A00Z
-  &ResponseGroup=Detailed
-```
+    http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
+      ?Action=ListInventorySupply
+      &Version=2010-10-01
+      &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
+      &Timestamp=2010-10-01T02:40:36Z
+      &SellerId=1234567890
+      &QueryStartDateTime=2011-05-03T06%3A00%3A00Z
+      &ResponseGroup=Detailed
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -319,7 +316,7 @@ http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -327,59 +324,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
-    <ListInventorySupplyResult>
-        <NextToken>H4sIAAAAAAAAADXQzW6CMAAA4FcxXD3AgE5J5pLSiBTQ8Sc
-            SblCB0Ap2LSL49O6y7xGr05WbPW8ip3SlDdZK6t3CmuKTH8d9B/0mhCR7gcV
-            E3gpuDaR8850n239tjC17Z3Gg2PmsZJNa14izwUtQAMYp6tOH4NHl/gN492S
-            YVU0P5F0OYwUwmYI0d/YHnMSgDPUF0mvxTPNofZkXr6ww39SIBYJUTlUMNwI
-            WaduUNr/MZYmaySPqugvxiQaTs2Rxgs1gFENKcUV7Ry/8BSUECjcj2sQ7bLT
-            nBvYPd9/ksLbmV5ydt+HUWFx1QMQgD7O5Ey96mZzNZypKo7V9nBUtPNp/Azt
-            F/X4Di21K/SkBAAA=</NextToken>
-        <InventorySupplyList>
-            <member>
-                <SellerSKU>SampleSKU3</SellerSKU>
-                <ASIN>BT008FQ92Q</ASIN>
-                <TotalSupplyQuantity>18</TotalSupplyQuantity>
-                <FNSKU>X0000000EY</FNSKU>
-                <Condition>NewItem</Condition>
-                <SupplyDetail>
-                    <member>
-                        <EarliestAvailableToPick>
-                            <TimepointType>Immediately</TimepointType>
-                        </EarliestAvailableToPick>
-                        <Quantity>5</Quantity>
-                        <LatestAvailableToPick>
-                            <TimepointType>Immediately</TimepointType>
-                        </LatestAvailableToPick>
-                        <SupplyType>InStock</SupplyType>
-                    </member>
-                    <member>
-                        <EarliestAvailableToPick>
-                            <TimepointType>DateTime</TimepointType>
-                            <DateTime>2011-05-04T23:00:00Z</DateTime>
-                        </EarliestAvailableToPick>
-                        <Quantity>13</Quantity>
-                        <LatestAvailableToPick>
-                            <TimepointType>DateTime</TimepointType>
-                            <DateTime>2011-05-04T23:00:00Z</DateTime>
-                        </LatestAvailableToPick>
-                        <SupplyType>InStock</SupplyType>
-                    </member>
-                </SupplyDetail>
-                <InStockSupplyQuantity>4</InStockSupplyQuantity>
-            </member>
-        </InventorySupplyList>
-    </ListInventorySupplyResult>
-    <ResponseMetadata>
-        <RequestId>e26d8d21-8e5c-11df-9acb-230ae7a8b736</RequestId>
-    </ResponseMetadata>
-</ListInventorySupplyResponse>
-```
+    <?xml version="1.0"?>
+    <ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
+        <ListInventorySupplyResult>
+            <NextToken>H4sIAAAAAAAAADXQzW6CMAAA4FcxXD3AgE5J5pLSiBTQ8Sc
+                SblCB0Ap2LSL49O6y7xGr05WbPW8ip3SlDdZK6t3CmuKTH8d9B/0mhCR7gcV
+                E3gpuDaR8850n239tjC17Z3Gg2PmsZJNa14izwUtQAMYp6tOH4NHl/gN492S
+                YVU0P5F0OYwUwmYI0d/YHnMSgDPUF0mvxTPNofZkXr6ww39SIBYJUTlUMNwI
+                WaduUNr/MZYmaySPqugvxiQaTs2Rxgs1gFENKcUV7Ry/8BSUECjcj2sQ7bLT
+                nBvYPd9/ksLbmV5ydt+HUWFx1QMQgD7O5Ey96mZzNZypKo7V9nBUtPNp/Azt
+                F/X4Di21K/SkBAAA=</NextToken>
+            <InventorySupplyList>
+                <member>
+                    <SellerSKU>SampleSKU3</SellerSKU>
+                    <ASIN>BT008FQ92Q</ASIN>
+                    <TotalSupplyQuantity>18</TotalSupplyQuantity>
+                    <FNSKU>X0000000EY</FNSKU>
+                    <Condition>NewItem</Condition>
+                    <SupplyDetail>
+                        <member>
+                            <EarliestAvailableToPick>
+                                <TimepointType>Immediately</TimepointType>
+                            </EarliestAvailableToPick>
+                            <Quantity>5</Quantity>
+                            <LatestAvailableToPick>
+                                <TimepointType>Immediately</TimepointType>
+                            </LatestAvailableToPick>
+                            <SupplyType>InStock</SupplyType>
+                        </member>
+                        <member>
+                            <EarliestAvailableToPick>
+                                <TimepointType>DateTime</TimepointType>
+                                <DateTime>2011-05-04T23:00:00Z</DateTime>
+                            </EarliestAvailableToPick>
+                            <Quantity>13</Quantity>
+                            <LatestAvailableToPick>
+                                <TimepointType>DateTime</TimepointType>
+                                <DateTime>2011-05-04T23:00:00Z</DateTime>
+                            </LatestAvailableToPick>
+                            <SupplyType>InStock</SupplyType>
+                        </member>
+                    </SupplyDetail>
+                    <InStockSupplyQuantity>4</InStockSupplyQuantity>
+                </member>
+            </InventorySupplyList>
+        </ListInventorySupplyResult>
+        <ResponseMetadata>
+            <RequestId>e26d8d21-8e5c-11df-9acb-230ae7a8b736</RequestId>
+        </ResponseMetadata>
+    </ListInventorySupplyResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -391,17 +386,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.md)
+<a href="FBAInventory_Overview.md" class="xref">What you should know about the Fulfillment Inventory API section</a>
 
-[ListInventorySupplyByNextToken](FBAInventory_ListInventorySupplyByNextToken.md "Returns the next page of information about the availability of a seller's inventory using the NextToken parameter.")
+<a href="FBAInventory_ListInventorySupplyByNextToken.md" class="xref" title="Returns the next page of information about the availability of a seller&#39;s inventory using the NextToken parameter.">ListInventorySupplyByNextToken</a>
 
 </div>
 

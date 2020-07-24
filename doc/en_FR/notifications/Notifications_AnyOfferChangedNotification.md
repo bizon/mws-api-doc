@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_AnyOfferChangedNotification" class="nested0">
 
-# AnyOfferChangedNotification
+AnyOfferChangedNotification
+===========================
 
 <div class="body">
 
@@ -47,14 +47,15 @@ are determined by the landed price, which is the price plus shipping
 minus Amazon Points. If multiple sellers are charging the same landed
 price, the results will be returned in random order.
 
-You will only receive
-<span class="keyword parmname">AnyOfferChanged</span> notifications for
-items for which you have active offers. You cannot subscribe to
-notifications for items for which you do not have active offers.
+You will only receive <span
+class="keyword parmname">AnyOfferChanged</span> notifications for items
+for which you have active offers. You cannot subscribe to notifications
+for items for which you do not have active offers.
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -62,23 +63,23 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[AnyOfferChangedNotification.xsd](https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/AnyOfferChangedNotification._CB467003493_.xsd)
+<a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/AnyOfferChangedNotification._CB467003493_.xsd" class="xref">AnyOfferChangedNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                       | Description                                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [AnyOfferChangedNotification](#AnyOfferChangedNotification "The root element of the payload for the notification that is sent when an offer has changed.") | <span class="ph">The root element of the payload for the notification that is sent when an offer has changed.</span> |
+| Name                                                                                                                                                                                     | Description                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| <a href="#AnyOfferChangedNotification" class="xref" title="The root element of the payload for the notification that is sent when an offer has changed.">AnyOfferChangedNotification</a> | <span class="ph">The root element of the payload for the notification that is sent when an offer has changed.</span> |
 
 </div>
 
-These are the complex elements of the
-<span class="keyword parmname">AnyOfferChangedNotification</span>
-element:
+These are the complex elements of the <span
+class="keyword parmname">AnyOfferChangedNotification</span> element:
 
 <div class="tablenoborder">
 
@@ -152,7 +153,8 @@ element:
 
 <div id="AnyOfferChangedNotification" class="topic nested1">
 
-## AnyOfferChangedNotification
+AnyOfferChangedNotification
+---------------------------
 
 <div class="body">
 
@@ -163,9 +165,8 @@ that is sent when an offer has changed.</span>
 
 ### AnyOfferChangedNotification Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">AnyOfferChangedNotification</span>
-element:
+The following table shows the child elements of the <span
+class="keyword parmname">AnyOfferChangedNotification</span> element:
 
 <div class="tablenoborder">
 
@@ -212,7 +213,8 @@ element:
 
 <div id="BuyBoxPrice" class="topic nested1">
 
-## BuyBoxPrice
+BuyBoxPrice
+-----------
 
 <div class="body">
 
@@ -223,8 +225,8 @@ Box.</span>
 
 ### BuyBoxPrice Attributes
 
-The following table shows the attributes of the
-<span class="keyword parmname">BuyBoxPrice</span> element:
+The following table shows the attributes of the <span
+class="keyword parmname">BuyBoxPrice</span> element:
 
 <div class="tablenoborder">
 
@@ -257,8 +259,8 @@ The following table shows the attributes of the
 
 ### BuyBoxPrice Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">BuyBoxPrice</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">BuyBoxPrice</span> element:
 
 <div class="tablenoborder">
 
@@ -314,7 +316,8 @@ The following table shows the child elements of the
 
 <div id="LowestPrice" class="topic nested1">
 
-## LowestPrice
+LowestPrice
+-----------
 
 <div class="body">
 
@@ -324,8 +327,8 @@ The following table shows the child elements of the
 
 ### LowestPrice Attributes
 
-The following table shows the attributes of the
-<span class="keyword parmname">LowestPrice</span> element:
+The following table shows the attributes of the <span
+class="keyword parmname">LowestPrice</span> element:
 
 <div class="tablenoborder">
 
@@ -364,8 +367,8 @@ The following table shows the attributes of the
 
 ### LowestPrice Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">LowestPrice</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">LowestPrice</span> element:
 
 <div class="tablenoborder">
 
@@ -421,7 +424,8 @@ The following table shows the child elements of the
 
 <div id="Offer" class="topic nested1">
 
-## Offer
+Offer
+-----
 
 <div class="body">
 
@@ -432,8 +436,8 @@ that had an offer change.</span>
 
 ### Offer Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">Offer</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">Offer</span> element:
 
 <div class="tablenoborder">
 
@@ -555,7 +559,8 @@ The following table shows the child elements of the
 
 <div id="OfferChangeTrigger" class="topic nested1">
 
-## OfferChangeTrigger
+OfferChangeTrigger
+------------------
 
 <div class="body">
 
@@ -566,8 +571,8 @@ sent.</span>
 
 ### OfferChangeTrigger Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">OfferChangeTrigger</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">OfferChangeTrigger</span> element:
 
 <div class="tablenoborder">
 
@@ -631,7 +636,8 @@ The following table shows the child elements of the
 
 <div id="OfferCount" class="topic nested1">
 
-## OfferCount
+OfferCount
+----------
 
 <div class="body">
 
@@ -642,8 +648,8 @@ and fulfillment channel.</span>
 
 ### OfferCount Attributes
 
-The following table shows the attributes of the
-<span class="keyword parmname">OfferCount</span> element:
+The following table shows the attributes of the <span
+class="keyword parmname">OfferCount</span> element:
 
 <div class="tablenoborder">
 
@@ -694,7 +700,8 @@ xs:int</span>.
 
 <div id="Points" class="topic nested1">
 
-## Points
+Points
+------
 
 <div class="body">
 
@@ -705,8 +712,8 @@ offered with the purchase of an item.</span>
 
 ### Points Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">Points</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">Points</span> element:
 
 <div class="tablenoborder">
 
@@ -741,7 +748,8 @@ The following table shows the child elements of the
 
 <div id="PrimeInformation" class="topic nested1">
 
-## PrimeInformation
+PrimeInformation
+----------------
 
 <div class="body">
 
@@ -751,8 +759,8 @@ The following table shows the child elements of the
 
 ### PrimeInformation Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">PrimeInformation</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">PrimeInformation</span> element:
 
 <div class="tablenoborder">
 
@@ -793,7 +801,8 @@ The following table shows the child elements of the
 
 <div id="SalesRank" class="topic nested1">
 
-## SalesRank
+SalesRank
+---------
 
 <div class="body">
 
@@ -804,8 +813,8 @@ category.</span>
 
 ### SalesRank Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">SalesRank</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">SalesRank</span> element:
 
 <div class="tablenoborder">
 
@@ -846,7 +855,8 @@ The following table shows the child elements of the
 
 <div id="SellerFeedbackRating" class="topic nested1">
 
-## SellerFeedbackRating
+SellerFeedbackRating
+--------------------
 
 <div class="body">
 
@@ -858,8 +868,8 @@ received.</span>
 
 ### SellerFeedbackRating Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">SellerFeedbackRating</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">SellerFeedbackRating</span> element:
 
 <div class="tablenoborder">
 
@@ -900,7 +910,8 @@ The following table shows the child elements of the
 
 <div id="ShippingTime" class="topic nested1">
 
-## ShippingTime
+ShippingTime
+------------
 
 <div class="body">
 
@@ -911,8 +922,8 @@ will likely be shipped after the order has been placed.</span>
 
 ### ShippingTime Attributes
 
-The following table shows the attributes of the
-<span class="keyword parmname">ShippingTime</span> element:
+The following table shows the attributes of the <span
+class="keyword parmname">ShippingTime</span> element:
 
 <div class="tablenoborder">
 
@@ -965,7 +976,8 @@ The following table shows the attributes of the
 
 <div id="ShipsFrom" class="topic nested1">
 
-## ShipsFrom
+ShipsFrom
+---------
 
 <div class="body">
 
@@ -976,8 +988,8 @@ shipped.</span>
 
 ### ShipsFrom Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">ShipsFrom</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">ShipsFrom</span> element:
 
 <div class="tablenoborder">
 
@@ -1018,7 +1030,8 @@ The following table shows the child elements of the
 
 <div id="Summary" class="topic nested1">
 
-## Summary
+Summary
+-------
 
 <div class="body">
 
@@ -1030,8 +1043,8 @@ product.</span>
 
 ### Summary Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">Summary</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">Summary</span> element:
 
 <div class="tablenoborder">
 
@@ -1111,12 +1124,12 @@ The following table shows the child elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

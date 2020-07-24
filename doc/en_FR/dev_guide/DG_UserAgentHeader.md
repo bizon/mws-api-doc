@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Creating your User-Agent Header
+Creating your User-Agent Header
+===============================
 
 <div class="body">
 
@@ -51,13 +51,13 @@ use, enabling us to more effectively isolate problems that might be
 associated with your applications.
 
 The <span class="ph">Amazon MWS</span> client libraries provide an
-easy-to-use method for passing the User-Agent header with every
-<span class="ph">Amazon MWS</span> request. When you initialize an
-<span class="ph">Amazon MWS</span> client library, you add the
-Application or Company Name and the Version Number. Other HTTP libraries
-also provide easy methods for constructing User-Agent headers, but if
-you have any difficulties creating the header, please request assistance
-from <span class="ph">Amazon MWS</span>.
+easy-to-use method for passing the User-Agent header with every <span
+class="ph">Amazon MWS</span> request. When you initialize an <span
+class="ph">Amazon MWS</span> client library, you add the Application or
+Company Name and the Version Number. Other HTTP libraries also provide
+easy methods for constructing User-Agent headers, but if you have any
+difficulties creating the header, please request assistance from <span
+class="ph">Amazon MWS</span>.
 
 To create a User-Agent header, begin with the name of your application,
 followed by a forward slash, followed by the version of the application,
@@ -69,25 +69,19 @@ semicolons.
 The following example illustrates a minimally acceptable User-Agent
 header:
 
-``` pre codeblock
-AppId/AppVersionId (Language=LanguageNameAndOptionallyVersion)
-```
+    AppId/AppVersionId (Language=LanguageNameAndOptionallyVersion)
 
 If you are a third-party application integrator, you might want to use a
 User-Agent header like the following:
 
-``` pre codeblock
-My Seller Tool/2.0 (Language=Java/1.6.0.11; Platform=Windows/XP)
-```
+    My Seller Tool/2.0 (Language=Java/1.6.0.11; Platform=Windows/XP)
 
 If you are a large seller who is integrating through your own IT
 department, you might want create a User-Agent header like the
 following, so <span class="ph">Amazon MWS</span> could help you
 troubleshoot using the Host attribute:
 
-``` pre codeblock
-MyCompanyName/build1611 (Language=Perl; Host=jane.laptop.example.com)
-```
+    MyCompanyName/build1611 (Language=Perl; Host=jane.laptop.example.com)
 
 To specify additional attributes, use the format AttributeName=Value;,
 separating each name value pair with a semicolon. Should you wish to use
@@ -106,11 +100,12 @@ characters.
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using the Amazon MWS client libraries](DG_ClientLibraries.md)
+<a href="DG_ClientLibraries.md" class="xref">Using the Amazon MWS client libraries</a>
 
 </div>
 

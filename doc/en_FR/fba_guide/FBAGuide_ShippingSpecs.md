@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,20 +34,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_Specs" class="nested0">
 
-# Shipping Specifications
+Shipping Specifications
+=======================
 
 <div class="body">
 
-Two types of labels are required when shipping items to
-<span class="ph">Amazon's fulfillment network</span>:
+Two types of labels are required when shipping items to <span
+class="ph">Amazon's fulfillment network</span>:
 
-  - **Item label.** The label that you place on each individual item
+-   **Item label.** The label that you place on each individual item
     that you send to <span class="ph">Amazon's fulfillment
     network</span>. You do not need to place labels on eligible
     stickerless, commingled inventory. For more information about
     product eligibility for stickerless, commingled inventory, see the
     Amazon Seller Central Help for your marketplace.
-  - **Shipping label.** The label that you affix to the outside of each
+-   **Shipping label.** The label that you affix to the outside of each
     package that you ship to <span class="ph">Amazon's fulfillment
     network</span>.
 
@@ -65,17 +65,18 @@ not affect its symbology.
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
-  - **[Item label
+-   **[Item label
     specifications](../fba_guide/FBAGuide_ItemLabelSpec.md)**  
-  - **[Shipping label
+-   **[Shipping label
     specifications](../fba_guide/FBAGuide_ShipLabelSpec.md)**  
-  - **[Scan test](../fba_guide/FBAGuide_ScanTest.md)**  
-  - **[Pallet specifications](../fba_guide/FBAGuide_PalletSpec.md)**  
-  - **[Label font
+-   **[Scan test](../fba_guide/FBAGuide_ScanTest.md)**  
+-   **[Pallet specifications](../fba_guide/FBAGuide_PalletSpec.md)**  
+-   **[Label font
     specifications](../fba_guide/FBAGuide_LabelFontSpec.md)**  
-  - **[Translations for label
+-   **[Translations for label
     instructions](../fba_guide/FBAGuide_TranslateLabelInst.md)**  
 
 </div>

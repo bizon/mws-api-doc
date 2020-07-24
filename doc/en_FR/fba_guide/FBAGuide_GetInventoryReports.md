@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,32 +32,35 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Getting inventory reports
+Getting inventory reports
+=========================
 
 <div class="body conbody">
 
-You can use the <span class="ph">Reports API section</span> or the
-<span class="ph">Fulfillment Inventory API section</span> to check your
-<span class="ph">Fulfillment by Amazon (FBA)</span> inventory
-availability regardless of whether you are selling on Amazon's website
-or through other retail channels.
+You can use the <span class="ph">Reports API section</span> or the <span
+class="ph">Fulfillment Inventory API section</span> to check your <span
+class="ph">Fulfillment by Amazon (FBA)</span> inventory availability
+regardless of whether you are selling on Amazon's website or through
+other retail channels.
 
 </div>
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
-  - **[Inventory reporting using the Reports API
+-   **[Inventory reporting using the Reports API
     section](../fba_guide/FBAGuide_InvReportingUsingRepAPI.md)**  
-  - **[Inventory reporting using the Fulfillment Inventory API
+-   **[Inventory reporting using the Fulfillment Inventory API
     section](../fba_guide/FBAGuide_InvReportingUsingInvAPI.md)**  
 
 <div class="familylinks">
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_CommonTasks.md" class="link">Common tasks</a>
 
 </div>
 

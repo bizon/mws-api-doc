@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ErrorMessages_ClientSideExamples" class="nested0">
 
-# Example Client Side errors
+Example Client Side errors
+==========================
 
 <div class="body">
 
@@ -50,7 +50,8 @@ side error examples and possible solutions to the problem.
 
 <div class="parentlink">
 
-**Parent topic:** [Handling errors](../dev_guide/DG_Errors.md)
+**Parent topic:**
+<a href="../dev_guide/DG_Errors.md" class="link">Handling errors</a>
 
 </div>
 
@@ -58,9 +59,11 @@ side error examples and possible solutions to the problem.
 
 </div>
 
-<div id="ErrorMessages_ClientSideExamples_UserAgent_error" class="topic nested1">
+<div id="ErrorMessages_ClientSideExamples_UserAgent_error"
+class="topic nested1">
 
-## User-agent error
+User-agent error
+----------------
 
 <div class="body">
 
@@ -72,7 +75,8 @@ The User-Agent header sent with the request was not in a valid format.
 
 Build the User-Agent header using code from the <span class="ph">Amazon
 MWS</span> client library or see the documentation for an acceptable
-format for the [User-Agent header](DG_ClientLibraries.md).
+format for the
+<a href="DG_ClientLibraries.md" class="xref">User-Agent header</a>.
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -82,38 +86,38 @@ code</span> </span>
 
 <div class="p">
 
-``` pre codeblock
-<ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-  <Error>
-    <Type>Sender</Type>
-    <Code>UserAgentHeaderMalformed</Code>
-    <Message>
-      Problem with required MWS User-Agent header
-      (e.g. "MyAppName/build123 (Language=Java/1.2)"):
-      Encountered "<EOF>" at column 116.
-      Was expecting: "=" ...
-    </Message>
-    <Detail/>
-  </Error>
-  <RequestID>
-    21f197f6-24b7-4b7b-94fc-55fa34056d34
-  </RequestID>
-</ErrorResponse>
-```
+    <ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+      <Error>
+        <Type>Sender</Type>
+        <Code>UserAgentHeaderMalformed</Code>
+        <Message>
+          Problem with required MWS User-Agent header
+          (e.g. "MyAppName/build123 (Language=Java/1.2)"):
+          Encountered "<EOF>" at column 116.
+          Was expecting: "=" ...
+        </Message>
+        <Detail/>
+      </Error>
+      <RequestID>
+        21f197f6-24b7-4b7b-94fc-55fa34056d34
+      </RequestID>
+    </ErrorResponse>
 
 </div>
 
-[↑ Top](#DG_ErrorMessages_ClientSideExamples)
-
-</div>
+<a href="#DG_ErrorMessages_ClientSideExamples" class="xref">↑ Top</a>
 
 </div>
 
 </div>
 
-<div id="ErrorMessages_ClientSideExamples_SSL_error" class="topic nested1">
+</div>
 
-## SSL exception error
+<div id="ErrorMessages_ClientSideExamples_SSL_error"
+class="topic nested1">
+
+SSL exception error
+-------------------
 
 <div class="body">
 
@@ -138,26 +142,26 @@ code</span> </span>
 
 <div class="p">
 
-``` pre codeblock
-javax.net.ssl.SSLException: java.lang.RuntimeException:
-Unexpected error: java.security.
-InvalidAlgorithmParameterException: the trustAnchors
-parameter must be non-empty
-```
+    javax.net.ssl.SSLException: java.lang.RuntimeException:
+    Unexpected error: java.security.
+    InvalidAlgorithmParameterException: the trustAnchors
+    parameter must be non-empty
 
 </div>
 
-[↑ Top](#DG_ErrorMessages_ClientSideExamples)
-
-</div>
+<a href="#DG_ErrorMessages_ClientSideExamples" class="xref">↑ Top</a>
 
 </div>
 
 </div>
 
-<div id="ErrorMessages_ClientSideExamples_MD5_error" class="topic nested1">
+</div>
 
-## MD5 error
+<div id="ErrorMessages_ClientSideExamples_MD5_error"
+class="topic nested1">
+
+MD5 error
+---------
 
 <div class="body">
 
@@ -171,12 +175,10 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-The Content-MD5 HTTP header you passed for your feed
-(1B2M2Y8AsgTpgAmY7PhCfg==) did not match the Content-MD5 we
-calculated for your feed (3cldK7kqMxK6orwvXXdzSQ==)
-            
-```
+    The Content-MD5 HTTP header you passed for your feed
+    (1B2M2Y8AsgTpgAmY7PhCfg==) did not match the Content-MD5 we
+    calculated for your feed (3cldK7kqMxK6orwvXXdzSQ==)
+                
 
 </div>
 
@@ -205,19 +207,17 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-MemoryStream stream =
-  new MemoryStream(
-    new UTF8Encoding()
-      .GetBytes(
-        xmlDocument.ToString()));
-request.ContentMD5 =
-  MarketplaceWebServiceClient
-    .CalculateContentMD5(stream);
-            
-```
+    MemoryStream stream =
+      new MemoryStream(
+        new UTF8Encoding()
+          .GetBytes(
+            xmlDocument.ToString()));
+    request.ContentMD5 =
+      MarketplaceWebServiceClient
+        .CalculateContentMD5(stream);
+                
 
-[↑ Top](#DG_ErrorMessages_ClientSideExamples)
+<a href="#DG_ErrorMessages_ClientSideExamples" class="xref">↑ Top</a>
 
 </div>
 

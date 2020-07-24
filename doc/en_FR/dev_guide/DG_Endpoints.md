@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_Endpoints" class="nested0">
 
-# <span class="ph">Amazon MWS</span> endpoints and MarketplaceId values
+<span class="ph">Amazon MWS</span> endpoints and MarketplaceId values
+=====================================================================
 
 <div class="body">
 
@@ -49,17 +49,16 @@ and <span class="keyword parmname">MarketplaceId</span> values:
 <div class="note note">
 
 <span class="notetitle">Note:</span> You only need one Developer ID for
-each region. If you send a request using a
-<span class="keyword parmname">SellerId</span> that is not registered in
-the marketplace associated with that endpoint, then the request will
-fail.
+each region. If you send a request using a <span
+class="keyword parmname">SellerId</span> that is not registered in the
+marketplace associated with that endpoint, then the request will fail.
 
 </div>
 
 <div class="tablenoborder">
 
 | Amazon Marketplace | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
-| ------------------ | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+|--------------------|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | Brazil             | BR           | <span id="DG_Endpoints__d2028e1165" class="ph">https://mws.amazonservices.com</span>    | <span id="DG_Endpoints__d2028e1169" class="ph">A2Q3Y263D00KWC</span> |
 | Canada             | CA           | <span id="DG_Endpoints__d2028e1182" class="ph">https://mws.amazonservices.ca</span>     | <span id="DG_Endpoints__d2028e1186" class="ph">A2EUQ1WTGCTBG2</span> |
 | Mexico             | MX           | <span id="DG_Endpoints__d2028e1199" class="ph">https://mws.amazonservices.com.mx</span> | <span id="DG_Endpoints__d2028e1203" class="ph">A1AM78C64UM0Y8</span> |
@@ -72,7 +71,7 @@ fail.
 <div class="tablenoborder">
 
 | Amazon Marketplace            | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
-| ----------------------------- | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+|-------------------------------|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | United Arab Emirates (U.A.E.) | AE           | <span id="DG_Endpoints__d2028e1273" class="ph">https://mws.amazonservices.ae</span>     | <span id="DG_Endpoints__d2028e1277" class="ph">A2VIGQ35RCS4UG</span> |
 | Germany                       | DE           | <span id="DG_Endpoints__d2028e1290" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1294" class="ph">A1PA6795UKMFR9</span> |
 | Egypt                         | EG           | <span id="DG_Endpoints__d2028e1307" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1311" class="ph">ARBP9OOSHTCHU</span>  |
@@ -92,7 +91,7 @@ fail.
 <div class="tablenoborder">
 
 | Amazon Marketplace | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
-| ------------------ | ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+|--------------------|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | Singapore          | SG           | <span id="DG_Endpoints__d2028e1501" class="ph">https://mws-fe.amazonservices.com</span> | <span id="DG_Endpoints__d2028e1505" class="ph">A19VAU5U5O7RUS</span> |
 | Australia          | AU           | <span id="DG_Endpoints__d2028e1518" class="ph">https://mws.amazonservices.com.au</span> | <span id="DG_Endpoints__d2028e1522" class="ph">A39IBJ37TRP1C6</span> |
 | Japan              | JP           | <span id="DG_Endpoints__d2028e1535" class="ph">https://mws.amazonservices.jp</span>     | <span id="DG_Endpoints__d2028e1539" class="ph">A1VC38T7YXB528</span> |

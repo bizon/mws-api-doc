@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Label font specifications
+Label font specifications
+=========================
 
 <div class="body conbody">
 
@@ -44,16 +44,17 @@ Choose a font that clearly distinguishes letters from numbers.
 For optimal processing in <span class="ph">Amazon's fulfillment
 network</span>, Amazon recommends the following:
 
-  - Use a font that clearly distinguishes a zero from the letter "O".
+-   Use a font that clearly distinguishes a zero from the letter "O".
     For example, use a slashed zero.
-  - Use a font that clearly distinguishes the number one from a
+-   Use a font that clearly distinguishes the number one from a
     lowercase letter "L" and an uppercase letter "I".
-  - Unless otherwise noted, Amazon recommends that you use the normal
+-   Unless otherwise noted, Amazon recommends that you use the normal
     font weight (not bold) and that the font size be 8 point.
 
 <div class="section">
 
-## Recommended Font Types
+Recommended Font Types
+----------------------
 
 Amazon recommends the fonts listed in the following table.
 
@@ -104,8 +105,8 @@ Amazon recommends the fonts listed in the following table.
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping
-Specifications](../fba_guide/FBAGuide_ShippingSpecs.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShippingSpecs.md" class="link">Shipping Specifications</a>
 
 </div>
 

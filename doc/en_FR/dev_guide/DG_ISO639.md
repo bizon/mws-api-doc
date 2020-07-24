@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,27 +34,28 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO639-1" class="nested0">
 
-# ISO 639-1 use in <span class="ph">Amazon MWS</span>
+ISO 639-1 use in <span class="ph">Amazon MWS</span>
+===================================================
 
 <div class="body">
 
 <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> uses
 language names based on ISO 639-1. The standard has 184 two-letter codes
-registered to cover the world's major languages or [ISO 639
-macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) as
-of October 2015.
+registered to cover the world's major languages or
+<a href="https://en.wikipedia.org/wiki/ISO_639_macrolanguage" class="xref">ISO 639 macrolanguages</a>
+as of October 2015.
 
 <span class="ph">Amazon MWS</span> does not use any of the three-letter
 codes available in ISO 639-2 or ISO 639-3.
 
 <div id="DG_ISO639-1__639-1References" class="section">
 
-## References
+References
+----------
 
-  - [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1)
-  - [List of ISO 639-1
-    codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-  - [ISO 639](http://www.iso.org/iso/home/standards/language_codes.htm)
+-   <a href="https://en.wikipedia.org/wiki/ISO_639-1" class="xref">ISO 639-1</a>
+-   <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" class="xref">List of ISO 639-1 codes</a>
+-   <a href="http://www.iso.org/iso/home/standards/language_codes.htm" class="xref">ISO 639</a>
 
 </div>
 
@@ -67,8 +67,8 @@ codes available in ISO 639-2 or ISO 639-3.
 
 <div class="parentlink">
 
-**Parent topic:** [Standards compliance in Amazon
-MWS](../dev_guide/DG_StandardsCompliance.md)
+**Parent topic:**
+<a href="../dev_guide/DG_StandardsCompliance.md" class="link">Standards compliance in Amazon MWS</a>
 
 </div>
 

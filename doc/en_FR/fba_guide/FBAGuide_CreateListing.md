@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Step 1 - Create a listing and convert it to FBA
+Step 1 - Create a listing and convert it to FBA
+===============================================
 
 <div class="body conbody">
 
@@ -57,9 +57,8 @@ listing to <span class="ph">FBA</span> you need to provide additional
 information on any products that are batteries, contain or are sold with
 batteries, or may be considered dangerous goods. Any attempt to convert
 a listing to <span class="ph">FBA</span> without providing battery and
-dangerous goods information will fail. See [Provide battery and
-dangerous goods
-information](FBAGuide_ProvideBatteryAndDgInfo.md#FBAGuide_ProvideBatteryAndDgInfo).
+dangerous goods information will fail. See
+<a href="FBAGuide_ProvideBatteryAndDgInfo.md#FBAGuide_ProvideBatteryAndDgInfo" class="xref">Provide battery and dangerous goods information</a>.
 
 </div>
 
@@ -67,65 +66,65 @@ information](FBAGuide_ProvideBatteryAndDgInfo.md#FBAGuide_ProvideBatteryAndDgInf
 
 <div class="section">
 
-## Using XML feeds
+Using XML feeds
+---------------
 
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting XML feeds using the <span class="ph">Feeds API
-section</span>. See [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md).
+section</span>. See
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
 
 **To create a listing and convert it to <span class="ph">FBA</span>**
 
 1.  Submit the Product Feed (\_POST\_PRODUCT\_DATA\_).
-    
+
     **If the product is in Amazon's catalog**, the feed should include:
-    
-      - The <span class="keyword parmname">SKU</span> element,
+
+    -   The <span class="keyword parmname">SKU</span> element,
         containing to the seller's unique SKU for the product.
-      - The <span class="keyword parmname">StandardProductID</span>
+    -   The <span class="keyword parmname">StandardProductID</span>
         element, containing values that uniquely identify the product in
         Amazon's catalog.
-      - Battery and dangerous goods information, according to the
-        guidance in [Requirements for MWS Integrators
-        (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf).
-    
+    -   Battery and dangerous goods information, according to the
+        guidance in
+        <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf" class="xref">Requirements for MWS Integrators (PDF)</a>.
+
     OR
-    
+
     **If the product is not yet in Amazon's catalog**, the feed should
     include:
-    
-      - Elements that describe the product, according to the guidance in
-        the "Manage Listings with XML" section of [Selling on Amazon
-        Guide to
-        XML](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl._V324496426_.pdf).
-      - Battery and dangerous goods information, according to the
-        guidance in [Requirements for MWS Integrators
-        (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf).
+
+    -   Elements that describe the product, according to the guidance in
+        the "Manage Listings with XML" section of
+        <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/XML_Documentation_Intl._V324496426_.pdf" class="xref">Selling on Amazon Guide to XML</a>.
+    -   Battery and dangerous goods information, according to the
+        guidance in
+        <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf" class="xref">Requirements for MWS Integrators (PDF)</a>.
 
 2.  Submit the Inventory Feed (\_POST\_INVENTORY\_AVAILABILITY\_DATA\_).
     The feed should include:
-    
-      - The <span class="keyword parmname">FulfillmentCenterID</span>
+    -   The <span class="keyword parmname">FulfillmentCenterID</span>
         element, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
         `AMAZON_JP`, depending on the seller's marketplace.
-      - The <span class="keyword parmname">Lookup</span> element, set to
+    -   The <span class="keyword parmname">Lookup</span> element, set to
         `FulfillmentNetwork`.
-      - The <span class="keyword parmname">SwitchFulfillmentTo</span>
+    -   The <span class="keyword parmname">SwitchFulfillmentTo</span>
         element, set to `AFN`.
 
-For more information about feed types, see [FeedType
-enumeration](../feeds/Feeds_FeedType.md).
+For more information about feed types, see
+<a href="../feeds/Feeds_FeedType.md" class="xref">FeedType enumeration</a>.
 
 </div>
 
 <div class="section">
 
-## Using flat file feeds
+Using flat file feeds
+---------------------
 
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting flat file feeds using the <span class="ph">Feeds API
-section</span>. See [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md).
+section</span>. See
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
 
 **To create a listing and convert it to <span class="ph">FBA</span> (if
 the product is in Amazon's catalog)**
@@ -134,42 +133,41 @@ the product is in Amazon's catalog)**
     (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_). Alternatively, you can
     submit the Flat File Listings Loader Feed
     (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_). The feed should include:
-      - The <span class="keyword parmname">sku</span> field, containing
+    -   The <span class="keyword parmname">sku</span> field, containing
         the seller's unique SKU for the product.
-      - The <span class="keyword parmname">product-id</span> and
-        <span class="keyword parmname">product-id-type</span> fields,
+    -   The <span class="keyword parmname">product-id</span> and <span
+        class="keyword parmname">product-id-type</span> fields,
         containing values that uniquely identify the product in Amazon's
         catalog.
-      - The <span class="keyword parmname">fulfillment-center-id</span>
+    -   The <span class="keyword parmname">fulfillment-center-id</span>
         field, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
         `AMAZON_JP`, depending on the seller's marketplace.
-      - Battery and dangerous goods information, according to the
-        guidance in [Requirements for MWS Integrators
-        (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf)
+    -   Battery and dangerous goods information, according to the
+        guidance in
+        <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf" class="xref">Requirements for MWS Integrators (PDF)</a>
 
 **To create a listing and convert it to <span class="ph">FBA</span> (if
 the product is not yet in Amazon's catalog)**
 
-1.  Submit an Inventory File Template. See the
-    <span class="ph uicontrol">Download an Inventory File</span> tab of
-    the [Add Products via
-    Upload](https://sellercentral-europe.amazon.com/listing/download)
+1.  Submit an Inventory File Template. See the <span
+    class="ph uicontrol">Download an Inventory File</span> tab of the
+    <a href="https://sellercentral-europe.amazon.com/listing/download" class="xref">Add Products via Upload</a>
     page of Seller Central.
-      - Set the field values according to the instructions in the
+    -   Set the field values according to the instructions in the
         Inventory File Template.
 2.  Submit the Flat File Inventory Loader Feed
     (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_). Alternatively, you can
     submit the Flat File Listings Loader Feed
     (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_). The feed should include:
-      - The <span class="keyword parmname">fulfillment-center-id</span>
+    -   The <span class="keyword parmname">fulfillment-center-id</span>
         field, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
         `AMAZON_JP`, depending on the seller's marketplace.
-      - Battery and dangerous goods information, according to the
-        guidance in [Requirements for MWS Integrators
-        (PDF)](https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf)
+    -   Battery and dangerous goods information, according to the
+        guidance in
+        <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf" class="xref">Requirements for MWS Integrators (PDF)</a>
 
-For more information about feed types, see [FeedType
-enumeration](../feeds/Feeds_FeedType.md).
+For more information about feed types, see
+<a href="../feeds/Feeds_FeedType.md" class="xref">FeedType enumeration</a>.
 
 </div>
 
@@ -181,15 +179,15 @@ enumeration](../feeds/Feeds_FeedType.md).
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="link">Shipping inventory to Amazon's fulfillment network</a>
 
 </div>
 
 <div class="nextlink">
 
-**Next topic:** [Step 2 - Create an inbound shipment
-plan](../fba_guide/FBAGuide_CreateInShipPlan.md)
+**Next topic:**
+<a href="../fba_guide/FBAGuide_CreateInShipPlan.md" class="link">Step 2 - Create an inbound shipment plan</a>
 
 </div>
 

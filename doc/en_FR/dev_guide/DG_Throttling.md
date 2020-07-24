@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_Throttling" class="nested0">
 
-# Throttling: Limits to how often you can submit requests
+Throttling: Limits to how often you can submit requests
+=======================================================
 
 <div class="body">
 
@@ -46,13 +46,14 @@ authorized developer) can submit to a given operation in a given amount
 of time. A request can be when you submit an inventory feed or when you
 make an order report request. Throttling protects the web service from
 being overwhelmed with requests and ensures all authorized developers
-have access to the web service. See our [MWS:
-Throttling](https://sellercentral.amazon.com/learn/courses?ref_=su_home_c54_m243&courseId=54&moduleId=243)
+have access to the web service. See our
+<a href="https://sellercentral.amazon.com/learn/courses?ref_=su_home_c54_m243&amp;courseId=54&amp;moduleId=243" class="xref">MWS: Throttling</a>
 video at Seller Central University for a primer on throttling.
 
 <div class="section">
 
-## The Leaky Bucket Algorithm
+The Leaky Bucket Algorithm
+--------------------------
 
 <span class="ph">Amazon MWS</span> uses a variation of the leaky bucket
 algorithm to meter the web service and implement throttling. The
@@ -67,42 +68,43 @@ that the bucket represents the maximum request quota, which is the
 maximum number of requests you can make at one time. The hole in the
 bucket represents the restore rate, which is the amount of time it takes
 to be able to make new requests. So, if you submit too many requests at
-once, then the bucket overflows and, in the case of
-<span class="ph">Amazon MWS</span>, throttling occurs. If you fill up
-the bucket, it takes some time before you can add more water to the
-bucket since the water leaks from the bucket at a steady rate. So the
-ability to submit more requests after you have reached the maximum
-request quota is governed by the restore rate, the time it takes to
-allow you to make new requests.
+once, then the bucket overflows and, in the case of <span
+class="ph">Amazon MWS</span>, throttling occurs. If you fill up the
+bucket, it takes some time before you can add more water to the bucket
+since the water leaks from the bucket at a steady rate. So the ability
+to submit more requests after you have reached the maximum request quota
+is governed by the restore rate, the time it takes to allow you to make
+new requests.
 
 </div>
 
 <div class="section">
 
-## Throttling Values
+Throttling Values
+-----------------
 
-The definitions of these three values that control
-<span class="ph">Amazon MWS</span> throttling are:
+The definitions of these three values that control <span
+class="ph">Amazon MWS</span> throttling are:
 
-  - **Request quota** - The number of requests that you can submit at
+-   **Request quota** - The number of requests that you can submit at
     one time without throttling. The request quota decreases with each
     request you submit, and increases at the restore rate. Requests are
     calculated for each Amazon seller account and Amazon MWS developer
     account pair.
-  - **Restore rate** (also called the **recovery rate**) - The rate at
+-   **Restore rate** (also called the **recovery rate**) - The rate at
     which your request quota increases over time, up to the maximum
     request quota.
-  - **Maximum request quota** (also called the **burst rate**) - The
+-   **Maximum request quota** (also called the **burst rate**) - The
     maximum size that the request quota can reach.
-  - **Hourly request quota** - The maximum number of requests you can
+-   **Hourly request quota** - The maximum number of requests you can
     submit per hour.
 
 To apply these ideas, consider this example. Imagine that you want to
 use the <span class="keyword apiname">SubmitFeed</span> operation to
-submit 25 inventory update feeds. The
-<span class="keyword apiname">SubmitFeed</span> operation has a request
-quota of 15 and a restore rate of one new request every two minutes. If
-you submit all 25 feed requests at once, your requests will be throttled
+submit 25 inventory update feeds. The <span
+class="keyword apiname">SubmitFeed</span> operation has a request quota
+of 15 and a restore rate of one new request every two minutes. If you
+submit all 25 feed requests at once, your requests will be throttled
 after 15 requests. You would then have to resubmit 10 feed requests once
 the request quota had been restored. Since the restore rate is one
 request every two minutes, it would take 20 minutes for you to be able
@@ -129,7 +131,8 @@ initially failed.
 
 <div class="section">
 
-## Hourly Request Quotas
+Hourly Request Quotas
+---------------------
 
 Some API sections (currently Products, Reports, and Feeds) have an
 hourly request quota in addition to the numerical request quota. This
@@ -143,23 +146,21 @@ reference page for the throttling limits.
 For example, <span class="keyword apiname">ListMatchingProducts</span>
 has a request quota of 20 requests, refreshing at a rate of one request
 every five seconds. That works out to a maximum of 720 requests per hour
-if the 20 request quota is not exceeded during the hour. The
-<span class="keyword apiname">ListMatchingProducts</span> operation also
-has an hourly quota of 720 requests. After the 720th request, further
-requests will result in a
-<span class="keyword parmname">QuotaExceeded</span> error until the
-one-hour quota resets.
+if the 20 request quota is not exceeded during the hour. The <span
+class="keyword apiname">ListMatchingProducts</span> operation also has
+an hourly quota of 720 requests. After the 720th request, further
+requests will result in a <span
+class="keyword parmname">QuotaExceeded</span> error until the one-hour
+quota resets.
 
 <span class="ph">Amazon MWS</span> provides header values in each call
 response that show the hourly quota for the current operation; the
 number of calls remaining in tha quota; and the date and time when the
 quota will reset. For example:
 
-``` pre codeblock
-x-mws-quota-max: 3600
-x-mws-quota-remaining: 10
-x-mws-quota-resetsOn: Wed, 06 Mar 2013 19:07:58 GMT
-```
+    x-mws-quota-max: 3600
+    x-mws-quota-remaining: 10
+    x-mws-quota-resetsOn: Wed, 06 Mar 2013 19:07:58 GMT
 
 You can monitor these headers to determine how many more requests you
 can make until the reset time.
@@ -168,14 +169,15 @@ can make until the reset time.
 
 <div id="DG_Throttling__Best_Practices_Requests" class="section">
 
-## Tips on avoiding throttling
+Tips on avoiding throttling
+---------------------------
 
 There are several things you can do to make sure your feeds and
 submissions are processed successfully:
 
-  - Know the throttling limit of the specific request you are
+-   Know the throttling limit of the specific request you are
     submitting.
-  - Have a "back off" plan for automatically reducing the number of
+-   Have a "back off" plan for automatically reducing the number of
     requests if the service is unavailable. The plan should use the
     restore rate value to determine when a request should be
     resubmitted.
@@ -183,10 +185,10 @@ submissions are processed successfully:
 You should also distribute your requests to maximize service
 availability:
 
-  - Submit requests at times other than on the hour or on the half hour.
+-   Submit requests at times other than on the hour or on the half hour.
     For example, submit requests at 11 minutes after the hour or at 41
     minutes after the hour.
-  - Take advantage of times during the day when traffic is likely to be
+-   Take advantage of times during the day when traffic is likely to be
     low on Amazon MWS, such as early evening or early morning hours.
 
 </div>

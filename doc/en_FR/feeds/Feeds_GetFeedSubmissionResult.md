@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionResult" class="nested0">
 
-# GetFeedSubmissionResult
+GetFeedSubmissionResult
+=======================
 
 <div class="body">
 
@@ -46,14 +46,15 @@ header.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetFeedSubmissionResult" class="keyword apiname">GetFeedSubmissionResult</span>
-operation returns the feed processing report and the Content-MD5 header
-for the returned HTTP body.
+The <span id="Description__GetFeedSubmissionResult"
+class="keyword apiname">GetFeedSubmissionResult</span> operation returns
+the feed processing report and the Content-MD5 header for the returned
+HTTP body.
 
 You should compute the MD5 hash of the HTTP body of the report that
 <span class="ph">Amazon MWS</span> returned to you, and compare that
@@ -62,9 +63,8 @@ value and the returned hash value do not match, the report body was
 corrupted during transmission. You should discard the result and
 automatically retry the request for up to three more times. Please
 notify <span class="ph">Amazon MWS</span> if you receive a corrupted
-report body. For more information on the Content-MD5 header, see [Using
-the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult
-operations](Feeds_MD5.md).
+report body. For more information on the Content-MD5 header, see
+<a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.
 
 <div class="section">
 
@@ -83,15 +83,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate             | Hourly request quota |
-| --------------------- | ------------------------ | -------------------- |
+|-----------------------|--------------------------|----------------------|
 | 15 requests           | One request every minute | 60 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -103,7 +103,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -111,9 +112,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -153,7 +153,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -171,7 +172,8 @@ for the returned HTTP body.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -181,9 +183,8 @@ for the returned HTTP body.
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -191,26 +192,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Feeds/2009-01-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Feeds/2009-01-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PExampleR2
-&Action=GetFeedSubmissionResult
-&FeedSubmissionId=20Example76
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&Marketplace=ATExampleER
-&SellerId=A1ExampleE6
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2009-02-04T17%3A44%3A33.500Z
-&Version=2009-01-01
-&Signature=CNExampleQ%3D
-```
+    AWSAccessKeyId=0PExampleR2
+    &Action=GetFeedSubmissionResult
+    &FeedSubmissionId=20Example76
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &Marketplace=ATExampleER
+    &SellerId=A1ExampleE6
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2009-02-04T17%3A44%3A33.500Z
+    &Version=2009-01-01
+    &Signature=CNExampleQ%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -222,9 +221,9 @@ AWSAccessKeyId=0PExampleR2
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
@@ -233,26 +232,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0" encoding="UTF-8"?>
-<AmazonEnvelope
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
-    <Header>
-        <DocumentVersion>1.02</DocumentVersion>
-        <MerchantIdentifier>T_M_GOOD_83835495</MerchantIdentifier>
-    </Header>
-    <MessageType>ProcessingReport</MessageType>
-    <Message>
-        <MessageID>1</MessageID>
-        <ProcessingReport>
-            <DocumentTransactionID>4319742521</DocumentTransactionID>
-        </ProcessingReport>
-    </Message>
-</AmazonEnvelope>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <AmazonEnvelope
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+        <Header>
+            <DocumentVersion>1.02</DocumentVersion>
+            <MerchantIdentifier>T_M_GOOD_83835495</MerchantIdentifier>
+        </Header>
+        <MessageType>ProcessingReport</MessageType>
+        <Message>
+            <MessageID>1</MessageID>
+            <ProcessingReport>
+                <DocumentTransactionID>4319742521</DocumentTransactionID>
+            </ProcessingReport>
+        </Message>
+    </AmazonEnvelope>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -264,17 +261,16 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
-[GetFeedSubmissionList](Feeds_GetFeedSubmissionList.md "Returns a list of all feed submissions submitted in the previous 90 days.")
+<a href="Feeds_GetFeedSubmissionList.md" class="xref" title="Returns a list of all feed submissions submitted in the previous 90 days.">GetFeedSubmissionList</a>
 
-[Using the Content-MD5 hash with the SubmitFeed and
-GetFeedSubmissionResult operations](Feeds_MD5.md)
+<a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>
 
 </div>
 

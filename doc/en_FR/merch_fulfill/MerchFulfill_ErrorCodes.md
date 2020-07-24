@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,21 +34,23 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_ErrorCodes" class="nested0">
 
-# Error codes
+Error codes
+===========
 
 <div class="body">
 
-The following table describes the various error codes that the
-<span class="ph">Merchant Fulfillment service</span> can return. For
-descriptions of error codes that are common to all
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-services, see [Error Messages](../dev_guide/DG_Errors.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.
+The following table describes the various error codes that the <span
+class="ph">Merchant Fulfillment service</span> can return. For
+descriptions of error codes that are common to all <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> services,
+see
+<a href="../dev_guide/DG_Errors.md" class="xref">Error Messages</a> in
+the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div class="tablenoborder">
 
 | Error code                                                                 | HTTP status code | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|----------------------------------------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">InsufficientFunds</span>                    | 400              | The requested shipping label purchase was rejected because of insufficient funds in the seller's account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span class="keyword parmname">InvalidRequest</span>                       | 400              | Request has missing or invalid parameters and cannot be parsed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | <span class="keyword parmname">InvalidShipFromAddress</span>               | 400              | The specified <span class="keyword parmname">ShipFromAddress</span> value is invalid. Specify a valid address.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

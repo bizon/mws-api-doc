@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ListInboundShipmentItems" class="nested0">
 
-# ListInboundShipmentItems
+ListInboundShipmentItems
+========================
 
 <div class="body">
 
@@ -47,7 +47,8 @@ frame.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -56,31 +57,30 @@ frame.</span>
 The <span class="keyword apiname">ListInboundShipmentItems</span>
 operation returns a list of items contained in an inbound shipment that
 you specify with a <span class="keyword parmname">ShipmentId</span>.
-Alternatively, if you submit the
-<span class="keyword parmname">LastUpdatedAfter</span> and
-<span class="keyword parmname">LastUpdatedBefore</span> request
-parameters, the
-<span class="keyword apiname">ListInboundShipmentItems</span> operation
-returns inbound shipment items based on when the items were last
-updated. Note that if you specify the
-<span class="keyword parmname">ShipmentId</span>, then the
-<span class="keyword parmname">LastUpdatedAfter</span> and
-<span class="keyword parmname">LastUpdatedBefore</span> request
-parameters are ignored.
+Alternatively, if you submit the <span
+class="keyword parmname">LastUpdatedAfter</span> and <span
+class="keyword parmname">LastUpdatedBefore</span> request parameters,
+the <span class="keyword apiname">ListInboundShipmentItems</span>
+operation returns inbound shipment items based on when the items were
+last updated. Note that if you specify the <span
+class="keyword parmname">ShipmentId</span>, then the <span
+class="keyword parmname">LastUpdatedAfter</span> and <span
+class="keyword parmname">LastUpdatedBefore</span> request parameters are
+ignored.
 
 You can obtain <span class="keyword parmname">ShipmentId</span> values
-for a list of inbound shipments by submitting the
-<span class="keyword apiname">ListInboundShipments</span> operation.
+for a list of inbound shipments by submitting the <span
+class="keyword apiname">ListInboundShipments</span> operation.
 
 The <span class="keyword apiname">ListInboundShipmentItems</span>
 operation returns a maximum of 200 inbound shipment items. If there are
-additional inbound shipment items to return,
-<span class="keyword parmname">NextToken</span> is returned in the
-response. To retrieve all of the inbound shipment items, pass the value
-of <span class="keyword parmname">NextToken</span> to the
-<span class="keyword apiname">ListInboundShipmentItemsByNextToken</span>
-operation and repeat until
-<span class="keyword parmname">NextToken</span> is no longer returned.
+additional inbound shipment items to return, <span
+class="keyword parmname">NextToken</span> is returned in the response.
+To retrieve all of the inbound shipment items, pass the value of <span
+class="keyword parmname">NextToken</span> to the <span
+class="keyword apiname">ListInboundShipmentItemsByNextToken</span>
+operation and repeat until <span
+class="keyword parmname">NextToken</span> is no longer returned.
 
 </div>
 
@@ -101,9 +101,9 @@ The <span class="keyword apiname">ListInboundShipmentItems</span> and
 operations together share a **maximum request quota** of 30 and a
 **restore rate** of two requests every second. <span class="ph">For
 definitions of throttling terminology and for a complete explanation of
-throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -113,7 +113,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -121,9 +122,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -180,7 +180,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -220,7 +221,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -229,8 +231,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -238,21 +240,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
-  ?Action=ListInboundShipmentItems
-  &Version=2010-10-01
-  &AWSAccessKeyId=1QZHP81EXAMPLEN5R44N
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Signature=VY6sqvdk01VeEXAMPLEG0Vh4oj3
-  &Timestamp=2015-12-01T02:40:36Z
-  &SellerId=1234567890
-  &ShipmentId=SSF85DGIZZ3OF1
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
+      ?Action=ListInboundShipmentItems
+      &Version=2010-10-01
+      &AWSAccessKeyId=1QZHP81EXAMPLEN5R44N
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Signature=VY6sqvdk01VeEXAMPLEG0Vh4oj3
+      &Timestamp=2015-12-01T02:40:36Z
+      &SellerId=1234567890
+      &ShipmentId=SSF85DGIZZ3OF1
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -263,7 +263,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -271,37 +271,35 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListInboundShipmentItemsResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <ListInboundShipmentItemsResult>
-        <ItemData>
-            <member>
-                <ShipmentId>SSF85DGIZZ3OF1</ShipmentId>
-                <SellerSKU>SampleSKU1</SellerSKU>
-                <QuantityShipped>3</QuantityShipped>
-                <QuantityInCase>0</QuantityInCase>
-                <QuantityReceived>0</QuantityReceived>
-                <FulfillmentNetworkSKU>B000FADVPQ</FulfillmentNetworkSKU>
-                <ReleaseDate>2014-12-31</ReleaseDate>
-            </member>
-            <member>
-                <ShipmentId>SSF85DGIZZ3OF1</ShipmentId>
-                <SellerSKU>SampleSKU2</SellerSKU>
-                <QuantityShipped>10</QuantityShipped>
-                <QuantityInCase>0</QuantityInCase>
-                <QuantityReceived>0</QuantityReceived>
-                <FulfillmentNetworkSKU>B0011VECH4</FulfillmentNetworkSKU>
-            </member>
-        </ItemData>
-    </ListInboundShipmentItemsResult>
-    <ResponseMetadata>
-        <RequestId>ffce8932-8e69-11df-8af1-5bf2881764d8</RequestId>
-    </ResponseMetadata>
-</ListInboundShipmentItemsResponse>
-```
+    <?xml version="1.0"?>
+    <ListInboundShipmentItemsResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <ListInboundShipmentItemsResult>
+            <ItemData>
+                <member>
+                    <ShipmentId>SSF85DGIZZ3OF1</ShipmentId>
+                    <SellerSKU>SampleSKU1</SellerSKU>
+                    <QuantityShipped>3</QuantityShipped>
+                    <QuantityInCase>0</QuantityInCase>
+                    <QuantityReceived>0</QuantityReceived>
+                    <FulfillmentNetworkSKU>B000FADVPQ</FulfillmentNetworkSKU>
+                    <ReleaseDate>2014-12-31</ReleaseDate>
+                </member>
+                <member>
+                    <ShipmentId>SSF85DGIZZ3OF1</ShipmentId>
+                    <SellerSKU>SampleSKU2</SellerSKU>
+                    <QuantityShipped>10</QuantityShipped>
+                    <QuantityInCase>0</QuantityInCase>
+                    <QuantityReceived>0</QuantityReceived>
+                    <FulfillmentNetworkSKU>B0011VECH4</FulfillmentNetworkSKU>
+                </member>
+            </ItemData>
+        </ListInboundShipmentItemsResult>
+        <ResponseMetadata>
+            <RequestId>ffce8932-8e69-11df-8af1-5bf2881764d8</RequestId>
+        </ResponseMetadata>
+    </ListInboundShipmentItemsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -313,19 +311,18 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
+<a href="FBAInbound_ListInboundShipmentsByNextToken.md" class="xref" title="Returns the next page of inbound shipments using the NextToken parameter.">ListInboundShipmentsByNextToken</a>
 
-[ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
+<a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
 
 </div>
 

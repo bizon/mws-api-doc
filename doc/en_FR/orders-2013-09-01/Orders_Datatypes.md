@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,30 +34,31 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Orders_Datatypes" class="nested0">
 
-# Orders Datatypes
+Orders Datatypes
+================
 
 <div class="body">
 
-The following datatypes are used in the response elements of the
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Orders API section</span>:
+The following datatypes are used in the response elements of the <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> <span
+class="ph">Orders API section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                     | Description                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Address](Orders_Datatypes.md#Address "The shipping address for the order.")                                                                                                               | <span class="ph">The shipping address for the order.</span>                                                                                                                                              |
-| [BuyerCustomizedInfo](Orders_Datatypes.md#BuyerCustomizedInfo "Buyer information for custom orders from the Amazon Custom program.")                                                       | <span class="ph">Buyer information for custom orders from the <span class="ph">Amazon Custom</span> program.</span>                                                                                      |
-| [BuyerTaxInfo](Orders_Datatypes.md#BuyerTaxInfo "Tax information about the buyer.")                                                                                                        | <span class="ph">Tax information about the buyer.</span>                                                                                                                                                 |
-| [Money](Orders_Datatypes.md#Money "Currency type and amount.")                                                                                                                             | <span class="ph">Currency type and amount.</span>                                                                                                                                                        |
-| [Order](Orders_Datatypes.md#Order "Order information.")                                                                                                                                    | <span class="ph">Order information.</span>                                                                                                                                                               |
-| [OrderItem](Orders_Datatypes.md#OrderItem "OrderItem information.")                                                                                                                        | <span class="ph">OrderItem information.</span>                                                                                                                                                           |
-| [PaymentExecutionDetailItem](Orders_Datatypes.md#PaymentExecutionDetailItem "Information about a sub-payment method used to pay for a COD order.")                                         | <span class="ph">Information about a sub-payment method used to pay for a COD order.</span>                                                                                                              |
-| [PaymentMethodDetails](Orders_Datatypes.md#PaymentMethodDetails "A list of payment methods for the order.")                                                                                | <span class="ph">A list of payment methods for the order.</span>                                                                                                                                         |
-| [PointsGranted](Orders_Datatypes.md#PointsGranted "The number and value of Amazon Points granted with the purchase of an item. This datatype is used only in the Japan marketplace.")      | <span class="ph">The number and value of <span class="ph">Amazon Points</span> granted with the purchase of an item.</span> <span class="ph">This datatype is used only in the Japan marketplace.</span> |
-| [ProductInfo](Orders_Datatypes.md#ProductInfo "Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.") | <span class="ph">Product information for the item.</span> <span class="ph">This datatype is used only in the US, UK, Germany, and Japan marketplaces.</span>                                             |
-| [TaxClassification](Orders_Datatypes.md#TaxClassification "A tax type and identifier.")                                                                                                    | <span class="ph">A tax type and identifier.</span>                                                                                                                                                       |
-| [TaxCollection](Orders_Datatypes.md#TaxCollection "Information about withheld taxes.")                                                                                                     | <span class="ph">Information about withheld taxes.</span>                                                                                                                                                |
+| Datatype                                                                                                                                                                                                                   | Description                                                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="Orders_Datatypes.md#Address" class="xref" title="The shipping address for the order.">Address</a>                                                                                                               | <span class="ph">The shipping address for the order.</span>                                                                                                                                              |
+| <a href="Orders_Datatypes.md#BuyerCustomizedInfo" class="xref" title="Buyer information for custom orders from the Amazon Custom program.">BuyerCustomizedInfo</a>                                                       | <span class="ph">Buyer information for custom orders from the <span class="ph">Amazon Custom</span> program.</span>                                                                                      |
+| <a href="Orders_Datatypes.md#BuyerTaxInfo" class="xref" title="Tax information about the buyer.">BuyerTaxInfo</a>                                                                                                        | <span class="ph">Tax information about the buyer.</span>                                                                                                                                                 |
+| <a href="Orders_Datatypes.md#Money" class="xref" title="Currency type and amount.">Money</a>                                                                                                                             | <span class="ph">Currency type and amount.</span>                                                                                                                                                        |
+| <a href="Orders_Datatypes.md#Order" class="xref" title="Order information.">Order</a>                                                                                                                                    | <span class="ph">Order information.</span>                                                                                                                                                               |
+| <a href="Orders_Datatypes.md#OrderItem" class="xref" title="OrderItem information.">OrderItem</a>                                                                                                                        | <span class="ph">OrderItem information.</span>                                                                                                                                                           |
+| <a href="Orders_Datatypes.md#PaymentExecutionDetailItem" class="xref" title="Information about a sub-payment method used to pay for a COD order.">PaymentExecutionDetailItem</a>                                         | <span class="ph">Information about a sub-payment method used to pay for a COD order.</span>                                                                                                              |
+| <a href="Orders_Datatypes.md#PaymentMethodDetails" class="xref" title="A list of payment methods for the order.">PaymentMethodDetails</a>                                                                                | <span class="ph">A list of payment methods for the order.</span>                                                                                                                                         |
+| <a href="Orders_Datatypes.md#PointsGranted" class="xref" title="The number and value of Amazon Points granted with the purchase of an item. This datatype is used only in the Japan marketplace.">PointsGranted</a>      | <span class="ph">The number and value of <span class="ph">Amazon Points</span> granted with the purchase of an item.</span> <span class="ph">This datatype is used only in the Japan marketplace.</span> |
+| <a href="Orders_Datatypes.md#ProductInfo" class="xref" title="Product information for the item. This datatype is used only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces.">ProductInfo</a> | <span class="ph">Product information for the item.</span> <span class="ph">This datatype is used only in the US, UK, Germany, and Japan marketplaces.</span>                                             |
+| <a href="Orders_Datatypes.md#TaxClassification" class="xref" title="A tax type and identifier.">TaxClassification</a>                                                                                                    | <span class="ph">A tax type and identifier.</span>                                                                                                                                                       |
+| <a href="Orders_Datatypes.md#TaxCollection" class="xref" title="Information about withheld taxes.">TaxCollection</a>                                                                                                     | <span class="ph">Information about withheld taxes.</span>                                                                                                                                                |
 
 </div>
 
@@ -66,7 +66,8 @@ The following datatypes are used in the response elements of the
 
 <div id="Address" class="topic reference nested1">
 
-## Address
+Address
+-------
 
 <div class="body refbody">
 
@@ -81,9 +82,9 @@ The following datatypes are used in the response elements of the
 The <span class="keyword cmdname">Address</span> datatype is used in a
 response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
 
 </div>
 
@@ -93,8 +94,8 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Address</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Address</span> datatype:
 
 <div class="tablenoborder">
 
@@ -208,12 +209,13 @@ The following table shows the elements of the
 
 <div id="BuyerCustomizedInfo" class="topic reference nested1">
 
-## BuyerCustomizedInfo
+BuyerCustomizedInfo
+-------------------
 
 <div class="body refbody">
 
-<span class="ph">Buyer information for custom orders from the
-<span class="ph">Amazon Custom</span> program.</span>
+<span class="ph">Buyer information for custom orders from the <span
+class="ph">Amazon Custom</span> program.</span>
 
 <div class="section">
 
@@ -224,8 +226,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">BuyerCustomizedInfo</span> datatype is
 used in a response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -235,13 +237,13 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">BuyerCustomizedInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">BuyerCustomizedInfo</span> datatype:
 
 <div class="tablenoborder">
 
 | Name                                                | Description                                                                       | Required | Values                                  |
-| --------------------------------------------------- | --------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">CustomizedURL</span> | The location of a zip file containing <span class="ph">Amazon Custom</span> data. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -254,7 +256,8 @@ The following table shows the elements of the
 
 <div id="BuyerTaxInfo" class="topic reference nested1">
 
-## BuyerTaxInfo
+BuyerTaxInfo
+------------
 
 <div class="body refbody">
 
@@ -269,9 +272,9 @@ The following table shows the elements of the
 The <span class="keyword cmdname">BuyerTaxInfo</span> datatype is used
 in a response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
 
 </div>
 
@@ -281,8 +284,8 @@ in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">BuyerTaxInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">BuyerTaxInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -334,7 +337,8 @@ The following table shows the elements of the
 
 <div id="Money" class="topic reference nested1">
 
-## Money
+Money
+-----
 
 <div class="body refbody">
 
@@ -349,11 +353,11 @@ The following table shows the elements of the
 The <span class="keyword cmdname">Money</span> datatype is used in a
 response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -363,15 +367,15 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Money</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Money</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                               | Description                                                                                              | Required | Values                                  |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
-| <span class="keyword parmname">CurrencyCode</span> | Three-digit currency code. In <span class="ph"> [ISO 4217 format](../dev_guide/DG_ISO4217.md) </span>. | No       | <span class="ph">Type: xs:string</span> |
-| <span class="keyword parmname">Amount</span>       | The currency amount.                                                                                     | No       | <span class="ph">Type: xs:string</span> |
+| Name                                               | Description                                                                                                                      | Required | Values                                  |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
+| <span class="keyword parmname">CurrencyCode</span> | Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>. | No       | <span class="ph">Type: xs:string</span> |
+| <span class="keyword parmname">Amount</span>       | The currency amount.                                                                                                             | No       | <span class="ph">Type: xs:string</span> |
 
 </div>
 
@@ -383,7 +387,8 @@ The following table shows the elements of the
 
 <div id="Order" class="topic reference nested1">
 
-## Order
+Order
+-----
 
 <div class="body refbody">
 
@@ -398,9 +403,9 @@ The following table shows the elements of the
 The <span class="keyword cmdname">Order</span> datatype is used in a
 response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
 
 </div>
 
@@ -410,8 +415,8 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Order</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Order</span> datatype:
 
 <div class="tablenoborder">
 
@@ -718,7 +723,8 @@ The following table shows the elements of the
 
 <div id="OrderItem" class="topic reference nested1">
 
-## OrderItem
+OrderItem
+---------
 
 <div class="body refbody">
 
@@ -733,8 +739,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">OrderItem</span> datatype is used in a
 response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -744,8 +750,8 @@ response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">OrderItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">OrderItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1003,7 +1009,8 @@ The following table shows the elements of the
 
 <div id="PaymentExecutionDetailItem" class="topic reference nested1">
 
-## PaymentExecutionDetailItem
+PaymentExecutionDetailItem
+--------------------------
 
 <div class="body refbody">
 
@@ -1019,9 +1026,9 @@ a COD order.</span>
 The <span class="keyword cmdname">PaymentExecutionDetailItem</span>
 datatype is used in a response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
 
 </div>
 
@@ -1031,9 +1038,8 @@ datatype is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PaymentExecutionDetailItem</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PaymentExecutionDetailItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1084,7 +1090,8 @@ datatype:
 
 <div id="PaymentMethodDetails" class="topic reference nested1">
 
-## PaymentMethodDetails
+PaymentMethodDetails
+--------------------
 
 <div class="body refbody">
 
@@ -1099,9 +1106,9 @@ datatype:
 The <span class="keyword cmdname">PaymentMethodDetails</span> datatype
 is used in a response element of the following operations:
 
-  - [ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
-  - [ListOrdersByNextToken](Orders_ListOrdersByNextToken.md "Returns the next page of orders using the NextToken parameter.")
-  - [GetOrder](Orders_GetOrder.md "Returns orders based on the AmazonOrderId values that you specify.")
+-   <a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
+-   <a href="Orders_ListOrdersByNextToken.md" class="xref" title="Returns the next page of orders using the NextToken parameter.">ListOrdersByNextToken</a>
+-   <a href="Orders_GetOrder.md" class="xref" title="Returns orders based on the AmazonOrderId values that you specify.">GetOrder</a>
 
 </div>
 
@@ -1111,13 +1118,13 @@ is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PaymentMethodDetails</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PaymentMethodDetails</span> datatype:
 
 <div class="tablenoborder">
 
 | Name                                                      | Description                                                                     | Required | Values                                  |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">PaymentMethodDetail</span> | A payment method for the order. For example, `GiftCertificate` or `CreditCard`. | No       | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -1130,13 +1137,14 @@ The following table shows the elements of the
 
 <div id="ProductInfo" class="topic reference nested1">
 
-## ProductInfo
+ProductInfo
+-----------
 
 <div class="body refbody">
 
-<span class="ph">Product information for the item.</span>
-<span class="ph">This datatype is used only in the US, Spain, UK,
-France, Germany, Italy, India, and Japan marketplaces.</span>
+<span class="ph">Product information for the item.</span> <span
+class="ph">This datatype is used only in the US, Spain, UK, France,
+Germany, Italy, India, and Japan marketplaces.</span>
 
 <div class="section">
 
@@ -1147,8 +1155,8 @@ France, Germany, Italy, India, and Japan marketplaces.</span>
 The <span class="keyword cmdname">ProductInfo</span> datatype is used in
 a response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -1158,13 +1166,13 @@ a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">ProductInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">ProductInfo</span> datatype:
 
 <div class="tablenoborder">
 
 | Name                                                | Description                                              | Required | Values                               |
-| --------------------------------------------------- | -------------------------------------------------------- | -------- | ------------------------------------ |
+|-----------------------------------------------------|----------------------------------------------------------|----------|--------------------------------------|
 | <span class="keyword parmname">NumberOfItems</span> | The total number of items that are included in the ASIN. | No       | <span class="ph">Type: xs:int</span> |
 
 </div>
@@ -1177,14 +1185,14 @@ The following table shows the elements of the
 
 <div id="PointsGranted" class="topic reference nested1">
 
-## PointsGranted
+PointsGranted
+-------------
 
 <div class="body refbody">
 
 <span class="ph">The number and value of <span class="ph">Amazon
-Points</span> granted with the purchase of an item.</span>
-<span class="ph">This datatype is used only in the Japan
-marketplace.</span>
+Points</span> granted with the purchase of an item.</span> <span
+class="ph">This datatype is used only in the Japan marketplace.</span>
 
 <div class="section">
 
@@ -1195,8 +1203,8 @@ marketplace.</span>
 The <span class="keyword cmdname">PointsGranted</span> datatype is used
 in a response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -1206,15 +1214,15 @@ in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PointsGranted</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PointsGranted</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                      | Description                                                                               | Required | Values                                            |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------- | ------------------------------------------------- |
-| <span class="keyword parmname">PointsNumber</span>        | The number of <span class="ph">Amazon Points</span> granted with the purchase of an item. | No       | <span class="ph">Type: xs:int</span>              |
-| <span class="keyword parmname">PointsMonetaryValue</span> | The monetary value of the <span class="ph">Amazon Points</span> granted.                  | No       | Type: [Money](#Money "Currency type and amount.") |
+| Name                                                      | Description                                                                               | Required | Values                                                                          |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------|
+| <span class="keyword parmname">PointsNumber</span>        | The number of <span class="ph">Amazon Points</span> granted with the purchase of an item. | No       | <span class="ph">Type: xs:int</span>                                            |
+| <span class="keyword parmname">PointsMonetaryValue</span> | The monetary value of the <span class="ph">Amazon Points</span> granted.                  | No       | Type: <a href="#Money" class="xref" title="Currency type and amount.">Money</a> |
 
 </div>
 
@@ -1226,7 +1234,8 @@ The following table shows the elements of the
 
 <div id="TaxClassification" class="topic reference nested1">
 
-## TaxClassification
+TaxClassification
+-----------------
 
 <div class="body refbody">
 
@@ -1241,8 +1250,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">TaxClassification</span> datatype is
 used in a response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -1252,13 +1261,13 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TaxClassification</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TaxClassification</span> datatype:
 
 <div class="tablenoborder">
 
 | Name                                        | Description                 | Required | Values                                  |
-| ------------------------------------------- | --------------------------- | -------- | --------------------------------------- |
+|---------------------------------------------|-----------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">Name</span>  | The type of tax.            | Yes      | <span class="ph">Type: xs:string</span> |
 | <span class="keyword parmname">Value</span> | The buyer's tax identifier. | Yes      | <span class="ph">Type: xs:string</span> |
 
@@ -1272,7 +1281,8 @@ The following table shows the elements of the
 
 <div id="TaxCollection" class="topic reference nested1">
 
-## TaxCollection
+TaxCollection
+-------------
 
 <div class="body refbody">
 
@@ -1287,8 +1297,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">TaxCollection</span> datatype is used
 in a response element of the following operations:
 
-  - [ListOrderItems](../orders-2013-09-01/Orders_ListOrderItems.md)
-  - [ListOrderItemsByNextToken](Orders_ListOrderItemsByNextToken.md "Returns the next page of order items using the NextToken parameter.")
+-   <a href="../orders-2013-09-01/Orders_ListOrderItems.md" class="xref">ListOrderItems</a>
+-   <a href="Orders_ListOrderItemsByNextToken.md" class="xref" title="Returns the next page of order items using the NextToken parameter.">ListOrderItemsByNextToken</a>
 
 </div>
 
@@ -1298,8 +1308,8 @@ in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TaxCollection</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TaxCollection</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1348,11 +1358,12 @@ The following table shows the elements of the
 
 <div id="RelatedTopics" class="topic nested0">
 
-# Related topics
+Related topics
+==============
 
 <div class="body">
 
-[Orders API](../orders-2013-09-01/Orders_Overview.md)
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetMyFeesEstimate" class="nested0">
 
-# GetMyFeesEstimate
+GetMyFeesEstimate
+=================
 
 <div class="body">
 
@@ -46,26 +46,26 @@ products.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">GetMyFeesEstimate</span> operation
 takes a list of products and marketplaces returns the fees for those
-products in those marketplaces. You can call
-<span class="keyword apiname">GetMyFeesEstimate</span> for a set of
-products before setting prices on those products. Your prices can then
-take estimated fees into account. You must specify your products by ASIN
-or SKU (not UPC, ISBN, etc).
+products in those marketplaces. You can call <span
+class="keyword apiname">GetMyFeesEstimate</span> for a set of products
+before setting prices on those products. Your prices can then take
+estimated fees into account. You must specify your products by ASIN or
+SKU (not UPC, ISBN, etc).
 
 With each product fees request, you must include an original identifier.
 This identifier is included in the fees estimate so you can correlate a
 fees estimate with an original request.
 
 This operation allows up to 20 product requests in a single batch. For
-more information on processing the result, see [Processing bulk
-operation
-requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.").
+more information on processing the result, see
+<a href="Products_ProcessingBulkOperationRequests.md" class="xref" title="Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.">Processing bulk operation requests</a>.
 
 <div class="p">
 
@@ -78,11 +78,11 @@ API are not guaranteed. Actual fees may vary.
 
 </div>
 
-<span class="ph">For more information on fees, see [Selling on Amazon
-Fee Schedule](https://sellercentral.amazon.co.uk/gp/help/200336920) and
-[FBA features and
-fees](https://sellercentral-europe.amazon.com/gp/help/201074400) on
-Seller Central.</span>
+<span class="ph">For more information on fees, see
+<a href="https://sellercentral.amazon.co.uk/gp/help/200336920" class="xref">Selling on Amazon Fee Schedule</a>
+and
+<a href="https://sellercentral-europe.amazon.com/gp/help/201074400" class="xref">FBA features and fees</a>
+on Seller Central.</span>
 
 <div class="section">
 
@@ -101,15 +101,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate          | Hourly request quota    |
-| --------------------- | --------------------- | ----------------------- |
+|-----------------------|-----------------------|-------------------------|
 | 20 requests           | 10 items every second | 36000 requests per hour |
 
 </div>
 
 <span class="ph">For definitions of throttling terminology and for a
-complete explanation of throttling, see [Throttling: Limits to how often
-you can submit requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -121,7 +121,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -129,9 +130,8 @@ you can submit requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -171,7 +171,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -179,17 +180,17 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <span class="ph">Amazon MWS returns an XML file that contains the
 response to a successful request or subscription. If the request is
-unsuccessful, the main response element is
-<span class="keyword apiname">ErrorResponse</span>. For more
-information, see [Response format](../dev_guide/DG_ResponseFormat.md)
+unsuccessful, the main response element is <span
+class="keyword apiname">ErrorResponse</span>. For more information, see
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>
 in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
-The response elements that the
-<span class="keyword apiname">GetMyFeesEstimate</span> operation returns
-are described by the publicly available XSD
-[ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd).
-The top-level elements returned by the
-<span class="keyword apiname">GetMyFeesEstimate</span> operation are:
+The response elements that the <span
+class="keyword apiname">GetMyFeesEstimate</span> operation returns are
+described by the publicly available XSD
+<a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">ProductsAPI_Response.xsd</a>.
+The top-level elements returned by the <span
+class="keyword apiname">GetMyFeesEstimate</span> operation are:
 
 </div>
 
@@ -199,9 +200,9 @@ The top-level elements returned by the
 
 <div class="tablenoborder">
 
-| Name                                                         | Description                                  | Required | Values                                                                                                                                         |
-| ------------------------------------------------------------ | -------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">FeesEstimateResultList</span> | A list of products and their estimated fees. | Yes      | Type: List of [FeesEstimateResult](Products_Datatypes.md#FeesEstimateResult "A product identifier and the estimated fees for that product.") |
+| Name                                                         | Description                                  | Required | Values                                                                                                                                                                       |
+|--------------------------------------------------------------|----------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">FeesEstimateResultList</span> | A list of products and their estimated fees. | Yes      | Type: List of <a href="Products_Datatypes.md#FeesEstimateResult" class="xref" title="A product identifier and the estimated fees for that product.">FeesEstimateResult</a> |
 
 </div>
 
@@ -213,7 +214,8 @@ The top-level elements returned by the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -222,8 +224,8 @@ The top-level elements returned by the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -231,34 +233,32 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header> 
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header> 
 
-FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
-&FeesEstimateRequestList.FeesEstimateRequest.1.IdType=ASIN
-&FeesEstimateRequestList.FeesEstimateRequest.1.IdValue= B002KT3XQM
-&FeesEstimateRequestList.FeesEstimateRequest.1.IsAmazonFulfilled=true
-&FeesEstimateRequestList.FeesEstimateRequest.1.Identifier= request1
-&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.CurrencyCode=USD
-&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.Amount=30.00
-&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.CurrencyCode=USD
-&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.Amount=3.99
-&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Points.PointsNumber=0
-&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetMyFeesEstimate
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=A1IMEXAMPLEWRC
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T22%3A03%3A05Z
-&Version=2011-10-01
-&Signature=fJFzEXAMPLEEax1vAdKP7l3lwKQUH1r34lcEXAMPLEA%3D
-```
+    FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
+    &FeesEstimateRequestList.FeesEstimateRequest.1.IdType=ASIN
+    &FeesEstimateRequestList.FeesEstimateRequest.1.IdValue= B002KT3XQM
+    &FeesEstimateRequestList.FeesEstimateRequest.1.IsAmazonFulfilled=true
+    &FeesEstimateRequestList.FeesEstimateRequest.1.Identifier= request1
+    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.CurrencyCode=USD
+    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.Amount=30.00
+    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.CurrencyCode=USD
+    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.Amount=3.99
+    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Points.PointsNumber=0
+    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetMyFeesEstimate
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=A1IMEXAMPLEWRC
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T22%3A03%3A05Z
+    &Version=2011-10-01
+    &Signature=fJFzEXAMPLEEax1vAdKP7l3lwKQUH1r34lcEXAMPLEA%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -269,7 +269,7 @@ FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
 ### Example response (Success)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -277,125 +277,123 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMyFeesEstimateResponse
-  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <GetMyFeesEstimateResult>
-    <FeesEstimateResultList>
-      <FeesEstimateResult>
-        <Status>Success</Status>
-        <FeesEstimateIdentifier>
-          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-          <IdValue>B0002GTTRC</IdValue>
-          <IdType>ASIN</IdType>
-          <IsAmazonFulfilled>True</IsAmazonFulfilled>
-          <PriceToEstimateFees>
-            <ListingPrice>
-              <CurrencyCode>USD</CurrencyCode>
-              <Amount>58.00</Amount>
-            </ListingPrice>
-            <Shipping>
-              <CurrencyCode>USD</CurrencyCode>
-              <Amount>0.00</Amount>
-            </Shipping>
-            <Points>
-              <PointsNumber>0</PointsNumber>
-            </Points>
-          </PriceToEstimateFees>
-          <SellerInputIdentifier>IDDDDDDDD</SellerInputIdentifier>
-        </FeesEstimateIdentifier>
-        <FeesEstimate>
-          <TimeOfFeesEstimation>2015-07-19T23:15:11.859Z</TimeOfFeesEstimation>
-          <TotalFeesEstimate>
-            <CurrencyCode>USD</CurrencyCode>
-            <Amount>10.00</Amount>
-          </TotalFeesEstimate>
-          <FeeDetailList>
-            <FeeDetail>
-              <FeeType>AmazonReferralFee</FeeType>
-              <FeeAmount>
+    <?xml version="1.0"?>
+    <GetMyFeesEstimateResponse
+      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <GetMyFeesEstimateResult>
+        <FeesEstimateResultList>
+          <FeesEstimateResult>
+            <Status>Success</Status>
+            <FeesEstimateIdentifier>
+              <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+              <IdValue>B0002GTTRC</IdValue>
+              <IdType>ASIN</IdType>
+              <IsAmazonFulfilled>True</IsAmazonFulfilled>
+              <PriceToEstimateFees>
+                <ListingPrice>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <Amount>58.00</Amount>
+                </ListingPrice>
+                <Shipping>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <Amount>0.00</Amount>
+                </Shipping>
+                <Points>
+                  <PointsNumber>0</PointsNumber>
+                </Points>
+              </PriceToEstimateFees>
+              <SellerInputIdentifier>IDDDDDDDD</SellerInputIdentifier>
+            </FeesEstimateIdentifier>
+            <FeesEstimate>
+              <TimeOfFeesEstimation>2015-07-19T23:15:11.859Z</TimeOfFeesEstimation>
+              <TotalFeesEstimate>
                 <CurrencyCode>USD</CurrencyCode>
-                <Amount>8.70</Amount>
-              </FeeAmount>
-              <FeePromotion>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>1.00</Amount>
-              </FeePromotion>
-              <FinalFee>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>7.70</Amount>
-              </FinalFee>
-            </FeeDetail>
-            <FeeDetail>
-              <FeeType>VariableClosingFee</FeeType>
-              <FeeAmount>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>0.00</Amount>
-              </FeeAmount>
-              <FinalFee>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>0.0</Amount>
-              </FinalFee>
-            </FeeDetail>
-            <FeeDetail>
-              <FeeType>FulfillmentFees</FeeType>
-              <FeeAmount>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>2.30</Amount>
-              </FeeAmount>
-              <FinalFee>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>2.30</Amount>
-              </FinalFee>
-              <IncludedFeeList>
+                <Amount>10.00</Amount>
+              </TotalFeesEstimate>
+              <FeeDetailList>
                 <FeeDetail>
-                  <FeeType>OrderHandlingFee</FeeType>
+                  <FeeType>AmazonReferralFee</FeeType>
                   <FeeAmount>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>1.00</Amount>
+                    <Amount>8.70</Amount>
                   </FeeAmount>
-                  <FinalFee>
+                  <FeePromotion>
                     <CurrencyCode>USD</CurrencyCode>
                     <Amount>1.00</Amount>
+                  </FeePromotion>
+                  <FinalFee>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>7.70</Amount>
                   </FinalFee>
                 </FeeDetail>
                 <FeeDetail>
-                  <FeeType>PickAndPackFee</FeeType>
+                  <FeeType>VariableClosingFee</FeeType>
                   <FeeAmount>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.30</Amount>
+                    <Amount>0.00</Amount>
                   </FeeAmount>
                   <FinalFee>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.30</Amount>
+                    <Amount>0.0</Amount>
                   </FinalFee>
                 </FeeDetail>
                 <FeeDetail>
-                  <FeeType>WeightHandlingFee</FeeType>
+                  <FeeType>FulfillmentFees</FeeType>
                   <FeeAmount>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>1.00</Amount>
+                    <Amount>2.30</Amount>
                   </FeeAmount>
                   <FinalFee>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>1.00</Amount>
+                    <Amount>2.30</Amount>
                   </FinalFee>
+                  <IncludedFeeList>
+                    <FeeDetail>
+                      <FeeType>OrderHandlingFee</FeeType>
+                      <FeeAmount>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>1.00</Amount>
+                      </FeeAmount>
+                      <FinalFee>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>1.00</Amount>
+                      </FinalFee>
+                    </FeeDetail>
+                    <FeeDetail>
+                      <FeeType>PickAndPackFee</FeeType>
+                      <FeeAmount>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.30</Amount>
+                      </FeeAmount>
+                      <FinalFee>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.30</Amount>
+                      </FinalFee>
+                    </FeeDetail>
+                    <FeeDetail>
+                      <FeeType>WeightHandlingFee</FeeType>
+                      <FeeAmount>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>1.00</Amount>
+                      </FeeAmount>
+                      <FinalFee>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>1.00</Amount>
+                      </FinalFee>
+                    </FeeDetail>
+                  </IncludedFeeList>
                 </FeeDetail>
-              </IncludedFeeList>
-            </FeeDetail>
-          </FeeDetailList>
-        </FeesEstimate>
-      </FeesEstimateResult>
-    </FeesEstimateResultList>
-  </GetMyFeesEstimateResult>
-  <ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-  </ResponseMetadata>
-</GetMyFeesEstimateResponse>
-```
+              </FeeDetailList>
+            </FeesEstimate>
+          </FeesEstimateResult>
+        </FeesEstimateResultList>
+      </GetMyFeesEstimateResult>
+      <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+      </ResponseMetadata>
+    </GetMyFeesEstimateResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -406,7 +404,7 @@ code</span> </span>
 ### Example response (Error, invalid parameter value)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -414,32 +412,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMyFeesEstimateResponse
-  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <GetMyFeesEstimateResult>
-    <FeesEstimateResultList>
-      <FeesEstimateResult>
-        <Status>ClientError</Status>
-        <FeesEstimateIdentifier>
-          <!--  Rest of the input parameters -->
-        </FeesEstimateIdentifier>
-        <Error>
-          <Type>Sender</Type>
-          <Code>InvalidParameterValue</Code>
-          <Message> Attribute X is not valid for marketplace ATVPDKIKX0DER </Message>
-        </Error>
-      </FeesEstimateResult>
-    </FeesEstimateResultList>
-  </GetMyFeesEstimateResult>
-  <ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-  </ResponseMetadata>
-</GetMyFeesEstimateResponse>
-```
+    <?xml version="1.0"?>
+    <GetMyFeesEstimateResponse
+      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <GetMyFeesEstimateResult>
+        <FeesEstimateResultList>
+          <FeesEstimateResult>
+            <Status>ClientError</Status>
+            <FeesEstimateIdentifier>
+              <!--  Rest of the input parameters -->
+            </FeesEstimateIdentifier>
+            <Error>
+              <Type>Sender</Type>
+              <Code>InvalidParameterValue</Code>
+              <Message> Attribute X is not valid for marketplace ATVPDKIKX0DER </Message>
+            </Error>
+          </FeesEstimateResult>
+        </FeesEstimateResultList>
+      </GetMyFeesEstimateResult>
+      <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+      </ResponseMetadata>
+    </GetMyFeesEstimateResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -450,7 +446,7 @@ code</span> </span>
 ### Example response (Error, internal error)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -458,31 +454,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMyFeesEstimateResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <GetMyFeesEstimateResult>
-    <FeesEstimateResultList>
-      <FeesEstimateResult>
-        <Status>ServerError</Status>
-        <FeesEstimateIdentifier>
-          <!--  Rest of the input parameters -->
-        </FeesEstimateIdentifier>
-        <Error>
-          <Type> Receiver </Type>
-          <Code>InternalError</Code>
-          <Message> There was an internal service failure. </Message>
-        </Error>
-      </FeesEstimateResult>
-    </FeesEstimateResultList>
-  </GetMyFeesEstimateResult>
-  <ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-  </ResponseMetadata>
-</GetMyFeesEstimateResponse>
-```
+    <?xml version="1.0"?>
+    <GetMyFeesEstimateResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <GetMyFeesEstimateResult>
+        <FeesEstimateResultList>
+          <FeesEstimateResult>
+            <Status>ServerError</Status>
+            <FeesEstimateIdentifier>
+              <!--  Rest of the input parameters -->
+            </FeesEstimateIdentifier>
+            <Error>
+              <Type> Receiver </Type>
+              <Code>InternalError</Code>
+              <Message> There was an internal service failure. </Message>
+            </Error>
+          </FeesEstimateResult>
+        </FeesEstimateResultList>
+      </GetMyFeesEstimateResult>
+      <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+      </ResponseMetadata>
+    </GetMyFeesEstimateResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -493,7 +487,7 @@ code</span> </span>
 ### Example response (Error, data not available)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -501,32 +495,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetMyFeesEstimateResponse
-  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <GetMyFeesEstimateResult>
-    <FeesEstimateResultList>
-      <FeesEstimateResult>
-        <Status>ServerError</Status>
-        <FeesEstimateIdentifier>
-          <!--  Rest of the input parameters -->
-        </FeesEstimateIdentifier>
-        <Error>
-          <Type> Receiver </Type>
-          <Code>DataNotAvailable</Code>
-          <Message> Non-buyable item. Missing category. </Message>
-        </Error>
-      </FeesEstimateResult>
-    </FeesEstimateResultList>
-  </GetMyFeesEstimateResult>
-  <ResponseMetadata>
-    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-  </ResponseMetadata>
-</GetMyFeesEstimateResponse>
-```
+    <?xml version="1.0"?>
+    <GetMyFeesEstimateResponse
+      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <GetMyFeesEstimateResult>
+        <FeesEstimateResultList>
+          <FeesEstimateResult>
+            <Status>ServerError</Status>
+            <FeesEstimateIdentifier>
+              <!--  Rest of the input parameters -->
+            </FeesEstimateIdentifier>
+            <Error>
+              <Type> Receiver </Type>
+              <Code>DataNotAvailable</Code>
+              <Message> Non-buyable item. Missing category. </Message>
+            </Error>
+          </FeesEstimateResult>
+        </FeesEstimateResultList>
+      </GetMyFeesEstimateResult>
+      <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+      </ResponseMetadata>
+    </GetMyFeesEstimateResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -537,7 +529,7 @@ code</span> </span>
 ### Example response (Error, batch size above 20)
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -545,20 +537,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-  <Error>
-    <Type>Sender</Type>
-    <Code>InvalidParameterValue</Code>
-    <Message> There are more than 20 elements in FeesEstimateRequestList. </Message>
-    <Detail/>
-  </Error>
-  <RequestID>9f17b9ff-2ef5-42fe-b956-6d9b38ac8422</RequestID>
-</ErrorResponse>
-```
+    <?xml version="1.0"?>
+    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+      <Error>
+        <Type>Sender</Type>
+        <Code>InvalidParameterValue</Code>
+        <Message> There are more than 20 elements in FeesEstimateRequestList. </Message>
+        <Detail/>
+      </Error>
+      <RequestID>9f17b9ff-2ef5-42fe-b956-6d9b38ac8422</RequestID>
+    </ErrorResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -570,14 +560,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[Processing bulk operation
-requests](Products_ProcessingBulkOperationRequests.md "Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.")
+<a href="Products_ProcessingBulkOperationRequests.md" class="xref" title="Describes how to process operations in bulk by using the ASINList, SellerSKUList, and IdList request parameters.">Processing bulk operation requests</a>
 
 </div>
 

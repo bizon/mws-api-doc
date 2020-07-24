@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MWS_GetServiceStatus" class="nested0">
 
-# GetServiceStatus
+GetServiceStatus
+================
 
 <div class="body">
 
@@ -47,22 +47,23 @@ section</span>.</span></span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__GetServiceStatus" class="keyword apiname">GetServiceStatus</span>
-operation returns the operational status of the
-<span class="ph">Fulfillment Inventory API section</span> of Amazon
-Marketplace Web Service. Status values are `GREEN`, `YELLOW`, and `RED`.
+The <span id="Description__GetServiceStatus"
+class="keyword apiname">GetServiceStatus</span> operation returns the
+operational status of the <span class="ph">Fulfillment Inventory API
+section</span> of Amazon Marketplace Web Service. Status values are
+`GREEN`, `YELLOW`, and `RED`.
 
-<span class="ph">The
-<span class="keyword apiname">GetServiceStatus</span> operation has a
+<span class="ph">The <span
+class="keyword apiname">GetServiceStatus</span> operation has a
 **maximum request quota** of two and a **restore rate** of one request
 every five minutes. </span> For definitions of throttling terminology,
-see [What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.md).
+see
+<a href="FBAInventory_Overview.md" class="xref">What you should know about the Fulfillment Inventory API section</a>.
 
 <div class="section">
 
@@ -78,7 +79,8 @@ This operation is available in all marketplaces except Brazil.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -94,7 +96,8 @@ None.
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -165,7 +168,8 @@ The parent element of the following child elements (both child elements are type
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -174,8 +178,8 @@ The parent element of the following child elements (both child elements are type
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -183,20 +187,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
-  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-  &Action=GetServiceStatus
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A1XEXAMPLE5E6
-  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &Timestamp=2010-11-01T18%3A12%3A21.687Z
-  &Version=2010-10-01
-```
+    http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
+      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+      &Action=GetServiceStatus
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A1XEXAMPLE5E6
+      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &Timestamp=2010-11-01T18%3A12%3A21.687Z
+      &Version=2010-10-01
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -207,7 +209,7 @@ http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -215,20 +217,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetServiceStatusResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
-    <GetServiceStatusResult>
-        <Status>GREEN</Status>
-        <Timestamp>2010-11-01T21:38:09.676Z</Timestamp>
-    </GetServiceStatusResult>
-    <ResponseMetadata>
-        <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
-    </ResponseMetadata>
-</GetServiceStatusResponse>
-```
+    <?xml version="1.0"?>
+    <GetServiceStatusResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
+        <GetServiceStatusResult>
+            <Status>GREEN</Status>
+            <Timestamp>2010-11-01T21:38:09.676Z</Timestamp>
+        </GetServiceStatusResult>
+        <ResponseMetadata>
+            <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
+        </ResponseMetadata>
+    </GetServiceStatusResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -240,12 +240,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Fulfillment Inventory API
-section](FBAInventory_Overview.md)
+<a href="FBAInventory_Overview.md" class="xref">What you should know about the Fulfillment Inventory API section</a>
 
 </div>
 

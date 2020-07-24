@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Fee Types
+Fee Types
+=========
 
 <div class="body">
 
@@ -42,15 +42,14 @@ services. </span>
 
 <div id="Fee_Types__Fee_Type" class="section">
 
-For more information about Selling on Amazon fees, see [Selling on
-Amazon Fee
-Schedule](https://sellercentral.amazon.co.uk/gp/help/200336920) on
-Seller Central. For more information about <span class="ph">Fulfillment
-by Amazon</span> fees, see [FBA features and
-fees](https://sellercentral-europe.amazon.com/gp/help/201074400) on
-Seller Central. The following table maps the
-<span class="keyword parmname">FeeType</span> field of
-[FeeComponent](Finances_Datatypes.md#FeeComponent "A fee on the seller's account.")
+For more information about Selling on Amazon fees, see
+<a href="https://sellercentral.amazon.co.uk/gp/help/200336920" class="xref">Selling on Amazon Fee Schedule</a>
+on Seller Central. For more information about <span
+class="ph">Fulfillment by Amazon</span> fees, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201074400" class="xref">FBA features and fees</a>
+on Seller Central. The following table maps the <span
+class="keyword parmname">FeeType</span> field of
+<a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a>
 to seller fees:
 
 <div class="tablenoborder">

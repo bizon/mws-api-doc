@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,101 +34,104 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetLowestOfferListingsForSKU" class="nested0">
 
-# GetLowestOfferListingsForSKU
+GetLowestOfferListingsForSKU
+============================
 
 <div class="body">
 
 <span class="ph">Returns pricing information for the lowest-price active
-offer listings for up to 20 products, based on
-<span class="keyword parmname">SellerSKU</span>.</span>
+offer listings for up to 20 products, based on <span
+class="keyword parmname">SellerSKU</span>.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
 operation returns the lowest price offer listings for a specific product
-by item condition. The listings for the specified product and
-<span class="keyword parmname">ItemCondition</span> are placed in offer
+by item condition. The listings for the specified product and <span
+class="keyword parmname">ItemCondition</span> are placed in offer
 listing groups, each group representing a different combination of the
 following six qualifiers:
 
-  - <span class="keyword parmname">ItemCondition</span>
-    (<span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or
+-   <span class="keyword parmname">ItemCondition</span> (<span
+    class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or
     `Club`</span>)
-  - <span class="keyword parmname">ItemSubcondition</span>
-    (<span class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`,
-    `Poor`, `Club`, `OEM`, `Warranty`, `Refurbished Warranty`,
-    `Refurbished`, `Open Box`, or `Other`</span>)
-  - <span class="keyword parmname">FulfillmentChannel</span> (`Amazon`
+-   <span class="keyword parmname">ItemSubcondition</span> (<span
+    class="ph">`New`, `Mint`, `Very Good`, `Good`, `Acceptable`, `Poor`,
+    `Club`, `OEM`, `Warranty`,
+    `Refurbished                     Warranty`, `Refurbished`,
+    `Open Box`, or `Other`</span>)
+-   <span class="keyword parmname">FulfillmentChannel</span> (`Amazon`
     or `Merchant`)
-  - <span class="keyword parmname">ShipsDomestically</span> (`True`,
+-   <span class="keyword parmname">ShipsDomestically</span> (`True`,
     `False`, or `Unknown`) – Indicates whether the marketplace specified
     in the request and the location that the item ships from are in the
     same country.
-  - <span class="keyword parmname">ShippingTime</span> (`0-2 days`, `3-7
-    days`, `8-13 days`, or `14 or more days`) – Indicates the maximum
-    time within which the item will likely be shipped once an order has
-    been placed
-  - <span class="keyword parmname">SellerPositiveFeedbackRating</span>
+-   <span class="keyword parmname">ShippingTime</span> (`0-2 days`,
+    `3-7                             days`, `8-13 days`, or
+    `14 or more                             days`) – Indicates the
+    maximum time within which the item will likely be shipped once an
+    order has been placed
+-   <span class="keyword parmname">SellerPositiveFeedbackRating</span>
     (`98-100%`, `95-97%`, `90-94%`, `80-89%`, `70-79%`, `Less than 70%`,
     or `Just launched` ) – Indicates the percentage of feedback ratings
     that were positive over the past 12 months.
 
 Some (but not necessarily all) of the active offer listings for the
-specified product and
-<span class="keyword parmname">ItemCondition</span>, initially sorted by
-the lowest landed price, are placed into their corresponding offer
-listing groups, and the listing with the lowest landed price from each
-group is returned. If multiple sellers have listings that share the
-lowest landed price for a group, the listing from the seller with the
-highest feedback count is returned. Groups without any listings are not
-returned.
+specified product and <span
+class="keyword parmname">ItemCondition</span>, initially sorted by the
+lowest landed price, are placed into their corresponding offer listing
+groups, and the listing with the lowest landed price from each group is
+returned. If multiple sellers have listings that share the lowest landed
+price for a group, the listing from the seller with the highest feedback
+count is returned. Groups without any listings are not returned.
 
-This operation returns the
-<span class="keyword parmname">AllOfferListingsConsidered</span>
-response element, which indicates whether or not all of the active offer
-listings for the specified product and
-<span class="keyword parmname">ItemCondition</span> were considered when
-the listings were placed into their corresponding offer listing groups.
-Note that even if not all the listings were considered, you can still
-expect the following:
+This operation returns the <span
+class="keyword parmname">AllOfferListingsConsidered</span> response
+element, which indicates whether or not all of the active offer listings
+for the specified product and <span
+class="keyword parmname">ItemCondition</span> were considered when the
+listings were placed into their corresponding offer listing groups. Note
+that even if not all the listings were considered, you can still expect
+the following:
 
-  - The lowest landed prices that are returned will be the lowest landed
+-   The lowest landed prices that are returned will be the lowest landed
     prices from their respective offer listing groups.
-  - The lowest landed prices that are returned will be lower than the
+-   The lowest landed prices that are returned will be lower than the
     landed prices for any listings that were not considered.
 
 <div class="note note">
 
-<span class="notetitle">Note:</span> When you submit the
-<span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-operation, your own offer listings are included in the response unless
-you use the <span class="keyword parmname">ExcludeMe</span> request
-parameter with a value of `True`.
+<span class="notetitle">Note:</span> When you submit the <span
+class="keyword apiname">GetLowestOfferListingsForSKU</span> operation,
+your own offer listings are included in the response unless you use the
+<span class="keyword parmname">ExcludeMe</span> request parameter with a
+value of `True`.
 
 </div>
 
 <div class="note note">
 
-<span class="notetitle">Note:</span> Instead of calling the
-<span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-operation to obtain the lowest price offer listings for a specific
-product by item condition, consider calling the
-[GetLowestPricedOffersForSKU](Products_GetLowestPricedOffersForSKU.md "Returns lowest priced offers for a single product, based on SellerSKU.")
+<span class="notetitle">Note:</span> Instead of calling the <span
+class="keyword apiname">GetLowestOfferListingsForSKU</span> operation to
+obtain the lowest price offer listings for a specific product by item
+condition, consider calling the
+<a href="Products_GetLowestPricedOffersForSKU.md" class="xref" title="Returns lowest priced offers for a single product, based on SellerSKU.">GetLowestPricedOffersForSKU</a>
 operation.
 
 You can also subscribe to the
-[AnyOfferChanged](../notifications/Notifications_AnyOfferChangedNotification.md)
-notification by using the
-<span class="keyword parmname">Subscriptions</span> API service. When
-you subscribe to this notification, you will be notified whenever there
-is a price change or offer listing change for any of the top 20 offers,
-by condition (new or used), for an item that you sell.
+<a href="../notifications/Notifications_AnyOfferChangedNotification.md" class="xref">AnyOfferChanged</a>
+notification by using the <span
+class="keyword parmname">Subscriptions</span> API service. When you
+subscribe to this notification, you will be notified whenever there is a
+price change or offer listing change for any of the top 20 offers, by
+condition (new or used), for an item that you sell.
 
 </div>
 
@@ -150,22 +152,22 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate          | Hourly request quota    |
-| --------------------- | --------------------- | ----------------------- |
+|-----------------------|-----------------------|-------------------------|
 | 20 requests           | 10 items every second | 36000 requests per hour |
 
 </div>
 
 This quota and restore rate is shared with
-[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.").
+<a href="Products_GetLowestOfferListingsForASIN.md" class="xref" title="Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.">GetLowestOfferListingsForASIN</a>.
 <span class="ph">Operations in the <span class="ph">Products API
 section</span> that send lists of items as input parameters have restore
 rates that are measured by item. For information on per-item throttling,
-see [Throttling in the Products
-API](Products_Throttling.md "Describes the throttling policy for the Products API section.").
+see
+<a href="Products_Throttling.md" class="xref" title="Describes the throttling policy for the Products API section.">Throttling in the Products API</a>.
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>. </span>
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 </div>
 
@@ -177,7 +179,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -185,9 +188,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -250,7 +252,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -260,14 +263,14 @@ The <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
 operation returns the <span class="keyword parmname">Product</span>
 response element that is described by the following publically available
 XSDs:
-[ProductsAPI\_Response.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd)
+<a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">ProductsAPI_Response.xsd</a>
 and
-[default.xsd](http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd).
+<a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd" class="xref">default.xsd</a>.
 The <span class="keyword apiname">GetLowestOfferListingsForSKU</span>
-operation returns the following two sub-elements of the
-<span class="keyword parmname">Products</span> response element:
-<span class="keyword parmname">Identifiers</span> and
-<span class="keyword parmname">LowestOfferListings</span>.
+operation returns the following two sub-elements of the <span
+class="keyword parmname">Products</span> response element: <span
+class="keyword parmname">Identifiers</span> and <span
+class="keyword parmname">LowestOfferListings</span>.
 
 </div>
 
@@ -336,7 +339,8 @@ operation returns the following two sub-elements of the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -345,8 +349,8 @@ operation returns the following two sub-elements of the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -354,27 +358,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Products/2011-10-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Products/2011-10-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-&Action=GetLowestOfferListingsForSKU
-&ExcludeMe=false
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=A1IMEXAMPLEWRC
-&SellerSKUList.SellerSKU.1=SKU2468
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2012-12-04T21%3A53%3A02Z
-&Version=2011-10-01
-&Signature=FUcIEXAMPLETUGtTS6sqNDt3OuLH8tbhz5YEXAMPLEw%3D
-```
+    AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+    &Action=GetLowestOfferListingsForSKU
+    &ExcludeMe=false
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=A1IMEXAMPLEWRC
+    &SellerSKUList.SellerSKU.1=SKU2468
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2012-12-04T21%3A53%3A02Z
+    &Version=2011-10-01
+    &Signature=FUcIEXAMPLETUGtTS6sqNDt3OuLH8tbhz5YEXAMPLEw%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -385,7 +387,7 @@ AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -393,123 +395,121 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetLowestOfferListingsForSKUResponse
-    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetLowestOfferListingsForSKUResult SellerSKU="SKU2468" status="Success">
-        <AllOfferListingsConsidered>false</AllOfferListingsConsidered>
-        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-            <Identifiers>
-                <MarketplaceASIN>
-                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                    <ASIN>1933890517</ASIN>
-                </MarketplaceASIN>
-                <SKUIdentifier>
-                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                    <SellerId>A1IMEXAMPLEWRC</SellerId>
-                    <SellerSKU>SKU2468</SellerSKU>
-                </SKUIdentifier>
-            </Identifiers>
-            <LowestOfferListings>
-                <LowestOfferListing>
-                    <Qualifiers>
-                        <ItemCondition>Used</ItemCondition>
-                        <ItemSubcondition>Acceptable</ItemSubcondition>
-                        <FulfillmentChannel>Merchant</FulfillmentChannel>
-                        <ShipsDomestically>True</ShipsDomestically>
-                        <ShippingTime>
-                            <Max>0-2 days</Max>
-                        </ShippingTime>
-                        <SellerPositiveFeedbackRating>95-97%</SellerPositiveFeedbackRating>
-                    </Qualifiers>
-                    <NumberOfOfferListingsConsidered>3</NumberOfOfferListingsConsidered>
-                    <SellerFeedbackCount>8900</SellerFeedbackCount>
-                    <Price>
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>28.68</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>24.69</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>3.99</Amount>
-                        </Shipping>
-                    </Price>
-                    <MultipleOffersAtLowestPrice>True</MultipleOffersAtLowestPrice>
-                </LowestOfferListing>
-                <LowestOfferListing>
-                    <Qualifiers>
-                        <ItemCondition>Used</ItemCondition>
-                        <ItemSubcondition>Good</ItemSubcondition>
-                        <FulfillmentChannel>Amazon</FulfillmentChannel>
-                        <ShipsDomestically>True</ShipsDomestically>
-                        <ShippingTime>
-                            <Max>0-2 days</Max>
-                        </ShippingTime>
-                        <SellerPositiveFeedbackRating>90-94%</SellerPositiveFeedbackRating>
-                    </Qualifiers>
-                    <NumberOfOfferListingsConsidered>1</NumberOfOfferListingsConsidered>
-                    <SellerFeedbackCount>1569694</SellerFeedbackCount>
-                    <Price>
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>30.50</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>30.50</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </Shipping>
-                    </Price>
-                    <MultipleOffersAtLowestPrice>False</MultipleOffersAtLowestPrice>
-                </LowestOfferListing>
-                <LowestOfferListing>
-                    <Qualifiers>
-                        <ItemCondition>Used</ItemCondition>
-                        <ItemSubcondition>Good</ItemSubcondition>
-                        <FulfillmentChannel>Merchant</FulfillmentChannel>
-                        <ShipsDomestically>True</ShipsDomestically>
-                        <ShippingTime>
-                            <Max>0-2 days</Max>
-                        </ShippingTime>
-                        <SellerPositiveFeedbackRating>95-97%</SellerPositiveFeedbackRating>
-                    </Qualifiers>
-                    <NumberOfOfferListingsConsidered>3</NumberOfOfferListingsConsidered>
-                    <SellerFeedbackCount>7732</SellerFeedbackCount>
-                    <Price>
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>30.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>27.00</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>3.99</Amount>
-                        </Shipping>
-                    </Price>
-                    <MultipleOffersAtLowestPrice>False</MultipleOffersAtLowestPrice>
-                </LowestOfferListing>
-            </LowestOfferListings>
-        </Product>
-    </GetLowestOfferListingsForSKUResult>
-    <ResponseMetadata>
-        <RequestId>8106ed19-9a90-4820-881e-EXAMPLE0ab97</RequestId>
-    </ResponseMetadata>
-</GetLowestOfferListingsForSKUResponse>
-```
+    <?xml version="1.0"?>
+    <GetLowestOfferListingsForSKUResponse
+        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+        <GetLowestOfferListingsForSKUResult SellerSKU="SKU2468" status="Success">
+            <AllOfferListingsConsidered>false</AllOfferListingsConsidered>
+            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                        <ASIN>1933890517</ASIN>
+                    </MarketplaceASIN>
+                    <SKUIdentifier>
+                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                        <SellerId>A1IMEXAMPLEWRC</SellerId>
+                        <SellerSKU>SKU2468</SellerSKU>
+                    </SKUIdentifier>
+                </Identifiers>
+                <LowestOfferListings>
+                    <LowestOfferListing>
+                        <Qualifiers>
+                            <ItemCondition>Used</ItemCondition>
+                            <ItemSubcondition>Acceptable</ItemSubcondition>
+                            <FulfillmentChannel>Merchant</FulfillmentChannel>
+                            <ShipsDomestically>True</ShipsDomestically>
+                            <ShippingTime>
+                                <Max>0-2 days</Max>
+                            </ShippingTime>
+                            <SellerPositiveFeedbackRating>95-97%</SellerPositiveFeedbackRating>
+                        </Qualifiers>
+                        <NumberOfOfferListingsConsidered>3</NumberOfOfferListingsConsidered>
+                        <SellerFeedbackCount>8900</SellerFeedbackCount>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>28.68</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>24.69</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>3.99</Amount>
+                            </Shipping>
+                        </Price>
+                        <MultipleOffersAtLowestPrice>True</MultipleOffersAtLowestPrice>
+                    </LowestOfferListing>
+                    <LowestOfferListing>
+                        <Qualifiers>
+                            <ItemCondition>Used</ItemCondition>
+                            <ItemSubcondition>Good</ItemSubcondition>
+                            <FulfillmentChannel>Amazon</FulfillmentChannel>
+                            <ShipsDomestically>True</ShipsDomestically>
+                            <ShippingTime>
+                                <Max>0-2 days</Max>
+                            </ShippingTime>
+                            <SellerPositiveFeedbackRating>90-94%</SellerPositiveFeedbackRating>
+                        </Qualifiers>
+                        <NumberOfOfferListingsConsidered>1</NumberOfOfferListingsConsidered>
+                        <SellerFeedbackCount>1569694</SellerFeedbackCount>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>30.50</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>30.50</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </Shipping>
+                        </Price>
+                        <MultipleOffersAtLowestPrice>False</MultipleOffersAtLowestPrice>
+                    </LowestOfferListing>
+                    <LowestOfferListing>
+                        <Qualifiers>
+                            <ItemCondition>Used</ItemCondition>
+                            <ItemSubcondition>Good</ItemSubcondition>
+                            <FulfillmentChannel>Merchant</FulfillmentChannel>
+                            <ShipsDomestically>True</ShipsDomestically>
+                            <ShippingTime>
+                                <Max>0-2 days</Max>
+                            </ShippingTime>
+                            <SellerPositiveFeedbackRating>95-97%</SellerPositiveFeedbackRating>
+                        </Qualifiers>
+                        <NumberOfOfferListingsConsidered>3</NumberOfOfferListingsConsidered>
+                        <SellerFeedbackCount>7732</SellerFeedbackCount>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>30.99</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>27.00</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>3.99</Amount>
+                            </Shipping>
+                        </Price>
+                        <MultipleOffersAtLowestPrice>False</MultipleOffersAtLowestPrice>
+                    </LowestOfferListing>
+                </LowestOfferListings>
+            </Product>
+        </GetLowestOfferListingsForSKUResult>
+        <ResponseMetadata>
+            <RequestId>8106ed19-9a90-4820-881e-EXAMPLE0ab97</RequestId>
+        </ResponseMetadata>
+    </GetLowestOfferListingsForSKUResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -521,13 +521,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Products API](../products/Products_Overview.md)
+<a href="../products/Products_Overview.md" class="xref">Products API</a>
 
-[GetLowestOfferListingsForASIN](Products_GetLowestOfferListingsForASIN.md "Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.")
+<a href="Products_GetLowestOfferListingsForASIN.md" class="xref" title="Returns pricing information for the lowest-price active offer listings for up to 20 products, based on ASIN.">GetLowestOfferListingsForASIN</a>
 
 </div>
 

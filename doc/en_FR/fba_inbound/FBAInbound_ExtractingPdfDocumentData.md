@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="ExtractingPdfDocumentData" class="nested0">
 
-# Extracting PDF Document Data
+Extracting PDF Document Data
+============================
 
 <div class="body">
 
@@ -47,8 +47,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Fulfillment Inbound
-Shipment API section](../fba_inbound/FBAInbound_Overview.md)
+**Parent topic:**
+<a href="../fba_inbound/FBAInbound_Overview.md" class="link">What you should know about the Fulfillment Inbound Shipment API section</a>
 
 </div>
 
@@ -58,14 +58,17 @@ Shipment API section](../fba_inbound/FBAInbound_Overview.md)
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.md),
-[GetUniquePackageLabels](../fba_inbound/FBAInbound_GetUniquePackageLabels.md),
-[GetPalletLabels](../fba_inbound/FBAInbound_GetPalletLabels.md), and
-[GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
+The
+<a href="../fba_inbound/FBAInbound_GetPackageLabels.md" class="xref">GetPackageLabels</a>,
+<a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md" class="xref">GetUniquePackageLabels</a>,
+<a href="../fba_inbound/FBAInbound_GetPalletLabels.md" class="xref">GetPalletLabels</a>,
+and
+<a href="../fba_inbound/FBAInbound_GetBillOfLading.md" class="xref">GetBillOfLading</a>
 operations return PDF document data for printing shipping labels and
 carrier labels for an inbound shipment. Amazon compresses PDF document
 data before returning it as a Base64-encoded string. To obtain the

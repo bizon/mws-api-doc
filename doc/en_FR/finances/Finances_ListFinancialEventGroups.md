@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,22 +34,23 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_ListFinancialEventGroups" class="nested0">
 
-# ListFinancialEventGroups
+ListFinancialEventGroups
+========================
 
 <span class="ph">Returns financial event groups for a given date
 range.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ListFinancialEventGroups</span>
 operation returns a list of financial event groups opened during a time
-frame specified by the
-<span class="keyword parmname">FinancialEventGroupStartedAfter</span> or
-the
+frame specified by the <span
+class="keyword parmname">FinancialEventGroupStartedAfter</span> or the
 <span class="keyword parmname">FinancialEventGroupStartedBefore</span>
 request parameters.
 
@@ -72,15 +72,15 @@ This operation is available in all marketplaces.
 <div class="tablenoborder">
 
 | Maximum request quota | Restore rate                  | Hourly request quota   |
-| --------------------- | ----------------------------- | ---------------------- |
+|-----------------------|-------------------------------|------------------------|
 | 30 requests           | One request every two seconds | 1800 requests per hour |
 
 </div>
 
 For definitions of throttling terminology and for a complete explanation
-of throttling, see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.
+of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 </div>
 
@@ -90,7 +90,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -98,9 +99,9 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-<span class="ph">[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md)</span> in
-the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<span
+class="ph"><a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a></span>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div class="tablenoborder">
 
@@ -157,7 +158,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -197,7 +199,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -206,8 +209,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -215,26 +218,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Finances/2015-05-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Finances/2015-05-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLESDX
-&Action=ListFinancialEventGroups
-&FinancialEventGroupStartedAfter=2015-03-01T00%3A00%3A00.000Z
-&FinancialEventGroupStartedBefore=2015-05-01T00%3A00%3A00.000Z
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=A1XEXAMPLEDF
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2015-05-01T18%3A12%3A21.687Z
-&Version=2015-05-01
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLESDX
+    &Action=ListFinancialEventGroups
+    &FinancialEventGroupStartedAfter=2015-03-01T00%3A00%3A00.000Z
+    &FinancialEventGroupStartedBefore=2015-05-01T00%3A00%3A00.000Z
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=A1XEXAMPLEDF
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2015-05-01T18%3A12%3A21.687Z
+    &Version=2015-05-01
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -245,7 +246,7 @@ AWSAccessKeyId=0PB842EXAMPLESDX
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -253,50 +254,48 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListFinancialEventGroupsResponse
-    xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
-    <ListFinancialEventGroupsResult>
-        <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
-        <FinancialEventGroupList>
-            <FinancialEventGroup>
-                <FinancialEventGroupId>
-                    22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
-                </FinancialEventGroupId>
-                <ProcessingStatus>Closed</ProcessingStatus>
-                <FundTransferStatus>Successful</FundTransferStatus>
-                <OriginalTotal>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>19.00</Amount>
-                </OriginalTotal>
-                <ConvertedTotal>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>19.00</Amount>
-                </ConvertedTotal>
-                <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
-                <TraceId>128311029381HSADJEXAMPLE</TraceId>
-                <AccountTail>1212</AccountTail>
-                <BeginningBalance>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.00</Amount>
-                </BeginningBalance>
-                <FinancialEventGroupStart>
-                    2014-09-01T01:30:00.000-06:00
-                </FinancialEventGroupStart>
-                <FinancialEventGroupEnd>
-                    2014-09-09T01:30:00.000-06:00
-                </FinancialEventGroupEnd>
-            </FinancialEventGroup>
-        </FinancialEventGroupList>
-    </ListFinancialEventGroupsResult>
-    <ResponseMetadata>
-        <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
-    </ResponseMetadata>
-</ListFinancialEventGroupsResponse>
-```
+    <?xml version="1.0"?>
+    <ListFinancialEventGroupsResponse
+        xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
+        <ListFinancialEventGroupsResult>
+            <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
+            <FinancialEventGroupList>
+                <FinancialEventGroup>
+                    <FinancialEventGroupId>
+                        22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
+                    </FinancialEventGroupId>
+                    <ProcessingStatus>Closed</ProcessingStatus>
+                    <FundTransferStatus>Successful</FundTransferStatus>
+                    <OriginalTotal>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>19.00</Amount>
+                    </OriginalTotal>
+                    <ConvertedTotal>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>19.00</Amount>
+                    </ConvertedTotal>
+                    <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
+                    <TraceId>128311029381HSADJEXAMPLE</TraceId>
+                    <AccountTail>1212</AccountTail>
+                    <BeginningBalance>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.00</Amount>
+                    </BeginningBalance>
+                    <FinancialEventGroupStart>
+                        2014-09-01T01:30:00.000-06:00
+                    </FinancialEventGroupStart>
+                    <FinancialEventGroupEnd>
+                        2014-09-09T01:30:00.000-06:00
+                    </FinancialEventGroupEnd>
+                </FinancialEventGroup>
+            </FinancialEventGroupList>
+        </ListFinancialEventGroupsResult>
+        <ResponseMetadata>
+            <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
+        </ResponseMetadata>
+    </ListFinancialEventGroupsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -308,14 +307,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Finances API](../finances/Finances_Overview.md)
+<a href="../finances/Finances_Overview.md" class="xref">Finances API</a>
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
 </div>
 

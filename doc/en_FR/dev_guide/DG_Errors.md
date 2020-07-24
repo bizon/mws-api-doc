@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ErrorMessages" class="nested0">
 
-# Handling errors
+Handling errors
+===============
 
 <div class="body">
 
@@ -46,7 +46,8 @@ error so that the problem it can be fixed or reported.
 
 <div id="DG_ErrorMessages__Error_codes" class="section">
 
-## Error codes
+Error codes
+-----------
 
 These error codes are common to all <span class="ph">Amazon MWS</span>
 API sections. For error codes that are specific to an API section, see
@@ -55,7 +56,7 @@ that API's corresponding error codes section reference.
 <div class="tablenoborder">
 
 | Error code                                                    | HTTP status code | Description                                                                                                          |
-| ------------------------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
+|---------------------------------------------------------------|------------------|----------------------------------------------------------------------------------------------------------------------|
 | <span class="keyword parmname">InputStreamDisconnected</span> | 400              | There was an error reading the input stream.                                                                         |
 | <span class="keyword parmname">InvalidParameterValue</span>   | 400              | An invalid parameter value was used, or the request size exceeded the maximum accepted size, or the request expired. |
 | <span class="keyword parmname">AccessDenied</span>            | 401              | Access was denied.                                                                                                   |
@@ -72,27 +73,28 @@ that API's corresponding error codes section reference.
 
 </div>
 
-<div id="DG_ErrorMessages__ErrorMessages_When_you_get_error" class="section">
+<div id="DG_ErrorMessages__ErrorMessages_When_you_get_error"
+class="section">
 
-## When you get an error
+When you get an error
+---------------------
 
 Each error is accompanied with enough information to help you research a
 fix for the error on the client side. When your research can't resolve
 the problem, you can request assistance from <span class="ph">Amazon
-MWS</span> technical support. However, before calling
-<span class="ph">Amazon MWS</span> technical support, please do the
-following:
+MWS</span> technical support. However, before calling <span
+class="ph">Amazon MWS</span> technical support, please do the following:
 
 1.  Review the request that preceded the problem. Then, look for the
     problem described in the error message. Resolve it, if possible.
-2.  Record the <span class="keyword parmname">RequestId</span> and
-    <span class="keyword parmname">Timestamp</span> of the best example
+2.  Record the <span class="keyword parmname">RequestId</span> and <span
+    class="keyword parmname">Timestamp</span> of the best example
     request that generated the error.
 3.  If you cannot resolve the problem and need to call for technical
-    support, Amazon needs the
-    <span class="keyword parmname">RequestId</span> and
-    <span class="keyword parmname">Timestamp</span> to locate the
-    specific instance of your issue in our logs.
+    support, Amazon needs the <span
+    class="keyword parmname">RequestId</span> and <span
+    class="keyword parmname">Timestamp</span> to locate the specific
+    instance of your issue in our logs.
 
 <div class="note important">
 
@@ -101,18 +103,19 @@ retain for 30 days the <span class="keyword parmname">RequestId</span>
 and <span class="keyword parmname">Timestamp</span> for every request
 that you submit to <span class="ph">Amazon MWS</span>. Doing this
 enables Amazon to diagnose and fix any problems that you might
-encounter, helping to improve your experience using
-<span class="ph">Amazon MWS</span>. Without this information, requests
-to <span class="ph">Amazon MWS</span> support will take longer to
-resolve.
+encounter, helping to improve your experience using <span
+class="ph">Amazon MWS</span>. Without this information, requests to
+<span class="ph">Amazon MWS</span> support will take longer to resolve.
 
 </div>
 
 </div>
 
-<div id="DG_ErrorMessages__ErrorMessages_Service_errors" class="section">
+<div id="DG_ErrorMessages__ErrorMessages_Service_errors"
+class="section">
 
-## Service errors
+Service errors
+--------------
 
 The common response to a 500 or 503 service error is to try the request
 again. Such service errors are usually only temporary and will resolve
@@ -129,14 +132,13 @@ backoff times and limit will depend upon your business processes.
 
 <div id="DG_ErrorMessages__ErrorReferences" class="section">
 
-## References
+References
+----------
 
-  - [List of HTTP status
-    codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+-   <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" class="xref">List of HTTP status codes</a>
     (Wikipedia)
-  - [Throttling: Limits to how often you can submit
-    requests](../dev_guide/DG_Throttling.md)
-  - [Working with Content-MD5 checksums](DG_MD5.md)
+-   <a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+-   <a href="DG_MD5.md" class="xref">Working with Content-MD5 checksums</a>
 
 </div>
 
@@ -144,10 +146,11 @@ backoff times and limit will depend upon your business processes.
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
-  - **[Example HTTP errors](../dev_guide/DG_Errors_Examples.md)**  
-  - **[Example Client Side
+-   **[Example HTTP errors](../dev_guide/DG_Errors_Examples.md)**  
+-   **[Example Client Side
     errors](../dev_guide/DG_Errors_ClientExamples.md)**  
 
 </div>

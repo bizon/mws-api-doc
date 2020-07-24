@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_ReportType" class="nested0">
 
-# Schedule enumeration
+Schedule enumeration
+====================
 
 <div class="body">
 
@@ -45,15 +45,16 @@ An enumeration of the units of time that reports can be requested.
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">Schedule</span> enumeration provides
 the units of time that indicate how often a report request can be
-requested. For example, the
-<span class="keyword apiname">ManageReportSchedule</span> operation uses
-the <span class="keyword apiname">Schedule</span> value to indicate how
+requested. For example, the <span
+class="keyword apiname">ManageReportSchedule</span> operation uses the
+<span class="keyword apiname">Schedule</span> value to indicate how
 often a report request is submitted.
 
 </div>
@@ -62,7 +63,8 @@ often a report request is submitted.
 
 <div id="Schedule_Enumeration" class="topic reference nested1">
 
-## Schedule Enumeration
+Schedule Enumeration
+--------------------
 
 <div class="body refbody">
 
@@ -71,7 +73,7 @@ often a report request is submitted.
 <div class="tablenoborder">
 
 | Schedule Description                                | Enumeration Value |
-| --------------------------------------------------- | ----------------- |
+|-----------------------------------------------------|-------------------|
 | Every 15 minutes                                    | \_15\_MINUTES\_   |
 | Every 30 minutes                                    | \_30\_MINUTES\_   |
 | Every hour                                          | \_1\_HOUR\_       |
@@ -98,14 +100,14 @@ often a report request is submitted.
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Reports API
-Section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API Section</a>
 
-[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
+<a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a>
 
 </div>
 

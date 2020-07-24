@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_Datatypes" class="nested0">
 
-# Inbound Datatypes
+Inbound Datatypes
+=================
 
 <div class="body">
 
@@ -46,53 +46,53 @@ section</span>:
 
 <div class="tablenoborder">
 
-| Datatype                                                                                                                                                                                                                                                                  | Short description                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Address](FBAInbound_Datatypes.md#Address "Postal address information.")                                                                                                                                                                                                | <span class="ph">Postal address information.</span>                                                                                                                                                                                                                            |
-| [AmazonPrepFeesDetails](FBAInbound_Datatypes.md#AmazonPrepFeesDetails "The fees for Amazon to prep goods for shipment.")                                                                                                                                                | <span class="ph">The fees for Amazon to prep goods for shipment.</span>                                                                                                                                                                                                        |
-| [Amount](FBAInbound_Datatypes.md#Amount "The currency code and value.")                                                                                                                                                                                                 | <span class="ph">The currency code and value.</span>                                                                                                                                                                                                                           |
-| [ASINInboundGuidance](FBAInbound_Datatypes.md#ASINInboundGuidance "Reasons why a given ASIN is not recommended for shipment to Amazon's fulfillment network.")                                                                                                          | <span class="ph">Reasons why a given ASIN is not recommended for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                                                      |
-| [ASINPrepInstructions](FBAInbound_Datatypes.md#ASINPrepInstructions "Item preparation instructions to help with item sourcing decisions.")                                                                                                                              | <span class="ph">Item preparation instructions to help with item sourcing decisions.</span>                                                                                                                                                                                    |
-| [BoxContentsFeeDetails](FBAInbound_Datatypes.md#BoxContentsFeeDetails "The manual processing fee per unit and total fee for a shipment.")                                                                                                                               | <span class="ph">The manual processing fee per unit and total fee for a shipment.</span>                                                                                                                                                                                       |
-| [BoxContentsSource](FBAInbound_Datatypes.md#BoxContentsSource "Where the seller provided box contents information for a shipment. This element is used only in the US marketplace.")                                                                                    | <span class="ph">Where the seller provided box contents information for a shipment.</span>                                                                                                                                                                                     |
-| [Contact](FBAInbound_Datatypes.md#Contact "Contact information for the person in your organization who is responsible for a Less Than Truckload/Full Truckload (LTL/FTL) shipment.")                                                                                    | <span class="ph">Contact information for the person in your organization who is responsible for a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment.</span>                                                                                        |
-| [Dimensions](FBAInbound_Datatypes.md#Dimensions "The dimension values and unit of measurement.")                                                                                                                                                                        | <span class="ph">The dimension values and unit of measurement.</span>                                                                                                                                                                                                          |
-| [GuidanceReason](FBAInbound_Datatypes.md#GuidanceReason "A reason for the current inbound guidance for an item.")                                                                                                                                                       | <span class="ph">A reason for the current inbound guidance for an item.</span>                                                                                                                                                                                                 |
-| [InboundGuidance](FBAInbound_Datatypes.md#InboundGuidance "Specific inbound guidance for an item.")                                                                                                                                                                     | <span class="ph">Specific inbound guidance for an item.</span>                                                                                                                                                                                                                 |
-| [InboundShipmentHeader](FBAInbound_Datatypes.md#InboundShipmentHeader "Inbound shipment information used to create and update inbound shipments.")                                                                                                                      | <span class="ph">Inbound shipment information used to create and update inbound shipments.</span>                                                                                                                                                                              |
-| [InboundShipmentInfo](FBAInbound_Datatypes.md#InboundShipmentInfo "Information about your inbound shipments. Returned by the ListInboundShipments operation.")                                                                                                          | <span class="ph">Information about your inbound shipments. Returned by the <span class="keyword apiname">ListInboundShipments</span> operation.</span>                                                                                                                         |
-| [InboundShipmentItem](FBAInbound_Datatypes.md#InboundShipmentItem "Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.")                                                                   | <span class="ph">Item information for an inbound shipment. Submitted with a call to the <span class="keyword apiname">CreateInboundShipment</span> or <span class="keyword apiname">UpdateInboundShipment</span> operation.</span>                                             |
-| [InboundShipmentPlan](FBAInbound_Datatypes.md#InboundShipmentPlan "Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.")                                                                              | <span class="ph">Inbound shipment information used to create an inbound shipment. Returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                             |
-| [InboundShipmentPlanItem](FBAInbound_Datatypes.md#InboundShipmentPlanItem "Item information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.")                                                                                  | <span class="ph">Item information used to create an inbound shipment. Returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                                         |
-| [InboundShipmentPlanRequestItem](FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem "Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.")                                                    | <span class="ph">Item information for creating an inbound shipment plan. Submitted with a call to the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                         |
-| [IntendedBoxContentsSource](FBAInbound_Datatypes.md#IntendedBoxContentsSource "How the seller intends to provide box contents information for a shipment.")                                                                                                             | <span class="ph">How the seller intends to provide box contents information for a shipment.</span>                                                                                                                                                                             |
-| [InvalidASIN](FBAInbound_Datatypes.md#InvalidASIN "An invalid ASIN and the reason it is invalid.")                                                                                                                                                                      | <span class="ph">An invalid ASIN and the reason it is invalid.</span>                                                                                                                                                                                                          |
-| [InvalidSKU](FBAInbound_Datatypes.md#InvalidSKU "An invalid Seller SKU and the reason it is invalid.")                                                                                                                                                                  | <span class="ph">An invalid Seller SKU and the reason it is invalid.</span>                                                                                                                                                                                                    |
-| [NonPartneredLtlDataInput](FBAInbound_Datatypes.md#NonPartneredLtlDataInput "Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.")                                    | <span class="ph">Information that you provide to Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon.</span>                                                                          |
-| [NonPartneredLtlDataOutput](FBAInbound_Datatypes.md#NonPartneredLtlDataOutput "Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment shipped by a carrier that has not partnered with Amazon.")                                  | <span class="ph">Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment shipped by a carrier that has not partnered with Amazon.</span>                                                                          |
-| [NonPartneredSmallParcelDataInput](FBAInbound_Datatypes.md#NonPartneredSmallParcelDataInput "Information that you provide to Amazon about a Small Parcel shipment shipped by a carrier that has not partnered with Amazon.")                                            | <span class="ph">Information that you provide to Amazon about a <span class="ph">Small Parcel</span> shipment shipped by a carrier that has not partnered with Amazon.</span>                                                                                                  |
-| [NonPartneredSmallParcelDataOutput](FBAInbound_Datatypes.md#NonPartneredSmallParcelDataOutput "Information returned by Amazon about a Small Parcel shipment by a carrier that has not partnered with Amazon.")                                                          | <span class="ph">Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.</span>                                                                                                                  |
-| [NonPartneredSmallParcelPackageInput](FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageInput "The tracking number of the package, provided by the carrier.")                                                                                                       | <span class="ph">The tracking number of the package, provided by the carrier.</span>                                                                                                                                                                                           |
-| [NonPartneredSmallParcelPackageOutput](FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageOutput "Carrier, tracking number, and status information for the package.")                                                                                                | <span class="ph">Carrier, tracking number, and status information for the package.</span>                                                                                                                                                                                      |
-| [Pallet](FBAInbound_Datatypes.md#Pallet "Pallet information.")                                                                                                                                                                                                          | <span class="ph">Pallet information.</span>                                                                                                                                                                                                                                    |
-| [PartneredEstimate](FBAInbound_Datatypes.md#PartneredEstimate "The estimated shipping cost for a shipment using an Amazon-partnered carrier.")                                                                                                                          | <span class="ph">The estimated shipping cost for a shipment using an Amazon-partnered carrier.</span>                                                                                                                                                                          |
-| [PartneredLtlDataInput](FBAInbound_Datatypes.md#PartneredLtlDataInput "Information that is required by an Amazon-partnered carrier to ship a Less Than Truckload/Full Truckload (LTL/FTL) inbound shipment.")                                                           | <span class="ph">Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> inbound shipment.</span>                                                                                           |
-| [PartneredLtlDataOutput](FBAInbound_Datatypes.md#PartneredLtlDataOutput "Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by an Amazon-partnered carrier.")                                                                 | <span class="ph">Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by an Amazon-partnered carrier.</span>                                                                                                   |
-| [PartneredSmallParcelDataInput](FBAInbound_Datatypes.md#PartneredSmallParcelDataInput "Information that is required by an Amazon-partnered carrier to ship a Small Parcel inbound shipment.")                                                                           | <span class="ph">Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Small Parcel</span> inbound shipment.</span>                                                                                                                           |
-| [PartneredSmallParcelDataOutput](FBAInbound_Datatypes.md#PartneredSmallParcelDataOutput "Information returned by Amazon about a Small Parcel shipment by an Amazon-partnered carrier.")                                                                                 | <span class="ph">Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by an Amazon-partnered carrier.</span>                                                                                                                                   |
-| [PartneredSmallParcelPackageInput](FBAInbound_Datatypes.md#PartneredSmallParcelPackageInput "Dimension and weight information for the package.")                                                                                                                        | <span class="ph">Dimension and weight information for the package.</span>                                                                                                                                                                                                      |
-| [PartneredSmallParcelPackageOutput](FBAInbound_Datatypes.md#PartneredSmallParcelPackageOutput "Dimension, weight, and shipping information for the package.")                                                                                                           | <span class="ph">Dimension, weight, and shipping information for the package.</span>                                                                                                                                                                                           |
-| [PrepDetails](FBAInbound_Datatypes.md#PrepDetails "A preparation instruction, and who is responsible for that preparation.")                                                                                                                                            | <span class="ph">A preparation instruction, and who is responsible for that preparation.</span>                                                                                                                                                                                |
-| [PrepInstruction](FBAInbound_Datatypes.md#PrepInstruction "Preparation instructions for shipping an item to Amazon's fulfillment network.")                                                                                                                             | <span class="ph">Preparation instructions for shipping an item to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                                                                 |
-| [SKUInboundGuidance](FBAInbound_Datatypes.md#SKUInboundGuidance "Reasons why a given Seller SKU is not recommended for shipment to Amazon's fulfillment network")                                                                                                       | <span class="ph">Reasons why a given Seller SKU is not recommended for shipment to <span class="ph">Amazon's fulfillment network</span></span>                                                                                                                                 |
-| [SKUPrepInstructions](FBAInbound_Datatypes.md#SKUPrepInstructions "Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon's fulfillment network.")                                                                    | <span class="ph">Labeling requirements and item preparation instructions to help you prepare items for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                |
-| [TransportContent](FBAInbound_Datatypes.md#TransportContent "Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.")                                           | <span class="ph">Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.</span>                                                                                         |
-| [TransportDetailInput](FBAInbound_Datatypes.md#TransportDetailInput "Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.") | <span class="ph">Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</span>                               |
-| [TransportDetailOutput](FBAInbound_Datatypes.md#TransportDetailOutput "Inbound shipment information, including carrier details and shipment status.")                                                                                                                   | <span class="ph">Inbound shipment information, including carrier details and shipment status.</span>                                                                                                                                                                           |
-| [TransportDocument](FBAInbound_Datatypes.md#TransportDocument "The PDF document data and checksum for printing package labels and bills of lading.")                                                                                                                    | <span class="ph">The PDF document data and checksum for printing package labels and bills of lading.</span>                                                                                                                                                                    |
-| [TransportHeader](FBAInbound_Datatypes.md#TransportHeader "The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is Small Parcel or Less Than Truckload/Full Truckload (LTL/FTL).")     | <span class="ph">The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is <span class="ph">Small Parcel</span> or <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>.</span> |
-| [TransportResult](FBAInbound_Datatypes.md#TransportResult "The workflow status for a shipment with an Amazon-partnered carrier.")                                                                                                                                       | <span class="ph">The workflow status for a shipment with an Amazon-partnered carrier.</span>                                                                                                                                                                                   |
-| [Weight](FBAInbound_Datatypes.md#Weight "The weight value and unit of measurement.")                                                                                                                                                                                    | <span class="ph">The weight value and unit of measurement.</span>                                                                                                                                                                                                              |
+| Datatype                                                                                                                                                                                                                                                                                                | Short description                                                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a>                                                                                                                                                                                                | <span class="ph">Postal address information.</span>                                                                                                                                                                                                                            |
+| <a href="FBAInbound_Datatypes.md#AmazonPrepFeesDetails" class="xref" title="The fees for Amazon to prep goods for shipment.">AmazonPrepFeesDetails</a>                                                                                                                                                | <span class="ph">The fees for Amazon to prep goods for shipment.</span>                                                                                                                                                                                                        |
+| <a href="FBAInbound_Datatypes.md#Amount" class="xref" title="The currency code and value.">Amount</a>                                                                                                                                                                                                 | <span class="ph">The currency code and value.</span>                                                                                                                                                                                                                           |
+| <a href="FBAInbound_Datatypes.md#ASINInboundGuidance" class="xref" title="Reasons why a given ASIN is not recommended for shipment to Amazon&#39;s fulfillment network.">ASINInboundGuidance</a>                                                                                                      | <span class="ph">Reasons why a given ASIN is not recommended for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                                                      |
+| <a href="FBAInbound_Datatypes.md#ASINPrepInstructions" class="xref" title="Item preparation instructions to help with item sourcing decisions.">ASINPrepInstructions</a>                                                                                                                              | <span class="ph">Item preparation instructions to help with item sourcing decisions.</span>                                                                                                                                                                                    |
+| <a href="FBAInbound_Datatypes.md#BoxContentsFeeDetails" class="xref" title="The manual processing fee per unit and total fee for a shipment.">BoxContentsFeeDetails</a>                                                                                                                               | <span class="ph">The manual processing fee per unit and total fee for a shipment.</span>                                                                                                                                                                                       |
+| <a href="FBAInbound_Datatypes.md#BoxContentsSource" class="xref" title="Where the seller provided box contents information for a shipment. This element is used only in the US marketplace.">BoxContentsSource</a>                                                                                    | <span class="ph">Where the seller provided box contents information for a shipment.</span>                                                                                                                                                                                     |
+| <a href="FBAInbound_Datatypes.md#Contact" class="xref" title="Contact information for the person in your organization who is responsible for a Less Than Truckload/Full Truckload (LTL/FTL) shipment.">Contact</a>                                                                                    | <span class="ph">Contact information for the person in your organization who is responsible for a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment.</span>                                                                                        |
+| <a href="FBAInbound_Datatypes.md#Dimensions" class="xref" title="The dimension values and unit of measurement.">Dimensions</a>                                                                                                                                                                        | <span class="ph">The dimension values and unit of measurement.</span>                                                                                                                                                                                                          |
+| <a href="FBAInbound_Datatypes.md#GuidanceReason" class="xref" title="A reason for the current inbound guidance for an item.">GuidanceReason</a>                                                                                                                                                       | <span class="ph">A reason for the current inbound guidance for an item.</span>                                                                                                                                                                                                 |
+| <a href="FBAInbound_Datatypes.md#InboundGuidance" class="xref" title="Specific inbound guidance for an item.">InboundGuidance</a>                                                                                                                                                                     | <span class="ph">Specific inbound guidance for an item.</span>                                                                                                                                                                                                                 |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentHeader" class="xref" title="Inbound shipment information used to create and update inbound shipments.">InboundShipmentHeader</a>                                                                                                                      | <span class="ph">Inbound shipment information used to create and update inbound shipments.</span>                                                                                                                                                                              |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a>                                                                                                          | <span class="ph">Information about your inbound shipments. Returned by the <span class="keyword apiname">ListInboundShipments</span> operation.</span>                                                                                                                         |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a>                                                                   | <span class="ph">Item information for an inbound shipment. Submitted with a call to the <span class="keyword apiname">CreateInboundShipment</span> or <span class="keyword apiname">UpdateInboundShipment</span> operation.</span>                                             |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentPlan" class="xref" title="Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlan</a>                                                                              | <span class="ph">Inbound shipment information used to create an inbound shipment. Returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                             |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentPlanItem" class="xref" title="Item information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlanItem</a>                                                                                  | <span class="ph">Item information used to create an inbound shipment. Returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                                         |
+| <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a>                                                    | <span class="ph">Item information for creating an inbound shipment plan. Submitted with a call to the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                                                                                         |
+| <a href="FBAInbound_Datatypes.md#IntendedBoxContentsSource" class="xref" title="How the seller intends to provide box contents information for a shipment.">IntendedBoxContentsSource</a>                                                                                                             | <span class="ph">How the seller intends to provide box contents information for a shipment.</span>                                                                                                                                                                             |
+| <a href="FBAInbound_Datatypes.md#InvalidASIN" class="xref" title="An invalid ASIN and the reason it is invalid.">InvalidASIN</a>                                                                                                                                                                      | <span class="ph">An invalid ASIN and the reason it is invalid.</span>                                                                                                                                                                                                          |
+| <a href="FBAInbound_Datatypes.md#InvalidSKU" class="xref" title="An invalid Seller SKU and the reason it is invalid.">InvalidSKU</a>                                                                                                                                                                  | <span class="ph">An invalid Seller SKU and the reason it is invalid.</span>                                                                                                                                                                                                    |
+| <a href="FBAInbound_Datatypes.md#NonPartneredLtlDataInput" class="xref" title="Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.">NonPartneredLtlDataInput</a>                                    | <span class="ph">Information that you provide to Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon.</span>                                                                          |
+| <a href="FBAInbound_Datatypes.md#NonPartneredLtlDataOutput" class="xref" title="Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment shipped by a carrier that has not partnered with Amazon.">NonPartneredLtlDataOutput</a>                                  | <span class="ph">Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment shipped by a carrier that has not partnered with Amazon.</span>                                                                          |
+| <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelDataInput" class="xref" title="Information that you provide to Amazon about a Small Parcel shipment shipped by a carrier that has not partnered with Amazon.">NonPartneredSmallParcelDataInput</a>                                            | <span class="ph">Information that you provide to Amazon about a <span class="ph">Small Parcel</span> shipment shipped by a carrier that has not partnered with Amazon.</span>                                                                                                  |
+| <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelDataOutput" class="xref" title="Information returned by Amazon about a Small Parcel shipment by a carrier that has not partnered with Amazon.">NonPartneredSmallParcelDataOutput</a>                                                          | <span class="ph">Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.</span>                                                                                                                  |
+| <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageInput" class="xref" title="The tracking number of the package, provided by the carrier.">NonPartneredSmallParcelPackageInput</a>                                                                                                       | <span class="ph">The tracking number of the package, provided by the carrier.</span>                                                                                                                                                                                           |
+| <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageOutput" class="xref" title="Carrier, tracking number, and status information for the package.">NonPartneredSmallParcelPackageOutput</a>                                                                                                | <span class="ph">Carrier, tracking number, and status information for the package.</span>                                                                                                                                                                                      |
+| <a href="FBAInbound_Datatypes.md#Pallet" class="xref" title="Pallet information.">Pallet</a>                                                                                                                                                                                                          | <span class="ph">Pallet information.</span>                                                                                                                                                                                                                                    |
+| <a href="FBAInbound_Datatypes.md#PartneredEstimate" class="xref" title="The estimated shipping cost for a shipment using an Amazon-partnered carrier.">PartneredEstimate</a>                                                                                                                          | <span class="ph">The estimated shipping cost for a shipment using an Amazon-partnered carrier.</span>                                                                                                                                                                          |
+| <a href="FBAInbound_Datatypes.md#PartneredLtlDataInput" class="xref" title="Information that is required by an Amazon-partnered carrier to ship a Less Than Truckload/Full Truckload (LTL/FTL) inbound shipment.">PartneredLtlDataInput</a>                                                           | <span class="ph">Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> inbound shipment.</span>                                                                                           |
+| <a href="FBAInbound_Datatypes.md#PartneredLtlDataOutput" class="xref" title="Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by an Amazon-partnered carrier.">PartneredLtlDataOutput</a>                                                                 | <span class="ph">Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by an Amazon-partnered carrier.</span>                                                                                                   |
+| <a href="FBAInbound_Datatypes.md#PartneredSmallParcelDataInput" class="xref" title="Information that is required by an Amazon-partnered carrier to ship a Small Parcel inbound shipment.">PartneredSmallParcelDataInput</a>                                                                           | <span class="ph">Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Small Parcel</span> inbound shipment.</span>                                                                                                                           |
+| <a href="FBAInbound_Datatypes.md#PartneredSmallParcelDataOutput" class="xref" title="Information returned by Amazon about a Small Parcel shipment by an Amazon-partnered carrier.">PartneredSmallParcelDataOutput</a>                                                                                 | <span class="ph">Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by an Amazon-partnered carrier.</span>                                                                                                                                   |
+| <a href="FBAInbound_Datatypes.md#PartneredSmallParcelPackageInput" class="xref" title="Dimension and weight information for the package.">PartneredSmallParcelPackageInput</a>                                                                                                                        | <span class="ph">Dimension and weight information for the package.</span>                                                                                                                                                                                                      |
+| <a href="FBAInbound_Datatypes.md#PartneredSmallParcelPackageOutput" class="xref" title="Dimension, weight, and shipping information for the package.">PartneredSmallParcelPackageOutput</a>                                                                                                           | <span class="ph">Dimension, weight, and shipping information for the package.</span>                                                                                                                                                                                           |
+| <a href="FBAInbound_Datatypes.md#PrepDetails" class="xref" title="A preparation instruction, and who is responsible for that preparation.">PrepDetails</a>                                                                                                                                            | <span class="ph">A preparation instruction, and who is responsible for that preparation.</span>                                                                                                                                                                                |
+| <a href="FBAInbound_Datatypes.md#PrepInstruction" class="xref" title="Preparation instructions for shipping an item to Amazon&#39;s fulfillment network.">PrepInstruction</a>                                                                                                                         | <span class="ph">Preparation instructions for shipping an item to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                                                                 |
+| <a href="FBAInbound_Datatypes.md#SKUInboundGuidance" class="xref" title="Reasons why a given Seller SKU is not recommended for shipment to Amazon&#39;s fulfillment network">SKUInboundGuidance</a>                                                                                                   | <span class="ph">Reasons why a given Seller SKU is not recommended for shipment to <span class="ph">Amazon's fulfillment network</span></span>                                                                                                                                 |
+| <a href="FBAInbound_Datatypes.md#SKUPrepInstructions" class="xref" title="Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon&#39;s fulfillment network.">SKUPrepInstructions</a>                                                                | <span class="ph">Labeling requirements and item preparation instructions to help you prepare items for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>                                                                                                |
+| <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a>                                           | <span class="ph">Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.</span>                                                                                         |
+| <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a> | <span class="ph">Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</span>                               |
+| <a href="FBAInbound_Datatypes.md#TransportDetailOutput" class="xref" title="Inbound shipment information, including carrier details and shipment status.">TransportDetailOutput</a>                                                                                                                   | <span class="ph">Inbound shipment information, including carrier details and shipment status.</span>                                                                                                                                                                           |
+| <a href="FBAInbound_Datatypes.md#TransportDocument" class="xref" title="The PDF document data and checksum for printing package labels and bills of lading.">TransportDocument</a>                                                                                                                    | <span class="ph">The PDF document data and checksum for printing package labels and bills of lading.</span>                                                                                                                                                                    |
+| <a href="FBAInbound_Datatypes.md#TransportHeader" class="xref" title="The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is Small Parcel or Less Than Truckload/Full Truckload (LTL/FTL).">TransportHeader</a>     | <span class="ph">The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is <span class="ph">Small Parcel</span> or <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>.</span> |
+| <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a>                                                                                                                                       | <span class="ph">The workflow status for a shipment with an Amazon-partnered carrier.</span>                                                                                                                                                                                   |
+| <a href="FBAInbound_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>                                                                                                                                                                                    | <span class="ph">The weight value and unit of measurement.</span>                                                                                                                                                                                                              |
 
 </div>
 
@@ -100,7 +100,8 @@ section</span>:
 
 <div id="Address" class="topic reference nested1">
 
-## Address
+Address
+-------
 
 <div class="body refbody">
 
@@ -113,10 +114,10 @@ section</span>:
 The <span class="keyword cmdname">Address</span> datatype is used in a
 request parameter or in a response element of the following operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
-  - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
-  - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
+-   <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
+-   <a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
 
 </div>
 
@@ -124,8 +125,8 @@ request parameter or in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Address</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Address</span> datatype:
 
 <div class="tablenoborder">
 
@@ -216,7 +217,8 @@ The following table shows the elements of the
 
 <div id="AmazonPrepFeesDetails" class="topic reference nested1">
 
-## AmazonPrepFeesDetails
+AmazonPrepFeesDetails
+---------------------
 
 <div class="body refbody">
 
@@ -229,7 +231,7 @@ The following table shows the elements of the
 The <span class="keyword cmdname">AmazonPrepFeesDetails</span> datatype
 is used in a response element of the following operations:
 
-  - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+-   <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a>
 
 </div>
 
@@ -237,8 +239,8 @@ is used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">AmazonPrepFeesDetails</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">AmazonPrepFeesDetails</span> datatype:
 
 <div class="tablenoborder">
 
@@ -285,7 +287,8 @@ The following table shows the elements of the
 
 <div id="Amount" class="topic reference nested1">
 
-## Amount
+Amount
+------
 
 <div class="body refbody">
 
@@ -298,8 +301,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">Amount</span> datatype is used in a
 request parameter or in a response element of the following operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -307,8 +310,8 @@ request parameter or in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Amount</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Amount</span> datatype:
 
 <div class="tablenoborder">
 
@@ -359,7 +362,8 @@ The following table shows the elements of the
 
 <div id="ASINInboundGuidance" class="topic reference nested1">
 
-## ASINInboundGuidance
+ASINInboundGuidance
+-------------------
 
 <div class="body refbody">
 
@@ -373,7 +377,7 @@ shipment to <span class="ph">Amazon's fulfillment network</span>.</span>
 The <span class="keyword cmdname">ASINInboundGuidance</span> datatype is
 used in a response element of the following operation:
 
-  - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
+-   <a href="FBAInbound_GetInboundGuidanceForASIN.md" class="xref" title="Returns inbound guidance for a list of items by ASIN.">GetInboundGuidanceForASIN</a>
 
 </div>
 
@@ -381,16 +385,16 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">ASINInboundGuidance</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">ASINInboundGuidance</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                                           | Required | Values                                                                                                                            |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ASIN</span>               | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                           |
-| <span class="keyword parmname">InboundGuidance</span>    | <span class="ph">Specific inbound guidance for an item.</span>                        | Yes      | Type: [InboundGuidance](FBAInbound_Datatypes.md#InboundGuidance "Specific inbound guidance for an item.")                       |
-| <span class="keyword parmname">GuidanceReasonList</span> | A list of reasons for the current inbound guidance for this item.                     | No       | Type: List of [GuidanceReason](FBAInbound_Datatypes.md#GuidanceReason "A reason for the current inbound guidance for an item.") |
+| Name                                                     | Description                                                                           | Required | Values                                                                                                                                                          |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ASIN</span>               | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                         |
+| <span class="keyword parmname">InboundGuidance</span>    | <span class="ph">Specific inbound guidance for an item.</span>                        | Yes      | Type: <a href="FBAInbound_Datatypes.md#InboundGuidance" class="xref" title="Specific inbound guidance for an item.">InboundGuidance</a>                       |
+| <span class="keyword parmname">GuidanceReasonList</span> | A list of reasons for the current inbound guidance for this item.                     | No       | Type: List of <a href="FBAInbound_Datatypes.md#GuidanceReason" class="xref" title="A reason for the current inbound guidance for an item.">GuidanceReason</a> |
 
 </div>
 
@@ -402,7 +406,8 @@ The following table shows the elements of the
 
 <div id="ASINPrepInstructions" class="topic reference nested1">
 
-## ASINPrepInstructions
+ASINPrepInstructions
+--------------------
 
 <div class="body refbody">
 
@@ -416,7 +421,7 @@ sourcing decisions.</span>
 The <span class="keyword cmdname">ASINPrepInstructions</span> datatype
 is used in a response element of the following operation:
 
-  - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
+-   <a href="FBAInbound_GetPrepInstructionsForASIN.md" class="xref" title="Returns item preparation instructions to help with item sourcing decisions.">GetPrepInstructionsForASIN</a>
 
 </div>
 
@@ -424,8 +429,8 @@ is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">ASINPrepInstructions</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">ASINPrepInstructions</span> datatype:
 
 <div class="tablenoborder">
 
@@ -492,7 +497,8 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 
 <div id="BoxContentsFeeDetails" class="topic reference nested1">
 
-## BoxContentsFeeDetails
+BoxContentsFeeDetails
+---------------------
 
 <div class="body refbody">
 
@@ -507,9 +513,9 @@ The <span class="keyword cmdname">BoxContentsFeeDetails</span> datatype
 is used in a request parameter or in a response element of the following
 operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
-  - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
-  - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
+-   <a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
+-   <a href="FBAInbound_ListInboundShipmentsByNextToken.md" class="xref" title="Returns the next page of inbound shipments using the NextToken parameter.">ListInboundShipmentsByNextToken</a>
 
 </div>
 
@@ -522,11 +528,11 @@ these elements:
 
 <div class="tablenoborder">
 
-| Name                                             | Description                                                                                                                           | Required | Values                                                                          |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------- |
-| <span class="keyword parmname">TotalUnits</span> | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__TotalUnits" class="ph">The number of units to ship.</span>                    | No       | <span class="ph">Type: xs:int</span>                                            |
-| <span class="keyword parmname">FeePerUnit</span> | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__FeePerUnit" class="ph">The manual processing fee per unit.</span>             | No       | Type: [Amount](FBAInbound_Datatypes.md#Amount "The currency code and value.") |
-| <span class="keyword parmname">TotalFee</span>   | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__TotalFee" class="ph">The total manual processing fee for the shipment.</span> | No       | Type: [Amount](FBAInbound_Datatypes.md#Amount "The currency code and value.") |
+| Name                                             | Description                                                                                                                           | Required | Values                                                                                                        |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">TotalUnits</span> | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__TotalUnits" class="ph">The number of units to ship.</span>                    | No       | <span class="ph">Type: xs:int</span>                                                                          |
+| <span class="keyword parmname">FeePerUnit</span> | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__FeePerUnit" class="ph">The manual processing fee per unit.</span>             | No       | Type: <a href="FBAInbound_Datatypes.md#Amount" class="xref" title="The currency code and value.">Amount</a> |
+| <span class="keyword parmname">TotalFee</span>   | <span id="BoxContentsFeeDetails__BoxContentsFeeDetails__TotalFee" class="ph">The total manual processing fee for the shipment.</span> | No       | Type: <a href="FBAInbound_Datatypes.md#Amount" class="xref" title="The currency code and value.">Amount</a> |
 
 </div>
 
@@ -538,7 +544,8 @@ these elements:
 
 <div id="BoxContentsSource" class="topic reference nested1">
 
-## BoxContentsSource
+BoxContentsSource
+-----------------
 
 <div class="body refbody">
 
@@ -553,8 +560,8 @@ marketplace.</span>
 The <span class="keyword cmdname">BoxContentsSource</span> datatype is
 used in a request parameter of the following operations:
 
-  - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
-  - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
+-   <a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
+-   <a href="FBAInbound_ListInboundShipmentsByNextToken.md" class="xref" title="Returns the next page of inbound shipments using the NextToken parameter.">ListInboundShipmentsByNextToken</a>
 
 </div>
 
@@ -564,18 +571,18 @@ used in a request parameter of the following operations:
 
 **Values:**
 
-  - <span class="keyword parmname">NONE</span> - There is no box content
+-   <span class="keyword parmname">NONE</span> - There is no box content
     information for this shipment. Amazon will manually process the box
     contents. This may incur a fee.
-  - <span class="keyword parmname">FEED</span> - Box content information
+-   <span class="keyword parmname">FEED</span> - Box content information
     is provided through the \_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_
     feed.
-  - <span class="keyword parmname">2D\_BARCODE</span> - Box content
+-   <span class="keyword parmname">2D\_BARCODE</span> - Box content
     information is provided by a barcode on the shipment. For more
-    information, see [Using 2D barcodes for box content
-    information](https://sellercentral.amazon.com/gp/help/202049090) on
-    Seller Central.
-  - <span class="keyword parmname">INTERACTIVE</span> - Box content
+    information, see
+    <a href="https://sellercentral.amazon.com/gp/help/202049090" class="xref">Using 2D barcodes for box content information</a>
+    on Seller Central.
+-   <span class="keyword parmname">INTERACTIVE</span> - Box content
     information is provided by an interactive source, such as a web
     tool.
 
@@ -587,7 +594,8 @@ used in a request parameter of the following operations:
 
 <div id="Contact" class="topic reference nested1">
 
-## Contact
+Contact
+-------
 
 <div class="body refbody">
 
@@ -602,8 +610,8 @@ Truckload (LTL/FTL)</span> shipment.</span>
 The <span class="keyword cmdname">Contact</span> datatype is used in a
 request parameter or in a response element of the following operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -611,8 +619,8 @@ request parameter or in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Contact</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Contact</span> datatype:
 
 <div class="tablenoborder">
 
@@ -673,7 +681,8 @@ The following table shows the elements of the
 
 <div id="Dimensions" class="topic reference nested1">
 
-## Dimensions
+Dimensions
+----------
 
 <div class="body refbody">
 
@@ -687,8 +696,8 @@ The <span class="keyword cmdname">Dimensions</span> datatype is used in
 a request parameter or in a response element of the following
 operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -696,8 +705,8 @@ operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Dimensions</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Dimensions</span> datatype:
 
 <div class="tablenoborder">
 
@@ -762,7 +771,8 @@ The following table shows the elements of the
 
 <div id="GuidanceReason" class="topic reference nested1">
 
-## GuidanceReason
+GuidanceReason
+--------------
 
 <div class="body refbody">
 
@@ -776,8 +786,8 @@ item.</span>
 The <span class="keyword cmdname">GuidanceReason</span> datatype is used
 in a response element of the following operations:
 
-  - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
-  - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
+-   <a href="FBAInbound_GetInboundGuidanceForASIN.md" class="xref" title="Returns inbound guidance for a list of items by ASIN.">GetInboundGuidanceForASIN</a>
+-   <a href="FBAInbound_GetInboundGuidanceForSKU.md" class="xref" title="Returns inbound guidance for a list of items by Seller SKU.">GetInboundGuidanceForSKU</a>
 
 </div>
 
@@ -787,10 +797,12 @@ in a response element of the following operations:
 
 **Values:**
 
-  - <span id="GuidanceReason__GuidanceReason_SlowMovingASIN"><span class="keyword parmname">SlowMovingASIN</span>
-    - The ASIN is well stocked and/or not selling quickly.</span>
-  - <span id="GuidanceReason__GuidanceReason_NoApplicableGuidance"><span class="keyword parmname">NoApplicableGuidance</span>
-    - No applicable guidance.</span>
+-   <span id="GuidanceReason__GuidanceReason_SlowMovingASIN"><span
+    class="keyword parmname">SlowMovingASIN</span> - The ASIN is well
+    stocked and/or not selling quickly.</span>
+-   <span id="GuidanceReason__GuidanceReason_NoApplicableGuidance"><span
+    class="keyword parmname">NoApplicableGuidance</span> - No applicable
+    guidance.</span>
 
 </div>
 
@@ -800,7 +812,8 @@ in a response element of the following operations:
 
 <div id="InboundGuidance" class="topic reference nested1">
 
-## InboundGuidance
+InboundGuidance
+---------------
 
 <div class="body refbody">
 
@@ -813,8 +826,8 @@ in a response element of the following operations:
 The <span class="keyword cmdname">InboundGuidance</span> datatype is
 used in a response element of the following operations:
 
-  - [GetInboundGuidanceForASIN](FBAInbound_GetInboundGuidanceForASIN.md "Returns inbound guidance for a list of items by ASIN.")
-  - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
+-   <a href="FBAInbound_GetInboundGuidanceForASIN.md" class="xref" title="Returns inbound guidance for a list of items by ASIN.">GetInboundGuidanceForASIN</a>
+-   <a href="FBAInbound_GetInboundGuidanceForSKU.md" class="xref" title="Returns inbound guidance for a list of items by Seller SKU.">GetInboundGuidanceForSKU</a>
 
 </div>
 
@@ -824,12 +837,15 @@ used in a response element of the following operations:
 
 **Values:**
 
-  - <span id="InboundGuidance__InboundGuidance_InboundNotRecommended"><span class="keyword parmname">InboundNotRecommended</span>
-    - Shipping this item to <span class="ph">Amazon's fulfillment
-    network</span> is not recommended.</span>
-  - <span id="InboundGuidance__InboundGuidance_InboundOK"><span class="keyword parmname">InboundOK</span>
-    - Shipping this item to <span class="ph">Amazon's fulfillment
-    network</span> should not cause any problems.</span>
+-   <span
+    id="InboundGuidance__InboundGuidance_InboundNotRecommended"><span
+    class="keyword parmname">InboundNotRecommended</span> - Shipping
+    this item to <span class="ph">Amazon's fulfillment network</span> is
+    not recommended.</span>
+-   <span id="InboundGuidance__InboundGuidance_InboundOK"><span
+    class="keyword parmname">InboundOK</span> - Shipping this item to
+    <span class="ph">Amazon's fulfillment network</span> should not
+    cause any problems.</span>
 
 </div>
 
@@ -839,7 +855,8 @@ used in a response element of the following operations:
 
 <div id="InboundShipmentHeader" class="topic reference nested1">
 
-## InboundShipmentHeader
+InboundShipmentHeader
+---------------------
 
 <div class="body refbody">
 
@@ -853,8 +870,8 @@ inbound shipments.</span>
 The <span class="keyword cmdname">InboundShipmentHeader</span> datatype
 is used in a request parameter of the following operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
-  - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
+-   <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
 
 </div>
 
@@ -862,8 +879,8 @@ is used in a request parameter of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentHeader</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentHeader</span> datatype:
 
 <div class="tablenoborder">
 
@@ -974,7 +991,8 @@ The following is an additional <span class="keyword parmname">ShipmentStatus</sp
 
 <div id="InboundShipmentInfo" class="topic reference nested1">
 
-## InboundShipmentInfo
+InboundShipmentInfo
+-------------------
 
 <div class="body refbody">
 
@@ -989,8 +1007,8 @@ operation.</span>
 The <span class="keyword cmdname">InboundShipmentInfo</span> datatype is
 used in a response element of the following operations:
 
-  - [ListInboundShipments](FBAInbound_ListInboundShipments.md "Returns a list of inbound shipments based on criteria that you specify.")
-  - [ListInboundShipmentsByNextToken](FBAInbound_ListInboundShipmentsByNextToken.md "Returns the next page of inbound shipments using the NextToken parameter.")
+-   <a href="FBAInbound_ListInboundShipments.md" class="xref" title="Returns a list of inbound shipments based on criteria that you specify.">ListInboundShipments</a>
+-   <a href="FBAInbound_ListInboundShipmentsByNextToken.md" class="xref" title="Returns the next page of inbound shipments using the NextToken parameter.">ListInboundShipmentsByNextToken</a>
 
 </div>
 
@@ -998,8 +1016,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1122,15 +1140,15 @@ Default: <var class="keyword varname">false</var>
 
 <div id="InboundShipmentItem" class="topic reference nested1">
 
-## InboundShipmentItem
+InboundShipmentItem
+-------------------
 
 <div class="body refbody">
 
 <span class="ph">Item information for an inbound shipment. Submitted
-with a call to the
-<span class="keyword apiname">CreateInboundShipment</span> or
-<span class="keyword apiname">UpdateInboundShipment</span>
-operation.</span>
+with a call to the <span
+class="keyword apiname">CreateInboundShipment</span> or <span
+class="keyword apiname">UpdateInboundShipment</span> operation.</span>
 
 <div class="section">
 
@@ -1140,10 +1158,10 @@ The <span class="keyword cmdname">InboundShipmentItem</span> datatype is
 used in a request parameter or in a response element of the following
 operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
-  - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
-  - [ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
-  - [ListInboundShipmentItemsByNextToken](FBAInbound_ListInboundShipmentItemsByNextToken.md "Returns the next page of inbound shipment items using the NextToken parameter.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
+-   <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
+-   <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a>
+-   <a href="FBAInbound_ListInboundShipmentItemsByNextToken.md" class="xref" title="Returns the next page of inbound shipment items using the NextToken parameter.">ListInboundShipmentItemsByNextToken</a>
 
 </div>
 
@@ -1151,8 +1169,8 @@ operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1239,13 +1257,14 @@ The following table shows the elements of the
 
 <div id="InboundShipmentPlan" class="topic reference nested1">
 
-## InboundShipmentPlan
+InboundShipmentPlan
+-------------------
 
 <div class="body refbody">
 
 <span class="ph">Inbound shipment information used to create an inbound
-shipment. Returned by the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
+shipment. Returned by the <span
+class="keyword apiname">CreateInboundShipmentPlan</span>
 operation.</span>
 
 <div class="section">
@@ -1255,7 +1274,7 @@ operation.</span>
 The <span class="keyword cmdname">InboundShipmentPlan</span> datatype is
 used in a response element of the following operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
 
 </div>
 
@@ -1263,8 +1282,8 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentPlan</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentPlan</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1342,13 +1361,14 @@ The following table shows the elements of the
 
 <div id="InboundShipmentPlanItem" class="topic reference nested1">
 
-## InboundShipmentPlanItem
+InboundShipmentPlanItem
+-----------------------
 
 <div class="body refbody">
 
 <span class="ph">Item information used to create an inbound shipment.
-Returned by the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
+Returned by the <span
+class="keyword apiname">CreateInboundShipmentPlan</span>
 operation.</span>
 
 <div class="section">
@@ -1358,7 +1378,7 @@ operation.</span>
 The <span class="keyword cmdname">InboundShipmentItem</span> datatype is
 used in a response element of the following operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
 
 </div>
 
@@ -1366,8 +1386,8 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentPlanItem</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentPlanItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1425,15 +1445,17 @@ The following table shows the elements of the
 
 </div>
 
-<div id="InboundShipmentPlanRequestItem" class="topic reference nested1">
+<div id="InboundShipmentPlanRequestItem"
+class="topic reference nested1">
 
-## InboundShipmentPlanRequestItem
+InboundShipmentPlanRequestItem
+------------------------------
 
 <div class="body refbody">
 
 <span class="ph">Item information for creating an inbound shipment plan.
-Submitted with a call to the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
+Submitted with a call to the <span
+class="keyword apiname">CreateInboundShipmentPlan</span>
 operation.</span>
 
 <div class="section">
@@ -1443,7 +1465,7 @@ operation.</span>
 The <span class="keyword cmdname">InboundShipmentPlanRequestItem</span>
 datatype is used in a request parameter of the following operation:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
 
 </div>
 
@@ -1451,9 +1473,8 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InboundShipmentPlanRequestItem</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InboundShipmentPlanRequestItem</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1542,18 +1563,16 @@ datatype:
 
 <span class="notetitle">Note:</span> <span class="ph">Amazon recommends
 that you create listings for all of the items that you want to include
-in an inbound shipment plan before calling the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
-operation. After you have created listings for the items that you want
-to include in the
-<span class="keyword apiname">CreateInboundShipmentPlan</span>
-operation, include only the
-<span class="keyword parmname">SellerSKU</span> and
-<span class="keyword parmname">Quantity</span> request parameters when
-calling the operation. Do not include the
-<span class="keyword parmname">ASIN</span> or
-<span class="keyword parmname">Condition</span> request
-parameters.</span>
+in an inbound shipment plan before calling the <span
+class="keyword apiname">CreateInboundShipmentPlan</span> operation.
+After you have created listings for the items that you want to include
+in the <span class="keyword apiname">CreateInboundShipmentPlan</span>
+operation, include only the <span
+class="keyword parmname">SellerSKU</span> and <span
+class="keyword parmname">Quantity</span> request parameters when calling
+the operation. Do not include the <span
+class="keyword parmname">ASIN</span> or <span
+class="keyword parmname">Condition</span> request parameters.</span>
 
 </div>
 
@@ -1565,7 +1584,8 @@ parameters.</span>
 
 <div id="IntendedBoxContentsSource" class="topic reference nested1">
 
-## IntendedBoxContentsSource
+IntendedBoxContentsSource
+-------------------------
 
 <div class="body refbody">
 
@@ -1579,8 +1599,8 @@ information for a shipment.</span>
 The <span class="keyword cmdname">IntendedBoxContentsSource</span>
 datatype is used in a request parameter of the following operations:
 
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
-  - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
+-   <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
 
 </div>
 
@@ -1590,17 +1610,23 @@ datatype is used in a request parameter of the following operations:
 
 **Values:**
 
-  - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_NONE"><span class="keyword parmname">NONE</span>
-    - There is no box content information for this shipment. Amazon will
-    manually process the box contents. This may incur a fee.</span>
-  - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_FEED"><span class="keyword parmname">FEED</span>
-    - Box content information is provided through the
-    \_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_ feed.</span>
-  - <span id="IntendedBoxContentsSource__IntendedBoxContentsSource_2D_BARCODE"><span class="keyword parmname">2D\_BARCODE</span>
-    - Box content information is provided by a barcode on the shipment.
-    For more information, see [Using 2D barcodes for box content
-    information](https://sellercentral.amazon.com/gp/help/202049090) on
-    Seller Central.</span>
+-   <span
+    id="IntendedBoxContentsSource__IntendedBoxContentsSource_NONE"><span
+    class="keyword parmname">NONE</span> - There is no box content
+    information for this shipment. Amazon will manually process the box
+    contents. This may incur a fee.</span>
+-   <span
+    id="IntendedBoxContentsSource__IntendedBoxContentsSource_FEED"><span
+    class="keyword parmname">FEED</span> - Box content information is
+    provided through the \_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_
+    feed.</span>
+-   <span
+    id="IntendedBoxContentsSource__IntendedBoxContentsSource_2D_BARCODE"><span
+    class="keyword parmname">2D\_BARCODE</span> - Box content
+    information is provided by a barcode on the shipment. For more
+    information, see
+    <a href="https://sellercentral.amazon.com/gp/help/202049090" class="xref">Using 2D barcodes for box content information</a>
+    on Seller Central.</span>
 
 </div>
 
@@ -1610,7 +1636,8 @@ datatype is used in a request parameter of the following operations:
 
 <div id="InvalidASIN" class="topic reference nested1">
 
-## InvalidASIN
+InvalidASIN
+-----------
 
 <div class="body refbody">
 
@@ -1623,7 +1650,7 @@ datatype is used in a request parameter of the following operations:
 The <span class="keyword cmdname">InvalidASIN</span> datatype is used in
 a response element of the following operation:
 
-  - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
+-   <a href="FBAInbound_GetPrepInstructionsForASIN.md" class="xref" title="Returns item preparation instructions to help with item sourcing decisions.">GetPrepInstructionsForASIN</a>
 
 </div>
 
@@ -1631,8 +1658,8 @@ a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InvalidASIN</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InvalidASIN</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1674,7 +1701,8 @@ The following table shows the elements of the
 
 <div id="InvalidSKU" class="topic reference nested1">
 
-## InvalidSKU
+InvalidSKU
+----------
 
 <div class="body refbody">
 
@@ -1688,7 +1716,7 @@ invalid.</span>
 The <span class="keyword cmdname">InvalidSKU</span> datatype is used in
 a response element of the following operation:
 
-  - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+-   <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a>
 
 </div>
 
@@ -1696,8 +1724,8 @@ a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">InvalidSKU</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">InvalidSKU</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1739,13 +1767,14 @@ The following table shows the elements of the
 
 <div id="NonPartneredLtlDataInput" class="topic reference nested1">
 
-## NonPartneredLtlDataInput
+NonPartneredLtlDataInput
+------------------------
 
 <div class="body refbody">
 
-<span class="ph">Information that you provide to Amazon about a
-<span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
-shipment by a carrier that has not partnered with Amazon.</span>
+<span class="ph">Information that you provide to Amazon about a <span
+class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment
+by a carrier that has not partnered with Amazon.</span>
 
 <div class="section">
 
@@ -1754,7 +1783,7 @@ shipment by a carrier that has not partnered with Amazon.</span>
 The <span class="keyword cmdname">NonPartneredLtlDataInput</span>
 datatype is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -1762,8 +1791,8 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredLtlDataInput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredLtlDataInput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1830,13 +1859,14 @@ The following table shows the elements of the
 
 <div id="NonPartneredLtlDataOutput" class="topic reference nested1">
 
-## NonPartneredLtlDataOutput
+NonPartneredLtlDataOutput
+-------------------------
 
 <div class="body refbody">
 
-<span class="ph">Information returned by Amazon about a
-<span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
-shipment shipped by a carrier that has not partnered with Amazon.</span>
+<span class="ph">Information returned by Amazon about a <span
+class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment
+shipped by a carrier that has not partnered with Amazon.</span>
 
 <div class="section">
 
@@ -1845,7 +1875,7 @@ shipment shipped by a carrier that has not partnered with Amazon.</span>
 The <span class="keyword cmdname">NonPartneredLtlDataOutput</span>
 datatype is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -1853,8 +1883,8 @@ datatype is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredLtlDataOutput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredLtlDataOutput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -1919,25 +1949,27 @@ The following table shows the elements of the
 
 </div>
 
-<div id="NonPartneredSmallParcelDataInput" class="topic reference nested1">
+<div id="NonPartneredSmallParcelDataInput"
+class="topic reference nested1">
 
-## NonPartneredSmallParcelDataInput
+NonPartneredSmallParcelDataInput
+--------------------------------
 
 <div class="body refbody">
 
-<span class="ph">Information that you provide to Amazon about a
-<span class="ph">Small Parcel</span> shipment shipped by a carrier that
-has not partnered with Amazon.</span>
+<span class="ph">Information that you provide to Amazon about a <span
+class="ph">Small Parcel</span> shipment shipped by a carrier that has
+not partnered with Amazon.</span>
 
 <div class="section">
 
 ### Operations
 
-The
-<span class="keyword cmdname">NonPartneredSmallParcelDataInput</span>
-datatype is used in a request parameter of the following operation:
+The <span
+class="keyword cmdname">NonPartneredSmallParcelDataInput</span> datatype
+is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -1945,8 +1977,8 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredSmallParcelDataInput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredSmallParcelDataInput</span>
 datatype:
 
 <div class="tablenoborder">
@@ -2011,25 +2043,27 @@ datatype:
 
 </div>
 
-<div id="NonPartneredSmallParcelDataOutput" class="topic reference nested1">
+<div id="NonPartneredSmallParcelDataOutput"
+class="topic reference nested1">
 
-## NonPartneredSmallParcelDataOutput
+NonPartneredSmallParcelDataOutput
+---------------------------------
 
 <div class="body refbody">
 
-<span class="ph">Information returned by Amazon about a
-<span class="ph">Small Parcel</span> shipment by a carrier that has not
+<span class="ph">Information returned by Amazon about a <span
+class="ph">Small Parcel</span> shipment by a carrier that has not
 partnered with Amazon.</span>
 
 <div class="section">
 
 ### Operations
 
-The
-<span class="keyword cmdname">NonPartneredSmallParcelDataOutput</span>
+The <span
+class="keyword cmdname">NonPartneredSmallParcelDataOutput</span>
 datatype is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2037,15 +2071,15 @@ datatype is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredSmallParcelDataOutput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredSmallParcelDataOutput</span>
 datatype:
 
 <div class="tablenoborder">
 
-| Name                                              | Description                                                                                      | Required | Values                                                                                                                                                                                   |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PackageList</span> | A list of packages, including carrier, tracking number, and status information for each package. | Yes      | Type: List of [NonPartneredSmallParcelPackageOutput](FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageOutput "Carrier, tracking number, and status information for the package.") |
+| Name                                              | Description                                                                                      | Required | Values                                                                                                                                                                                                                 |
+|---------------------------------------------------|--------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PackageList</span> | A list of packages, including carrier, tracking number, and status information for each package. | Yes      | Type: List of <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelPackageOutput" class="xref" title="Carrier, tracking number, and status information for the package.">NonPartneredSmallParcelPackageOutput</a> |
 
 </div>
 
@@ -2055,9 +2089,11 @@ datatype:
 
 </div>
 
-<div id="NonPartneredSmallParcelPackageInput" class="topic reference nested1">
+<div id="NonPartneredSmallParcelPackageInput"
+class="topic reference nested1">
 
-## NonPartneredSmallParcelPackageInput
+NonPartneredSmallParcelPackageInput
+-----------------------------------
 
 <div class="body refbody">
 
@@ -2068,11 +2104,11 @@ carrier.</span>
 
 ### Operations
 
-The
-<span class="keyword cmdname">NonPartneredSmallParcelPackageInput</span>
+The <span
+class="keyword cmdname">NonPartneredSmallParcelPackageInput</span>
 datatype is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -2080,8 +2116,8 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredSmallParcelPackageInput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredSmallParcelPackageInput</span>
 datatype:
 
 <div class="tablenoborder">
@@ -2120,9 +2156,11 @@ datatype:
 
 </div>
 
-<div id="NonPartneredSmallParcelPackageOutput" class="topic reference nested1">
+<div id="NonPartneredSmallParcelPackageOutput"
+class="topic reference nested1">
 
-## NonPartneredSmallParcelPackageOutput
+NonPartneredSmallParcelPackageOutput
+------------------------------------
 
 <div class="body refbody">
 
@@ -2133,11 +2171,11 @@ the package.</span>
 
 ### Operations
 
-The
-<span class="keyword cmdname">NonPartneredSmallParcelPackageOutput</span>
+The <span
+class="keyword cmdname">NonPartneredSmallParcelPackageOutput</span>
 datatype is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2145,8 +2183,8 @@ datatype is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">NonPartneredSmallParcelPackageOutput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">NonPartneredSmallParcelPackageOutput</span>
 datatype:
 
 <div class="tablenoborder">
@@ -2229,7 +2267,8 @@ datatype:
 
 <div id="Pallet" class="topic reference nested1">
 
-## Pallet
+Pallet
+------
 
 <div class="body refbody">
 
@@ -2242,8 +2281,8 @@ datatype:
 The <span class="keyword cmdname">Pallet</span> datatype is used in a
 request parameter or in a response element of the following operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2251,8 +2290,8 @@ request parameter or in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Pallet</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Pallet</span> datatype:
 
 <div class="tablenoborder">
 
@@ -2309,7 +2348,8 @@ The following table shows the elements of the
 
 <div id="PartneredEstimate" class="topic reference nested1">
 
-## PartneredEstimate
+PartneredEstimate
+-----------------
 
 <div class="body refbody">
 
@@ -2323,7 +2363,7 @@ Amazon-partnered carrier.</span>
 The <span class="keyword cmdname">PartneredEstimate</span> datatype is
 used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2331,8 +2371,8 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredEstimate</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredEstimate</span> datatype:
 
 <div class="tablenoborder">
 
@@ -2388,7 +2428,8 @@ The following table shows the elements of the
 
 <div id="PartneredLtlDataInput" class="topic reference nested1">
 
-## PartneredLtlDataInput
+PartneredLtlDataInput
+---------------------
 
 <div class="body refbody">
 
@@ -2403,7 +2444,7 @@ carrier to ship a <span class="ph">Less Than Truckload/Full Truckload
 The <span class="keyword cmdname">PartneredLtlDataInput</span> datatype
 is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -2411,8 +2452,8 @@ is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredLtlDataInput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredLtlDataInput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -2491,13 +2532,14 @@ The following table shows the elements of the
 
 <div id="PartneredLtlDataOutput" class="topic reference nested1">
 
-## PartneredLtlDataOutput
+PartneredLtlDataOutput
+----------------------
 
 <div class="body refbody">
 
-<span class="ph">Information returned by Amazon about a
-<span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>
-shipment by an Amazon-partnered carrier.</span>
+<span class="ph">Information returned by Amazon about a <span
+class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment
+by an Amazon-partnered carrier.</span>
 
 <div class="section">
 
@@ -2506,7 +2548,7 @@ shipment by an Amazon-partnered carrier.</span>
 The <span class="keyword cmdname">PartneredLtlDataOutput</span> datatype
 is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2514,8 +2556,8 @@ is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredLtlDataOutput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredLtlDataOutput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -2658,7 +2700,8 @@ The following table shows the elements of the
 
 <div id="PartneredSmallParcelDataInput" class="topic reference nested1">
 
-## PartneredSmallParcelDataInput
+PartneredSmallParcelDataInput
+-----------------------------
 
 <div class="body refbody">
 
@@ -2673,7 +2716,7 @@ shipment.</span>
 The <span class="keyword cmdname">PartneredSmallParcelDataInput</span>
 datatype is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -2681,9 +2724,8 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredSmallParcelDataInput</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredSmallParcelDataInput</span> datatype:
 
 <div class="tablenoborder">
 
@@ -2736,14 +2778,16 @@ datatype:
 
 </div>
 
-<div id="PartneredSmallParcelDataOutput" class="topic reference nested1">
+<div id="PartneredSmallParcelDataOutput"
+class="topic reference nested1">
 
-## PartneredSmallParcelDataOutput
+PartneredSmallParcelDataOutput
+------------------------------
 
 <div class="body refbody">
 
-<span class="ph">Information returned by Amazon about a
-<span class="ph">Small Parcel</span> shipment by an Amazon-partnered
+<span class="ph">Information returned by Amazon about a <span
+class="ph">Small Parcel</span> shipment by an Amazon-partnered
 carrier.</span>
 
 <div class="section">
@@ -2753,7 +2797,7 @@ carrier.</span>
 The <span class="keyword cmdname">PartneredSmallParcelDataOutput</span>
 datatype is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2761,16 +2805,15 @@ datatype is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredSmallParcelDataOutput</span>
-datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredSmallParcelDataOutput</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                    | Description                                                                           | Required | Values                                                                                                                                                                        |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PackageList</span>       | A list of packages, including shipping information from the Amazon-partnered carrier. | Yes      | Type: List of [PartneredSmallParcelPackageOutput](FBAInbound_Datatypes.md#PartneredSmallParcelPackageOutput "Dimension, weight, and shipping information for the package.") |
-| <span class="keyword parmname">PartneredEstimate</span> | The estimated shipping cost using an Amazon-partnered carrier.                        | No       | Type: [PartneredEstimate](FBAInbound_Datatypes.md#PartneredEstimate "The estimated shipping cost for a shipment using an Amazon-partnered carrier.")                        |
+| Name                                                    | Description                                                                           | Required | Values                                                                                                                                                                                                      |
+|---------------------------------------------------------|---------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PackageList</span>       | A list of packages, including shipping information from the Amazon-partnered carrier. | Yes      | Type: List of <a href="FBAInbound_Datatypes.md#PartneredSmallParcelPackageOutput" class="xref" title="Dimension, weight, and shipping information for the package.">PartneredSmallParcelPackageOutput</a> |
+| <span class="keyword parmname">PartneredEstimate</span> | The estimated shipping cost using an Amazon-partnered carrier.                        | No       | Type: <a href="FBAInbound_Datatypes.md#PartneredEstimate" class="xref" title="The estimated shipping cost for a shipment using an Amazon-partnered carrier.">PartneredEstimate</a>                        |
 
 </div>
 
@@ -2780,9 +2823,11 @@ datatype:
 
 </div>
 
-<div id="PartneredSmallParcelPackageInput" class="topic reference nested1">
+<div id="PartneredSmallParcelPackageInput"
+class="topic reference nested1">
 
-## PartneredSmallParcelPackageInput
+PartneredSmallParcelPackageInput
+--------------------------------
 
 <div class="body refbody">
 
@@ -2793,11 +2838,11 @@ package.</span>
 
 ### Operations
 
-The
-<span class="keyword cmdname">PartneredSmallParcelPackageInput</span>
-datatype is used in a request parameter of the following operation:
+The <span
+class="keyword cmdname">PartneredSmallParcelPackageInput</span> datatype
+is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -2805,16 +2850,16 @@ datatype is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredSmallParcelPackageInput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredSmallParcelPackageInput</span>
 datatype:
 
 <div class="tablenoborder">
 
-| Name                                             | Description                    | Required | Values                                                                                                   |
-| ------------------------------------------------ | ------------------------------ | -------- | -------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">Dimensions</span> | The dimensions of the package. | Yes      | Type: [Dimensions](FBAInbound_Datatypes.md#Dimensions "The dimension values and unit of measurement.") |
-| <span class="keyword parmname">Weight</span>     | The weight of the package.     | Yes      | Type: [Weight](FBAInbound_Datatypes.md#Weight "The weight value and unit of measurement.")             |
+| Name                                             | Description                    | Required | Values                                                                                                                                 |
+|--------------------------------------------------|--------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">Dimensions</span> | The dimensions of the package. | Yes      | Type: <a href="FBAInbound_Datatypes.md#Dimensions" class="xref" title="The dimension values and unit of measurement.">Dimensions</a> |
+| <span class="keyword parmname">Weight</span>     | The weight of the package.     | Yes      | Type: <a href="FBAInbound_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a>             |
 
 </div>
 
@@ -2824,9 +2869,11 @@ datatype:
 
 </div>
 
-<div id="PartneredSmallParcelPackageOutput" class="topic reference nested1">
+<div id="PartneredSmallParcelPackageOutput"
+class="topic reference nested1">
 
-## PartneredSmallParcelPackageOutput
+PartneredSmallParcelPackageOutput
+---------------------------------
 
 <div class="body refbody">
 
@@ -2837,11 +2884,11 @@ package.</span>
 
 ### Operations
 
-The
-<span class="keyword cmdname">PartneredSmallParcelPackageOutput</span>
+The <span
+class="keyword cmdname">PartneredSmallParcelPackageOutput</span>
 datatype is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -2849,8 +2896,8 @@ datatype is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PartneredSmallParcelPackageOutput</span>
+The following table shows the elements of the <span
+class="keyword cmdname">PartneredSmallParcelPackageOutput</span>
 datatype:
 
 <div class="tablenoborder">
@@ -2924,7 +2971,8 @@ datatype:
 
 <div id="PrepDetails" class="topic reference nested1">
 
-## PrepDetails
+PrepDetails
+-----------
 
 <div class="body refbody">
 
@@ -2938,11 +2986,11 @@ that preparation.</span>
 The <span class="keyword cmdname">PrepDetails</span> PrepDetails is used
 in a request and response element of the following operations:
 
-  - [CreateInboundShipmentPlan](../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md)
-  - [CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
-  - [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
-  - [ListInboundShipmentItems](FBAInbound_ListInboundShipmentItems.md "Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.")
-  - [ListInboundShipmentItemsByNextToken](FBAInbound_ListInboundShipmentItemsByNextToken.md "Returns the next page of inbound shipment items using the NextToken parameter.")
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipmentPlan.md" class="xref">CreateInboundShipmentPlan</a>
+-   <a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
+-   <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
+-   <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a>
+-   <a href="FBAInbound_ListInboundShipmentItemsByNextToken.md" class="xref" title="Returns the next page of inbound shipment items using the NextToken parameter.">ListInboundShipmentItemsByNextToken</a>
 
 </div>
 
@@ -2950,8 +2998,8 @@ in a request and response element of the following operations:
 
 ### PrepDetails content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PrepDetails</span> PrepDetails:
+The following table shows the elements of the <span
+class="keyword cmdname">PrepDetails</span> PrepDetails:
 
 <div class="tablenoborder">
 
@@ -3003,12 +3051,13 @@ The following table shows the elements of the
 
 <div id="PrepInstruction" class="topic reference nested1">
 
-## PrepInstruction
+PrepInstruction
+---------------
 
 <div class="body refbody">
 
-<span class="ph">Preparation instructions for shipping an item to
-<span class="ph">Amazon's fulfillment network</span>.</span>
+<span class="ph">Preparation instructions for shipping an item to <span
+class="ph">Amazon's fulfillment network</span>.</span>
 
 <div class="section">
 
@@ -3017,8 +3066,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">PrepInstruction</span> datatype is
 used in a response element of the following operations:
 
-  - [GetPrepInstructionsForASIN](FBAInbound_GetPrepInstructionsForASIN.md "Returns item preparation instructions to help with item sourcing decisions.")
-  - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+-   <a href="FBAInbound_GetPrepInstructionsForASIN.md" class="xref" title="Returns item preparation instructions to help with item sourcing decisions.">GetPrepInstructionsForASIN</a>
+-   <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a>
 
 </div>
 
@@ -3026,8 +3075,8 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">PrepInstruction</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">PrepInstruction</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3066,10 +3115,10 @@ The following table shows the elements of the
 
 </div>
 
-For more examples of how
-<span class="keyword parmname">PrepInstruction</span> works with
-<span class="keyword parmname">PrepOwners</span>, see [Preparation
-examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
+For more examples of how <span
+class="keyword parmname">PrepInstruction</span> works with <span
+class="keyword parmname">PrepOwners</span>, see
+<a href="FBAInbound_PreparationExamples.md" class="xref" title="These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.">Preparation examples</a>.
 
 </div>
 
@@ -3079,7 +3128,8 @@ examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to c
 
 <div id="SKUInboundGuidance" class="topic reference nested1">
 
-## SKUInboundGuidance
+SKUInboundGuidance
+------------------
 
 <div class="body refbody">
 
@@ -3093,7 +3143,7 @@ shipment to <span class="ph">Amazon's fulfillment network</span></span>
 The <span class="keyword cmdname">SKUInboundGuidance</span> datatype is
 used in a response element of the following operation:
 
-  - [GetInboundGuidanceForSKU](FBAInbound_GetInboundGuidanceForSKU.md "Returns inbound guidance for a list of items by Seller SKU.")
+-   <a href="FBAInbound_GetInboundGuidanceForSKU.md" class="xref" title="Returns inbound guidance for a list of items by Seller SKU.">GetInboundGuidanceForSKU</a>
 
 </div>
 
@@ -3101,17 +3151,17 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">SKUInboundGuidance</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">SKUInboundGuidance</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                     | Description                                                                           | Required | Values                                                                                                                            |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">SellerSKU</span>          | <span class="ph">The Seller SKU of the item.</span>                                   | Yes      | <span class="ph">Type: xs:string</span>                                                                                           |
-| <span class="keyword parmname">ASIN</span>               | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                           |
-| <span class="keyword parmname">InboundGuidance</span>    | <span class="ph">Specific inbound guidance for an item.</span>                        | Yes      | Type: [InboundGuidance](FBAInbound_Datatypes.md#InboundGuidance "Specific inbound guidance for an item.")                       |
-| <span class="keyword parmname">GuidanceReasonList</span> | A list of reasons for the current inbound guidance for this item.                     | No       | Type: List of [GuidanceReason](FBAInbound_Datatypes.md#GuidanceReason "A reason for the current inbound guidance for an item.") |
+| Name                                                     | Description                                                                           | Required | Values                                                                                                                                                          |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">SellerSKU</span>          | <span class="ph">The Seller SKU of the item.</span>                                   | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                         |
+| <span class="keyword parmname">ASIN</span>               | <span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span> | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                         |
+| <span class="keyword parmname">InboundGuidance</span>    | <span class="ph">Specific inbound guidance for an item.</span>                        | Yes      | Type: <a href="FBAInbound_Datatypes.md#InboundGuidance" class="xref" title="Specific inbound guidance for an item.">InboundGuidance</a>                       |
+| <span class="keyword parmname">GuidanceReasonList</span> | A list of reasons for the current inbound guidance for this item.                     | No       | Type: List of <a href="FBAInbound_Datatypes.md#GuidanceReason" class="xref" title="A reason for the current inbound guidance for an item.">GuidanceReason</a> |
 
 </div>
 
@@ -3123,7 +3173,8 @@ The following table shows the elements of the
 
 <div id="SKUPrepInstructions" class="topic reference nested1">
 
-## SKUPrepInstructions
+SKUPrepInstructions
+-------------------
 
 <div class="body refbody">
 
@@ -3138,7 +3189,7 @@ fulfillment network</span>.</span>
 The <span class="keyword cmdname">SKUPrepInstructions</span> datatype is
 used in a response element of the following operation:
 
-  - [GetPrepInstructionsForSKU](FBAInbound_GetPrepInstructionsForSKU.md "Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.")
+-   <a href="FBAInbound_GetPrepInstructionsForSKU.md" class="xref" title="Returns labeling requirements and item preparation instructions to help you prepare items for an inbound shipment.">GetPrepInstructionsForSKU</a>
 
 </div>
 
@@ -3146,8 +3197,8 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">SKUPrepInstructions</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">SKUPrepInstructions</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3224,7 +3275,8 @@ For more information about FBA labeling requirements, see the Seller Central Hel
 
 <div id="TransportContent" class="topic reference nested1">
 
-## TransportContent
+TransportContent
+----------------
 
 <div class="body refbody">
 
@@ -3239,7 +3291,7 @@ shipment with an Amazon-partnered carrier.</span>
 The <span class="keyword cmdname">TransportContent</span> datatype is
 used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -3247,16 +3299,16 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportContent</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportContent</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                   | Description                                                                                                                                                                                                                                            | Required | Values                                                                                                                                                                                                                                                                      |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">TransportHeader</span>  | The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is <span class="ph">Small Parcel</span> or <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>. | Yes      | Type: [TransportHeader](FBAInbound_Datatypes.md#TransportHeader "The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is Small Parcel or Less Than Truckload/Full Truckload (LTL/FTL).") |
-| <span class="keyword parmname">TransportDetails</span> | Inbound shipment information, including carrier details and shipment status.                                                                                                                                                                           | Yes      | Type: [TransportDetailOutput](FBAInbound_Datatypes.md#TransportDetailOutput "Inbound shipment information, including carrier details and shipment status.")                                                                                                               |
-| <span class="keyword parmname">TransportResult</span>  | Workflow status information for a request for shipment with an Amazon-partnered carrier.                                                                                                                                                               | Yes      | Type: [TransportResult](FBAInbound_Datatypes.md#TransportResult "The workflow status for a shipment with an Amazon-partnered carrier.")                                                                                                                                   |
+| Name                                                   | Description                                                                                                                                                                                                                                            | Required | Values                                                                                                                                                                                                                                                                                                    |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">TransportHeader</span>  | The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is <span class="ph">Small Parcel</span> or <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>. | Yes      | Type: <a href="FBAInbound_Datatypes.md#TransportHeader" class="xref" title="The shipping Id, information about whether the shipment is by an Amazon-partnered carrier, and information about whether the shipment is Small Parcel or Less Than Truckload/Full Truckload (LTL/FTL).">TransportHeader</a> |
+| <span class="keyword parmname">TransportDetails</span> | Inbound shipment information, including carrier details and shipment status.                                                                                                                                                                           | Yes      | Type: <a href="FBAInbound_Datatypes.md#TransportDetailOutput" class="xref" title="Inbound shipment information, including carrier details and shipment status.">TransportDetailOutput</a>                                                                                                               |
+| <span class="keyword parmname">TransportResult</span>  | Workflow status information for a request for shipment with an Amazon-partnered carrier.                                                                                                                                                               | Yes      | Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a>                                                                                                                                   |
 
 </div>
 
@@ -3268,7 +3320,8 @@ The following table shows the elements of the
 
 <div id="TransportDetailInput" class="topic reference nested1">
 
-## TransportDetailInput
+TransportDetailInput
+--------------------
 
 <div class="body refbody">
 
@@ -3284,7 +3337,7 @@ non-Amazon-partnered carrier.</span>
 The <span class="keyword cmdname">TransportDetailInput</span> datatype
 is used in a request parameter of the following operation:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
 </div>
 
@@ -3292,17 +3345,17 @@ is used in a request parameter of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportDetailInput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportDetailInput</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                              | Description                                                                                                                                                                   | Required                                                                                                            | Values                                                                                                                                                                                                                                       |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PartneredSmallParcelData</span>    | Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Small Parcel</span> inbound shipment.                                                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: [PartneredSmallParcelDataInput](FBAInbound_Datatypes.md#PartneredSmallParcelDataInput "Information that is required by an Amazon-partnered carrier to ship a Small Parcel inbound shipment.")                                        |
-| <span class="keyword parmname">NonPartneredSmallParcelData</span> | Information that you provide to Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.                                 | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: [NonPartneredSmallParcelDataInput](FBAInbound_Datatypes.md#NonPartneredSmallParcelDataInput "Information that you provide to Amazon about a Small Parcel shipment shipped by a carrier that has not partnered with Amazon.")         |
-| <span class="keyword parmname">PartneredLtlData</span>            | Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> inbound shipment.                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: [PartneredLtlDataInput](FBAInbound_Datatypes.md#PartneredLtlDataInput "Information that is required by an Amazon-partnered carrier to ship a Less Than Truckload/Full Truckload (LTL/FTL) inbound shipment.")                        |
-| <span class="keyword parmname">NonPartneredLtlData</span>         | Information that you provide to Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon. | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: [NonPartneredLtlDataInput](FBAInbound_Datatypes.md#NonPartneredLtlDataInput "Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.") |
+| Name                                                              | Description                                                                                                                                                                   | Required                                                                                                            | Values                                                                                                                                                                                                                                                                     |
+|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PartneredSmallParcelData</span>    | Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Small Parcel</span> inbound shipment.                                                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: <a href="FBAInbound_Datatypes.md#PartneredSmallParcelDataInput" class="xref" title="Information that is required by an Amazon-partnered carrier to ship a Small Parcel inbound shipment.">PartneredSmallParcelDataInput</a>                                        |
+| <span class="keyword parmname">NonPartneredSmallParcelData</span> | Information that you provide to Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.                                 | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelDataInput" class="xref" title="Information that you provide to Amazon about a Small Parcel shipment shipped by a carrier that has not partnered with Amazon.">NonPartneredSmallParcelDataInput</a>         |
+| <span class="keyword parmname">PartneredLtlData</span>            | Information that is required by an Amazon-partnered carrier to ship a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> inbound shipment.                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: <a href="FBAInbound_Datatypes.md#PartneredLtlDataInput" class="xref" title="Information that is required by an Amazon-partnered carrier to ship a Less Than Truckload/Full Truckload (LTL/FTL) inbound shipment.">PartneredLtlDataInput</a>                        |
+| <span class="keyword parmname">NonPartneredLtlData</span>         | Information that you provide to Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon. | Yes, if no other element from the <span class="keyword parmname">TransportDetailInput</span> datatype is specified. | Type: <a href="FBAInbound_Datatypes.md#NonPartneredLtlDataInput" class="xref" title="Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.">NonPartneredLtlDataInput</a> |
 
 </div>
 
@@ -3314,7 +3367,8 @@ The following table shows the elements of the
 
 <div id="TransportDetailOutput" class="topic reference nested1">
 
-## TransportDetailOutput
+TransportDetailOutput
+---------------------
 
 <div class="body refbody">
 
@@ -3328,7 +3382,7 @@ and shipment status.</span>
 The <span class="keyword cmdname">TransportDetailOutput</span> datatype
 is used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -3336,17 +3390,17 @@ is used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportDetailOutput</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportDetailOutput</span> datatype:
 
 <div class="tablenoborder">
 
-| Name                                                              | Description                                                                                                                                                           | Required                                                                                                            | Values                                                                                                                                                                                                                                         |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">PartneredSmallParcelData</span>    | Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by an Amazon-partnered carrier.                                                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: [PartneredSmallParcelDataOutput](FBAInbound_Datatypes.md#PartneredSmallParcelDataOutput "Information returned by Amazon about a Small Parcel shipment by an Amazon-partnered carrier.")                                                |
-| <span class="keyword parmname">NonPartneredSmallParcelData</span> | Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.                                 | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: [NonPartneredSmallParcelDataOutput](FBAInbound_Datatypes.md#NonPartneredSmallParcelDataOutput "Information returned by Amazon about a Small Parcel shipment by a carrier that has not partnered with Amazon.")                         |
-| <span class="keyword parmname">PartneredLtlData</span>            | Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by an Amazon-partnered carrier.                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: [PartneredLtlDataOutput](FBAInbound_Datatypes.md#PartneredLtlDataOutput "Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by an Amazon-partnered carrier.")                                |
-| <span class="keyword parmname">NonPartneredLtlData</span>         | Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon. | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: [NonPartneredLtlDataOutput](FBAInbound_Datatypes.md#NonPartneredLtlDataOutput "Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment shipped by a carrier that has not partnered with Amazon.") |
+| Name                                                              | Description                                                                                                                                                           | Required                                                                                                            | Values                                                                                                                                                                                                                                                                       |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">PartneredSmallParcelData</span>    | Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by an Amazon-partnered carrier.                                                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: <a href="FBAInbound_Datatypes.md#PartneredSmallParcelDataOutput" class="xref" title="Information returned by Amazon about a Small Parcel shipment by an Amazon-partnered carrier.">PartneredSmallParcelDataOutput</a>                                                |
+| <span class="keyword parmname">NonPartneredSmallParcelData</span> | Information returned by Amazon about a <span class="ph">Small Parcel</span> shipment by a carrier that has not partnered with Amazon.                                 | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: <a href="FBAInbound_Datatypes.md#NonPartneredSmallParcelDataOutput" class="xref" title="Information returned by Amazon about a Small Parcel shipment by a carrier that has not partnered with Amazon.">NonPartneredSmallParcelDataOutput</a>                         |
+| <span class="keyword parmname">PartneredLtlData</span>            | Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by an Amazon-partnered carrier.                  | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: <a href="FBAInbound_Datatypes.md#PartneredLtlDataOutput" class="xref" title="Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by an Amazon-partnered carrier.">PartneredLtlDataOutput</a>                                |
+| <span class="keyword parmname">NonPartneredLtlData</span>         | Information returned by Amazon about a <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment by a carrier that has not partnered with Amazon. | Yes, if no other element from the <span class="keyword parmname">TransportDetailOutput</span> datatype is returned. | Type: <a href="FBAInbound_Datatypes.md#NonPartneredLtlDataOutput" class="xref" title="Information returned by Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment shipped by a carrier that has not partnered with Amazon.">NonPartneredLtlDataOutput</a> |
 
 </div>
 
@@ -3358,7 +3412,8 @@ The following table shows the elements of the
 
 <div id="TransportDocument" class="topic reference nested1">
 
-## TransportDocument
+TransportDocument
+-----------------
 
 <div class="body refbody">
 
@@ -3372,8 +3427,8 @@ labels and bills of lading.</span>
 The <span class="keyword cmdname">TransportDocument</span> datatype is
 used in a response element of the following operations:
 
-  - [GetPackageLabels](../fba_inbound/FBAInbound_GetPackageLabels.md)
-  - [GetBillOfLading](../fba_inbound/FBAInbound_GetBillOfLading.md)
+-   <a href="../fba_inbound/FBAInbound_GetPackageLabels.md" class="xref">GetPackageLabels</a>
+-   <a href="../fba_inbound/FBAInbound_GetBillOfLading.md" class="xref">GetBillOfLading</a>
 
 </div>
 
@@ -3381,13 +3436,13 @@ used in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportDocument</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportDocument</span> datatype:
 
 <div class="tablenoborder">
 
 | Name                                              | Description                                                              | Required | Values                                  |
-| ------------------------------------------------- | ------------------------------------------------------------------------ | -------- | --------------------------------------- |
+|---------------------------------------------------|--------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">PdfDocument</span> | Data for printing PDF documents, in the form of a Base64-encoded string. | Yes      | <span class="ph">Type: xs:string</span> |
 | <span class="keyword parmname">Checksum</span>    | A Base64-encoded MD5 hash to validate the PDF document data.             | Yes      | <span class="ph">Type: xs:string</span> |
 
@@ -3401,15 +3456,15 @@ The following table shows the elements of the
 
 <div id="TransportHeader" class="topic reference nested1">
 
-## TransportHeader
+TransportHeader
+---------------
 
 <div class="body refbody">
 
 <span class="ph">The shipping Id, information about whether the shipment
 is by an Amazon-partnered carrier, and information about whether the
-shipment is <span class="ph">Small Parcel</span> or
-<span class="ph">Less Than Truckload/Full Truckload
-(LTL/FTL)</span>.</span>
+shipment is <span class="ph">Small Parcel</span> or <span
+class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>.</span>
 
 <div class="section">
 
@@ -3418,7 +3473,7 @@ shipment is <span class="ph">Small Parcel</span> or
 The <span class="keyword cmdname">TransportHeader</span> datatype is
 used in a response element of the following operation:
 
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -3426,8 +3481,8 @@ used in a response element of the following operation:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportHeader</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportHeader</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3494,7 +3549,8 @@ The following table shows the elements of the
 
 <div id="TransportResult" class="topic reference nested1">
 
-## TransportResult
+TransportResult
+---------------
 
 <div class="body refbody">
 
@@ -3509,11 +3565,11 @@ The <span class="keyword cmdname">TransportResult</span> datatype is
 used in a request parameter or in a response element of the following
 operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
-  - [EstimateTransportRequest](FBAInbound_EstimateTransportRequest.md "Requests an estimate of the shipping cost for an inbound shipment.")
-  - [ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.md "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
-  - [VoidTransportRequest](FBAInbound_VoidTransportRequest.md "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
+-   <a href="FBAInbound_EstimateTransportRequest.md" class="xref" title="Requests an estimate of the shipping cost for an inbound shipment.">EstimateTransportRequest</a>
+-   <a href="FBAInbound_ConfirmTransportRequest.md" class="xref" title="Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.">ConfirmTransportRequest</a>
+-   <a href="FBAInbound_VoidTransportRequest.md" class="xref" title="Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.">VoidTransportRequest</a>
 
 </div>
 
@@ -3521,8 +3577,8 @@ operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">TransportResult</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">TransportResult</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3574,7 +3630,8 @@ The following table shows the elements of the
 
 <div id="Weight" class="topic reference nested1">
 
-## Weight
+Weight
+------
 
 <div class="body refbody">
 
@@ -3587,8 +3644,8 @@ The following table shows the elements of the
 The <span class="keyword cmdname">Weight</span> datatype is used in a
 request parameter or in a response element of the following operations:
 
-  - [PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
-  - [GetTransportContent](../fba_inbound/FBAInbound_GetTransportContent.md)
+-   <a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
+-   <a href="../fba_inbound/FBAInbound_GetTransportContent.md" class="xref">GetTransportContent</a>
 
 </div>
 
@@ -3596,8 +3653,8 @@ request parameter or in a response element of the following operations:
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword cmdname">Weight</span> datatype:
+The following table shows the elements of the <span
+class="keyword cmdname">Weight</span> datatype:
 
 <div class="tablenoborder">
 
@@ -3647,12 +3704,12 @@ The following table shows the elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
 </div>
 

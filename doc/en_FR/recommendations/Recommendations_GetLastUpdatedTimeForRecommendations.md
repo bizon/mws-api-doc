@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,9 +32,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-<div id="Recommendations_GetLastUpdatedTimeForRecommendations" class="nested0">
+<div id="Recommendations_GetLastUpdatedTimeForRecommendations"
+class="nested0">
 
-# GetLastUpdatedTimeForRecommendations
+GetLastUpdatedTimeForRecommendations
+====================================
 
 <span class="ph">Checks whether there are active recommendations for
 each category for the given marketplace, and if there are, returns the
@@ -43,24 +44,25 @@ time when recommendations were last updated for each category.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
+The <span
+class="keyword apiname">GetLastUpdatedTimeForRecommendations</span>
 operation enables you to check whether there are active recommendations
 for you in a given recommendation category, and if there are, to check
 when the recommendations for that category were last updated.
 
 If the last updated timestamp returned for a category in this operation
 is newer than the last updated timestamp returned for a category when
-you last called this operation, then you should call the
-<span class="keyword apiname">ListRecommendations</span> operation again
-to get your latest recommendations for that category. Otherwise, there
-is no need to call the
-<span class="keyword apiname">ListRecommendations</span> operation
-because you already have the most current set of recommendations.
+you last called this operation, then you should call the <span
+class="keyword apiname">ListRecommendations</span> operation again to
+get your latest recommendations for that category. Otherwise, there is
+no need to call the <span
+class="keyword apiname">ListRecommendations</span> operation because you
+already have the most current set of recommendations.
 
 <div class="note note">
 
@@ -78,10 +80,10 @@ there are no active recommendations for you in that category.
 
 This operation is available in all marketplaces.
 
-The
-<span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
-and
-<span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
+The <span
+class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
+and <span
+class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
 elements are used in all marketplaces except Brazil.
 
 </div>
@@ -93,9 +95,8 @@ elements are used in all marketplaces except Brazil.
 <span class="ph">This operation has a maximum request quota of 8 and a
 restore rate of one request every two seconds. For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -105,7 +106,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -113,9 +115,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -155,7 +156,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body">
 
@@ -218,7 +220,8 @@ for `ListingQuality` recommendations.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -227,8 +230,8 @@ for `ListingQuality` recommendations.
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -236,24 +239,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Recommendations/2013-04-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Recommendations/2013-04-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLESDX
-&Action= GetLastUpdatedTimeForRecommendations
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&MarketplaceId=ATVPDKIKX0DER
-&SellerId=0PB842EXAMPLESDX
-&SignatureMethod=HmacSHA256 
-&SignatureVersion=2
-&Timestamp=2013-03-04T18%3A12%3A21.687Z
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLESDX
+    &Action= GetLastUpdatedTimeForRecommendations
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &MarketplaceId=ATVPDKIKX0DER
+    &SellerId=0PB842EXAMPLESDX
+    &SignatureMethod=HmacSHA256 
+    &SignatureVersion=2
+    &Timestamp=2013-03-04T18%3A12%3A21.687Z
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -264,7 +265,7 @@ AWSAccessKeyId=0PB842EXAMPLESDX
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -272,35 +273,33 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetLastUpdatedTimeForRecommendationsResponse
-    xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01/"/>
-<InventoryRecommendationsLastUpdated>
-    2013-03-04T02:10:32+00:00
-</InventoryRecommendationsLastUpdated>  
-<!--<SelectionRecommendationsLastUpdated>
-    2013-03-03T03:11:34+00:00
-</SelectionRecommendationsLastUpdated>-->  
-<PricingRecommendationsLastUpdated>
-    2013-03-05T03:11:33+00:00
-</PricingRecommendationsLastUpdated>  
-<FulfillmentRecommendationsLastUpdated>
-    2013-03-02T03:11:32+00:00
-</FulfillmentnRecommendationsLastUpdated>  
-<GlobalSellingRecommendationsLastUpdated>
-    2013-03-02T04:31:32+00:00
-</GlobalSellingRecommendationsLastUpdated>  
-<AdvertisingRecommendationsLastUpdated>
-    2013-03-03T17:45:11+00:00
-</AdvertisingRecommendationsLastUpdated>  
-<ResponseMetadata>
-    <RequestId>88faca76-b600-46d2-b53c-0c8c4EXAMPLE</RequestId>
-</ResponseMetadata>
-</GetLastUpdatedTimeForRecommendationsResponse>
-```
+    <?xml version="1.0"?>
+    <GetLastUpdatedTimeForRecommendationsResponse
+        xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01/"/>
+    <InventoryRecommendationsLastUpdated>
+        2013-03-04T02:10:32+00:00
+    </InventoryRecommendationsLastUpdated>  
+    <!--<SelectionRecommendationsLastUpdated>
+        2013-03-03T03:11:34+00:00
+    </SelectionRecommendationsLastUpdated>-->  
+    <PricingRecommendationsLastUpdated>
+        2013-03-05T03:11:33+00:00
+    </PricingRecommendationsLastUpdated>  
+    <FulfillmentRecommendationsLastUpdated>
+        2013-03-02T03:11:32+00:00
+    </FulfillmentnRecommendationsLastUpdated>  
+    <GlobalSellingRecommendationsLastUpdated>
+        2013-03-02T04:31:32+00:00
+    </GlobalSellingRecommendationsLastUpdated>  
+    <AdvertisingRecommendationsLastUpdated>
+        2013-03-03T17:45:11+00:00
+    </AdvertisingRecommendationsLastUpdated>  
+    <ResponseMetadata>
+        <RequestId>88faca76-b600-46d2-b53c-0c8c4EXAMPLE</RequestId>
+    </ResponseMetadata>
+    </GetLastUpdatedTimeForRecommendationsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -312,12 +311,12 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Recommendations API
-section](Recommendations_Overview.md)
+<a href="Recommendations_Overview.md" class="xref">What you should know about the Amazon MWS Recommendations API section</a>
 
 </div>
 

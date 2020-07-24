@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,21 +32,24 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-<div id="Notifications_FeedProcessingFinishedNotification" class="nested0">
+<div id="Notifications_FeedProcessingFinishedNotification"
+class="nested0">
 
-# FeedProcessingFinishedNotification
+FeedProcessingFinishedNotification
+==================================
 
 <div class="body">
 
-<span class="ph">The
-<span class="keyword parmname">FeedProcessingFinished</span>
-notification is sent whenever any feed that you have submitted using the
-<span class="ph">Feeds API section</span> reaches a feed processing
-status of `DONE` or `CANCELLED`.</span>
+<span class="ph">The <span
+class="keyword parmname">FeedProcessingFinished</span> notification is
+sent whenever any feed that you have submitted using the <span
+class="ph">Feeds API section</span> reaches a feed processing status of
+`DONE` or `CANCELLED`.</span>
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -55,17 +57,18 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[FeedProcessingFinishedNotification.xsd](https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeedProcessingFinishedNotification.xsd)
+<a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeedProcessingFinishedNotification.xsd" class="xref">FeedProcessingFinishedNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                                            | Description                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| [FeedProcessingFinishedNotification](#FeedProcessingFinishedNotification "The root element of the payload for the notification that is sent when feed processing is complete.") | <span class="ph">The root element of the payload for the notification that is sent when feed processing is complete.</span> |
+| Name                                                                                                                                                                                                          | Description                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| <a href="#FeedProcessingFinishedNotification" class="xref" title="The root element of the payload for the notification that is sent when feed processing is complete.">FeedProcessingFinishedNotification</a> | <span class="ph">The root element of the payload for the notification that is sent when feed processing is complete.</span> |
 
 </div>
 
@@ -75,7 +78,8 @@ schema:
 
 <div id="FeedProcessingFinishedNotification" class="topic nested1">
 
-## FeedProcessingFinishedNotification
+FeedProcessingFinishedNotification
+----------------------------------
 
 <div class="body">
 
@@ -86,8 +90,8 @@ that is sent when feed processing is complete.</span>
 
 ### FeedProcessingFinishedNotification Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">FeedProcessingFinishedNotification</span>
+The following table shows the child elements of the <span
+class="keyword parmname">FeedProcessingFinishedNotification</span>
 element:
 
 <div class="tablenoborder">
@@ -137,12 +141,12 @@ element:
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

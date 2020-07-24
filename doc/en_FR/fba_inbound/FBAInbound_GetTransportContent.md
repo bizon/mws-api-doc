@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetTransportContent" class="nested0">
 
-# GetTransportContent
+GetTransportContent
+===================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -58,18 +59,16 @@ This includes the current workflow status for shipments by
 Amazon-partnered carriers and the current workflow status for individual
 <span class="ph">Small Parcel</span> Delivery packages as they are
 processed by the <span class="ph">Amazon fulfillment center</span>. This
-also includes the
-<span class="keyword parmname">PartneredEstimate</span> response
-element, which indicates the estimated shipping cost for an inbound
-shipment by an Amazon-partnered carrier. Note that
-<span class="keyword parmname">PartneredEstimate</span> will not be
-returned unless the
-<span class="keyword parmname">TransportStatus</span> value of the
-inbound shipment is `ESTIMATED`, `CONFIRMING`, or `CONFIRMED`.
-<span class="ph">For more information, see [Using an Amazon-partnered
-carrier for your inbound
-shipment](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md) in the
-MWS for FBA Sellers guide.</span>
+also includes the <span
+class="keyword parmname">PartneredEstimate</span> response element,
+which indicates the estimated shipping cost for an inbound shipment by
+an Amazon-partnered carrier. Note that <span
+class="keyword parmname">PartneredEstimate</span> will not be returned
+unless the <span class="keyword parmname">TransportStatus</span> value
+of the inbound shipment is `ESTIMATED`, `CONFIRMING`, or `CONFIRMED`.
+<span class="ph">For more information, see
+<a href="../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md" class="xref">Using an Amazon-partnered carrier for your inbound shipment</a>
+in the MWS for FBA Sellers guide.</span>
 
 </div>
 
@@ -89,9 +88,8 @@ The <span class="keyword apiname">GetTransportContent</span> operation
 has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -101,7 +99,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -109,16 +108,15 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
 | Name                                             | Description                                                                                                                                        | Required | Values                                  |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">ShipmentId</span> | <span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span> | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -129,7 +127,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -163,7 +162,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -172,8 +172,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request (<span class="ph">Small Parcel</span>, Amazon-partnered carrier shipment)
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -181,20 +181,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-  &Action=GetTransportContent
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A135KKEKWF1J56
-  &SignatureVersion=2
-  &Timestamp=2013-08-09T00%3A46%3A38Z
-  &Version=2010-10-01
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBAQF72K
-```
+    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+      &Action=GetTransportContent
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A135KKEKWF1J56
+      &SignatureVersion=2
+      &Timestamp=2013-08-09T00%3A46%3A38Z
+      &Version=2010-10-01
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBAQF72K
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -205,7 +203,7 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -213,88 +211,86 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetTransportContentResponse
-    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <GetTransportContentResult>
-        <TransportContent>
-            <TransportDetails>
-                <PartneredSmallParcelData>
-                    <PartneredEstimate>
-                        <Amount>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Value>38.22</Value>
-                        </Amount>
-                        <VoidDeadline>2013-08-10T00:25:05.650Z</VoidDeadline>
-                    </PartneredEstimate>
-                    <PackageList>
-                        <member>
-                            <Weight>
-                                <Unit>pounds</Unit>
-                                <Value>5.5</Value>
-                            </Weight>
-                            <TrackingId>1Z8V016A0377769652</TrackingId>
-                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                            <Dimensions>
-                                <Unit>inches</Unit>
-                                <Height>15</Height>
-                                <Width>15</Width>
-                                <Length>15</Length>
-                            </Dimensions>
-                            <PackageStatus>SHIPPED</PackageStatus>
-                        </member>
-                        <member>
-                            <Weight>
-                                <Unit>pounds</Unit>
-                                <Value>5.5</Value>
-                            </Weight>
-                            <TrackingId>1Z8V016A0371928464</TrackingId>
-                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                            <Dimensions>
-                                <Unit>inches</Unit>
-                                <Height>15</Height>
-                                <Width>15</Width>
-                                <Length>15</Length>
-                            </Dimensions>
-                            <PackageStatus>SHIPPED</PackageStatus>
-                        </member>
-                        <member>
-                            <Weight>
-                                <Unit>pounds</Unit>
-                                <Value>5.5</Value>
-                            </Weight>
-                            <TrackingId>1Z8V016A0360430477</TrackingId>
-                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                            <Dimensions>
-                                <Unit>inches</Unit>
-                                <Height>15</Height>
-                                <Width>15</Width>
-                                <Length>15</Length>
-                            </Dimensions>
-                            <PackageStatus>SHIPPED</PackageStatus>
-                        </member>
-                    </PackageList>
-                </PartneredSmallParcelData>
-            </TransportDetails>
-            <TransportResult>
-                <TransportStatus>CONFIRMED</TransportStatus>
-            </TransportResult>
-            <TransportHeader>
-                <ShipmentType>SP</ShipmentType>
-                <ShipmentId>FBAQF72K</ShipmentId>
-                <SellerId>A135KKEKWF1J56</SellerId>
-                <IsPartnered>true</IsPartnered>
-            </TransportHeader>
-        </TransportContent>
-    </GetTransportContentResult>
-    <ResponseMetadata>
-        <RequestId>9708430a-4010-478e-aafc-053979329978</RequestId>
-    </ResponseMetadata>
-</GetTransportContentResponse>
-```
+    <?xml version="1.0"?>
+    <GetTransportContentResponse
+        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <GetTransportContentResult>
+            <TransportContent>
+                <TransportDetails>
+                    <PartneredSmallParcelData>
+                        <PartneredEstimate>
+                            <Amount>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Value>38.22</Value>
+                            </Amount>
+                            <VoidDeadline>2013-08-10T00:25:05.650Z</VoidDeadline>
+                        </PartneredEstimate>
+                        <PackageList>
+                            <member>
+                                <Weight>
+                                    <Unit>pounds</Unit>
+                                    <Value>5.5</Value>
+                                </Weight>
+                                <TrackingId>1Z8V016A0377769652</TrackingId>
+                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                                <Dimensions>
+                                    <Unit>inches</Unit>
+                                    <Height>15</Height>
+                                    <Width>15</Width>
+                                    <Length>15</Length>
+                                </Dimensions>
+                                <PackageStatus>SHIPPED</PackageStatus>
+                            </member>
+                            <member>
+                                <Weight>
+                                    <Unit>pounds</Unit>
+                                    <Value>5.5</Value>
+                                </Weight>
+                                <TrackingId>1Z8V016A0371928464</TrackingId>
+                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                                <Dimensions>
+                                    <Unit>inches</Unit>
+                                    <Height>15</Height>
+                                    <Width>15</Width>
+                                    <Length>15</Length>
+                                </Dimensions>
+                                <PackageStatus>SHIPPED</PackageStatus>
+                            </member>
+                            <member>
+                                <Weight>
+                                    <Unit>pounds</Unit>
+                                    <Value>5.5</Value>
+                                </Weight>
+                                <TrackingId>1Z8V016A0360430477</TrackingId>
+                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                                <Dimensions>
+                                    <Unit>inches</Unit>
+                                    <Height>15</Height>
+                                    <Width>15</Width>
+                                    <Length>15</Length>
+                                </Dimensions>
+                                <PackageStatus>SHIPPED</PackageStatus>
+                            </member>
+                        </PackageList>
+                    </PartneredSmallParcelData>
+                </TransportDetails>
+                <TransportResult>
+                    <TransportStatus>CONFIRMED</TransportStatus>
+                </TransportResult>
+                <TransportHeader>
+                    <ShipmentType>SP</ShipmentType>
+                    <ShipmentId>FBAQF72K</ShipmentId>
+                    <SellerId>A135KKEKWF1J56</SellerId>
+                    <IsPartnered>true</IsPartnered>
+                </TransportHeader>
+            </TransportContent>
+        </GetTransportContentResult>
+        <ResponseMetadata>
+            <RequestId>9708430a-4010-478e-aafc-053979329978</RequestId>
+        </ResponseMetadata>
+    </GetTransportContentResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -305,8 +301,8 @@ code</span> </span>
 ### Example query request (<span class="ph">Small Parcel</span>, non-Amazon-partnered carrier shipment)
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -314,20 +310,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-  &Action=GetTransportContent
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A135KKEKWF1J56
-  &SignatureVersion=2
-  &Timestamp=2013-08-09T18%3A35%3A08Z
-  &Version=2010-10-01
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBAQ6QBP
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+      &Action=GetTransportContent
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A135KKEKWF1J56
+      &SignatureVersion=2
+      &Timestamp=2013-08-09T18%3A35%3A08Z
+      &Version=2010-10-01
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBAQ6QBP
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -338,7 +332,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -346,41 +340,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetTransportContentResponse 
-    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <GetTransportContentResult>
-        <TransportContent>
-            <TransportDetails>
-                <NonPartneredSmallParcelData>
-                    <PackageList>
-                        <member>
-                            <TrackingId>1Z6Y68W00342402864</TrackingId>
-                            <CarrierName>UNITED PARCEL SERVICE INC</CarrierName>
-                            <PackageStatus>SHIPPED</PackageStatus>
-                        </member>
-                    </PackageList>
-                </NonPartneredSmallParcelData>
-            </TransportDetails>
-            <TransportResult>
-                <TransportStatus>WORKING</TransportStatus>
-            </TransportResult>
-            <TransportHeader>
-                <ShipmentType>SP</ShipmentType>
-                <ShipmentId>FBAQ6QBP</ShipmentId>
-                <SellerId>A135KKEKWF1J56</SellerId>
-                <IsPartnered>false</IsPartnered>
-            </TransportHeader>
-        </TransportContent>
-    </GetTransportContentResult>
-    <ResponseMetadata>
-        <RequestId>89a965c3-1af7-41e3-9152-44cf0affd34b</RequestId>
-    </ResponseMetadata>
-</GetTransportContentResponse>
-```
+    <?xml version="1.0"?>
+    <GetTransportContentResponse 
+        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <GetTransportContentResult>
+            <TransportContent>
+                <TransportDetails>
+                    <NonPartneredSmallParcelData>
+                        <PackageList>
+                            <member>
+                                <TrackingId>1Z6Y68W00342402864</TrackingId>
+                                <CarrierName>UNITED PARCEL SERVICE INC</CarrierName>
+                                <PackageStatus>SHIPPED</PackageStatus>
+                            </member>
+                        </PackageList>
+                    </NonPartneredSmallParcelData>
+                </TransportDetails>
+                <TransportResult>
+                    <TransportStatus>WORKING</TransportStatus>
+                </TransportResult>
+                <TransportHeader>
+                    <ShipmentType>SP</ShipmentType>
+                    <ShipmentId>FBAQ6QBP</ShipmentId>
+                    <SellerId>A135KKEKWF1J56</SellerId>
+                    <IsPartnered>false</IsPartnered>
+                </TransportHeader>
+            </TransportContent>
+        </GetTransportContentResult>
+        <ResponseMetadata>
+            <RequestId>89a965c3-1af7-41e3-9152-44cf0affd34b</RequestId>
+        </ResponseMetadata>
+    </GetTransportContentResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -391,8 +383,8 @@ code</span> </span>
 ### Example query request (<span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span>, non-Amazon-partnered carrier shipment)
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -400,20 +392,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-  &Action=GetTransportContent
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A135KKEKWF1J56
-  &SignatureVersion=2
-  &Timestamp=2013-08-09T18%3A51%3A01Z
-  &Version=2010-10-01
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBAQFGQZ
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+      &Action=GetTransportContent
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A135KKEKWF1J56
+      &SignatureVersion=2
+      &Timestamp=2013-08-09T18%3A51%3A01Z
+      &Version=2010-10-01
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBAQFGQZ
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -424,7 +414,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -432,36 +422,34 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<GetTransportContentResponse 
-    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <GetTransportContentResult>
-        <TransportContent>
-            <TransportDetails>
-                <NonPartneredLtlData>
-                    <CarrierName>ABF FREIGHT SYSTEM INC</CarrierName>
-                    <ProNumber>123456</ProNumber>
-                </NonPartneredLtlData>
-            </TransportDetails>
-            <TransportResult>
-                <TransportStatus>WORKING</TransportStatus>
-            </TransportResult>
-            <TransportHeader>
-                <ShipmentType>LTL</ShipmentType>
-                <ShipmentId>FBAQFGQZ</ShipmentId>
-                <SellerId>A135KKEKWF1J56</SellerId>
-                <IsPartnered>false</IsPartnered>
-            </TransportHeader>
-        </TransportContent>
-    </GetTransportContentResult>
-    <ResponseMetadata>
-        <RequestId>5e2ca38a-9f96-4ef7-ae82-3afb8dc224d4</RequestId>
-    </ResponseMetadata>
-</GetTransportContentResponse>
-```
+    <?xml version="1.0"?>
+    <GetTransportContentResponse 
+        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <GetTransportContentResult>
+            <TransportContent>
+                <TransportDetails>
+                    <NonPartneredLtlData>
+                        <CarrierName>ABF FREIGHT SYSTEM INC</CarrierName>
+                        <ProNumber>123456</ProNumber>
+                    </NonPartneredLtlData>
+                </TransportDetails>
+                <TransportResult>
+                    <TransportStatus>WORKING</TransportStatus>
+                </TransportResult>
+                <TransportHeader>
+                    <ShipmentType>LTL</ShipmentType>
+                    <ShipmentId>FBAQFGQZ</ShipmentId>
+                    <SellerId>A135KKEKWF1J56</SellerId>
+                    <IsPartnered>false</IsPartnered>
+                </TransportHeader>
+            </TransportContent>
+        </GetTransportContentResult>
+        <ResponseMetadata>
+            <RequestId>5e2ca38a-9f96-4ef7-ae82-3afb8dc224d4</RequestId>
+        </ResponseMetadata>
+    </GetTransportContentResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -473,20 +461,20 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[PutTransportContent](../fba_inbound/FBAInbound_PutTransportContent.md)
+<a href="../fba_inbound/FBAInbound_PutTransportContent.md" class="xref">PutTransportContent</a>
 
-[EstimateTransportRequest](FBAInbound_EstimateTransportRequest.md "Requests an estimate of the shipping cost for an inbound shipment.")
+<a href="FBAInbound_EstimateTransportRequest.md" class="xref" title="Requests an estimate of the shipping cost for an inbound shipment.">EstimateTransportRequest</a>
 
-[ConfirmTransportRequest](FBAInbound_ConfirmTransportRequest.md "Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.")
+<a href="FBAInbound_ConfirmTransportRequest.md" class="xref" title="Confirms that you accept the Amazon-partnered shipping estimate and you request that the Amazon-partnered carrier ship your inbound shipment.">ConfirmTransportRequest</a>
 
-[VoidTransportRequest](FBAInbound_VoidTransportRequest.md "Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.")
+<a href="FBAInbound_VoidTransportRequest.md" class="xref" title="Voids a previously-confirmed request to ship your inbound shipment using an Amazon-partnered carrier.">VoidTransportRequest</a>
 
 </div>
 

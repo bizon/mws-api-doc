@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="CommonTasks" class="nested0">
 
-# Common tasks
+Common tasks
+============
 
 <div class="body">
 
@@ -50,29 +50,30 @@ Central user interface.
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
-  - **[Monitoring and tracking FBA
+-   **[Monitoring and tracking FBA
     orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.md)**  
-  - **[Monitoring and tracking FBA shipment
+-   **[Monitoring and tracking FBA shipment
     status](../fba_guide/FBAGuide_MonitorShipmentStatus.md)**  
-  - **[Getting inventory
+-   **[Getting inventory
     reports](../fba_guide/FBAGuide_GetInventoryReports.md)**  
-  - **[Getting Multi-Channel Fulfillment outbound shipment
+-   **[Getting Multi-Channel Fulfillment outbound shipment
     reports](../fba_guide/FBAGuide_GetMCFOutShipReports.md)**  
-  - **[Fulfilling Multi-Channel Fulfillment
+-   **[Fulfilling Multi-Channel Fulfillment
     orders](../fba_guide/FBAGuide_FulfillingMCFOrders.md)**  
-  - **[Creating a fulfillment
+-   **[Creating a fulfillment
     return](../fba_guide/FBAGuide_CreateFulfillmentReturn.md)**  
-  - **[Shipping inventory to Amazon's fulfillment
+-   **[Shipping inventory to Amazon's fulfillment
     network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)**  
-  - **[Using an Amazon-partnered carrier for your inbound
+-   **[Using an Amazon-partnered carrier for your inbound
     shipments](../fba_guide/FBAGuide_UsingAmazonCarrierToShip.md)**  
-  - **[Creating an inbound shipment containing over 200
+-   **[Creating an inbound shipment containing over 200
     items](../fba_guide/FBAGuide_CreateShipment200Items.md)**  
-  - **[Labeling items one by one and including them in an inbound
+-   **[Labeling items one by one and including them in an inbound
     shipment](../fba_guide/FBAGuide_LabelItems1x1.md)**  
-  - **[Scheduled
+-   **[Scheduled
     Delivery](../fba_guide/FBAGuide_ScheduledDelivery.md)**  
 
 </div>

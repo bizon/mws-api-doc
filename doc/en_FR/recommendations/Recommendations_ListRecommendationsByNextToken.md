@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,27 +32,30 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-<div id="Recommendations_ListRecommendationsByNextToken" class="nested0">
+<div id="Recommendations_ListRecommendationsByNextToken"
+class="nested0">
 
-# ListRecommendationsByNextToken
+ListRecommendationsByNextToken
+==============================
 
 <span class="ph">Returns the next page of recommendations using the
 <span class="keyword parmname">NextToken</span> parameter.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ListRecommendationsByNextToken</span>
-operation returns the next page of recommendations using the
-<span class="keyword parmname">NextToken</span> value that was returned
-by your previous request to either
-<span class="keyword apiname">ListRecommendations</span> or
-<span class="keyword apiname">ListRecommendationsByNextToken</span>. If
-<span class="keyword parmname">NextToken</span> is not returned, there
-are no more pages to return.
+operation returns the next page of recommendations using the <span
+class="keyword parmname">NextToken</span> value that was returned by
+your previous request to either <span
+class="keyword apiname">ListRecommendations</span> or <span
+class="keyword apiname">ListRecommendationsByNextToken</span>. If <span
+class="keyword parmname">NextToken</span> is not returned, there are no
+more pages to return.
 
 <div class="section">
 
@@ -61,10 +63,10 @@ are no more pages to return.
 
 This operation is available in all marketplaces.
 
-The
-<span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
-and
-<span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
+The <span
+class="keyword parmname">FulfillmentRecommendationsLastUpdated</span>
+and <span
+class="keyword parmname">AdvertisingRecommendationsLastUpdated</span>
 elements are used in all marketplaces except Brazil.
 
 </div>
@@ -76,9 +78,8 @@ elements are used in all marketplaces except Brazil.
 <span class="ph">This operation has a maximum request quota of 8 and a
 restore rate of one request every two seconds. For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -88,7 +89,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -96,16 +98,15 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
 | Name                                            | Description                                                                                                                                                                                                 | Required | Valid values                            |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">NextToken</span> | A string token returned in the response of your previous request to either <span class="keyword apiname">ListRecommendations</span> or <span class="keyword apiname">ListRecommendationsByNextToken</span>. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -116,7 +117,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -186,7 +188,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -195,8 +198,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -204,24 +207,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Recommendations/2013-04-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Recommendations/2013-04-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=0PB842EXAMPLESDX
-&Action= ListRecommendationsByNextToken
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&NextToken=88faca76-b600-46d2-b53c-0c8c4533e43a
-&SellerId=0PB842EXAMPLESDX
-&SignatureMethod=HmacSHA256 
-&SignatureVersion=2
-&Timestamp=2013-03-04T18%3A12%3A21.687Z
-&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-```
+    AWSAccessKeyId=0PB842EXAMPLESDX
+    &Action= ListRecommendationsByNextToken
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &NextToken=88faca76-b600-46d2-b53c-0c8c4533e43a
+    &SellerId=0PB842EXAMPLESDX
+    &SignatureMethod=HmacSHA256 
+    &SignatureVersion=2
+    &Timestamp=2013-03-04T18%3A12%3A21.687Z
+    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -232,7 +233,7 @@ AWSAccessKeyId=0PB842EXAMPLESDX
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -240,20 +241,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListRecommendationsByNextTokenResponse
-    xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
-    <ListRecommendationsByNextTokenResult>
-        <NextToken>AAAAAAAAEXAMPLE+13sB+==</NextToken>
-    </ListRecommendationsByNextTokenResult>
-    <ResponseMetadata>
-        <RequestId>b106b175-85ca-11e2-8826-c31d9EXAMPLE</RequestId>
-    </ResponseMetadata>
-</ListRecommendationsByNextTokenResponse>
-```
+    <?xml version="1.0"?>
+    <ListRecommendationsByNextTokenResponse
+        xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
+        <ListRecommendationsByNextTokenResult>
+            <NextToken>AAAAAAAAEXAMPLE+13sB+==</NextToken>
+        </ListRecommendationsByNextTokenResult>
+        <ResponseMetadata>
+            <RequestId>b106b175-85ca-11e2-8826-c31d9EXAMPLE</RequestId>
+        </ResponseMetadata>
+    </ListRecommendationsByNextTokenResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -265,15 +264,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[What you should know about the Amazon MWS Recommendations API
-section](Recommendations_Overview.md)
+<a href="Recommendations_Overview.md" class="xref">What you should know about the Amazon MWS Recommendations API section</a>
 
 </div>
 

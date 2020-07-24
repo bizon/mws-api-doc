@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ConfirmPreorder" class="nested0">
 
-# ConfirmPreorder
+ConfirmPreorder
+===============
 
 <div class="body">
 
@@ -45,7 +45,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -53,19 +54,18 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The <span class="keyword apiname">ConfirmPreorder</span> operation
 confirms a shipment for pre-order. Call this operation after calling the
-[GetPreorderInfo](FBAInbound_GetPreorderInfo.md "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
+<a href="FBAInbound_GetPreorderInfo.md" class="xref" title="Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.">GetPreorderInfo</a>
 operation to get the <span class="keyword parmname">NeedByDate</span>
 value and other pre-order information about the shipment. To get a list
-of shipments that are confirmed for pre-order, call the
-<span class="keyword apiname">ListInboundShipments</span> operation and
-sort the result set by the
-<span class="keyword parmname">ConfirmedNeedByDate</span> response
-element.
+of shipments that are confirmed for pre-order, call the <span
+class="keyword apiname">ListInboundShipments</span> operation and sort
+the result set by the <span
+class="keyword parmname">ConfirmedNeedByDate</span> response element.
 
 After a shipment is confirmed for pre-order, the pre-order Buy Box
 displays for all of the items in the shipment with release dates on or
-after the date in the
-<span class="keyword parmname">ConfirmedFulfillableDate</span> response
+after the date in the <span
+class="keyword parmname">ConfirmedFulfillableDate</span> response
 element. A shipment that is confirmed for pre-order must arrive at an
 <span class="ph">Amazon fulfillment center</span> by the date in the
 <span class="keyword parmname">ConfirmedNeedByDate</span> response
@@ -75,20 +75,20 @@ element to avoid promise breaks.
 
 <span class="notetitle">Note:</span> After a shipment is confirmed for
 pre-order, items in the shipment with release dates on or after the date
-returned in the
-<span class="keyword parmname">ConfirmedFulfillableDate</span> response
+returned in the <span
+class="keyword parmname">ConfirmedFulfillableDate</span> response
 element are subject to the following restrictions:
 
-  - The
-    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
+-   The
+    <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
     operation cannot be used to reduce quantity for these items. See the
-    **CannotReducePreorderedItemQuantity** error code in [Error
-    codes](FBAInbound_ErrorCodes.md).
-  - The
-    [UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
+    **CannotReducePreorderedItemQuantity** error code in
+    <a href="FBAInbound_ErrorCodes.md" class="xref">Error codes</a>.
+-   The
+    <a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
     operation cannot be used to remove these items from the shipment.
-    See the **CannotRemovePreorderedItem** error code in [Error
-    codes](FBAInbound_ErrorCodes.md).
+    See the **CannotRemovePreorderedItem** error code in
+    <a href="FBAInbound_ErrorCodes.md" class="xref">Error codes</a>.
 
 </div>
 
@@ -110,9 +110,9 @@ marketplaces.
 The <span class="keyword apiname">ConfirmPreorder</span> operation has a
 **maximum request quota** of 30 and a **restore rate** of two requests
 every second. <span class="ph">For definitions of throttling terminology
-and for a complete explanation of throttling, see [Throttling: Limits to
-how often you can submit requests](../dev_guide/DG_Throttling.md) in
-the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+and for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -122,7 +122,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -130,9 +131,8 @@ the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -178,7 +178,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -217,7 +218,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -226,8 +228,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -235,22 +237,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-  ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-  &Action=ConfirmPreorder
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A2NKEXAMPLEF53
-  &SignatureVersion=2
-  &Timestamp=2015-11-02T02:40:36Z
-  &Version=2010-10-01
-  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-  &SignatureMethod=HmacSHA256
-  &ShipmentId=FBA2F3KCQF
-  &NeedByDate=2015-12-27
-```
+    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+      ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+      &Action=ConfirmPreorder
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A2NKEXAMPLEF53
+      &SignatureVersion=2
+      &Timestamp=2015-11-02T02:40:36Z
+      &Version=2010-10-01
+      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+      &SignatureMethod=HmacSHA256
+      &ShipmentId=FBA2F3KCQF
+      &NeedByDate=2015-12-27
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -261,7 +261,7 @@ http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -269,20 +269,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ConfirmPreorderResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-    <ConfirmPreorderResult>
-        <ConfirmedNeedByDate>2015-12-27</ConfirmedNeedByDate>
-        <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
-    </ConfirmPreorderResult>
-    <ResponseMetadata>
-        <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
-    </ResponseMetadata>
-</ConfirmPreorderResponse>
-```
+    <?xml version="1.0"?>
+    <ConfirmPreorderResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+        <ConfirmPreorderResult>
+            <ConfirmedNeedByDate>2015-12-27</ConfirmedNeedByDate>
+            <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
+        </ConfirmPreorderResult>
+        <ResponseMetadata>
+            <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
+        </ResponseMetadata>
+    </ConfirmPreorderResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -294,16 +292,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[GetPreorderInfo](FBAInbound_GetPreorderInfo.md "Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.")
+<a href="FBAInbound_GetPreorderInfo.md" class="xref" title="Returns pre-order information, including dates, that a seller needs before confirming a shipment for pre-order. Also indicates if a shipment has already been confirmed for pre-order.">GetPreorderInfo</a>
 
-[UpdateInboundShipment](FBAInbound_UpdateInboundShipment.md "Updates an existing inbound shipment.")
+<a href="FBAInbound_UpdateInboundShipment.md" class="xref" title="Updates an existing inbound shipment.">UpdateInboundShipment</a>
 
 </div>
 

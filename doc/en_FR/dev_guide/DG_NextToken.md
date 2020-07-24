@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_NextToken" class="nested0">
 
-# Using NextToken to request additional pages
+Using NextToken to request additional pages
+===========================================
 
 <div class="body">
 
@@ -43,16 +43,16 @@ If you make a request to <span class="ph">Amazon Marketplace Web Service
 (Amazon MWS)</span> that generates more response elements than the
 maximum number of response elements that can be returned per page, you
 can submit <span class="keyword parmname">NextToken</span> with a
-"ByNextToken" operation to request additional pages.
-<span class="keyword parmname">NextToken</span> works slightly
-differently for the various <span class="ph">Amazon MWS</span> API
-sections.
+"ByNextToken" operation to request additional pages. <span
+class="keyword parmname">NextToken</span> works slightly differently for
+the various <span class="ph">Amazon MWS</span> API sections.
 
 </div>
 
 <div id="Using" class="topic nested1">
 
-## Using NextToken
+Using NextToken
+---------------
 
 <div class="body">
 
@@ -61,37 +61,37 @@ sections.
 ### Using NextToken with operations that return HasNext
 
 1.  Call an operation.
-    
+
     If the <span class="keyword parmname">HasNext</span> response
     element returns `false`, there are no more response elements to
     return. Task is complete.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">HasNext</span> response
     element returns `true`, there are more response elements to return.
     Continue to Step 2.
 
 2.  Call the "ByNextToken" operation that matches the operation you
-    called in Step 1 (for example, call
-    <span class="keyword apiname">GetReportListByNextToken</span> if you
+    called in Step 1 (for example, call <span
+    class="keyword apiname">GetReportListByNextToken</span> if you
     called <span class="keyword apiname">GetReportList</span>) and
     include the <span class="keyword parmname">NextToken</span> value
     returned in Step 1.
-    
+
     If the <span class="keyword parmname">HasNext</span> response
     element returns `false`, there are no more response elements to
     return. Task is complete.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">HasNext</span> response
     element returns `true`, there are more response elements to return.
     Continue to Step 3.
 
-3.  Continue calling the "ByNextToken" operation until the
-    <span class="keyword parmname">HasNext</span> response element
-    returns `false`.
+3.  Continue calling the "ByNextToken" operation until the <span
+    class="keyword parmname">HasNext</span> response element returns
+    `false`.
 
 </div>
 
@@ -100,7 +100,7 @@ sections.
 ### Using NextToken with operations that return MoreResultsAvailable
 
 1.  Call an operation.
-    
+
     If the <span class="keyword parmname">MoreResultsAvailable</span>
     response element returns `false`, there are no more response
     elements currently available. However, more results might be
@@ -108,20 +108,20 @@ sections.
     future. The amount of time to wait depends on your business
     processes and on how often you expect the operation to return new
     results.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">MoreResultsAvailable</span>
     response element returns `true`, there are more response elements to
     return now. Continue to Step 2.
 
 2.  Call the "ByNextToken" operation that matches the operation you
-    called in Step 1 (for example, call
-    <span class="keyword apiname">ListCustomersByNextToken</span> if you
+    called in Step 1 (for example, call <span
+    class="keyword apiname">ListCustomersByNextToken</span> if you
     called <span class="keyword apiname">ListCustomers</span>) and
     include the <span class="keyword parmname">NextToken</span> value
     returned in Step 1.
-    
+
     If the <span class="keyword parmname">MoreResultsAvailable</span>
     response element returns `false`, there are no more response
     elements currently available. However, more results might be
@@ -129,15 +129,15 @@ sections.
     future. The amount of time to wait depends on your business
     processes and on how often you expect the operation to return new
     results.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">MoreResultsAvailable</span>
     response element returns `true`, there are more response elements to
     return now. Continue to Step 3.
 
-3.  Continue calling the "ByNextToken" operation until the
-    <span class="keyword parmname">MoreResultsAvailable</span> response
+3.  Continue calling the "ByNextToken" operation until the <span
+    class="keyword parmname">MoreResultsAvailable</span> response
     element returns `false`. Then, wait for a period of time before you
     call the "ByNextToken" operation again. The amount of time to wait
     depends on your business processes and on how often you expect the
@@ -150,37 +150,37 @@ sections.
 ### Using NextToken with operations that do not return HasNext or MoreResultsAvailable
 
 1.  Call an operation.
-    
+
     If the <span class="keyword parmname">NextToken</span> response
     element is not returned, there are no more response elements to
     return. Task is complete.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">NextToken</span> response
     element is returned, there are more response elements to return.
     Continue to Step 2.
 
 2.  Call the "ByNextToken" operation that matches the operation you
-    called in Step 1 (for example, call
-    <span class="keyword apiname">ListOrdersByNextToken</span> if you
-    called <span class="keyword apiname">ListOrders</span>) and include
-    the <span class="keyword parmname">NextToken</span> value returned
-    in Step 1.
-    
+    called in Step 1 (for example, call <span
+    class="keyword apiname">ListOrdersByNextToken</span> if you called
+    <span class="keyword apiname">ListOrders</span>) and include the
+    <span class="keyword parmname">NextToken</span> value returned in
+    Step 1.
+
     If the <span class="keyword parmname">NextToken</span> response
     element is not returned, there are no more response elements to
     return. Task is complete.
-    
+
     OR
-    
+
     If the <span class="keyword parmname">NextToken</span> response
     element is returned, there are more response elements to return.
     Continue to Step 3.
 
-3.  Continue calling the "ByNextToken" operation until the
-    <span class="keyword parmname">NextToken</span> response element is
-    no longer returned.
+3.  Continue calling the "ByNextToken" operation until the <span
+    class="keyword parmname">NextToken</span> response element is no
+    longer returned.
 
 </div>
 
@@ -190,27 +190,28 @@ sections.
 
 <div id="Errors" class="topic nested1">
 
-## Handling errors with NextTokens
+Handling errors with NextTokens
+-------------------------------
 
 <div class="body">
 
 If you ever submit a <span class="keyword parmname">NextToken</span> to
-a "ByNextToken" operation and the service returns a
-<span class="keyword parmname">NextTokenCorrupted</span> error, do not
-attempt to repeat the call with the same
-<span class="keyword parmname">NextToken</span>. Instead, call the
-operation that originally created the
-<span class="keyword parmname">NextToken</span> to get a new
-<span class="keyword parmname">NextToken</span>.
+a "ByNextToken" operation and the service returns a <span
+class="keyword parmname">NextTokenCorrupted</span> error, do not attempt
+to repeat the call with the same <span
+class="keyword parmname">NextToken</span>. Instead, call the operation
+that originally created the <span
+class="keyword parmname">NextToken</span> to get a new <span
+class="keyword parmname">NextToken</span>.
 
-For example, if you call the
-<span class="keyword apiname">ListOrdersByNextToken</span> operation and
-you receive a <span class="keyword parmname">NextTokenCorrupted</span>
+For example, if you call the <span
+class="keyword apiname">ListOrdersByNextToken</span> operation and you
+receive a <span class="keyword parmname">NextTokenCorrupted</span>
 error, call the <span class="keyword apiname">ListOrders</span>
-operation to generate a new
-<span class="keyword parmname">NextToken</span>. You can then pass this
-new <span class="keyword parmname">NextToken</span> to the
-<span class="keyword apiname">ListOrdersByNextToken</span> operation.
+operation to generate a new <span
+class="keyword parmname">NextToken</span>. You can then pass this new
+<span class="keyword parmname">NextToken</span> to the <span
+class="keyword apiname">ListOrdersByNextToken</span> operation.
 
 </div>
 

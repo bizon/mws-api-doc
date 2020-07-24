@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,20 +34,21 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_Datatypes" class="nested0">
 
-# Sellers Datatypes
+Sellers Datatypes
+=================
 
 <div class="body">
 
-The following datatypes are used in the response elements of the
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Sellers API section</span>:
+The following datatypes are used in the response elements of the <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> <span
+class="ph">Sellers API section</span>:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                        | Description                                                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Marketplace](#Marketplace "Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.") | <span class="ph">Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.</span> |
-| [Participation](#Participation "Detailed information that is specific to a seller in a Marketplace.")                                                       | <span class="ph">Detailed information that is specific to a seller in a Marketplace.</span>                                                           |
+| Name                                                                                                                                                                                      | Description                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#Marketplace" class="xref" title="Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.">Marketplace</a> | <span class="ph">Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.</span> |
+| <a href="#Participation" class="xref" title="Detailed information that is specific to a seller in a Marketplace.">Participation</a>                                                       | <span class="ph">Detailed information that is specific to a seller in a Marketplace.</span>                                                           |
 
 </div>
 
@@ -56,7 +56,8 @@ The following datatypes are used in the response elements of the
 
 <div id="Marketplace" class="topic nested1">
 
-## Marketplace
+Marketplace
+-----------
 
 <div class="body">
 
@@ -68,8 +69,8 @@ items.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Marketplace</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Marketplace</span> datatype:
 
 <div class="tablenoborder">
 
@@ -128,7 +129,8 @@ The following table shows the elements of the
 
 <div id="Participation" class="topic nested1">
 
-## Participation
+Participation
+-------------
 
 <div class="body">
 
@@ -139,8 +141,8 @@ Marketplace.</span>
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">Participation</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">Participation</span> datatype:
 
 <div class="tablenoborder">
 
@@ -184,12 +186,12 @@ The following table shows the elements of the
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Sellers API
-Section](Sellers_Overview.md)
+<a href="Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_UpdateInboundShipment" class="nested0">
 
-# UpdateInboundShipment
+UpdateInboundShipment
+=====================
 
 <div class="body">
 
@@ -45,7 +45,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -53,29 +54,29 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 The <span class="keyword apiname">UpdateInboundShipment</span> operation
 can add, update, and remove items from an existing inbound shipment. The
-existing shipment is identified by the
-<span class="keyword parmname">ShipmentId</span>. Each
-<span class="keyword apiname">UpdateInboundShipment</span> operation
-that you submit can include up to 200 items.
+existing shipment is identified by the <span
+class="keyword parmname">ShipmentId</span>. Each <span
+class="keyword apiname">UpdateInboundShipment</span> operation that you
+submit can include up to 200 items.
 
-If you include the
-<span class="keyword parmname">InboundShipmentHeader</span> request
-parameter, it replaces the
-<span class="keyword parmname">InboundShipmentHeader</span> information
-for the shipment you are updating. Note that you can update the status
-of your inbound shipment by including the
-<span class="keyword parmname">InboundShipmentHeader</span> request
-parameter and changing the
-<span class="keyword parmname">ShipmentStatus</span> element.
+If you include the <span
+class="keyword parmname">InboundShipmentHeader</span> request parameter,
+it replaces the <span
+class="keyword parmname">InboundShipmentHeader</span> information for
+the shipment you are updating. Note that you can update the status of
+your inbound shipment by including the <span
+class="keyword parmname">InboundShipmentHeader</span> request parameter
+and changing the <span class="keyword parmname">ShipmentStatus</span>
+element.
 
-If you include the
-<span class="keyword parmname">InboundShipmentItems</span> request
-parameter, the behavior is as follows:
+If you include the <span
+class="keyword parmname">InboundShipmentItems</span> request parameter,
+the behavior is as follows:
 
-  - Including an item that doesn't exist in the inbound shipment, as
+-   Including an item that doesn't exist in the inbound shipment, as
     identified by the <span class="keyword parmname">SellerSKU</span>,
     adds the new item to the inbound shipment.
-  - Including an item that already exists in the shipment, as identified
+-   Including an item that already exists in the shipment, as identified
     by the <span class="keyword parmname">SellerSKU</span>, replaces the
     existing item. Note that if the new item that replaces the old item
     has <span class="keyword parmname">QuantityShipped</span> set to
@@ -100,9 +101,8 @@ The <span class="keyword apiname">UpdateInboundShipment</span> operation
 has a **maximum request quota** of 30 and a **restore rate** of two
 requests every second. <span class="ph">For definitions of throttling
 terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -112,7 +112,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -120,19 +121,18 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
 <div class="tablenoborder">
 
-| Name                                                        | Description                                                                                                                                                                      | Required | Values                                                                                                                                                                                                        |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <span class="keyword parmname">ShipmentId</span>            | <span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                               | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                       |
-| <span class="keyword parmname">InboundShipmentHeader</span> | <span class="ph">Header information for an inbound shipment. </span>                                                                                                             | Yes      | Type: [InboundShipmentHeader](FBAInbound_Datatypes.md#InboundShipmentHeader "Inbound shipment information used to create and update inbound shipments.")                                                    |
-| <span class="keyword parmname">InboundShipmentItems</span>  | <span class="ph"><span class="keyword parmname">SellerSKU</span> and <span class="keyword parmname">QuantityShipped</span> information for items in an inbound shipment. </span> | Yes      | Type: [InboundShipmentItem](FBAInbound_Datatypes.md#InboundShipmentItem "Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.") |
+| Name                                                        | Description                                                                                                                                                                      | Required | Values                                                                                                                                                                                                                                      |
+|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">ShipmentId</span>            | <span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span>                               | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                                                                                     |
+| <span class="keyword parmname">InboundShipmentHeader</span> | <span class="ph">Header information for an inbound shipment. </span>                                                                                                             | Yes      | Type: <a href="FBAInbound_Datatypes.md#InboundShipmentHeader" class="xref" title="Inbound shipment information used to create and update inbound shipments.">InboundShipmentHeader</a>                                                    |
+| <span class="keyword parmname">InboundShipmentItems</span>  | <span class="ph"><span class="keyword parmname">SellerSKU</span> and <span class="keyword parmname">QuantityShipped</span> information for items in an inbound shipment. </span> | Yes      | Type: <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a> |
 
 </div>
 
@@ -142,7 +142,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -176,7 +177,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -185,8 +187,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -194,39 +196,37 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-&Action=UpdateInboundShipment
-&SellerId=A135KKEKWF1J56
-&SignatureVersion=2
-&Timestamp=2015-11-29T22%3A51%3A09Z
-&Version=2010-10-01
-&Signature=zzk0jdEopg7JgFAAjVrmESGYHKwvBJ2BhYdC1gLaUhc%3D
-&SignatureMethod=HmacSHA256
-&ShipmentId=FBA0000001
-&InboundShipmentHeader.ShipmentName=SHIPMENT_NAME
-&InboundShipmentHeader.ShipFromAddress.Name=NAME
-&InboundShipmentHeader.ShipFromAddress.AddressLine1=ADDR_LINE1
-&InboundShipmentHeader.ShipFromAddress.City=Seattle
-&InboundShipmentHeader.ShipFromAddress.StateOrProvinceCode=WA
-&InboundShipmentHeader.ShipFromAddress.PostalCode=98121
-&InboundShipmentHeader.ShipFromAddress.CountryCode=US
-&InboundShipmentHeader.DestinationFulfillmentCenterId=ABE2
-&InboundShipmentHeader.ShipmentStatus=WORKING
-&InboundShipmentHeader.LabelPrepPreference=SELLER_LABEL
-&InboundShipmentHeader.IntendedBoxContentsSource=2D_BARCODE
-&InboundShipmentItems.member.1.QuantityShipped=1
-&InboundShipmentItems.member.1.SellerSKU=SKU00001
-&InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping 
-&InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
-&InboundShipmentItems.member.2.QuantityShipped=2
-&InboundShipmentItems.member.2.SellerSKU=SKU00002
-&InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepInstruction=Taping 
-&InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepOwner=SELLER
-```
+    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+    ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+    &Action=UpdateInboundShipment
+    &SellerId=A135KKEKWF1J56
+    &SignatureVersion=2
+    &Timestamp=2015-11-29T22%3A51%3A09Z
+    &Version=2010-10-01
+    &Signature=zzk0jdEopg7JgFAAjVrmESGYHKwvBJ2BhYdC1gLaUhc%3D
+    &SignatureMethod=HmacSHA256
+    &ShipmentId=FBA0000001
+    &InboundShipmentHeader.ShipmentName=SHIPMENT_NAME
+    &InboundShipmentHeader.ShipFromAddress.Name=NAME
+    &InboundShipmentHeader.ShipFromAddress.AddressLine1=ADDR_LINE1
+    &InboundShipmentHeader.ShipFromAddress.City=Seattle
+    &InboundShipmentHeader.ShipFromAddress.StateOrProvinceCode=WA
+    &InboundShipmentHeader.ShipFromAddress.PostalCode=98121
+    &InboundShipmentHeader.ShipFromAddress.CountryCode=US
+    &InboundShipmentHeader.DestinationFulfillmentCenterId=ABE2
+    &InboundShipmentHeader.ShipmentStatus=WORKING
+    &InboundShipmentHeader.LabelPrepPreference=SELLER_LABEL
+    &InboundShipmentHeader.IntendedBoxContentsSource=2D_BARCODE
+    &InboundShipmentItems.member.1.QuantityShipped=1
+    &InboundShipmentItems.member.1.SellerSKU=SKU00001
+    &InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping 
+    &InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
+    &InboundShipmentItems.member.2.QuantityShipped=2
+    &InboundShipmentItems.member.2.SellerSKU=SKU00002
+    &InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepInstruction=Taping 
+    &InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepOwner=SELLER
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -237,7 +237,7 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -245,20 +245,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0" encoding="UTF-8"?>
-<UpdateInboundShipmentResponse
-  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-  <UpdateInboundShipmentResult>
-    <ShipmentId>FBA2F50GYX</ShipmentId>
-  </UpdateInboundShipmentResult>
-  <ResponseMetadata>
-    <RequestId>4a2d48a7-9ac3-41f9-82e8-cbd9c137c7c6</RequestId>
-  </ResponseMetadata>
-</UpdateInboundShipmentResponse>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <UpdateInboundShipmentResponse
+      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+      <UpdateInboundShipmentResult>
+        <ShipmentId>FBA2F50GYX</ShipmentId>
+      </UpdateInboundShipmentResult>
+      <ResponseMetadata>
+        <RequestId>4a2d48a7-9ac3-41f9-82e8-cbd9c137c7c6</RequestId>
+      </ResponseMetadata>
+    </UpdateInboundShipmentResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -270,14 +268,14 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
+<a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
 
 </div>
 

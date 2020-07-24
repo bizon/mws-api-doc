@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_ProvideBatteryAndDgInfo" class="nested0">
 
-# Provide battery and dangerous goods information
+Provide battery and dangerous goods information
+===============================================
 
 <div class="body">
 
@@ -46,21 +46,20 @@ be considered dangerous goods (also called hazardous materials or
 Hazmat). Any attempt to convert a listing to <span class="ph">FBA</span>
 before providing battery and dangerous goods information will fail.
 
-  - **For batteries and products containing or sold with batteries.**
+-   **For batteries and products containing or sold with batteries.**
     Provide descriptive characteristics such as battery composition
     (e.g., lithium ion, alkaline, etc.) and the number of batteries.
-  - **For products considered dangerous goods.** Provide additional
+-   **For products considered dangerous goods.** Provide additional
     information to identify characteristics of the product such as
     flammability or corrosiveness that would indicate the transportation
     classification (UN Number).
 
-For more information about this policy, see [Dangerous goods
-identification
-guide](https://sellercentral-europe.amazon.com/gp/help/201003400).
+For more information about this policy, see
+<a href="https://sellercentral-europe.amazon.com/gp/help/201003400" class="xref">Dangerous goods identification guide</a>.
 
-For more information about creating listings for
-<span class="ph">FBA</span> inventory see [Step 1 - Create a listing and
-convert it to FBA](FBAGuide_CreateListing.md#FBAGuide_CreateListing).
+For more information about creating listings for <span
+class="ph">FBA</span> inventory see
+<a href="FBAGuide_CreateListing.md#FBAGuide_CreateListing" class="xref">Step 1 - Create a listing and convert it to FBA</a>.
 
 </div>
 
@@ -70,8 +69,8 @@ convert it to FBA](FBAGuide_CreateListing.md#FBAGuide_CreateListing).
 
 <div class="parentlink">
 
-**Parent topic:** [Best
-practices](../fba_guide/FBAGuide_BestPractices.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_BestPractices.md" class="link">Best practices</a>
 
 </div>
 

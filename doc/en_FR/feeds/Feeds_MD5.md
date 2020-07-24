@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,20 +32,22 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations
+Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations
+=====================================================================================
 
 <div class="body conbody">
 
-The Content-MD5 header and
-<span class="keyword parmname">ContentMD5Value</span> parameter are used
-as a message integrity check to verify that the decoded data received is
-the same data that was initially sent.
+The Content-MD5 header and <span
+class="keyword parmname">ContentMD5Value</span> parameter are used as a
+message integrity check to verify that the decoded data received is the
+same data that was initially sent.
 
-When you use the [SubmitFeed](../feeds/Feeds_SubmitFeed.md) operation,
-you must create an MD5 hash of the HTTP entity body, and include it in
-your request. You should include the hash in a
-<span class="keyword parmname">ContentMD5Value</span> parameter. This
-lets <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
+When you use the
+<a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a>
+operation, you must create an MD5 hash of the HTTP entity body, and
+include it in your request. You should include the hash in a <span
+class="keyword parmname">ContentMD5Value</span> parameter. This lets
+<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
 compare the MD5 hash you create with the MD5 hash it creates when it
 receives the feed. <span class="ph">Amazon MWS</span> can then determine
 if the feed submitted for processing is identical to the feed that was
@@ -54,16 +55,16 @@ received. This process prevents corrupted descriptive data or pricing
 product data from appearing in Amazon product listings.
 
 For backward compatibility, you can still include the hash in the
-Content-MD5 header when calling
-<span class="keyword apiname">SubmitFeed</span>. Passing the MD5 value
-as a <span class="keyword apiname">SubmitFeed</span> parameter instead
-of a header means that the MD5 hash is included in the method signature,
+Content-MD5 header when calling <span
+class="keyword apiname">SubmitFeed</span>. Passing the MD5 value as a
+<span class="keyword apiname">SubmitFeed</span> parameter instead of a
+header means that the MD5 hash is included in the method signature,
 which prevents anyone on the network from tampering with the feed
 content. Passing a Content-MD5 header prevents accidental corruption but
 not intentional tampering.
 
 When you use the
-[GetFeedSubmissionResult](../feeds/Feeds_GetFeedSubmissionResult.md)
+<a href="../feeds/Feeds_GetFeedSubmissionResult.md" class="xref">GetFeedSubmissionResult</a>
 operation, you must calculate an MD5 hash for the received feeds report
 and compare that with the Content-MD5 header that is included in the
 response. If the two match, the report was not corrupted in
@@ -73,8 +74,8 @@ The <span class="ph">Amazon MWS</span> client libraries provide an easy
 way to pass in the Content-MD5 hash with every <span class="ph">Amazon
 MWS</span> request, as long as you send data that has been stored on
 disk and an MD5 hash has been created for the data. For more information
-about working with the Content-MD5 header, see [Working with Content-MD5
-checksums](../dev_guide/DG_MD5.md).
+about working with the Content-MD5 header, see
+<a href="../dev_guide/DG_MD5.md" class="xref">Working with Content-MD5 checksums</a>.
 
 </div>
 
@@ -84,8 +85,8 @@ checksums](../dev_guide/DG_MD5.md).
 
 <div class="parentlink">
 
-**Parent topic:** [What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+**Parent topic:**
+<a href="../feeds/Feeds_Overview.md" class="link">What you should know about the Amazon MWS Feeds API section</a>
 
 </div>
 

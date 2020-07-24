@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,14 +34,15 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_InventoryToAFN" class="nested0">
 
-# Shipping inventory to <span class="ph">Amazon's fulfillment network</span>
+Shipping inventory to <span class="ph">Amazon's fulfillment network</span>
+==========================================================================
 
 <div class="body">
 
-Amazon recommends this workflow to ship inventory to
-<span class="ph">Amazon's fulfillment network</span>. Once in the
-fulfillment network, a seller's items can be used to fulfill orders on
-Amazon's retail website or through other sales channels.
+Amazon recommends this workflow to ship inventory to <span
+class="ph">Amazon's fulfillment network</span>. Once in the fulfillment
+network, a seller's items can be used to fulfill orders on Amazon's
+retail website or through other sales channels.
 
 Following these steps to ship inventory to <span class="ph">Amazon's
 fulfillment network</span>.
@@ -51,7 +51,8 @@ fulfillment network</span>.
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
 1.  [Step 1 - Create a listing and convert it to
     FBA](../fba_guide/FBAGuide_CreateListing.md)  
@@ -80,7 +81,8 @@ fulfillment network</span>.
 
 <div class="parentlink">
 
-**Parent topic:** [Common tasks](../fba_guide/FBAGuide_CommonTasks.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_CommonTasks.md" class="link">Common tasks</a>
 
 </div>
 

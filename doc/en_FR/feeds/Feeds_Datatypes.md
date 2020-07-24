@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,19 +34,20 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_Datatypes" class="nested0">
 
-# Feeds Datatypes
+Feeds Datatypes
+===============
 
 <div class="body">
 
-The following datatypes are used in the response elements of the
-<span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>
-<span class="ph">Feeds API section</span>:
+The following datatypes are used in the response elements of the <span
+class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> <span
+class="ph">Feeds API section</span>:
 
 <div class="tablenoborder">
 
-| Name                                                                                      | Description                                                           |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [FeedSubmissionInfo](#FeedSubmissionInfo "Detailed information about a feed submission.") | <span class="ph">Detailed information about a feed submission.</span> |
+| Name                                                                                                                    | Description                                                           |
+|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| <a href="#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a> | <span class="ph">Detailed information about a feed submission.</span> |
 
 </div>
 
@@ -55,7 +55,8 @@ The following datatypes are used in the response elements of the
 
 <div id="FeedSubmissionInfo" class="topic nested1">
 
-## FeedSubmissionInfo
+FeedSubmissionInfo
+------------------
 
 <div class="body">
 
@@ -65,8 +66,8 @@ The following datatypes are used in the response elements of the
 
 ### Datatype content
 
-The following table shows the elements of the
-<span class="keyword parmname">FeedSubmissionInfo</span> datatype:
+The following table shows the elements of the <span
+class="keyword parmname">FeedSubmissionInfo</span> datatype:
 
 <div class="tablenoborder">
 
@@ -128,12 +129,12 @@ The following table shows the elements of the
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Feeds API
-section](../feeds/Feeds_Overview.md)
+<a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>
 
 </div>
 

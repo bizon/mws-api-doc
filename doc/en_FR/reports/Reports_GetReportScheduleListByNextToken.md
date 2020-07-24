@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportScheduleListByNextToken" class="nested0">
 
-# GetReportScheduleListByNextToken
+GetReportScheduleListByNextToken
+================================
 
 <div class="body">
 
@@ -48,19 +48,18 @@ compatibility.</span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[What you should know about the Amazon MWS Reports API
-section](../reports/Reports_Overview.md)
+<a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>
 
-[GetReportScheduleList](Reports_GetReportScheduleList.md "Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.")
+<a href="Reports_GetReportScheduleList.md" class="xref" title="Returns a list of order report requests that are scheduled to be submitted to Amazon MWS for processing.">GetReportScheduleList</a>
 
-[ManageReportSchedule](Reports_ManageReportSchedule.md "Creates, updates, or deletes a report request schedule for a specified report type.")
+<a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a>
 
 </div>
 

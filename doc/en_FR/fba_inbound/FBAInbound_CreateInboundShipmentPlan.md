@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_CreateInboundShipmentPlan" class="nested0">
 
-# CreateInboundShipmentPlan
+CreateInboundShipmentPlan
+=========================
 
 <div class="body">
 
@@ -46,7 +46,8 @@ shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
@@ -56,20 +57,20 @@ The <span class="keyword apiname">CreateInboundShipmentPlan</span>
 operation returns one or more inbound shipment plans, which provide the
 information you need to create one or more inbound shipments for a set
 of items that you specify. Multiple inbound shipment plans might be
-required so that items can be optimally placed in
-<span class="ph">Amazon's fulfillment network</span>—for example,
-positioning inventory closer to the customer. Alternatively, two inbound
-shipment plans might be created with the same <span class="ph">Amazon
-fulfillment center</span> destination if the two shipment plans require
-different processing—for example, items that require labels must be
-shipped separately from stickerless, commingled inventory.
+required so that items can be optimally placed in <span
+class="ph">Amazon's fulfillment network</span>—for example, positioning
+inventory closer to the customer. Alternatively, two inbound shipment
+plans might be created with the same <span class="ph">Amazon fulfillment
+center</span> destination if the two shipment plans require different
+processing—for example, items that require labels must be shipped
+separately from stickerless, commingled inventory.
 
 <div class="note note">
 
 <span class="notetitle">Note:</span> If you are creating your own
-labels, see [Item label
-specifications](../fba_guide/FBAGuide_ItemLabelSpec.md) in
-<span class="ph">Amazon MWS for FBA Sellers</span>.
+labels, see
+<a href="../fba_guide/FBAGuide_ItemLabelSpec.md" class="xref">Item label specifications</a>
+in <span class="ph">Amazon MWS for FBA Sellers</span>.
 
 </div>
 
@@ -80,12 +81,11 @@ specifications](../fba_guide/FBAGuide_ItemLabelSpec.md) in
 ### Creating inbound shipments to countries
 
 Sellers in North America and <span class="ph">Multi-Country
-Inventory</span> (MCI) sellers in Europe can use the
-<span class="keyword parmname">ShipToCountryCode</span> request
-parameter of the
-<span class="keyword apiname">CreateInboundShipmentPlan</span> operation
-to specify which country their inbound shipments will be sent to.
-Sellers whose home marketplace is the US or Canada can specify that
+Inventory</span> (MCI) sellers in Europe can use the <span
+class="keyword parmname">ShipToCountryCode</span> request parameter of
+the <span class="keyword apiname">CreateInboundShipmentPlan</span>
+operation to specify which country their inbound shipments will be sent
+to. Sellers whose home marketplace is the US or Canada can specify that
 their inbound shipments will be sent to <span class="ph">Amazon's
 fulfillment network</span> in either one of those countries. Likewise,
 MCI sellers whose home marketplace is Germany, France, Italy, Spain, or
@@ -110,9 +110,8 @@ The <span class="keyword apiname">CreateInboundShipmentPlan</span>
 operation has a **maximum request quota** of 30 and a **restore rate**
 of two requests every second. <span class="ph">For definitions of
 throttling terminology and for a complete explanation of throttling, see
-[Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -122,7 +121,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -130,9 +130,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <span class="ph">For more information about the request parameters that
 are required for all <span class="ph">Amazon MWS</span> operations, see
-[Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -222,7 +221,8 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -256,17 +256,17 @@ parameters](../dev_guide/DG_RequiredRequestParameters.md) in the
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
 <div class="section">
 
-For an example of
-<span class="keyword apiname">CreateInboundShipmentPlan</span> with
-multiple <span class="keyword parmname">PrepOwners</span>, see
-[Preparation
-examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.").
+For an example of <span
+class="keyword apiname">CreateInboundShipmentPlan</span> with multiple
+<span class="keyword parmname">PrepOwners</span>, see
+<a href="FBAInbound_PreparationExamples.md" class="xref" title="These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.">Preparation examples</a>.
 
 </div>
 
@@ -275,8 +275,8 @@ examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to c
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -284,30 +284,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-&Action=CreateInboundShipmentPlan
-&SellerId=A135KKEKWF1J56
-&SignatureVersion=2
-&Timestamp=2015-11-29T22%3A36%3A53Z
-&Version=2010-10-01
-&Signature=wMAeU2CEHdRCPh%2Fg7lQC7HkgRjxZlLxtbbDvFDHzdOE%3D
-&SignatureMethod=HmacSHA256
-&LabelPrepPreference=SELLER_LABEL
-&ShipFromAddress.Name=test1
-&ShipFromAddress.AddressLine1=LINE_1
-&ShipFromAddress.City=Seattle
-&ShipFromAddress.StateOrProvinceCode=WA
-&ShipFromAddress.PostalCode=98121
-&ShipFromAddress.CountryCode=US
-&InboundShipmentPlanRequestItems.member.1.SellerSKU=SKU00001
-&InboundShipmentPlanRequestItems.member.1.Quantity=1
-&InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping
-&InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
-```
+    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+    ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+    &Action=CreateInboundShipmentPlan
+    &SellerId=A135KKEKWF1J56
+    &SignatureVersion=2
+    &Timestamp=2015-11-29T22%3A36%3A53Z
+    &Version=2010-10-01
+    &Signature=wMAeU2CEHdRCPh%2Fg7lQC7HkgRjxZlLxtbbDvFDHzdOE%3D
+    &SignatureMethod=HmacSHA256
+    &LabelPrepPreference=SELLER_LABEL
+    &ShipFromAddress.Name=test1
+    &ShipFromAddress.AddressLine1=LINE_1
+    &ShipFromAddress.City=Seattle
+    &ShipFromAddress.StateOrProvinceCode=WA
+    &ShipFromAddress.PostalCode=98121
+    &ShipFromAddress.CountryCode=US
+    &InboundShipmentPlanRequestItems.member.1.SellerSKU=SKU00001
+    &InboundShipmentPlanRequestItems.member.1.Quantity=1
+    &InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping
+    &InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -318,7 +316,7 @@ https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -326,58 +324,56 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<CreateInboundShipmentPlanResponse
-  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-  <CreateInboundShipmentPlanResult>
-    <InboundShipmentPlans>
-      <member>
-        <DestinationFulfillmentCenterId>ABE2</DestinationFulfillmentCenterId>
-        <LabelPrepType>SELLER_LABEL</LabelPrepType>
-        <ShipToAddress>
-          <City>Breinigsville</City>
-          <CountryCode>US</CountryCode>
-          <PostalCode>18031</PostalCode>
-          <Name>Amazon.com</Name>
-          <AddressLine1>705 Boulder Drive</AddressLine1>
-          <StateOrProvinceCode>PA</StateOrProvinceCode>
-        </ShipToAddress>
-        <EstimatedBoxContentsFee>
-          <TotalUnits>10</TotalUnits>
-          <FeePerUnit>
-            <CurrencyCode>USD</CurrencyCode>
-            <Value>0.10</Value>
-          </FeePerUnit>
-          <TotalFee>
-            <CurrencyCode>USD</CurrencyCode>
-            <Value>10.0</Value>
-          </TotalFee>
-        </EstimatedBoxContentsFee>
-        <Items>
+    <?xml version="1.0"?>
+    <CreateInboundShipmentPlanResponse
+      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+      <CreateInboundShipmentPlanResult>
+        <InboundShipmentPlans>
           <member>
-            <FulfillmentNetworkSKU>FNSKU00001</FulfillmentNetworkSKU>
-            <Quantity>1</Quantity>
-            <SellerSKU>SKU00001</SellerSKU>
-            <PrepDetailsList>
-              <PrepDetails>
-                <PrepInstruction>Taping</PrepInstruction>
-                <PrepOwner>AMAZON</PrepOwner>
-              </PrepDetails>
-            </PrepDetailsList>
+            <DestinationFulfillmentCenterId>ABE2</DestinationFulfillmentCenterId>
+            <LabelPrepType>SELLER_LABEL</LabelPrepType>
+            <ShipToAddress>
+              <City>Breinigsville</City>
+              <CountryCode>US</CountryCode>
+              <PostalCode>18031</PostalCode>
+              <Name>Amazon.com</Name>
+              <AddressLine1>705 Boulder Drive</AddressLine1>
+              <StateOrProvinceCode>PA</StateOrProvinceCode>
+            </ShipToAddress>
+            <EstimatedBoxContentsFee>
+              <TotalUnits>10</TotalUnits>
+              <FeePerUnit>
+                <CurrencyCode>USD</CurrencyCode>
+                <Value>0.10</Value>
+              </FeePerUnit>
+              <TotalFee>
+                <CurrencyCode>USD</CurrencyCode>
+                <Value>10.0</Value>
+              </TotalFee>
+            </EstimatedBoxContentsFee>
+            <Items>
+              <member>
+                <FulfillmentNetworkSKU>FNSKU00001</FulfillmentNetworkSKU>
+                <Quantity>1</Quantity>
+                <SellerSKU>SKU00001</SellerSKU>
+                <PrepDetailsList>
+                  <PrepDetails>
+                    <PrepInstruction>Taping</PrepInstruction>
+                    <PrepOwner>AMAZON</PrepOwner>
+                  </PrepDetails>
+                </PrepDetailsList>
+              </member>
+            </Items>
+            <ShipmentId>FBA0000001</ShipmentId>
           </member>
-        </Items>
-        <ShipmentId>FBA0000001</ShipmentId>
-      </member>
-    </InboundShipmentPlans>
-  </CreateInboundShipmentPlanResult>
-  <ResponseMetadata>
-    <RequestId>babd156d-8b2f-40b1-a770-d117f9ccafef</RequestId>
-  </ResponseMetadata>
-</CreateInboundShipmentPlanResponse>
-```
+        </InboundShipmentPlans>
+      </CreateInboundShipmentPlanResult>
+      <ResponseMetadata>
+        <RequestId>babd156d-8b2f-40b1-a770-d117f9ccafef</RequestId>
+      </ResponseMetadata>
+    </CreateInboundShipmentPlanResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -389,17 +385,16 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Fulfillment Inbound Shipment
-API](../fba_inbound/FBAInbound_Overview.md)
+<a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a>
 
-[Preparation
-examples](FBAInbound_PreparationExamples.md "These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.")
+<a href="FBAInbound_PreparationExamples.md" class="xref" title="These examples demonstrate how to create separate shipments for items that have different PrepOwners for the same PrepInstruction, and show how errors can result if the same instruction is given to two owners in the same shipment.">Preparation examples</a>
 
-[CreateInboundShipment](../fba_inbound/FBAInbound_CreateInboundShipment.md)
+<a href="../fba_inbound/FBAInbound_CreateInboundShipment.md" class="xref">CreateInboundShipment</a>
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,7 +32,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-# Step 5 - Use an Amazon-partnered carrier for your inbound shipments (optional)
+Step 5 - Use an Amazon-partnered carrier for your inbound shipments (optional)
+==============================================================================
 
 <div class="body conbody">
 
@@ -42,8 +42,8 @@ marketplaces) and the US marketplace can take advantage of discounted
 shipping rates by using an Amazon-partnered carrier for their inbound
 shipments.
 
-For more information, see [Using an Amazon-partnered carrier for your
-inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
+For more information, see
+<a href="FBAGuide_UsingAmazonCarrierToShip.md" class="xref">Using an Amazon-partnered carrier for your inbound shipment</a>.
 
 </div>
 
@@ -53,22 +53,22 @@ inbound shipment](FBAGuide_UsingAmazonCarrierToShip.md).
 
 <div class="parentlink">
 
-**Parent topic:** [Shipping inventory to Amazon's fulfillment
-network](../fba_guide/FBAGuide_ShipInventoryToAFN.md)
+**Parent topic:**
+<a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="link">Shipping inventory to Amazon's fulfillment network</a>
 
 </div>
 
 <div class="previouslink">
 
-**Previous topic:** [Step 4 - Create an inbound
-shipment](../fba_guide/FBAGuide_CreateInShip.md)
+**Previous topic:**
+<a href="../fba_guide/FBAGuide_CreateInShip.md" class="link">Step 4 - Create an inbound shipment</a>
 
 </div>
 
 <div class="nextlink">
 
-**Next topic:** [Step 6 - Send shipment tracking numbers to
-Amazon](../fba_guide/FBAGuide_SendShipTrackNumbers.md)
+**Next topic:**
+<a href="../fba_guide/FBAGuide_SendShipTrackNumbers.md" class="link">Step 6 - Send shipment tracking numbers to Amazon</a>
 
 </div>
 

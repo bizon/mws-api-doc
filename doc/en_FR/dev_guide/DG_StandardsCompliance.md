@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_StandardsCompliance" class="nested0">
 
-# Standards compliance in <span class="ph">Amazon MWS</span>
+Standards compliance in <span class="ph">Amazon MWS</span>
+==========================================================
 
 <div class="body">
 
@@ -45,14 +45,15 @@ important standards used here and how they have been adopted.
 
 <div class="section">
 
-## XML/XSD Datatypes
+XML/XSD Datatypes
+-----------------
 
 When an API reference page lists a data type with an xs: prefix, such as
-<span class="keyword">xs:int</span> or
-<span class="keyword">xs:string</span>, these refer to the built-in XSD
-datatypes. See the [W3C XML Schema Definition Language (XSD) 1.1 Part 2:
-Datatypes](https://www.w3.org/TR/xmlschema11-2/#built-in-datatypes) for
-detailed information.
+<span class="keyword">xs:int</span> or <span
+class="keyword">xs:string</span>, these refer to the built-in XSD
+datatypes. See the
+<a href="https://www.w3.org/TR/xmlschema11-2/#built-in-datatypes" class="xref">W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes</a>
+for detailed information.
 
 </div>
 
@@ -60,12 +61,13 @@ detailed information.
 
 <div class="related-links">
 
-## In this section
+In this section
+---------------
 
-  - **[ISO 8601 use in Amazon MWS](../dev_guide/DG_ISO8601.md)**  
-  - **[ISO 4217 use in Amazon MWS](../dev_guide/DG_ISO4217.md)**  
-  - **[ISO 639-1 use in Amazon MWS](../dev_guide/DG_ISO639.md)**  
-  - **[ISO 8859-1 use in Amazon MWS](../dev_guide/DG_ISO8859.md)**  
+-   **[ISO 8601 use in Amazon MWS](../dev_guide/DG_ISO8601.md)**  
+-   **[ISO 4217 use in Amazon MWS](../dev_guide/DG_ISO4217.md)**  
+-   **[ISO 639-1 use in Amazon MWS](../dev_guide/DG_ISO639.md)**  
+-   **[ISO 8859-1 use in Amazon MWS](../dev_guide/DG_ISO8859.md)**  
 
 </div>
 

@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_Overview" class="nested0">
 
-# What you should know about Amazon MWS push notifications
+What you should know about Amazon MWS push notifications
+========================================================
 
 <div class="body">
 
@@ -44,10 +44,10 @@ receive information that is relevant to your business with Amazon
 without having to poll the <span class="ph">Amazon MWS</span> service.
 Instead, the information is sent directly to you when an event occurs to
 which you are subscribed. For more information about how to subscribe to
-receive notifications, see [Subscriptions
-Overview](../subscriptions/Subscriptions_Overview.md) in the
-<span class="ph">Amazon MWS</span> <span class="ph">Subscriptions API
-section</span> reference.
+receive notifications, see
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions Overview</a>
+in the <span class="ph">Amazon MWS</span> <span class="ph">Subscriptions
+API section</span> reference.
 
 The following table describes the <span class="ph">Amazon MWS</span>
 push notifications:

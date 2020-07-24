@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,7 +34,8 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Sellers_ListMarketplaceParticipations" class="nested0">
 
-# ListMarketplaceParticipations
+ListMarketplaceParticipations
+=============================
 
 <div class="body">
 
@@ -47,14 +47,15 @@ information in that marketplace.
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
-The
-<span id="Description__ListMarketplaceParticipations" class="keyword apiname">ListMarketplaceParticipations</span>
-operation gets a list of marketplaces a seller can participate in and a
-list of participations that include seller-specific information in that
+The <span id="Description__ListMarketplaceParticipations"
+class="keyword apiname">ListMarketplaceParticipations</span> operation
+gets a list of marketplaces a seller can participate in and a list of
+participations that include seller-specific information in that
 marketplace. Note that the operation returns only those marketplaces
 where the seller's account is in an active state.
 
@@ -71,15 +72,14 @@ This operation is available in all marketplaces.
 ### Throttling
 
 The <span class="keyword apiname">ListMarketplaceParticipations</span>
-and
-<span class="keyword apiname">ListMarketplaceParticipationsByNextToken</span>
+and <span
+class="keyword apiname">ListMarketplaceParticipationsByNextToken</span>
 operations together share a **maximum request quota** of 15 and a
-**restore rate** of one request per minute.
-<span id="Description__CartInfo_throttling" class="ph">For definitions
-of throttling terminology and for a complete explanation of throttling,
-see [Throttling: Limits to how often you can submit
-requests](../dev_guide/DG_Throttling.md) in the
-<span class="ph">Amazon MWS Developer Guide</span>.</span>
+**restore rate** of one request per minute. <span
+id="Description__CartInfo_throttling" class="ph">For definitions of
+throttling terminology and for a complete explanation of throttling, see
+<a href="../dev_guide/DG_Throttling.md" class="xref">Throttling: Limits to how often you can submit requests</a>
+in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 </div>
 
@@ -89,7 +89,8 @@ requests](../dev_guide/DG_Throttling.md) in the
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
@@ -105,7 +106,8 @@ None.
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -150,7 +152,8 @@ None.
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -159,8 +162,8 @@ None.
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -168,24 +171,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-POST /Sellers/2011-07-01 HTTP/1.1
-Content-Type: x-www-form-urlencoded
-Host: mws.amazonservices.com
-User-Agent: <Your User Agent Header>
+    POST /Sellers/2011-07-01 HTTP/1.1
+    Content-Type: x-www-form-urlencoded
+    Host: mws.amazonservices.com
+    User-Agent: <Your User Agent Header>
 
-AWSAccessKeyId=ADEAEIERRGENGQCJLSA
-&Action=ListMarketplaceParticipations
-&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-&SellerId=ASLLRIDHERE1J56
-&SignatureMethod=HmacSHA256
-&SignatureVersion=2
-&Timestamp=2011-07-12T18%3A17%3A58Z
-&Version=2011-07-01
-&Signature=r9mqm%2BVNEndgZJq%2BiHrFFsMrr2s7N8venKRlRR1CGR8%3D
-```
+    AWSAccessKeyId=ADEAEIERRGENGQCJLSA
+    &Action=ListMarketplaceParticipations
+    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+    &SellerId=ASLLRIDHERE1J56
+    &SignatureMethod=HmacSHA256
+    &SignatureVersion=2
+    &Timestamp=2011-07-12T18%3A17%3A58Z
+    &Version=2011-07-01
+    &Signature=r9mqm%2BVNEndgZJq%2BiHrFFsMrr2s7N8venKRlRR1CGR8%3D
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -196,7 +197,7 @@ AWSAccessKeyId=ADEAEIERRGENGQCJLSA
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -204,37 +205,35 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListMarketplaceParticipationsResponse
-    xmlns="https://mws.amazonservices.com/Sellers/2011-07-01">
-    <ListMarketplaceParticipationsResult>
-        <NextToken>MRgZW55IGNhcm5hbCBwbGVhc3VyZS6=</NextToken>
-        <ListParticipations>
-            <Participation>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <SellerId>A135KKEKJAIBJ56</SellerId>
-                <HasSellerSuspendedListings>No</HasSellerSuspendedListings>
-            </Participation>
-        </ListParticipations>
-        <ListMarketplaces>
-            <Marketplace>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <Name>Amazon.com</Name>
-                <DefaultCountryCode>US</DefaultCountryCode>
-                <DefaultCurrencyCode>USD</DefaultCurrencyCode>
-                <DefaultLanguageCode>en_US</DefaultLanguageCode>
-                <DomainName>www.amazon.com</DomainName>
-            </Marketplace>
-        </ListMarketplaces>
-    </ListMarketplaceParticipationsResult>
-    <ResponseMetadata>
-        <RequestId>efeab958-74e2-45d4-9018-2323084413b5</RequestId>
-    </ResponseMetadata>
-</ListMarketplaceParticipationsResponse>
-```
+    <?xml version="1.0"?>
+    <ListMarketplaceParticipationsResponse
+        xmlns="https://mws.amazonservices.com/Sellers/2011-07-01">
+        <ListMarketplaceParticipationsResult>
+            <NextToken>MRgZW55IGNhcm5hbCBwbGVhc3VyZS6=</NextToken>
+            <ListParticipations>
+                <Participation>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <SellerId>A135KKEKJAIBJ56</SellerId>
+                    <HasSellerSuspendedListings>No</HasSellerSuspendedListings>
+                </Participation>
+            </ListParticipations>
+            <ListMarketplaces>
+                <Marketplace>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <Name>Amazon.com</Name>
+                    <DefaultCountryCode>US</DefaultCountryCode>
+                    <DefaultCurrencyCode>USD</DefaultCurrencyCode>
+                    <DefaultLanguageCode>en_US</DefaultLanguageCode>
+                    <DomainName>www.amazon.com</DomainName>
+                </Marketplace>
+            </ListMarketplaces>
+        </ListMarketplaceParticipationsResult>
+        <ResponseMetadata>
+            <RequestId>efeab958-74e2-45d4-9018-2323084413b5</RequestId>
+        </ResponseMetadata>
+    </ListMarketplaceParticipationsResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -246,15 +245,14 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Sellers API
-Section](Sellers_Overview.md)
+<a href="Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a>
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
 </div>
 

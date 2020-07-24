@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,35 +34,36 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_MWSPushNotification" class="nested0">
 
-# MWSPushNotification
+MWSPushNotification
+===================
 
 <div class="body">
 
-Defines the basic structure of the notification. Each
-<span class="keyword parmname">Notification</span> element contains a
-notification (in the
-<span class="keyword parmname">NotificationPayload</span> child element)
-and information about the notification (in the
-<span class="keyword parmname">NotificationMetaData</span> child
-element).
+Defines the basic structure of the notification. Each <span
+class="keyword parmname">Notification</span> element contains a
+notification (in the <span
+class="keyword parmname">NotificationPayload</span> child element) and
+information about the notification (in the <span
+class="keyword parmname">NotificationMetaData</span> child element).
 
 <div class="note note">
 
 <span class="notetitle">Note:</span> If you are using this schema for
-runtime validation, future additions to the
-<span class="keyword parmname">NotificationPayload</span> element will
+runtime validation, future additions to the <span
+class="keyword parmname">NotificationPayload</span> element will
 invalidate the existing version of the schema, without prior notice.
 
 </div>
 
-The contents of the
-<span class="keyword parmname">NotificationPayload</span> child element
-will vary depending on which notification you have subscribed to. Each
+The contents of the <span
+class="keyword parmname">NotificationPayload</span> child element will
+vary depending on which notification you have subscribed to. Each
 notification is described by its own XSD.
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -71,29 +71,30 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[MWSPushNotification.xsd](http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotification.xsd)
+<a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotification.xsd" class="xref">MWSPushNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Name                                                                   | Description                                                    |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Notification](#Notification "The root element of all notifications.") | <span class="ph">The root element of all notifications.</span> |
+| Name                                                                                                 | Description                                                    |
+|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| <a href="#Notification" class="xref" title="The root element of all notifications.">Notification</a> | <span class="ph">The root element of all notifications.</span> |
 
 </div>
 
-These are the complex elements of the
-<span class="keyword parmname">MWSPushNotification</span> element:
+These are the complex elements of the <span
+class="keyword parmname">MWSPushNotification</span> element:
 
 <div class="tablenoborder">
 
-| Name                                                                                    | Description                                                       |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [NotificationMetaData](#NotificationMetaData "The metadata for the notification.")      | <span class="ph">The metadata for the notification.</span>        |
-| [NotificationPayload](#NotificationPayload "The notification that is being delivered.") | <span class="ph">The notification that is being delivered.</span> |
+| Name                                                                                                                  | Description                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| <a href="#NotificationMetaData" class="xref" title="The metadata for the notification.">NotificationMetaData</a>      | <span class="ph">The metadata for the notification.</span>        |
+| <a href="#NotificationPayload" class="xref" title="The notification that is being delivered.">NotificationPayload</a> | <span class="ph">The notification that is being delivered.</span> |
 
 </div>
 
@@ -103,7 +104,8 @@ These are the complex elements of the
 
 <div id="Notification" class="topic nested1">
 
-## Notification
+Notification
+------------
 
 <div class="body">
 
@@ -113,8 +115,8 @@ These are the complex elements of the
 
 ### Notification Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">Notification</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">Notification</span> element:
 
 <div class="tablenoborder">
 
@@ -155,7 +157,8 @@ The following table shows the child elements of the
 
 <div id="NotificationMetaData" class="topic nested1">
 
-## NotificationMetaData
+NotificationMetaData
+--------------------
 
 <div class="body">
 
@@ -165,8 +168,8 @@ The following table shows the child elements of the
 
 ### NotificationMetaData Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">NotificationMetaData</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">NotificationMetaData</span> element:
 
 <div class="tablenoborder">
 
@@ -239,7 +242,8 @@ The following table shows the child elements of the
 
 <div id="NotificationPayload" class="topic nested1">
 
-## NotificationPayload
+NotificationPayload
+-------------------
 
 <div class="body">
 
@@ -249,8 +253,8 @@ The following table shows the child elements of the
 
 ### NotificationPayload Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">NotificationPayload</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">NotificationPayload</span> element:
 
 <div class="tablenoborder">
 
@@ -304,12 +308,12 @@ The following table shows the child elements of the
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

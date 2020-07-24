@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -33,21 +32,24 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-<div id="Notifications_FulfillmentOrderStatusNotification" class="nested0">
+<div id="Notifications_FulfillmentOrderStatusNotification"
+class="nested0">
 
-# FulfillmentOrderStatusNotification
+FulfillmentOrderStatusNotification
+==================================
 
 <div class="body">
 
 The <span class="keyword parmname">FulfillmentOrderStatus</span>
-notification is sent whenever there is a change in the status of a
-<span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See
-[<span class="keyword parmname">FulfillmentOrderStatus</span>](Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row)
+notification is sent whenever there is a change in the status of a <span
+class="ph">Multi-Channel Fulfillment</span> fulfillment order. See
+<a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a>
 for the events that can trigger a status change.
 
 <div class="section">
 
-## Availability
+Availability
+------------
 
 This notification is available in all marketplaces.
 
@@ -55,30 +57,31 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-## Elements
+Elements
+--------
 
 This is the root element of the
-[FulfillmentOrderStatusNotification.xsd](http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FulfillmentOrderStatusNotification.xsd)
+<a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FulfillmentOrderStatusNotification.xsd" class="xref">FulfillmentOrderStatusNotification.xsd</a>
 schema:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                                                                                                                                              | Description                                                                                                                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [FulfillmentOrderStatusNotification](#FulfillmentOrderStatusNotification "The root element of the payload for the notification that is sent when there is a status change for a fulfillment order, fulfillment shipment, or fulfillment return.") | <span class="ph">The root element of the payload for the notification that is sent when there is a status change for a fulfillment order, fulfillment shipment, or fulfillment return.</span> |
+| Name                                                                                                                                                                                                                                                                            | Description                                                                                                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#FulfillmentOrderStatusNotification" class="xref" title="The root element of the payload for the notification that is sent when there is a status change for a fulfillment order, fulfillment shipment, or fulfillment return.">FulfillmentOrderStatusNotification</a> | <span class="ph">The root element of the payload for the notification that is sent when there is a status change for a fulfillment order, fulfillment shipment, or fulfillment return.</span> |
 
 </div>
 
-These are the complex elements of the
-<span class="keyword parmname">FulfillmentOrderStatus</span> element:
+These are the complex elements of the <span
+class="keyword parmname">FulfillmentOrderStatus</span> element:
 
 <div class="tablenoborder">
 
-| Name                                                                                                                           | Description                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| [FulfillmentReturnItem](#FulfillmentReturnItem "Information about an item that was returned to an Amazon fulfillment center.") | <span class="ph">Information about an item that was returned to an <span class="ph">Amazon fulfillment center</span>.</span> |
-| [FulfillmentShipment](#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")             | <span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>                                 |
-| [FulfillmentShipmentPackage](#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")         | <span class="ph">Package information for a shipment in a fulfillment order.</span>                                           |
+| Name                                                                                                                                                         | Description                                                                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| <a href="#FulfillmentReturnItem" class="xref" title="Information about an item that was returned to an Amazon fulfillment center.">FulfillmentReturnItem</a> | <span class="ph">Information about an item that was returned to an <span class="ph">Amazon fulfillment center</span>.</span> |
+| <a href="#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a>             | <span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>                                 |
+| <a href="#FulfillmentShipmentPackage" class="xref" title="Package information for a shipment in a fulfillment order.">FulfillmentShipmentPackage</a>         | <span class="ph">Package information for a shipment in a fulfillment order.</span>                                           |
 
 </div>
 
@@ -88,7 +91,8 @@ These are the complex elements of the
 
 <div id="FulfillmentOrderStatusNotification" class="topic nested1">
 
-## FulfillmentOrderStatusNotification
+FulfillmentOrderStatusNotification
+----------------------------------
 
 <div class="body">
 
@@ -100,8 +104,8 @@ fulfillment shipment, or fulfillment return.</span>
 
 ### FulfillmentOrderStatusNotification Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">FulfillmentOrderStatusNotification</span>
+The following table shows the child elements of the <span
+class="keyword parmname">FulfillmentOrderStatusNotification</span>
 element:
 
 <div class="tablenoborder">
@@ -184,19 +188,20 @@ element:
 
 <div id="FulfillmentReturnItem" class="topic nested1">
 
-## FulfillmentReturnItem
+FulfillmentReturnItem
+---------------------
 
 <div class="body">
 
-<span class="ph">Information about an item that was returned to an
-<span class="ph">Amazon fulfillment center</span>.</span>
+<span class="ph">Information about an item that was returned to an <span
+class="ph">Amazon fulfillment center</span>.</span>
 
 <div class="section">
 
 ### FulfillmentReturnItem Elements
 
-The following table shows the child elements of the
-<span class="keyword parmname">FulfillmentReturnItem</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">FulfillmentReturnItem</span> element:
 
 <div class="tablenoborder">
 
@@ -243,7 +248,8 @@ The following table shows the child elements of the
 
 <div id="FulfillmentShipment" class="topic nested1">
 
-## FulfillmentShipment
+FulfillmentShipment
+-------------------
 
 <div class="body">
 
@@ -256,12 +262,12 @@ fulfillment order.</span>
 
 The <span class="keyword parmname">FulfillmentShipment</span> element
 contains a subset of the information contained in the
-[FulfillmentShipment](../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipment "Delivery and item information for a shipment in a fulfillment order.")
+<a href="../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a>
 datatype of the <span class="ph">Fulfillment Outbound Shipment API
 section</span>.
 
-The following table shows the child elements of the
-<span class="keyword parmname">FulfillmentShipment</span> element:
+The following table shows the child elements of the <span
+class="keyword parmname">FulfillmentShipment</span> element:
 
 <div class="tablenoborder">
 
@@ -321,7 +327,8 @@ The following table shows the child elements of the
 
 <div id="FulfillmentShipmentPackage" class="topic nested1">
 
-## FulfillmentShipmentPackage
+FulfillmentShipmentPackage
+--------------------------
 
 <div class="body">
 
@@ -334,13 +341,12 @@ order.</span>
 
 The <span class="keyword parmname">FulfillmentShipmentPackage</span>
 element contains a subset of the information contained in the
-[FulfillmentShipmentPackage](../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipmentPackage "Package information for a shipment in a fulfillment order.")
+<a href="../fba_outbound/FBAOutbound_Datatypes.md#FulfillmentShipmentPackage" class="xref" title="Package information for a shipment in a fulfillment order.">FulfillmentShipmentPackage</a>
 datatype of the <span class="ph">Fulfillment Outbound Shipment API
 section</span>.
 
-The following table shows the child elements of the
-<span class="keyword parmname">FulfillmentShipmentPackage</span>
-element:
+The following table shows the child elements of the <span
+class="keyword parmname">FulfillmentShipmentPackage</span> element:
 
 <div class="tablenoborder">
 
@@ -387,12 +393,12 @@ element:
 
 <div id="RelatedTopics" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[What you should know about the Amazon MWS Subscriptions API
-section](../subscriptions/Subscriptions_Overview.md)
+<a href="../subscriptions/Subscriptions_Overview.md" class="xref">What you should know about the Amazon MWS Subscriptions API section</a>
 
 </div>
 

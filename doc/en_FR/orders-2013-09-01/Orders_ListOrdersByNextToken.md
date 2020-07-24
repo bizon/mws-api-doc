@@ -9,8 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif
-"Amazon Services")](http://services.amazon.fr)  
+Services](https://images-na.ssl-images-amazon.com/images/G/08/mwsportal/fr_FR/amazonservices.gif "Amazon Services")](http://services.amazon.fr)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
@@ -35,29 +34,31 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Orders_ListOrdersByNextToken" class="nested0">
 
-# ListOrdersByNextToken
+ListOrdersByNextToken
+=====================
 
 <div class="body">
 
-<span class="ph">Returns the next page of orders using the
-<span class="keyword parmname">NextToken</span> parameter.</span>
+<span class="ph">Returns the next page of orders using the <span
+class="keyword parmname">NextToken</span> parameter.</span>
 
 </div>
 
 <div id="Description" class="topic concept nested1">
 
-## Description
+Description
+-----------
 
 <div class="body conbody">
 
 The <span class="keyword apiname">ListOrdersByNextToken</span> operation
-returns the next page of orders using the
-<span class="keyword parmname">NextToken</span> value that was returned
-by your previous request to either
-<span class="keyword apiname">ListOrders</span> or
-<span class="keyword apiname">ListOrdersByNextToken</span>. If
-<span class="keyword parmname">NextToken</span> is not returned, there
-are no more pages to return.
+returns the next page of orders using the <span
+class="keyword parmname">NextToken</span> value that was returned by
+your previous request to either <span
+class="keyword apiname">ListOrders</span> or <span
+class="keyword apiname">ListOrdersByNextToken</span>. If <span
+class="keyword parmname">NextToken</span> is not returned, there are no
+more pages to return.
 
 <div class="section">
 
@@ -71,11 +72,11 @@ This operation is available in all marketplaces.
 
 ### Throttling
 
-The <span class="keyword apiname">ListOrders</span> and
-<span class="keyword apiname">ListOrdersByNextToken</span> operations
-together share a **maximum request quota** of six and a **restore rate**
-of one request every minute. For definitions of throttling terminology,
-see [Orders API](../orders-2013-09-01/Orders_Overview.md).
+The <span class="keyword apiname">ListOrders</span> and <span
+class="keyword apiname">ListOrdersByNextToken</span> operations together
+share a **maximum request quota** of six and a **restore rate** of one
+request every minute. For definitions of throttling terminology, see
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>.
 
 </div>
 
@@ -85,14 +86,15 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="RequestParameters" class="topic reference nested1">
 
-## Request parameters
+Request parameters
+------------------
 
 <div class="body refbody">
 
 <div class="tablenoborder">
 
 | Name                                            | Description                                                                                                                                                                               | Required | Values                                  |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------- |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------|
 | <span class="keyword parmname">NextToken</span> | A string token returned in the response of your previous request to either <span class="keyword apiname">ListOrders</span> or <span class="keyword apiname">ListOrdersByNextToken</span>. | Yes      | <span class="ph">Type: xs:string</span> |
 
 </div>
@@ -103,7 +105,8 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="ResponseElements" class="topic reference nested1">
 
-## Response elements
+Response elements
+-----------------
 
 <div class="body refbody">
 
@@ -113,7 +116,8 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 
 <div id="Examples" class="topic reference nested1">
 
-## Examples
+Examples
+--------
 
 <div class="body refbody">
 
@@ -122,8 +126,8 @@ see [Orders API](../orders-2013-09-01/Orders_Overview.md).
 ### Example query request
 
 <span class="ph">For information about standard request requirements,
-see [Required request
-parameters](../dev_guide/DG_RequiredRequestParameters.md).</span>
+see
+<a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -131,21 +135,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-https://mws.amazonservices.jp/Orders/2013-09-01
-  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-  &Action=ListOrdersByNextToken
-  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-  &SellerId=A2986ZQ066CH2F
-  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-  &SignatureVersion=2
-  &SignatureMethod=HmacSHA256
-  &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4%3D
-  &Timestamp=2017-02-05T18%3A12%3A21.687Z
-  &Version=2013-09-01
-```
+    https://mws.amazonservices.jp/Orders/2013-09-01
+      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+      &Action=ListOrdersByNextToken
+      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+      &SellerId=A2986ZQ066CH2F
+      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+      &SignatureVersion=2
+      &SignatureMethod=HmacSHA256
+      &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4%3D
+      &Timestamp=2017-02-05T18%3A12%3A21.687Z
+      &Version=2013-09-01
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -156,7 +158,7 @@ https://mws.amazonservices.jp/Orders/2013-09-01
 ### Example response
 
 <span class="ph">For information about standard response formatting, see
-[Response format](../dev_guide/DG_ResponseFormat.md).</span>
+<a href="../dev_guide/DG_ResponseFormat.md" class="xref">Response format</a>.</span>
 
 <span class="ph expander"> <span class="keyword parmname xshow">Show
 example code</span> <span class="keyword parmname xhide">Hide example
@@ -164,43 +166,41 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-``` pre codeblock
-<?xml version="1.0"?>
-<ListOrdersByNextTokenResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
-    <ListOrdersByNextTokenResult>
-        <Orders>
-            <Order>
-                <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
-                <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
-                <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
-                <OrderStatus>Pending</OrderStatus>
-                <FulfillmentChannel>MFN</FulfillmentChannel>
-                <NumberOfItemsShipped>0</NumberOfItemsShipped>
-                <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
-                <PaymentMethod>Other</PaymentMethod>
-                <PaymentMethodDetails>
-                    <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
-                    <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
-                </PaymentMethodDetails>
-                <MarketplaceId>A21TJRUUN4KGV</MarketplaceId>
-                <ShipmentServiceLevelCategory>Standard
-                </ShipmentServiceLevelCategory>
-                <OrderType>StandardOrder</OrderType>
-                <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
-                <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
-                <IsBusinessOrder>false</IsBusinessOrder>
-                <IsPrime>false</IsPrime>
-                <IsPremiumOrder>false</IsPremiumOrder>  
-            </Order>
-        </Orders>
-    </ListOrdersByNextTokenResult>
-    <ResponseMetadata>
-        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-    </ResponseMetadata>
-</ListOrdersByNextTokenResponse>
-```
+    <?xml version="1.0"?>
+    <ListOrdersByNextTokenResponse xmlns="https://mws.amazonservices.com/Orders/2013-09-01">
+        <ListOrdersByNextTokenResult>
+            <Orders>
+                <Order>
+                    <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
+                    <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
+                    <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
+                    <OrderStatus>Pending</OrderStatus>
+                    <FulfillmentChannel>MFN</FulfillmentChannel>
+                    <NumberOfItemsShipped>0</NumberOfItemsShipped>
+                    <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+                    <PaymentMethod>Other</PaymentMethod>
+                    <PaymentMethodDetails>
+                        <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
+                        <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
+                    </PaymentMethodDetails>
+                    <MarketplaceId>A21TJRUUN4KGV</MarketplaceId>
+                    <ShipmentServiceLevelCategory>Standard
+                    </ShipmentServiceLevelCategory>
+                    <OrderType>StandardOrder</OrderType>
+                    <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
+                    <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
+                    <IsBusinessOrder>false</IsBusinessOrder>
+                    <IsPrime>false</IsPrime>
+                    <IsPremiumOrder>false</IsPremiumOrder>  
+                </Order>
+            </Orders>
+        </ListOrdersByNextTokenResult>
+        <ResponseMetadata>
+            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+        </ResponseMetadata>
+    </ListOrdersByNextTokenResponse>
 
-[↑ Top](#Examples)
+<a href="#Examples" class="xref">↑ Top</a>
 
 </div>
 
@@ -212,16 +212,16 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-## Related topics
+Related topics
+--------------
 
 <div class="body">
 
-[Using NextToken to request additional
-pages](../dev_guide/DG_NextToken.md)
+<a href="../dev_guide/DG_NextToken.md" class="xref">Using NextToken to request additional pages</a>
 
-[Orders API](../orders-2013-09-01/Orders_Overview.md)
+<a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a>
 
-[ListOrders](../orders-2013-09-01/Orders_ListOrders.md)
+<a href="../orders-2013-09-01/Orders_ListOrders.md" class="xref">ListOrders</a>
 
 </div>
 
