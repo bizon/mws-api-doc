@@ -188,7 +188,7 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
 
 <div id="MWSDX_footer">
 
-Copyright © 2009-2019 Amazon.com, Inc. or its affiliates. Amazon and
+Copyright © 2009-2020 Amazon.com, Inc. or its affiliates. Amazon and
 Amazon.com are registered trademarks of Amazon.com, Inc. or its
 affiliates. All other trademarks are the property of their respective
 owners.

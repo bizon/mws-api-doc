@@ -75,6 +75,8 @@ API section</span>:
 | <a href="Finances_Datatypes.md#ShipmentItem" class="xref" title="An item of a shipment, refund, guarantee claim, or chargeback.">ShipmentItem</a>                                                                      | <span class="ph">An item of a shipment, refund, guarantee claim, or chargeback.</span>                                                                                                         |
 | <a href="Finances_Datatypes.md#SolutionProviderCreditEvent" class="xref" title="A credit given to a solution provider.">SolutionProviderCreditEvent</a>                                                                | <span class="ph">A credit given to a solution provider.</span>                                                                                                                                 |
 | <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a>                                                                               | <span class="ph">Information about the taxes withheld.</span>                                                                                                                                  |
+| <a href="Finances_Datatypes.md#TaxWithholdingEvent" class="xref" title="A tax withholding event.">TaxWithholdingEvent</a>                                                                                              | <span class="ph">A tax withholding event.</span>                                                                                                                                               |
+| <a href="Finances_Datatypes.md#TaxWithholdingPeriod" class="xref" title="A tax withholding period.">TaxWithholdingPeriod</a>                                                                                           | <span class="ph">A tax withholding period.</span>                                                                                                                                              |
 
 </div>
 
@@ -1036,6 +1038,7 @@ class="keyword parmname">FinancialEvents</span> datatype:
 | <span class="keyword parmname">AffordabilityExpenseReversalEventList</span>  | A list of events related to affordability promotion expense reversals.      | No       | Type: List of <a href="Finances_Datatypes.md#AffordabilityExpenseReversalEvent" class="xref" title="An expense refund related to an affordability promotion.">AffordabilityExpenseReversalEvent</a>                                               |
 | <span class="keyword parmname">NetworkComminglingTransactionEventList</span> | A list of network commingling transaction events.                           | No       | Type: List of <a href="Finances_Datatypes.md#NetCoTransactionEvent" class="xref" title="A network commingling transaction event.">NetworkComminglingTransactionEvent</a>                                                                          |
 | <span class="keyword parmname">TDSReimbursementEventList</span>              | A list of TDS (Tax Deduction at Source) claim reimbursement events.         | No       | Type: List of <a href="Finances_Datatypes.md#TDSReimbursementEvent" class="xref" title="A TDS (Tax Deduction at Source) claim reimbursement on the seller&#39;s account.">TDSReimbursementEvent</a>                                               |
+| <span class="keyword parmname">TaxWithholdingEventList</span>                | A list of tax withholding events.                                           | No       | Type: List of <a href="Finances_Datatypes.md#TaxWithholdingEvent" class="xref" title="A tax withholding event.">TaxWithholdingEvent</a>                                                                                                           |
 
 </div>
 
@@ -2101,11 +2104,75 @@ class="keyword parmname">TaxWithheldComponent</span> datatype:
 
 </div>
 
+<div id="TaxWithholdingEvent" class="topic nested1">
+
+**TaxWithholdingEvent**
+-----------------------
+
+<div class="body">
+
+<span class="ph">A tax withholding event.</span>
+
+<div class="section">
+
+### Datatype content
+
+The following table shows the elements of the <span
+class="keyword parmname">TaxWithholdingEvent</span> datatype:
+
+<div class="tablenoborder">
+
+| Name                                                       | Description                                                                                | Required | Values                                                                                                                               |
+|------------------------------------------------------------|--------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------|
+| <span class="keyword parmname">BaseAmount</span>           | The base amount from which the tax deduction is calculated.                                | No       | <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                 |
+| <span class="keyword parmname">WithheldAmount</span>       | The amount of tax deducted from the seller’s balance and remitted to the taxing authority. | No       | <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a>                 |
+| <span class="keyword parmname">PostedDate</span>           | The date when the financial event was posted.                                              | No       | <span class="ph">Type: xs:dateTime</span>                                                                                            |
+| <span class="keyword parmname">TaxWithholdingPeriod</span> | The period in which the tax is calculated and withheld.                                    | No       | Type: <a href="Finances_Datatypes.md#TaxWithholdingPeriod" class="xref" title="A tax withholding period.">TaxWithholdingPeriod</a> |
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="TaxWithholdingPeriod" class="topic nested1">
+
+**TaxWithholdingPeriod**
+------------------------
+
+<div class="body">
+
+<span class="ph">A tax withholding period.</span>
+
+<div class="section">
+
+### Datatype content
+
+The following table shows the elements of the <span
+class="keyword parmname">TaxWithholdingPeriod</span> datatype:
+
+<div class="tablenoborder">
+
+| Name                                                  | Description                                                                                             | Required | Values        |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----------|---------------|
+| <span class="keyword parmname">StartDateMillis</span> | The start time for the period in which the tax is calculated and withheld. Epoch value in milliseconds. | No       | Type: xs:long |
+| <span class="keyword parmname">EndDateMillis</span>   | The end time for the period in which the tax is calculated and withheld. Epoch value in milliseconds.   | No       | Type: xs:long |
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 <div id="MWSDX_footer">
 
-Copyright © 2009-2019 Amazon.com, Inc. or its affiliates. Amazon and
+Copyright © 2009-2020 Amazon.com, Inc. or its affiliates. Amazon and
 Amazon.com are registered trademarks of Amazon.com, Inc. or its
 affiliates. All other trademarks are the property of their respective
 owners.

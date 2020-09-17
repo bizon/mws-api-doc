@@ -119,8 +119,8 @@ Request parameters
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentId</span></td>
-<td><span id="RequestParameters__d37983e269" class="ph">An Amazon-defined shipment identifier.</span>
-<p><span id="RequestParameters__d37983e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
+<td><span id="RequestParameters__d38090e269" class="ph">An Amazon-defined shipment identifier.</span>
+<p><span id="RequestParameters__d38090e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
@@ -347,7 +347,7 @@ Related topics
 
 <div id="MWSDX_footer">
 
-Copyright © 2009-2019 Amazon.com, Inc. or its affiliates. Amazon and
+Copyright © 2009-2020 Amazon.com, Inc. or its affiliates. Amazon and
 Amazon.com are registered trademarks of Amazon.com, Inc. or its
 affiliates. All other trademarks are the property of their respective
 owners.
