@@ -39,6 +39,24 @@ Data Protection Policy
 
 <div class="body">
 
+<div class="note important">
+
+<span class="importanttitle">Important:</span>
+
+We are making clarifications and updates to the Amazon Acceptable Use
+and Data Protection policies governing the appropriate use of the
+Selling Partner API and Amazon Marketplace Web Service (Amazon MWS).
+These updates will go into effect on January 1, 2021. We have published
+the redlined versions of these policies at the links below for your
+convenience.
+
+-   <a href="https://s3.amazonaws.com/amazonservicesstatic.com/policies/Amazon-Selling-Partner-Acceptable-Use-Policy_2021.pdf" class="xref">Acceptable Use Policy</a>
+    (effective January 1, 2021)
+-   <a href="https://s3.amazonaws.com/amazonservicesstatic.com/policies/Amazon-Selling-Partner-Data-Protection-Policy_2021.pdf" class="xref">Data Protection Policy</a>
+    (effective January 1, 2021)
+
+</div>
+
 The Data Protection Policy (**"DPP"**) governs the treatment (e.g.,
 receipt, storage, usage, transfer, and disposition) of the data vended
 and retrieved through the Marketplace APIs (including the Marketplace
