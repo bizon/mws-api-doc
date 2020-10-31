@@ -39,58 +39,56 @@ Frequently Asked Questions
 
 <div id="faq__DeveloperRegistrationAndAssessmentFAQ" class="section">
 
-Developer Registration and Assessment FAQ
------------------------------------------
+**Developer Profile FAQ**
+-------------------------
 
 <div class="sectiondiv">
 
-**1. What is the <span class="ph">Developer Registration and Assessment
-form</span>?**
+**1. What is the Developer Profile?**
 
-The <span class="ph">Developer Registration and Assessment form</span>
-allows developers to submit information about their applications so we
-can assess compliance with our <span class="ph">Amazon MWS</span> data
-protection requirements and help to make sure that we provide the right
-level of access that you require. New developers are also required to
-submit their responses to the <span class="ph">Developer Registration
-and Assessment form</span>.
+The Developer Profile (formerly the Developer Registration and
+Assessment form) allows developers to submit information about their
+organization and applications. Amazon then uses this information to
+assess compliance with our Amazon Selling Partner API
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+and the
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>
+requirements and ensures that we provide the level of access that you
+require and qualify for. All new and existing developers requiring
+additional data access are required to submit their responses to the
+Developer Profile..
 
 </div>
 
 <div class="sectiondiv">
 
-**2. What should I expect after I submit the <span class="ph">Developer
-Registration and Assessment form</span>?**
+**2. What should I expect after I submit my Developer Profile?**
 
-When you submit the <span class="ph">Developer Registration and
-Assessment form</span>, a support case is automatically created for you.
-We will contact you with next steps, if any. There will be no immediate
-impact to your current Amazon MWS application(s). If any changes are
-necessary, we will reach out to you before we make any changes to your
-Amazon MWS API access.
+When you submit the Developer Profile, a support case is automatically
+created for you. We will contact you with next steps, if any.
 
 </div>
 
 <div class="sectiondiv">
 
-**3. Can I save a draft of the Developer Registration and Assessment
-form and return to complete it later?**
+**3. Can I save a draft of my Developer Profile and return to complete
+it later?**
 
-There is currently no option to save the form. We recommend that you
-review the questions and gather answers before you begin filling out the
-form.
+If you are completing your Developer Profile for the first time, you may
+save a draft and return to complete it later. If you are modifying an
+existing Developer Profile, updates save only after you have submitted
+for review.
 
 </div>
 
 <div class="sectiondiv">
 
 **4. I am a developer with multiple developer IDs. Do I need to submit a
-separate <span class="ph">Developer Registration and Assessment
-form</span> for each developer ID?**
+separate Developer Profile for each developer ID?**
 
-No, you do not need to submit the form multiple times. If you have
-multiple developer IDs that support the same application, please enter
-them in the field under **If you are currently a developer, please
+No, you do not need to submit a Developer Profile multiple times. If you
+have multiple developer IDs that support the same application, please
+enter them in the field under **If you are currently a developer, please
 provide your developer ID(s)**. Note that if you have multiple developer
 IDs, separate them with commas.
 
@@ -98,47 +96,16 @@ IDs, separate them with commas.
 
 <div class="sectiondiv">
 
-**5. How do I know what functionality options I should select in the
-<span class="ph">Developer Registration and Assessment form</span>?**
+**5. How do I know what roles I should select in the Developer
+Profile?**
 
-Choose the functionality you need for your application(s) based on the
-following descriptions:
-
--   **Listing**: Managing Amazon listings with tools that translate
-    internal product listings, match to existing ASINs, and reduce
-    listing errors.
--   **Pricing**: Maintaining competitive pricing with tools that
-    automate product pricing based on business rules.
--   **Inventory management/order management**: Automating Amazon order
-    management to keep inventory levels in sync across systems, not
-    including shipping functionality.
--   **Merchant fulfilled shipping**: Automating Amazon order management
-    for seller fulfillment, including shipping functionality.
--   **Fulfillment by Amazon**: Automating processes such as inbound and
-    outbound shipments as well as submitting fulfillment orders.
--   **Advertising**: Optimizing pay-per-click advertising budgets and
-    strategies to improve product visibility.
--   **Promotions**: Improving discoverability of products by creating
-    targeted promotions such as coupons or Lightning Deals.
--   **Product research and scouting**: Screening prospective products
-    using criteria such as customer demand, allowing more data-driven
-    sourcing decisions.
--   **Buyer/seller messaging**: Assisting with responses to customer
-    questions in order to meet response timelines and provide a high
-    level of customer service.
--   **Analytics and reporting**: Analyzing profitability and
-    cost-per-product to refine business strategies.
--   **Accounting**: Tracking finance and accounting with tools to
-    consolidate sales data.
--   **Tax calculation and reporting**: Calculating, reporting, and/or
-    filing sales taxes to drive compliance with tax regulations.
--   **Tax invoicing**: Generating tax invoices to comply with regional
-    tax requirements (e.g., EU VAT).
--   **Ecommerce solution connector**: Integrating ecommerce sites with
-    Amazon for functionality such as improved listing and order
-    management as well as cross-channel inventory syncing.
--   **Other**: Any functionality that is not described in the previous
-    options.
+Choose the roles you require for your application(s) based on the role
+descriptions here -
+<a href="https://github.com/amzn/selling-partner-api-docs/blob/main/guides/roles/Roles-in-the-Selling-Partner-API.md" class="xref">https://github.com/amzn/selling-partner-api-docs/blob/main/guides/roles/Roles-in-the-Selling-Partner-API.md</a>.
+Note that access to the Selling Partner API follows the principle of
+least privilege, meaning that you will not be able to access APIs within
+roles unless you explicitly select those roles in your Developer
+Profile.
 
 </div>
 
@@ -147,10 +114,10 @@ following descriptions:
 **6. How can I access my support case log?**
 
 To access your case log, sign into the Seller Central account that is
-associated with your <span class="ph">Amazon MWS Access Keys</span>. On
-the Seller Central gateway page, at the **Manage Your Case Log** widget,
-click **View your case log**. Note that you must be the primary account
-holder to view this page.
+associated with your Amazon MWS Access Keys. On the Seller Central
+gateway page, at the **Manage Your Case Log** widget, click **View your
+case log**. Note that you must be the primary account holder to view
+this page.
 
 </div>
 
@@ -158,9 +125,14 @@ holder to view this page.
 
 **7. What if I want to edit or update my submission?**
 
-Please indicate the question(s) that you want to change and provide your
-updated response(s) in the support case log that was created after you
-submitted the form.
+If the Developer Profile is under Amazon review, you will be unable to
+edit the Developer Profile until the review is complete. However, you
+will be able to view your submission. If you would like to update the
+Developer Profile while a review is in progress, please indicate the
+question(s) that you want to change and provide your updated response(s)
+in the support case log that was created after you submitted the form.
+After the review is complete, you are free to edit the Developer Profile
+if your security controls, use case, or data access needs to change.
 
 </div>
 
@@ -177,15 +149,14 @@ is a resource that might be of assistance.
 
 <div class="sectiondiv">
 
-**9. I want to submit the Developer Registration and Assessment form but
-I cannot sign into my Seller Central account to access the form. What
-should I do?**
+**9. I want to submit my Developer Profile but I cannot sign into my
+Seller Central account to access the form. What should I do?**
 
 To get help signing into your Seller Central account, go to
 <a href="https://sellercentral.amazon.com/gp/help/external/G200123250" class="xref">Seller Central sign in help</a>.
 If you are still unable to sign in, click this link to create a support
 case:
-<a href="https://sellercentral-europe.amazon.com/cu/help/contact-us" class="xref">https://sellercentral-europe.amazon.com/cu/help/contact-us</a>.
+<a href="https://sellercentral.amazon.com/cu/help/contact-us" class="xref">https://sellercentral.amazon.com/cu/help/contact-us</a>.
 On the **Seller Central Technical Support Page**: (1) In the **Topic**
 list, select **Other question or request**. (2) In the **Business Name**
 box, enter the name associated with your developer account. (3) In the
@@ -198,15 +169,14 @@ or email. My Amazon MWS Developer ID is xxx. Please assist." (5) Click
 
 <div class="sectiondiv">
 
-**10. How was my level of Amazon MWS access decided?**
+**10. How was my level of Selling Partner API access decided?**
 
 Access decisions are made based on the information that you provide in
-the <span class="ph">Developer Registration and Assessment form</span>,
-including but not limited to your application functionality and your
-compliance with the
-<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+your Developer Profile, including but not limited to your application
+functionality and your compliance with the
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
 and the
-<a href="dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
 Our goal is to provide you only with the data that is relevant to you in
 order to protect customers and simplify your data protection
 obligations.
@@ -215,71 +185,103 @@ obligations.
 
 <div class="sectiondiv">
 
-**11. Why was my request for Amazon MWS Access Keys denied?**
+**11. Why was my request for Selling Partner API access denied?**
 
-The decision to grant or deny MWS Access Keys is made based on the
-information that you provide in the <span class="ph">Developer
-Registration and Assessment form</span>, including but not limited to
-your application functionality and your compliance with the
-<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+The decision to grant or deny Selling Partner API access is made based
+on the information that you provide in your Developer Profile, including
+but not limited to your application functionality and your compliance
+with the
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
 and the
-<a href="dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
-We cannot provide detailed information about how we determine MWS Access
-Key eligibility, but we prioritize data security in decisions. If you
-want to appeal our decision, then please see the next question here.
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+We cannot provide detailed information about how we determine Selling
+Partner API eligibility, but we prioritize data security in these
+decisions.
 
 </div>
 
 <div class="sectiondiv">
 
-**12. What if I need a different level of Amazon MWS access?**
+**12. What should I do if I want a different level of Selling Partner
+API access in the future?**
+
+You can edit your Developer Profile and select additional or fewer roles
+at any time except for when your submission is under Amazon review. To
+change your roles, go to the Developer Profile and check/uncheck the
+roles you wish to access, complete the appropriate questions, and submit
+your Developer Profile for Amazon review.
+
+</div>
+
+<div class="sectiondiv">
+
+**13. What should I do if I believe that my request for Selling Partner
+API access was wrongly denied?**
 
 Access decisions are made based on the information that you provide in
-the <span class="ph">Developer Registration and Assessment form</span>,
-but we will consider appeals on a case-by-case basis. If you believe
-that we misunderstood your form, or that the Amazon MWS updates will
+the Developer Registration and Assessment form, but we will consider
+appeals on a case-by-case basis. If you believe that we misunderstood
+your Developer Profile inputs, or that the denial of access will
 materially impact the application functionality that you provide under
 the terms of the
-<a href="dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>,
-please respond to your <span class="ph">Developer Registration and
-Assessment form</span> support case at least five business days prior to
-your adjustment date and ask for an "Appeal Request". Please clearly
-state the reason for your request and offer a detailed description of
-the application functionality that is impacted by the updates.
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>,
+please respond to your Developer Profile support case at least five
+business days prior to your adjustment date and ask for an "Appeal
+Request". Please clearly state the reason for your request and offer a
+detailed description of the application functionality that is impacted
+by the access denial or removal.
 
 </div>
 
 <div class="sectiondiv">
 
-**13. How should I adjust my application in order to prevent breakage or
-service interruptions?**
+**14. I have been notified that my Amazon MWS level of access is
+changing. How should I adjust my application in order to prevent
+breakage or service interruptions?**
 
-In order to determine the adjustments you need to make, please read the
-document attached to your individual <span class="ph">Developer
-Registration and Assessment form</span> case. This document outlines the
-updates to MWS responses based on information you provided in the form.
-You may need to conduct a review of your application to determine
-whether it can safely handle receiving null values for data you may have
-previously used, either directly or as lookup values. You may find it
-useful to review the "Building robust Amazon MWS applications" topic in
-the Amazon MWS Developer Guide here:
-<a href="dev_guide/DG_BuildingRobustApps.md" class="xref">Building robust Amazon MWS applications</a>.
+In order to determine the adjustments that you need to make to your
+application, please read the document attached to your Developer Profile
+support case. This document outlines the updates to Amazon MWS responses
+based on information you provided in your Developer Profile. You may
+need to conduct a review of your application to determine whether it can
+safely handle receiving null values for data you may have previously
+used, either directly or as lookup values. You may find it useful to
+review the "Building robust Amazon MWS applications" topic in the Amazon
+MWS Developer Guide here:
+<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_BuildingRobustApps.md" class="xref">Building robust Amazon MWS applications</a>.
 
 </div>
 
 <div class="sectiondiv">
 
-**14. What if I need more time to make adjustments to my software
+**15. I have been notified that my Amazon MWS level of access is
+changing. What if I need more time to make adjustments to my software
 application?**
 
 We will consider extensions on a case-by-case basis to allow additional
 time to modify your application to handle updates to MWS responses. If
 you believe that you require additional time to update your application,
-please respond to your <span class="ph">Developer Registration and
-Assessment form</span> support case at least five business days prior to
-your adjustment date and ask for an "Extension Request". Please clearly
-state the reason for your extension request and the work that you intend
-to complete during the extension period.
+please respond to your Developer Registration and Assessment form
+support case at least five business days prior to your adjustment date
+and ask for an "Extension Request". Please clearly state the reason for
+your extension request and the work that you intend to complete during
+the extension period.
+
+</div>
+
+<div class="sectiondiv">
+
+**16. I have been notified that my Amazon MWS level of access is
+changing. How should I adjust my application in order to prevent
+breakage or service interruptions?If I have multiple seller accounts
+with MWS access, do I need to complete a Developer Profile on each one
+to get access to Selling Partner API?**
+
+We require only one Developer Profile per organization. It is a best
+practice to select a single seller account to manage all Selling Partner
+API access. Unlike Amazon MWS credentials, Selling Partner API
+applications are global, meaning you do not need a region-specific
+seller account to make calls to that region.
 
 </div>
 
@@ -353,7 +355,7 @@ assistance, you can submit your question using the <span class="ph">
 We will evaluate the information that you provide in the form and then
 follow up with a support case log and next steps. For more information
 about developer registration and assessment, see
-**<a href="#faq__DeveloperRegistrationAndAssessmentFAQ" class="xref">Developer Registration and Assessment FAQ</a>**
+**<a href="#faq__DeveloperRegistrationAndAssessmentFAQ" class="xref">Developer Profile FAQ</a>**
 at the top of this page.
 
 </div>

@@ -140,8 +140,8 @@ Request parameters
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">ShipmentId</span></td>
-<td><span id="RequestParameters__d38090e269" class="ph">An Amazon-defined shipment identifier.</span>
-<p><span id="RequestParameters__d38090e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
+<td><span id="RequestParameters__d37861e269" class="ph">An Amazon-defined shipment identifier.</span>
+<p><span id="RequestParameters__d37861e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
 <td>Yes</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
