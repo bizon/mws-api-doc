@@ -155,7 +155,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <tbody>
 <tr class="odd">
 <td><span class="keyword parmname">FeesEstimateRequestList</span></td>
-<td><span id="RequestParameters__d50836e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
+<td><span id="RequestParameters__d50848e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
 <td>Yes</td>
 <td>Maximum: 20 requests.
 <p>Type: List of <a href="Products_Datatypes.md#FeesEstimateRequest" class="xref" title="A product, marketplace, and proposed price used to request estimated fees.">FeesEstimateRequest</a></p></td>

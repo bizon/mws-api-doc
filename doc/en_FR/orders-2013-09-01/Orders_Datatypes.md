@@ -501,24 +501,30 @@ class="keyword cmdname">Order</span> datatype:
 <td>Type: <a href="#Address" class="xref" title="The shipping address for the order.">Address</a></td>
 </tr>
 <tr class="odd">
+<td><span class="keyword parmname">DefaultShipFromLocationAddress</span></td>
+<td><span class="ph">The seller's default shipping address in their Seller Central account. Amazon assigns this address to the order before shipment confirmation.</span></td>
+<td>No</td>
+<td>Type: <a href="#Address" class="xref" title="The shipping address for the order.">Address</a></td>
+</tr>
+<tr class="even">
 <td><span class="keyword parmname">OrderTotal</span></td>
 <td>The total charge for the order.</td>
 <td>No</td>
 <td>Type: <a href="#Money" class="xref" title="Currency type and amount.">Money</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">NumberOfItemsShipped</span></td>
 <td>The number of items shipped.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:int</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">NumberOfItemsUnshipped</span></td>
 <td>The number of items unshipped.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:int</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">PaymentExecutionDetail</span></td>
 <td>Information about sub-payment methods for a Cash On Delivery (COD) order. A COD order is an order with <span class="keyword parmname">PaymentMethod</span> = <var class="keyword varname">COD</var>. Contains one or more <span class="keyword parmname">PaymentExecutionDetailItem</span> response elements.
 <div id="Order__PaymentExecutionDetail_Note" class="note note">
@@ -527,7 +533,7 @@ class="keyword cmdname">Order</span> datatype:
 <td>No. Returned only for COD orders. Available only in Japan (JP).</td>
 <td>Type: List of <a href="#PaymentExecutionDetailItem" class="xref" title="Information about a sub-payment method used to pay for a COD order.">PaymentExecutionDetailItem</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">PaymentMethod</span></td>
 <td>The payment method for the order. This response element is limited to Cash On Delivery (COD) and Convenience Store (CVS) payment methods. Unless you need the specific COD payment information provided by the <span class="keyword parmname">PaymentExecutionDetailItem</span> element, we recommend using the <span class="keyword parmname">PaymentMethodDetails</span> response element to get payment method information.</td>
 <td>No</td>
@@ -542,62 +548,62 @@ class="keyword cmdname">Order</span> datatype:
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">PaymentMethodDetails</span></td>
 <td><span id="Order__sd_datatype_PaymentMethodDetails" class="ph">A list of payment methods for the order.</span></td>
 <td>No</td>
 <td>Type: <a href="Orders_Datatypes.md#PaymentMethodDetails" class="xref" title="A list of payment methods for the order.">PaymentMethodDetails</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">IsReplacementOrder</span></td>
 <td><span class="ph"><var class="keyword varname">true</var> if this is a replacement order.</span></td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">ReplacedOrderId</span></td>
 <td>The <span class="keyword parmname">AmazonOrderId</span> value for the order that is being replaced.</td>
 <td>No. Returned only if <span class="keyword parmname">IsReplacementOrder</span> = <var class="keyword varname">true</var></td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">MarketplaceId</span></td>
 <td><span id="Order__MarketplaceId" class="ph">The anonymized identifier for the Marketplace where the order was placed.</span></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">BuyerEmail</span></td>
 <td><span id="Order__BuyerEmail" class="ph">The anonymized e-mail address of the buyer.</span></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">BuyerName</span></td>
 <td><span id="Order__BuyerName" class="ph">The name of the buyer.</span></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">BuyerCounty</span></td>
 <td>The county of the buyer.</td>
 <td>No. <span class="ph">This element is used only in the Brazil marketplace.</span></td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">BuyerTaxInfo</span></td>
 <td><span class="ph">Tax information about the buyer.</span></td>
 <td>No</td>
 <td>Type: <a href="Orders_Datatypes.md#BuyerTaxInfo" class="xref" title="Tax information about the buyer.">BuyerTaxInfo</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">ShipmentServiceLevelCategory</span></td>
 <td>The shipment service level category of the order.
 <p><span class="keyword parmname">ShipmentServiceLevelCategory</span> values: <var class="keyword varname">Expedited</var>, <var class="keyword varname">FreeEconomy</var>, <var class="keyword varname">NextDay</var>, <var class="keyword varname">SameDay</var>, <var class="keyword varname">SecondDay</var>, <var class="keyword varname">Scheduled</var>, <var class="keyword varname">Standard</var></p></td>
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">EasyShipShipmentStatus</span></td>
 <td>The status of the <span class="ph">Amazon Easy Ship</span> order. This element is included only for <span class="ph">Amazon Easy Ship</span> orders.
 <p><span class="keyword parmname">EasyShipShipmentStatus</span> values: <var class="keyword varname">PendingPickUp</var>, <var class="keyword varname">LabelCanceled</var>, <var class="keyword varname">PickedUp</var>, <var class="keyword varname">OutForDelivery</var>, <var class="keyword varname">Damaged</var>, <var class="keyword varname">Delivered</var>, <var class="keyword varname">RejectedByBuyer</var>, <var class="keyword varname">Undeliverable</var>, <var class="keyword varname">ReturnedToSeller</var>, <var class="keyword varname">ReturningToSeller</var></p>
@@ -605,7 +611,7 @@ class="keyword cmdname">Order</span> datatype:
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">OrderType</span></td>
 <td>The type of the order.
 <p><span class="keyword parmname">OrderType</span> values:</p>
@@ -620,7 +626,7 @@ class="keyword cmdname">Order</span> datatype:
 <td>No</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">EarliestShipDate</span></td>
 <td>The start of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="p">
@@ -631,7 +637,7 @@ class="keyword cmdname">Order</span> datatype:
 <td>No. Returned only for seller-fulfilled orders.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">LatestShipDate</span></td>
 <td>The end of the time period that you have committed to ship the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <div class="note note">
@@ -640,19 +646,19 @@ class="keyword cmdname">Order</span> datatype:
 <td>No. Returned only for seller-fulfilled orders.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">EarliestDeliveryDate</span></td>
 <td>The start of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No. Returned only for seller-fulfilled orders that do not have a <var class="keyword varname">PendingAvailability</var>, <var class="keyword varname">Pending</var>, or <var class="keyword varname">Canceled</var> status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">LatestDeliveryDate</span></td>
 <td>The end of the time period that you have commited to fulfill the order. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td>No. Returned only for seller-fulfilled orders that do not have a <var class="keyword varname">PendingAvailability</var>, <var class="keyword varname">Pending</var>, or <var class="keyword varname">Canceled</var> status.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">IsBusinessOrder</span></td>
 <td><var class="keyword varname">true</var> if the order is an Amazon Business order. An Amazon Business order is an order where the buyer is a Verified Business Buyer.
 <p><span class="keyword parmname">IsBusinessOrder</span> values:</p>
@@ -663,7 +669,7 @@ class="keyword cmdname">Order</span> datatype:
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">IsSoldByAB</span></td>
 <td><var class="keyword varname">true</var> if the items in this order were bought and re-sold by Amazon Business EU SARL (ABEU).
 <p><span class="keyword parmname">IsSoldByAB</span> values:</p>
@@ -674,37 +680,37 @@ class="keyword cmdname">Order</span> datatype:
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">PurchaseOrderNumber</span></td>
 <td>The purchase order (PO) number entered by the buyer at checkout.</td>
 <td>No. Returned only for orders where the buyer entered a PO number at checkout.</td>
 <td><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">IsPrime</span></td>
 <td><var class="keyword varname">true</var> if the order is a seller-fulfilled Amazon Prime order.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">IsPremiumOrder</span></td>
 <td><var class="keyword varname">true</var> if the order has a Premium Shipping Service Level Agreement. For more information about Premium Shipping orders, see "Premium Shipping Options" in the Seller Central Help.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">IsGlobalExpressEnabled</span></td>
 <td><var class="keyword varname">true</var> if the order is a Global Express order. For more information about the Global Express program, see "Global Express" in the Seller Central Help.</td>
 <td>No</td>
 <td><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="keyword parmname">PromiseResponseDueDate</span></td>
 <td>Indicates the date by which the seller must respond to the buyer with an Estimated Ship Date.</td>
 <td>No. Returned only for Sourcing on Demand orders.</td>
 <td><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="keyword parmname">IsEstimatedShipDateSet</span></td>
 <td><var class="keyword varname">true</var> if the Estimated Ship Date is set for the order.</td>
 <td>No. Returned only for Sourcing on Demand orders.</td>
