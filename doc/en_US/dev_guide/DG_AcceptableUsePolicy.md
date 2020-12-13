@@ -50,7 +50,7 @@ These updates will go into effect on January 1, 2021. We have published
 the redlined versions of these policies at the links below for your
 convenience.
 
--   <a href="amazonservicesstatic.com.s3.amazonaws.com/policies/Amazon-Selling-Partner-Acceptable-Use-Policy_2021.pdf" class="xref">Acceptable Use Policy</a>
+-   <a href="https://amazonservicesstatic.com.s3.amazonaws.com/policies/Amazon-Selling-Partner-Acceptable-Use-Policy_2021.pdf" class="xref">Acceptable Use Policy</a>
     (effective January 1, 2021)
 -   <a href="https://amazonservicesstatic.com.s3.amazonaws.com/policies/Amazon-Selling-Partner-Data-Protection-Policy_2021.pdf" class="xref">Data Protection Policy</a>
     (effective January 1, 2021)
