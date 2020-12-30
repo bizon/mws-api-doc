@@ -1140,7 +1140,7 @@ the following values.
 
 <div class="tablenoborder">
 
-<table id="Status_Values__d37862e1170" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
+<table id="Status_Values__d37863e1170" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
