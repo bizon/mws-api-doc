@@ -9,15 +9,7 @@ browser.
 <div id="MWSDX_divtop">
 
 [![Amazon
-Services](https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/en_US/amazonservices.gif "Amazon Services")](http://services.amazon.com)
-
-<div id="MWSDX_search">
-
-<span id="MWSDX_searchlbl">Search:</span>
-
-</div>
-
-  
+Services](https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/en_US/amazonservices.gif "Amazon Services")](http://services.amazon.com)  
 <span id="MWSDX_titlebar">[Amazon Marketplace Web Service (Amazon MWS)
 Documentation](https://developer.amazonservices.com/gp/mws/docs.html)</span>
 
