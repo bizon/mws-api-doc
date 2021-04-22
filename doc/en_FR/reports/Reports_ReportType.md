@@ -1346,6 +1346,20 @@ Japan marketplaces.</span>
 </div>
 <span class="ph">This report is only available in the Canada, US, Spain, UK, France, Germany, Italy, and Australia marketplaces.</span></td>
 </tr>
+<tr class="odd">
+<td><span class="keyword parmname">B2B Product Opportunities: Recommended for You</span>
+<p>Enumeration value: <samp class="ph codeph">_MBOP_RECOMMENDED_PRODUCTS_REPORT_</samp></p>
+<p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
+<td>Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, low offer count, and other factors. The recommendations are personalized to the seller based on past sales activity.
+<p>Can be requested or scheduled.</p></td>
+</tr>
+<tr class="even">
+<td><span class="keyword parmname">B2B Product Opportunities: Products not yet on Amazon</span>
+<p>Enumeration value: <samp class="ph codeph">_MBOP_GAP_PRODUCTS_REPORT_</samp></p>
+<p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
+<td>Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, and other factors for products not yet listed on Amazon. The recommendations are personalized to the seller based on past sales activity.
+<p>Can be requested or scheduled.</p></td>
+</tr>
 </tbody>
 </table>
 
