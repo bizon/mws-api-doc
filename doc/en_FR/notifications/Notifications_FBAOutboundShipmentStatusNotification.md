@@ -57,8 +57,7 @@ class="ph">Fulfillment by Amazon</span> shipment for a seller.
 Availability
 ------------
 
-This notification is available in all marketplaces except Brazil and
-China.
+This notification is available only in the Brazil marketplace.
 
 </div>
 
