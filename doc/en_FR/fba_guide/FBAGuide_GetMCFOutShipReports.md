@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Getting <span class="ph">Multi-Channel Fulfillment</span> outbound shipment reports
-===================================================================================
+# Getting <span class="ph">Multi-Channel Fulfillment</span> outbound shipment reports
 
 <div class="body conbody">
 

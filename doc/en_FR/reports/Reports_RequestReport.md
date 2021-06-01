@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_RequestReport" class="nested0">
 
-RequestReport
-=============
+# RequestReport
 
 <span class="ph">Creates a report request and submits the request to
 <span class="ph">Amazon MWS</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -117,8 +115,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -140,54 +137,54 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d295448e243" class="entry" data-valign="top" width="25%">Name</th>
+<th id="d295448e246" class="entry" data-valign="top" width="37.5%">Description</th>
+<th id="d295448e249" class="entry" data-valign="top" width="12.5%">Required</th>
+<th id="d295448e252" class="entry" data-valign="top" width="25%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportType</span></td>
-<td><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
-<td>Yes</td>
-<td>A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25%" headers="d295448e243 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d295448e246 "><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
+<td class="entry" data-valign="top" width="12.5%" headers="d295448e249 ">Yes</td>
+<td class="entry" data-valign="top" width="25%" headers="d295448e252 ">A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">StartDate</span></td>
-<td>The start of a date range used for selecting the data to report.</td>
-<td>No</td>
-<td>Must be prior to or equal to the current time.
+<tr class="even row">
+<td class="entry" data-valign="top" width="25%" headers="d295448e243 "><span class="keyword parmname">StartDate</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d295448e246 ">The start of a date range used for selecting the data to report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d295448e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d295448e252 ">Must be prior to or equal to the current time.
 <p>Default: Now</p>
 <p>Values in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">EndDate</span></td>
-<td>The end of a date range used for selecting the data to report.</td>
-<td>No</td>
-<td>Must be prior to or equal to the current time.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25%" headers="d295448e243 "><span class="keyword parmname">EndDate</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d295448e246 ">The end of a date range used for selecting the data to report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d295448e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d295448e252 ">Must be prior to or equal to the current time.
 <p>Default: Now</p>
 <p>Values in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span id="RequestParameters__ReportOptions" class="keyword parmname">ReportOptions</span></td>
-<td>Additional information to pass to the report.</td>
-<td>No</td>
-<td>If a report accepts <span class="keyword parmname">ReportOptions</span>, they will be described in the description of the report in the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> section.
+<tr class="even row">
+<td class="entry" data-valign="top" width="25%" headers="d295448e243 "><span id="RequestParameters__ReportOptions" class="keyword parmname">ReportOptions</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d295448e246 ">Additional information to pass to the report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d295448e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d295448e252 ">If a report accepts <span class="keyword parmname">ReportOptions</span>, they will be described in the description of the report in the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> section.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceIdList</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25%" headers="d295448e243 "><span class="keyword parmname">MarketplaceIdList</span>
 <p>(NA, EU only)</p></td>
-<td>A list of one or more marketplace IDs for the marketplaces you are registered to sell in. The resulting report will include information for all marketplaces you specify. <span class="ph">For more information about the behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values, see <a href="Reports_UsingMultipleMarketplaces.md" class="xref" title="Describes the best practices to follow when you are registered to sell in multiple marketplaces.">Using multiple marketplaces</a></span>.
+<td class="entry" data-valign="top" width="37.5%" headers="d295448e246 ">A list of one or more marketplace IDs for the marketplaces you are registered to sell in. The resulting report will include information for all marketplaces you specify. <span class="ph">For more information about the behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values, see <a href="Reports_UsingMultipleMarketplaces.md" class="xref" title="Describes the best practices to follow when you are registered to sell in multiple marketplaces.">Using multiple marketplaces</a></span>.
 <p>Example: <samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p></td>
-<td>No</td>
-<td>Marketplace IDs for marketplaces you are registered to sell in.
+<td class="entry" data-valign="top" width="12.5%" headers="d295448e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d295448e252 ">Marketplace IDs for marketplaces you are registered to sell in.
 <p>Default: The first marketplace that you registered to sell in.</p>
 <p>Type: List of <span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -202,8 +199,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -214,16 +210,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d295448e464" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d295448e467" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportRequestInfo</span></td>
-<td><span class="ph">Detailed information about a report request.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d295448e464 "><span class="keyword parmname">ReportRequestInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d295448e467 "><span class="ph">Detailed information about a report request.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
 </tr>
 </tbody>
@@ -237,8 +233,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -256,24 +251,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-    &Action=RequestReport
-    &EndDate=2008-06-26T18%3A12%3A21
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &ReportType=_GET_MERCHANT_LISTINGS_DATA_
-    &SellerId=A1XEXAMPLE5E6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &StartDate=2009-01-03T18%3A12%3A21
-    &Timestamp=2009-02-04T18%3A12%3A21.687Z
-    &Version=2009-01-01
-    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+&Action=RequestReport
+&EndDate=2008-06-26T18%3A12%3A21
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&ReportType=_GET_MERCHANT_LISTINGS_DATA_
+&SellerId=A1XEXAMPLE5E6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&StartDate=2009-01-03T18%3A12%3A21
+&Timestamp=2009-02-04T18%3A12%3A21.687Z
+&Version=2009-01-01
+&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -294,24 +291,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <RequestReportResponse
-        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-        <RequestReportResult>
-            <ReportRequestInfo>
-                <ReportRequestId>2291326454</ReportRequestId>
-                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-                <StartDate>2009-01-21T02:10:39+00:00</StartDate>
-                <EndDate>2009-02-13T02:10:39+00:00</EndDate>
-                <Scheduled>false</Scheduled>
-                <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
-                <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
-            </ReportRequestInfo>
-        </RequestReportResult>
-        <ResponseMetadata>
-            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-        </ResponseMetadata>
-    </RequestReportResponse>
+``` pre
+<?xml version="1.0"?>
+<RequestReportResponse
+    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+    <RequestReportResult>
+        <ReportRequestInfo>
+            <ReportRequestId>2291326454</ReportRequestId>
+            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+            <StartDate>2009-01-21T02:10:39+00:00</StartDate>
+            <EndDate>2009-02-13T02:10:39+00:00</EndDate>
+            <Scheduled>false</Scheduled>
+            <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
+            <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
+        </ReportRequestInfo>
+    </RequestReportResult>
+    <ResponseMetadata>
+        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+    </ResponseMetadata>
+</RequestReportResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -325,8 +324,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

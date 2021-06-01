@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetTransportContent" class="nested0">
 
-GetTransportContent
-===================
+# GetTransportContent
 
 <div class="body">
 
@@ -54,8 +53,7 @@ inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -107,8 +105,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -135,8 +132,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -147,16 +143,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d70287e241" class="entry" data-valign="top" width="29.940119760479046%">Name</th>
+<th id="d70287e244" class="entry" data-valign="top" width="70.05988023952095%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportContent</span></td>
-<td>Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.940119760479046%" headers="d70287e241 "><span class="keyword parmname">TransportContent</span></td>
+<td class="entry" data-valign="top" width="70.05988023952095%" headers="d70287e244 ">Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>
@@ -170,8 +166,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -189,16 +184,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-      &Action=GetTransportContent
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A135KKEKWF1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-09T00%3A46%3A38Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQF72K
+``` pre
+https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+  &Action=GetTransportContent
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A135KKEKWF1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-09T00%3A46%3A38Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQF72K
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -219,84 +216,86 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetTransportContentResponse
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetTransportContentResult>
-            <TransportContent>
-                <TransportDetails>
-                    <PartneredSmallParcelData>
-                        <PartneredEstimate>
-                            <Amount>
-                                <CurrencyCode>USD</CurrencyCode>
-                                <Value>38.22</Value>
-                            </Amount>
-                            <VoidDeadline>2013-08-10T00:25:05.650Z</VoidDeadline>
-                        </PartneredEstimate>
-                        <PackageList>
-                            <member>
-                                <Weight>
-                                    <Unit>pounds</Unit>
-                                    <Value>5.5</Value>
-                                </Weight>
-                                <TrackingId>1Z8V016A0377769652</TrackingId>
-                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                                <Dimensions>
-                                    <Unit>inches</Unit>
-                                    <Height>15</Height>
-                                    <Width>15</Width>
-                                    <Length>15</Length>
-                                </Dimensions>
-                                <PackageStatus>SHIPPED</PackageStatus>
-                            </member>
-                            <member>
-                                <Weight>
-                                    <Unit>pounds</Unit>
-                                    <Value>5.5</Value>
-                                </Weight>
-                                <TrackingId>1Z8V016A0371928464</TrackingId>
-                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                                <Dimensions>
-                                    <Unit>inches</Unit>
-                                    <Height>15</Height>
-                                    <Width>15</Width>
-                                    <Length>15</Length>
-                                </Dimensions>
-                                <PackageStatus>SHIPPED</PackageStatus>
-                            </member>
-                            <member>
-                                <Weight>
-                                    <Unit>pounds</Unit>
-                                    <Value>5.5</Value>
-                                </Weight>
-                                <TrackingId>1Z8V016A0360430477</TrackingId>
-                                <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
-                                <Dimensions>
-                                    <Unit>inches</Unit>
-                                    <Height>15</Height>
-                                    <Width>15</Width>
-                                    <Length>15</Length>
-                                </Dimensions>
-                                <PackageStatus>SHIPPED</PackageStatus>
-                            </member>
-                        </PackageList>
-                    </PartneredSmallParcelData>
-                </TransportDetails>
-                <TransportResult>
-                    <TransportStatus>CONFIRMED</TransportStatus>
-                </TransportResult>
-                <TransportHeader>
-                    <ShipmentType>SP</ShipmentType>
-                    <ShipmentId>FBAQF72K</ShipmentId>
-                    <SellerId>A135KKEKWF1J56</SellerId>
-                    <IsPartnered>true</IsPartnered>
-                </TransportHeader>
-            </TransportContent>
-        </GetTransportContentResult>
-        <ResponseMetadata>
-            <RequestId>9708430a-4010-478e-aafc-053979329978</RequestId>
-        </ResponseMetadata>
-    </GetTransportContentResponse>
+``` pre
+<?xml version="1.0"?>
+<GetTransportContentResponse
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetTransportContentResult>
+        <TransportContent>
+            <TransportDetails>
+                <PartneredSmallParcelData>
+                    <PartneredEstimate>
+                        <Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Value>38.22</Value>
+                        </Amount>
+                        <VoidDeadline>2013-08-10T00:25:05.650Z</VoidDeadline>
+                    </PartneredEstimate>
+                    <PackageList>
+                        <member>
+                            <Weight>
+                                <Unit>pounds</Unit>
+                                <Value>5.5</Value>
+                            </Weight>
+                            <TrackingId>1Z8V016A0377769652</TrackingId>
+                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                            <Dimensions>
+                                <Unit>inches</Unit>
+                                <Height>15</Height>
+                                <Width>15</Width>
+                                <Length>15</Length>
+                            </Dimensions>
+                            <PackageStatus>SHIPPED</PackageStatus>
+                        </member>
+                        <member>
+                            <Weight>
+                                <Unit>pounds</Unit>
+                                <Value>5.5</Value>
+                            </Weight>
+                            <TrackingId>1Z8V016A0371928464</TrackingId>
+                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                            <Dimensions>
+                                <Unit>inches</Unit>
+                                <Height>15</Height>
+                                <Width>15</Width>
+                                <Length>15</Length>
+                            </Dimensions>
+                            <PackageStatus>SHIPPED</PackageStatus>
+                        </member>
+                        <member>
+                            <Weight>
+                                <Unit>pounds</Unit>
+                                <Value>5.5</Value>
+                            </Weight>
+                            <TrackingId>1Z8V016A0360430477</TrackingId>
+                            <CarrierName>UNITED_PARCEL_SERVICE_INC</CarrierName>
+                            <Dimensions>
+                                <Unit>inches</Unit>
+                                <Height>15</Height>
+                                <Width>15</Width>
+                                <Length>15</Length>
+                            </Dimensions>
+                            <PackageStatus>SHIPPED</PackageStatus>
+                        </member>
+                    </PackageList>
+                </PartneredSmallParcelData>
+            </TransportDetails>
+            <TransportResult>
+                <TransportStatus>CONFIRMED</TransportStatus>
+            </TransportResult>
+            <TransportHeader>
+                <ShipmentType>SP</ShipmentType>
+                <ShipmentId>FBAQF72K</ShipmentId>
+                <SellerId>A135KKEKWF1J56</SellerId>
+                <IsPartnered>true</IsPartnered>
+            </TransportHeader>
+        </TransportContent>
+    </GetTransportContentResult>
+    <ResponseMetadata>
+        <RequestId>9708430a-4010-478e-aafc-053979329978</RequestId>
+    </ResponseMetadata>
+</GetTransportContentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -318,16 +317,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-      &Action=GetTransportContent
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A135KKEKWF1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-09T18%3A35%3A08Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQ6QBP
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+  &Action=GetTransportContent
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A135KKEKWF1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-09T18%3A35%3A08Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQ6QBP
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -348,37 +349,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetTransportContentResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetTransportContentResult>
-            <TransportContent>
-                <TransportDetails>
-                    <NonPartneredSmallParcelData>
-                        <PackageList>
-                            <member>
-                                <TrackingId>1Z6Y68W00342402864</TrackingId>
-                                <CarrierName>UNITED PARCEL SERVICE INC</CarrierName>
-                                <PackageStatus>SHIPPED</PackageStatus>
-                            </member>
-                        </PackageList>
-                    </NonPartneredSmallParcelData>
-                </TransportDetails>
-                <TransportResult>
-                    <TransportStatus>WORKING</TransportStatus>
-                </TransportResult>
-                <TransportHeader>
-                    <ShipmentType>SP</ShipmentType>
-                    <ShipmentId>FBAQ6QBP</ShipmentId>
-                    <SellerId>A135KKEKWF1J56</SellerId>
-                    <IsPartnered>false</IsPartnered>
-                </TransportHeader>
-            </TransportContent>
-        </GetTransportContentResult>
-        <ResponseMetadata>
-            <RequestId>89a965c3-1af7-41e3-9152-44cf0affd34b</RequestId>
-        </ResponseMetadata>
-    </GetTransportContentResponse>
+``` pre
+<?xml version="1.0"?>
+<GetTransportContentResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetTransportContentResult>
+        <TransportContent>
+            <TransportDetails>
+                <NonPartneredSmallParcelData>
+                    <PackageList>
+                        <member>
+                            <TrackingId>1Z6Y68W00342402864</TrackingId>
+                            <CarrierName>UNITED PARCEL SERVICE INC</CarrierName>
+                            <PackageStatus>SHIPPED</PackageStatus>
+                        </member>
+                    </PackageList>
+                </NonPartneredSmallParcelData>
+            </TransportDetails>
+            <TransportResult>
+                <TransportStatus>WORKING</TransportStatus>
+            </TransportResult>
+            <TransportHeader>
+                <ShipmentType>SP</ShipmentType>
+                <ShipmentId>FBAQ6QBP</ShipmentId>
+                <SellerId>A135KKEKWF1J56</SellerId>
+                <IsPartnered>false</IsPartnered>
+            </TransportHeader>
+        </TransportContent>
+    </GetTransportContentResult>
+    <ResponseMetadata>
+        <RequestId>89a965c3-1af7-41e3-9152-44cf0affd34b</RequestId>
+    </ResponseMetadata>
+</GetTransportContentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -400,16 +403,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-      &Action=GetTransportContent
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A135KKEKWF1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-09T18%3A51%3A01Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQFGQZ
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+  &Action=GetTransportContent
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A135KKEKWF1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-09T18%3A51%3A01Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQFGQZ
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -430,32 +435,34 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetTransportContentResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetTransportContentResult>
-            <TransportContent>
-                <TransportDetails>
-                    <NonPartneredLtlData>
-                        <CarrierName>ABF FREIGHT SYSTEM INC</CarrierName>
-                        <ProNumber>123456</ProNumber>
-                    </NonPartneredLtlData>
-                </TransportDetails>
-                <TransportResult>
-                    <TransportStatus>WORKING</TransportStatus>
-                </TransportResult>
-                <TransportHeader>
-                    <ShipmentType>LTL</ShipmentType>
-                    <ShipmentId>FBAQFGQZ</ShipmentId>
-                    <SellerId>A135KKEKWF1J56</SellerId>
-                    <IsPartnered>false</IsPartnered>
-                </TransportHeader>
-            </TransportContent>
-        </GetTransportContentResult>
-        <ResponseMetadata>
-            <RequestId>5e2ca38a-9f96-4ef7-ae82-3afb8dc224d4</RequestId>
-        </ResponseMetadata>
-    </GetTransportContentResponse>
+``` pre
+<?xml version="1.0"?>
+<GetTransportContentResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetTransportContentResult>
+        <TransportContent>
+            <TransportDetails>
+                <NonPartneredLtlData>
+                    <CarrierName>ABF FREIGHT SYSTEM INC</CarrierName>
+                    <ProNumber>123456</ProNumber>
+                </NonPartneredLtlData>
+            </TransportDetails>
+            <TransportResult>
+                <TransportStatus>WORKING</TransportStatus>
+            </TransportResult>
+            <TransportHeader>
+                <ShipmentType>LTL</ShipmentType>
+                <ShipmentId>FBAQFGQZ</ShipmentId>
+                <SellerId>A135KKEKWF1J56</SellerId>
+                <IsPartnered>false</IsPartnered>
+            </TransportHeader>
+        </TransportContent>
+    </GetTransportContentResult>
+    <ResponseMetadata>
+        <RequestId>5e2ca38a-9f96-4ef7-ae82-3afb8dc224d4</RequestId>
+    </ResponseMetadata>
+</GetTransportContentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -469,8 +476,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

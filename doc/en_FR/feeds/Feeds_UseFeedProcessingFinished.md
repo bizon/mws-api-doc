@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_UseFeedProcessingFinished" class="nested0">
 
-Use FeedProcessingFinishedNotification when submitting a feed
-=============================================================
+# Use FeedProcessingFinishedNotification when submitting a feed
 
 <div class="body">
 

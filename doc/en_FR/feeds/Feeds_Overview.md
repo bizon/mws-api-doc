@@ -42,13 +42,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_Overview" class="nested0">
 
-What you should know about the Amazon MWS Feeds API section
-===========================================================
+# What you should know about the Amazon MWS Feeds API section
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Use FeedProcessingFinishedNotification when submitting a
     feed](../feeds/Feeds_UseFeedProcessingFinished.md)**  
@@ -63,8 +61,7 @@ In this section
 
 <div id="Feeds_FeedsOverview" class="topic concept nested1">
 
-Overview
---------
+## Overview
 
 <div class="body conbody">
 

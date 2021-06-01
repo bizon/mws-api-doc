@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetCompetitivePricingForASIN" class="nested0">
 
-GetCompetitivePricingForASIN
-============================
+# GetCompetitivePricingForASIN
 
 <div class="body">
 
@@ -54,8 +53,7 @@ based on <span class="keyword parmname">ASIN</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -115,8 +113,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -138,28 +135,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d232806e232" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d232806e235" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d232806e238" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d232806e241" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace from which prices are returned.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e232 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e235 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d232806e238 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e241 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASINList</span></td>
-<td>A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e232 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e235 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
 <p>Type: List of xs:string</p></td>
-<td>Yes</td>
-<td>Maximum: 20 <span class="keyword parmname">ASIN</span> values</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d232806e238 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232806e241 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values</td>
 </tr>
 </tbody>
 </table>
@@ -172,8 +169,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -196,28 +192,28 @@ class="keyword apiname">GetCompetitivePricingForASIN</span> operation.
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d232806e346" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d232806e349" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Product</span></td>
-<td>Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e346 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e349 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Identifiers</span></td>
-<td>Contains the following identifiers that uniquely identify a product:
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e346 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e349 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">CompetitivePricing</span></td>
-<td>Contains pricing information for the product that is returned.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e346 "><span class="keyword parmname">CompetitivePricing</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e349 ">Contains pricing information for the product that is returned.
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">CompetitivePrice</span>. Contains pricing information. The <span class="keyword parmname">CompetitivePrice</span> element contains the following attributes:
@@ -238,9 +234,9 @@ class="keyword apiname">GetCompetitivePricingForASIN</span> operation.
 <li><span class="keyword parmname">TradeInValue</span>. The trade-in value of the product in Amazon’s Trade-In program. For more information about Amazon’s Trade-In program, see the “Amazon Trade-In program” section of the Help pages for the Amazon website in your marketplace.</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SalesRankings</span></td>
-<td>Sales rank information for the product by product category.
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e346 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d232806e349 ">Sales rank information for the product by product category.
 <p>Key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>
@@ -258,8 +254,7 @@ class="keyword apiname">GetCompetitivePricingForASIN</span> operation.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -277,22 +272,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    ASINList.ASIN.1=B002KT3XQM
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetCompetitivePricingForASIN
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T21%3A23%3A31Z
-    &Version=2011-10-01
-    &Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+ASINList.ASIN.1=B002KT3XQM
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetCompetitivePricingForASIN
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T21%3A23%3A31Z
+&Version=2011-10-01
+&Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -313,53 +310,55 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetCompetitivePricingForASINResponse
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetCompetitivePricingForASINResult ASIN="B002KT3XQM" status="Success">
-            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-                <Identifiers>
-                    <MarketplaceASIN>
-                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                        <ASIN>B002KT3XQM</ASIN>
-                    </MarketplaceASIN>
-                </Identifiers>
-                <CompetitivePricing>
-                    <CompetitivePrices>
-                        <CompetitivePrice belongsToRequester="false"
-                            condition="New"
-                            subcondition="New">
-                            <CompetitivePriceId>1</CompetitivePriceId>
-                            <Price>
-                                <LandedPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>34.27</Amount>
-                                </LandedPrice>
-                                <ListingPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>34.27</Amount>
-                                </ListingPrice>
-                                <Shipping>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>0.00</Amount>
-                                </Shipping>
-                            </Price>
-                        </CompetitivePrice>
-                    </CompetitivePrices>
-                    <NumberOfOfferListings>
-                        <OfferListingCount condition="Any">11</OfferListingCount>
-                        <OfferListingCount condition="Used">1</OfferListingCount>
-                        <OfferListingCount condition="New">10</OfferListingCount>
-                    </NumberOfOfferListings>
-                </CompetitivePricing>
-                <SalesRankings/>
-            </Product>
-        </GetCompetitivePricingForASINResult>
-        <ResponseMetadata>
-            <RequestId>a8ec20c3-fc88-46e3-a128-EXAMPLE3fcdf</RequestId>
-        </ResponseMetadata>
-    </GetCompetitivePricingForASINResponse>
+``` pre
+<?xml version="1.0"?>
+<GetCompetitivePricingForASINResponse
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetCompetitivePricingForASINResult ASIN="B002KT3XQM" status="Success">
+        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Identifiers>
+                <MarketplaceASIN>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <ASIN>B002KT3XQM</ASIN>
+                </MarketplaceASIN>
+            </Identifiers>
+            <CompetitivePricing>
+                <CompetitivePrices>
+                    <CompetitivePrice belongsToRequester="false"
+                        condition="New"
+                        subcondition="New">
+                        <CompetitivePriceId>1</CompetitivePriceId>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>34.27</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>34.27</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </Shipping>
+                        </Price>
+                    </CompetitivePrice>
+                </CompetitivePrices>
+                <NumberOfOfferListings>
+                    <OfferListingCount condition="Any">11</OfferListingCount>
+                    <OfferListingCount condition="Used">1</OfferListingCount>
+                    <OfferListingCount condition="New">10</OfferListingCount>
+                </NumberOfOfferListings>
+            </CompetitivePricing>
+            <SalesRankings/>
+        </Product>
+    </GetCompetitivePricingForASINResult>
+    <ResponseMetadata>
+        <RequestId>a8ec20c3-fc88-46e3-a128-EXAMPLE3fcdf</RequestId>
+    </ResponseMetadata>
+</GetCompetitivePricingForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -373,8 +372,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

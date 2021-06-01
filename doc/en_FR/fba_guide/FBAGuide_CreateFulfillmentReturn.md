@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Creating a fulfillment return
-=============================
+# Creating a fulfillment return
 
 <div class="body conbody">
 
@@ -58,8 +57,7 @@ definitions, see
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-1"
 class="section">
 
-Step 1. The buyer requests a return
------------------------------------
+## Step 1. The buyer requests a return
 
 The buyer contacts the seller and requests a return for items that the
 seller fulfilled using the Fulfillment Outbound Shipment service.
@@ -69,8 +67,7 @@ seller fulfilled using the Fulfillment Outbound Shipment service.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-2"
 class="section">
 
-Step 2. The seller associates the return items with fulfillment orders
-----------------------------------------------------------------------
+## Step 2. The seller associates the return items with fulfillment orders
 
 Each return item must be associated with the fulfillment order that the
 seller used to fulfill it. The seller uses their own records to find the
@@ -86,8 +83,7 @@ class="keyword parmname">SellerFulfillmentOrderItemId</span> value.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-3"
 class="section">
 
-Step 3. The seller inputs one or more SellerFulfillmentOrderId values into the application
-------------------------------------------------------------------------------------------
+## Step 3. The seller inputs one or more SellerFulfillmentOrderId values into the application
 
 The seller inputs a <span
 class="keyword parmname">SellerFulfillmentOrderId</span> value for each
@@ -98,8 +94,7 @@ of the fulfillment orders that contain items to return.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-4"
 class="section">
 
-Step 4. The application calls GetFulfillmentOrder to get values for subsequent calls to the service, if required
-----------------------------------------------------------------------------------------------------------------
+## Step 4. The application calls GetFulfillmentOrder to get values for subsequent calls to the service, if required
 
 <div class="p">
 
@@ -132,8 +127,7 @@ in Step 3, and saves the following response values:
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-5"
 class="section">
 
-Step 5. The application gets return reason codes
-------------------------------------------------
+## Step 5. The application gets return reason codes
 
 A valid return reason code is required for each item that is to be
 returned. The application calls the <span
@@ -151,8 +145,7 @@ class="keyword apiname">CreateFulfillmentReturn</span> operation.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-6"
 class="section">
 
-Step 6. The seller initiates the creation of a fulfillment return
------------------------------------------------------------------
+## Step 6. The seller initiates the creation of a fulfillment return
 
 Each fulfillment return requires a <span
 class="keyword parmname">SellerFulfillmentOrderId</span> value to
@@ -196,8 +189,7 @@ return for each fulfillment order.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-7"
 class="section">
 
-Step 7. The application creates the fulfillment return
-------------------------------------------------------
+## Step 7. The application creates the fulfillment return
 
 The application creates a fulfillment return by calling the
 <a href="../fba_outbound/FBAOutbound_CreateFulfillmentReturn.md" class="xref" title="Creates a fulfillment return.">CreateFulfillmentReturn</a>
@@ -218,8 +210,7 @@ operation, specifying the following:
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-8"
 class="section">
 
-Step 8. The application returns information required for returning the items
-----------------------------------------------------------------------------
+## Step 8. The application returns information required for returning the items
 
 The application returns a list of items accepted for return, as well as
 one or more return authorizations. Return authorizations contain the
@@ -244,8 +235,7 @@ items on this list.
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-9"
 class="section">
 
-Step 9. The seller sends the buyer the return information
----------------------------------------------------------
+## Step 9. The seller sends the buyer the return information
 
 <div class="p">
 
@@ -283,16 +273,14 @@ If the fulfillment return has multiple authorizations:
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-10"
 class="section">
 
-Step 10. The buyer sends the fulfillment return to Amazon’s fulfillment centers.
---------------------------------------------------------------------------------
+## Step 10. The buyer sends the fulfillment return to Amazon’s fulfillment centers.
 
 </div>
 
 <div id="FBAGuide_FBAGuide_CreateFulfillmentReturn__Step-11"
 class="section">
 
-Step 11. (optional) The seller requests the status of the fulfillment return
-----------------------------------------------------------------------------
+## Step 11. (optional) The seller requests the status of the fulfillment return
 
 The seller can request the status of a fulfilment return. This is a
 possible workflow:

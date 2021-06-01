@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToCancelShipment" class="nested0">
 
-How to cancel a shipment
-========================
+# How to cancel a shipment
 
 <div class="body">
 
@@ -74,8 +73,7 @@ described in
 
 <div class="section">
 
-Errors
-------
+## Errors
 
 The service returns the <span
 class="keyword parmname">LabelCancelWindowExpired</span> error if the
@@ -86,8 +84,7 @@ window for canceling a label has expired. See
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 <a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 

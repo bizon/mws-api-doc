@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Creating your User-Agent Header
-===============================
+# Creating your User-Agent Header
 
 <div class="body">
 
@@ -77,19 +76,25 @@ semicolons.
 The following example illustrates a minimally acceptable User-Agent
 header:
 
-    AppId/AppVersionId (Language=LanguageNameAndOptionallyVersion)
+``` pre
+AppId/AppVersionId (Language=LanguageNameAndOptionallyVersion)
+```
 
 If you are a third-party application integrator, you might want to use a
 User-Agent header like the following:
 
-    My Seller Tool/2.0 (Language=Java/1.6.0.11; Platform=Windows/XP)
+``` pre
+My Seller Tool/2.0 (Language=Java/1.6.0.11; Platform=Windows/XP)
+```
 
 If you are a large seller who is integrating through your own IT
 department, you might want create a User-Agent header like the
 following, so <span class="ph">Amazon MWS</span> could help you
 troubleshoot using the Host attribute:
 
-    MyCompanyName/build1611 (Language=Perl; Host=jane.laptop.example.com)
+``` pre
+MyCompanyName/build1611 (Language=Perl; Host=jane.laptop.example.com)
+```
 
 To specify additional attributes, use the format AttributeName=Value;,
 separating each name value pair with a semicolon. Should you wish to use
@@ -108,8 +113,7 @@ characters.
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

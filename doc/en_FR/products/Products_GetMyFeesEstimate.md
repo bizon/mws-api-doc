@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetMyFeesEstimate" class="nested0">
 
-GetMyFeesEstimate
-=================
+# GetMyFeesEstimate
 
 <div class="body">
 
@@ -54,8 +53,7 @@ products.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -129,8 +127,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -152,20 +149,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d249797e220" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d249797e223" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d249797e226" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d249797e229" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FeesEstimateRequestList</span></td>
-<td><span id="RequestParameters__d50849e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
-<td>Yes</td>
-<td>Maximum: 20 requests.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d249797e220 "><span class="keyword parmname">FeesEstimateRequestList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d249797e223 "><span id="RequestParameters__d50849e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d249797e226 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d249797e229 ">Maximum: 20 requests.
 <p>Type: List of <a href="Products_Datatypes.md#FeesEstimateRequest" class="xref" title="A product, marketplace, and proposed price used to request estimated fees.">FeesEstimateRequest</a></p></td>
 </tr>
 </tbody>
@@ -179,8 +176,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -222,8 +218,7 @@ class="keyword apiname">GetMyFeesEstimate</span> operation are:
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -241,30 +236,32 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header> 
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header> 
 
-    FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
-    &FeesEstimateRequestList.FeesEstimateRequest.1.IdType=ASIN
-    &FeesEstimateRequestList.FeesEstimateRequest.1.IdValue= B002KT3XQM
-    &FeesEstimateRequestList.FeesEstimateRequest.1.IsAmazonFulfilled=true
-    &FeesEstimateRequestList.FeesEstimateRequest.1.Identifier= request1
-    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.CurrencyCode=USD
-    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.Amount=30.00
-    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.CurrencyCode=USD
-    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.Amount=3.99
-    &FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Points.PointsNumber=0
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetMyFeesEstimate
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T22%3A03%3A05Z
-    &Version=2011-10-01
-    &Signature=fJFzEXAMPLEEax1vAdKP7l3lwKQUH1r34lcEXAMPLEA%3D
+FeesEstimateRequestList.FeesEstimateRequest.1.MarketplaceId= ATVPDKIKX0DER
+&FeesEstimateRequestList.FeesEstimateRequest.1.IdType=ASIN
+&FeesEstimateRequestList.FeesEstimateRequest.1.IdValue= B002KT3XQM
+&FeesEstimateRequestList.FeesEstimateRequest.1.IsAmazonFulfilled=true
+&FeesEstimateRequestList.FeesEstimateRequest.1.Identifier= request1
+&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.CurrencyCode=USD
+&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.ListingPrice.Amount=30.00
+&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.CurrencyCode=USD
+&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Shipping.Amount=3.99
+&FeesEstimateRequestList.FeesEstimateRequest.1.PriceToEstimateFees.Points.PointsNumber=0
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetMyFeesEstimate
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T22%3A03%3A05Z
+&Version=2011-10-01
+&Signature=fJFzEXAMPLEEax1vAdKP7l3lwKQUH1r34lcEXAMPLEA%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -285,121 +282,123 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetMyFeesEstimateResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetMyFeesEstimateResult>
-        <FeesEstimateResultList>
-          <FeesEstimateResult>
-            <Status>Success</Status>
-            <FeesEstimateIdentifier>
-              <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-              <IdValue>B0002GTTRC</IdValue>
-              <IdType>ASIN</IdType>
-              <IsAmazonFulfilled>True</IsAmazonFulfilled>
-              <PriceToEstimateFees>
-                <ListingPrice>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <Amount>58.00</Amount>
-                </ListingPrice>
-                <Shipping>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <Amount>0.00</Amount>
-                </Shipping>
-                <Points>
-                  <PointsNumber>0</PointsNumber>
-                </Points>
-              </PriceToEstimateFees>
-              <SellerInputIdentifier>IDDDDDDDD</SellerInputIdentifier>
-            </FeesEstimateIdentifier>
-            <FeesEstimate>
-              <TimeOfFeesEstimation>2015-07-19T23:15:11.859Z</TimeOfFeesEstimation>
-              <TotalFeesEstimate>
+``` pre
+<?xml version="1.0"?>
+<GetMyFeesEstimateResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetMyFeesEstimateResult>
+    <FeesEstimateResultList>
+      <FeesEstimateResult>
+        <Status>Success</Status>
+        <FeesEstimateIdentifier>
+          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+          <IdValue>B0002GTTRC</IdValue>
+          <IdType>ASIN</IdType>
+          <IsAmazonFulfilled>True</IsAmazonFulfilled>
+          <PriceToEstimateFees>
+            <ListingPrice>
+              <CurrencyCode>USD</CurrencyCode>
+              <Amount>58.00</Amount>
+            </ListingPrice>
+            <Shipping>
+              <CurrencyCode>USD</CurrencyCode>
+              <Amount>0.00</Amount>
+            </Shipping>
+            <Points>
+              <PointsNumber>0</PointsNumber>
+            </Points>
+          </PriceToEstimateFees>
+          <SellerInputIdentifier>IDDDDDDDD</SellerInputIdentifier>
+        </FeesEstimateIdentifier>
+        <FeesEstimate>
+          <TimeOfFeesEstimation>2015-07-19T23:15:11.859Z</TimeOfFeesEstimation>
+          <TotalFeesEstimate>
+            <CurrencyCode>USD</CurrencyCode>
+            <Amount>10.00</Amount>
+          </TotalFeesEstimate>
+          <FeeDetailList>
+            <FeeDetail>
+              <FeeType>AmazonReferralFee</FeeType>
+              <FeeAmount>
                 <CurrencyCode>USD</CurrencyCode>
-                <Amount>10.00</Amount>
-              </TotalFeesEstimate>
-              <FeeDetailList>
+                <Amount>8.70</Amount>
+              </FeeAmount>
+              <FeePromotion>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>1.00</Amount>
+              </FeePromotion>
+              <FinalFee>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>7.70</Amount>
+              </FinalFee>
+            </FeeDetail>
+            <FeeDetail>
+              <FeeType>VariableClosingFee</FeeType>
+              <FeeAmount>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>0.00</Amount>
+              </FeeAmount>
+              <FinalFee>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>0.0</Amount>
+              </FinalFee>
+            </FeeDetail>
+            <FeeDetail>
+              <FeeType>FulfillmentFees</FeeType>
+              <FeeAmount>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>2.30</Amount>
+              </FeeAmount>
+              <FinalFee>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>2.30</Amount>
+              </FinalFee>
+              <IncludedFeeList>
                 <FeeDetail>
-                  <FeeType>AmazonReferralFee</FeeType>
+                  <FeeType>OrderHandlingFee</FeeType>
                   <FeeAmount>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>8.70</Amount>
-                  </FeeAmount>
-                  <FeePromotion>
                     <CurrencyCode>USD</CurrencyCode>
                     <Amount>1.00</Amount>
-                  </FeePromotion>
-                  <FinalFee>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>7.70</Amount>
-                  </FinalFee>
-                </FeeDetail>
-                <FeeDetail>
-                  <FeeType>VariableClosingFee</FeeType>
-                  <FeeAmount>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.00</Amount>
                   </FeeAmount>
                   <FinalFee>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>0.0</Amount>
+                    <Amount>1.00</Amount>
                   </FinalFee>
                 </FeeDetail>
                 <FeeDetail>
-                  <FeeType>FulfillmentFees</FeeType>
+                  <FeeType>PickAndPackFee</FeeType>
                   <FeeAmount>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>2.30</Amount>
+                    <Amount>0.30</Amount>
                   </FeeAmount>
                   <FinalFee>
                     <CurrencyCode>USD</CurrencyCode>
-                    <Amount>2.30</Amount>
+                    <Amount>0.30</Amount>
                   </FinalFee>
-                  <IncludedFeeList>
-                    <FeeDetail>
-                      <FeeType>OrderHandlingFee</FeeType>
-                      <FeeAmount>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>1.00</Amount>
-                      </FeeAmount>
-                      <FinalFee>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>1.00</Amount>
-                      </FinalFee>
-                    </FeeDetail>
-                    <FeeDetail>
-                      <FeeType>PickAndPackFee</FeeType>
-                      <FeeAmount>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.30</Amount>
-                      </FeeAmount>
-                      <FinalFee>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.30</Amount>
-                      </FinalFee>
-                    </FeeDetail>
-                    <FeeDetail>
-                      <FeeType>WeightHandlingFee</FeeType>
-                      <FeeAmount>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>1.00</Amount>
-                      </FeeAmount>
-                      <FinalFee>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>1.00</Amount>
-                      </FinalFee>
-                    </FeeDetail>
-                  </IncludedFeeList>
                 </FeeDetail>
-              </FeeDetailList>
-            </FeesEstimate>
-          </FeesEstimateResult>
-        </FeesEstimateResultList>
-      </GetMyFeesEstimateResult>
-      <ResponseMetadata>
-        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-      </ResponseMetadata>
-    </GetMyFeesEstimateResponse>
+                <FeeDetail>
+                  <FeeType>WeightHandlingFee</FeeType>
+                  <FeeAmount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>1.00</Amount>
+                  </FeeAmount>
+                  <FinalFee>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>1.00</Amount>
+                  </FinalFee>
+                </FeeDetail>
+              </IncludedFeeList>
+            </FeeDetail>
+          </FeeDetailList>
+        </FeesEstimate>
+      </FeesEstimateResult>
+    </FeesEstimateResultList>
+  </GetMyFeesEstimateResult>
+  <ResponseMetadata>
+    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+  </ResponseMetadata>
+</GetMyFeesEstimateResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -420,28 +419,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetMyFeesEstimateResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetMyFeesEstimateResult>
-        <FeesEstimateResultList>
-          <FeesEstimateResult>
-            <Status>ClientError</Status>
-            <FeesEstimateIdentifier>
-              <!--  Rest of the input parameters -->
-            </FeesEstimateIdentifier>
-            <Error>
-              <Type>Sender</Type>
-              <Code>InvalidParameterValue</Code>
-              <Message> Attribute X is not valid for marketplace ATVPDKIKX0DER </Message>
-            </Error>
-          </FeesEstimateResult>
-        </FeesEstimateResultList>
-      </GetMyFeesEstimateResult>
-      <ResponseMetadata>
-        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-      </ResponseMetadata>
-    </GetMyFeesEstimateResponse>
+``` pre
+<?xml version="1.0"?>
+<GetMyFeesEstimateResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetMyFeesEstimateResult>
+    <FeesEstimateResultList>
+      <FeesEstimateResult>
+        <Status>ClientError</Status>
+        <FeesEstimateIdentifier>
+          <!--  Rest of the input parameters -->
+        </FeesEstimateIdentifier>
+        <Error>
+          <Type>Sender</Type>
+          <Code>InvalidParameterValue</Code>
+          <Message> Attribute X is not valid for marketplace ATVPDKIKX0DER </Message>
+        </Error>
+      </FeesEstimateResult>
+    </FeesEstimateResultList>
+  </GetMyFeesEstimateResult>
+  <ResponseMetadata>
+    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+  </ResponseMetadata>
+</GetMyFeesEstimateResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -462,27 +463,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetMyFeesEstimateResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetMyFeesEstimateResult>
-        <FeesEstimateResultList>
-          <FeesEstimateResult>
-            <Status>ServerError</Status>
-            <FeesEstimateIdentifier>
-              <!--  Rest of the input parameters -->
-            </FeesEstimateIdentifier>
-            <Error>
-              <Type> Receiver </Type>
-              <Code>InternalError</Code>
-              <Message> There was an internal service failure. </Message>
-            </Error>
-          </FeesEstimateResult>
-        </FeesEstimateResultList>
-      </GetMyFeesEstimateResult>
-      <ResponseMetadata>
-        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-      </ResponseMetadata>
-    </GetMyFeesEstimateResponse>
+``` pre
+<?xml version="1.0"?>
+<GetMyFeesEstimateResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetMyFeesEstimateResult>
+    <FeesEstimateResultList>
+      <FeesEstimateResult>
+        <Status>ServerError</Status>
+        <FeesEstimateIdentifier>
+          <!--  Rest of the input parameters -->
+        </FeesEstimateIdentifier>
+        <Error>
+          <Type> Receiver </Type>
+          <Code>InternalError</Code>
+          <Message> There was an internal service failure. </Message>
+        </Error>
+      </FeesEstimateResult>
+    </FeesEstimateResultList>
+  </GetMyFeesEstimateResult>
+  <ResponseMetadata>
+    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+  </ResponseMetadata>
+</GetMyFeesEstimateResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -503,28 +506,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetMyFeesEstimateResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetMyFeesEstimateResult>
-        <FeesEstimateResultList>
-          <FeesEstimateResult>
-            <Status>ServerError</Status>
-            <FeesEstimateIdentifier>
-              <!--  Rest of the input parameters -->
-            </FeesEstimateIdentifier>
-            <Error>
-              <Type> Receiver </Type>
-              <Code>DataNotAvailable</Code>
-              <Message> Non-buyable item. Missing category. </Message>
-            </Error>
-          </FeesEstimateResult>
-        </FeesEstimateResultList>
-      </GetMyFeesEstimateResult>
-      <ResponseMetadata>
-        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-      </ResponseMetadata>
-    </GetMyFeesEstimateResponse>
+``` pre
+<?xml version="1.0"?>
+<GetMyFeesEstimateResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetMyFeesEstimateResult>
+    <FeesEstimateResultList>
+      <FeesEstimateResult>
+        <Status>ServerError</Status>
+        <FeesEstimateIdentifier>
+          <!--  Rest of the input parameters -->
+        </FeesEstimateIdentifier>
+        <Error>
+          <Type> Receiver </Type>
+          <Code>DataNotAvailable</Code>
+          <Message> Non-buyable item. Missing category. </Message>
+        </Error>
+      </FeesEstimateResult>
+    </FeesEstimateResultList>
+  </GetMyFeesEstimateResult>
+  <ResponseMetadata>
+    <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+  </ResponseMetadata>
+</GetMyFeesEstimateResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -545,16 +550,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <Error>
-        <Type>Sender</Type>
-        <Code>InvalidParameterValue</Code>
-        <Message> There are more than 20 elements in FeesEstimateRequestList. </Message>
-        <Detail/>
-      </Error>
-      <RequestID>9f17b9ff-2ef5-42fe-b956-6d9b38ac8422</RequestID>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <Error>
+    <Type>Sender</Type>
+    <Code>InvalidParameterValue</Code>
+    <Message> There are more than 20 elements in FeesEstimateRequestList. </Message>
+    <Detail/>
+  </Error>
+  <RequestID>9f17b9ff-2ef5-42fe-b956-6d9b38ac8422</RequestID>
+</ErrorResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -568,8 +575,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

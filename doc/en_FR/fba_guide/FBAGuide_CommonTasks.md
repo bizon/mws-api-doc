@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="CommonTasks" class="nested0">
 
-Common tasks
-============
+# Common tasks
 
 <div class="body">
 
@@ -58,8 +57,7 @@ Central user interface.
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Monitoring and tracking FBA
     orders](../fba_guide/FBAGuide_MonitorAFNAmazonOrders.md)**  

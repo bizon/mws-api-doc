@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_GetFulfillmentOrder" class="nested0">
 
-GetFulfillmentOrder
-===================
+# GetFulfillmentOrder
 
 <div class="body">
 
@@ -54,8 +53,7 @@ class="keyword parmname">SellerFulfillmentOrderId</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -94,8 +92,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -108,20 +105,20 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d110281e141" class="entry" data-valign="top" width="31.880448318804476%">Name</th>
+<th id="d110281e144" class="entry" data-valign="top" width="30.01245330012453%">Description</th>
+<th id="d110281e147" class="entry" data-valign="top" width="12.453300124533%">Required</th>
+<th id="d110281e150" class="entry" data-valign="top" width="25.65379825653798%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
-<td>A fulfillment order identifier that was assigned by the seller with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</td>
-<td>Yes</td>
-<td>Maximum: 40 characters
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="31.880448318804476%" headers="d110281e141 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
+<td class="entry" data-valign="top" width="30.01245330012453%" headers="d110281e144 ">A fulfillment order identifier that was assigned by the seller with a previous call to the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</td>
+<td class="entry" data-valign="top" width="12.453300124533%" headers="d110281e147 ">Yes</td>
+<td class="entry" data-valign="top" width="25.65379825653798%" headers="d110281e150 ">Maximum: 40 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -135,8 +132,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -147,36 +143,36 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d110281e207" class="entry" data-valign="top" width="40%">Name</th>
+<th id="d110281e210" class="entry" data-valign="top" width="60%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FulfillmentOrder</span></td>
-<td>General fulfillment order information, including order status.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="40%" headers="d110281e207 "><span class="keyword parmname">FulfillmentOrder</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d110281e210 ">General fulfillment order information, including order status.
 <p>Type: <a href="FBAOutbound_Datatypes.md#FulfillmentOrder" class="xref" title="General information about a fulfillment order, including its status.">FulfillmentOrder</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FulfillmentOrderItem</span></td>
-<td>Item-level fulfillment order information.
+<tr class="even row">
+<td class="entry" data-valign="top" width="40%" headers="d110281e207 "><span class="keyword parmname">FulfillmentOrderItem</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d110281e210 ">Item-level fulfillment order information.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentOrderItem" class="xref" title="Item information for a fulfillment order.">FulfillmentOrderItem</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">FulfillmentShipment</span></td>
-<td>Shipment-level fulfillment order information.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="40%" headers="d110281e207 "><span class="keyword parmname">FulfillmentShipment</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d110281e210 ">Shipment-level fulfillment order information.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ReturnItemList</span></td>
-<td>A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
+<tr class="even row">
+<td class="entry" data-valign="top" width="40%" headers="d110281e207 "><span class="keyword parmname">ReturnItemList</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d110281e210 ">A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReturnAuthorizationList</span></td>
-<td>A list of return authorizations.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="40%" headers="d110281e207 "><span class="keyword parmname">ReturnAuthorizationList</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d110281e210 ">A list of return authorizations.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
 </tr>
 </tbody>
@@ -190,8 +186,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -209,17 +204,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
-      ?Action=GetFulfillmentOrder   
-      &Version=2010-10-01   
-      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
-      &SignatureVersion=2   
-      &SignatureMethod=HmacSHA256   
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
-      &Timestamp=2016-09-29T02:40:36Z   
-      &SellerId=A2NKEXAMPLEF53   
-      &SellerFulfillmentOrderId=extern_id_1154539615776
+``` pre
+http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
+  ?Action=GetFulfillmentOrder   
+  &Version=2010-10-01   
+  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
+  &SignatureVersion=2   
+  &SignatureMethod=HmacSHA256   
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
+  &Timestamp=2016-09-29T02:40:36Z   
+  &SellerId=A2NKEXAMPLEF53   
+  &SellerFulfillmentOrderId=extern_id_1154539615776
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -240,181 +237,183 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <GetFulfillmentOrderResponse
-      xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-      <GetFulfillmentOrderResult>
-        <FulfillmentOrderItem>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<GetFulfillmentOrderResponse
+  xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+  <GetFulfillmentOrderResult>
+    <FulfillmentOrderItem>
+      <member>
+        <SellerSKU>SKU100</SellerSKU>
+        <GiftMessage>giftwrap_message</GiftMessage>
+        <SellerFulfillmentOrderItemId>merchant_order_item_id_2
+          </SellerFulfillmentOrderItemId>
+        <EstimatedShipDateTime>2016-09-03T07:07:53Z</EstimatedShipDateTime>
+        <DisplayableComment>Example comment</DisplayableComment>
+        <UnfulfillableQuantity>0</UnfulfillableQuantity>
+        <CancelledQuantity>1</CancelledQuantity>
+        <Quantity>5</Quantity>
+        <EstimatedArrivalDateTime>2016-09-05T08:07:53Z
+          </EstimatedArrivalDateTime>
+        <PerUnitPrice>
+          <CurrencyCode>JPY</CurrencyCode>
+          <Value>2500</Value>
+        </PerUnitPrice>
+        <PerUnitTax>
+          <CurrencyCode>JPY</CurrencyCode>
+          <Value>5000</Value>
+        </PerUnitTax>
+      </member>
+      <member>
+        <SellerSKU>SKU101</SellerSKU>
+        <GiftMessage>giftwrap_message</GiftMessage>
+        <SellerFulfillmentOrderItemId>merchant_order_item_id_1
+          </SellerFulfillmentOrderItemId>
+        <EstimatedShipDateTime>2016-09-03T07:07:53Z</EstimatedShipDateTime>
+        <DisplayableComment>Example comment</DisplayableComment>
+        <UnfulfillableQuantity>2</UnfulfillableQuantity>
+        <CancelledQuantity>1</CancelledQuantity>
+        <Quantity>5</Quantity>
+        <EstimatedArrivalDateTime>2016-09-05T08:07:53Z
+          </EstimatedArrivalDateTime>
+        <PerUnitPrice>
+          <CurrencyCode>JPY</CurrencyCode>
+          <Value>1000</Value>
+        </PerUnitPrice>
+        <PerUnitTax>
+          <CurrencyCode>JPY</CurrencyCode>
+          <Value>2000</Value>
+        </PerUnitTax>
+      </member>
+    </FulfillmentOrderItem>
+    <FulfillmentOrder>
+      <ShippingSpeedCategory>ScheduledDelivery</ShippingSpeedCategory>
+      <DeliveryWindow>
+        <StartDateTime>2016-09-05T03:00:00Z</StartDateTime>
+        <EndDateTime>2016-09-05T05:00:00Z</EndDateTime>
+      </DeliveryWindow>
+      <NotificationEmailList>
+        <member>o8c2EXAMPLsfr7o@marketplace.amazon.com</member>
+      </NotificationEmailList>
+      <StatusUpdatedDateTime>2016-09-05T23:48:48Z</StatusUpdatedDateTime>
+      <SellerFulfillmentOrderId>extern_id_1154539615776
+        </SellerFulfillmentOrderId>
+      <DestinationAddress>
+        <PostalCode>153-0002</PostalCode>
+        <Name>Amazon Taro</Name>
+        <CountryCode>JP</CountryCode>
+        <Line1>Meguro-ku Shimomeguro 12-34-56</Line1>
+        <StateOrProvinceCode>Tokyo</StateOrProvinceCode>
+        <Line2>XXX building 101</Line2>
+      </DestinationAddress>
+      <DisplayableOrderDateTime>2016-09-02T17:26:56Z </DisplayableOrderDateTime>
+      <FulfillmentPolicy>FillOrKill</FulfillmentPolicy>
+      <ReceivedDateTime>2016-09-02T17:26:56Z</ReceivedDateTime>
+      <DisplayableOrderId>test_displayable_id</DisplayableOrderId>
+      <DisplayableOrderComment>Sample comment</DisplayableOrderComment>
+      <CODSettings>
+        <IsCODRequired>true</IsCODRequired>
+        <CODCharge>
+          <Value>4000</Value>
+          <CurrencyCode>JPY</CurrencyCode>
+        </CODCharge>
+        <CODChargeTax>
+          <Value>300</Value>
+          <CurrencyCode>JPY</CurrencyCode>
+        </CODChargeTax>
+        <ShippingCharge>
+          <Value>1000</Value>
+          <CurrencyCode>JPY</CurrencyCode>
+        </ShippingCharge>
+        <ShippingChargeTax>
+          <Value>75</Value>
+          <CurrencyCode>JPY</CurrencyCode>
+        </ShippingChargeTax>
+      </CODSettings>
+      <FulfillmentOrderStatus>PROCESSING</FulfillmentOrderStatus>
+      <FulfillmentAction>Ship</FulfillmentAction>
+      <MarketplaceId>ATVPDKIKX0DER </MarketplaceId>
+    </FulfillmentOrder>
+    <FulfillmentShipment>
+      <member>
+        <FulfillmentShipmentStatus>PENDING</FulfillmentShipmentStatus>
+        <FulfillmentShipmentItem>
           <member>
             <SellerSKU>SKU100</SellerSKU>
-            <GiftMessage>giftwrap_message</GiftMessage>
             <SellerFulfillmentOrderItemId>merchant_order_item_id_2
               </SellerFulfillmentOrderItemId>
-            <EstimatedShipDateTime>2016-09-03T07:07:53Z</EstimatedShipDateTime>
-            <DisplayableComment>Example comment</DisplayableComment>
-            <UnfulfillableQuantity>0</UnfulfillableQuantity>
-            <CancelledQuantity>1</CancelledQuantity>
-            <Quantity>5</Quantity>
-            <EstimatedArrivalDateTime>2016-09-05T08:07:53Z
-              </EstimatedArrivalDateTime>
-            <PerUnitPrice>
-              <CurrencyCode>JPY</CurrencyCode>
-              <Value>2500</Value>
-            </PerUnitPrice>
-            <PerUnitTax>
-              <CurrencyCode>JPY</CurrencyCode>
-              <Value>5000</Value>
-            </PerUnitTax>
+            <Quantity>2</Quantity>
+            <PackageNumber>0</PackageNumber>
           </member>
+        </FulfillmentShipmentItem>
+        <AmazonShipmentId>DnMDLWJWN</AmazonShipmentId>
+        <ShippingDateTime>2016-09-03T07:00:00Z</ShippingDateTime>
+        <FulfillmentCenterId>RNO1</FulfillmentCenterId>
+        <EstimatedArrivalDateTime>2016-09-04T07:00:00Z
+          </EstimatedArrivalDateTime>
+      </member>
+      <member>
+        <FulfillmentShipmentStatus>SHIPPED</FulfillmentShipmentStatus>
+        <FulfillmentShipmentItem>
           <member>
             <SellerSKU>SKU101</SellerSKU>
-            <GiftMessage>giftwrap_message</GiftMessage>
             <SellerFulfillmentOrderItemId>merchant_order_item_id_1
               </SellerFulfillmentOrderItemId>
-            <EstimatedShipDateTime>2016-09-03T07:07:53Z</EstimatedShipDateTime>
-            <DisplayableComment>Example comment</DisplayableComment>
-            <UnfulfillableQuantity>2</UnfulfillableQuantity>
-            <CancelledQuantity>1</CancelledQuantity>
-            <Quantity>5</Quantity>
-            <EstimatedArrivalDateTime>2016-09-05T08:07:53Z
-              </EstimatedArrivalDateTime>
-            <PerUnitPrice>
-              <CurrencyCode>JPY</CurrencyCode>
-              <Value>1000</Value>
-            </PerUnitPrice>
-            <PerUnitTax>
-              <CurrencyCode>JPY</CurrencyCode>
-              <Value>2000</Value>
-            </PerUnitTax>
+            <Quantity>1</Quantity>
+            <PackageNumber>1</PackageNumber>
           </member>
-        </FulfillmentOrderItem>
-        <FulfillmentOrder>
-          <ShippingSpeedCategory>ScheduledDelivery</ShippingSpeedCategory>
-          <DeliveryWindow>
-            <StartDateTime>2016-09-05T03:00:00Z</StartDateTime>
-            <EndDateTime>2016-09-05T05:00:00Z</EndDateTime>
-          </DeliveryWindow>
-          <NotificationEmailList>
-            <member>o8c2EXAMPLsfr7o@marketplace.amazon.com</member>
-          </NotificationEmailList>
-          <StatusUpdatedDateTime>2016-09-05T23:48:48Z</StatusUpdatedDateTime>
-          <SellerFulfillmentOrderId>extern_id_1154539615776
-            </SellerFulfillmentOrderId>
-          <DestinationAddress>
-            <PostalCode>153-0002</PostalCode>
-            <Name>Amazon Taro</Name>
-            <CountryCode>JP</CountryCode>
-            <Line1>Meguro-ku Shimomeguro 12-34-56</Line1>
-            <StateOrProvinceCode>Tokyo</StateOrProvinceCode>
-            <Line2>XXX building 101</Line2>
-          </DestinationAddress>
-          <DisplayableOrderDateTime>2016-09-02T17:26:56Z </DisplayableOrderDateTime>
-          <FulfillmentPolicy>FillOrKill</FulfillmentPolicy>
-          <ReceivedDateTime>2016-09-02T17:26:56Z</ReceivedDateTime>
-          <DisplayableOrderId>test_displayable_id</DisplayableOrderId>
-          <DisplayableOrderComment>Sample comment</DisplayableOrderComment>
-          <CODSettings>
-            <IsCODRequired>true</IsCODRequired>
-            <CODCharge>
-              <Value>4000</Value>
-              <CurrencyCode>JPY</CurrencyCode>
-            </CODCharge>
-            <CODChargeTax>
-              <Value>300</Value>
-              <CurrencyCode>JPY</CurrencyCode>
-            </CODChargeTax>
-            <ShippingCharge>
-              <Value>1000</Value>
-              <CurrencyCode>JPY</CurrencyCode>
-            </ShippingCharge>
-            <ShippingChargeTax>
-              <Value>75</Value>
-              <CurrencyCode>JPY</CurrencyCode>
-            </ShippingChargeTax>
-          </CODSettings>
-          <FulfillmentOrderStatus>PROCESSING</FulfillmentOrderStatus>
-          <FulfillmentAction>Ship</FulfillmentAction>
-          <MarketplaceId>ATVPDKIKX0DER </MarketplaceId>
-        </FulfillmentOrder>
-        <FulfillmentShipment>
+        </FulfillmentShipmentItem>
+        <AmazonShipmentId>DKMKLXJmN</AmazonShipmentId>
+        <ShippingDateTime>2016-09-03T07:00:00Z</ShippingDateTime>
+        <FulfillmentShipmentPackage>
           <member>
-            <FulfillmentShipmentStatus>PENDING</FulfillmentShipmentStatus>
-            <FulfillmentShipmentItem>
-              <member>
-                <SellerSKU>SKU100</SellerSKU>
-                <SellerFulfillmentOrderItemId>merchant_order_item_id_2
-                  </SellerFulfillmentOrderItemId>
-                <Quantity>2</Quantity>
-                <PackageNumber>0</PackageNumber>
-              </member>
-            </FulfillmentShipmentItem>
-            <AmazonShipmentId>DnMDLWJWN</AmazonShipmentId>
-            <ShippingDateTime>2016-09-03T07:00:00Z</ShippingDateTime>
-            <FulfillmentCenterId>RNO1</FulfillmentCenterId>
-            <EstimatedArrivalDateTime>2016-09-04T07:00:00Z
-              </EstimatedArrivalDateTime>
+            <TrackingNumber>93ZZ00</TrackingNumber>
+            <CarrierCode>UPS</CarrierCode>
+            <PackageNumber>1</PackageNumber>
           </member>
-          <member>
-            <FulfillmentShipmentStatus>SHIPPED</FulfillmentShipmentStatus>
-            <FulfillmentShipmentItem>
-              <member>
-                <SellerSKU>SKU101</SellerSKU>
-                <SellerFulfillmentOrderItemId>merchant_order_item_id_1
-                  </SellerFulfillmentOrderItemId>
-                <Quantity>1</Quantity>
-                <PackageNumber>1</PackageNumber>
-              </member>
-            </FulfillmentShipmentItem>
-            <AmazonShipmentId>DKMKLXJmN</AmazonShipmentId>
-            <ShippingDateTime>2016-09-03T07:00:00Z</ShippingDateTime>
-            <FulfillmentShipmentPackage>
-              <member>
-                <TrackingNumber>93ZZ00</TrackingNumber>
-                <CarrierCode>UPS</CarrierCode>
-                <PackageNumber>1</PackageNumber>
-              </member>
-            </FulfillmentShipmentPackage>
-            <FulfillmentCenterId>TST1</FulfillmentCenterId>
-            <EstimatedArrivalDateTime>2016-09-05T07:00:00Z
-              </EstimatedArrivalDateTime>
-          </member>
-        </FulfillmentShipment>
-        <ReturnItemList>
-          <ReturnItem>
-            <SellerReturnItemId>16a6a142EXAMPLE</SellerReturnItemId>
-            <SellerFulfillmentOrderItemId>order-item-1</SellerFulfillmentOrderItemId>
-            <AmazonShipmentId>DLHg36GDN</AmazonShipmentId >
-            <ReturnReasonCode>REASON-CODE</ReturnReasonCode>
-            <ReturnComment>Did not like color</ReturnComment>
-            <AmazonReturnReasonCode>OTHER-REASON-CODE</AmazonReturnReasonCode>
-            <Status>Processed</Status> 
-            <StatusChangedDate>2016-09-02T02:40:36Z</StatusChangedDate>
-            <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
-            <ReturnReceivedCondition>Sellable</ReturnReceivedCondition>
-            <FulfillmentCenterId>FC123</FulfillmentCenterId>
-          </ReturnItem>
-        </ReturnItemList>
-        <ReturnAuthorizationList>
-          <ReturnAuthorization>
-            <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
-            <FulfillmentCenterId>FC123</FulfillmentCenterId>
-            <ReturnToAddress>
-              <Name>Amazon FC</Name>
-              <Line1>123 Main Street</Line1>
-              <City>Anywhere</City>
-              <StateOrRegionCode>WA</StateOrRegionCode>
-              <PostalCode>98122</PostalCode>
-              <CountryCode>US</CountryCode>
-            </ReturnToAddress>
-            <AmazonRmaId>test123</AmazonRmaId>
-            <RmaPageURL>https://sellercentral.amazon.com/URL</RmaPageURL>
-          </ReturnAuthorization>
-        </ReturnAuthorizationList>
-      </GetFulfillmentOrderResult>
-      <ResponseMetadata>
-        <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
-      </ResponseMetadata>
-    </GetFulfillmentOrderResponse>
+        </FulfillmentShipmentPackage>
+        <FulfillmentCenterId>TST1</FulfillmentCenterId>
+        <EstimatedArrivalDateTime>2016-09-05T07:00:00Z
+          </EstimatedArrivalDateTime>
+      </member>
+    </FulfillmentShipment>
+    <ReturnItemList>
+      <ReturnItem>
+        <SellerReturnItemId>16a6a142EXAMPLE</SellerReturnItemId>
+        <SellerFulfillmentOrderItemId>order-item-1</SellerFulfillmentOrderItemId>
+        <AmazonShipmentId>DLHg36GDN</AmazonShipmentId >
+        <ReturnReasonCode>REASON-CODE</ReturnReasonCode>
+        <ReturnComment>Did not like color</ReturnComment>
+        <AmazonReturnReasonCode>OTHER-REASON-CODE</AmazonReturnReasonCode>
+        <Status>Processed</Status> 
+        <StatusChangedDate>2016-09-02T02:40:36Z</StatusChangedDate>
+        <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
+        <ReturnReceivedCondition>Sellable</ReturnReceivedCondition>
+        <FulfillmentCenterId>FC123</FulfillmentCenterId>
+      </ReturnItem>
+    </ReturnItemList>
+    <ReturnAuthorizationList>
+      <ReturnAuthorization>
+        <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
+        <FulfillmentCenterId>FC123</FulfillmentCenterId>
+        <ReturnToAddress>
+          <Name>Amazon FC</Name>
+          <Line1>123 Main Street</Line1>
+          <City>Anywhere</City>
+          <StateOrRegionCode>WA</StateOrRegionCode>
+          <PostalCode>98122</PostalCode>
+          <CountryCode>US</CountryCode>
+        </ReturnToAddress>
+        <AmazonRmaId>test123</AmazonRmaId>
+        <RmaPageURL>https://sellercentral.amazon.com/URL</RmaPageURL>
+      </ReturnAuthorization>
+    </ReturnAuthorizationList>
+  </GetFulfillmentOrderResult>
+  <ResponseMetadata>
+    <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
+  </ResponseMetadata>
+</GetFulfillmentOrderResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -428,8 +427,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

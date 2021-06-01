@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_InventoryToAFN" class="nested0">
 
-Shipping inventory to <span class="ph">Amazon's fulfillment network</span>
-==========================================================================
+# Shipping inventory to <span class="ph">Amazon's fulfillment network</span>
 
 <div class="body">
 
@@ -59,8 +58,7 @@ fulfillment network</span>.
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 1.  [Step 1 - Create a listing and convert it to
     FBA](../fba_guide/FBAGuide_CreateListing.md)  

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_MWSPushNotificationCommon" class="nested0">
 
-MWSPushNotificationCommon
-=========================
+# MWSPushNotificationCommon
 
 <div class="body">
 
@@ -53,8 +52,7 @@ class="keyword parmname">NotificationPayload</span> element.</span>
 
 <div class="section">
 
-Availability
-------------
+## Availability
 
 This notification is available in all marketplaces.
 
@@ -64,8 +62,7 @@ This notification is available in all marketplaces.
 
 <div id="SimpleTypes" class="topic nested1">
 
-Simple types
-------------
+## Simple types
 
 <div class="body">
 
@@ -97,10 +94,9 @@ now, or on a known or an unknown date in the future.</span>
 
 -   <span class="keyword parmname">NOW</span> - The item is available
     for shipping now.
--   <span class="keyword parmname">FUTURE\_WITHOUT\_DATE</span> - The
-    item will be available for shipping on an unknown date in the
-    future.
--   <span class="keyword parmname">FUTURE\_WITH\_DATE</span> - The item
+-   <span class="keyword parmname">FUTURE_WITHOUT_DATE</span> - The item
+    will be available for shipping on an unknown date in the future.
+-   <span class="keyword parmname">FUTURE_WITH_DATE</span> - The item
     will be available for shipping on a known date in the future.
 
 </div>
@@ -152,8 +148,7 @@ Restriction: \[0-9\]+\\.\[0-9\]
 
 <div id="ComplexTypes" class="topic nested1">
 
-Complex types
--------------
+## Complex types
 
 <div class="body">
 
@@ -183,21 +178,21 @@ class="keyword parmname">MoneyType</span> element:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d202054e373" class="entry" data-valign="top" width="50%">Element</th>
+<th id="d202054e376" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Amount</span></td>
-<td>The currency amount.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d202054e373 "><span class="keyword parmname">Amount</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d202054e376 ">The currency amount.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">CurrencyCode</span></td>
-<td>Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d202054e373 "><span class="keyword parmname">CurrencyCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d202054e376 ">Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -213,8 +208,7 @@ class="keyword parmname">MoneyType</span> element:
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

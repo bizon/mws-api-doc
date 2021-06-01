@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_LabelItems1x1.dita" class="nested0">
 
-**Labeling items one by one and including them in an inbound shipment**
-=======================================================================
+# **Labeling items one by one and including them in an inbound shipment**
 
 <div class="body">
 

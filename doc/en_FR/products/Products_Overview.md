@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_Overview" class="nested0">
 
-What you should know about the Amazon MWS Products API section
-==============================================================
+# What you should know about the Amazon MWS Products API section
 
 <div class="body">
 
@@ -99,8 +98,7 @@ operations in the following marketplaces:
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Processing bulk operation
     requests](../products/Products_ProcessingBulkOperationRequests.md)**  

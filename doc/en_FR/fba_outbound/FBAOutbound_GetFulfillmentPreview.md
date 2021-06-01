@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_GetFulfillmentPreview" class="nested0">
 
-GetFulfillmentPreview
-=====================
+# GetFulfillmentPreview
 
 <div class="body">
 
@@ -54,8 +53,7 @@ shipping criteria that you specify.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -112,8 +110,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -126,39 +123,39 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d111046e148" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d111046e151" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d111046e154" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d111046e157" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The marketplace the fulfillment order is placed against.</td>
-<td>No</td>
-<td><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">The marketplace the fulfillment order is placed against.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Address</span></td>
-<td>The destination address for the fulfillment order preview.</td>
-<td>Yes</td>
-<td>Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">Address</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">The destination address for the fulfillment order preview.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 ">Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Items</span></td>
-<td>Identifying information and quantity information for the items in the fulfillment order preview.</td>
-<td>Yes</td>
-<td>Type: List of <a href="FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">Items</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">Identifying information and quantity information for the items in the fulfillment order preview.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 ">Type: List of <a href="FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShippingSpeedCategories</span></td>
-<td>A list of shipping methods used for creating fulfillment order previews.</td>
-<td>No</td>
-<td><span class="keyword parmname">ShippingSpeedCategories</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">ShippingSpeedCategories</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">A list of shipping methods used for creating fulfillment order previews.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 "><span class="keyword parmname">ShippingSpeedCategories</span> values:
 <ul>
 <li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
 <li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
@@ -173,11 +170,11 @@ Default: All
 </div>
 <p>Type: List of type: xs:string</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">IncludeCODFulfillmentPreview</span></td>
-<td>Specifies whether to return fulfillment order previews that are for COD (Cash On Delivery).</td>
-<td>No</td>
-<td><span class="keyword parmname">IncludeCODFulfillmentPreview</span> values:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">Specifies whether to return fulfillment order previews that are for COD (Cash On Delivery).</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span> values:
 <ul>
 <li><var class="keyword varname">true</var> - Returns all fulfillment order previews (both for COD and not for COD).</li>
 <li><var class="keyword varname">false</var> - Returns only fulfillment order previews that are not for COD.</li>
@@ -188,11 +185,11 @@ Default: All
 </div>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">IncludeDeliveryWindows</span></td>
-<td>Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
-<td>No</td>
-<td><span class="keyword parmname">IncludeDeliveryWindows</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111046e148 "><span class="keyword parmname">IncludeDeliveryWindows</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111046e151 ">Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111046e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111046e157 "><span class="keyword parmname">IncludeDeliveryWindows</span> values:
 <ul>
 <li><var class="keyword varname">true</var> - Returns the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
 <li><var class="keyword varname">false</var> – Does not return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
@@ -215,8 +212,7 @@ Default: All
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -227,16 +223,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d111046e428" class="entry" data-valign="top" width="25.252525252525253%">Name</th>
+<th id="d111046e431" class="entry" data-valign="top" width="74.74747474747475%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FulfillmentPreviews</span></td>
-<td>A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25.252525252525253%" headers="d111046e428 "><span class="keyword parmname">FulfillmentPreviews</span></td>
+<td class="entry" data-valign="top" width="74.74747474747475%" headers="d111046e431 ">A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentPreview" class="xref" title="Information about a fulfillment order preview, including delivery and fee information based on shipping method.">FulfillmentPreview</a></p></td>
 </tr>
 </tbody>
@@ -250,8 +246,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -269,34 +264,36 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
-      ?Action=GetFulfillmentPreview   
-      &Version=2010-10-01   
-      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
-      &SignatureVersion=2   
-      &SignatureMethod=HmacSHA256
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
-      &Timestamp=2014-01-02T02:40:36Z   
-      &SellerId=A2NKEXAMPLEF53   
-      &MarketplaceId=ATVPDKIKX0DER
-      &Address.Name=Amazon%20Taro   
-      &Address.Line1=Meguro-ku%20Shimomeguro%2012-34-56   
-      &Address.Line2=XXX%20building%20101   
-      &Address.StateOrProvinceCode=Tokyo   
-      &Address.PostalCode=1500002   
-      &Address.CountryCode=JP
-      &Items.member.1.Quantity=1   
-      &Items.member.1.SellerFulfillmentOrderItemId=TestId1   
-      &Items.member.1.SellerSKU=SampleSKU1   
-      &Items.member.2.Quantity=2   
-      &Items.member.2.SellerFulfillmentOrderItemId=TestId2   
-      &Items.member.2.SellerSKU=SampleSKU2  
-      &ShippingSpeedCategories.1=Expedited   
-      &ShippingSpeedCategories.2=Standard   
-      &ShippingSpeedCategories.3=ScheduledDelivery      
-      &IncludeCODFulfillmentPreview=true   
-      &IncludeDeliveryWindows=true     
+``` pre
+http://mws.amazonservices.jp/FulfillmentOutboundShipment/2010-10-01/   
+  ?Action=GetFulfillmentPreview   
+  &Version=2010-10-01   
+  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA   
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE   
+  &SignatureVersion=2   
+  &SignatureMethod=HmacSHA256
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D   
+  &Timestamp=2014-01-02T02:40:36Z   
+  &SellerId=A2NKEXAMPLEF53   
+  &MarketplaceId=ATVPDKIKX0DER
+  &Address.Name=Amazon%20Taro   
+  &Address.Line1=Meguro-ku%20Shimomeguro%2012-34-56   
+  &Address.Line2=XXX%20building%20101   
+  &Address.StateOrProvinceCode=Tokyo   
+  &Address.PostalCode=1500002   
+  &Address.CountryCode=JP
+  &Items.member.1.Quantity=1   
+  &Items.member.1.SellerFulfillmentOrderItemId=TestId1   
+  &Items.member.1.SellerSKU=SampleSKU1   
+  &Items.member.2.Quantity=2   
+  &Items.member.2.SellerFulfillmentOrderItemId=TestId2   
+  &Items.member.2.SellerSKU=SampleSKU2  
+  &ShippingSpeedCategories.1=Expedited   
+  &ShippingSpeedCategories.2=Standard   
+  &ShippingSpeedCategories.3=ScheduledDelivery      
+  &IncludeCODFulfillmentPreview=true   
+  &IncludeDeliveryWindows=true     
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -317,312 +314,314 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-      <GetFulfillmentPreviewResponse
-          xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetFulfillmentPreviewResult>
-          <FulfillmentPreviews>
-            <member>         
-              <EstimatedShippingWeight>
-                <Unit>kilograms</Unit>
-                <Value>12</Value>
-              </EstimatedShippingWeight>
-              <ShippingSpeedCategory>Expedited</ShippingSpeedCategory>
-              <FulfillmentPreviewShipments>
+``` pre
+<?xml version="1.0"?>
+  <GetFulfillmentPreviewResponse
+      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetFulfillmentPreviewResult>
+      <FulfillmentPreviews>
+        <member>         
+          <EstimatedShippingWeight>
+            <Unit>kilograms</Unit>
+            <Value>12</Value>
+          </EstimatedShippingWeight>
+          <ShippingSpeedCategory>Expedited</ShippingSpeedCategory>
+          <FulfillmentPreviewShipments>
+            <member>
+              <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
+              <LatestArrivalDate>2014-01-06T06:59:59Z</LatestArrivalDate>
+              <FulfillmentPreviewItems>
                 <member>
-                  <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
-                  <LatestArrivalDate>2014-01-06T06:59:59Z</LatestArrivalDate>
-                  <FulfillmentPreviewItems>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>10</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU1</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-2
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>2</Quantity>
-                    </member>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>2</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU2</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-1
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>1</Quantity>
-                    </member>
-                  </FulfillmentPreviewItems>
-                  <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
-                  <EarliestArrivalDate>2014-01-05T07:00:00Z
-                  </EarliestArrivalDate>
-                </member>
-              </FulfillmentPreviewShipments>
-              <EstimatedFees>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>225</Value>
-                  </Amount>
-                  <Name>FBAPerUnitFulfillmentFee</Name>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>10</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU1</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-2
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>2</Quantity>
                 </member>
                 <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>475</Value>
-                  </Amount>
-                  <Name>FBAPerOrderFulfillmentFee</Name>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>2</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU2</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-1
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>1</Quantity>
                 </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>660</Value>
-                  </Amount>
-                  <Name>FBATransportationFee</Name>
-                </member>
-              </EstimatedFees>
-              <UnfulfillablePreviewItems/>
-              <IsFulfillable>true</IsFulfillable>
-              <IsCODCapable>false</IsCODCapable>
-              <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+              </FulfillmentPreviewItems>
+              <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
+              <EarliestArrivalDate>2014-01-05T07:00:00Z
+              </EarliestArrivalDate>
+            </member>
+          </FulfillmentPreviewShipments>
+          <EstimatedFees>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>225</Value>
+              </Amount>
+              <Name>FBAPerUnitFulfillmentFee</Name>
             </member>
             <member>
-              <EstimatedShippingWeight>
-                <Unit>kilograms</Unit>
-                <Value>12</Value>
-              </EstimatedShippingWeight>
-              <ShippingSpeedCategory>Standard</ShippingSpeedCategory>
-              <FulfillmentPreviewShipments>
-                <member>
-                  <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
-                  <LatestArrivalDate>2014-07-09T06:59:59Z</LatestArrivalDate>
-                  <FulfillmentPreviewItems>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>10</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU1</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-2
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>2</Quantity>
-                    </member>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>2</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU2</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-1
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>1</Quantity>
-                    </member>
-                  </FulfillmentPreviewItems>
-                  <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
-                  <EarliestArrivalDate>2014-01-05T07:00:00Z
-                  </EarliestArrivalDate>
-                </member>
-              </FulfillmentPreviewShipments>
-              <EstimatedFees>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>225</Value>
-                  </Amount>
-                  <Name>FBAPerUnitFulfillmentFee</Name>
-                </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>475</Value>
-                  </Amount>
-                  <Name>FBAPerOrderFulfillmentFee</Name>
-                </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>660</Value>
-                  </Amount>
-                  <Name>FBATransportationFee</Name>
-                </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>315</Value>
-                  </Amount>
-                  <Name>FBAFulfillmentCODFee</Name>
-                </member>
-              </EstimatedFees>
-              <UnfulfillablePreviewItems/>
-              <IsFulfillable>true</IsFulfillable>
-              <IsCODCapable>true</IsCODCapable>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>475</Value>
+              </Amount>
+              <Name>FBAPerOrderFulfillmentFee</Name>
             </member>
             <member>
-              <EstimatedShippingWeight>
-                <Unit>kilograms</Unit>
-                <Value>12</Value>
-              </EstimatedShippingWeight>
-              <ShippingSpeedCategory>ScheduledDelivery</ShippingSpeedCategory>
-              <ScheduledDeliveryInfo>
-                <DeliveryTimeZone>Asia/Tokyo</DeliveryTimeZone>
-                <DeliveryWindows>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-04T23:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T03:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T03:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T05:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T05:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T07:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T07:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T09:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T09:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T11:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                    </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T11:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-05T12:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-05T23:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T03:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-06T03:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T05:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-06T05:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T07:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-06T07:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T09:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-06T09:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T11:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                  <member>
-                    <DeliveryWindow>
-                      <StartDateTime>2014-01-06T11:00:00Z</StartDateTime>
-                      <EndDateTime>2014-01-06T12:00:00Z</EndDateTime>
-                    </DeliveryWindow>
-                  </member>
-                </DeliveryWindows>
-              </ScheduledDeliveryInfo>
-              <FulfillmentPreviewShipments>
-                <member>
-                  <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
-                  <LatestArrivalDate>2014-01-06T06:59:59Z</LatestArrivalDate>
-                  <FulfillmentPreviewItems>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>10</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU1</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-2
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>2</Quantity>
-                    </member>
-                    <member>
-                      <EstimatedShippingWeight>
-                        <Unit>kilograms</Unit>
-                        <Value>2</Value>
-                      </EstimatedShippingWeight>
-                      <SellerSKU>SampleSKU2</SellerSKU>
-                      <SellerFulfillmentOrderItemId>
-                      mws-test-query-20100713023406723-1
-                      </SellerFulfillmentOrderItemId>
-                      <ShippingWeightCalculationMethod>Package
-                      </ShippingWeightCalculationMethod>
-                      <Quantity>1</Quantity>
-                    </member>
-                  </FulfillmentPreviewItems>
-                  <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
-                  <EarliestArrivalDate>2014-01-05T07:00:00Z
-                  </EarliestArrivalDate>
-                </member>
-              </FulfillmentPreviewShipments>
-              <EstimatedFees>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>225</Value>
-                  </Amount>
-                  <Name>FBAPerUnitFulfillmentFee</Name>
-                </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>475</Value>
-                  </Amount>
-                  <Name>FBAPerOrderFulfillmentFee</Name>
-                </member>
-                <member>
-                  <Amount>
-                    <CurrencyCode>JPY</CurrencyCode>
-                    <Value>660</Value>
-                  </Amount>
-                  <Name>FBATransportationFee</Name>
-                </member>
-              </EstimatedFees>
-              <UnfulfillablePreviewItems/>
-              <IsFulfillable>true</IsFulfillable>
-              <IsCODCapable>false</IsCODCapable>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>660</Value>
+              </Amount>
+              <Name>FBATransportationFee</Name>
             </member>
-          </FulfillmentPreviews>
-        </GetFulfillmentPreviewResult>
-        <ResponseMetadata>
-          <RequestId>f4c29ec4-ceb7-4608-a764-5c758ac0021a</RequestId>
-        </ResponseMetadata>
-      </GetFulfillmentPreviewResponse>
+          </EstimatedFees>
+          <UnfulfillablePreviewItems/>
+          <IsFulfillable>true</IsFulfillable>
+          <IsCODCapable>false</IsCODCapable>
+          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+        </member>
+        <member>
+          <EstimatedShippingWeight>
+            <Unit>kilograms</Unit>
+            <Value>12</Value>
+          </EstimatedShippingWeight>
+          <ShippingSpeedCategory>Standard</ShippingSpeedCategory>
+          <FulfillmentPreviewShipments>
+            <member>
+              <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
+              <LatestArrivalDate>2014-07-09T06:59:59Z</LatestArrivalDate>
+              <FulfillmentPreviewItems>
+                <member>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>10</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU1</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-2
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>2</Quantity>
+                </member>
+                <member>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>2</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU2</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-1
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>1</Quantity>
+                </member>
+              </FulfillmentPreviewItems>
+              <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
+              <EarliestArrivalDate>2014-01-05T07:00:00Z
+              </EarliestArrivalDate>
+            </member>
+          </FulfillmentPreviewShipments>
+          <EstimatedFees>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>225</Value>
+              </Amount>
+              <Name>FBAPerUnitFulfillmentFee</Name>
+            </member>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>475</Value>
+              </Amount>
+              <Name>FBAPerOrderFulfillmentFee</Name>
+            </member>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>660</Value>
+              </Amount>
+              <Name>FBATransportationFee</Name>
+            </member>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>315</Value>
+              </Amount>
+              <Name>FBAFulfillmentCODFee</Name>
+            </member>
+          </EstimatedFees>
+          <UnfulfillablePreviewItems/>
+          <IsFulfillable>true</IsFulfillable>
+          <IsCODCapable>true</IsCODCapable>
+        </member>
+        <member>
+          <EstimatedShippingWeight>
+            <Unit>kilograms</Unit>
+            <Value>12</Value>
+          </EstimatedShippingWeight>
+          <ShippingSpeedCategory>ScheduledDelivery</ShippingSpeedCategory>
+          <ScheduledDeliveryInfo>
+            <DeliveryTimeZone>Asia/Tokyo</DeliveryTimeZone>
+            <DeliveryWindows>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-04T23:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T03:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T03:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T05:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T05:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T07:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T07:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T09:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T09:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T11:00:00Z</EndDateTime>
+                </DeliveryWindow>
+                </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T11:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-05T12:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-05T23:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T03:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-06T03:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T05:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-06T05:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T07:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-06T07:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T09:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-06T09:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T11:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+              <member>
+                <DeliveryWindow>
+                  <StartDateTime>2014-01-06T11:00:00Z</StartDateTime>
+                  <EndDateTime>2014-01-06T12:00:00Z</EndDateTime>
+                </DeliveryWindow>
+              </member>
+            </DeliveryWindows>
+          </ScheduledDeliveryInfo>
+          <FulfillmentPreviewShipments>
+            <member>
+              <LatestShipDate>2014-01-04T00:30:00Z</LatestShipDate>
+              <LatestArrivalDate>2014-01-06T06:59:59Z</LatestArrivalDate>
+              <FulfillmentPreviewItems>
+                <member>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>10</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU1</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-2
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>2</Quantity>
+                </member>
+                <member>
+                  <EstimatedShippingWeight>
+                    <Unit>kilograms</Unit>
+                    <Value>2</Value>
+                  </EstimatedShippingWeight>
+                  <SellerSKU>SampleSKU2</SellerSKU>
+                  <SellerFulfillmentOrderItemId>
+                  mws-test-query-20100713023406723-1
+                  </SellerFulfillmentOrderItemId>
+                  <ShippingWeightCalculationMethod>Package
+                  </ShippingWeightCalculationMethod>
+                  <Quantity>1</Quantity>
+                </member>
+              </FulfillmentPreviewItems>
+              <EarliestShipDate>2014-01-04T00:30:00Z</EarliestShipDate>
+              <EarliestArrivalDate>2014-01-05T07:00:00Z
+              </EarliestArrivalDate>
+            </member>
+          </FulfillmentPreviewShipments>
+          <EstimatedFees>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>225</Value>
+              </Amount>
+              <Name>FBAPerUnitFulfillmentFee</Name>
+            </member>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>475</Value>
+              </Amount>
+              <Name>FBAPerOrderFulfillmentFee</Name>
+            </member>
+            <member>
+              <Amount>
+                <CurrencyCode>JPY</CurrencyCode>
+                <Value>660</Value>
+              </Amount>
+              <Name>FBATransportationFee</Name>
+            </member>
+          </EstimatedFees>
+          <UnfulfillablePreviewItems/>
+          <IsFulfillable>true</IsFulfillable>
+          <IsCODCapable>false</IsCODCapable>
+        </member>
+      </FulfillmentPreviews>
+    </GetFulfillmentPreviewResult>
+    <ResponseMetadata>
+      <RequestId>f4c29ec4-ceb7-4608-a764-5c758ac0021a</RequestId>
+    </ResponseMetadata>
+  </GetFulfillmentPreviewResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -636,8 +635,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPrepInstructionsForSKU" class="nested0">
 
-GetPrepInstructionsForSKU
-=========================
+# GetPrepInstructionsForSKU
 
 <span class="ph">Returns labeling requirements and item preparation
 instructions to help you prepare items for an inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -109,8 +107,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -132,30 +129,30 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d69493e164" class="entry" data-valign="top" width="22.496749024707412%">Name</th>
+<th id="d69493e167" class="entry" data-valign="top" width="36.67100130039012%">Description</th>
+<th id="d69493e170" class="entry" data-valign="top" width="13.003901170351106%">Required</th>
+<th id="d69493e173" class="entry" data-valign="top" width="27.82834850455137%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerSKUList</span></td>
-<td>A list of <span class="keyword parmname">SellerSKU</span> values. Used to identify items for which you want labeling requirements and item preparation instructions for shipment to <span class="ph">Amazon's fulfillment network</span>. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>.</td>
-<td>Yes</td>
-<td>Maximum: 50 <span class="keyword parmname">SellerSKU</span> values
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="22.496749024707412%" headers="d69493e164 "><span class="keyword parmname">SellerSKUList</span></td>
+<td class="entry" data-valign="top" width="36.67100130039012%" headers="d69493e167 ">A list of <span class="keyword parmname">SellerSKU</span> values. Used to identify items for which you want labeling requirements and item preparation instructions for shipment to <span class="ph">Amazon's fulfillment network</span>. The Seller SKU is qualified by your Seller ID, which is included with every call to <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span>.</td>
+<td class="entry" data-valign="top" width="13.003901170351106%" headers="d69493e170 ">Yes</td>
+<td class="entry" data-valign="top" width="27.82834850455137%" headers="d69493e173 ">Maximum: 50 <span class="keyword parmname">SellerSKU</span> values
 <div class="note note">
 <span class="notetitle">Note:</span> Include Seller SKUs that you have used to list items on Amazon's retail website. If you include a Seller SKU that you have never used to list an item on Amazon's retail website, the Seller SKU is returned in the <span class="keyword parmname">InvalidSKUList</span> response element.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipToCountryCode</span></td>
-<td>The country code of the country the items will be shipped to. Note that labeling requirements and item preparation instructions can vary by country.</td>
-<td>Yes</td>
-<td><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="22.496749024707412%" headers="d69493e164 "><span class="keyword parmname">ShipToCountryCode</span></td>
+<td class="entry" data-valign="top" width="36.67100130039012%" headers="d69493e167 ">The country code of the country the items will be shipped to. Note that labeling requirements and item preparation instructions can vary by country.</td>
+<td class="entry" data-valign="top" width="13.003901170351106%" headers="d69493e170 ">Yes</td>
+<td class="entry" data-valign="top" width="27.82834850455137%" headers="d69493e173 "><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -169,8 +166,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -181,21 +177,21 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d69493e263" class="entry" data-valign="top" width="26.45502645502646%">Name</th>
+<th id="d69493e266" class="entry" data-valign="top" width="73.54497354497354%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SKUPrepInstructionsList</span></td>
-<td><span class="ph">Labeling requirements and item preparation instructions to help you prepare items for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="26.45502645502646%" headers="d69493e263 "><span class="keyword parmname">SKUPrepInstructionsList</span></td>
+<td class="entry" data-valign="top" width="73.54497354497354%" headers="d69493e266 "><span class="ph">Labeling requirements and item preparation instructions to help you prepare items for shipment to <span class="ph">Amazon's fulfillment network</span>.</span>
 <p>Type: List of <a href="FBAInbound_Datatypes.md#SKUPrepInstructions" class="xref" title="Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon&#39;s fulfillment network.">SKUPrepInstructions</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">InvalidSKUList</span></td>
-<td>A list of invalid <span class="keyword parmname">SellerSKU</span> values and the reasons they are invalid.
+<tr class="even row">
+<td class="entry" data-valign="top" width="26.45502645502646%" headers="d69493e263 "><span class="keyword parmname">InvalidSKUList</span></td>
+<td class="entry" data-valign="top" width="73.54497354497354%" headers="d69493e266 ">A list of invalid <span class="keyword parmname">SellerSKU</span> values and the reasons they are invalid.
 <p>Type: List of <a href="FBAInbound_Datatypes.md#InvalidSKU" class="xref" title="An invalid Seller SKU and the reason it is invalid.">InvalidSKU</a></p></td>
 </tr>
 </tbody>
@@ -209,8 +205,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -228,16 +223,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-    ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-    &Action=GetPrepInstructionsForSKU
-    &SellerId=A13EXAMPLE1J56
-    &SignatureVersion=2
-    &Timestamp=2013-08-09T22%3A52%3A25Z
-    &Version=2010-10-01
-    &SignatureMethod=HmacSHA256
-    &SellerSKUList.Id.1=ca_001
-    &ShipToCountryCode=US
+``` pre
+https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+&Action=GetPrepInstructionsForSKU
+&SellerId=A13EXAMPLE1J56
+&SignatureVersion=2
+&Timestamp=2013-08-09T22%3A52%3A25Z
+&Version=2010-10-01
+&SignatureMethod=HmacSHA256
+&SellerSKUList.Id.1=ca_001
+&ShipToCountryCode=US
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -258,53 +255,55 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <GetPrepInstructionsForSKUResponse 
-      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-      <GetPrepInstructionsForSKUResult>
-        <SKUPrepInstructionsList>
-          <SKUPrepInstructions>
-            <SellerSKU>ca_001</SellerSKU>
-            <ASIN>B00EXAMPLE</ASIN>
-            <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
-            <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
-            <PrepInstructionList>
-              <PrepInstruction>Polybagging</PrepInstruction>
-              <PrepInstruction>Taping</PrepInstruction>
-              <PrepInstruction>Labeling</PrepInstruction>
-            </PrepInstructionList>
-            <AmazonPrepFeesDetailsList>
-              <AmazonPrepFeesDetails>
-                <PrepInstruction>Polybagging</PrepInstruction>
-                <Amount>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <Value>0.2</Value>
-                </Amount>
-              </AmazonPrepFeesDetails>
-              <AmazonPrepFeesDetails>
-                <PrepInstruction>Taping</PrepInstruction>
-                <Amount>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <Value>0.2</Value>
-                </Amount>
-              </AmazonPrepFeesDetails>
-              <AmazonPrepFeesDetails>
-                <PrepInstruction>Labeling</PrepInstruction>
-                <Amount>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <Value>0.2</Value>
-                </Amount>
-              </AmazonPrepFeesDetails>          
-            </AmazonPrepFeesDetailsList>        
-          </SKUPrepInstructions>
-        </SKUPrepInstructionsList>
-        <InvalidSKUList>
-        </InvalidSKUList>
-      </GetPrepInstructionsForSKUResult>
-      <ResponseMetadata>
-        <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
-      </ResponseMetadata>
-    </GetPrepInstructionsForSKUResponse>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<GetPrepInstructionsForSKUResponse 
+  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+  <GetPrepInstructionsForSKUResult>
+    <SKUPrepInstructionsList>
+      <SKUPrepInstructions>
+        <SellerSKU>ca_001</SellerSKU>
+        <ASIN>B00EXAMPLE</ASIN>
+        <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
+        <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
+        <PrepInstructionList>
+          <PrepInstruction>Polybagging</PrepInstruction>
+          <PrepInstruction>Taping</PrepInstruction>
+          <PrepInstruction>Labeling</PrepInstruction>
+        </PrepInstructionList>
+        <AmazonPrepFeesDetailsList>
+          <AmazonPrepFeesDetails>
+            <PrepInstruction>Polybagging</PrepInstruction>
+            <Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <Value>0.2</Value>
+            </Amount>
+          </AmazonPrepFeesDetails>
+          <AmazonPrepFeesDetails>
+            <PrepInstruction>Taping</PrepInstruction>
+            <Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <Value>0.2</Value>
+            </Amount>
+          </AmazonPrepFeesDetails>
+          <AmazonPrepFeesDetails>
+            <PrepInstruction>Labeling</PrepInstruction>
+            <Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <Value>0.2</Value>
+            </Amount>
+          </AmazonPrepFeesDetails>          
+        </AmazonPrepFeesDetailsList>        
+      </SKUPrepInstructions>
+    </SKUPrepInstructionsList>
+    <InvalidSKUList>
+    </InvalidSKUList>
+  </GetPrepInstructionsForSKUResult>
+  <ResponseMetadata>
+    <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
+  </ResponseMetadata>
+</GetPrepInstructionsForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -318,8 +317,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

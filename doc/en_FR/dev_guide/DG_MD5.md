@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_MD5" class="nested0">
 
-Working with Content-MD5 checksums
-==================================
+# Working with Content-MD5 checksums
 
 <div class="body">
 
@@ -85,76 +84,82 @@ class="ph">Amazon MWS</span> is as follows:
 The following Java code sample illustrates how to compute the
 Content-MD5 value for a feed submitted to Amazon:
 
-    /**
-     * Calculate content MD5 hash values for feeds stored on disk.
-     */
-    public static String computeContentMD5Value( FileInputStream fis ) 
-        throws IOException, NoSuchAlgorithmException {
+``` pre
+/**
+ * Calculate content MD5 hash values for feeds stored on disk.
+ */
+public static String computeContentMD5Value( FileInputStream fis ) 
+    throws IOException, NoSuchAlgorithmException {
 
-        DigestInputStream dis = new DigestInputStream( fis,
-            MessageDigest.getInstance( "MD5" ));
+    DigestInputStream dis = new DigestInputStream( fis,
+        MessageDigest.getInstance( "MD5" ));
 
-        byte[] buffer = new byte[8192];
-        while( dis.read( buffer ) > 0 );
+    byte[] buffer = new byte[8192];
+    while( dis.read( buffer ) > 0 );
 
-        String md5Content = new String(
-            org.apache.commons.codec.binary.Base64.encodeBase64(
-                dis.getMessageDigest().digest()) ); 
+    String md5Content = new String(
+        org.apache.commons.codec.binary.Base64.encodeBase64(
+            dis.getMessageDigest().digest()) ); 
 
-        // Effectively resets the stream to be beginning of the file
-        // via a FileChannel.
-        fis.getChannel().position( 0 );
+    // Effectively resets the stream to be beginning of the file
+    // via a FileChannel.
+    fis.getChannel().position( 0 );
 
-        return md5Content;
-    }
+    return md5Content;
+}
+```
 
 The following Java code sample illustrates how to compute the MD5
 checksum for a report that is downloaded:
 
-    /**
-     * Consume the stream and return its Base-64 encoded MD5 checksum.
-     */
-    public static String computeContentMD5Header(InputStream inputStream) {
-        // Consume the stream to compute the MD5 as a side effect.
-        DigestInputStream s;
-        try {
-            s = new DigestInputStream(inputStream,
-                                      MessageDigest.getInstance("MD5"));
-            // drain the buffer, as the digest is computed as a side-effect
-            byte[] buffer = new byte[8192];
-            while(s.read(buffer) > 0);
-            return new String(
-                org.apache.commons.codec.binary.Base64.encodeBase64(
-                    s.getMessageDigest().digest()),
-                    "UTF-8");
-        } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+``` pre
+/**
+ * Consume the stream and return its Base-64 encoded MD5 checksum.
+ */
+public static String computeContentMD5Header(InputStream inputStream) {
+    // Consume the stream to compute the MD5 as a side effect.
+    DigestInputStream s;
+    try {
+        s = new DigestInputStream(inputStream,
+                                  MessageDigest.getInstance("MD5"));
+        // drain the buffer, as the digest is computed as a side-effect
+        byte[] buffer = new byte[8192];
+        while(s.read(buffer) > 0);
+        return new String(
+            org.apache.commons.codec.binary.Base64.encodeBase64(
+                s.getMessageDigest().digest()),
+                "UTF-8");
+    } catch (NoSuchAlgorithmException e) {
+        throw new RuntimeException(e);
+    } catch (IOException e) {
+        throw new RuntimeException(e);
     }
+}
+```
 
 The following example shows an MD5 string in an http request using the
 POST method. The string is inserted immediately after the last parameter
 statement.
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    ?AWSAccessKeyId=0PB842ExampleN4ZTR2
-    &Action=SubmitFeed
-    &FeedType=_POST_PRODUCT_DATA_
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceIdList.Id.1=ATVExampleDER
-    &SellerId=A1XExample5E6
-    &ContentMD5Value=ExampleMd5HashOfHttpBodyAsPerRfc2616Example
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-01-26T23%3A51%3A31.315Z
-    &Version=2009-01-01
-    &Signature=SvSExamplefZpSignaturex2cs%3D
+?AWSAccessKeyId=0PB842ExampleN4ZTR2
+&Action=SubmitFeed
+&FeedType=_POST_PRODUCT_DATA_
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceIdList.Id.1=ATVExampleDER
+&SellerId=A1XExample5E6
+&ContentMD5Value=ExampleMd5HashOfHttpBodyAsPerRfc2616Example
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-01-26T23%3A51%3A31.315Z
+&Version=2009-01-01
+&Signature=SvSExamplefZpSignaturex2cs%3D
+```
 
 <div class="note note">
 

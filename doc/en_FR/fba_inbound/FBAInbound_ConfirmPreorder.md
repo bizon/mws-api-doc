@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ConfirmPreorder" class="nested0">
 
-ConfirmPreorder
-===============
+# ConfirmPreorder
 
 <div class="body">
 
@@ -53,8 +52,7 @@ ConfirmPreorder
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -130,8 +128,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -153,26 +150,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d33234e223" class="entry" data-valign="top" width="28.75536480686695%">Name</th>
+<th id="d33234e226" class="entry" data-valign="top" width="27.038626609442062%">Description</th>
+<th id="d33234e229" class="entry" data-valign="top" width="14.306151645207441%">Required</th>
+<th id="d33234e232" class="entry" data-valign="top" width="29.89985693848355%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33234e223 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33234e226 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33234e229 ">Yes</td>
+<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33234e232 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">NeedByDate</span></td>
-<td>Date that the shipment must arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items. This comes from the <span class="keyword apiname">GetPreorderInfo</span> operation.</td>
-<td>Yes</td>
-<td>Must be in YYYY-MM-DD format.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33234e223 "><span class="keyword parmname">NeedByDate</span></td>
+<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33234e226 ">Date that the shipment must arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items. This comes from the <span class="keyword apiname">GetPreorderInfo</span> operation.</td>
+<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33234e229 ">Yes</td>
+<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33234e232 ">Must be in YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -186,8 +183,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -198,21 +194,21 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d33234e318" class="entry" data-valign="top" width="24.63054187192118%">Name</th>
+<th id="d33234e321" class="entry" data-valign="top" width="75.36945812807882%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ConfirmedNeedByDate</span></td>
-<td>Date passed in with the <span class="keyword parmname">NeedByDate</span> parameter. The confirmed shipment must arrive at an <span class="ph">Amazon fulfillment center</span> by this date to avoid delivery promise breaks for pre-ordered items. In YYYY-MM-DD format.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33234e318 "><span class="keyword parmname">ConfirmedNeedByDate</span></td>
+<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33234e321 ">Date passed in with the <span class="keyword parmname">NeedByDate</span> parameter. The confirmed shipment must arrive at an <span class="ph">Amazon fulfillment center</span> by this date to avoid delivery promise breaks for pre-ordered items. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
-<td>Date that determines which pre-order items in the shipment are eligible for pre-order. The pre-order Buy Box will appear for any pre-order item in the shipment with a release date on or after this date. In YYYY-MM-DD format.
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33234e318 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
+<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33234e321 ">Date that determines which pre-order items in the shipment are eligible for pre-order. The pre-order Buy Box will appear for any pre-order item in the shipment with a release date on or after this date. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -226,8 +222,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -245,18 +240,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &Action=ConfirmPreorder
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A2NKEXAMPLEF53
-      &SignatureVersion=2
-      &Timestamp=2015-11-02T02:40:36Z
-      &Version=2010-10-01
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBA2F3KCQF
-      &NeedByDate=2015-12-27
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &Action=ConfirmPreorder
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A2NKEXAMPLEF53
+  &SignatureVersion=2
+  &Timestamp=2015-11-02T02:40:36Z
+  &Version=2010-10-01
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBA2F3KCQF
+  &NeedByDate=2015-12-27
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -277,16 +274,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ConfirmPreorderResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <ConfirmPreorderResult>
-            <ConfirmedNeedByDate>2015-12-27</ConfirmedNeedByDate>
-            <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
-        </ConfirmPreorderResult>
-        <ResponseMetadata>
-            <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
-        </ResponseMetadata>
-    </ConfirmPreorderResponse>
+``` pre
+<?xml version="1.0"?>
+<ConfirmPreorderResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <ConfirmPreorderResult>
+        <ConfirmedNeedByDate>2015-12-27</ConfirmedNeedByDate>
+        <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
+    </ConfirmPreorderResult>
+    <ResponseMetadata>
+        <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
+    </ResponseMetadata>
+</ConfirmPreorderResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -300,8 +299,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

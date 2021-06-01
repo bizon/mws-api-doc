@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_WhatIs" class="nested0">
 
-What is Amazon MWS?
-===================
+# What is Amazon MWS?
 
 <div class="body">
 
@@ -63,8 +62,7 @@ class="ph">Amazon MWS</span>.
 
 <div class="section">
 
-What <span class="ph">Amazon MWS</span> Provides
-------------------------------------------------
+## What <span class="ph">Amazon MWS</span> Provides
 
 With <span class="ph">Amazon MWS</span>, you can build applications for
 your own Amazon seller account. You can also build applications for
@@ -113,8 +111,7 @@ class="ph">Amazon MWS</span> also allows you to:
 
 <div class="section">
 
-The MWS API
------------
+## The MWS API
 
 The <span class="ph">Amazon MWS</span> API is divided into sections
 based on functionality. The following is a summary of the API
@@ -130,173 +127,173 @@ class="ph">Amazon MWS</span> API References.
 <col style="width: 33%" />
 </colgroup>
 <tbody>
-<tr class="odd">
-<td><div class="p">
+<tr class="odd strow">
+<td class="stentry" data-valign="top" width="33.333333333333336%"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../feeds/Feeds_Overview.md" class="xref">Feeds API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../feeds/Feeds_Overview.md" class="xref">Feeds API</a></td>
 </tr>
-<tr class="even">
-<td>The Amazon MWS Feeds API lets you upload inventory and order data to Amazon.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Amazon MWS Feeds API lets you upload inventory and order data to Amazon.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><div class="p">
+<td class="stentry" data-valign="top" width="33.333333333333336%"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../finances/Finances_Overview.md" class="xref">Finances API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../finances/Finances_Overview.md" class="xref">Finances API</a></td>
 </tr>
-<tr class="even">
-<td>The Finances API enables you to obtain financial information relevant to your business with Amazon.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Finances API enables you to obtain financial information relevant to your business with Amazon.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><div class="p">
+<td class="stentry" data-valign="top" width="33.333333333333336%"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../fba_inbound/FBAInbound_Overview.md" class="xref">Fulfillment Inbound Shipment API</a></td>
 </tr>
-<tr class="even">
-<td>With the Fulfillment Inbound Shipment API, you can create and update inbound shipments of inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-</tr>
-<tr class="even">
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../fba_inventory/FBAInventory_Overview.md" class="xref">Fulfillment Inventory API</a></td>
-</tr>
-<tr class="even">
-<td>The Fulfillment Inventory API can help you stay up-to-date on the availability of your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../fba_outbound/FBAOutbound_Overview.md" class="xref">Fulfillment Outbound Shipment API</a></td>
-</tr>
-<tr class="even">
-<td>The Fulfillment Outbound Shipment API enables you to fulfill Multi-Channel Fulfillment orders, using your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a></td>
-</tr>
-<tr class="even">
-<td>The Merchant Fulfillment API provides programmatic access to Buy Shipping Services for sellers, including competitive rates from Amazon-partnered carriers.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">With the Fulfillment Inbound Shipment API, you can create and update inbound shipments of inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
 </tr>
-<tr class="odd">
-<td><div class="p">
+<tr class="even strow">
+<td class="stentry" data-valign="top"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../fba_inventory/FBAInventory_Overview.md" class="xref">Fulfillment Inventory API</a></td>
 </tr>
-<tr class="even">
-<td>With the Orders API, you can build simple applications that retrieve only the order information that you need.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Fulfillment Inventory API can help you stay up-to-date on the availability of your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><div class="p">
+<td class="stentry" data-valign="top"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../products/Products_Overview.md" class="xref">Products API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../fba_outbound/FBAOutbound_Overview.md" class="xref">Fulfillment Outbound Shipment API</a></td>
 </tr>
-<tr class="even">
-<td>The Products API helps you get information to match your products to existing product listings on Amazon Marketplace websites and to make sourcing and pricing decisions for listing those products on Amazon Marketplace websites.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Fulfillment Outbound Shipment API enables you to fulfill Multi-Channel Fulfillment orders, using your inventory in <span class="ph">Amazon's fulfillment network</span>.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><div class="p">
+<td class="stentry" data-valign="top"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../recommendations/Recommendations_Overview.md" class="xref">Recommendations API</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../merch_fulfill/MerchFulfill_Overview.md" class="xref">Merchant Fulfillment API</a></td>
 </tr>
-<tr class="even">
-<td>The Recommendations API enables you to programmatically retrieve Amazon Selling Coach recommendations by recommendation category.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-</tr>
-<tr class="even">
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../reports/Reports_Overview.md" class="xref">Reports API</a></td>
-</tr>
-<tr class="even">
-<td>The Reports API lets you request various reports that help you manage your sales on Amazon.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../sellers/Sellers_Overview.md" class="xref">Sellers API</a></td>
-</tr>
-<tr class="even">
-<td>The Sellers API lets sellers retrieve information about their seller account, such as the marketplaces they participate in. Along with listing the marketplaces that a seller can sell in, the API also provides additional information about the marketplace such as the default language and the default currency.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-<td><div class="p">
-<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
-<tbody>
-<tr class="odd">
-<td><a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a></td>
-</tr>
-<tr class="even">
-<td>The Subscriptions API enables you to subscribe to receive notifications that are relevant to your business with Amazon.</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Merchant Fulfillment API provides programmatic access to Buy Shipping Services for sellers, including competitive rates from Amazon-partnered carriers.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
 </tr>
-<tr class="odd">
-<td><div class="p">
+<tr class="odd strow">
+<td class="stentry" data-valign="top"><div class="p">
 <table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
 <tbody>
-<tr class="odd">
-<td><a href="../notifications/Notifications_Overview.md" class="xref">Push Notifications Schemas</a></td>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../orders-2013-09-01/Orders_Overview.md" class="xref">Orders API</a></td>
 </tr>
-<tr class="even">
-<td>The Amazon MWS push notifications enable you to receive information that is relevant to your business with Amazon without having to poll the Amazon MWS service. Instead, the information is sent directly to you when an event occurs to which you are subscribed (see the <a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a>).</td>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">With the Orders API, you can build simple applications that retrieve only the order information that you need.</td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td></td>
-<td></td>
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../products/Products_Overview.md" class="xref">Products API</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Products API helps you get information to match your products to existing product listings on Amazon Marketplace websites and to make sourcing and pricing decisions for listing those products on Amazon Marketplace websites.</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../recommendations/Recommendations_Overview.md" class="xref">Recommendations API</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Recommendations API enables you to programmatically retrieve Amazon Selling Coach recommendations by recommendation category.</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+<tr class="even strow">
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../reports/Reports_Overview.md" class="xref">Reports API</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Reports API lets you request various reports that help you manage your sales on Amazon.</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../sellers/Sellers_Overview.md" class="xref">Sellers API</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Sellers API lets sellers retrieve information about their seller account, such as the marketplaces they participate in. Along with listing the marketplaces that a seller can sell in, the API also provides additional information about the marketplace such as the default language and the default currency.</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Subscriptions API enables you to subscribe to receive notifications that are relevant to your business with Amazon.</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+<tr class="odd strow">
+<td class="stentry" data-valign="top"><div class="p">
+<table class="simpletable linkbox" data-cellpadding="4" data-cellspacing="0" data-summary="" data-border="1">
+<tbody>
+<tr class="odd strow linkbox-top">
+<td class="stentry center" data-valign="top"><a href="../notifications/Notifications_Overview.md" class="xref">Push Notifications Schemas</a></td>
+</tr>
+<tr class="even strow linkbox-bottom">
+<td class="stentry" data-valign="top">The Amazon MWS push notifications enable you to receive information that is relevant to your business with Amazon without having to poll the Amazon MWS service. Instead, the information is sent directly to you when an event occurs to which you are subscribed (see the <a href="../subscriptions/Subscriptions_Overview.md" class="xref">Subscriptions API</a>).</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+<td class="stentry" data-valign="top"></td>
+<td class="stentry" data-valign="top"></td>
 </tr>
 </tbody>
 </table>

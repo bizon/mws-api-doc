@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_GetServiceStatus" class="nested0">
 
-GetServiceStatus
-================
+# GetServiceStatus
 
 <div class="body">
 
@@ -54,8 +53,7 @@ class="ph">Finances API section</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -79,8 +77,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -101,8 +98,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -113,16 +109,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d160642e155" class="entry" data-valign="top" width="17.761989342806395%">Name</th>
+<th id="d160642e158" class="entry" data-valign="top" width="82.2380106571936%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Status</span></td>
-<td>The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="17.761989342806395%" headers="d160642e155 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="82.2380106571936%" headers="d160642e158 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
 <dl>
 <dt>GREEN</dt>
 <dd>The service is operating normally.
@@ -136,24 +132,24 @@ Response elements
 </dl>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Timestamp</span></td>
-<td>Indicates the time at which the operational status was evaluated.
+<tr class="even row">
+<td class="entry" data-valign="top" width="17.761989342806395%" headers="d160642e155 "><span class="keyword parmname">Timestamp</span></td>
+<td class="entry" data-valign="top" width="82.2380106571936%" headers="d160642e158 ">Indicates the time at which the operational status was evaluated.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">MessageId</span></td>
-<td>An Amazon-defined message identifier.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="17.761989342806395%" headers="d160642e155 "><span class="keyword parmname">MessageId</span></td>
+<td class="entry" data-valign="top" width="82.2380106571936%" headers="d160642e158 ">An Amazon-defined message identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Messages</span></td>
-<td>The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="17.761989342806395%" headers="d160642e155 "><span class="keyword parmname">Messages</span></td>
+<td class="entry" data-valign="top" width="82.2380106571936%" headers="d160642e158 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Message</span></td>
-<td>The operational status message.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="17.761989342806395%" headers="d160642e155 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="82.2380106571936%" headers="d160642e158 ">The operational status message.
 <p>The parent element of the following child elements (both child elements are type: xs:string):</p>
 <ul>
 <li><span class="keyword parmname">Locale</span></li>
@@ -171,8 +167,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -190,20 +185,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Finances/2015-05-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Finances/2015-05-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
-    &Action=GetServiceStatus
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &SellerId=A135KKEKWF1J56
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2015-05-01T18%3A12%3A21.687Z
-    &Version=2015-05-01
-    &Signature=neUupEXAMPLEwJEJGnBfBGa2UpTSIZW3JMnVUYLsM4w%3D
+AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
+&Action=GetServiceStatus
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&SellerId=A135KKEKWF1J56
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2015-05-01T18%3A12%3A21.687Z
+&Version=2015-05-01
+&Signature=neUupEXAMPLEwJEJGnBfBGa2UpTSIZW3JMnVUYLsM4w%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -224,17 +221,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetServiceStatusResponse
-        xmlns="http://mws.amazonservices.com/Finances/2015-05-01">
-        <GetServiceStatusResult>
-            <Status>GREEN</Status>
-            <Timestamp>2015-05-01T18:12:21.687Z</Timestamp>
-        </GetServiceStatusResult>
-        <ResponseMetadata>
-            <RequestId>082c41fd-2f6b-4616-a518-7db14EXAMPLE</RequestId>
-        </ResponseMetadata>
-    </GetServiceStatusResponse>
+``` pre
+<?xml version="1.0"?>
+<GetServiceStatusResponse
+    xmlns="http://mws.amazonservices.com/Finances/2015-05-01">
+    <GetServiceStatusResult>
+        <Status>GREEN</Status>
+        <Timestamp>2015-05-01T18:12:21.687Z</Timestamp>
+    </GetServiceStatusResult>
+    <ResponseMetadata>
+        <RequestId>082c41fd-2f6b-4616-a518-7db14EXAMPLE</RequestId>
+    </ResponseMetadata>
+</GetServiceStatusResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -248,8 +247,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

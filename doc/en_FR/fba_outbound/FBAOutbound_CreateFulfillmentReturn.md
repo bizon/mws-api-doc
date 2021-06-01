@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_CreateFulfillmentReturn" class="nested0">
 
-CreateFulfillmentReturn
-=======================
+# CreateFulfillmentReturn
 
 <div class="body">
 
@@ -53,8 +52,7 @@ CreateFulfillmentReturn
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -100,8 +98,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -120,8 +117,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -132,26 +128,26 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d90349e250" class="entry" data-valign="top" width="25.380710659898476%">Name</th>
+<th id="d90349e253" class="entry" data-valign="top" width="74.61928934010153%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReturnItemList</span></td>
-<td>A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90349e250 "><span class="keyword parmname">ReturnItemList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90349e253 ">A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">InvalidReturnItemList</span></td>
-<td>A list of items that are invalid for return. Returns empty if no items are invalid for return.
+<tr class="even row">
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90349e250 "><span class="keyword parmname">InvalidReturnItemList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90349e253 ">A list of items that are invalid for return. Returns empty if no items are invalid for return.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#InvalidReturnItem" class="xref" title="An item that is invalid for return.">InvalidReturnItem</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReturnAuthorizationList</span></td>
-<td>A list of return authorizations.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90349e250 "><span class="keyword parmname">ReturnAuthorizationList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90349e253 ">A list of return authorizations.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
 </tr>
 </tbody>
@@ -165,8 +161,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -184,27 +179,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
-      ?Action=CreateFulfillmentReturn
-      &Version=2010-10-01
-      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &Timestamp=2016-09-29T02:40:36Z
-      &SellerId=A2NKEXAMPLEF53
-      &SellerFulfillmentOrderId=extern_id_1154539615776
-      &Items.member.1.SellerReturnItemId=16a6a142EXAMPLE
-      &Items.member.1.SellerFulfillmentOrderItemId=order-item-1
-      &Items.member.1.AmazonShipmentId= DLHg36GDN
-      &Items.member.1.ReturnReasonCode=REASON-CODE
-      &Items.member.1.ReturnComment=Did%20not%20like%20color
-      &Items.member.2.SellerReturnItemId=20a6a142EXAMPLE
-      &Items.member.2.SellerFulfillmentOrderItemId=order-item-2
-      &Items.member.2.AmazonShipmentId= DLHg36GDN
-      &Items.member.2.ReturnReasonCode=REASON-CODE
-      &Items.member.2.ReturnComment=Size%20does%20not%20fit
+``` pre
+http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
+  ?Action=CreateFulfillmentReturn
+  &Version=2010-10-01
+  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &Timestamp=2016-09-29T02:40:36Z
+  &SellerId=A2NKEXAMPLEF53
+  &SellerFulfillmentOrderId=extern_id_1154539615776
+  &Items.member.1.SellerReturnItemId=16a6a142EXAMPLE
+  &Items.member.1.SellerFulfillmentOrderItemId=order-item-1
+  &Items.member.1.AmazonShipmentId= DLHg36GDN
+  &Items.member.1.ReturnReasonCode=REASON-CODE
+  &Items.member.1.ReturnComment=Did%20not%20like%20color
+  &Items.member.2.SellerReturnItemId=20a6a142EXAMPLE
+  &Items.member.2.SellerFulfillmentOrderItemId=order-item-2
+  &Items.member.2.AmazonShipmentId= DLHg36GDN
+  &Items.member.2.ReturnReasonCode=REASON-CODE
+  &Items.member.2.ReturnComment=Size%20does%20not%20fit
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -225,55 +222,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CreateFulfillmenReturnResponse  xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-        <CreateFulfillmentReturnResult>
-            <ReturnItemList>
-                <ReturnItem>
-                    <SellerReturnItemId>16a6a142EXAMPLE</SellerReturnItemId>
-                    <SellerFulfillmentOrderItemId>order-item-1 </SellerFulfillmentOrderItemId>
-                    <AmazonShipmentId>DLHg36GDN</AmazonShipmentId >
-                    <SellerReturnReasonCode>REASON-CODE</SellerReturnReasonCode>
-                    <ReturnComment>Did not like color</ReturnComment>
-                    <AmazonReturnReasonCode>OTHER-REASON-CODE</AmazonReturnReasonCode>
-                    <Status>Processed</Status> 
-                    <StatusChangedDate>2016-09-29T02:40:36Z</StatusChangedDate>
-                    <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
-                    <ReturnReceivedCondition>Sellable</ReturnReceivedCondition>
-                    <FulfillmentCenterId>FC123</FulfillmentCenterId>
-                </ReturnItem>
-            </ReturnItemList>
-            <InvalidReturnItemList>
-                <InvalidReturnItem>
-                    <SellerReturnItemId>20a6a142EXAMPLE</SellerReturnItemId>
-                    <SellerFulfillmentOrderItemId>order-item-2</SellerFulfillmentOrderItemId>
-                    <InvalidItemReason>
-                        <InvalidItemReasonCode>DuplicateRequest</InvalidItemReasonCode>
-                        <Description>There are duplicate return requests for this item.</Description>
-                    </InvalidItemReason>
-                </InvalidReturnItem>
-            </InvalidReturnItemList>
-            <ReturnAuthorizationList>
-                <ReturnAuthorization>
-                    <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
-                    <FulfillmentCenterId>FC123</FulfillmentCenterId>
-                    <ReturnToAddress>
-                        <Name>Amazon FC</Name>
-                        <Line1>123 Main Street</Line1>
-                        <City>Anywhere</City>
-                        <StateOrRegionCode>WA</StateOrRegionCode>
-                        <PostalCode>98122</PostalCode>
-                        <CountryCode>US</CountryCode>
-                    </ReturnToAddress>
-                    <AmazonRmaId>test123</AmazonRmaId>
-                    <RmaPageURL>https://sellercentral.amazon.com/URL</RmaPageURL>
-                </ReturnAuthorization>
-            </ReturnAuthorizationList>
-        </CreateFulfillmentReturnResult>
-        <ResponseMetadata>
-            <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
-        </ResponseMetadata>
-     </CreateFulfillmenReturnResponse>
+``` pre
+<?xml version="1.0"?>
+<CreateFulfillmenReturnResponse  xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+    <CreateFulfillmentReturnResult>
+        <ReturnItemList>
+            <ReturnItem>
+                <SellerReturnItemId>16a6a142EXAMPLE</SellerReturnItemId>
+                <SellerFulfillmentOrderItemId>order-item-1 </SellerFulfillmentOrderItemId>
+                <AmazonShipmentId>DLHg36GDN</AmazonShipmentId >
+                <SellerReturnReasonCode>REASON-CODE</SellerReturnReasonCode>
+                <ReturnComment>Did not like color</ReturnComment>
+                <AmazonReturnReasonCode>OTHER-REASON-CODE</AmazonReturnReasonCode>
+                <Status>Processed</Status> 
+                <StatusChangedDate>2016-09-29T02:40:36Z</StatusChangedDate>
+                <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
+                <ReturnReceivedCondition>Sellable</ReturnReceivedCondition>
+                <FulfillmentCenterId>FC123</FulfillmentCenterId>
+            </ReturnItem>
+        </ReturnItemList>
+        <InvalidReturnItemList>
+            <InvalidReturnItem>
+                <SellerReturnItemId>20a6a142EXAMPLE</SellerReturnItemId>
+                <SellerFulfillmentOrderItemId>order-item-2</SellerFulfillmentOrderItemId>
+                <InvalidItemReason>
+                    <InvalidItemReasonCode>DuplicateRequest</InvalidItemReasonCode>
+                    <Description>There are duplicate return requests for this item.</Description>
+                </InvalidItemReason>
+            </InvalidReturnItem>
+        </InvalidReturnItemList>
+        <ReturnAuthorizationList>
+            <ReturnAuthorization>
+                <ReturnAuthorizationId>amzn-rma-id</ReturnAuthorizationId>
+                <FulfillmentCenterId>FC123</FulfillmentCenterId>
+                <ReturnToAddress>
+                    <Name>Amazon FC</Name>
+                    <Line1>123 Main Street</Line1>
+                    <City>Anywhere</City>
+                    <StateOrRegionCode>WA</StateOrRegionCode>
+                    <PostalCode>98122</PostalCode>
+                    <CountryCode>US</CountryCode>
+                </ReturnToAddress>
+                <AmazonRmaId>test123</AmazonRmaId>
+                <RmaPageURL>https://sellercentral.amazon.com/URL</RmaPageURL>
+            </ReturnAuthorization>
+        </ReturnAuthorizationList>
+    </CreateFulfillmentReturnResult>
+    <ResponseMetadata>
+        <RequestId>5e5e5694-8e76-11df-929f-87c80302f8f6</RequestId>
+    </ResponseMetadata>
+ </CreateFulfillmenReturnResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -287,8 +286,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

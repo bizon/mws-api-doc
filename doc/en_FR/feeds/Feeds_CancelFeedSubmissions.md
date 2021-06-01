@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_CancelFeedSubmissions" class="nested0">
 
-CancelFeedSubmissions
-=====================
+# CancelFeedSubmissions
 
 <div class="body">
 
@@ -54,8 +53,7 @@ count of the feed submissions that were canceled.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -110,8 +108,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -133,42 +130,42 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d119365e188" class="entry" data-valign="top" width="31.93717277486911%">Name</th>
+<th id="d119365e191" class="entry" data-valign="top" width="42.72251308900524%">Description</th>
+<th id="d119365e194" class="entry" data-valign="top" width="10.471204188481677%">Required</th>
+<th id="d119365e197" class="entry" data-valign="top" width="14.86910994764398%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FeedSubmissionIdList</span></td>
-<td>A structured list of <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
-<td>No</td>
-<td>Default: All
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119365e188 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119365e191 ">A structured list of <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119365e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119365e197 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FeedTypeList</span></td>
-<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
-<td>No</td>
-<td>Default: All feed types
+<tr class="even row">
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119365e188 "><span class="keyword parmname">FeedTypeList</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119365e191 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119365e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119365e197 ">Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: 180 days ago
+<tr class="odd row">
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119365e188 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119365e191 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119365e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119365e197 ">Default: 180 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: Now
+<tr class="even row">
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119365e188 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119365e191 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119365e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119365e197 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -183,8 +180,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -203,8 +199,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -223,24 +218,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=CancelFeedSubmissions
-    &FeedSubmissionIdList.Id.1=1058369303
-    &FeedTypeList.Type.1=_POST_PRODUCT_DATA_
-    &FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T17%3A34%3A14.203Z
-    &Version=2009-01-01
-    &Signature=0RExample0%3D
+AWSAccessKeyId=0PExampleR2
+&Action=CancelFeedSubmissions
+&FeedSubmissionIdList.Id.1=1058369303
+&FeedTypeList.Type.1=_POST_PRODUCT_DATA_
+&FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T17%3A34%3A14.203Z
+&Version=2009-01-01
+&Signature=0RExample0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -265,22 +262,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CancelFeedSubmissionsResponse
-        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-        <CancelFeedSubmissionsResult>
-            <Count>1</Count>
-            <FeedSubmissionInfo>
-                <FeedSubmissionId>2291326430</FeedSubmissionId>
-                <FeedType>_POST_PRODUCT_DATA_</FeedType>
-                <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
-                <FeedProcessingStatus>_CANCELLED_</FeedProcessingStatus>
-            </FeedSubmissionInfo>
-        </CancelFeedSubmissionsResult>
-        <ResponseMetadata>
-            <RequestId>18e78983-bbf9-43aa-a661-ae7696cb49d4</RequestId>
-        </ResponseMetadata>
-    </CancelFeedSubmissionsResponse>
+``` pre
+<?xml version="1.0"?>
+<CancelFeedSubmissionsResponse
+    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+    <CancelFeedSubmissionsResult>
+        <Count>1</Count>
+        <FeedSubmissionInfo>
+            <FeedSubmissionId>2291326430</FeedSubmissionId>
+            <FeedType>_POST_PRODUCT_DATA_</FeedType>
+            <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
+            <FeedProcessingStatus>_CANCELLED_</FeedProcessingStatus>
+        </FeedSubmissionInfo>
+    </CancelFeedSubmissionsResult>
+    <ResponseMetadata>
+        <RequestId>18e78983-bbf9-43aa-a661-ae7696cb49d4</RequestId>
+    </ResponseMetadata>
+</CancelFeedSubmissionsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -294,8 +293,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

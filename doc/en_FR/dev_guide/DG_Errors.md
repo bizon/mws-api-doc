@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ErrorMessages" class="nested0">
 
-Handling errors
-===============
+# Handling errors
 
 <div class="body">
 
@@ -54,8 +53,7 @@ error so that the problem it can be fixed or reported.
 
 <div id="DG_ErrorMessages__Error_codes" class="section">
 
-Error codes
------------
+## Error codes
 
 These error codes are common to all <span class="ph">Amazon MWS</span>
 API sections. For error codes that are specific to an API section, see
@@ -84,8 +82,7 @@ that API's corresponding error codes section reference.
 <div id="DG_ErrorMessages__ErrorMessages_When_you_get_error"
 class="section">
 
-When you get an error
----------------------
+## When you get an error
 
 Each error is accompanied with enough information to help you research a
 fix for the error on the client side. When your research can't resolve
@@ -122,8 +119,7 @@ class="ph">Amazon MWS</span>. Without this information, requests to
 <div id="DG_ErrorMessages__ErrorMessages_Service_errors"
 class="section">
 
-Service errors
---------------
+## Service errors
 
 The common response to a 500 or 503 service error is to try the request
 again. Such service errors are usually only temporary and will resolve
@@ -140,8 +136,7 @@ backoff times and limit will depend upon your business processes.
 
 <div id="DG_ErrorMessages__ErrorReferences" class="section">
 
-References
-----------
+## References
 
 -   <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" class="xref">List of HTTP status codes</a>
     (Wikipedia)
@@ -154,8 +149,7 @@ References
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Example HTTP errors](../dev_guide/DG_Errors_Examples.md)**  
 -   **[Example Client Side

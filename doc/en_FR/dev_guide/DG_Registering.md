@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_Registering" class="nested0">
 
-Registering to use <span class="ph">Amazon MWS</span>
-=====================================================
+# Registering to use <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -80,8 +79,7 @@ by other software developers.
 <div id="DG_Registering__MX_EU_IN_RegisteringAsADeveloper"
 class="section">
 
-Registering as a developer
---------------------------
+## Registering as a developer
 
 Before you can develop <span class="ph">Amazon MWS</span> applications
 for yourself or others you must register as a developer to get your
@@ -115,8 +113,7 @@ may result in suspension of your selling account and Developer Keys.**
 
 <div class="section">
 
-Using your <span class="ph">Amazon MWS</span> Developer ID and Access Keys
---------------------------------------------------------------------------
+## Using your <span class="ph">Amazon MWS</span> Developer ID and Access Keys
 
 <div class="note important">
 
@@ -174,8 +171,7 @@ Amazon. No one from Amazon will ever ask you for your Secret Key.**
 
 <div id="DG_Registering__ResettingYourKeys" class="section">
 
-Resetting your AWS Access Key ID and Secret Key
------------------------------------------------
+## Resetting your AWS Access Key ID and Secret Key
 
 If you need to change your AWS Access Key ID and Secret Key, contact
 Seller Support in your home marketplace via chat, telephone, or <span
@@ -207,8 +203,7 @@ with your new keys.
 
 <div id="DG_Registering__AuthorizingADeveloper" class="section">
 
-Authorizing a developer
------------------------
+## Authorizing a developer
 
 A seller must authorize a developer to make calls to <span
 class="ph">Amazon MWS</span> on the seller's behalf.
@@ -230,8 +225,7 @@ class="ph">Amazon MWS</span> on the seller's behalf.
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 -   <a href="DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
 -   <a href="DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetProductCategoriesForSKU" class="nested0">
 
-GetProductCategoriesForSKU
-==========================
+# GetProductCategoriesForSKU
 
 <div class="body">
 
@@ -55,8 +54,7 @@ class="keyword parmname">SellerSKU</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -109,8 +107,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -132,28 +129,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d254597e201" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d254597e204" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d254597e207" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d254597e210" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace from which category structures are returned.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e201 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e204 ">A marketplace identifier. Specifies the marketplace from which category structures are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d254597e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e210 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKU</span></td>
-<td>Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e201 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e204 ">Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td> </td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d254597e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254597e210 "> </td>
 </tr>
 </tbody>
 </table>
@@ -166,8 +163,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -187,8 +183,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -206,22 +201,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetProductCategoriesForSKU
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A1IMEXAMPLEWRC
-    &SellerSKU=SKU2468
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T22%3A48%3A25Z
-    &Version=2011-10-01
-    &Signature=nLBMEXAMPLE6ASMKD1YTcNk7E8vW6Qzha8cEXAMPLEY%3D
+AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetProductCategoriesForSKU
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A1IMEXAMPLEWRC
+&SellerSKU=SKU2468
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T22%3A48%3A25Z
+&Version=2011-10-01
+&Signature=nLBMEXAMPLE6ASMKD1YTcNk7E8vW6Qzha8cEXAMPLEY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -242,55 +239,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetProductCategoriesForSKUResponse
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetProductCategoriesForSKUResult>
-            <Self>
-                <ProductCategoryId>271578011</ProductCategoryId>
-                <ProductCategoryName>Project Management</ProductCategoryName>
+``` pre
+<?xml version="1.0"?>
+<GetProductCategoriesForSKUResponse
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetProductCategoriesForSKUResult>
+        <Self>
+            <ProductCategoryId>271578011</ProductCategoryId>
+            <ProductCategoryName>Project Management</ProductCategoryName>
+            <Parent>
+                <ProductCategoryId>2675</ProductCategoryId>
+                <ProductCategoryName>Management &#x26; Leadership</ProductCategoryName>
                 <Parent>
-                    <ProductCategoryId>2675</ProductCategoryId>
-                    <ProductCategoryName>Management &#x26; Leadership</ProductCategoryName>
+                    <ProductCategoryId>3</ProductCategoryId>
+                    <ProductCategoryName>Business &#x26; Investing</ProductCategoryName>
                     <Parent>
-                        <ProductCategoryId>3</ProductCategoryId>
-                        <ProductCategoryName>Business &#x26; Investing</ProductCategoryName>
+                        <ProductCategoryId>1000</ProductCategoryId>
+                        <ProductCategoryName>Subjects</ProductCategoryName>
                         <Parent>
-                            <ProductCategoryId>1000</ProductCategoryId>
+                            <ProductCategoryId>283155</ProductCategoryId>
                             <ProductCategoryName>Subjects</ProductCategoryName>
-                            <Parent>
-                                <ProductCategoryId>283155</ProductCategoryId>
-                                <ProductCategoryName>Subjects</ProductCategoryName>
-                            </Parent>
                         </Parent>
                     </Parent>
                 </Parent>
-            </Self>
-            <Self>
-                <ProductCategoryId>684248011</ProductCategoryId>
-                <ProductCategoryName>Management</ProductCategoryName>
+            </Parent>
+        </Self>
+        <Self>
+            <ProductCategoryId>684248011</ProductCategoryId>
+            <ProductCategoryName>Management</ProductCategoryName>
+            <Parent>
+                <ProductCategoryId>468220</ProductCategoryId>
+                <ProductCategoryName>Business &#x26; Finance</ProductCategoryName>
                 <Parent>
-                    <ProductCategoryId>468220</ProductCategoryId>
-                    <ProductCategoryName>Business &#x26; Finance</ProductCategoryName>
+                    <ProductCategoryId>465600</ProductCategoryId>
+                    <ProductCategoryName>New, Used &#x26; Rental Textbooks</ProductCategoryName>
                     <Parent>
-                        <ProductCategoryId>465600</ProductCategoryId>
-                        <ProductCategoryName>New, Used &#x26; Rental Textbooks</ProductCategoryName>
+                        <ProductCategoryId>2349030011</ProductCategoryId>
+                        <ProductCategoryName>Specialty Boutique</ProductCategoryName>
                         <Parent>
-                            <ProductCategoryId>2349030011</ProductCategoryId>
+                            <ProductCategoryId>283155</ProductCategoryId>
                             <ProductCategoryName>Specialty Boutique</ProductCategoryName>
-                            <Parent>
-                                <ProductCategoryId>283155</ProductCategoryId>
-                                <ProductCategoryName>Specialty Boutique</ProductCategoryName>
-                            </Parent>
                         </Parent>
                     </Parent>
                 </Parent>
-            </Self>
-        </GetProductCategoriesForSKUResult>
-        <ResponseMetadata>
-            <RequestId>e058aabd-b4c3-48ba-9bfa-EXAMPLE9a267</RequestId>
-        </ResponseMetadata>
-    </GetProductCategoriesForSKUResponse>
+            </Parent>
+        </Self>
+    </GetProductCategoriesForSKUResult>
+    <ResponseMetadata>
+        <RequestId>e058aabd-b4c3-48ba-9bfa-EXAMPLE9a267</RequestId>
+    </ResponseMetadata>
+</GetProductCategoriesForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -304,8 +303,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

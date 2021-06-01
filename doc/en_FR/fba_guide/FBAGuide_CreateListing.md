@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 1 - Create a listing and convert it to FBA
-===============================================
+# Step 1 - Create a listing and convert it to FBA
 
 <div class="body conbody">
 
@@ -74,8 +73,7 @@ dangerous goods information will fail. See
 
 <div class="section">
 
-Using XML feeds
----------------
+## Using XML feeds
 
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting XML feeds using the <span class="ph">Feeds API
@@ -84,7 +82,7 @@ section</span>. See
 
 **To create a listing and convert it to <span class="ph">FBA</span>**
 
-1.  Submit the Product Feed (\_POST\_PRODUCT\_DATA\_).
+1.  Submit the Product Feed (\_POST_PRODUCT_DATA\_).
 
     **If the product is in Amazon's catalog**, the feed should include:
 
@@ -109,7 +107,7 @@ section</span>. See
         guidance in
         <a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/MWSDangerousGoodsAttributesConditionalRequirementsOct182017.pdf" class="xref">Requirements for MWS Integrators (PDF)</a>.
 
-2.  Submit the Inventory Feed (\_POST\_INVENTORY\_AVAILABILITY\_DATA\_).
+2.  Submit the Inventory Feed (\_POST_INVENTORY_AVAILABILITY_DATA\_).
     The feed should include:
     -   The <span class="keyword parmname">FulfillmentCenterID</span>
         element, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
@@ -126,8 +124,7 @@ For more information about feed types, see
 
 <div class="section">
 
-Using flat file feeds
----------------------
+## Using flat file feeds
 
 You can create a listing and convert it to <span class="ph">FBA</span>
 by submitting flat file feeds using the <span class="ph">Feeds API
@@ -138,9 +135,9 @@ section</span>. See
 the product is in Amazon's catalog)**
 
 1.  Submit the Flat File Inventory Loader Feed
-    (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_). Alternatively, you can
-    submit the Flat File Listings Loader Feed
-    (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_). The feed should include:
+    (\_POST_FLAT_FILE_INVLOADER_DATA\_). Alternatively, you can submit
+    the Flat File Listings Loader Feed
+    (\_POST_FLAT_FILE_LISTINGS_DATA\_). The feed should include:
     -   The <span class="keyword parmname">sku</span> field, containing
         the seller's unique SKU for the product.
     -   The <span class="keyword parmname">product-id</span> and <span
@@ -164,9 +161,9 @@ the product is not yet in Amazon's catalog)**
     -   Set the field values according to the instructions in the
         Inventory File Template.
 2.  Submit the Flat File Inventory Loader Feed
-    (\_POST\_FLAT\_FILE\_INVLOADER\_DATA\_). Alternatively, you can
-    submit the Flat File Listings Loader Feed
-    (\_POST\_FLAT\_FILE\_LISTINGS\_DATA\_). The feed should include:
+    (\_POST_FLAT_FILE_INVLOADER_DATA\_). Alternatively, you can submit
+    the Flat File Listings Loader Feed
+    (\_POST_FLAT_FILE_LISTINGS_DATA\_). The feed should include:
     -   The <span class="keyword parmname">fulfillment-center-id</span>
         field, set to `AMAZON_NA`, `AMAZON_EU`, `AMAZON_IN`, or
         `AMAZON_JP`, depending on the seller's marketplace.

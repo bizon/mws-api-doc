@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Item label specifications
-=========================
+# Item label specifications
 
 <div class="body conbody">
 
@@ -60,8 +59,7 @@ fulfillment center:
 
 <div class="section">
 
-Item label example
-------------------
+## Item label example
 
 <img src="ItemLabel.png" class="image" alt="Item label" />
 
@@ -89,8 +87,7 @@ tracking.
 
 <div class="section">
 
-Print specifications
---------------------
+## Print specifications
 
 <div class="tablenoborder">
 
@@ -107,8 +104,7 @@ Print specifications
 
 <div class="section">
 
-Barcode specifications
-----------------------
+## Barcode specifications
 
 <div class="tablenoborder">
 
@@ -117,40 +113,40 @@ Barcode specifications
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Specification</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d25986e186" class="entry" data-valign="top" width="34.843205574912886%">Specification</th>
+<th id="d25986e189" class="entry" data-valign="top" width="65.1567944250871%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td>Format</td>
-<td>Code 128A</td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Format</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">Code 128A</td>
 </tr>
-<tr class="even">
-<td>Height</td>
-<td>Greater than 0.25" (6.3 mm), or 15% of the barcode length.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Height</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">Greater than 0.25" (6.3 mm), or 15% of the barcode length.</td>
 </tr>
-<tr class="odd">
-<td>Narrow barcode element</td>
-<td>The specification depends on your printer's resolution.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Narrow barcode element</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">The specification depends on your printer's resolution.
 <ul>
 <li><strong>For 300 dpi:</strong> 13.33 mils (.3386 mm)</li>
 <li><strong>For 200 dpi:</strong> 20 mils (.508 mm)</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td>Wide-to-narrow element ratio</td>
-<td>3:1</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Wide-to-narrow element ratio</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">3:1</td>
 </tr>
-<tr class="odd">
-<td>Quiet zone (sides)</td>
-<td>Greater than 0.25" (6.4 mm)</td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Quiet zone (sides)</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">Greater than 0.25" (6.4 mm)</td>
 </tr>
-<tr class="even">
-<td>Quiet zone (top and bottom)</td>
-<td>Greater than 0.125" (3.2 mm)</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25986e186 ">Quiet zone (top and bottom)</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25986e189 ">Greater than 0.125" (3.2 mm)</td>
 </tr>
 </tbody>
 </table>

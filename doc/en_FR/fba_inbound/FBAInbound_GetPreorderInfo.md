@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPreorderInfo" class="nested0">
 
-GetPreorderInfo
-===============
+# GetPreorderInfo
 
 <div class="body">
 
@@ -55,8 +54,7 @@ if a shipment has already been confirmed for pre-order. </span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -105,8 +103,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -133,8 +130,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -145,31 +141,31 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d67919e225" class="entry" data-valign="top" width="29.239766081871345%">Name</th>
+<th id="d67919e228" class="entry" data-valign="top" width="70.76023391812866%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentContainsPreorderableItems</span></td>
-<td>Indicates whether the shipment contains items that have been enabled for pre-order. For more information about enabling items for pre-order, see the Seller Central Help (<a href="https://sellercentral.amazon.in/gp/help/201851750" class="xref">IN</a>) (<a href="https://sellercentral.amazon.co.jp/gp/help/201851750" class="xref">JP</a>).
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67919e225 "><span class="keyword parmname">ShipmentContainsPreorderableItems</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67919e228 ">Indicates whether the shipment contains items that have been enabled for pre-order. For more information about enabling items for pre-order, see the Seller Central Help (<a href="https://sellercentral.amazon.in/gp/help/201851750" class="xref">IN</a>) (<a href="https://sellercentral.amazon.co.jp/gp/help/201851750" class="xref">JP</a>).
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">NeedByDate</span></td>
-<td>Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67919e225 "><span class="keyword parmname">NeedByDate</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67919e228 ">Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
-<td>Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67919e225 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67919e228 ">Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipmentConfirmedForPreorder</span></td>
-<td>Indicates whether this shipment has been confirmed for pre-order.
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67919e225 "><span class="keyword parmname">ShipmentConfirmedForPreorder</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67919e228 ">Indicates whether this shipment has been confirmed for pre-order.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 </tbody>
@@ -183,8 +179,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -202,17 +197,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &Action=GetPreorderInfo
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A2NKEXAMPLEF53
-      &SignatureVersion=2
-      &Timestamp=2015-11-02T02:40:36Z
-      &Version=2010-10-01
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBA2F3KCQF
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &Action=GetPreorderInfo
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A2NKEXAMPLEF53
+  &SignatureVersion=2
+  &Timestamp=2015-11-02T02:40:36Z
+  &Version=2010-10-01
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBA2F3KCQF
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -233,19 +230,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetPreorderInfoResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetPreorderInfoResult>
-            <ShipmentContainsPreorderableItems>true
-            </ShipmentContainsPreorderableItems>
-            <NeedByDate>2015-12-27</NeedByDate>
-            <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
-            <ShipmentConfirmedForPreorder>true</ShipmentConfirmedForPreorder>
-        </GetPreorderInfoResult>
-        <ResponseMetadata>
-            <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
-        </ResponseMetadata>
-    </GetPreorderInfoResponse>
+``` pre
+<?xml version="1.0"?>
+<GetPreorderInfoResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetPreorderInfoResult>
+        <ShipmentContainsPreorderableItems>true
+        </ShipmentContainsPreorderableItems>
+        <NeedByDate>2015-12-27</NeedByDate>
+        <ConfirmedFulfillableDate>2015-12-31</ConfirmedFulfillableDate>
+        <ShipmentConfirmedForPreorder>true</ShipmentConfirmedForPreorder>
+    </GetPreorderInfoResult>
+    <ResponseMetadata>
+        <RequestId>4a1a7029-462b-4a27-a04c-4cbe0fd107e3</RequestId>
+    </ResponseMetadata>
+</GetPreorderInfoResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -259,8 +258,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

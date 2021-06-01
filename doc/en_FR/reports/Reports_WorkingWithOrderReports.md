@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_WorkingWithOrderReports" class="nested0">
 
-Working with order reports
-==========================
+# Working with order reports
 
 <div class="body">
 
@@ -61,8 +60,7 @@ return.
 
 <div class="section">
 
-Scheduling order reports
-------------------------
+## Scheduling order reports
 
 <div class="p">
 
@@ -116,8 +114,7 @@ follows:
 
 <div class="section">
 
-Duplicate orders
-----------------
+## Duplicate orders
 
 The procedure for scheduling order reports described in the previous
 section helps to ensure that each generated order report (as identified

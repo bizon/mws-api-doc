@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_NextToken" class="nested0">
 
-Using NextToken to request additional pages
-===========================================
+# Using NextToken to request additional pages
 
 <div class="body">
 
@@ -59,8 +58,7 @@ the various <span class="ph">Amazon MWS</span> API sections.
 
 <div id="Using" class="topic nested1">
 
-Using NextToken
----------------
+## Using NextToken
 
 <div class="body">
 
@@ -198,8 +196,7 @@ Using NextToken
 
 <div id="Errors" class="topic nested1">
 
-Handling errors with NextTokens
--------------------------------
+## Handling errors with NextTokens
 
 <div class="body">
 

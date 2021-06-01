@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_ListFinancialEventGroupsByNextToken" class="nested0">
 
-ListFinancialEventGroupsByNextToken
-===================================
+# ListFinancialEventGroupsByNextToken
 
 <span class="ph">Returns the next page of financial event groups using
 the <span class="keyword parmname">NextToken</span> parameter.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -101,8 +99,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -130,8 +127,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -142,22 +138,22 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d162238e246" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d162238e249" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d162238e246 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d162238e249 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FinancialEventGroupList</span></td>
-<td>Contains the financial event groups that meet the criteria specified in the request.
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d162238e246 "><span class="keyword parmname">FinancialEventGroupList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d162238e249 ">Contains the financial event groups that meet the criteria specified in the request.
 <p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>
@@ -171,8 +167,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -190,21 +185,23 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Finances/2015-05-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Finances/2015-05-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLESDX
-    &Action=ListFinancialEventGroupsByNextToken
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &NextToken=88faca76-b600-46d2-b53c-0c8c4EXAMPLE
-    &SellerId=A1XEXAMPLEDF
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2015-05-01T18%3A12%3A21.687Z
-    &Version=2015-05-01
-    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+AWSAccessKeyId=0PB842EXAMPLESDX
+&Action=ListFinancialEventGroupsByNextToken
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&NextToken=88faca76-b600-46d2-b53c-0c8c4EXAMPLE
+&SellerId=A1XEXAMPLEDF
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2015-05-01T18%3A12%3A21.687Z
+&Version=2015-05-01
+&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -225,46 +222,48 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListFinancialEventGroupsByNextTokenResponse
-        xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
-        <ListFinancialEventGroupsByNextTokenResult>
-            <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
-            <FinancialEventGroupList>
-                <FinancialEventGroup>
-                    <FinancialEventGroupId>
-                        22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
-                    </FinancialEventGroupId>
-                    <ProcessingStatus>Closed</ProcessingStatus>
-                    <FundTransferStatus>Successful</FundTransferStatus>
-                    <OriginalTotal>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>19.00</Amount>
-                    </OriginalTotal>
-                    <ConvertedTotal>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>19.00</Amount>
-                    </ConvertedTotal>
-                    <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
-                    <TraceId>128311029381HSADJEXAMPLE</TraceId>
-                    <AccountTail>1212</AccountTail>
-                    <BeginningBalance>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.00</Amount>
-                    </BeginningBalance>
-                    <FinancialEventGroupStart>
-                        2014-09-01T01:30:00.000-06:00
-                    </FinancialEventGroupStart>
-                    <FinancialEventGroupEnd>
-                        2014-09-09T01:30:00.000-06:00
-                    </FinancialEventGroupEnd>
-                </FinancialEventGroup>
-            </FinancialEventGroupList>
-        </ListFinancialEventGroupsByNextTokenResult>
-        <ResponseMetadata>
-            <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
-        </ResponseMetadata>
-    </ListFinancialEventGroupsByNextTokenResponse>
+``` pre
+<?xml version="1.0"?>
+<ListFinancialEventGroupsByNextTokenResponse
+    xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
+    <ListFinancialEventGroupsByNextTokenResult>
+        <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
+        <FinancialEventGroupList>
+            <FinancialEventGroup>
+                <FinancialEventGroupId>
+                    22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
+                </FinancialEventGroupId>
+                <ProcessingStatus>Closed</ProcessingStatus>
+                <FundTransferStatus>Successful</FundTransferStatus>
+                <OriginalTotal>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>19.00</Amount>
+                </OriginalTotal>
+                <ConvertedTotal>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>19.00</Amount>
+                </ConvertedTotal>
+                <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
+                <TraceId>128311029381HSADJEXAMPLE</TraceId>
+                <AccountTail>1212</AccountTail>
+                <BeginningBalance>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>0.00</Amount>
+                </BeginningBalance>
+                <FinancialEventGroupStart>
+                    2014-09-01T01:30:00.000-06:00
+                </FinancialEventGroupStart>
+                <FinancialEventGroupEnd>
+                    2014-09-09T01:30:00.000-06:00
+                </FinancialEventGroupEnd>
+            </FinancialEventGroup>
+        </FinancialEventGroupList>
+    </ListFinancialEventGroupsByNextTokenResult>
+    <ResponseMetadata>
+        <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
+    </ResponseMetadata>
+</ListFinancialEventGroupsByNextTokenResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -278,8 +277,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

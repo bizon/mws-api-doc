@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_DG_AcceptableUsePolicy" class="nested0">
 
-Acceptable Use Policy
-=====================
+# Acceptable Use Policy
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetLowestPricedOffersForSKU" class="nested0">
 
-GetLowestPricedOffersForSKU
-===========================
+# GetLowestPricedOffersForSKU
 
 <div class="body">
 
@@ -54,8 +53,7 @@ based on <span class="keyword parmname">SellerSKU</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -142,8 +140,7 @@ class="keyword apiname">GetLowestPricedOffersForSKU</span> quota.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -165,33 +162,33 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d242888e241" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d242888e244" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d242888e247" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d242888e250" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceID</span></td>
-<td>A marketplace identifier. Specifies the marketplace from which prices are returned.</td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e241 "><span class="keyword parmname">MarketplaceID</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e244 ">A marketplace identifier. Specifies the marketplace from which prices are returned.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e247 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e250 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKU</span></td>
-<td>The <span class="keyword parmname">SellerSKU</span> that identifies the product to query.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e241 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e244 ">The <span class="keyword parmname">SellerSKU</span> that identifies the product to query.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e247 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e250 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>Filters the results based on item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e241 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e244 ">Filters the results based on item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e247 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e250 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -222,8 +219,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -268,39 +264,39 @@ are:
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d242888e612" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d242888e615" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d242888e618" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d242888e621" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e612 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e615 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e618 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e621 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SKU</span></td>
-<td>The product queried.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e612 "><span class="keyword parmname">SKU</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e615 ">The product queried.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e618 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e621 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e612 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e615 ">The item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e618 ">Yes</td>
+<td id="ResponseElements__d50849e1535" class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e621 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Status</span></td>
-<td>The status of the operation.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e612 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e615 ">The status of the operation.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e618 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e621 "><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -332,8 +328,7 @@ the operation with one of the following values:
 
 <div id="Identifier" class="topic reference nested1">
 
-Identifier
-----------
+## Identifier
 
 <div class="body refbody">
 
@@ -353,39 +348,39 @@ and SKU.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d242888e815" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d242888e818" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d242888e821" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d242888e824" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e815 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e818 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e821 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e824 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKU</span></td>
-<td><span class="ph">The Seller SKU of the item.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e815 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e818 "><span class="ph">The Seller SKU of the item.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e821 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e824 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e815 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e818 ">The item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e821 ">Yes</td>
+<td id="Identifier__d50849e1535" class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e824 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">TimeOfOfferChange</span></td>
-<td>The update time for the offer.</td>
-<td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d242888e815 "><span class="keyword parmname">TimeOfOfferChange</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d242888e818 ">The update time for the offer.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d242888e821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d242888e824 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -401,8 +396,7 @@ and SKU.</span>
 
 <div id="Summary" class="topic reference nested1">
 
-Summary
--------
+## Summary
 
 <div class="body refbody">
 
@@ -442,8 +436,7 @@ class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span>
 
 <div id="Offers" class="topic reference nested1">
 
-Offers
-------
+## Offers
 
 <div class="body refbody">
 
@@ -495,8 +488,7 @@ or 20, whichever is less.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -514,23 +506,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    &SellerSKU=24478624
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action= GetLowestPricedOffersForSKU
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &ItemCondition=New
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2015-05-22T21%3A23%3A31Z
-    &Version=2011-10-01
-    &Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+&SellerSKU=24478624
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action= GetLowestPricedOffersForSKU
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&ItemCondition=New
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2015-05-22T21%3A23%3A31Z
+&Version=2011-10-01
+&Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -551,78 +545,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetLowestPricedOffersForSKUResponse 
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
-            SKU="GE Product" ItemCondition="New" status="Success">
-            <Identifier>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <SellerSKU>GE Product</SellerSKU>
-                <ItemCondition>New</ItemCondition>
-                <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>1</TotalOfferCount>
-                <NumberOfOffers>
-                    <OfferCount condition="new" 
-                        fulfillmentChannel="Amazon">1</OfferCount>
-                </NumberOfOffers>
-                <LowestPrices>
-                    <LowestPrice condition="new" fulfillmentChannel="Amazon">
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </Shipping>
-                    </LowestPrice>
-                </LowestPrices>
-                <BuyBoxPrices>
-                    <BuyBoxPrice condition="New">
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </Shipping>
-                    </BuyBoxPrice>
-                </BuyBoxPrices>
-                <ListPrice>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>58.34</Amount>
-                </ListPrice>
-                <SuggestedLowerPricePlusShipping>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>32.99</Amount>
-                </SuggestedLowerPricePlusShipping>
-                <BuyBoxEligibleOffers>
-                    <OfferCount condition="new" 
-                        fulfillmentChannel="Amazon">1</OfferCount>
-                </BuyBoxEligibleOffers>
-            </Summary>
-            <Offers>
-                <Offer>
-                    <MyOffer>false</MyOffer>
-                    <SubCondition>new</SubCondition>
-                    <SellerFeedbackRating>
-                        <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
-                        <FeedbackCount>1</FeedbackCount>
-                    </SellerFeedbackRating>
-                    <ShippingTime minimumHours="0" maximumHours="0" 
-                        availabilityType="NOW"/>
+``` pre
+<?xml version="1.0"?>
+<GetLowestPricedOffersForSKUResponse 
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
+        SKU="GE Product" ItemCondition="New" status="Success">
+        <Identifier>
+            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+            <SellerSKU>GE Product</SellerSKU>
+            <ItemCondition>New</ItemCondition>
+            <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>1</TotalOfferCount>
+            <NumberOfOffers>
+                <OfferCount condition="new" 
+                    fulfillmentChannel="Amazon">1</OfferCount>
+            </NumberOfOffers>
+            <LowestPrices>
+                <LowestPrice condition="new" fulfillmentChannel="Amazon">
+                    <LandedPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </LandedPrice>
                     <ListingPrice>
                         <CurrencyCode>USD</CurrencyCode>
                         <Amount>32.99</Amount>
@@ -631,16 +577,66 @@ code</span> </span>
                         <CurrencyCode>USD</CurrencyCode>
                         <Amount>0.00</Amount>
                     </Shipping>
-                    <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
-                    <IsBuyBoxWinner>true</IsBuyBoxWinner>
-                    <IsFeaturedMerchant>true</IsFeaturedMerchant>
-                </Offer>
-            </Offers>
-        </GetLowestPricedOffersForSKUResult>
-        <ResponseMetadata>
-            <RequestId>fd2e6c6d-0b6d-499b-9fea-074175c0547a</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForSKUResponse>
+                </LowestPrice>
+            </LowestPrices>
+            <BuyBoxPrices>
+                <BuyBoxPrice condition="New">
+                    <LandedPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </LandedPrice>
+                    <ListingPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </ListingPrice>
+                    <Shipping>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.00</Amount>
+                    </Shipping>
+                </BuyBoxPrice>
+            </BuyBoxPrices>
+            <ListPrice>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>58.34</Amount>
+            </ListPrice>
+            <SuggestedLowerPricePlusShipping>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>32.99</Amount>
+            </SuggestedLowerPricePlusShipping>
+            <BuyBoxEligibleOffers>
+                <OfferCount condition="new" 
+                    fulfillmentChannel="Amazon">1</OfferCount>
+            </BuyBoxEligibleOffers>
+        </Summary>
+        <Offers>
+            <Offer>
+                <MyOffer>false</MyOffer>
+                <SubCondition>new</SubCondition>
+                <SellerFeedbackRating>
+                    <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
+                    <FeedbackCount>1</FeedbackCount>
+                </SellerFeedbackRating>
+                <ShippingTime minimumHours="0" maximumHours="0" 
+                    availabilityType="NOW"/>
+                <ListingPrice>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>32.99</Amount>
+                </ListingPrice>
+                <Shipping>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>0.00</Amount>
+                </Shipping>
+                <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
+                <IsBuyBoxWinner>true</IsBuyBoxWinner>
+                <IsFeaturedMerchant>true</IsFeaturedMerchant>
+            </Offer>
+        </Offers>
+    </GetLowestPricedOffersForSKUResult>
+    <ResponseMetadata>
+        <RequestId>fd2e6c6d-0b6d-499b-9fea-074175c0547a</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -661,25 +657,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetLowestPricedOffersForSKUResponse 
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
-            SKU="0I-RIAS-6UA0" ItemCondition="new" status="NoBuyableOffers">
-            <Identifier>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <SellerSKU>0I-RIAS-6UA0</SellerSKU>
-                <ItemCondition>New</ItemCondition>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>0</TotalOfferCount>
-            </Summary>
-            <Offers/>
-        </GetLowestPricedOffersForSKUResult>
-        <ResponseMetadata>
-            <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForSKUResponse>
+``` pre
+<?xml version="1.0"?>
+<GetLowestPricedOffersForSKUResponse 
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" 
+        SKU="0I-RIAS-6UA0" ItemCondition="new" status="NoBuyableOffers">
+        <Identifier>
+            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+            <SellerSKU>0I-RIAS-6UA0</SellerSKU>
+            <ItemCondition>New</ItemCondition>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>0</TotalOfferCount>
+        </Summary>
+        <Offers/>
+    </GetLowestPricedOffersForSKUResult>
+    <ResponseMetadata>
+        <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -700,25 +698,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <GetLowestPricedOffersForSKUResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" SKU="0I-RIAS-6UA0"
-        ItemCondition="new" status="NoOfferDueToMissingShippingCharge">
-        <Identifier>
-          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-          <SellerSKU>0I-RIAS-6UA0</SellerSKU>
-          <ItemCondition>New</ItemCondition>
-        </Identifier>
-        <Summary>
-          <TotalOfferCount>0</TotalOfferCount>
-        </Summary>
-        <Offers/>
-      </GetLowestPricedOffersForSKUResult>
-      <ResponseMetadata>
-        <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
-      </ResponseMetadata>
-    </GetLowestPricedOffersForSKUResponse>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<GetLowestPricedOffersForSKUResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetLowestPricedOffersForSKUResult MarketplaceID="ATVPDKIKX0DER" SKU="0I-RIAS-6UA0"
+    ItemCondition="new" status="NoOfferDueToMissingShippingCharge">
+    <Identifier>
+      <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+      <SellerSKU>0I-RIAS-6UA0</SellerSKU>
+      <ItemCondition>New</ItemCondition>
+    </Identifier>
+    <Summary>
+      <TotalOfferCount>0</TotalOfferCount>
+    </Summary>
+    <Offers/>
+  </GetLowestPricedOffersForSKUResult>
+  <ResponseMetadata>
+    <RequestId>75621aa7-9c8b-40be-9bf9-3ac1efdcdb87</RequestId>
+  </ResponseMetadata>
+</GetLowestPricedOffersForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -739,24 +739,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetLowestPricedOffersForSKUResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForSKUResult MarketplaceID="A2EUQ1WTGCTBG2" SKU="ACA-8039-6PK-DL57" ItemCondition="New" status="ActiveButTooSoonForProcessing">
-            <Identifier>
-                <MarketplaceId>A2EUQ1WTGCTBG2</MarketplaceId>
-                <SellerSKU>ACA-8039-6PK-DL57</SellerSKU>
-                <ItemCondition>New</ItemCondition>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>0</TotalOfferCount>
-                <OffersAvailableTime>2017-03-08T07:13:21.763Z</OffersAvailableTime>
-            </Summary>
-            <Offers/>
-        </GetLowestPricedOffersForSKUResult>
-        <ResponseMetadata>
-            <RequestId>1212334</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForSKUResponse>
+``` pre
+<?xml version="1.0"?>
+<GetLowestPricedOffersForSKUResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForSKUResult MarketplaceID="A2EUQ1WTGCTBG2" SKU="ACA-8039-6PK-DL57" ItemCondition="New" status="ActiveButTooSoonForProcessing">
+        <Identifier>
+            <MarketplaceId>A2EUQ1WTGCTBG2</MarketplaceId>
+            <SellerSKU>ACA-8039-6PK-DL57</SellerSKU>
+            <ItemCondition>New</ItemCondition>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>0</TotalOfferCount>
+            <OffersAvailableTime>2017-03-08T07:13:21.763Z</OffersAvailableTime>
+        </Summary>
+        <Offers/>
+    </GetLowestPricedOffersForSKUResult>
+    <ResponseMetadata>
+        <RequestId>1212334</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -777,18 +779,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <Error MarketplaceID="ATVPDKIKX0DER" SKU="24478624" ItemCondition="New" 
-        status="ServerError">
-        <Type>Receiver</Type>
-        <Message>Server Error. Try back later</Message>
-        <Detail/>
-      </Error>
-      <ResponseMetadata>
-        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-      </ResponseMetadata>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <Error MarketplaceID="ATVPDKIKX0DER" SKU="24478624" ItemCondition="New" 
+    status="ServerError">
+    <Type>Receiver</Type>
+    <Message>Server Error. Try back later</Message>
+    <Detail/>
+  </Error>
+  <ResponseMetadata>
+    <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+  </ResponseMetadata>
+</ErrorResponse>
+
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -809,18 +814,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <Error MarketplaceID="ATVPDKIKX0DER" SKU="asdgv" ItemCondition="new" 
-            status="ClientError">
-            <Code>InvalidParameterValue</Code>
-            <Type>Sender</Type>
-            <Message>asdgv is an invalid SKU for marketplace ATVPDKIKX0DER</Message>
-        </Error>
-        <ResponseMetadata>
-            <RequestId>1714394f-07a3-4bc4-8072-53abf8c3759a</RequestId>
-        </ResponseMetadata>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <Error MarketplaceID="ATVPDKIKX0DER" SKU="asdgv" ItemCondition="new" 
+        status="ClientError">
+        <Code>InvalidParameterValue</Code>
+        <Type>Sender</Type>
+        <Message>asdgv is an invalid SKU for marketplace ATVPDKIKX0DER</Message>
+    </Error>
+    <ResponseMetadata>
+        <RequestId>1714394f-07a3-4bc4-8072-53abf8c3759a</RequestId>
+    </ResponseMetadata>
+</ErrorResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -834,8 +841,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

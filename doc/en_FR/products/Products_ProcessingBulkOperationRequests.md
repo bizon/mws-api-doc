@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_BulkProcessing" class="nested0">
 
-Processing bulk operation requests
-==================================
+# Processing bulk operation requests
 
 <div class="body">
 
@@ -82,20 +81,22 @@ three ASINs in a query request:
 
 <div class="p">
 
-    https://mws.amazonservices.com/Products/2011-10-01
-    ?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
-    &Action=GetMatchingProduct
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &SellerId=A2NK2PX936TF53
-    &SignatureVersion=2
-    &Timestamp=2012-02-07T01%3A22%3A39Z
-    &Version=2011-10-01
-    &Signature=MhSREjubAxTGSldGGWROxk4qvi3sawX1inVGF%2FepJOI%3D
-    &SignatureMethod=HmacSHA256
-    &MarketplaceId=ATVPDKIKX0DER
-    &ASINList.ASIN.1=B002KT3XRQ
-    &ASINList.ASIN.2=B002KT3XQC
-    &ASINList.ASIN.3=B002KT3XQM
+``` pre
+https://mws.amazonservices.com/Products/2011-10-01
+?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
+&Action=GetMatchingProduct
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&SellerId=A2NK2PX936TF53
+&SignatureVersion=2
+&Timestamp=2012-02-07T01%3A22%3A39Z
+&Version=2011-10-01
+&Signature=MhSREjubAxTGSldGGWROxk4qvi3sawX1inVGF%2FepJOI%3D
+&SignatureMethod=HmacSHA256
+&MarketplaceId=ATVPDKIKX0DER
+&ASINList.ASIN.1=B002KT3XRQ
+&ASINList.ASIN.2=B002KT3XQC
+&ASINList.ASIN.3=B002KT3XQM
+```
 
 </div>
 
@@ -136,8 +137,7 @@ throughout this document.
 
 <div class="section">
 
-Response elements in bulk operations
-------------------------------------
+## Response elements in bulk operations
 
 <div class="tablenoborder">
 
@@ -146,20 +146,20 @@ Response elements in bulk operations
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d258556e233" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d258556e236" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">OperationNameResult</span></td>
-<td>An element that is returned for each product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>) that is specified in the request. For example, if you submit the <span class="keyword apiname">GetLowestOfferListingsForSKU</span> operation, this element will be named <span class="keyword parmname">GetLowestOfferListingsForSKUResult.</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">OperationNameResult</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 ">An element that is returned for each product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>) that is specified in the request. For example, if you submit the <span class="keyword apiname">GetLowestOfferListingsForSKU</span> operation, this element will be named <span class="keyword parmname">GetLowestOfferListingsForSKUResult.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Status</span></td>
-<td>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates whether or not data could be returned for the specified product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>).
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 ">An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates whether or not data could be returned for the specified product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>).
 <p>Valid values:</p>
 <ul>
 <li><var class="keyword varname">Success</var> - Request succeeded.</li>
@@ -167,41 +167,41 @@ Response elements in bulk operations
 <li><var class="keyword varname">ServerError</var> - Request failed. The problem was with the web service.</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ASIN</span></td>
-<td><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">ASIN</span> that was specified in the request.</p>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">ASIN</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">ASIN</span> as input.</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKU</span></td>
-<td><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">SellerSKU</span> that was specified in the request.</p>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">SellerSKU</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">SellerSKU</span> as input.</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">IdType</span></td>
-<td><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">IdType</span> that was specified in the request.</p>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">IdType</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">IdType</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">IdType</span> as input.</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Id</span></td>
-<td><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">Id</span> that was specified in the request.</p>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Id</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">Id</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">Id</span> as input.</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Error</span></td>
-<td><p>The parent element of the following child elements: <span class="keyword parmname">Type</span>, <span class="keyword parmname">Code</span>, <span class="keyword parmname">Message</span>.</p>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Error</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>The parent element of the following child elements: <span class="keyword parmname">Type</span>, <span class="keyword parmname">Code</span>, <span class="keyword parmname">Message</span>.</p>
 <p>This element is returned only if <span class="keyword parmname">status</span>=<var class="keyword varname">ClientError</var> OR <span class="keyword parmname">status</span>=<var class="keyword varname">ServerError</var>.</p>
 <p>Optional.</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Code</span></td>
-<td><p>The type of error that resulted in a failed response.</p>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Code</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>The type of error that resulted in a failed response.</p>
 <p>Example: <var class="keyword varname">InternalError</var></p>
 <p>Optional.</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Type</span></td>
-<td><p>Indicates whether the error was a result of a problem in the request or with the web service.</p>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Type</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>Indicates whether the error was a result of a problem in the request or with the web service.</p>
 <div class="p">
 Valid values:
 <ul>
@@ -211,15 +211,15 @@ Valid values:
 </div>
 <p>Optional.</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Message</span></td>
-<td><p>Contains a message that provides more information about the error.</p>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>Contains a message that provides more information about the error.</p>
 <p>Example: <var class="keyword varname">SellerSKU1 is an invalid SellerSKU for marketplace                                             ATVPDKIKX0DER.</var></p>
 <p>Optional.</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Detail</span></td>
-<td><p>Contains any additional details, if applicable.</p>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e233 "><span class="keyword parmname">Detail</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d258556e236 "><p>Contains any additional details, if applicable.</p>
 <p>Optional.</p></td>
 </tr>
 </tbody>
@@ -231,26 +231,27 @@ Valid values:
 
 <div class="section">
 
-Example response
-----------------
+## Example response
 
-    <?xml version="1.0"?>
-    <OperationNameResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <OperationNameResult ASIN=”B002KT3XQM” status=”Success”>
-      <!—Successful response goes here-->
-    </OperationNameResult>
-    <OperationNameResult ASIN=”B000O15GSG” status=”ClientError”>
-      <Error>
-        <Code>InvalidParameterValue</Code>
-        <Type>Sender</Type>
-        <Message>B000O15GSG is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
-        <Detail/>
-      </Error>
-    </OperationNameResult>
-    <ResponseMetadata>
-      <RequestId>454d8b3c-5514-4919-b5ca-6a08fb974272</RequestId>
-    </ResponseMetadata>
-    </OperationNameResponse>
+``` pre
+<?xml version="1.0"?>
+<OperationNameResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+<OperationNameResult ASIN=”B002KT3XQM” status=”Success”>
+  <!—Successful response goes here-->
+</OperationNameResult>
+<OperationNameResult ASIN=”B000O15GSG” status=”ClientError”>
+  <Error>
+    <Code>InvalidParameterValue</Code>
+    <Type>Sender</Type>
+    <Message>B000O15GSG is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
+    <Detail/>
+  </Error>
+</OperationNameResult>
+<ResponseMetadata>
+  <RequestId>454d8b3c-5514-4919-b5ca-6a08fb974272</RequestId>
+</ResponseMetadata>
+</OperationNameResponse>
+```
 
 </div>
 

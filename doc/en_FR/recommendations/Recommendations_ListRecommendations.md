@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Recommendations_ListRecommendations" class="nested0">
 
-ListRecommendations
-===================
+# ListRecommendations
 
 <span class="ph">Returns your active recommendations for a specific
 category or for all categories for a specific marketplace.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -111,8 +109,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -134,28 +131,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d270934e161" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d270934e164" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d270934e167" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d270934e170" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The marketplace identifier for the marketplace from which you want to retrieve recommendations.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that the seller is registered in.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e161 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e164 ">The marketplace identifier for the marketplace from which you want to retrieve recommendations.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d270934e167 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e170 ">Any valid <span class="keyword parmname">MarketplaceId</span> that the seller is registered in.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">RecommendationCategory</span></td>
-<td>Specifies a category for the recommendations to retrieve.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e161 "><span class="keyword parmname">RecommendationCategory</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e164 ">Specifies a category for the recommendations to retrieve.
 <p>To retrieve all recommendations, do not specify a value for this parameter.</p></td>
-<td>No</td>
-<td><span class="keyword parmname">RecommendationCategory</span> values:
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d270934e167 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e170 "><span class="keyword parmname">RecommendationCategory</span> values:
 <ul>
 <li><var class="keyword varname">Inventory</var></li>
 <li><var class="keyword varname">Selection</var></li>
@@ -168,11 +165,11 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>To retrieve all recommendations, do not specify a value for this parameter.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">CategoryQueryList</span></td>
-<td>A list of category-specific filters that you can specify to narrow down the types of recommendations returned for each category.</td>
-<td>No</td>
-<td>Type: List of <a href="Recommendations_Datatypes.md#CategoryQuery" class="xref" title="A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.">CategoryQuery</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e161 "><span class="keyword parmname">CategoryQueryList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e164 ">A list of category-specific filters that you can specify to narrow down the types of recommendations returned for each category.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d270934e167 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270934e170 ">Type: List of <a href="Recommendations_Datatypes.md#CategoryQuery" class="xref" title="A category-specific filter that you can specify to narrow down the types of recommendations returned for each category.">CategoryQuery</a></td>
 </tr>
 </tbody>
 </table>
@@ -185,8 +182,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -197,50 +193,50 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d270934e318" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d270934e321" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListRecommendationsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more recommendations to return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListRecommendationsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more recommendations to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FulfillmentRecommendations</span></td>
-<td>A list of current fulfillment recommendations.
+<tr class="even row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">FulfillmentRecommendations</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A list of current fulfillment recommendations.
 <p>The list is empty if there are no current fulfillment recommendations or if fulfillment recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>. <span class="ph">This element is used in all marketplaces except Brazil.</span></p>
 <p>Optional</p>
 <p>Type: List of <a href="Recommendations_Datatypes.md#FulfillmentRecommendation" class="xref" title="A recommendation for the top products to fulfill through Fulfillment by Amazon (FBA). This datatype is used in all marketplaces except Brazil.">FulfillmentRecommendation</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">InventoryRecommendations</span></td>
-<td>A list of current inventory recommendations.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">InventoryRecommendations</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A list of current inventory recommendations.
 <p>The list is empty if there are no current inventory recommendations or if inventory recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
 <p>Type: List of <a href="Recommendations_Datatypes.md#InventoryRecommendation" class="xref" title="A recommendation for restocking low or out-of-stock items in your inventory.">InventoryRecommendation</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PricingRecommendations</span></td>
-<td>A list of current pricing recommendations.
+<tr class="even row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">PricingRecommendations</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A list of current pricing recommendations.
 <p>The list is empty if there are no current pricing recommendations or if pricing recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
 <p>Type: List of <a href="Recommendations_Datatypes.md#PricingRecommendation" class="xref" title="A recommendation to review pricing on items in your inventory where your offer is not the lowest price.">PricingRecommendation</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">GlobalSellingRecommendations</span></td>
-<td>A list of current global selling recommendations.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">GlobalSellingRecommendations</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A list of current global selling recommendations.
 <p>The list is empty if there are no current global selling recommendations or if global selling recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>.</p>
 <p>Optional</p>
 <p>Type: List of <a href="Recommendations_Datatypes.md#GlobalSellingRecommendation" class="xref" title="A recommendation for expanding your products to more regions and marketplaces.">GlobalSellingRecommendation</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AdvertisingRecommendations</span></td>
-<td>A list of current advertising recommendations.
+<tr class="even row">
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d270934e318 "><span class="keyword parmname">AdvertisingRecommendations</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d270934e321 ">A list of current advertising recommendations.
 <p>The list is empty if there are no current advertising recommendations or if advertising recommendations were not requested in the <span class="keyword parmname">RecommendationCategory</span>. <span class="ph">This element is used in all marketplaces except Brazil.</span></p>
 <p>Optional</p>
 <p>Type: List of <a href="Recommendations_Datatypes.md#AdvertisingRecommendation" class="xref" title="A recommendation for advertising your products and for using the sponsored products program. This datatype is used in all marketplaces except Brazil.">AdvertisingRecommendation</a></p></td>
@@ -256,8 +252,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Example 1
----------
+## Example 1
 
 <div class="body refbody">
 
@@ -277,26 +272,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Recommendations/2013-04-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Recommendations/2013-04-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLESDX
-    &Action=ListRecommendations
-    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
-        QualitySet%3DDefect
-    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
-        ListingStatus%3DActive
-    &CategoryQueryList.CategoryQuery.1.RecommendationCategory=ListingQuality
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &RecommendationCategory=ListingQuality
-    &SellerId=A1XEXAMPLEDF
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2013-03-04T18%3A12%3A21.687Z
-    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+AWSAccessKeyId=0PB842EXAMPLESDX
+&Action=ListRecommendations
+&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
+    QualitySet%3DDefect
+&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
+    ListingStatus%3DActive
+&CategoryQueryList.CategoryQuery.1.RecommendationCategory=ListingQuality
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&RecommendationCategory=ListingQuality
+&SellerId=A1XEXAMPLEDF
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2013-03-04T18%3A12%3A21.687Z
+&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -317,13 +314,15 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
-        <ListRecommendationsResult> </ListRecommendationsResult>
-        <ResponseMetadata>
-            <RequestId>d0305dfc-b83e-11e2-8aeb-c93b3EXAMPLE</RequestId>
-        </ResponseMetadata>
-    </ListRecommendationsResponse>
+``` pre
+<?xml version="1.0"?>
+<ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
+    <ListRecommendationsResult> </ListRecommendationsResult>
+    <ResponseMetadata>
+        <RequestId>d0305dfc-b83e-11e2-8aeb-c93b3EXAMPLE</RequestId>
+    </ResponseMetadata>
+</ListRecommendationsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -337,8 +336,7 @@ code</span> </span>
 
 <div id="reference_el5_zxr_lp" class="topic reference nested1">
 
-Example 2
----------
+## Example 2
 
 <div class="body refbody">
 
@@ -358,28 +356,30 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    CDATA[POST /Recommendations/2013-04-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+CDATA[POST /Recommendations/2013-04-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLESDX
-    &Action=ListRecommendations
-    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
-        BrandName%3DDEWALT
-    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
-        ProductCategory%3DHome%20Improvement
-    &CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.3=
-        IncludeCommonRecommendations%3Dtrue
-    &CategoryQueryList.CategoryQuery.1.RecommendationCategory=Selection
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &RecommendationCategory=Selection
-    &SellerId=A1XEXAMPLEDF
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2013-03-04T18%3A12%3A21.687Z
-    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+AWSAccessKeyId=0PB842EXAMPLESDX
+&Action=ListRecommendations
+&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.1=
+    BrandName%3DDEWALT
+&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.2=
+    ProductCategory%3DHome%20Improvement
+&CategoryQueryList.CategoryQuery.1.FilterOptions.FilterOption.3=
+    IncludeCommonRecommendations%3Dtrue
+&CategoryQueryList.CategoryQuery.1.RecommendationCategory=Selection
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&RecommendationCategory=Selection
+&SellerId=A1XEXAMPLEDF
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2013-03-04T18%3A12%3A21.687Z
+&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -400,14 +400,16 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
-        <ListRecommendationsResult>
-            <NextToken>SAMPLE-TOKENE</NextToken>
-        </ListRecommendationsResult>
-        <ResponseMetadata>
-            <RequestId>45f1ba88-862f-SAMPLE-ce318b534859</RequestId>
-        </ResponseMetadata>
-    </ListRecommendationsResponse>
+``` pre
+<ListRecommendationsResponse xmlns="https://mws.amazonservices.com/Recommendations/2013-04-01">
+    <ListRecommendationsResult>
+        <NextToken>SAMPLE-TOKENE</NextToken>
+    </ListRecommendationsResult>
+    <ResponseMetadata>
+        <RequestId>45f1ba88-862f-SAMPLE-ce318b534859</RequestId>
+    </ResponseMetadata>
+</ListRecommendationsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -421,8 +423,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

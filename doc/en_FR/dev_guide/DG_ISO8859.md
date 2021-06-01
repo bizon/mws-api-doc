@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO8859" class="nested0">
 
-ISO 8859-1 use in <span class="ph">Amazon MWS</span>
-====================================================
+# ISO 8859-1 use in <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -54,8 +53,7 @@ class="ph">Amazon MWS</span>.
 
 <div class="section">
 
-ISO/IEC 8859-1
---------------
+## ISO/IEC 8859-1
 
 *ISO/IEC 8859-1:1998, Information technology — 8-bit single-byte coded
 graphic character sets — Part 1: Latin alphabet No. 1*, is part of the
@@ -81,8 +79,7 @@ conform to ISO 8859-1 when using <span class="ph">Amazon MWS</span>.
 
 <div id="DG_ISO8859__8859References" class="section">
 
-References
-----------
+## References
 
 -   <a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-1" class="xref">ISO/IEC 8859-1</a>
 -   <a href="http://www.iso.org/iso/catalogue_detail?csnumber=28245" class="xref">ISO/IEC 8859-1:1998 Information technology - 8-bit single-byte coded graphic character sets - Part 1: Latin alphabet No. 1</a>

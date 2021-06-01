@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_ReportType" class="nested0">
 
-Schedule enumeration
-====================
+# Schedule enumeration
 
 <div class="body">
 
@@ -53,8 +52,7 @@ An enumeration of the units of time that reports can be requested.
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -71,8 +69,7 @@ often a report request is submitted.
 
 <div id="Schedule_Enumeration" class="topic reference nested1">
 
-Schedule Enumeration
---------------------
+## Schedule Enumeration
 
 <div class="body refbody">
 
@@ -82,20 +79,20 @@ Schedule Enumeration
 
 | Schedule Description                                | Enumeration Value |
 |-----------------------------------------------------|-------------------|
-| Every 15 minutes                                    | \_15\_MINUTES\_   |
-| Every 30 minutes                                    | \_30\_MINUTES\_   |
-| Every hour                                          | \_1\_HOUR\_       |
-| Every 2 hours                                       | \_2\_HOURS\_      |
-| Every 4 hours                                       | \_4\_HOURS\_      |
-| Every 8 hours                                       | \_8\_HOURS\_      |
-| Every 12 hours                                      | \_12\_HOURS\_     |
-| Every day                                           | \_1\_DAY\_        |
-| Every 2 days                                        | \_2\_DAYS\_       |
-| Every 3 days                                        | \_72\_HOURS\_     |
-| Every week                                          | \_1\_WEEK\_       |
-| Every 14 days                                       | \_14\_DAYS\_      |
-| Every 15 days                                       | \_15\_DAYS\_      |
-| Every 30 days                                       | \_30\_DAYS\_      |
+| Every 15 minutes                                    | \_15_MINUTES\_    |
+| Every 30 minutes                                    | \_30_MINUTES\_    |
+| Every hour                                          | \_1_HOUR\_        |
+| Every 2 hours                                       | \_2_HOURS\_       |
+| Every 4 hours                                       | \_4_HOURS\_       |
+| Every 8 hours                                       | \_8_HOURS\_       |
+| Every 12 hours                                      | \_12_HOURS\_      |
+| Every day                                           | \_1_DAY\_         |
+| Every 2 days                                        | \_2_DAYS\_        |
+| Every 3 days                                        | \_72_HOURS\_      |
+| Every week                                          | \_1_WEEK\_        |
+| Every 14 days                                       | \_14_DAYS\_       |
+| Every 15 days                                       | \_15_DAYS\_       |
+| Every 30 days                                       | \_30_DAYS\_       |
 | Delete a previously created report request schedule | \_NEVER\_         |
 
 </div>
@@ -108,8 +105,7 @@ Schedule Enumeration
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

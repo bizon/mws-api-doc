@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Shipping label specifications
-=============================
+# Shipping label specifications
 
 <div class="body conbody">
 
@@ -119,8 +118,7 @@ include the following information:
 
 <div class="section">
 
-Shipping label example
-----------------------
+## Shipping label example
 
 <img src="ShippingLabel.png" class="image" alt="Shipping label" />
 
@@ -128,8 +126,7 @@ Shipping label example
 
 <div class="section">
 
-Shipping label print specifications
------------------------------------
+## Shipping label print specifications
 
 <div class="tablenoborder">
 
@@ -146,8 +143,7 @@ Shipping label print specifications
 
 <div class="section">
 
-Shipping label barcode specifications
--------------------------------------
+## Shipping label barcode specifications
 
 <div class="tablenoborder">
 

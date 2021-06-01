@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Fulfilling <span class="ph">Multi-Channel Fulfillment</span> orders
-===================================================================
+# Fulfilling <span class="ph">Multi-Channel Fulfillment</span> orders
 
 <div class="body conbody">
 

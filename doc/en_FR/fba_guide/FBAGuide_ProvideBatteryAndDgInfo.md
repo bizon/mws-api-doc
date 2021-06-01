@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_ProvideBatteryAndDgInfo" class="nested0">
 
-Provide battery and dangerous goods information
-===============================================
+# Provide battery and dangerous goods information
 
 <div class="body">
 

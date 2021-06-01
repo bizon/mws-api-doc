@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_CreateInboundShipmentPlan" class="nested0">
 
-CreateInboundShipmentPlan
-=========================
+# CreateInboundShipmentPlan
 
 <div class="body">
 
@@ -54,8 +53,7 @@ shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -129,8 +127,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -152,27 +149,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d35601e188" class="entry" data-valign="top" width="27.254901960784313%">Name</th>
+<th id="d35601e191" class="entry" data-valign="top" width="19.607843137254903%">Description</th>
+<th id="d35601e194" class="entry" data-valign="top" width="25.490196078431378%">Required</th>
+<th id="d35601e197" class="entry" data-valign="top" width="27.647058823529413%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipFromAddress</span></td>
-<td>The address from which you will send your inbound shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35601e188 "><span class="keyword parmname">ShipFromAddress</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35601e191 ">The address from which you will send your inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35601e194 ">Yes</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35601e197 ">Type: <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipToCountryCode</span></td>
-<td>The two-character country code for the country where you want your inbound shipment to be sent.
+<tr class="even row">
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35601e188 "><span class="keyword parmname">ShipToCountryCode</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35601e191 ">The two-character country code for the country where you want your inbound shipment to be sent.
 <p>Only for sellers in North America and <span class="ph">Multi-Country Inventory</span> (MCI) sellers in Europe.</p></td>
-<td>No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
-<td><span class="keyword parmname">ShipToCountryCode</span> values for North America:
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35601e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35601e197 "><span class="keyword parmname">ShipToCountryCode</span> values for North America:
 <ul>
 <li><var class="keyword varname">CA</var> – Canada</li>
 <li><var class="keyword varname">MX</var> – Mexico</li>
@@ -188,19 +185,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </ul>
 <p>Default: The country code for your home marketplace.</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
-<td>The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, "IN-MH". In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35601e188 "><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35601e191 ">The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, "IN-MH". In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
 <p>Only for sellers in India.</p></td>
-<td>No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
-<td>See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35601e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35601e197 ">See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
 <p>If neither <span class="keyword parmname">ShipToCountrySubdivisionCode</span> nor <span class="keyword parmname">ShipToCountryCode</span> is specified, the shipment goes to the seller's home marketplace.</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">LabelPrepPreference</span></td>
-<td>Your preference for label preparation for an inbound shipment.</td>
-<td>No</td>
-<td><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35601e188 "><span class="keyword parmname">LabelPrepPreference</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35601e191 ">Your preference for label preparation for an inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35601e194 ">No</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35601e197 "><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
 <ul>
 <li><var class="keyword varname">SELLER_LABEL</var> - Seller labels the items in the inbound shipment when labels are required.</li>
 <li><var class="keyword varname">AMAZON_LABEL_ONLY</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
@@ -212,11 +209,11 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Default: <var class="keyword varname">SELLER_LABEL</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">InboundShipmentPlanRequestItems</span></td>
-<td>SKU and quantity information for the items in an inbound shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35601e188 "><span class="keyword parmname">InboundShipmentPlanRequestItems</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35601e191 ">SKU and quantity information for the items in an inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35601e194 ">Yes</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35601e197 ">Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
 </tr>
 </tbody>
 </table>
@@ -229,8 +226,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -241,16 +237,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d35601e491" class="entry" data-valign="top" width="26.525198938992045%">Name</th>
+<th id="d35601e494" class="entry" data-valign="top" width="73.47480106100795%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">InboundShipmentPlans</span></td>
-<td>Inbound shipment information used to create an inbound shipment.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="26.525198938992045%" headers="d35601e491 "><span class="keyword parmname">InboundShipmentPlans</span></td>
+<td class="entry" data-valign="top" width="73.47480106100795%" headers="d35601e494 ">Inbound shipment information used to create an inbound shipment.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlan" class="xref" title="Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlan</a></p></td>
 </tr>
 </tbody>
@@ -264,8 +260,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -292,26 +287,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-    ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-    &Action=CreateInboundShipmentPlan
-    &SellerId=A135KKEKWF1J56
-    &SignatureVersion=2
-    &Timestamp=2015-11-29T22%3A36%3A53Z
-    &Version=2010-10-01
-    &Signature=wMAeU2CEHdRCPh%2Fg7lQC7HkgRjxZlLxtbbDvFDHzdOE%3D
-    &SignatureMethod=HmacSHA256
-    &LabelPrepPreference=SELLER_LABEL
-    &ShipFromAddress.Name=test1
-    &ShipFromAddress.AddressLine1=LINE_1
-    &ShipFromAddress.City=Seattle
-    &ShipFromAddress.StateOrProvinceCode=WA
-    &ShipFromAddress.PostalCode=98121
-    &ShipFromAddress.CountryCode=US
-    &InboundShipmentPlanRequestItems.member.1.SellerSKU=SKU00001
-    &InboundShipmentPlanRequestItems.member.1.Quantity=1
-    &InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping
-    &InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
+``` pre
+https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+&Action=CreateInboundShipmentPlan
+&SellerId=A135KKEKWF1J56
+&SignatureVersion=2
+&Timestamp=2015-11-29T22%3A36%3A53Z
+&Version=2010-10-01
+&Signature=wMAeU2CEHdRCPh%2Fg7lQC7HkgRjxZlLxtbbDvFDHzdOE%3D
+&SignatureMethod=HmacSHA256
+&LabelPrepPreference=SELLER_LABEL
+&ShipFromAddress.Name=test1
+&ShipFromAddress.AddressLine1=LINE_1
+&ShipFromAddress.City=Seattle
+&ShipFromAddress.StateOrProvinceCode=WA
+&ShipFromAddress.PostalCode=98121
+&ShipFromAddress.CountryCode=US
+&InboundShipmentPlanRequestItems.member.1.SellerSKU=SKU00001
+&InboundShipmentPlanRequestItems.member.1.Quantity=1
+&InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping
+&InboundShipmentPlanRequestItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -332,54 +329,56 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CreateInboundShipmentPlanResponse
-      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-      <CreateInboundShipmentPlanResult>
-        <InboundShipmentPlans>
+``` pre
+<?xml version="1.0"?>
+<CreateInboundShipmentPlanResponse
+  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+  <CreateInboundShipmentPlanResult>
+    <InboundShipmentPlans>
+      <member>
+        <DestinationFulfillmentCenterId>ABE2</DestinationFulfillmentCenterId>
+        <LabelPrepType>SELLER_LABEL</LabelPrepType>
+        <ShipToAddress>
+          <City>Breinigsville</City>
+          <CountryCode>US</CountryCode>
+          <PostalCode>18031</PostalCode>
+          <Name>Amazon.com</Name>
+          <AddressLine1>705 Boulder Drive</AddressLine1>
+          <StateOrProvinceCode>PA</StateOrProvinceCode>
+        </ShipToAddress>
+        <EstimatedBoxContentsFee>
+          <TotalUnits>10</TotalUnits>
+          <FeePerUnit>
+            <CurrencyCode>USD</CurrencyCode>
+            <Value>0.10</Value>
+          </FeePerUnit>
+          <TotalFee>
+            <CurrencyCode>USD</CurrencyCode>
+            <Value>10.0</Value>
+          </TotalFee>
+        </EstimatedBoxContentsFee>
+        <Items>
           <member>
-            <DestinationFulfillmentCenterId>ABE2</DestinationFulfillmentCenterId>
-            <LabelPrepType>SELLER_LABEL</LabelPrepType>
-            <ShipToAddress>
-              <City>Breinigsville</City>
-              <CountryCode>US</CountryCode>
-              <PostalCode>18031</PostalCode>
-              <Name>Amazon.com</Name>
-              <AddressLine1>705 Boulder Drive</AddressLine1>
-              <StateOrProvinceCode>PA</StateOrProvinceCode>
-            </ShipToAddress>
-            <EstimatedBoxContentsFee>
-              <TotalUnits>10</TotalUnits>
-              <FeePerUnit>
-                <CurrencyCode>USD</CurrencyCode>
-                <Value>0.10</Value>
-              </FeePerUnit>
-              <TotalFee>
-                <CurrencyCode>USD</CurrencyCode>
-                <Value>10.0</Value>
-              </TotalFee>
-            </EstimatedBoxContentsFee>
-            <Items>
-              <member>
-                <FulfillmentNetworkSKU>FNSKU00001</FulfillmentNetworkSKU>
-                <Quantity>1</Quantity>
-                <SellerSKU>SKU00001</SellerSKU>
-                <PrepDetailsList>
-                  <PrepDetails>
-                    <PrepInstruction>Taping</PrepInstruction>
-                    <PrepOwner>AMAZON</PrepOwner>
-                  </PrepDetails>
-                </PrepDetailsList>
-              </member>
-            </Items>
-            <ShipmentId>FBA0000001</ShipmentId>
+            <FulfillmentNetworkSKU>FNSKU00001</FulfillmentNetworkSKU>
+            <Quantity>1</Quantity>
+            <SellerSKU>SKU00001</SellerSKU>
+            <PrepDetailsList>
+              <PrepDetails>
+                <PrepInstruction>Taping</PrepInstruction>
+                <PrepOwner>AMAZON</PrepOwner>
+              </PrepDetails>
+            </PrepDetailsList>
           </member>
-        </InboundShipmentPlans>
-      </CreateInboundShipmentPlanResult>
-      <ResponseMetadata>
-        <RequestId>babd156d-8b2f-40b1-a770-d117f9ccafef</RequestId>
-      </ResponseMetadata>
-    </CreateInboundShipmentPlanResponse>
+        </Items>
+        <ShipmentId>FBA0000001</ShipmentId>
+      </member>
+    </InboundShipmentPlans>
+  </CreateInboundShipmentPlanResult>
+  <ResponseMetadata>
+    <RequestId>babd156d-8b2f-40b1-a770-d117f9ccafef</RequestId>
+  </ResponseMetadata>
+</CreateInboundShipmentPlanResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -393,8 +392,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

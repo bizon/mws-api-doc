@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Creating a Canonicalized Query String
-=====================================
+# Creating a Canonicalized Query String
 
 <div class="body">
 
@@ -118,10 +117,12 @@ To create the query string to be signed, do the following:
 5.  Create the string to sign according to the following pseudo-grammar
     (the "\\n" represents an ASCII newline).
 
-        StringToSign = HTTPVerb + "\n" +
-          ValueOfHostHeaderInLowercase + "\n" +
-          HTTPRequestURI + "\n" +
-          CanonicalizedQueryString <from the preceding step>
+    ``` pre
+    StringToSign = HTTPVerb + "\n" +
+      ValueOfHostHeaderInLowercase + "\n" +
+      HTTPRequestURI + "\n" +
+      CanonicalizedQueryString <from the preceding step>
+    ```
 
     The HTTPRequestURI component is the HTTP absolute path component of
     the URI up to, but not including, the query string. If the
@@ -131,10 +132,12 @@ The following example shows a query string for a <span
 class="keyword apiname">GetFeedSubmissionResult</span> request. Note
 that there are no spaces or line breaks in the sorted parameter string.
 
-    POST
-    mws.amazonservices.com
-    /Feeds/2009-01-01
-    AWSAccessKeyId=0PExampleR2&Action=GetFeedSubmissionResult&FeedSubmissionId=20Example76&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE&Marketplace=ATExampleER&SellerId=A1ExampleE6&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2009-02-04T17%3A44%3A33.500Z&Version=2009-01-01&Signature=CNExampleQ%3D
+``` pre
+POST
+mws.amazonservices.com
+/Feeds/2009-01-01
+AWSAccessKeyId=0PExampleR2&Action=GetFeedSubmissionResult&FeedSubmissionId=20Example76&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE&Marketplace=ATExampleER&SellerId=A1ExampleE6&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2009-02-04T17%3A44%3A33.500Z&Version=2009-01-01&Signature=CNExampleQ%3D
+```
 
 This is the string that you sign and then include in your query request.
 The steps that show how to sign the query request string are in the
@@ -144,8 +147,7 @@ section "Signing the query request."
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 11 - Mark your shipments as shipped
-========================================
+# Step 11 - Mark your shipments as shipped
 
 <div class="body conbody">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionList" class="nested0">
 
-GetFeedSubmissionList
-=====================
+# GetFeedSubmissionList
 
 <div class="body">
 
@@ -54,8 +53,7 @@ previous 90 days.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -113,8 +111,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -136,56 +133,56 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d127562e207" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
+<th id="d127562e210" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
+<th id="d127562e213" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
+<th id="d127562e216" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FeedSubmissionIdList</span></td>
-<td>A structured list of no more than 100 <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
-<td>No</td>
-<td>Default: All
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 ">A structured list of no more than 100 <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">MaxCount</span></td>
-<td>A non-negative integer that indicates the maximum number of feed submissions to return in the list. If you specify a number greater than 100, the request is rejected.</td>
-<td>No</td>
-<td>Default: 10
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">MaxCount</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 ">A non-negative integer that indicates the maximum number of feed submissions to return in the list. If you specify a number greater than 100, the request is rejected.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: 10
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">FeedTypeList</span></td>
-<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
-<td>No</td>
-<td>Default: All feed types
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">FeedTypeList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FeedProcessingStatusList</span></td>
-<td>A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
-<td>No</td>
-<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">FeedProcessingStatusList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 ">A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: 90 days ago
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: 90 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: Now
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e207 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e210 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e216 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -200,8 +197,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -214,36 +210,36 @@ Response elements
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d127562e430" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
+<th id="d127562e433" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
+<th id="d127562e436" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
+<th id="d127562e439" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e430 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e433 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
 <p><span class="ph">For information about standard request requirements, see <a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span></p>
 <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e439 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: 90 days ago
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e430 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e433 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e439 ">Default: 90 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: Now
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127562e430 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127562e433 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127562e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127562e439 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -258,8 +254,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -278,26 +273,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=GetFeedSubmissionList
-    &FeedProcessingStatusList.Status.1=_DONE_
-    &FeedSubmissionIdList.Id.1=1058369303
-    &FeedSubmissionIdList.Id.2=1228369302
-    &FeedTypeList.Type.1=_POST_PRODUCT_DATA_
-    &FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T15%3A51%3A49.015Z
-    &Version=2009-01-01
-    &Signature=BXExampleo%3D
+AWSAccessKeyId=0PExampleR2
+&Action=GetFeedSubmissionList
+&FeedProcessingStatusList.Status.1=_DONE_
+&FeedSubmissionIdList.Id.1=1058369303
+&FeedSubmissionIdList.Id.2=1228369302
+&FeedTypeList.Type.1=_POST_PRODUCT_DATA_
+&FeedTypeList.Type.2=_POST_PRODUCT_PRICING_DATA_
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T15%3A51%3A49.015Z
+&Version=2009-01-01
+&Signature=BXExampleo%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -322,23 +319,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetFeedSubmissionListResponse
-        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-        <GetFeedSubmissionListResult>
-            <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
-            <HasNext>true</HasNext>
-            <FeedSubmissionInfo>
-                <FeedSubmissionId>2291326430</FeedSubmissionId>
-                <FeedType>_POST_PRODUCT_DATA_</FeedType>
-                <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
-                <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
-            </FeedSubmissionInfo>
-        </GetFeedSubmissionListResult>
-        <ResponseMetadata>
-            <RequestId>1105b931-6f1c-4480-8e97-f3b467840a9e</RequestId>
-        </ResponseMetadata>
-    </GetFeedSubmissionListResponse>
+``` pre
+<?xml version="1.0"?>
+<GetFeedSubmissionListResponse
+    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+    <GetFeedSubmissionListResult>
+        <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
+        <HasNext>true</HasNext>
+        <FeedSubmissionInfo>
+            <FeedSubmissionId>2291326430</FeedSubmissionId>
+            <FeedType>_POST_PRODUCT_DATA_</FeedType>
+            <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
+            <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
+        </FeedSubmissionInfo>
+    </GetFeedSubmissionListResult>
+    <ResponseMetadata>
+        <RequestId>1105b931-6f1c-4480-8e97-f3b467840a9e</RequestId>
+    </ResponseMetadata>
+</GetFeedSubmissionListResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -352,8 +351,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

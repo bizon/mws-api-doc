@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInventory_ListInventorySupplyByNextToken" class="nested0">
 
-ListInventorySupplyByNextToken
-==============================
+# ListInventorySupplyByNextToken
 
 <div class="body">
 
@@ -55,8 +54,7 @@ class="keyword parmname">NextToken</span> parameter.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -98,8 +96,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -117,8 +114,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -129,22 +125,22 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d85740e214" class="entry" data-valign="top" width="22.421524663677133%">Name</th>
+<th id="d85740e217" class="entry" data-valign="top" width="77.57847533632287%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85740e214 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85740e217 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">InventorySupplyList</span></td>
-<td>A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.
+<tr class="even row">
+<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85740e214 "><span class="keyword parmname">InventorySupplyList</span></td>
+<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85740e217 ">A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.
 <p>Type: List of <a href="FBAInventory_Datatypes.md#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a></p></td>
 </tr>
 </tbody>
@@ -158,8 +154,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -177,17 +172,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
-      ?Action=ListInventorySupplyByNextToken
-      &Version=2010-10-01
-      &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
-      &Timestamp=2010-10-01T02:40:36Z
-      &SellerId=1234567890
-      &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
+``` pre
+http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
+  ?Action=ListInventorySupplyByNextToken
+  &Version=2010-10-01
+  &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
+  &Timestamp=2010-10-01T02:40:36Z
+  &SellerId=1234567890
+  &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -208,38 +205,40 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListInventorySupplyByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
-        <ListInventorySupplyByNextTokenResult>
-            <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
-            <InventorySupplyList>
-                <member>
-                    <SellerSKU>SampleSKU5</SellerSKU>
-                    <ASIN>B00008UI0R</ASIN>
-                    <TotalSupplyQuantity>0</TotalSupplyQuantity>
-                    <FNSKU>B00008UI0R</FNSKU>
-                    <Condition/>
-                    <SupplyDetail/>
-                    <InStockSupplyQuantity>0</InStockSupplyQuantity>
-                </member>
-                <member>
-                    <SellerSKU>SampleSKU6</SellerSKU>
-                    <ASIN>B00000K3CQ</ASIN>
-                    <TotalSupplyQuantity>5259</TotalSupplyQuantity>
-                    <FNSKU>X0000000FM</FNSKU>
-                    <Condition>NewItem</Condition>
-                    <SupplyDetail/>
-                    <InStockSupplyQuantity>5259</InStockSupplyQuantity>
-                    <EarliestAvailability>
-                        <TimepointType>Immediately</TimepointType>
-                    </EarliestAvailability>
-                </member>
-            </InventorySupplyList>
-        </ListInventorySupplyByNextTokenResult>
-        <ResponseMetadata>
-            <RequestId>b3a020ac-8e5e-11df-9acb-230ae7a8b736</RequestId>
-        </ResponseMetadata>
-    </ListInventorySupplyByNextTokenResponse>
+``` pre
+<?xml version="1.0"?>
+<ListInventorySupplyByNextTokenResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
+    <ListInventorySupplyByNextTokenResult>
+        <NextToken>2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=</NextToken>
+        <InventorySupplyList>
+            <member>
+                <SellerSKU>SampleSKU5</SellerSKU>
+                <ASIN>B00008UI0R</ASIN>
+                <TotalSupplyQuantity>0</TotalSupplyQuantity>
+                <FNSKU>B00008UI0R</FNSKU>
+                <Condition/>
+                <SupplyDetail/>
+                <InStockSupplyQuantity>0</InStockSupplyQuantity>
+            </member>
+            <member>
+                <SellerSKU>SampleSKU6</SellerSKU>
+                <ASIN>B00000K3CQ</ASIN>
+                <TotalSupplyQuantity>5259</TotalSupplyQuantity>
+                <FNSKU>X0000000FM</FNSKU>
+                <Condition>NewItem</Condition>
+                <SupplyDetail/>
+                <InStockSupplyQuantity>5259</InStockSupplyQuantity>
+                <EarliestAvailability>
+                    <TimepointType>Immediately</TimepointType>
+                </EarliestAvailability>
+            </member>
+        </InventorySupplyList>
+    </ListInventorySupplyByNextTokenResult>
+    <ResponseMetadata>
+        <RequestId>b3a020ac-8e5e-11df-9acb-230ae7a8b736</RequestId>
+    </ResponseMetadata>
+</ListInventorySupplyByNextTokenResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -253,8 +252,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

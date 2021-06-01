@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_HowToGetEasyShipDocs" class="nested0">
 
-How to get invoice, shipping label, and warranty documents
-==========================================================
+# How to get invoice, shipping label, and warranty documents
 
 <div class="body">
 
@@ -65,8 +64,7 @@ class="ph">Amazon Easy Ship</span> orders that are scheduled for pickup.
 <div id="EasyShip_HowToGetEasyShipDocs__Task-1_GetAReportIdentifier"
 class="section">
 
-Task 1. Get a report identifier
--------------------------------
+## Task 1. Get a report identifier
 
 You’ll need a report identifier to pass in with the
 <a href="../reports/Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a>
@@ -128,8 +126,7 @@ operation in **Task 2. Get the PDF**.
 <div id="EasyShip_HowToGetEasyShipDocs__Task-2_GetThePDF"
 class="section">
 
-Task 2. Get the PDF
--------------------
+## Task 2. Get the PDF
 
 Get a PDF that contains the invoice, shipping label, and warranty (if
 available) documents for the <span class="ph">Amazon Easy Ship</span>
@@ -166,8 +163,7 @@ order.
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 <a href="EasyShip_HowToHandleSerialNumbers.md" class="xref">How to handle order items that require serial numbers</a>
 

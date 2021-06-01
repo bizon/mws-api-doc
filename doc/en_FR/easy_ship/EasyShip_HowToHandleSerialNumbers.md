@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_HowToHandleSerialNumbers" class="nested0">
 
-How to handle order items that require serial numbers
-=====================================================
+# How to handle order items that require serial numbers
 
 <div class="body">
 
@@ -85,8 +84,7 @@ find out which items require serial numbers.
 
 <div class="section">
 
-Releated topics
----------------
+## Releated topics
 
 <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>
 

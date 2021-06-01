@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_UpdateReportAcknowledgements" class="nested0">
 
-UpdateReportAcknowledgements
-============================
+# UpdateReportAcknowledgements
 
 <div class="body">
 
@@ -54,8 +53,7 @@ reports.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -126,8 +124,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -149,27 +146,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d297244e204" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d297244e207" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d297244e210" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d297244e213" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportIdList</span></td>
-<td>A structured list of Report Ids. The maximum number of reports that can be specified is 100.</td>
-<td>Yes</td>
-<td>Default: none
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e204 "><span class="keyword parmname">ReportIdList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e207 ">A structured list of Report Ids. The maximum number of reports that can be specified is 100.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297244e210 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e213 ">Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Acknowledged</span></td>
-<td>A Boolean value that indicates that you have received and stored a report. Specify <var class="keyword varname">true</var> to set the acknowledged status of a report to <var class="keyword varname">true</var>. Specify <var class="keyword varname">false</var> to set the acknowledged status of a report to <var class="keyword varname">false</var>.</td>
-<td>No</td>
-<td>Default: All
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e204 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e207 ">A Boolean value that indicates that you have received and stored a report. Specify <var class="keyword varname">true</var> to set the acknowledged status of a report to <var class="keyword varname">true</var>. Specify <var class="keyword varname">false</var> to set the acknowledged status of a report to <var class="keyword varname">false</var>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297244e210 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297244e213 ">Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 </tbody>
@@ -183,8 +180,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -195,21 +191,21 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d297244e299" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d297244e302" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Count</span></td>
-<td><span class="ph">A non-negative integer that represents the total number of report requests.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d297244e299 "><span class="keyword parmname">Count</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d297244e302 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ReportInfo</span></td>
-<td><span class="ph">Detailed information about a report.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d297244e299 "><span class="keyword parmname">ReportInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d297244e302 "><span class="ph">Detailed information about a report.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>
@@ -223,8 +219,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -242,24 +237,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-    &Acknowledged=true
-    &Action=UpdateReportAcknowledgements
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &ReportIdList.Id.1=841997483
-    &ReportIdList.id.2=843337483
-    &SellerId=A1XEXAMPLE5E6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T18%3A12%3A20.718Z
-    &Version=2009-01-01
-    &Signature=cE8%2FUgE8BspmM%2B26UTy7oVEdBk4%3D
+AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+&Acknowledged=true
+&Action=UpdateReportAcknowledgements
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&ReportIdList.Id.1=841997483
+&ReportIdList.id.2=843337483
+&SellerId=A1XEXAMPLE5E6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T18%3A12%3A20.718Z
+&Version=2009-01-01
+&Signature=cE8%2FUgE8BspmM%2B26UTy7oVEdBk4%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -280,24 +277,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <UpdateReportAcknowledgementsResponse
-        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <UpdateReportAcknowledgementsResult>
-            <Count>1</Count>
-            <ReportInfo>
-                <ReportId>841997483</ReportId>
-                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-                <ReportRequestId>2234038326</ReportRequestId>
-                <AvailableDate>2009-01-06T03:48:36+00:00</AvailableDate>
-                <Acknowledged>true</Acknowledged>
-                <AcknowledgedDate>2009-02-20T02:10:41+00:00</AcknowledgedDate>
-            </ReportInfo>
-        </UpdateReportAcknowledgementsResult>
-        <ResponseMetadata>
-            <RequestId>42a578a7-ed92-486b-ac67-5de7464fcdfa</RequestId>
-        </ResponseMetadata>
-    </UpdateReportAcknowledgementsResponse>
+``` pre
+<?xml version="1.0"?>
+<UpdateReportAcknowledgementsResponse
+    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <UpdateReportAcknowledgementsResult>
+        <Count>1</Count>
+        <ReportInfo>
+            <ReportId>841997483</ReportId>
+            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+            <ReportRequestId>2234038326</ReportRequestId>
+            <AvailableDate>2009-01-06T03:48:36+00:00</AvailableDate>
+            <Acknowledged>true</Acknowledged>
+            <AcknowledgedDate>2009-02-20T02:10:41+00:00</AcknowledgedDate>
+        </ReportInfo>
+    </UpdateReportAcknowledgementsResult>
+    <ResponseMetadata>
+        <RequestId>42a578a7-ed92-486b-ac67-5de7464fcdfa</RequestId>
+    </ResponseMetadata>
+</UpdateReportAcknowledgementsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -311,8 +310,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

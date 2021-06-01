@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="reports_using_multiple_marketplaces" class="nested0">
 
-Using multiple marketplaces
-===========================
+# Using multiple marketplaces
 
 <div class="body">
 
@@ -87,8 +86,7 @@ class="keyword parmname">SellerId</span>.
 
 <div class="section">
 
-Using the <span class="keyword parmname">MarketplaceIdList</span> parameter
----------------------------------------------------------------------------
+## Using the <span class="keyword parmname">MarketplaceIdList</span> parameter
 
 You specify what marketplaces you want a report to cover by supplying a
 list of <span class="keyword parmname">MarketplaceId</span> values to
@@ -100,8 +98,10 @@ include information from both their FR and DE marketplaces by specifying
 the <span class="keyword parmname">MarketplaceIdList</span> parameter as
 follows:
 
-    &MarketplaceIdList.Id.1=A13V1IB3VIYZZH
-    &MarketplaceIdList.Id.2=A1PA6795UKMFR9
+``` pre
+&MarketplaceIdList.Id.1=A13V1IB3VIYZZH
+&MarketplaceIdList.Id.2=A1PA6795UKMFR9
+```
 
 Do not confuse this parameter with the <span
 class="keyword parmname">Marketplace</span> parameter; the <span
@@ -123,8 +123,7 @@ class="keyword parmname">MarketplaceId</span> value.
 
 <div class="section">
 
-Behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
--------------------------------------------------------------------------------------------------------
+## Behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 If you include multiple <span
 class="keyword parmname">MarketplaceId</span> values when submitting a
@@ -166,8 +165,7 @@ multiple <span class="keyword parmname">MarketplaceId</span> values:
 
 <div class="section">
 
-Behavior of Listings Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
-----------------------------------------------------------------------------------------------------------------
+## Behavior of Listings Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The
 <a href="Reports_ReportType.md#ReportTypeCategories__ListingsReports" class="xref">Listings Reports</a>
@@ -178,8 +176,7 @@ one marketplace per request.
 
 <div class="section">
 
-Behavior of Order Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
--------------------------------------------------------------------------------------------------------------
+## Behavior of Order Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The flat file
 <a href="Reports_ReportType.md#ReportTypeCategories__OrderReports" class="xref">Order Reports</a>
@@ -190,29 +187,30 @@ how the <span
 class="keyword parmname">ReportOptions=ShowSalesChannel</span> parameter
 is included in a report request:
 
-    POST /?AWSAccessKeyId=SDFSD235ASSDFG3445AS
-      &Action=RequestReport
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &MarketplaceIdList.Id.1=A1F83G8C2ARO7P
-      &MarketplaceIdList.Id.2=A1PA6795UKMFR9
-      &SellerId=AGFDG34255SFDSSHV83
-      &SignatureVersion=2
-      &Timestamp=2011-06-23T22%3A33%3A25Z
-      &Version=2009-01-01
-      &Signature=%2BtKQ637UjDCoE%2F3w8GTmsd8E29Lrgsuc%2FkdYBLPfyE8%3D
-      &SignatureMethod=HmacSHA256
-      &ReportType=_GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_
-      &ReportOptions=ShowSalesChannel%3Dtrue HTTP/1.1
-    Host: mws.amazonservices.com
-    x-amazon-user-agent: AmazonJavascriptScratchpad/1.0 (Language=Javascript)
-    Content-Type: text/xml
+``` pre
+POST /?AWSAccessKeyId=SDFSD235ASSDFG3445AS
+  &Action=RequestReport
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &MarketplaceIdList.Id.1=A1F83G8C2ARO7P
+  &MarketplaceIdList.Id.2=A1PA6795UKMFR9
+  &SellerId=AGFDG34255SFDSSHV83
+  &SignatureVersion=2
+  &Timestamp=2011-06-23T22%3A33%3A25Z
+  &Version=2009-01-01
+  &Signature=%2BtKQ637UjDCoE%2F3w8GTmsd8E29Lrgsuc%2FkdYBLPfyE8%3D
+  &SignatureMethod=HmacSHA256
+  &ReportType=_GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_
+  &ReportOptions=ShowSalesChannel%3Dtrue HTTP/1.1
+Host: mws.amazonservices.com
+x-amazon-user-agent: AmazonJavascriptScratchpad/1.0 (Language=Javascript)
+Content-Type: text/xml
+```
 
 </div>
 
 <div class="section">
 
-Behavior of Order Tracking Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
-----------------------------------------------------------------------------------------------------------------------
+## Behavior of Order Tracking Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The
 <a href="Reports_ReportType.md#ReportTypeCategories__OrderTrackingReports" class="xref">Order Tracking Reports</a>
@@ -225,8 +223,7 @@ report request.
 
 <div class="section">
 
-Behavior of Settlement Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
-------------------------------------------------------------------------------------------------------------------
+## Behavior of Settlement Reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 The
 <a href="Reports_ReportType.md#ReportTypeCategories__SettlementReports" class="xref">Settlement Reports</a>

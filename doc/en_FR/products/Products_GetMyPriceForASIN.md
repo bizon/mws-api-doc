@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetMyPriceForASIN" class="nested0">
 
-GetMyPriceForASIN
-=================
+# GetMyPriceForASIN
 
 <div class="body">
 
@@ -54,8 +53,7 @@ listings, based on <span class="keyword parmname">ASIN</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -112,8 +110,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -135,35 +132,35 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d250811e222" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d250811e225" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d250811e228" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d250811e231" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace from which prices are returned.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e222 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e225 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d250811e228 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e231 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASINList</span></td>
-<td>A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e222 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e225 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
 <p>Type: List of xs:string</p></td>
-<td>Yes</td>
-<td>Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d250811e228 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e231 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>Filters the offer listings to be considered based on item condition.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e222 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e225 ">Filters the offer listings to be considered based on item condition.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>No</td>
-<td><span class="keyword parmname">ItemCondition</span> values:
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d250811e228 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d250811e231 "><span class="keyword parmname">ItemCondition</span> values:
 <ul>
 <li><var class="keyword varname">New</var></li>
 <li><var class="keyword varname">Used</var></li>
@@ -184,8 +181,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -208,24 +204,24 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d250811e382" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d250811e385" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Identifiers</span></td>
-<td>Contains the following identifiers that uniquely identify a product:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">BuyingPrice</span></td>
-<td>Contains pricing information that includes promotions and contains the shipping cost.
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">BuyingPrice</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">Contains pricing information that includes promotions and contains the shipping cost.
 <p>Contains the following elements:</p>
 <ul>
 <li><span class="keyword parmname">ListingPrice</span>. The current price including any promotions that apply to the product.</li>
@@ -234,34 +230,34 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 <li><span class="keyword parmname">Points</span>. The number of <span class="ph">Amazon Points</span> offered with the purchase of an item, and their monetary value. Note that the <span class="keyword parmname">Points</span> element is only returned in Japan (JP).</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">RegularPrice</span></td>
-<td>The current price excluding any promotions that apply to the product. Excludes the shipping cost.</td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">RegularPrice</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The current price excluding any promotions that apply to the product. Excludes the shipping cost.</td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FulfillmentChannel</span></td>
-<td>The fulfillment channel for the offer listing.
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">FulfillmentChannel</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The fulfillment channel for the offer listing.
 <p>Valid values:</p>
 <ul>
 <li><var class="keyword varname">Amazon</var> - Fulfilled by Amazon.</li>
 <li><var class="keyword varname">Merchant</var> - Fulfilled by the seller.</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The item condition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ItemSubCondition</span></td>
-<td>The item subcondition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">ItemSubCondition</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The item subcondition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SellerId</span></td>
-<td>The <span class="keyword parmname">SellerId</span> submitted with the operation.</td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The <span class="keyword parmname">SellerId</span> submitted with the operation.</td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKU</span></td>
-<td>The <span class="keyword parmname">SellerSKU</span> for the offer listing.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e382 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d250811e385 ">The <span class="keyword parmname">SellerSKU</span> for the offer listing.</td>
 </tr>
 </tbody>
 </table>
@@ -274,8 +270,7 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -293,22 +288,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    ASINList.ASIN.1=1933890517
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetMyPriceForASIN
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T22%3A40%3A47Z
-    &Version=2011-10-01
-    &Signature=x%2FEXAMPLEFSPqX7tAN83%2FROsuHWc04SEaepLkEXAMPLEo%3D
+ASINList.ASIN.1=1933890517
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetMyPriceForASIN
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T22%3A40%3A47Z
+&Version=2011-10-01
+&Signature=x%2FEXAMPLEFSPqX7tAN83%2FROsuHWc04SEaepLkEXAMPLEo%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -329,51 +326,53 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetMyPriceForASINResponse
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetMyPriceForASINResult ASIN="1933890517" status="Success">
-            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-                <Identifiers>
-                    <MarketplaceASIN>
-                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                        <ASIN>1933890517</ASIN>
-                    </MarketplaceASIN>
-                </Identifiers>
-                <Offers>
-                    <Offer>
-                        <BuyingPrice>
-                            <LandedPrice>
-                                <CurrencyCode>USD</CurrencyCode>
-                                <Amount>303.99</Amount>
-                            </LandedPrice>
-                            <ListingPrice>
-                                <CurrencyCode>USD</CurrencyCode>
-                                <Amount>300.00</Amount>
-                            </ListingPrice>
-                            <Shipping>
-                                <CurrencyCode>USD</CurrencyCode>
-                                <Amount>3.99</Amount>
-                            </Shipping>
-                        </BuyingPrice>
-                        <RegularPrice>
+``` pre
+<?xml version="1.0"?>
+<GetMyPriceForASINResponse
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetMyPriceForASINResult ASIN="1933890517" status="Success">
+        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Identifiers>
+                <MarketplaceASIN>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <ASIN>1933890517</ASIN>
+                </MarketplaceASIN>
+            </Identifiers>
+            <Offers>
+                <Offer>
+                    <BuyingPrice>
+                        <LandedPrice>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>303.99</Amount>
+                        </LandedPrice>
+                        <ListingPrice>
                             <CurrencyCode>USD</CurrencyCode>
                             <Amount>300.00</Amount>
-                        </RegularPrice>
-                        <FulfillmentChannel>MERCHANT</FulfillmentChannel>
-                        <ItemCondition>Used</ItemCondition>
-                        <ItemSubCondition>Acceptable</ItemSubCondition>
-                        <SellerId>A1IMEXAMPLEWRC</SellerId>
-                        <SellerSKU>SKU2468</SellerSKU>
-                    </Offer>
-                </Offers>
-            </Product>
-        </GetMyPriceForASINResult>
-        <ResponseMetadata>
-            <RequestId>a3381684-87bd-416e-9b95-EXAMPLE9c236</RequestId>
-        </ResponseMetadata>
-    </GetMyPriceForASINResponse>
+                        </ListingPrice>
+                        <Shipping>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <Amount>3.99</Amount>
+                        </Shipping>
+                    </BuyingPrice>
+                    <RegularPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>300.00</Amount>
+                    </RegularPrice>
+                    <FulfillmentChannel>MERCHANT</FulfillmentChannel>
+                    <ItemCondition>Used</ItemCondition>
+                    <ItemSubCondition>Acceptable</ItemSubCondition>
+                    <SellerId>A1IMEXAMPLEWRC</SellerId>
+                    <SellerSKU>SKU2468</SellerSKU>
+                </Offer>
+            </Offers>
+        </Product>
+    </GetMyPriceForASINResult>
+    <ResponseMetadata>
+        <RequestId>a3381684-87bd-416e-9b95-EXAMPLE9c236</RequestId>
+    </ResponseMetadata>
+</GetMyPriceForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -387,8 +386,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

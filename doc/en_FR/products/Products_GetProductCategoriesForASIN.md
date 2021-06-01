@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetProductCategoriesForASIN" class="nested0">
 
-GetProductCategoriesForASIN
-===========================
+# GetProductCategoriesForASIN
 
 <div class="body">
 
@@ -54,8 +53,7 @@ belongs to, based on <span class="keyword parmname">ASIN</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -110,8 +108,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -133,28 +130,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d253748e219" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d253748e222" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d253748e225" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d253748e228" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace whose category structure should be returned.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e219 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e222 ">A marketplace identifier. Specifies the marketplace whose category structure should be returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d253748e225 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e228 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASIN</span></td>
-<td>Identifies the product in given the Marketplace.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e219 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e222 ">Identifies the product in given the Marketplace.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td> </td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d253748e225 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253748e228 "> </td>
 </tr>
 </tbody>
 </table>
@@ -167,8 +164,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -188,8 +184,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -207,22 +202,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    ASIN=B002KT3XQM
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetProductCategoriesForASIN
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T22%3A51%3A51Z
-    &Version=2011-10-01
-    &Signature=%2BIEXAMPLE%2FvjuBYraHxZawj6F63rOVHx4PNEXAMPLEs%3D
+ASIN=B002KT3XQM
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetProductCategoriesForASIN
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T22%3A51%3A51Z
+&Version=2011-10-01
+&Signature=%2BIEXAMPLE%2FvjuBYraHxZawj6F63rOVHx4PNEXAMPLEs%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -243,43 +240,45 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetProductCategoriesForASINResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-    <GetProductCategoriesForASINResult>
-      <Self>
-        <ProductCategoryId>2420095011</ProductCategoryId>
-        <ProductCategoryName>Compression Shorts</ProductCategoryName>
+``` pre
+<?xml version="1.0"?>
+<GetProductCategoriesForASINResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+<GetProductCategoriesForASINResult>
+  <Self>
+    <ProductCategoryId>2420095011</ProductCategoryId>
+    <ProductCategoryName>Compression Shorts</ProductCategoryName>
+    <Parent>
+      <ProductCategoryId>2419332011</ProductCategoryId>
+      <ProductCategoryName>Men</ProductCategoryName>
+      <Parent>
+        <ProductCategoryId>2371051011</ProductCategoryId>
+        <ProductCategoryName>Clothing</ProductCategoryName>
         <Parent>
-          <ProductCategoryId>2419332011</ProductCategoryId>
-          <ProductCategoryName>Men</ProductCategoryName>
+          <ProductCategoryId>3403201</ProductCategoryId>
+            <ProductCategoryName>Bikes &#x26; Accessories</ProductCategoryName>
           <Parent>
-            <ProductCategoryId>2371051011</ProductCategoryId>
-            <ProductCategoryName>Clothing</ProductCategoryName>
+            <ProductCategoryId>2232464011</ProductCategoryId>
+              <ProductCategoryName>Bikes &#x26; Scooters</ProductCategoryName>
             <Parent>
-              <ProductCategoryId>3403201</ProductCategoryId>
-                <ProductCategoryName>Bikes &#x26; Accessories</ProductCategoryName>
+              <ProductCategoryId>3375301</ProductCategoryId>
+              <ProductCategoryName>Categories</ProductCategoryName>
               <Parent>
-                <ProductCategoryId>2232464011</ProductCategoryId>
-                  <ProductCategoryName>Bikes &#x26; Scooters</ProductCategoryName>
-                <Parent>
-                  <ProductCategoryId>3375301</ProductCategoryId>
-                  <ProductCategoryName>Categories</ProductCategoryName>
-                  <Parent>
-                    <ProductCategoryId>3375251</ProductCategoryId>
-                    <ProductCategoryName>Categories</ProductCategoryName>
-                  </Parent>
-                </Parent>
+                <ProductCategoryId>3375251</ProductCategoryId>
+                <ProductCategoryName>Categories</ProductCategoryName>
               </Parent>
             </Parent>
           </Parent>
         </Parent>
-      </Self>
-    </GetProductCategoriesForASINResult>
-    <ResponseMetadata>
-      <RequestId>fbce5b62-67cc-4ab8-86f3-EXAMPLE22e4e</RequestId>
-    </ResponseMetadata>
-    </GetProductCategoriesForASINResponse>
+      </Parent>
+    </Parent>
+  </Self>
+</GetProductCategoriesForASINResult>
+<ResponseMetadata>
+  <RequestId>fbce5b62-67cc-4ab8-86f3-EXAMPLE22e4e</RequestId>
+</ResponseMetadata>
+</GetProductCategoriesForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -293,8 +292,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

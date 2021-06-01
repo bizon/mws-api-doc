@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Pallet specifications
-=====================
+# Pallet specifications
 
 <div class="body conbody">
 
@@ -51,8 +50,7 @@ they reach <span class="ph">Amazon's fulfillment network</span>:
 
 <div class="section">
 
-Physical pallet specifications
-------------------------------
+## Physical pallet specifications
 
 For height, overhang, wrapping, and pallet type specifications, see the
 "Arranging for an LTL or Truck Load Delivery to Amazon" section of the
@@ -62,15 +60,14 @@ Amazon Seller Central Help for your marketplace.
 
 <div class="section">
 
-Pallet label specifications
----------------------------
+## Pallet label specifications
 
 <div class="tablenoborder">
 
-| Specification  | Description                                                                    |
-|----------------|--------------------------------------------------------------------------------|
-| Label          | Each pallet must be labelled with **pallet \# \_\_of \_\_ pallets** indicator. |
-| SKU indication | Pallets with mixed SKUs must be labeled **MIXED SKU**.                         |
+| Specification  | Description                                                                   |
+|----------------|-------------------------------------------------------------------------------|
+| Label          | Each pallet must be labelled with **pallet # \_\_of \_\_ pallets** indicator. |
+| SKU indication | Pallets with mixed SKUs must be labeled **MIXED SKU**.                        |
 
 </div>
 

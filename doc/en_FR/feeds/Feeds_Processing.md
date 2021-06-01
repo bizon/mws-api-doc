@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Feeds Processing
-================
+# Feeds Processing
 
 <div class="body conbody">
 
@@ -53,12 +52,12 @@ processed:
 -   Inventory feeds, (product, price, inventory, relationship, image, or
     override feeds) and order feeds are processed separately; they can
     be submitted simultaneously.
--   \_POST\_PRODUCT\_DATA\_ feeds can be processed along with price,
+-   \_POST_PRODUCT_DATA\_ feeds can be processed along with price,
     inventory, and other XML feeds. However, the price, inventory, and
     other feeds will fail if they refer to SKUs that the product feed
     hasn't finished processing. You should serialize price, inventory,
     and image updates after product feeds have completed.
--   All inventory feeds, other than \_POST\_PRODUCT\_DATA\_, can be
+-   All inventory feeds, other than \_POST_PRODUCT_DATA\_, can be
     submitted at the same time. For example price, inventory
     availability, relationship, and image feeds can all be submitted at
     the same time.
@@ -72,7 +71,7 @@ processed:
 -   The feed processing report is stored in the output stream that was
     set on the request. For example, in the Java client library, you can
     call
-    GetFeedSubmissionResultRequest\#setFeedSubmissionResultOutputStream()
+    GetFeedSubmissionResultRequest#setFeedSubmissionResultOutputStream()
     to control where the processing report can be stored. This is done
     because for large feeds, the processing report can be quite large.
 

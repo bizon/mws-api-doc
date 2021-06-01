@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_UpdateSubscription" class="nested0">
 
-UpdateSubscription
-==================
+# UpdateSubscription
 
 <span class="ph">Updates the subscription for the specified notification
 type and destination.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -98,8 +96,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -121,27 +118,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d324721e182" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d324721e185" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d324721e188" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d324721e191" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The unique identifier for the marketplace.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e182 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e185 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d324721e188 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e191 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Subscription</span></td>
-<td>The subscription to update. All child elements except the <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span> can be changed.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">Subscription</span> that you previously created by calling the <span class="keyword apiname">CreateSubscription</span> operation.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e182 "><span class="keyword parmname">Subscription</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e185 ">The subscription to update. All child elements except the <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span> can be changed.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d324721e188 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324721e191 ">Any valid <span class="keyword parmname">Subscription</span> that you previously created by calling the <span class="keyword apiname">CreateSubscription</span> operation.
 <p>Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
 </tr>
 </tbody>
@@ -155,8 +152,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -173,8 +169,7 @@ only returns the common response elements.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -192,27 +187,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Subscriptions/2013-07-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Subscriptions/2013-07-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
-    &Action=UpdateSubscription
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A135KEXAMPLE56
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Subscription.Destination.AttributeList.member.1.Key=sqsQueueUrl
-    &Subscription.Destination.AttributeList.member.1.Value=
-      https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
-    &Subscription.Destination.DeliveryChannel=SQS
-    &Subscription.IsEnabled=true
-    &Subscription.NotificationType=AnyOfferChanged
-    &Timestamp=2013-07-25T16%3A45%3A11Z
-    &Version=2013-07-01
-    &Signature=eEfk%EXAMPLE8FKMWt411Ac%2FLmiwQW%2B7CFnIVl8ZWdIFI%3D
+AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
+&Action=UpdateSubscription
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A135KEXAMPLE56
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Subscription.Destination.AttributeList.member.1.Key=sqsQueueUrl
+&Subscription.Destination.AttributeList.member.1.Value=
+  https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
+&Subscription.Destination.DeliveryChannel=SQS
+&Subscription.IsEnabled=true
+&Subscription.NotificationType=AnyOfferChanged
+&Timestamp=2013-07-25T16%3A45%3A11Z
+&Version=2013-07-01
+&Signature=eEfk%EXAMPLE8FKMWt411Ac%2FLmiwQW%2B7CFnIVl8ZWdIFI%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -233,13 +230,15 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <UpdateSubscriptionResponse
-        xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
-        <UpdateSubscriptionResult/>
-        <ResponseMetadata>
-            <RequestId>3263ad38-d15b-4043-b48c-cbfa2EXAMPLE</RequestId>
-        </ResponseMetadata>
-    </UpdateSubscriptionResponse>
+``` pre
+<UpdateSubscriptionResponse
+    xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
+    <UpdateSubscriptionResult/>
+    <ResponseMetadata>
+        <RequestId>3263ad38-d15b-4043-b48c-cbfa2EXAMPLE</RequestId>
+    </ResponseMetadata>
+</UpdateSubscriptionResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -253,8 +252,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionResult" class="nested0">
 
-GetFeedSubmissionResult
-=======================
+# GetFeedSubmissionResult
 
 <div class="body">
 
@@ -54,8 +53,7 @@ header.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -111,8 +109,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -134,20 +131,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d130030e189" class="entry" data-valign="top" width="24.565217391304348%">Name</th>
+<th id="d130030e192" class="entry" data-valign="top" width="41.84782608695652%">Description</th>
+<th id="d130030e195" class="entry" data-valign="top" width="10.869565217391305%">Required</th>
+<th id="d130030e198" class="entry" data-valign="top" width="22.717391304347824%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FeedSubmissionId</span></td>
-<td>The identifier of the feed submission you are requesting a feed processing report for. You can get the <span class="keyword parmname">FeedSubmissionId</span> for a feed using the <span class="keyword apiname">GetFeedSubmissionList</span> operation.</td>
-<td>Yes</td>
-<td>A <span class="keyword parmname">FeedSubmissionId</span> value.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.565217391304348%" headers="d130030e189 "><span class="keyword parmname">FeedSubmissionId</span></td>
+<td class="entry" data-valign="top" width="41.84782608695652%" headers="d130030e192 ">The identifier of the feed submission you are requesting a feed processing report for. You can get the <span class="keyword parmname">FeedSubmissionId</span> for a feed using the <span class="keyword apiname">GetFeedSubmissionList</span> operation.</td>
+<td class="entry" data-valign="top" width="10.869565217391305%" headers="d130030e195 ">Yes</td>
+<td class="entry" data-valign="top" width="22.717391304347824%" headers="d130030e198 ">A <span class="keyword parmname">FeedSubmissionId</span> value.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -161,8 +158,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -180,8 +176,7 @@ for the returned HTTP body.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -200,22 +195,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=GetFeedSubmissionResult
-    &FeedSubmissionId=20Example76
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T17%3A44%3A33.500Z
-    &Version=2009-01-01
-    &Signature=CNExampleQ%3D
+AWSAccessKeyId=0PExampleR2
+&Action=GetFeedSubmissionResult
+&FeedSubmissionId=20Example76
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T17%3A44%3A33.500Z
+&Version=2009-01-01
+&Signature=CNExampleQ%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -240,22 +237,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <AmazonEnvelope
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
-        <Header>
-            <DocumentVersion>1.02</DocumentVersion>
-            <MerchantIdentifier>T_M_GOOD_83835495</MerchantIdentifier>
-        </Header>
-        <MessageType>ProcessingReport</MessageType>
-        <Message>
-            <MessageID>1</MessageID>
-            <ProcessingReport>
-                <DocumentTransactionID>4319742521</DocumentTransactionID>
-            </ProcessingReport>
-        </Message>
-    </AmazonEnvelope>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.02</DocumentVersion>
+        <MerchantIdentifier>T_M_GOOD_83835495</MerchantIdentifier>
+    </Header>
+    <MessageType>ProcessingReport</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <ProcessingReport>
+            <DocumentTransactionID>4319742521</DocumentTransactionID>
+        </ProcessingReport>
+    </Message>
+</AmazonEnvelope>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -269,8 +268,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

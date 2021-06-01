@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportRequestList" class="nested0">
 
-GetReportRequestList
-====================
+# GetReportRequestList
 
 <div class="body">
 
@@ -55,8 +54,7 @@ report.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -116,8 +114,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -139,34 +136,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d282015e208" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d282015e211" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d282015e214" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d282015e217" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportRequestIdList</span></td>
-<td><span class="ph">A structured list of <span class="keyword parmname">ReportRequestId</span> values. If you pass in <span class="keyword parmname">ReportRequestId</span> values, other query conditions are ignored.</span></td>
-<td>No</td>
-<td>Default: All
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">ReportRequestIdList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 "><span class="ph">A structured list of <span class="keyword parmname">ReportRequestId</span> values. If you pass in <span class="keyword parmname">ReportRequestId</span> values, other query conditions are ignored.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td>No</td>
-<td>Default: All
+<tr id="RequestParameters__parm_ReportTypeList" class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportProcessingStatusList</span></td>
-<td><span class="ph">A structured list of report processing statuses by which to filter report requests.</span></td>
-<td>No</td>
-<td><ul>
+<tr id="RequestParameters__parm_ReportProcessingStatusList" class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">ReportProcessingStatusList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 "><span class="ph">A structured list of report processing statuses by which to filter report requests.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 "><ul>
 <li><var class="keyword varname">_SUBMITTED_</var></li>
 <li><var class="keyword varname">_IN_PROGRESS_</var></li>
 <li><var class="keyword varname">_CANCELLED_</var></li>
@@ -176,26 +173,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Default: All</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">MaxCount</span></td>
-<td>A non-negative integer that represents the maximum number of report requests to return. If you specify a number greater than 100, the request is rejected.</td>
-<td>No</td>
-<td>1-100
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">MaxCount</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 ">A non-negative integer that represents the maximum number of report requests to return. If you specify a number greater than 100, the request is rejected.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 ">1-100
 <p>Default: 10</p>
 <p>Type: xs:nonNegativeInteger</p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">RequestedFromDate</span></td>
-<td><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">RequestedFromDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 "><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
-<td>No</td>
-<td>Default: 90 days ago</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 ">Default: 90 days ago</td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">RequestedToDate</span></td>
-<td><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
-<td>No</td>
-<td>Default: Now
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e208 "><span class="keyword parmname">RequestedToDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e211 "><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282015e214 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282015e217 ">Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -209,8 +206,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -221,26 +217,26 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d282015e443" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d282015e446" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d282015e443 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282015e446 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">HasNext</span></td>
-<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d282015e443 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282015e446 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportRequestInfo</span></td>
-<td><span class="ph">Detailed information about a report request.</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d282015e443 "><span class="keyword parmname">ReportRequestInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282015e446 "><span class="ph">Detailed information about a report request.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
 </tr>
 </tbody>
@@ -254,8 +250,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -273,25 +268,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-    &Action=GetReportRequestList
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &ReportProcessingStatusList.Status.1=_DONE_
-    &ReportRequestIdList.Id.1=2291326454
-    &ReportTypeList.Type.1=_GET_ORDERS_DATA_
-    &ReportTypeList.Type.2=_GET_MERCHANT_LISTINGS_DATA_
-    &SellerId=A1XEXAMPLE5E6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T18%3A12%3A21.921Z
-    &Version=2009-01-01
-    &Signature=pBixmXKBaS%2Bq3EbPzgFhv%2BDf6do%3D
+AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+&Action=GetReportRequestList
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&ReportProcessingStatusList.Status.1=_DONE_
+&ReportRequestIdList.Id.1=2291326454
+&ReportTypeList.Type.1=_GET_ORDERS_DATA_
+&ReportTypeList.Type.2=_GET_MERCHANT_LISTINGS_DATA_
+&SellerId=A1XEXAMPLE5E6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T18%3A12%3A21.921Z
+&Version=2009-01-01
+&Signature=pBixmXKBaS%2Bq3EbPzgFhv%2BDf6do%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -312,31 +309,33 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetReportRequestListResponse
-        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <GetReportRequestListResult>
-            <NextToken>2YgYW55IPQhcm5hbCBwbGVhc3VyZS4=</NextToken>
-            <HasNext>true</HasNext>
-            <ReportRequestInfo>
-                <ReportRequestId>2291326454</ReportRequestId>
-                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-                <StartDate>2011-01-21T02:10:39+00:00</StartDate>
-                <EndDate>2011-02-13T02:10:39+00:00</EndDate>
-                <Scheduled>false</Scheduled>
-                <SubmittedDate>2011-02-17T23:44:09+00:00</SubmittedDate>
-                <ReportProcessingStatus>_DONE_</ReportProcessingStatus>
-                <GeneratedReportId>3538561173</GeneratedReportId>
-                <StartedProcessingDate>
-                    2011-02-17T23:44:43+00:00
-                </StartedProcessingDate>
-                <CompletedDate>2011-02-17T23:44:48+00:00</CompletedDate>
-            </ReportRequestInfo>
-        </GetReportRequestListResult>
-        <ResponseMetadata>
-            <RequestId>732480cb-84a8-4c15-9084-a46bd9a0889b</RequestId>
-        </ResponseMetadata>
-    </GetReportRequestListResponse>
+``` pre
+<?xml version="1.0"?>
+<GetReportRequestListResponse
+    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <GetReportRequestListResult>
+        <NextToken>2YgYW55IPQhcm5hbCBwbGVhc3VyZS4=</NextToken>
+        <HasNext>true</HasNext>
+        <ReportRequestInfo>
+            <ReportRequestId>2291326454</ReportRequestId>
+            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+            <StartDate>2011-01-21T02:10:39+00:00</StartDate>
+            <EndDate>2011-02-13T02:10:39+00:00</EndDate>
+            <Scheduled>false</Scheduled>
+            <SubmittedDate>2011-02-17T23:44:09+00:00</SubmittedDate>
+            <ReportProcessingStatus>_DONE_</ReportProcessingStatus>
+            <GeneratedReportId>3538561173</GeneratedReportId>
+            <StartedProcessingDate>
+                2011-02-17T23:44:43+00:00
+            </StartedProcessingDate>
+            <CompletedDate>2011-02-17T23:44:48+00:00</CompletedDate>
+        </ReportRequestInfo>
+    </GetReportRequestListResult>
+    <ResponseMetadata>
+        <RequestId>732480cb-84a8-4c15-9084-a46bd9a0889b</RequestId>
+    </ResponseMetadata>
+</GetReportRequestListResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -350,8 +349,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

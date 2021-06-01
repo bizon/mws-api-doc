@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAOutbound_CancelFulfillmentOrder" class="nested0">
 
-CancelFulfillmentOrder
-======================
+# CancelFulfillmentOrder
 
 <div class="body">
 
@@ -54,8 +53,7 @@ existing fulfillment order.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -108,8 +106,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -122,20 +119,20 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d87415e152" class="entry" data-valign="top" width="34.84486873508353%">Name</th>
+<th id="d87415e155" class="entry" data-valign="top" width="27.684964200477324%">Description</th>
+<th id="d87415e158" class="entry" data-valign="top" width="11.933174224343675%">Required</th>
+<th id="d87415e161" class="entry" data-valign="top" width="25.53699284009546%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
-<td><span class="ph">The fulfillment order identifier that you created and submitted using the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</span></td>
-<td>Yes</td>
-<td>Maximum: 40 characters
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.84486873508353%" headers="d87415e152 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
+<td class="entry" data-valign="top" width="27.684964200477324%" headers="d87415e155 "><span class="ph">The fulfillment order identifier that you created and submitted using the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</span></td>
+<td class="entry" data-valign="top" width="11.933174224343675%" headers="d87415e158 ">Yes</td>
+<td class="entry" data-valign="top" width="25.53699284009546%" headers="d87415e161 ">Maximum: 40 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -149,8 +146,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -167,8 +163,7 @@ elements.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -186,17 +181,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
-      ?Action=CancelFulfillmentOrder
-      &Version=2010-10-01
-      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &Timestamp=2010-10-01T02:40:36Z
-      &SellerId=A2NKEXAMPLEF53
-      &SellerFulfillmentOrderId=six-test-order
+``` pre
+http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/
+  ?Action=CancelFulfillmentOrder
+  &Version=2010-10-01
+  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &Timestamp=2010-10-01T02:40:36Z
+  &SellerId=A2NKEXAMPLEF53
+  &SellerFulfillmentOrderId=six-test-order
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -217,12 +214,14 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CancelFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-        <ResponseMetadata>
-            <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
-        </ResponseMetadata>
-    </CancelFulfillmentOrderResponse>
+``` pre
+<?xml version="1.0"?>
+<CancelFulfillmentOrderResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+    <ResponseMetadata>
+        <RequestId>d95be26c-16cf-4bbc-ab58-dce89fd4ac53</RequestId>
+    </ResponseMetadata>
+</CancelFulfillmentOrderResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -236,8 +235,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

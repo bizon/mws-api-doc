@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.com/gp/mws/docs.html)</span>
 
 <div id="DG_BuildingRobustApps" class="nested0">
 
-Building robust <span class="ph">Amazon MWS</span> applications
-===============================================================
+# Building robust <span class="ph">Amazon MWS</span> applications
 
 <div class="body">
 
@@ -55,8 +54,7 @@ without prior change notification from Amazon.
 <div id="DG_BuildingRobustApps__ChangesToReportsReturnedByAmazonMWS"
 class="section">
 
-Changes to reports returned by <span class="ph">Amazon MWS</span>
------------------------------------------------------------------
+## Changes to reports returned by <span class="ph">Amazon MWS</span>
 
 Build report parsers into your client applications that can gracefully
 handle the following types of changes to the reports that <span
@@ -81,8 +79,7 @@ response elements or response element values.
 <div id="DG_BuildingRobustApps__ChangesToAmazonMWSResponseElements"
 class="section">
 
-Changes to <span class="ph">Amazon MWS</span> response elements
----------------------------------------------------------------
+## Changes to <span class="ph">Amazon MWS</span> response elements
 
 Build your client applications to gracefully handle the following types
 of changes to <span class="ph">Amazon MWS</span> responses:
@@ -96,8 +93,7 @@ of changes to <span class="ph">Amazon MWS</span> responses:
 
 <div id="DG_BuildingRobustApps__BestPractices" class="section">
 
-Best practices
---------------
+## Best practices
 
 What does it mean to "gracefully handle" changes? Here are some
 examples:

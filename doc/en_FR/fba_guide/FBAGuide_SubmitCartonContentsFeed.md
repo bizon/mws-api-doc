@@ -40,14 +40,13 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 7 - Submit carton content information
-==========================================
+# Step 7 - Submit carton content information
 
 <div class="body conbody">
 
 Submit carton content information using the FBA Inbound Shipment Carton
-Information Feed (\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_) of the Feeds
-API section. For more information about this feed, see
+Information Feed (\_POST_FBA_INBOUND_CARTON_CONTENTS\_) of the Feeds API
+section. For more information about this feed, see
 <a href="../feeds/Feeds_FeedType.md#FeedType_Enumeration__FBAFeeds" class="xref">Fulfillment by Amazon (FBA) feeds</a>.
 
 <div class="note important">

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_UsingNextToken" class="nested0">
 
-Using NextToken to request additional pages
-===========================================
+# Using NextToken to request additional pages
 
 <div class="body">
 
@@ -62,8 +61,7 @@ API sections.
 
 <div class="section">
 
-Using NextToken with the Amazon MWS Feeds and Reports API sections
-------------------------------------------------------------------
+## Using NextToken with the Amazon MWS Feeds and Reports API sections
 
 1.  Submit an operation.
 

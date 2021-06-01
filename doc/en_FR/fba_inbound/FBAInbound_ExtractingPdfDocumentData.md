@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="ExtractingPdfDocumentData" class="nested0">
 
-Extracting PDF Document Data
-============================
+# Extracting PDF Document Data
 
 <div class="body">
 
@@ -66,8 +65,7 @@ Extracting PDF Document Data
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 

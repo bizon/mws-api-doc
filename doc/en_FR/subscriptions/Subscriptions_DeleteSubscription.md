@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_DeleteSubscription" class="nested0">
 
-DeleteSubscription
-==================
+# DeleteSubscription
 
 <span class="ph">Deletes the subscription for the specified notification
 type and destination.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -104,8 +102,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -127,34 +124,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d315993e191" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d315993e194" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d315993e197" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d315993e200" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The unique identifier for the marketplace.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e191 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e194 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d315993e197 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e200 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">NotificationType</span></td>
-<td>The notification type of the subscription to delete.</td>
-<td>Yes</td>
-<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e191 "><span class="keyword parmname">NotificationType</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e194 ">The notification type of the subscription to delete.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d315993e197 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e200 ">For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Destination</span></td>
-<td>The <span class="keyword parmname">Destination</span> of the subscription to delete.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e191 "><span class="keyword parmname">Destination</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e194 ">The <span class="keyword parmname">Destination</span> of the subscription to delete.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d315993e197 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d315993e200 ">Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
 <p>Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
 </tr>
 </tbody>
@@ -168,8 +165,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -186,8 +182,7 @@ only returns the common response elements.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -205,26 +200,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Subscriptions/2013-07-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Subscriptions/2013-07-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
-    &Action=DeleteSubscription
-    &Destination.AttributeList.member.1.Key=sqsQueueUrl
-    &Destination.AttributeList.member.1.Value=
-      https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
-    &Destination.DeliveryChannel=SQS
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &NotificationType=AnyOfferChanged
-    &SellerId=A135KEXAMPLE56
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2013-07-25T16%3A41%3A16Z
-    &Version=2013-07-01
-    &Signature=vRBxMEXAMPLES2y0FGPufG4u7WY2HqhcsYUW6IVI9%2BQ%3D
+AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
+&Action=DeleteSubscription
+&Destination.AttributeList.member.1.Key=sqsQueueUrl
+&Destination.AttributeList.member.1.Value=
+  https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
+&Destination.DeliveryChannel=SQS
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&NotificationType=AnyOfferChanged
+&SellerId=A135KEXAMPLE56
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2013-07-25T16%3A41%3A16Z
+&Version=2013-07-01
+&Signature=vRBxMEXAMPLES2y0FGPufG4u7WY2HqhcsYUW6IVI9%2BQ%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -245,13 +242,15 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <DeleteSubscriptionResponse
-        xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
-        <DeleteSubscriptionResult/>
-        <ResponseMetadata>
-            <RequestId>2d7db8a1-8974-4541-9c9b-f882dEXAMPLE</RequestId>
-        </ResponseMetadata>
-    </DeleteSubscriptionResponse>
+``` pre
+<DeleteSubscriptionResponse
+    xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
+    <DeleteSubscriptionResult/>
+    <ResponseMetadata>
+        <RequestId>2d7db8a1-8974-4541-9c9b-f882dEXAMPLE</RequestId>
+    </ResponseMetadata>
+</DeleteSubscriptionResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -265,8 +264,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

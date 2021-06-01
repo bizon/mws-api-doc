@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_Overview" class="nested0">
 
-What you should know about the Amazon MWS Reports API section
-=============================================================
+# What you should know about the Amazon MWS Reports API section
 
 <div class="body">
 
@@ -147,8 +146,7 @@ scheduled report:
 
 <div id="Reports_Overview__ReportsOperations" class="section">
 
-The <span class="ph">Reports API</span> section operations
-----------------------------------------------------------
+## The <span class="ph">Reports API</span> section operations
 
 The <span class="ph">Reports API</span> section contains the following
 operations:
@@ -180,8 +178,7 @@ operations:
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Use ReportProcessingFinishedNotification when requesting a
     report](../reports/Reports_UseReportProcessingFinished.md)**  

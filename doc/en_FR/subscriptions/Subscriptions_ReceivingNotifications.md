@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_ReceivingNotifications" class="nested0">
 
-Receiving notifications
-=======================
+# Receiving notifications
 
 <div class="body">
 
@@ -58,8 +57,7 @@ Service</span> (<span class="ph">Amazon SQS</span>) standard queue.
 <div id="Subscriptions_ReceivingNotifications__SQSQueue"
 class="section">
 
-Receiving notifications from an Amazon SQS queue
-------------------------------------------------
+## Receiving notifications from an Amazon SQS queue
 
 To receive notifications from an <span class="ph">Amazon SQS</span>
 queue, you must first create one. You can find instructions for setting
@@ -70,8 +68,7 @@ up an <span class="ph">Amazon SQS</span> queue at
 
 <div class="section">
 
-Granting Amazon MWS permission to write to your queue
------------------------------------------------------
+## Granting Amazon MWS permission to write to your queue
 
 After you set up your <span class="ph">Amazon SQS</span> queue, you must
 follow these steps in order for <span class="ph">Amazon MWS</span> to
@@ -103,8 +100,7 @@ push notifications to your queue:
 
 <div class="section">
 
-Processing notifications from your queue
-----------------------------------------
+## Processing notifications from your queue
 
 There are several important properties of <span class="ph">Amazon
 SQS</span> queues that you must understand in order to process
@@ -150,8 +146,7 @@ portal.
 
 <div class="section">
 
-Related links
--------------
+## Related links
 
 -   <a href="http://aws.amazon.com/sqs/" class="xref">Amazon SQS</a>
 -   <a href="http://aws.amazon.com/documentation/sqs/" class="xref">Amazon SQS Documentation</a>

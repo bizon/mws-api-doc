@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulFill_CreateShipment" class="nested0">
 
-CreateShipment
-==============
+# CreateShipment
 
 <div class="body">
 
@@ -51,8 +50,7 @@ CreateShipment
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -111,8 +109,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -125,56 +122,56 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d167393e185" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
+<th id="d167393e188" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
+<th id="d167393e191" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
+<th id="d167393e194" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentRequestDetails</span></td>
-<td>Shipment information required for creating a shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
+<tbody class="tbody">
+<tr id="RequestParameters__row_ShipmentRequestDetails" class="odd row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">ShipmentRequestDetails</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 ">Shipment information required for creating a shipment.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShippingServiceId</span></td>
-<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">ShippingServiceId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 "><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceOfferId</span></td>
-<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">ShippingServiceOfferId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 "><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceOfferId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">HazmatType</span></td>
-<td><span class="ph">Hazardous materials options for a package.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">HazmatType</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 "><span class="ph">Hazardous materials options for a package.</span>
 <p>Consult the terms and conditions for each carrier for more information about hazardous materials.</p></td>
-<td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 ">Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">LabelFormatOption</span></td>
-<td>Label options.</td>
-<td>No</td>
-<td><span class="keyword parmname">LabelFormatOption</span> elements:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">LabelFormatOption</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 ">Label options.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 "><span class="keyword parmname">LabelFormatOption</span> elements:
 <ul>
 <li><span class="keyword parmname">IncludePackingSlipWithLabel</span> - <var class="keyword varname">True</var> indicates that you want Amazon to include a packing slip with the shipping label. If <span class="keyword parmname">LabelFormatOption</span> is not specified, no packing slip is returned. <span class="ph">Type: xs:boolean</span></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
-<td>A list of additional seller inputs, at the shipment level.</td>
-<td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167393e185 "><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167393e188 ">A list of additional seller inputs, at the shipment level.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167393e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167393e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a></td>
 </tr>
 </tbody>
 </table>
@@ -187,8 +184,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -199,16 +195,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d167393e433" class="entry" data-valign="top">Name</th>
+<th id="d167393e436" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Shipment</span></td>
-<td><span class="ph">The details of a shipment, including the shipment status.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" headers="d167393e433 "><span class="keyword parmname">Shipment</span></td>
+<td class="entry" data-valign="top" headers="d167393e436 "><span class="ph">The details of a shipment, including the shipment status.</span>
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.
@@ -227,8 +223,7 @@ Type: <a href="MerchFulfill_Datatypes.md#Shipment" class="xref" title="The detai
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -248,122 +243,126 @@ code</span> </span>
 
 For domestic shipping.
 
-    https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
-      &Action=CreateShipment
-      &SellerId=A09087172RPFTMV0PGAN2
-      &SignatureVersion=2
-      &Timestamp=2015-09-23T20%3A10%3A56Z
-      &Version=2015-06-01
-      &Signature=9jIwZLpoKQWja2BlY8TVWHN17UN2x7VIA%2FHib4U4QLA%3D
-      &SignatureMethod=HmacSHA256
-      &HazmatType=None
-      &ShippingServiceId=FEDEX_PTP_PRIORITY_OVERNIGHT
-      &ShipmentRequestDetails.AmazonOrderId=903-1713775-3598252
-      &ShipmentRequestDetails.LabelCustomization.CustomTextForLabel=ABC123
-      &ShipmentRequestDetails.LabelCustomization.StandardIdForLabel=AmazonOrderId
-      &ShipmentRequestDetails.MustArriveByDate=2015-09-25T07%3A00%3A00Z
-      &ShipmentRequestDetails.PackageDimensions.Length=5
-      &ShipmentRequestDetails.PackageDimensions.Width=5
-      &ShipmentRequestDetails.PackageDimensions.Height=5
-      &ShipmentRequestDetails.PackageDimensions.Unit=inches
-      &ShipmentRequestDetails.Weight.Value=10
-      &ShipmentRequestDetails.Weight.Unit=ounces
-      &ShipmentRequestDetails.ShipDate=2015-09-23T20%3A10%3A56.829Z
-      &ShipmentRequestDetails.ShipFromAddress.Name=John%20Doe
-      &ShipmentRequestDetails.ShipFromAddress.AddressLine1=1234%20Westlake%20Ave
-      &ShipmentRequestDetails.ShipFromAddress.City=Seattle
-      &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=WA
-      &ShipmentRequestDetails.ShipFromAddress.PostalCode=98121
-      &ShipmentRequestDetails.ShipFromAddress.CountryCode=US
-      &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
-      &ShipmentRequestDetails.ShipFromAddress.Phone=2061234567
-      &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
-      &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=false
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=USD
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=10.00
-      &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=ZPL203
-      &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=40525960574974
-      &ShipmentRequestDetails.ItemList.Item.1.Quantity=2
-      &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.1=AZ:QFUL6MXBXE3A2EBC0
-      &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.2=ZA:QFUL6MXBXE3A2EBC0
+``` pre
+https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
+  &Action=CreateShipment
+  &SellerId=A09087172RPFTMV0PGAN2
+  &SignatureVersion=2
+  &Timestamp=2015-09-23T20%3A10%3A56Z
+  &Version=2015-06-01
+  &Signature=9jIwZLpoKQWja2BlY8TVWHN17UN2x7VIA%2FHib4U4QLA%3D
+  &SignatureMethod=HmacSHA256
+  &HazmatType=None
+  &ShippingServiceId=FEDEX_PTP_PRIORITY_OVERNIGHT
+  &ShipmentRequestDetails.AmazonOrderId=903-1713775-3598252
+  &ShipmentRequestDetails.LabelCustomization.CustomTextForLabel=ABC123
+  &ShipmentRequestDetails.LabelCustomization.StandardIdForLabel=AmazonOrderId
+  &ShipmentRequestDetails.MustArriveByDate=2015-09-25T07%3A00%3A00Z
+  &ShipmentRequestDetails.PackageDimensions.Length=5
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=inches
+  &ShipmentRequestDetails.Weight.Value=10
+  &ShipmentRequestDetails.Weight.Unit=ounces
+  &ShipmentRequestDetails.ShipDate=2015-09-23T20%3A10%3A56.829Z
+  &ShipmentRequestDetails.ShipFromAddress.Name=John%20Doe
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=1234%20Westlake%20Ave
+  &ShipmentRequestDetails.ShipFromAddress.City=Seattle
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=WA
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=98121
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=US
+  &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=2061234567
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=false
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=USD
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=10.00
+  &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=ZPL203
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=40525960574974
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=2
+  &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.1=AZ:QFUL6MXBXE3A2EBC0
+  &ShipmentRequestDetails.ItemList.Item.1.TransparencyCodeList.TransparencyCode.2=ZA:QFUL6MXBXE3A2EBC0
+```
 
 For international shipping.
 
-    POST /MerchantFulfillment/2015-06-01?AWSAccessKeyId=AKIAEE2ISSMCQLNRUXDQ
-      &Action=CreateShipment
-      &SellerId=A46VPI2LR4OTS
-      &SignatureVersion=2
-      &Timestamp=2019-10-23T22%3A26%3A40Z
-      &Version=2015-06-01
-      &Signature=xTWZ4NT3UajzfMQsaxx4XSX2np%2F7ZT6SAqCRYpnu5mk%3D
-      &SignatureMethod=HmacSHA256
-      &ShippingServiceId=CHINA_POST_E_COURIER_PRI
-      &HazmatType=None
-      &ShipmentRequestDetails.AmazonOrderId=911-3199039-9308631
-      &ShipmentRequestDetails.PackageDimensions.Length=15
-      &ShipmentRequestDetails.PackageDimensions.Width=5
-      &ShipmentRequestDetails.PackageDimensions.Height=5
-      &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
-      &ShipmentRequestDetails.Weight.Value=100
-      &ShipmentRequestDetails.Weight.Unit=grams
-      &ShipmentRequestDetails.ShipFromAddress.Name=China%20warehouse
-      &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20line%201
-      &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
-      &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
-      &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
-      &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
-      &ShipmentRequestDetails.ShipFromAddress.Email=test%40email.com
-      &ShipmentRequestDetails.ShipFromAddress.Phone=123456789
-      &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
-      &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
-      &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUpOption=CarrierWillPickUp
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=CNY
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=0
-      &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=PDF
-      &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26969160673646
-      &ShipmentRequestDetails.ItemList.Item.2.OrderItemId=61995533938438
-      &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
-      &ShipmentRequestDetails.ItemList.Item.2.Quantity=1
-      &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Value=100
-      &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Value=200
-      &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Unit=grams
-      &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Unit=grams
-      &ShipmentRequestDetails.ItemList.Item.1.ItemDescription=poster
-      &ShipmentRequestDetails.ItemList.Item.2.ItemDescription=poster
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=12345
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%9E%B6%E5%AD%90
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=1
-      &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=23456
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%B5%B7%E6%8A%A5
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=0.7
-      &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
-      &LabelFormatOption.IncludePackingSlipWithLabel=false
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=NON_DELIVERABLE_INSTRUCTIONS
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=SENDER_ADDRESS_TRANSLATED
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=ADDRESS
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=RETURN_TO_SELLER
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Name=%E4%B8%AD%E5%9B%BD%E4%BB%93%E5%BA%93
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.AddressLine1=%E6%B5%8B%E8%AF%95%E8%A1%8C
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.City=%E6%B7%B1%E5%9C%B3
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.StateOrProvinceCode=%E5%B9%BF%E4%B8%9C
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.PostalCode=510810
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.CountryCode=CN
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Email=test%40email.com
-      &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Phone=123456789
+``` pre
+POST /MerchantFulfillment/2015-06-01?AWSAccessKeyId=AKIAEE2ISSMCQLNRUXDQ
+  &Action=CreateShipment
+  &SellerId=A46VPI2LR4OTS
+  &SignatureVersion=2
+  &Timestamp=2019-10-23T22%3A26%3A40Z
+  &Version=2015-06-01
+  &Signature=xTWZ4NT3UajzfMQsaxx4XSX2np%2F7ZT6SAqCRYpnu5mk%3D
+  &SignatureMethod=HmacSHA256
+  &ShippingServiceId=CHINA_POST_E_COURIER_PRI
+  &HazmatType=None
+  &ShipmentRequestDetails.AmazonOrderId=911-3199039-9308631
+  &ShipmentRequestDetails.PackageDimensions.Length=15
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
+  &ShipmentRequestDetails.Weight.Value=100
+  &ShipmentRequestDetails.Weight.Unit=grams
+  &ShipmentRequestDetails.ShipFromAddress.Name=China%20warehouse
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20line%201
+  &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
+  &ShipmentRequestDetails.ShipFromAddress.Email=test%40email.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=123456789
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUpOption=CarrierWillPickUp
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=CNY
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=0
+  &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=PDF
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26969160673646
+  &ShipmentRequestDetails.ItemList.Item.2.OrderItemId=61995533938438
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShipmentRequestDetails.ItemList.Item.2.Quantity=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Value=100
+  &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Value=200
+  &ShipmentRequestDetails.ItemList.Item.1.ItemWeight.Unit=grams
+  &ShipmentRequestDetails.ItemList.Item.2.ItemWeight.Unit=grams
+  &ShipmentRequestDetails.ItemList.Item.1.ItemDescription=poster
+  &ShipmentRequestDetails.ItemList.Item.2.ItemDescription=poster
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=12345
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%9E%B6%E5%AD%90
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=1
+  &ShipmentRequestDetails.ItemList.Item.1.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=HS_CODE
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=23456
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=ITEM_DESCRIPTION_TRANSLATED
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=STRING
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsString=%E6%B5%B7%E6%8A%A5
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalInputFieldName=ITEM_VALUE
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.DataType=CURRENCY
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.Amount=0.7
+  &ShipmentRequestDetails.ItemList.Item.2.ItemLevelSellerInputsList.AdditionalSellerInputs.3.AdditionalSellerInput.ValueAsCurrency.CurrencyCode=USD
+  &LabelFormatOption.IncludePackingSlipWithLabel=false
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalInputFieldName=NON_DELIVERABLE_INSTRUCTIONS
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalInputFieldName=SENDER_ADDRESS_TRANSLATED
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.DataType=STRING
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.DataType=ADDRESS
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.1.AdditionalSellerInput.ValueAsString=RETURN_TO_SELLER
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Name=%E4%B8%AD%E5%9B%BD%E4%BB%93%E5%BA%93
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.AddressLine1=%E6%B5%8B%E8%AF%95%E8%A1%8C
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.City=%E6%B7%B1%E5%9C%B3
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.StateOrProvinceCode=%E5%B9%BF%E4%B8%9C
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.PostalCode=510810
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.CountryCode=CN
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Email=test%40email.com
+  &ShipmentLevelSellerInputsList.AdditionalSellerInputs.2.AdditionalSellerInput.ValueAsAddress.Phone=123456789
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -384,103 +383,105 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CreateShipmentResponse xmlns="https://mws.amazonservices.com
-        /MerchantFulfillment/2015-06-01">
-        <CreateShipmentResult>
-            <Shipment>
-                <Insurance>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>10.00</Amount>
-                </Insurance>
-                <ShipToAddress>
-                    <City>Seattle</City>
-                    <Phone/>
-                    <CountryCode>US</CountryCode>
-                    <PostalCode>98121-2778</PostalCode>
-                    <Name>Jane Smith</Name>
-                    <AddressLine1>321 Main St</AddressLine1>
-                    <StateOrProvinceCode>WA</StateOrProvinceCode>
-                    <Email/>
-                </ShipToAddress>
-                <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-                <Weight>
-                    <Value>10</Value>
-                    <Unit>oz</Unit>
-                </Weight>
-                <Label>
-                    <CustomTextForLabel>ABC123</CustomTextForLabel>
+``` pre
+<?xml version="1.0"?>
+<CreateShipmentResponse xmlns="https://mws.amazonservices.com
+    /MerchantFulfillment/2015-06-01">
+    <CreateShipmentResult>
+        <Shipment>
+            <Insurance>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>10.00</Amount>
+            </Insurance>
+            <ShipToAddress>
+                <City>Seattle</City>
+                <Phone/>
+                <CountryCode>US</CountryCode>
+                <PostalCode>98121-2778</PostalCode>
+                <Name>Jane Smith</Name>
+                <AddressLine1>321 Main St</AddressLine1>
+                <StateOrProvinceCode>WA</StateOrProvinceCode>
+                <Email/>
+            </ShipToAddress>
+            <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+            <Weight>
+                <Value>10</Value>
+                <Unit>oz</Unit>
+            </Weight>
+            <Label>
+                <CustomTextForLabel>ABC123</CustomTextForLabel>
+                <LabelFormat>ZPL203</LabelFormat>
+                <FileContents>
+                    <Checksum>DmsWbJpdMPALN3jV4wHOrg==</Checksum>
+                    <Contents>H4sIAAAAAAAAAK16WbeqyrLmO2Pc/zBVRLG...
+                        ...kI0Ycv76w378UfL6O6ev7UsAwmkWBfL6nycD/Bd+Zx3S8LwAA</Contents>
+                    <FileType>application/zpl</FileType>
                     <LabelFormat>ZPL203</LabelFormat>
-                    <FileContents>
-                        <Checksum>DmsWbJpdMPALN3jV4wHOrg==</Checksum>
-                        <Contents>H4sIAAAAAAAAAK16WbeqyrLmO2Pc/zBVRLG...
-                            ...kI0Ycv76w378UfL6O6ev7UsAwmkWBfL6nycD/Bd+Zx3S8LwAA</Contents>
-                        <FileType>application/zpl</FileType>
-                        <LabelFormat>ZPL203</LabelFormat>
-                    </FileContents>
-                    <Dimensions>
-                        <Width>8.50000</Width>
-                        <Length>11.00000</Length>
-                        <Unit>inches</Unit>
-                    </Dimensions>
-                    <StandardIdForLabel>AmazonOrderId</StandardIdForLabel>
-                </Label>
-                <ShippingService>
-                    <CarrierName>FEDEX</CarrierName>
-                    <ShippingServiceOptions>
-                        <CarrierWillPickUp>false</CarrierWillPickUp>
-                        <DeclaredValue>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>10.00</Amount>
-                        </DeclaredValue>
-                        <DeliveryExperience>DELIVERY_CONFIRMATION </DeliveryExperience>
-                    </ShippingServiceOptions>
-                    <ShippingServiceId>FEDEX_PTP_PRIORITY_OVERNIGHT </ShippingServiceId>
-                    <Rate>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>27.81</Amount>
-                    </Rate>
-                    <LatestEstimatedDeliveryDate>2015-09-24T10:30:00Z </LatestEstimatedDeliveryDate>
-                    <EarliestEstimatedDeliveryDate>2015-09-24T10:30:00Z </EarliestEstimatedDeliveryDate>
-                    <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa
-                        3mN2+zUOsRCAZS2oYt0ey6fXKdOAucmYVXR9LAkU9O9eys9V3FJCgvQ+vAqm4bSAzHVH04vD8oLy
-                        oUPKqxa8Otbek97Z85LFUSsfcUf8frNRMEfNLP8t5RyLXa4ZOjc=</ShippingServiceOfferId>
-                    <ShipDate>2015-09-23T20:10:56.829Z</ShipDate>
-                    <ShippingServiceName>FedEx Priority OvernightÂ®</ShippingServiceName>
-                </ShippingService>
-                <PackageDimensions>
-                    <Width>5</Width>
-                    <Length>5</Length>
+                </FileContents>
+                <Dimensions>
+                    <Width>8.50000</Width>
+                    <Length>11.00000</Length>
                     <Unit>inches</Unit>
-                    <Height>5</Height>
-                </PackageDimensions>
-                <CreatedDate>2015-09-23T20:11:12.908Z</CreatedDate>
-                <ShipFromAddress>
-                    <City>Seattle</City>
-                    <Phone>2061234567</Phone>
-                    <CountryCode>US</CountryCode>
-                    <PostalCode>98121</PostalCode>
-                    <Name>John Doe</Name>
-                    <AddressLine1>1234 Westlake Ave</AddressLine1>
-                    <StateOrProvinceCode>WA</StateOrProvinceCode>
-                </ShipFromAddress>
-                <ShipmentId>6f77095e-9f75-47eb-aaab-a42d5428fa1a</ShipmentId>
-                <ItemList>
-                    <Item>
-                        <OrderItemId>40525960574974</OrderItemId>
-                        <Quantity>1</Quantity>
-                        <ItemWeight>200</ItemWeight>
-                        <ItemDescription>Poster</ItemDescription>
-                    </Item>
-                </ItemList>
-                <Status>Purchased</Status>
-                <TrackingId>794657111237</TrackingId>
-            </Shipment>
-        </CreateShipmentResult>
-        <ResponseMetadata>
-            <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-        </ResponseMetadata>
-    </CreateShipmentResponse>
+                </Dimensions>
+                <StandardIdForLabel>AmazonOrderId</StandardIdForLabel>
+            </Label>
+            <ShippingService>
+                <CarrierName>FEDEX</CarrierName>
+                <ShippingServiceOptions>
+                    <CarrierWillPickUp>false</CarrierWillPickUp>
+                    <DeclaredValue>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>10.00</Amount>
+                    </DeclaredValue>
+                    <DeliveryExperience>DELIVERY_CONFIRMATION </DeliveryExperience>
+                </ShippingServiceOptions>
+                <ShippingServiceId>FEDEX_PTP_PRIORITY_OVERNIGHT </ShippingServiceId>
+                <Rate>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>27.81</Amount>
+                </Rate>
+                <LatestEstimatedDeliveryDate>2015-09-24T10:30:00Z </LatestEstimatedDeliveryDate>
+                <EarliestEstimatedDeliveryDate>2015-09-24T10:30:00Z </EarliestEstimatedDeliveryDate>
+                <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa
+                    3mN2+zUOsRCAZS2oYt0ey6fXKdOAucmYVXR9LAkU9O9eys9V3FJCgvQ+vAqm4bSAzHVH04vD8oLy
+                    oUPKqxa8Otbek97Z85LFUSsfcUf8frNRMEfNLP8t5RyLXa4ZOjc=</ShippingServiceOfferId>
+                <ShipDate>2015-09-23T20:10:56.829Z</ShipDate>
+                <ShippingServiceName>FedEx Priority OvernightÂ®</ShippingServiceName>
+            </ShippingService>
+            <PackageDimensions>
+                <Width>5</Width>
+                <Length>5</Length>
+                <Unit>inches</Unit>
+                <Height>5</Height>
+            </PackageDimensions>
+            <CreatedDate>2015-09-23T20:11:12.908Z</CreatedDate>
+            <ShipFromAddress>
+                <City>Seattle</City>
+                <Phone>2061234567</Phone>
+                <CountryCode>US</CountryCode>
+                <PostalCode>98121</PostalCode>
+                <Name>John Doe</Name>
+                <AddressLine1>1234 Westlake Ave</AddressLine1>
+                <StateOrProvinceCode>WA</StateOrProvinceCode>
+            </ShipFromAddress>
+            <ShipmentId>6f77095e-9f75-47eb-aaab-a42d5428fa1a</ShipmentId>
+            <ItemList>
+                <Item>
+                    <OrderItemId>40525960574974</OrderItemId>
+                    <Quantity>1</Quantity>
+                    <ItemWeight>200</ItemWeight>
+                    <ItemDescription>Poster</ItemDescription>
+                </Item>
+            </ItemList>
+            <Status>Purchased</Status>
+            <TrackingId>794657111237</TrackingId>
+        </Shipment>
+    </CreateShipmentResult>
+    <ResponseMetadata>
+        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+    </ResponseMetadata>
+</CreateShipmentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -494,8 +495,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

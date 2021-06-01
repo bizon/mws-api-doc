@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 5 - Use an Amazon-partnered carrier for your inbound shipments (optional)
-==============================================================================
+# Step 5 - Use an Amazon-partnered carrier for your inbound shipments (optional)
 
 <div class="body conbody">
 

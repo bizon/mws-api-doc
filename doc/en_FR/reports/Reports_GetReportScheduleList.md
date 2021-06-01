@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportScheduleList" class="nested0">
 
-GetReportScheduleList
-=====================
+# GetReportScheduleList
 
 <div class="body">
 
@@ -55,8 +54,7 @@ processing.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -105,8 +103,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -128,20 +125,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d284875e178" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d284875e181" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d284875e184" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d284875e187" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td>No</td>
-<td>Default: All
+<tbody class="tbody">
+<tr id="RequestParameters__parm_ReportTypeList" class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d284875e178 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d284875e181 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d284875e184 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d284875e187 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -155,8 +152,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -167,26 +163,26 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d284875e253" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d284875e256" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>This element will never be returned for this operation because there can never be more than 100 report types scheduled.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d284875e253 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d284875e256 ">This element will never be returned for this operation because there can never be more than 100 report types scheduled.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">HasNext</span></td>
-<td>A Boolean value that is always returned <var class="keyword varname">false</var> because there can never be more than 100 report types scheduled.
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d284875e253 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d284875e256 ">A Boolean value that is always returned <var class="keyword varname">false</var> because there can never be more than 100 report types scheduled.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportSchedule</span></td>
-<td><span class="ph">Detailed information about a report schedule.</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d284875e253 "><span class="keyword parmname">ReportSchedule</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d284875e256 "><span class="ph">Detailed information about a report schedule.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
 </tr>
 </tbody>
@@ -200,8 +196,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -219,23 +214,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=GetReportScheduleList
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &ReportTypeList.Type.1=_GET_ORDERS_DATA_
-    &ReportTypeList.Type.2=_GET_MERCHANT_LISTINGS_DATA
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-01-07T19%3A12%3A13.859Z
-    &Version=2009-01-01
-    &Signature=ltExample8%3D
+AWSAccessKeyId=0PExampleR2
+&Action=GetReportScheduleList
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&ReportTypeList.Type.1=_GET_ORDERS_DATA_
+&ReportTypeList.Type.2=_GET_MERCHANT_LISTINGS_DATA
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-01-07T19%3A12%3A13.859Z
+&Version=2009-01-01
+&Signature=ltExample8%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -256,22 +253,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetReportScheduleListResponse
-        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <GetReportScheduleListResult>
-            <NextToken></NextToken>
-            <HasNext>false</HasNext>
-            <ReportSchedule>
-                <ReportType>_GET_ORDERS_DATA_</ReportType>
-                <Schedule>_30_DAYS_</Schedule>
-                <ScheduledDate>2009-02-20T02:10:42+00:00</ScheduledDate>
-            </ReportSchedule>
-        </GetReportScheduleListResult>
-        <ResponseMetadata>
-            <RequestId>c0464157-b74f-4e52-bd1a-4ebf4bc7e5aa</RequestId>
-        </ResponseMetadata>
-    </GetReportScheduleListResponse>
+``` pre
+<?xml version="1.0"?>
+<GetReportScheduleListResponse
+    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <GetReportScheduleListResult>
+        <NextToken></NextToken>
+        <HasNext>false</HasNext>
+        <ReportSchedule>
+            <ReportType>_GET_ORDERS_DATA_</ReportType>
+            <Schedule>_30_DAYS_</Schedule>
+            <ScheduledDate>2009-02-20T02:10:42+00:00</ScheduledDate>
+        </ReportSchedule>
+    </GetReportScheduleListResult>
+    <ResponseMetadata>
+        <RequestId>c0464157-b74f-4e52-bd1a-4ebf4bc7e5aa</RequestId>
+    </ResponseMetadata>
+</GetReportScheduleListResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -285,8 +284,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

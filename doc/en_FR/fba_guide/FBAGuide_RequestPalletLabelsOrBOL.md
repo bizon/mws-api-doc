@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 9 - Request pallet labels or bills of lading (LTL/FTL only)
-================================================================
+# Step 9 - Request pallet labels or bills of lading (LTL/FTL only)
 
 <div class="body conbody">
 

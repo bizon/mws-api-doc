@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ListInboundShipments" class="nested0">
 
-ListInboundShipments
-====================
+# ListInboundShipments
 
 <div class="body">
 
@@ -54,8 +53,7 @@ that you specify.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -117,8 +115,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -140,21 +137,21 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d73963e178" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
+<th id="d73963e181" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
+<th id="d73963e184" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
+<th id="d73963e187" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentStatusList</span></td>
-<td>A list of <span class="keyword parmname">ShipmentStatus</span>values. Used to select shipments with a current status that matches the status values that you specify.</td>
-<td>Yes, if <span class="keyword parmname">ShipmentIdList</span> is not specified.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">ShipmentStatusList</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A list of <span class="keyword parmname">ShipmentStatus</span>values. Used to select shipments with a current status that matches the status values that you specify.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">Yes, if <span class="keyword parmname">ShipmentIdList</span> is not specified.
 <p>If both <span class="keyword parmname">ShipmentStatusList</span> and <span class="keyword parmname">ShipmentIdList</span> are specified, only shipments that match both parameters are returned.</p></td>
-<td><span class="ph"><span class="keyword parmname">ShipmentStatus</span> values:</span>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 "><span class="ph"><span class="keyword parmname">ShipmentStatus</span> values:</span>
 <ul>
 <li><var class="keyword varname">WORKING</var> - The shipment was created by the seller, but has not yet shipped.</li>
 <li><var class="keyword varname">SHIPPED</var> - The shipment was picked up by the carrier.</li>
@@ -169,28 +166,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </ul>
 <p>Type: List of type: xs:string</p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipmentIdList</span></td>
-<td>A list of <span class="keyword parmname">ShipmentId</span> values. Used to select shipments with <span class="keyword parmname">ShipmentId</span> values that match the <span class="keyword parmname">ShipmentId</span> values that you specify.</td>
-<td>Yes, if <span class="keyword parmname">ShipmentStatusList</span> is not specified.
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">ShipmentIdList</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A list of <span class="keyword parmname">ShipmentId</span> values. Used to select shipments with <span class="keyword parmname">ShipmentId</span> values that match the <span class="keyword parmname">ShipmentId</span> values that you specify.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">Yes, if <span class="keyword parmname">ShipmentStatusList</span> is not specified.
 <p>If both <span class="keyword parmname">ShipmentStatusList</span> and <span class="keyword parmname">ShipmentIdList</span> are specified, only shipments that match both parameters are returned.</p></td>
-<td>Type: List of type: xs:string</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Type: List of type: xs:string</td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">LastUpdatedAfter</span></td>
-<td>A date used for selecting inbound shipments that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td>No
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">LastUpdatedAfter</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A date used for selecting inbound shipments that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">No
 <p>If <span class="keyword parmname">LastUpdatedBefore</span> is specified, then <span class="keyword parmname">LastUpdatedAfter</span> must be specified.</p></td>
-<td>Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
+<td id="RequestParameters__LastUpdatedAfter_values" class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">LastUpdatedBefore</span></td>
-<td>A date used for selecting inbound shipments that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td>No
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">LastUpdatedBefore</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A date used for selecting inbound shipments that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">No
 <p>If <span class="keyword parmname">LastUpdatedAfter</span> is specified, then <span class="keyword parmname">LastUpdatedBefore</span> must be specified.</p></td>
-<td>Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -205,8 +202,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -217,22 +213,22 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d73963e452" class="entry" data-valign="top" width="15.479876160990713%">Name</th>
+<th id="d73963e455" class="entry" data-valign="top" width="84.52012383900929%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73963e452 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73963e455 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipmentData</span></td>
-<td>Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
+<tr class="even row">
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73963e452 "><span class="keyword parmname">ShipmentData</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73963e455 ">Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
 </tr>
 </tbody>
@@ -246,8 +242,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -265,23 +260,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
-      &Action=ListInboundShipments
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &Timestamp=2015-12-02T02:40:36Z
-      &Version=2010-10-01
-      &Signature=COwchWurFSmkpQ9OOCoZy5THApVmrpf0mtyxk5ShtrI%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentStatusList.member.1=WORKING
-      &SellerId=A2NKEXAMPLEF53
-      &LastUpdatedAfter=2015-10-02T12%3A00%3A54Z
-      $LastUpdatedBefore=2015-11-02T12%3A00%3A54Z
-      &ShipmentStatusList.member.2=CLOSED
-      &ShipmentIdList.member.1=FBA44JV8R
-      &ShipmentIdList.member.2=FBA4X8YLS
-      &ShipmentIdList.member.3=FBA4X9FML
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAJGUVGFGHNKE2NVUA
+  &Action=ListInboundShipments
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &Timestamp=2015-12-02T02:40:36Z
+  &Version=2010-10-01
+  &Signature=COwchWurFSmkpQ9OOCoZy5THApVmrpf0mtyxk5ShtrI%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentStatusList.member.1=WORKING
+  &SellerId=A2NKEXAMPLEF53
+  &LastUpdatedAfter=2015-10-02T12%3A00%3A54Z
+  $LastUpdatedBefore=2015-11-02T12%3A00%3A54Z
+  &ShipmentStatusList.member.2=CLOSED
+  &ShipmentIdList.member.1=FBA44JV8R
+  &ShipmentIdList.member.2=FBA4X8YLS
+  &ShipmentIdList.member.3=FBA4X9FML
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -302,56 +299,58 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListInboundShipmentsResponse
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <ListInboundShipmentsResult>
-            <ShipmentData>
-                <member>
-                    <ShipFromAddress>
-                        <PostalCode>V5V 1A1</PostalCode>
-                        <Name>jsowprni Devo CA20</Name>
-                        <CountryCode>CA</CountryCode>
-                        <StateOrProvinceCode>BC</StateOrProvinceCode>
-                        <AddressLine1>Address Line 1</AddressLine1>
-                        <City>Vancouver</City>
-                    </ShipFromAddress>
-                    <ShipmentId>FBAN4QNH</ShipmentId>
-                    <ShipmentName>FBA (8/27/12 1:55 PM)</ShipmentName>
-                    <ShipmentStatus>WORKING</ShipmentStatus>
-                    <LabelPrepType>NO_LABEL</LabelPrepType>
-                    <DestinationFulfillmentCenterId>YYZ1</DestinationFulfillmentCenterId>
-                </member>
-                <member>
-                    <ShipFromAddress>
-                        <PostalCode>V5V 1A1</PostalCode>
-                        <Name>Janani Arvind FBA QA</Name>
-                        <CountryCode>CA</CountryCode>
-                        <StateOrProvinceCode>BC</StateOrProvinceCode>
-                        <AddressLine1>Address 1</AddressLine1>
-                        <City>Vancouver</City>
-                    </ShipFromAddress>
-                    <ShipmentId>FBA1123</ShipmentId>
-                    <ShipmentName>Test MWS CA Shipment 1</ShipmentName>
-                    <ShipmentStatus>WORKING</ShipmentStatus>
-                    <LabelPrepType>NO_LABEL</LabelPrepType>
-                    <DestinationFulfillmentCenterId>RIC2</DestinationFulfillmentCenterId>
-                    <BoxContentsSource>NONE</BoxContentsSource>
-                    <EstimatedBoxContentsFee>
-                        <TotalUnits>10</TotalUnits>
-                        <FeePerUnit>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Value>0.10</Value>
-                        </FeePerUnit>
-                        <TotalFee>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Value>10.0</Value>
-                        </TotalFee>
-                    </EstimatedBoxContentsFee>
-                </member>
-            </ShipmentData>
-        </ListInboundShipmentsResult>
-    </ListInboundShipmentsResponse>
+``` pre
+<?xml version="1.0"?>
+<ListInboundShipmentsResponse
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <ListInboundShipmentsResult>
+        <ShipmentData>
+            <member>
+                <ShipFromAddress>
+                    <PostalCode>V5V 1A1</PostalCode>
+                    <Name>jsowprni Devo CA20</Name>
+                    <CountryCode>CA</CountryCode>
+                    <StateOrProvinceCode>BC</StateOrProvinceCode>
+                    <AddressLine1>Address Line 1</AddressLine1>
+                    <City>Vancouver</City>
+                </ShipFromAddress>
+                <ShipmentId>FBAN4QNH</ShipmentId>
+                <ShipmentName>FBA (8/27/12 1:55 PM)</ShipmentName>
+                <ShipmentStatus>WORKING</ShipmentStatus>
+                <LabelPrepType>NO_LABEL</LabelPrepType>
+                <DestinationFulfillmentCenterId>YYZ1</DestinationFulfillmentCenterId>
+            </member>
+            <member>
+                <ShipFromAddress>
+                    <PostalCode>V5V 1A1</PostalCode>
+                    <Name>Janani Arvind FBA QA</Name>
+                    <CountryCode>CA</CountryCode>
+                    <StateOrProvinceCode>BC</StateOrProvinceCode>
+                    <AddressLine1>Address 1</AddressLine1>
+                    <City>Vancouver</City>
+                </ShipFromAddress>
+                <ShipmentId>FBA1123</ShipmentId>
+                <ShipmentName>Test MWS CA Shipment 1</ShipmentName>
+                <ShipmentStatus>WORKING</ShipmentStatus>
+                <LabelPrepType>NO_LABEL</LabelPrepType>
+                <DestinationFulfillmentCenterId>RIC2</DestinationFulfillmentCenterId>
+                <BoxContentsSource>NONE</BoxContentsSource>
+                <EstimatedBoxContentsFee>
+                    <TotalUnits>10</TotalUnits>
+                    <FeePerUnit>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Value>0.10</Value>
+                    </FeePerUnit>
+                    <TotalFee>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Value>10.0</Value>
+                    </TotalFee>
+                </EstimatedBoxContentsFee>
+            </member>
+        </ShipmentData>
+    </ListInboundShipmentsResult>
+</ListInboundShipmentsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -365,8 +364,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

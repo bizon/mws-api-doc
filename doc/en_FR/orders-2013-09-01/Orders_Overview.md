@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-What you should know about the Orders API section
-=================================================
+# What you should know about the Orders API section
 
 <div class="body conbody">
 
@@ -94,8 +93,7 @@ the URL would be https://mws.amazonservices.com/Orders/2013-09-01
 
 <div class="section">
 
-When to use the <span class="ph">Orders API section</span>
-----------------------------------------------------------
+## When to use the <span class="ph">Orders API section</span>
 
 The <span class="ph">Orders API section</span> is optimized for data
 synchronization, retrieving order updates in real-time, and order
@@ -108,8 +106,7 @@ the <span class="ph">Reports API</span> section documentation.
 
 <div class="section">
 
-Terminology
------------
+## Terminology
 
 The following table defines terminology for this API section:
 
@@ -120,24 +117,24 @@ The following table defines terminology for this API section:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Term</th>
-<th>Definition</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d223599e323" class="entry" data-valign="top" width="22.47191011235955%">Term</th>
+<th id="d223599e326" class="entry" data-valign="top" width="77.52808988764045%">Definition</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Order item</span></td>
-<td>An item and a quantity. For example, if a customer buys three copies of a particular book, the order contains one order item with a quantity of three. If one of the copies is to be gift wrapped, the order now contains the following two order items:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d223599e323 "><span class="keyword parmname">Order item</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d223599e326 ">An item and a quantity. For example, if a customer buys three copies of a particular book, the order contains one order item with a quantity of three. If one of the copies is to be gift wrapped, the order now contains the following two order items:
 <ul>
 <li>Gift wrapped book, quantity of one</li>
 <li>Non-gift wrapped book, quantity of two</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Order</span></td>
-<td>The following are both considered orders:
+<tr class="even row">
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d223599e323 "><span class="keyword parmname">Order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d223599e326 ">The following are both considered orders:
 <ul>
 <li>A collection of order items sold on Amazon with identical values for the following attributes:
 <ul>
@@ -148,13 +145,13 @@ The following table defines terminology for this API section:
 <li>A Multi-Channel Fulfillment order (an order not sold on Amazon's retail website but fulfilled using your Fulfillment by Amazon inventory).</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Pre-order</span></td>
-<td>An order that contains items with a manufacturer's release date that is in the future. Note that pre-orders are available only in Japan.</td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d223599e323 "><span class="keyword parmname">Pre-order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d223599e326 ">An order that contains items with a manufacturer's release date that is in the future. Note that pre-orders are available only in Japan.</td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Standard order</span></td>
-<td>An order that contains items with available inventory.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d223599e323 "><span class="keyword parmname">Standard order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d223599e326 ">An order that contains items with available inventory.</td>
 </tr>
 </tbody>
 </table>
@@ -173,8 +170,7 @@ marketplace.
 
 <div class="section">
 
-User scenarios
---------------
+## User scenarios
 
 <div class="p">
 

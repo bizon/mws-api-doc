@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_Throttling" class="nested0">
 
-Throttling: Limits to how often you can submit requests
-=======================================================
+# Throttling: Limits to how often you can submit requests
 
 <div class="body">
 
@@ -60,8 +59,7 @@ video at Seller Central University for a primer on throttling.
 
 <div class="section">
 
-The Leaky Bucket Algorithm
---------------------------
+## The Leaky Bucket Algorithm
 
 <span class="ph">Amazon MWS</span> uses a variation of the leaky bucket
 algorithm to meter the web service and implement throttling. The
@@ -88,8 +86,7 @@ new requests.
 
 <div class="section">
 
-Throttling Values
------------------
+## Throttling Values
 
 The definitions of these three values that control <span
 class="ph">Amazon MWS</span> throttling are:
@@ -139,8 +136,7 @@ initially failed.
 
 <div class="section">
 
-Hourly Request Quotas
----------------------
+## Hourly Request Quotas
 
 Some API sections (currently Products, Reports, and Feeds) have an
 hourly request quota in addition to the numerical request quota. This
@@ -166,9 +162,11 @@ response that show the hourly quota for the current operation; the
 number of calls remaining in tha quota; and the date and time when the
 quota will reset. For example:
 
-    x-mws-quota-max: 3600
-    x-mws-quota-remaining: 10
-    x-mws-quota-resetsOn: Wed, 06 Mar 2013 19:07:58 GMT
+``` pre
+x-mws-quota-max: 3600
+x-mws-quota-remaining: 10
+x-mws-quota-resetsOn: Wed, 06 Mar 2013 19:07:58 GMT
+```
 
 You can monitor these headers to determine how many more requests you
 can make until the reset time.
@@ -177,8 +175,7 @@ can make until the reset time.
 
 <div id="DG_Throttling__Best_Practices_Requests" class="section">
 
-Tips on avoiding throttling
----------------------------
+## Tips on avoiding throttling
 
 There are several things you can do to make sure your feeds and
 submissions are processed successfully:

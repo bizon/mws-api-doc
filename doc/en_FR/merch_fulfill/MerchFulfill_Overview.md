@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_Overview" class="nested0">
 
-What you should know about the Merchant Fulfillment service
-===========================================================
+# What you should know about the Merchant Fulfillment service
 
 <div class="body">
 
@@ -78,8 +77,7 @@ Assessment form</span>. For more information see
 
 <div class="section">
 
-Terms and conditions
---------------------
+## Terms and conditions
 
 Before a seller can use any application that uses the <span
 class="ph">Merchant Fulfillment service</span> to fulfill orders, they
@@ -102,8 +100,7 @@ class="keyword parmname">TermsAndConditionsNotAccepted</span> error. See
 
 <div class="section">
 
-Operations
-----------
+## Operations
 
 These operations are included in the <span class="ph">Merchant
 Fulfillment service</span>
@@ -125,8 +122,7 @@ Fulfillment service</span>
 
 <div id="MerchFulfill_Overview__Terminology" class="section">
 
-Terminology
------------
+## Terminology
 
 <div class="tablenoborder">
 
@@ -146,8 +142,7 @@ Terminology
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[How to fulfill Seller Fulfilled Prime
     orders](../merch_fulfill/MerchFulfill_HowToUseForPrime.md)**  

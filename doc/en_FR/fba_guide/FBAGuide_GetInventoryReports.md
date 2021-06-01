@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Getting inventory reports
-=========================
+# Getting inventory reports
 
 <div class="body conbody">
 
@@ -55,8 +54,7 @@ other retail channels.
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Inventory reporting using the Reports API
     section](../fba_guide/FBAGuide_InvReportingUsingRepAPI.md)**  

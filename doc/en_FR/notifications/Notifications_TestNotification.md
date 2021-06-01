@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Notifications_TestNotification" class="nested0">
 
-TestNotification
-================
+# TestNotification
 
 <div class="body">
 
@@ -55,8 +54,7 @@ operation.</span>
 
 <div class="section">
 
-Availability
-------------
+## Availability
 
 This notification is available in all marketplaces.
 
@@ -64,8 +62,7 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-Elements
---------
+## Elements
 
 This is the root element of the
 <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a>
@@ -78,16 +75,16 @@ schema:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d204292e92" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d204292e95" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TestNotification</span></td>
-<td>The root element of the notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d204292e92 "><span class="keyword parmname">TestNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d204292e95 ">The root element of the notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.
 <p>The <span class="keyword parmname">TestNotification</span> element contains no attributes or child elements.</p></td>
 </tr>
 </tbody>
@@ -101,8 +98,7 @@ schema:
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

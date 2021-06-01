@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ErrorMessages_ClientSideExamples" class="nested0">
 
-Example Client Side errors
-==========================
+# Example Client Side errors
 
 <div class="body">
 
@@ -70,8 +69,7 @@ side error examples and possible solutions to the problem.
 <div id="ErrorMessages_ClientSideExamples_UserAgent_error"
 class="topic nested1">
 
-User-agent error
-----------------
+## User-agent error
 
 <div class="body">
 
@@ -94,22 +92,24 @@ code</span> </span>
 
 <div class="p">
 
-    <ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-      <Error>
-        <Type>Sender</Type>
-        <Code>UserAgentHeaderMalformed</Code>
-        <Message>
-          Problem with required MWS User-Agent header
-          (e.g. "MyAppName/build123 (Language=Java/1.2)"):
-          Encountered "<EOF>" at column 116.
-          Was expecting: "=" ...
-        </Message>
-        <Detail/>
-      </Error>
-      <RequestID>
-        21f197f6-24b7-4b7b-94fc-55fa34056d34
-      </RequestID>
-    </ErrorResponse>
+``` pre
+<ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+  <Error>
+    <Type>Sender</Type>
+    <Code>UserAgentHeaderMalformed</Code>
+    <Message>
+      Problem with required MWS User-Agent header
+      (e.g. "MyAppName/build123 (Language=Java/1.2)"):
+      Encountered "<EOF>" at column 116.
+      Was expecting: "=" ...
+    </Message>
+    <Detail/>
+  </Error>
+  <RequestID>
+    21f197f6-24b7-4b7b-94fc-55fa34056d34
+  </RequestID>
+</ErrorResponse>
+```
 
 </div>
 
@@ -124,8 +124,7 @@ code</span> </span>
 <div id="ErrorMessages_ClientSideExamples_SSL_error"
 class="topic nested1">
 
-SSL exception error
--------------------
+## SSL exception error
 
 <div class="body">
 
@@ -150,10 +149,12 @@ code</span> </span>
 
 <div class="p">
 
-    javax.net.ssl.SSLException: java.lang.RuntimeException:
-    Unexpected error: java.security.
-    InvalidAlgorithmParameterException: the trustAnchors
-    parameter must be non-empty
+``` pre
+javax.net.ssl.SSLException: java.lang.RuntimeException:
+Unexpected error: java.security.
+InvalidAlgorithmParameterException: the trustAnchors
+parameter must be non-empty
+```
 
 </div>
 
@@ -168,8 +169,7 @@ code</span> </span>
 <div id="ErrorMessages_ClientSideExamples_MD5_error"
 class="topic nested1">
 
-MD5 error
----------
+## MD5 error
 
 <div class="body">
 
@@ -183,10 +183,12 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    The Content-MD5 HTTP header you passed for your feed
-    (1B2M2Y8AsgTpgAmY7PhCfg==) did not match the Content-MD5 we
-    calculated for your feed (3cldK7kqMxK6orwvXXdzSQ==)
-                
+``` pre
+The Content-MD5 HTTP header you passed for your feed
+(1B2M2Y8AsgTpgAmY7PhCfg==) did not match the Content-MD5 we
+calculated for your feed (3cldK7kqMxK6orwvXXdzSQ==)
+            
+```
 
 </div>
 
@@ -215,15 +217,17 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    MemoryStream stream =
-      new MemoryStream(
-        new UTF8Encoding()
-          .GetBytes(
-            xmlDocument.ToString()));
-    request.ContentMD5 =
-      MarketplaceWebServiceClient
-        .CalculateContentMD5(stream);
-                
+``` pre
+MemoryStream stream =
+  new MemoryStream(
+    new UTF8Encoding()
+      .GetBytes(
+        xmlDocument.ToString()));
+request.ContentMD5 =
+  MarketplaceWebServiceClient
+    .CalculateContentMD5(stream);
+            
+```
 
 <a href="#DG_ErrorMessages_ClientSideExamples" class="xref">↑ Top</a>
 

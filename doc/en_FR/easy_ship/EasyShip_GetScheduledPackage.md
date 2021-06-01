@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_GetScheduledPackage" class="nested0">
 
-GetScheduledPackage
-===================
+# GetScheduledPackage
 
 <div class="body">
 
@@ -51,8 +50,7 @@ GetScheduledPackage
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -98,8 +96,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -128,8 +125,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -147,8 +143,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -166,19 +161,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.in/EasyShip/2018-09-01
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=GetScheduledPackage
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A1XEXAMPLE5E6
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Timestamp=2018-11-05T18%3A12%3A21
-      &Version=2018-09-01
-      &ScheduledPackageId.AmazonOrderId=903-1713775-3598252
-      &ScheduledPackageId.PackageId=1ab0f06a-9149-87e0-aba9-7098117872d6
-      &MarketplaceId=A21TJRUUN4KGV
+``` pre
+https://mws.amazonservices.in/EasyShip/2018-09-01
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=GetScheduledPackage
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A1XEXAMPLE5E6
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Timestamp=2018-11-05T18%3A12%3A21
+  &Version=2018-09-01
+  &ScheduledPackageId.AmazonOrderId=903-1713775-3598252
+  &ScheduledPackageId.PackageId=1ab0f06a-9149-87e0-aba9-7098117872d6
+  &MarketplaceId=A21TJRUUN4KGV
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -199,36 +196,38 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetScheduledPackageResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
-        <GetScheduledPackageResult>
-            <ScheduledPackage>
-                <ScheduledPackageId>
-                    <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-                    <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
-                </ScheduledPackageId>
-                <PackageDimensions>
-                    <Length>12.00</Length>
-                    <Width>12.00</Width>
-                    <Height>12.00</Height>
-                    <Unit>cm</Unit>
-                </PackageDimensions>
-                <PackageWeight>
-                    <Unit>g</Unit>
-                    <Value>23.00</Value>
-                </PackageWeight>
-                <PackagePickupSlot>
-                    <SlotId>Xyt123bbdg=</SlotId>
-                    <PickupTimeStart>2018-02-19T14:00:00.50+05:30</PickupTimeStart>
-                    <PickupTimeEnd>2018-02-19T16:00:00.50+05:30</PickupTimeEnd>
-                </PackagePickupSlot>
-                <PackageStatus>Scheduled</PackageStatus>
-            </ScheduledPackage>
-        </GetScheduledPackageResult>
-        <ResponseMetadata>
-            <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-        </ResponseMetadata>
-    </GetScheduledPackageResponse>
+``` pre
+<?xml version="1.0"?>
+<GetScheduledPackageResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
+    <GetScheduledPackageResult>
+        <ScheduledPackage>
+            <ScheduledPackageId>
+                <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+                <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
+            </ScheduledPackageId>
+            <PackageDimensions>
+                <Length>12.00</Length>
+                <Width>12.00</Width>
+                <Height>12.00</Height>
+                <Unit>cm</Unit>
+            </PackageDimensions>
+            <PackageWeight>
+                <Unit>g</Unit>
+                <Value>23.00</Value>
+            </PackageWeight>
+            <PackagePickupSlot>
+                <SlotId>Xyt123bbdg=</SlotId>
+                <PickupTimeStart>2018-02-19T14:00:00.50+05:30</PickupTimeStart>
+                <PickupTimeEnd>2018-02-19T16:00:00.50+05:30</PickupTimeEnd>
+            </PackagePickupSlot>
+            <PackageStatus>Scheduled</PackageStatus>
+        </ScheduledPackage>
+    </GetScheduledPackageResult>
+    <ResponseMetadata>
+        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+    </ResponseMetadata>
+</GetScheduledPackageResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -242,8 +241,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

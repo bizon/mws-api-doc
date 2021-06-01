@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_UseReportProcessingFinished" class="nested0">
 
-Use ReportProcessingFinishedNotification when requesting a report
-=================================================================
+# Use ReportProcessingFinishedNotification when requesting a report
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionCount" class="nested0">
 
-GetFeedSubmissionCount
-======================
+# GetFeedSubmissionCount
 
 <div class="body">
 
@@ -54,8 +53,7 @@ GetFeedSubmissionCount
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -100,8 +98,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -123,42 +120,42 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d126548e176" class="entry" data-valign="top" width="29.38733125649014%">Name</th>
+<th id="d126548e179" class="entry" data-valign="top" width="38.110072689511945%">Description</th>
+<th id="d126548e182" class="entry" data-valign="top" width="10.38421599169263%">Required</th>
+<th id="d126548e185" class="entry" data-valign="top" width="22.1183800623053%">Valid Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">FeedTypeList</span></td>
-<td><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
-<td>No</td>
-<td>Default: All feed types
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.38733125649014%" headers="d126548e176 "><span class="keyword parmname">FeedTypeList</span></td>
+<td class="entry" data-valign="top" width="38.110072689511945%" headers="d126548e179 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td class="entry" data-valign="top" width="10.38421599169263%" headers="d126548e182 ">No</td>
+<td class="entry" data-valign="top" width="22.1183800623053%" headers="d126548e185 ">Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FeedProcessingStatusList</span></td>
-<td>A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
-<td>No</td>
-<td>Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.38733125649014%" headers="d126548e176 "><span class="keyword parmname">FeedProcessingStatusList</span></td>
+<td class="entry" data-valign="top" width="38.110072689511945%" headers="d126548e179 ">A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
+<td class="entry" data-valign="top" width="10.38421599169263%" headers="d126548e182 ">No</td>
+<td class="entry" data-valign="top" width="22.1183800623053%" headers="d126548e185 ">Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SubmittedFromDate</span></td>
-<td><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: 90 days ago
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.38733125649014%" headers="d126548e176 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="38.110072689511945%" headers="d126548e179 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.38421599169263%" headers="d126548e182 ">No</td>
+<td class="entry" data-valign="top" width="22.1183800623053%" headers="d126548e185 ">Default: 90 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SubmittedToDate</span></td>
-<td><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td>No</td>
-<td>Default: Now
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.38733125649014%" headers="d126548e176 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="38.110072689511945%" headers="d126548e179 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.38421599169263%" headers="d126548e182 ">No</td>
+<td class="entry" data-valign="top" width="22.1183800623053%" headers="d126548e185 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -173,8 +170,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -192,8 +188,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -212,24 +207,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=GetFeedSubmissionCount
-    &FeedProcessingStatusList.Status.1=_DONE_
-    &FeedProcessingStatusList.Status.2=_CANCELLED_
-    &FeedTypeList.Type.1=_POST_PRODUCT_DATA_
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T15%3A51%3A49.312Z
-    &Version=2009-01-01
-    &Signature=ewExampleU%3D
+AWSAccessKeyId=0PExampleR2
+&Action=GetFeedSubmissionCount
+&FeedProcessingStatusList.Status.1=_DONE_
+&FeedProcessingStatusList.Status.2=_CANCELLED_
+&FeedTypeList.Type.1=_POST_PRODUCT_DATA_
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T15%3A51%3A49.312Z
+&Version=2009-01-01
+&Signature=ewExampleU%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -254,16 +251,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetFeedSubmissionCountResponse
-        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-        <GetFeedSubmissionCountResult>
-            <Count>463</Count>
-        </GetFeedSubmissionCountResult>
-        <ResponseMetadata>
-            <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
-        </ResponseMetadata>
-    </GetFeedSubmissionCountResponse>
+``` pre
+<?xml version="1.0"?>
+<GetFeedSubmissionCountResponse
+    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+    <GetFeedSubmissionCountResult>
+        <Count>463</Count>
+    </GetFeedSubmissionCountResult>
+    <ResponseMetadata>
+        <RequestId>21e482a8-15c7-4da3-91a4-424995ed0756</RequestId>
+    </ResponseMetadata>
+</GetFeedSubmissionCountResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -277,8 +276,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

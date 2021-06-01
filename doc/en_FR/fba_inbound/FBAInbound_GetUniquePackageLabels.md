@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetUniquePackageLabels" class="nested0">
 
-GetUniquePackageLabels
-======================
+# GetUniquePackageLabels
 
 <div class="body">
 
@@ -55,8 +54,7 @@ center</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -93,7 +91,7 @@ Before calling the <span
 class="keyword apiname">GetUniquePackageLabels</span> operation, use the
 <a href="../feeds/Feeds_Overview.md" class="xref">Feeds API section</a>
 to submit the FBA Inbound Shipment Carton Information Feed
-(\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_). This provides information to
+(\_POST_FBA_INBOUND_CARTON_CONTENTS\_). This provides information to
 Amazon about the carton contents of your inbound shipment, which enables
 faster and more accurate processing of your shipment at the <span
 class="ph">Amazon fulfillment center</span>. You must submit this feed
@@ -142,8 +140,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -165,27 +162,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d71192e236" class="entry" data-valign="top" width="23.015873015873016%">Name</th>
+<th id="d71192e239" class="entry" data-valign="top" width="28.571428571428577%">Description</th>
+<th id="d71192e242" class="entry" data-valign="top" width="19.841269841269845%">Required</th>
+<th id="d71192e245" class="entry" data-valign="top" width="28.571428571428577%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td>Yes</td>
-<td>Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d71192e236 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e239 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d71192e242 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e245 ">Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PageType</span></td>
-<td>The page type that you want to print the labels on.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">PageType</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d71192e236 "><span class="keyword parmname">PageType</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e239 ">The page type that you want to print the labels on.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d71192e242 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e245 "><span class="keyword parmname">PageType</span> values:
 <ul>
 <li><var class="keyword varname">PackageLabel_Letter_2</var> - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
 <li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
@@ -196,11 +193,11 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Submitting a <span class="keyword parmname">PageType</span> value that is not supported in your marketplace returns an error.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageLabelsToPrint</span></td>
-<td>A list of identifiers that specify for which packages you want package labels printed.</td>
-<td>Yes</td>
-<td>Must match <span class="keyword parmname">CartonId</span> values previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">IncorrectPackageIdentifier</span> error code. For more information, see <a href="#Description__ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d71192e236 "><span class="keyword parmname">PackageLabelsToPrint</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e239 ">A list of identifiers that specify for which packages you want package labels printed.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d71192e242 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d71192e245 ">Must match <span class="keyword parmname">CartonId</span> values previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">IncorrectPackageIdentifier</span> error code. For more information, see <a href="#Description__ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
 <p>Maximum: 999</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -215,8 +212,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -227,16 +223,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d71192e404" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d71192e407" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportDocument</span></td>
-<td>PDF document data and checksum.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d71192e404 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d71192e407 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>
@@ -250,8 +246,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -269,21 +264,23 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-    ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-      &Action=GetUniquePackageLabels
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A13EXAMPLE1J56
-      &SignatureVersion=2
-      &Timestamp=2015-08-10T00%3A25%3A41Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQFGQZ
-      &PageType=PackageLabel_Letter_6
-      &PackageLabelsToPrint.member.1=CartonA 
-      &PackageLabelsToPrint.member.2=CartonB
-      &PackageLabelsToPrint.member.3=CartonD
-      &PackageLabelsToPrint.member.4=CartonE
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+  &Action=GetUniquePackageLabels
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A13EXAMPLE1J56
+  &SignatureVersion=2
+  &Timestamp=2015-08-10T00%3A25%3A41Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQFGQZ
+  &PageType=PackageLabel_Letter_6
+  &PackageLabelsToPrint.member.1=CartonA 
+  &PackageLabelsToPrint.member.2=CartonB
+  &PackageLabelsToPrint.member.3=CartonD
+  &PackageLabelsToPrint.member.4=CartonE
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -304,20 +301,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetUniquePackageLabelsResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetUniquePackageLabelsResult>
-            <TransportDocument>
-                <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
-                </PdfDocument>
-                <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
-            </TransportDocument>
-        </GetUniquePackageLabelsResult>
-        <ResponseMetadata>
-            <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
-        </ResponseMetadata>
-    </GetUniquePackageLabelsResponse>
+``` pre
+<?xml version="1.0"?>
+<GetUniquePackageLabelsResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetUniquePackageLabelsResult>
+        <TransportDocument>
+            <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
+            </PdfDocument>
+            <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
+        </TransportDocument>
+    </GetUniquePackageLabelsResult>
+    <ResponseMetadata>
+        <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
+    </ResponseMetadata>
+</GetUniquePackageLabelsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -331,8 +330,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

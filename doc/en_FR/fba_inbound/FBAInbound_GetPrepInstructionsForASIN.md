@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPrepInstructionsForASIN" class="nested0">
 
-GetPrepInstructionsForASIN
-==========================
+# GetPrepInstructionsForASIN
 
 <span class="ph">Returns item preparation instructions to help with item
 sourcing decisions.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -111,8 +109,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -134,30 +131,30 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d68702e164" class="entry" data-valign="top" width="22.46065808297568%">Name</th>
+<th id="d68702e167" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
+<th id="d68702e170" class="entry" data-valign="top" width="14.306151645207438%">Required</th>
+<th id="d68702e173" class="entry" data-valign="top" width="29.899856938483545%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ASINList</span></td>
-<td>A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want item preparation instructions to help with item sourcing decisions.</td>
-<td>Yes</td>
-<td>Maximum: 50 <span class="keyword parmname">ASIN</span> values
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68702e164 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68702e167 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want item preparation instructions to help with item sourcing decisions.</td>
+<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68702e170 ">Yes</td>
+<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68702e173 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values
 <div class="note note">
 <span class="notetitle">Note:</span> ASINs must be included in the product catalog for at least one of the marketplaces that you participate in. Any ASIN that is not included in the product catalog for at least one of the marketplaces that you participate in is returned in the <span class="keyword parmname">InvalidASINList</span> response element. You can use the Amazon Sellers API section to find out which marketplaces you participate in. For more information, see <a href="../sellers/Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a> in the <span class="ph">Sellers API section</span> reference.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipToCountryCode</span></td>
-<td>The country code of the country the items will be shipped to. Note that item preparation instructions can vary by country.</td>
-<td>Yes</td>
-<td><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68702e164 "><span class="keyword parmname">ShipToCountryCode</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68702e167 ">The country code of the country the items will be shipped to. Note that item preparation instructions can vary by country.</td>
+<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68702e170 ">Yes</td>
+<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68702e173 "><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -171,8 +168,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -183,21 +179,21 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d68702e264" class="entry" data-valign="top" width="24.813895781637722%">Name</th>
+<th id="d68702e267" class="entry" data-valign="top" width="75.18610421836229%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ASINPrepInstructionsList</span></td>
-<td><span class="ph">Item preparation instructions to help with item sourcing decisions.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68702e264 "><span class="keyword parmname">ASINPrepInstructionsList</span></td>
+<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68702e267 "><span class="ph">Item preparation instructions to help with item sourcing decisions.</span>
 <p>Type: List of <a href="FBAInbound_Datatypes.md#ASINPrepInstructions" class="xref" title="Item preparation instructions to help with item sourcing decisions.">ASINPrepInstructions</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">InvalidASINList</span></td>
-<td>A list of invalid <span class="keyword parmname">ASIN</span> values and the reasons they are invalid.
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68702e264 "><span class="keyword parmname">InvalidASINList</span></td>
+<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68702e267 ">A list of invalid <span class="keyword parmname">ASIN</span> values and the reasons they are invalid.
 <p>Type: List of <a href="FBAInbound_Datatypes.md#InvalidASIN" class="xref" title="An invalid ASIN and the reason it is invalid.">InvalidASIN</a></p></td>
 </tr>
 </tbody>
@@ -211,8 +207,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -230,19 +225,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &Action=GetPrepInstructionsForASIN
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A2NKEXAMPLEF53
-      &SignatureVersion=2
-      &Timestamp=2014-07-18T22%3A52%3A25Z
-      &Version=2010-10-01
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &SignatureMethod=HmacSHA256
-      &ASINList.Id.1=B00005N5PF
-      &ASINList.Id.2=B0INVALIDF
-      &ShipToCountryCode=US
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &Action=GetPrepInstructionsForASIN
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A2NKEXAMPLEF53
+  &SignatureVersion=2
+  &Timestamp=2014-07-18T22%3A52%3A25Z
+  &Version=2010-10-01
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &SignatureMethod=HmacSHA256
+  &ASINList.Id.1=B00005N5PF
+  &ASINList.Id.2=B0INVALIDF
+  &ShipToCountryCode=US
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -263,31 +260,33 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetPrepInstructionsForASINResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetPrepInstructionsForASINResult>
-            <ASINPrepInstructionsList>
-                <ASINPrepInstructions>
-                    <ASIN>B00005N5PF</ASIN>
-                    <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
-                    <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
-                    <PrepInstructionList>
-                        <PrepInstruction>Polybagging</PrepInstruction>
-                        <PrepInstruction>Taping</PrepInstruction>
-                    </PrepInstructionList>
-                </ASINPrepInstructions>
-            </ASINPrepInstructionsList>
-            <InvalidASINList>
-                <InvalidASIN>
-                    <ASIN>B0INVALIDF</ASIN>
-                    <ErrorReason>InvalidASIN</ErrorReason>
-                </InvalidASIN>
-            </InvalidASINList>
-        </GetPrepInstructionsForASINResult>
-        <ResponseMetadata>
-            <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
-        </ResponseMetadata>
-    </GetPrepInstructionsForASINResponse>
+``` pre
+<?xml version="1.0"?>
+<GetPrepInstructionsForASINResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetPrepInstructionsForASINResult>
+        <ASINPrepInstructionsList>
+            <ASINPrepInstructions>
+                <ASIN>B00005N5PF</ASIN>
+                <BarcodeInstruction>RequiresFNSKULabel</BarcodeInstruction>
+                <PrepGuidance>SeePrepInstructionsList</PrepGuidance>
+                <PrepInstructionList>
+                    <PrepInstruction>Polybagging</PrepInstruction>
+                    <PrepInstruction>Taping</PrepInstruction>
+                </PrepInstructionList>
+            </ASINPrepInstructions>
+        </ASINPrepInstructionsList>
+        <InvalidASINList>
+            <InvalidASIN>
+                <ASIN>B0INVALIDF</ASIN>
+                <ErrorReason>InvalidASIN</ErrorReason>
+            </InvalidASIN>
+        </InvalidASINList>
+    </GetPrepInstructionsForASINResult>
+    <ResponseMetadata>
+        <RequestId>171a23ca-12f9-4599-bbdf-47bc5701d955</RequestId>
+    </ResponseMetadata>
+</GetPrepInstructionsForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -301,8 +300,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

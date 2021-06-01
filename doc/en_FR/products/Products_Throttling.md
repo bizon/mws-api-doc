@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_Throttling" class="nested0">
 
-Throttling in the Products API
-==============================
+# Throttling in the Products API
 
 <div class="body">
 
@@ -62,8 +61,7 @@ requests.
 
 <div class="section">
 
-Per-Request Throttling
-----------------------
+## Per-Request Throttling
 
 These are the throttling rates for the <span class="ph">Products API
 section</span> operations that only throttle per request.
@@ -81,8 +79,7 @@ section</span> operations that only throttle per request.
 
 <div class="section">
 
-Per-Item Throttling
--------------------
+## Per-Item Throttling
 
 Operations in the <span class="ph">Products API section</span> that send
 lists of items as input parameters have restore rates that are measured

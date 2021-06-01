@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_ConfirmTransportRequest" class="nested0">
 
-ConfirmTransportRequest
-=======================
+# ConfirmTransportRequest
 
 <div class="body">
 
@@ -55,8 +54,7 @@ inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -142,8 +140,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -170,8 +167,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -182,16 +178,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d34074e256" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
+<th id="d34074e259" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportResult</span></td>
-<td>Workflow status for a shipment with an Amazon-partnered carrier.
+<tbody class="tbody">
+<tr id="ResponseElements__ResponseElementsRow_TransportResult" class="odd row">
+<td class="entry" data-valign="top" width="25.839793281653744%" headers="d34074e256 "><span class="keyword parmname">TransportResult</span></td>
+<td class="entry" data-valign="top" width="74.16020671834626%" headers="d34074e259 ">Workflow status for a shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>
@@ -205,8 +201,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -224,16 +219,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-      &Action=ConfirmTransportRequest
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A13EXAMPLE1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-10T00%3A14%3A27Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQFGQZ
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+  &Action=ConfirmTransportRequest
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A13EXAMPLE1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-10T00%3A14%3A27Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQFGQZ
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -254,18 +251,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ConfirmTransportRequestResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <ConfirmTransportRequestResult>
-            <TransportResult>
-                <TransportStatus>CONFIRMING</TransportStatus>
-            </TransportResult>
-        </ConfirmTransportRequestResult>
-        <ResponseMetadata>
-            <RequestId>27bdc3df-d41b-4cf5-a96d-047815797bbf</RequestId>
-        </ResponseMetadata>
-    </ConfirmTransportRequestResponse>
+``` pre
+<?xml version="1.0"?>
+<ConfirmTransportRequestResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <ConfirmTransportRequestResult>
+        <TransportResult>
+            <TransportStatus>CONFIRMING</TransportStatus>
+        </TransportResult>
+    </ConfirmTransportRequestResult>
+    <ResponseMetadata>
+        <RequestId>27bdc3df-d41b-4cf5-a96d-047815797bbf</RequestId>
+    </ResponseMetadata>
+</ConfirmTransportRequestResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -279,8 +278,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

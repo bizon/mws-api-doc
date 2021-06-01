@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_StandardsCompliance" class="nested0">
 
-Standards compliance in <span class="ph">Amazon MWS</span>
-==========================================================
+# Standards compliance in <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -53,8 +52,7 @@ important standards used here and how they have been adopted.
 
 <div class="section">
 
-XML/XSD Datatypes
------------------
+## XML/XSD Datatypes
 
 When an API reference page lists a data type with an xs: prefix, such as
 <span class="keyword">xs:int</span> or <span
@@ -69,8 +67,7 @@ for detailed information.
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[ISO 8601 use in Amazon MWS](../dev_guide/DG_ISO8601.md)**  
 -   **[ISO 4217 use in Amazon MWS](../dev_guide/DG_ISO4217.md)**  

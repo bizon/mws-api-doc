@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_GetSubscription" class="nested0">
 
-GetSubscription
-===============
+# GetSubscription
 
 <span class="ph">Gets the subscription for the specified notification
 type and destination.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -93,8 +91,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -116,34 +113,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d318683e172" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d318683e175" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d318683e178" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d318683e181" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The unique identifier for the marketplace.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e172 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e175 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318683e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e181 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">NotificationType</span></td>
-<td>The notification type of the subscription to retrieve.</td>
-<td>Yes</td>
-<td>For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e172 "><span class="keyword parmname">NotificationType</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e175 ">The notification type of the subscription to retrieve.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318683e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e181 ">For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Destination</span></td>
-<td>The <span class="keyword parmname">Destination</span> of the subscription to retrieve.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e172 "><span class="keyword parmname">Destination</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e175 ">The <span class="keyword parmname">Destination</span> of the subscription to retrieve.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318683e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318683e181 ">Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
 <p>Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
 </tr>
 </tbody>
@@ -157,8 +154,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -169,16 +165,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d318683e308" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d318683e311" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Subscription</span></td>
-<td>The <span class="keyword parmname">Subscription</span> object for the specified <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d318683e308 "><span class="keyword parmname">Subscription</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d318683e311 ">The <span class="keyword parmname">Subscription</span> object for the specified <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span>.
 <p>Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
 </tr>
 </tbody>
@@ -192,8 +188,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -211,26 +206,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Subscriptions/2013-07-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Subscriptions/2013-07-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
-    &Action=GetSubscription
-    &Destination.AttributeList.member.1.Key=sqsQueueUrl
-    &Destination.AttributeList.member.1.Value=
-      https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
-    &Destination.DeliveryChannel=SQS
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &NotificationType=AnyOfferChanged
-    &SellerId=A135KEXAMPLE56
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2013-07-25T16%3A39%3A03Z
-    &Version=2013-07-01
-    &Signature=ePApMEXAMPLEnfctXl4wQMWa%2FdZn8MF%2BbIvGBHeDklM%3D
+AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
+&Action=GetSubscription
+&Destination.AttributeList.member.1.Key=sqsQueueUrl
+&Destination.AttributeList.member.1.Value=
+  https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
+&Destination.DeliveryChannel=SQS
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&NotificationType=AnyOfferChanged
+&SellerId=A135KEXAMPLE56
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2013-07-25T16%3A39%3A03Z
+&Version=2013-07-01
+&Signature=ePApMEXAMPLEnfctXl4wQMWa%2FdZn8MF%2BbIvGBHeDklM%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -251,29 +248,31 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <GetSubscriptionResponse
-        xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
-        <GetSubscriptionResult>
-            <Subscription>
-                <NotificationType>AnyOfferChanged</NotificationType>
-                <IsEnabled>true</IsEnabled>
-                <Destination>
-                    <DeliveryChannel>SQS</DeliveryChannel>
-                    <AttributeList>
-                        <member>
-                            <Value>
-                                https://sqs.us-east-1.amazonaws.com/51471EXAMPLE/mws_notifications
-                            </Value>
-                            <Key>sqsQueueUrl</Key>
-                        </member>
-                    </AttributeList>
-                </Destination>
-            </Subscription>
-        </GetSubscriptionResult>
-        <ResponseMetadata>
-            <RequestId>4012b1ae-3f31-4627-83c3-1757aEXAMPLE</RequestId>
-        </ResponseMetadata>
-    </GetSubscriptionResponse>
+``` pre
+<GetSubscriptionResponse
+    xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
+    <GetSubscriptionResult>
+        <Subscription>
+            <NotificationType>AnyOfferChanged</NotificationType>
+            <IsEnabled>true</IsEnabled>
+            <Destination>
+                <DeliveryChannel>SQS</DeliveryChannel>
+                <AttributeList>
+                    <member>
+                        <Value>
+                            https://sqs.us-east-1.amazonaws.com/51471EXAMPLE/mws_notifications
+                        </Value>
+                        <Key>sqsQueueUrl</Key>
+                    </member>
+                </AttributeList>
+            </Destination>
+        </Subscription>
+    </GetSubscriptionResult>
+    <ResponseMetadata>
+        <RequestId>4012b1ae-3f31-4627-83c3-1757aEXAMPLE</RequestId>
+    </ResponseMetadata>
+</GetSubscriptionResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -287,8 +286,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

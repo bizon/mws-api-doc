@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations
-=====================================================================================
+# Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations
 
 <div class="body conbody">
 

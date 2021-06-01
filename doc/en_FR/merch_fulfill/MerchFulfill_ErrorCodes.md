@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_ErrorCodes" class="nested0">
 
-Error codes
-===========
+# Error codes
 
 <div class="body">
 

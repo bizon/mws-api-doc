@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_Datatypes" class="nested0">
 
-Sellers Datatypes
-=================
+# Sellers Datatypes
 
 <div class="body">
 
@@ -64,8 +63,7 @@ class="ph">Sellers API section</span>:
 
 <div id="Marketplace" class="topic nested1">
 
-Marketplace
------------
+## Marketplace
 
 <div class="body">
 
@@ -87,41 +85,41 @@ class="keyword parmname">Marketplace</span> datatype:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d300852e177" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d300852e180" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The encrypted marketplace value. Example: ATVPDKIKX0DER
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">The encrypted marketplace value. Example: ATVPDKIKX0DER
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Name</span></td>
-<td>Marketplace name. Example: Amazon.com
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">Name</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">Marketplace name. Example: Amazon.com
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">DefaultCountryCode</span></td>
-<td>The two-digit country code of the marketplace, in ISO 3166-1 alpha-2 format.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">DefaultCountryCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">The two-digit country code of the marketplace, in ISO 3166-1 alpha-2 format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">DefaultCurrencyCode</span></td>
-<td>The <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span> currency code of the marketplace. Example: USD
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">DefaultCurrencyCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">The <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span> currency code of the marketplace. Example: USD
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">DefaultLanguageCode</span></td>
-<td>The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code of the marketplace. Example: en_US
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">DefaultLanguageCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code of the marketplace. Example: en_US
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">DomainName</span></td>
-<td>The domain name associated with the marketplace. Example: www.amazon.com
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e177 "><span class="keyword parmname">DomainName</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e180 ">The domain name associated with the marketplace. Example: www.amazon.com
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -137,8 +135,7 @@ class="keyword parmname">Marketplace</span> datatype:
 
 <div id="Participation" class="topic nested1">
 
-Participation
--------------
+## Participation
 
 <div class="body">
 
@@ -159,26 +156,26 @@ class="keyword parmname">Participation</span> datatype:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d300852e369" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d300852e372" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The encrypted marketplace value. Example: ATVPDKIKX0DER
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e369 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e372 ">The encrypted marketplace value. Example: ATVPDKIKX0DER
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerId</span></td>
-<td>The <span class="keyword parmname">SellerId</span> or <span class="keyword parmname">MerchantId</span> of the seller. Example: ATUHFHCIERT
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e369 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e372 ">The <span class="keyword parmname">SellerId</span> or <span class="keyword parmname">MerchantId</span> of the seller. Example: ATUHFHCIERT
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">HasSellerSuspendedListings</span></td>
-<td>Specifies if the seller has suspended listings. <var class="keyword varname">Yes</var> if the seller has set Listing Status to Inactive, otherwise <var class="keyword varname">No</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d300852e369 "><span class="keyword parmname">HasSellerSuspendedListings</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d300852e372 ">Specifies if the seller has suspended listings. <var class="keyword varname">Yes</var> if the seller has set Listing Status to Inactive, otherwise <var class="keyword varname">No</var>.
 <p>Type: xs:Restricted String</p></td>
 </tr>
 </tbody>
@@ -194,8 +191,7 @@ class="keyword parmname">Participation</span> datatype:
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

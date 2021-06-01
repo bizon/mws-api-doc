@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToExtractShippingLabel" class="nested0">
 
-How to extract a shipping label file
-====================================
+# How to extract a shipping label file
 
 <div class="body">
 
@@ -67,8 +66,7 @@ MD5 hash to validate the document data.
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 <a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 

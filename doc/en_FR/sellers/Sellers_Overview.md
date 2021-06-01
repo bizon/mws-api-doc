@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-What you should know about the Amazon MWS Sellers API Section
-=============================================================
+# What you should know about the Amazon MWS Sellers API Section
 
 <div class="body conbody">
 
@@ -78,8 +77,7 @@ API section</span>:
 
 <div class="section">
 
-Terminology
------------
+## Terminology
 
 The following table defines terminology for this API section:
 

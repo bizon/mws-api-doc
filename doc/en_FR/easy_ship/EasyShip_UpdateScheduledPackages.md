@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_UpdateScheduledPackages" class="nested0">
 
-UpdateScheduledPackages
-=======================
+# UpdateScheduledPackages
 
 <div class="body">
 
@@ -51,8 +50,7 @@ UpdateScheduledPackages
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -103,8 +101,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -125,26 +122,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d20763e205" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
+<th id="d20763e208" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
+<th id="d20763e211" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
+<th id="d20763e214" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The marketplace that the seller is selling in.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20763e205 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20763e208 ">The marketplace that the seller is selling in.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20763e211 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20763e214 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ScheduledPackageUpdateDetailsList</span></td>
-<td>The scheduled packages to be updated.</td>
-<td>Yes</td>
-<td>List of <a href="EasyShip_Datatypes.md#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20763e205 "><span class="keyword parmname">ScheduledPackageUpdateDetailsList</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20763e208 ">The scheduled packages to be updated.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20763e211 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20763e214 ">List of <a href="EasyShip_Datatypes.md#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
 <div class="note note">
 <span class="notetitle">Note:</span> Currently you can specify only one <span class="keyword parmname">ScheduledPackageUpdateDetails</span> element.
 </div></td>
@@ -162,8 +159,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -181,8 +177,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -200,22 +195,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.in/EasyShip/2018-09-01
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=UpdateScheduledPackages
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A1XEXAMPLE5E6
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Timestamp=2018-11-05T18%3A12%3A21
-      &Version=2018-09-01
-      &MarketplaceId=A21TJRUUN4KGV
-      &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.ScheduledPackageId.AmazonOrderId=903-1713775-3598252
-      &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.ScheduledPackageId.PackageId=1ab0f06a-9149-87e0-aba9-7098117872d6
-      &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.SlotId=Xyt123bbdg=
-      &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.PickupTimeStart=2018-09-05T16%3A12%3A21
-      &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.PickupTimeEnd=2018-09-05T18%3A12%3A21
+``` pre
+https://mws.amazonservices.in/EasyShip/2018-09-01
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=UpdateScheduledPackages
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A1XEXAMPLE5E6
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Timestamp=2018-11-05T18%3A12%3A21
+  &Version=2018-09-01
+  &MarketplaceId=A21TJRUUN4KGV
+  &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.ScheduledPackageId.AmazonOrderId=903-1713775-3598252
+  &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.ScheduledPackageId.PackageId=1ab0f06a-9149-87e0-aba9-7098117872d6
+  &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.SlotId=Xyt123bbdg=
+  &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.PickupTimeStart=2018-09-05T16%3A12%3A21
+  &ScheduledPackageUpdateDetailsList.PackageUpdateDetails.1.PackagePickupSlot.PickupTimeEnd=2018-09-05T18%3A12%3A21
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -236,38 +233,40 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <UpdateScheduledPackagesResponse xmlns="http://mws.amazonaws.in/Scheduling/2018-09-01">
-        <UpdateScheduledPackagesResult>
-            <ScheduledPackageList>
-                <Package>
-                    <ScheduledPackageId>
-                        <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-                        <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
-                    </ScheduledPackageId>
-                    <PackageDimensions>
-                        <Length>12.00</Length>
-                        <Width>12.00</Width>
-                        <Height>12.00</Height>
-                        <Unit>cm</Unit>
-                    </PackageDimensions>
-                    <PackageWeight>
-                        <Unit>g</Unit>
-                        <Value>23.00</Value>
-                    </PackageWeight>
-                    <PackagePickupSlot>
-                        <SlotId>Xyt123bbdg=</SlotId>
-                        <PickupTimeStart>2018-11-05T14:00:00.50+05:30</PickupTimeStart>
-                        <PickupTimeEnd>2018-11-05T16:00:00.50+05:30</PickupTimeEnd>
-                    </PackagePickupSlot>
-                    <PackageStatus>Scheduled</PackageStatus>
-                </Package>
-            </ScheduledPackageList>
-        </UpdateScheduledPackagesResult>
-        <ResponseMetadata>
-            <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-        </ResponseMetadata>
-    </UpdateScheduledPackagesResponse>
+``` pre
+<?xml version="1.0"?>
+<UpdateScheduledPackagesResponse xmlns="http://mws.amazonaws.in/Scheduling/2018-09-01">
+    <UpdateScheduledPackagesResult>
+        <ScheduledPackageList>
+            <Package>
+                <ScheduledPackageId>
+                    <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+                    <PackageId>1ab0f06a-9149-87e0-aba9-7098117872d6</PackageId>
+                </ScheduledPackageId>
+                <PackageDimensions>
+                    <Length>12.00</Length>
+                    <Width>12.00</Width>
+                    <Height>12.00</Height>
+                    <Unit>cm</Unit>
+                </PackageDimensions>
+                <PackageWeight>
+                    <Unit>g</Unit>
+                    <Value>23.00</Value>
+                </PackageWeight>
+                <PackagePickupSlot>
+                    <SlotId>Xyt123bbdg=</SlotId>
+                    <PickupTimeStart>2018-11-05T14:00:00.50+05:30</PickupTimeStart>
+                    <PickupTimeEnd>2018-11-05T16:00:00.50+05:30</PickupTimeEnd>
+                </PackagePickupSlot>
+                <PackageStatus>Scheduled</PackageStatus>
+            </Package>
+        </ScheduledPackageList>
+    </UpdateScheduledPackagesResult>
+    <ResponseMetadata>
+        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+    </ResponseMetadata>
+</UpdateScheduledPackagesResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -281,8 +280,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

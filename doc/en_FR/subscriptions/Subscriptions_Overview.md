@@ -42,15 +42,13 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Subscriptions_Overview" class="nested0">
 
-What you should know about the Amazon MWS Subscriptions API section
-===================================================================
+# What you should know about the Amazon MWS Subscriptions API section
 
 <div class="body">
 
 <div class="section">
 
-Overview
---------
+## Overview
 
 The <span class="ph">Amazon MWS</span> <span class="ph">Subscriptions
 API section</span> enables you to subscribe to receive notifications
@@ -76,8 +74,7 @@ operation.
 
 <div class="section">
 
-Terminology
------------
+## Terminology
 
 The following table defines terminology for this API section:
 
@@ -98,8 +95,7 @@ The following table defines terminology for this API section:
 <div id="Subscriptions_Overview__RecommendationsOperations"
 class="section">
 
-The <span class="ph">Subscriptions API section</span> operations
-----------------------------------------------------------------
+## The <span class="ph">Subscriptions API section</span> operations
 
 The following operations are included in the <span
 class="ph">Subscriptions API section</span>:
@@ -137,8 +133,7 @@ class="ph">Subscriptions API section</span>:
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Receiving
     notifications](../subscriptions/Subscriptions_ReceivingNotifications.md)**  

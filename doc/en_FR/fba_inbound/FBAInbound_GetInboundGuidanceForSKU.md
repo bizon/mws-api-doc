@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetInboundGuidanceForSKU" class="nested0">
 
-<span id="Operation" class="ph">GetInboundGuidanceForSKU</span>
-===============================================================
+# <span id="Operation" class="ph">GetInboundGuidanceForSKU</span>
 
 <div class="body">
 
@@ -54,8 +53,7 @@ SKU.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -106,8 +104,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -129,27 +126,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d65043e183" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d65043e186" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d65043e189" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d65043e192" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerSKUList</span></td>
-<td>A list of <span class="keyword parmname">SellerSKU</span> values. Used to identify items for which you want inbound guidance for shipment to <span class="ph">Amazon's fulfillment network</span>.</td>
-<td>Yes</td>
-<td>Maximum: 50 <span class="keyword parmname">SellerSKU</span> values.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d65043e183 "><span class="keyword parmname">SellerSKUList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d65043e186 ">A list of <span class="keyword parmname">SellerSKU</span> values. Used to identify items for which you want inbound guidance for shipment to <span class="ph">Amazon's fulfillment network</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d65043e189 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d65043e192 ">Maximum: 50 <span class="keyword parmname">SellerSKU</span> values.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace where the product would be stored.</td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d65043e183 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d65043e186 ">A marketplace identifier. Specifies the marketplace where the product would be stored.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d65043e189 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d65043e192 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -180,8 +177,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -220,8 +216,7 @@ class="keyword apiname">GetInboundGuidanceForSKU</span> operation are:
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -239,18 +234,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=GetInboundGuidanceForSKU
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A1XEXAMPLE5E6
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Timestamp=2016-09-26T18%3A12%3A21
-      &Version=2010-10-01
-      &SellerSKUList.Id.1=us001
-      &MarketplaceId=ATVPDKIKX0DER
+``` pre
+https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=GetInboundGuidanceForSKU
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A1XEXAMPLE5E6
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Timestamp=2016-09-26T18%3A12%3A21
+  &Version=2010-10-01
+  &SellerSKUList.Id.1=us001
+  &MarketplaceId=ATVPDKIKX0DER
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -271,24 +268,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetInboundGuidanceForSKUResponse
-      xmlns="https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01">
-      <GetInboundGuidanceForSKUResult>
-        <SKUInboundGuidanceList>
-          <SellerSKU>us001</SellerSKU>
-          <ASIN>B00005N5PF</ASIN>
-          <InboundGuidance>InboundNotRecommended</InboundGuidance>
-          <GuidanceReasonList>
-            <GuidanceReason>SlowMovingASIN</GuidanceReason>
-          </GuidanceReasonList>
-        </SKUInboundGuidanceList>
-        <InvalidSKUList></InvalidSKUList>
-      </GetInboundGuidanceForSKUResult>
-      <ResponseMetadata>
-        <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
-      </ResponseMetadata>
-    </GetInboundGuidanceForSKUResponse>
+``` pre
+<?xml version="1.0"?>
+<GetInboundGuidanceForSKUResponse
+  xmlns="https://mws.amazonservices.com/FulfillmentInboundShipment/2010-10-01">
+  <GetInboundGuidanceForSKUResult>
+    <SKUInboundGuidanceList>
+      <SellerSKU>us001</SellerSKU>
+      <ASIN>B00005N5PF</ASIN>
+      <InboundGuidance>InboundNotRecommended</InboundGuidance>
+      <GuidanceReasonList>
+        <GuidanceReason>SlowMovingASIN</GuidanceReason>
+      </GuidanceReasonList>
+    </SKUInboundGuidanceList>
+    <InvalidSKUList></InvalidSKUList>
+  </GetInboundGuidanceForSKUResult>
+  <ResponseMetadata>
+    <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
+  </ResponseMetadata>
+</GetInboundGuidanceForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -302,8 +301,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

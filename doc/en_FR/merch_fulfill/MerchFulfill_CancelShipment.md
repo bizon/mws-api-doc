@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulFill_CancelShipment" class="nested0">
 
-CancelShipment
-==============
+# CancelShipment
 
 <div class="body">
 
@@ -53,8 +52,7 @@ CancelShipment
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -123,8 +121,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -137,21 +134,21 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d166160e195" class="entry" data-valign="top" width="24.061810154525393%">Name</th>
+<th id="d166160e198" class="entry" data-valign="top" width="22.075055187637975%">Description</th>
+<th id="d166160e201" class="entry" data-valign="top" width="23.178807947019873%">Required</th>
+<th id="d166160e204" class="entry" data-valign="top" width="30.684326710816777%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span id="RequestParameters__d37863e269" class="ph">An Amazon-defined shipment identifier.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.061810154525393%" headers="d166160e195 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="22.075055187637975%" headers="d166160e198 "><span id="RequestParameters__d37863e269" class="ph">An Amazon-defined shipment identifier.</span>
 <p><span id="RequestParameters__d37863e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="23.178807947019873%" headers="d166160e201 ">Yes</td>
+<td class="entry" data-valign="top" width="30.684326710816777%" headers="d166160e204 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -164,8 +161,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -176,16 +172,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d166160e268" class="entry" data-valign="top">Name</th>
+<th id="d166160e271" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Shipment</span></td>
-<td><span class="ph">The details of a shipment, including the shipment status.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" headers="d166160e268 "><span class="keyword parmname">Shipment</span></td>
+<td class="entry" data-valign="top" headers="d166160e271 "><span class="ph">The details of a shipment, including the shipment status.</span>
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.
@@ -204,8 +200,7 @@ Type: <a href="MerchFulfill_Datatypes.md#Shipment" class="xref" title="The detai
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -223,15 +218,17 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
-      &Action=CancelShipment
-      &SellerId=A09087172RPFTMV0PGAN2
-      &SignatureVersion=2
-      &Timestamp=2015-09-23T20%3A35%3A05Z
-      &Version=2015-06-01
-      &Signature=HHLRMvGAu0ANINFbjPE7nvEH6IGK%2FxPsLGayAg2WekE%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=6f77095e-9f75-47eb-aaab-a42d5428fa1a
+``` pre
+https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
+  &Action=CancelShipment
+  &SellerId=A09087172RPFTMV0PGAN2
+  &SignatureVersion=2
+  &Timestamp=2015-09-23T20%3A35%3A05Z
+  &Version=2015-06-01
+  &Signature=HHLRMvGAu0ANINFbjPE7nvEH6IGK%2FxPsLGayAg2WekE%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=6f77095e-9f75-47eb-aaab-a42d5428fa1a
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -252,101 +249,103 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <CancelShipmentResponse xmlns="https://mws.amazonservices.com
-    /MerchantFulfillment/2015-06-01">
-      <CancelShipmentResult>
-        <Shipment>
-          <Insurance>
+``` pre
+<?xml version="1.0"?>
+<CancelShipmentResponse xmlns="https://mws.amazonservices.com
+/MerchantFulfillment/2015-06-01">
+  <CancelShipmentResult>
+    <Shipment>
+      <Insurance>
+        <CurrencyCode>USD</CurrencyCode>
+        <Amount>10.00</Amount>
+      </Insurance>
+      <ShipToAddress>
+        <City>Seattle</City>
+        <Phone/>
+        <CountryCode>US</CountryCode>
+        <PostalCode>98121-2778</PostalCode>
+        <Name>Jane Smith</Name>
+        <AddressLine1>321 Main St</AddressLine1>
+        <StateOrProvinceCode>WA</StateOrProvinceCode>
+        <Email/>
+      </ShipToAddress>
+      <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+      <Weight>
+        <Value>10</Value>
+        <Unit>oz</Unit>
+      </Weight>
+      <Label>
+        <FileContents>
+          <Checksum>DmsWbJpdMPALN3jV4wHOrg==</Checksum>
+          <Contents>H4sIAAAAAAAAAK16WbeqyrLmO2Pc/zBVRLG...
+...kI0Ycv76w378UfL6O6ev7UsAwmkWBfL6nycD/Bd+Zx3S8LwAA</Contents>
+          <FileType>application/pdf</FileType>
+        </FileContents>
+        <Dimensions>
+          <Width>8.50000</Width>
+          <Length>11.00000</Length>
+          <Unit>inches</Unit>
+        </Dimensions>
+      </Label>
+      <ShippingService>
+        <CarrierName>FEDEX</CarrierName>
+        <ShippingServiceOptions>
+          <CarrierWillPickUp>false</CarrierWillPickUp>
+          <DeclaredValue>
             <CurrencyCode>USD</CurrencyCode>
             <Amount>10.00</Amount>
-          </Insurance>
-          <ShipToAddress>
-            <City>Seattle</City>
-            <Phone/>
-            <CountryCode>US</CountryCode>
-            <PostalCode>98121-2778</PostalCode>
-            <Name>Jane Smith</Name>
-            <AddressLine1>321 Main St</AddressLine1>
-            <StateOrProvinceCode>WA</StateOrProvinceCode>
-            <Email/>
-          </ShipToAddress>
-          <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-          <Weight>
-            <Value>10</Value>
-            <Unit>oz</Unit>
-          </Weight>
-          <Label>
-            <FileContents>
-              <Checksum>DmsWbJpdMPALN3jV4wHOrg==</Checksum>
-              <Contents>H4sIAAAAAAAAAK16WbeqyrLmO2Pc/zBVRLG...
-    ...kI0Ycv76w378UfL6O6ev7UsAwmkWBfL6nycD/Bd+Zx3S8LwAA</Contents>
-              <FileType>application/pdf</FileType>
-            </FileContents>
-            <Dimensions>
-              <Width>8.50000</Width>
-              <Length>11.00000</Length>
-              <Unit>inches</Unit>
-            </Dimensions>
-          </Label>
-          <ShippingService>
-            <CarrierName>FEDEX</CarrierName>
-            <ShippingServiceOptions>
-              <CarrierWillPickUp>false</CarrierWillPickUp>
-              <DeclaredValue>
-                <CurrencyCode>USD</CurrencyCode>
-                <Amount>10.00</Amount>
-              </DeclaredValue>
-              <DeliveryExperience>DELIVERY_CONFIRMATION
-              </DeliveryExperience>
-            </ShippingServiceOptions>
-            <ShippingServiceId>FEDEX_PTP_PRIORITY_OVERNIGHT
-            </ShippingServiceId>
-            <Rate>
-              <CurrencyCode>USD</CurrencyCode>
-              <Amount>27.81</Amount>
-            </Rate>
-            <LatestEstimatedDeliveryDate>2015-09-24T10:30:00Z
-            </LatestEstimatedDeliveryDate>
-            <EarliestEstimatedDeliveryDate>2015-09-24T10:30:00Z
-            </EarliestEstimatedDeliveryDate>
-            <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa
-    3mN2+zUOsRCAZS2oYt0ey6fXKdOAucmYVXR9LAkU9O9eys9V3FJCgvQ+vAqm4bSAzHVH04vD8oLy
-    oUPKqxa8Otbek97Z85LFUSsfcUf8frNRMEfNLP8t5RyLXa4ZOjc=</ShippingServiceOfferId>
-            <ShipDate>2015-09-23T20:10:56.829Z</ShipDate>
-            <ShippingServiceName>FedEx Priority OvernightÂ®</ShippingServiceName>
-          </ShippingService>
-          <PackageDimensions>
-            <Width>5</Width>
-            <Length>5</Length>
-            <Unit>inches</Unit>
-            <Height>5</Height>
-          </PackageDimensions>
-          <CreatedDate>2015-09-23T20:11:12.908Z</CreatedDate>
-          <ShipFromAddress>
-            <City>Seattle</City>
-            <Phone>2061234567</Phone>
-            <CountryCode>US</CountryCode>
-            <PostalCode>98121</PostalCode>
-            <Name>John Doe</Name>
-            <AddressLine1>1234 Westlake Ave</AddressLine1>
-            <StateOrProvinceCode>WA</StateOrProvinceCode>
-          </ShipFromAddress>
-          <ShipmentId>6f77095e-9f75-47eb-aaab-a42d5428fa1a</ShipmentId>
-          <ItemList>
-            <Item>
-              <OrderItemId>40525960574974</OrderItemId>
-              <Quantity>1</Quantity>
-            </Item>
-          </ItemList>
-          <Status>Purchased</Status>
-          <TrackingId>794657111237</TrackingId>
-        </Shipment>
-      </CancelShipmentResult>
-      <ResponseMetadata>
-        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-      </ResponseMetadata>
-    </CancelShipmentResponse>
+          </DeclaredValue>
+          <DeliveryExperience>DELIVERY_CONFIRMATION
+          </DeliveryExperience>
+        </ShippingServiceOptions>
+        <ShippingServiceId>FEDEX_PTP_PRIORITY_OVERNIGHT
+        </ShippingServiceId>
+        <Rate>
+          <CurrencyCode>USD</CurrencyCode>
+          <Amount>27.81</Amount>
+        </Rate>
+        <LatestEstimatedDeliveryDate>2015-09-24T10:30:00Z
+        </LatestEstimatedDeliveryDate>
+        <EarliestEstimatedDeliveryDate>2015-09-24T10:30:00Z
+        </EarliestEstimatedDeliveryDate>
+        <ShippingServiceOfferId>HDDUKqtQVFetpBZAqx5c1yaCZ9vuFfND0kudyw3lLWCa
+3mN2+zUOsRCAZS2oYt0ey6fXKdOAucmYVXR9LAkU9O9eys9V3FJCgvQ+vAqm4bSAzHVH04vD8oLy
+oUPKqxa8Otbek97Z85LFUSsfcUf8frNRMEfNLP8t5RyLXa4ZOjc=</ShippingServiceOfferId>
+        <ShipDate>2015-09-23T20:10:56.829Z</ShipDate>
+        <ShippingServiceName>FedEx Priority OvernightÂ®</ShippingServiceName>
+      </ShippingService>
+      <PackageDimensions>
+        <Width>5</Width>
+        <Length>5</Length>
+        <Unit>inches</Unit>
+        <Height>5</Height>
+      </PackageDimensions>
+      <CreatedDate>2015-09-23T20:11:12.908Z</CreatedDate>
+      <ShipFromAddress>
+        <City>Seattle</City>
+        <Phone>2061234567</Phone>
+        <CountryCode>US</CountryCode>
+        <PostalCode>98121</PostalCode>
+        <Name>John Doe</Name>
+        <AddressLine1>1234 Westlake Ave</AddressLine1>
+        <StateOrProvinceCode>WA</StateOrProvinceCode>
+      </ShipFromAddress>
+      <ShipmentId>6f77095e-9f75-47eb-aaab-a42d5428fa1a</ShipmentId>
+      <ItemList>
+        <Item>
+          <OrderItemId>40525960574974</OrderItemId>
+          <Quantity>1</Quantity>
+        </Item>
+      </ItemList>
+      <Status>Purchased</Status>
+      <TrackingId>794657111237</TrackingId>
+    </Shipment>
+  </CancelShipmentResult>
+  <ResponseMetadata>
+    <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+  </ResponseMetadata>
+</CancelShipmentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -360,8 +359,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

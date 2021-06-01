@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToUseForPrime" class="nested0">
 
-How to fulfill Seller Fulfilled Prime orders
-============================================
+# How to fulfill Seller Fulfilled Prime orders
 
 <div class="body">
 
@@ -183,8 +182,7 @@ in Seller Central.
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 <a href="MerchFulfill_HowToGetNewShippingLabel.md" class="xref">How to reprint a shipping label</a>
 

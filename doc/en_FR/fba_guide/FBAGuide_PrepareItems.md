@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 3 - Prepare the items for shipping
-=======================================
+# Step 3 - Prepare the items for shipping
 
 <div class="body taskbody">
 
@@ -59,17 +58,17 @@ To prepare your items for shipping, do the following:
     instructions for your marketplace:
     <div class="tablenoborder">
 
-    | Country | FBA Prep Instructions                                                                                                                                                                                                  |
-    |---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Canada  | <a href="https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-CA.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-CA.pdf</a>   |
-    | France  | <a href="https://images-na.ssl-images-amazon.com/images/G/08/image/FBA_Prep_Matrix_FR.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/08/image/FBA_Prep_Matrix_FR.pdf</a>                           |
-    | Germany | <a href="https://images-na.ssl-images-amazon.com/images/G/03/Image/FBA-Prep-Matrix_DE.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/03/Image/FBA-Prep-Matrix_DE.pdf</a>                           |
-    | India   | <a href="https://images-na.ssl-images-amazon.com/images/G/31/rainier/help/FBA_Prep_Matrix_IN_Final.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/31/rainier/help/FBA_Prep_Matrix_IN_Final.pdf</a> |
-    | Italy   | <a href="https://images-na.ssl-images-amazon.com/images/G/29/image/FBA_PrepMatrix_IT.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/29/image/FBA_PrepMatrix_IT.pdf</a>                             |
-    | Japan   | <a href="https://images-na.ssl-images-amazon.com/images/G/09/rainier/help/fba/Prep_Matrix_Text_JP.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/09/rainier/help/fba/Prep_Matrix_Text_JP.pdf</a>   |
-    | Spain   | <a href="https://images-na.ssl-images-amazon.com/images/G/30/image/FBA-Prep-Matrix_ES.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/30/image/FBA-Prep-Matrix_ES.pdf</a>                           |
-    | UK      | <a href="https://images-na.ssl-images-amazon.com/images/G/02/images/FBA-Prep-Matrix_UK_EN_final.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/02/images/FBA-Prep-Matrix_UK_EN_final.pdf</a>       |
-    | US      | <a href="https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-US.pdf" class="xref">https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-US.pdf</a>   |
+    | Country | FBA Prep Instructions                                                                           |
+    |---------|-------------------------------------------------------------------------------------------------|
+    | Canada  | <https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-CA.pdf>  |
+    | France  | <https://images-na.ssl-images-amazon.com/images/G/08/image/FBA_Prep_Matrix_FR.pdf>              |
+    | Germany | <https://images-na.ssl-images-amazon.com/images/G/03/Image/FBA-Prep-Matrix_DE.pdf>              |
+    | India   | <https://images-na.ssl-images-amazon.com/images/G/31/rainier/help/FBA_Prep_Matrix_IN_Final.pdf> |
+    | Italy   | <https://images-na.ssl-images-amazon.com/images/G/29/image/FBA_PrepMatrix_IT.pdf>               |
+    | Japan   | <https://images-na.ssl-images-amazon.com/images/G/09/rainier/help/fba/Prep_Matrix_Text_JP.pdf>  |
+    | Spain   | <https://images-na.ssl-images-amazon.com/images/G/30/image/FBA-Prep-Matrix_ES.pdf>              |
+    | UK      | <https://images-na.ssl-images-amazon.com/images/G/02/images/FBA-Prep-Matrix_UK_EN_final.pdf>    |
+    | US      | <https://images-na.ssl-images-amazon.com/images/G/01/fba-help/QRG/FBA_Prep_Products_en-US.pdf>  |
 
     </div>
 

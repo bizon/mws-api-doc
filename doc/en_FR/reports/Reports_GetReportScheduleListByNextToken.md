@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportScheduleListByNextToken" class="nested0">
 
-GetReportScheduleListByNextToken
-================================
+# GetReportScheduleListByNextToken
 
 <div class="body">
 
@@ -56,8 +55,7 @@ compatibility.</span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

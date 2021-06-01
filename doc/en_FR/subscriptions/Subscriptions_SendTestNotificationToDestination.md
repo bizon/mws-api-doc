@@ -43,16 +43,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div id="Subscriptions_SendTestNotificationToDestination"
 class="nested0">
 
-SendTestNotificationToDestination
-=================================
+# SendTestNotificationToDestination
 
 <span class="ph">Sends a test notification to an existing
 destination.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -99,8 +97,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -122,27 +119,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d324036e172" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d324036e175" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d324036e178" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d324036e181" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>The unique identifier for the marketplace.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e172 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e175 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d324036e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e181 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Destination</span></td>
-<td>The <span class="keyword parmname">Destination</span> to receive the test notification.</td>
-<td>Yes</td>
-<td>Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e172 "><span class="keyword parmname">Destination</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e175 ">The <span class="keyword parmname">Destination</span> to receive the test notification.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d324036e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d324036e181 ">Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
 <p>Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
 </tr>
 </tbody>
@@ -156,8 +153,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -175,8 +171,7 @@ operation only returns the common response elements.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -194,25 +189,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Subscriptions/2013-07-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Subscriptions/2013-07-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
-    &Action=SendTestNotificationToDestination
-    &Destination.AttributeList.member.1.Key=sqsQueueUrl
-    &Destination.AttributeList.member.1.Value=
-      https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
-    &Destination.DeliveryChannel=SQS
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A135KEXAMPLE56
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2013-07-25T16%3A34%3A10Z
-    &Version=2013-07-01
-    &Signature=4nVisEXAMPLEpMaKsvyGPLkvtang%2Bo6Gurz4PssrPIY%3D
+AWSAccessKeyId=AKIAEEXAMPLENGQCJLSA
+&Action=SendTestNotificationToDestination
+&Destination.AttributeList.member.1.Key=sqsQueueUrl
+&Destination.AttributeList.member.1.Value=
+  https%3A%2F%2Fsqs.us-east-1.amazonaws.com%2F51471EXAMPLE%2Fmws_notifications
+&Destination.DeliveryChannel=SQS
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A135KEXAMPLE56
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2013-07-25T16%3A34%3A10Z
+&Version=2013-07-01
+&Signature=4nVisEXAMPLEpMaKsvyGPLkvtang%2Bo6Gurz4PssrPIY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -233,13 +230,15 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <SendTestNotificationToDestinationResponse
-        xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
-        <SendTestNotificationToDestinationResult/>
-        <ResponseMetadata>
-            <RequestId>f662dae6-bde0-4e75-a53b-741abEXAMPLE</RequestId>
-        </ResponseMetadata>
-    </SendTestNotificationToDestinationResponse>
+``` pre
+<SendTestNotificationToDestinationResponse
+    xmlns="http://mws.amazonservices.com/schema/Subscriptions/2013-07-01">
+    <SendTestNotificationToDestinationResult/>
+    <ResponseMetadata>
+        <RequestId>f662dae6-bde0-4e75-a53b-741abEXAMPLE</RequestId>
+    </ResponseMetadata>
+</SendTestNotificationToDestinationResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -253,8 +252,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

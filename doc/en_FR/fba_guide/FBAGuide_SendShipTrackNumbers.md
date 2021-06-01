@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 6 - Send shipment tracking numbers to Amazon
-=================================================
+# Step 6 - Send shipment tracking numbers to Amazon
 
 <div class="body conbody">
 
@@ -63,12 +62,13 @@ class="ph">Amazon fulfillment center</span> faster and more accurately.
 2.  Include your shipment tracking numbers using the <span
     class="keyword parmname">TrackingId</span> parameter. Example:
 
-        &TransportDetails.NonPartneredSmallParcelData.PackageList.member.1.TrackingId=A135KKEKWF1J5666
+    ``` pre
+    &TransportDetails.NonPartneredSmallParcelData.PackageList.member.1.TrackingId=A135KKEKWF1J5666
+    ```
 
 <div class="section">
 
-Getting the shipment status of non-Amazon-partnered Small Parcel shipments
---------------------------------------------------------------------------
+## Getting the shipment status of non-Amazon-partnered Small Parcel shipments
 
 After sending shipment tracking numbers for a non-Amazon-partnered <span
 class="ph">Small Parcel</span> shipment to Amazon, you can get the

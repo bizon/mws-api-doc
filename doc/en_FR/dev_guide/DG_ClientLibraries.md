@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ClientLibraries" class="nested0">
 
-Using the Amazon MWS client libraries
-=====================================
+# Using the Amazon MWS client libraries
 
 <div class="body">
 
@@ -71,8 +70,7 @@ MWS</span> client libraries perform the following tasks for you:
 
 <div id="DG_OwnClientLibrary" class="topic concept nested1">
 
-If you create your own client library
--------------------------------------
+## If you create your own client library
 
 <div class="body conbody">
 
@@ -178,13 +176,15 @@ You access <span class="ph">Amazon MWS</span> by following these steps:
     submit. The actual request should not contain white space or line
     breaks.
 
-        https://mws.amazonservices.com/AWSAccessKeyId=AKIAFJPPO5KLY6G4XO7Q&Action=G
-        etFeedSubmissionResult&FeedSubmissionId=4321011681&MWSAuthToken=amzn.mws.4e
-        a38b7b-f563-7709-4bae-87aeaEXAMPLE&Marketplace=ATVPDKIKX0DER&SellerId=A3F1L
-        GRLCQDI4D&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2011-02-0
-        4T23%3A08%3A19Z&Version=2009-01-0&Signature=WhateverTheSignatureWas1HTTP/1.
-        1Host:mws.amazonservices.comX-Amazon-User-Agent:AmazonJavascriptApp/1.0(Lan
-        guage=Javascript)Content-Type:text/xml
+    ``` pre
+    https://mws.amazonservices.com/AWSAccessKeyId=AKIAFJPPO5KLY6G4XO7Q&Action=G
+    etFeedSubmissionResult&FeedSubmissionId=4321011681&MWSAuthToken=amzn.mws.4e
+    a38b7b-f563-7709-4bae-87aeaEXAMPLE&Marketplace=ATVPDKIKX0DER&SellerId=A3F1L
+    GRLCQDI4D&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2011-02-0
+    4T23%3A08%3A19Z&Version=2009-01-0&Signature=WhateverTheSignatureWas1HTTP/1.
+    1Host:mws.amazonservices.comX-Amazon-User-Agent:AmazonJavascriptApp/1.0(Lan
+    guage=Javascript)Content-Type:text/xml
+    ```
 
 9.  **Parse the response.**
 

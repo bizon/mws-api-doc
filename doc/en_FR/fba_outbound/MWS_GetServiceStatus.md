@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MWS_GetServiceStatus" class="nested0">
 
-GetServiceStatus
-================
+# GetServiceStatus
 
 <div class="body">
 
@@ -54,8 +53,7 @@ class="ph">Fulfillment Outbound Shipment API section</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -93,8 +91,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -110,8 +107,7 @@ None
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -122,16 +118,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d118685e157" class="entry" data-valign="top" width="28.653295128939828%">Name</th>
+<th id="d118685e160" class="entry" data-valign="top" width="71.34670487106017%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Status</span></td>
-<td>The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118685e157 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118685e160 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
 <dl>
 <dt>GREEN</dt>
 <dd>The service is operating normally.
@@ -145,23 +141,23 @@ Response elements
 </dl>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Timestamp</span></td>
-<td>Indicates the time at which the operational status was evaluated.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118685e157 "><span class="keyword parmname">Timestamp</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118685e160 ">Indicates the time at which the operational status was evaluated.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">MessageId</span></td>
-<td>An Amazon-defined message identifier.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118685e157 "><span class="keyword parmname">MessageId</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118685e160 ">An Amazon-defined message identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Messages</span></td>
-<td>The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118685e157 "><span class="keyword parmname">Messages</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118685e160 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Message</span></td>
-<td>The operational status message.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118685e157 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118685e160 ">The operational status message.
 <p>The parent element of the following child elements (both child elements are type: xs:string):</p>
 <ul>
 <li><span class="keyword parmname">Locale</span></li>
@@ -179,8 +175,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -198,16 +193,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonservices.com/FulfillmentOutboundShipment/2010-10-01/
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=GetServiceStatus
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A1XEXAMPLE5E6
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Timestamp=2010-11-01T18%3A12%3A21.687Z
-      &Version=2010-10-01
+``` pre
+http://mws.amazonservices.com/FulfillmentOutboundShipment/2010-10-01/
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=GetServiceStatus
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A1XEXAMPLE5E6
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Timestamp=2010-11-01T18%3A12%3A21.687Z
+  &Version=2010-10-01
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -228,16 +225,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetServiceStatusResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
-        <GetServiceStatusResult>
-            <Status>GREEN</Status>
-            <Timestamp>2010-11-01T21:38:09.676Z</Timestamp>
-        </GetServiceStatusResult>
-        <ResponseMetadata>
-            <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
-        </ResponseMetadata>
-    </GetServiceStatusResponse>
+``` pre
+<?xml version="1.0"?>
+<GetServiceStatusResponse xmlns="http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/">
+    <GetServiceStatusResult>
+        <Status>GREEN</Status>
+        <Timestamp>2010-11-01T21:38:09.676Z</Timestamp>
+    </GetServiceStatusResult>
+    <ResponseMetadata>
+        <RequestId>d80c6c7b-f7c7-4fa7-bdd7-854711cb3bcc</RequestId>
+    </ResponseMetadata>
+</GetServiceStatusResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -251,8 +250,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

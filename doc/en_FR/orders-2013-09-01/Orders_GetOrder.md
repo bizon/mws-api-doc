@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Orders_GetOrder" class="nested0">
 
-GetOrder
-========
+# GetOrder
 
 <div class="body">
 
@@ -55,8 +54,7 @@ specify.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -139,8 +137,7 @@ every minute. For definitions of throttling terminology, see
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -153,20 +150,20 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d217486e325" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d217486e328" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d217486e331" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d217486e334" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AmazonOrderId</span></td>
-<td>A list of <span class="keyword parmname">AmazonOrderId</span> values. An <span class="keyword parmname">AmazonOrderId</span> is an Amazon-defined order identifier, in 3-7-7 format.</td>
-<td>Yes</td>
-<td>Maximum: 50
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d217486e325 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d217486e328 ">A list of <span class="keyword parmname">AmazonOrderId</span> values. An <span class="keyword parmname">AmazonOrderId</span> is an Amazon-defined order identifier, in 3-7-7 format.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d217486e331 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d217486e334 ">Maximum: 50
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -180,8 +177,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -199,8 +195,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -218,18 +213,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.jp/Orders/2013-09-01
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=GetOrder
-      &AmazonOrderId.Id.1=902-3159896-1390916
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A2986ZQ066CH2F
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &LastUpdatedAfter=2017-02-01T18%3A12%3A21
-      &Timestamp=2017-02-05T18%3A12%3A21.687Z
-      &Version=2013-09-01
+``` pre
+https://mws.amazonservices.jp/Orders/2013-09-01
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=GetOrder
+  &AmazonOrderId.Id.1=902-3159896-1390916
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A2986ZQ066CH2F
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &LastUpdatedAfter=2017-02-01T18%3A12%3A21
+  &Timestamp=2017-02-05T18%3A12%3A21.687Z
+  &Version=2013-09-01
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -250,41 +247,43 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetOrderResponse xmlns="https://mws.amazonservices.com/
-        Orders/2013-09-01">
-        <GetOrderResult>
-            <Orders>
-                <Order>
-                    <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
-                    <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
-                    <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
-                    <OrderStatus>Pending</OrderStatus>
-                    <FulfillmentChannel>MFN</FulfillmentChannel>
-                    <NumberOfItemsShipped>0</NumberOfItemsShipped>
-                    <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
-                    <PaymentMethod>Other</PaymentMethod>
-                    <PaymentMethodDetails>
-                        <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
-                        <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
-                    </PaymentMethodDetails>
-                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>>
-                    <ShipmentServiceLevelCategory>Standard
-                    </ShipmentServiceLevelCategory>
-                    <OrderType>StandardOrder</OrderType>
-                    <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
-                    <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
-                    <IsBusinessOrder>false</IsBusinessOrder>
-                    <IsPrime>false</IsPrime>
-                    <IsPremiumOrder>false</IsPremiumOrder>
-                    <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
-                </Order>
-            </Orders>
-        </GetOrderResult>
-        <ResponseMetadata>
-            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-        </ResponseMetadata>
-    </GetOrderResponse>
+``` pre
+<?xml version="1.0"?>
+<GetOrderResponse xmlns="https://mws.amazonservices.com/
+    Orders/2013-09-01">
+    <GetOrderResult>
+        <Orders>
+            <Order>
+                <AmazonOrderId>902-3159896-1390916</AmazonOrderId>
+                <PurchaseDate>2017-01-20T19:49:35Z</PurchaseDate>
+                <LastUpdateDate>2017-01-20T19:49:35Z</LastUpdateDate>
+                <OrderStatus>Pending</OrderStatus>
+                <FulfillmentChannel>MFN</FulfillmentChannel>
+                <NumberOfItemsShipped>0</NumberOfItemsShipped>
+                <NumberOfItemsUnshipped>0</NumberOfItemsUnshipped>
+                <PaymentMethod>Other</PaymentMethod>
+                <PaymentMethodDetails>
+                    <PaymentMethodDetail>CreditCard</PaymentMethodDetail>
+                    <PaymentMethodDetail>GiftCerificate</PaymentMethodDetail>
+                </PaymentMethodDetails>
+                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>>
+                <ShipmentServiceLevelCategory>Standard
+                </ShipmentServiceLevelCategory>
+                <OrderType>StandardOrder</OrderType>
+                <EarliestShipDate>2017-01-20T19:51:16Z</EarliestShipDate>
+                <LatestShipDate>2017-01-25T19:49:35Z</LatestShipDate>   
+                <IsBusinessOrder>false</IsBusinessOrder>
+                <IsPrime>false</IsPrime>
+                <IsPremiumOrder>false</IsPremiumOrder>
+                <IsGlobalExpressEnabled>false</IsGlobalExpressEnabled>
+            </Order>
+        </Orders>
+    </GetOrderResult>
+    <ResponseMetadata>
+        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+    </ResponseMetadata>
+</GetOrderResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -298,8 +297,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

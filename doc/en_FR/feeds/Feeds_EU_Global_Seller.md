@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Using multiple marketplaces
-===========================
+# Using multiple marketplaces
 
 <div class="body conbody">
 
@@ -79,8 +78,7 @@ class="keyword parmname">SellerId</span>.
 
 <div class="section">
 
-Understanding how <span class="keyword parmname">MarketplaceId</span> values are used
--------------------------------------------------------------------------------------
+## Understanding how <span class="keyword parmname">MarketplaceId</span> values are used
 
 You specify what marketplaces you want a feed to be applied to by
 supplying a list of <span class="keyword parmname">MarketplaceId</span>
@@ -91,8 +89,10 @@ example, an EU multiple-marketplace seller could specify that a feed be
 applied to both their FR and DE marketplaces by specifying the <span
 class="keyword parmname">MarketplaceIdList</span> parameter as follows:
 
-    &MarketplaceIdList.Id.1=A13V1IB3VIYZZH
-    &MarketplaceIdList.Id.2=A1PA6795UKMFR9
+``` pre
+&MarketplaceIdList.Id.1=A13V1IB3VIYZZH
+&MarketplaceIdList.Id.2=A1PA6795UKMFR9
+```
 
 Do not confuse the optional <span
 class="keyword parmname">MarketplaceIdList</span> parameter with the
@@ -115,8 +115,7 @@ class="keyword parmname">MarketplaceId</span> value.
 
 <div class="section">
 
-Behavior of Feeds When Submitting Multiple <span class="keyword parmname">MarketplaceId</span> values
------------------------------------------------------------------------------------------------------
+## Behavior of Feeds When Submitting Multiple <span class="keyword parmname">MarketplaceId</span> values
 
 <div class="p">
 
@@ -163,8 +162,7 @@ multiple <span class="keyword parmname">MarketplaceId</span> values:
 
 <div class="section">
 
-Behavior of XML Product Feeds and XML Relationship Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
--------------------------------------------------------------------------------------------------------------------------------------------
+## Behavior of XML Product Feeds and XML Relationship Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 An XML Product Feed or XML Relationship Feed submission that specifies a
 list of <span class="keyword parmname">MarketplaceId</span> values must
@@ -186,8 +184,7 @@ of feed. This behavior applies to the following feeds:
 
 <div class="section">
 
-Behavior of XML Inventory Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-------------------------------------------------------------------------------------------------------------------
+## Behavior of XML Inventory Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 In EU (for all sellers) and in NA (for <span
 class="ph">self-fulfilled</span> sellers only), quantity is a global
@@ -210,8 +207,7 @@ This behavior applies to the following feed:
 
 <div class="section">
 
-Behavior of XML Overrides Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-------------------------------------------------------------------------------------------------------------------
+## Behavior of XML Overrides Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 Only a single marketplace can be specified for XML Overrides Feeds. An
 FBA <span class="keyword parmname">MarketplaceId</span> is not a valid
@@ -225,8 +221,7 @@ feed. This behavior applies to the following feed:
 
 <div class="section">
 
-Behavior of XML Pricing Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-----------------------------------------------------------------------------------------------------------------
+## Behavior of XML Pricing Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 An XML Pricing Feed submission that specifies a list of <span
 class="keyword parmname">MarketplaceId</span> values must specify <span
@@ -246,8 +241,7 @@ this type of feed. This behavior applies to the following feed:
 
 <div class="section">
 
-Behavior of XML Product Image Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-----------------------------------------------------------------------------------------------------------------------
+## Behavior of XML Product Image Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 XML Product Image Feeds map images to ASINs in the provided
 marketplaces. If no <span class="keyword parmname">MarketplaceId</span>
@@ -263,8 +257,7 @@ following feed:
 
 <div class="section">
 
-Behavior of Flat File Product and Inventory Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-------------------------------------------------------------------------------------------------------------------------------------
+## Behavior of Flat File Product and Inventory Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 Flat File Product and Inventory Feeds can only be applied to one
 country, though they can apply to multiple marketplaces in that country,
@@ -304,8 +297,7 @@ This behavior applies to the following feeds:
 
 <div class="section">
 
-Behavior of Order Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-----------------------------------------------------------------------------------------------------------
+## Behavior of Order Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 All Order Feeds refer to an Amazon order ID, which is a globally unique
 identifier. Therefore, Order Feeds are not marketplace-specific. This
@@ -328,8 +320,7 @@ behavior applies to the following feeds:
 
 <div class="section">
 
-Behavior of XML FBA Fulfillment Order Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
-------------------------------------------------------------------------------------------------------------------------------
+## Behavior of XML FBA Fulfillment Order Feeds when used with multiple <span class="keyword parmname">MarketplaceId</span> values
 
 All XML FBA Fulfillment Order Feeds can only be applied to **one
 country**, though they can apply to multiple marketplaces in that
@@ -350,8 +341,7 @@ This behavior applies to the following feeds:
 
 <div class="section">
 
-Error messages when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
---------------------------------------------------------------------------------------------------
+## Error messages when submitting multiple <span class="keyword parmname">MarketplaceId</span> values
 
 There are several error messages that can be sent when submitting
 requests with multiple <span
@@ -363,8 +353,8 @@ class="keyword parmname">MarketplaceId</span> values:
 
 | Error Message                                                                                                                                                                                                                                                                 | Description                                                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| All provided marketplaces for this feed type must have the same default language code. \[ABCD\], \[EFGH\] have different default language codes.                                                                                                                              | Some feeds, such as the \_POST\_PRODUCT\_DATA\_ feed, can only be applied to marketplaces that share the same language. The specified <span class="keyword parmname">MarketplaceId</span> values do not share the same language.                                                                 |
-| All provided marketplaces for this feed type must have the same default currency code. \[ABCD\], \[EFGH\] have different default currency codes.                                                                                                                              | Some feeds, especially those that deal with pricing such as the \_POST\_PRODUCT\_PRICING\_DATA\_ feed, can only be applied to marketplaces that share the same currency. The specified <span class="keyword parmname">MarketplaceId</span> values do not share the same currency.                |
+| All provided marketplaces for this feed type must have the same default language code. \[ABCD\], \[EFGH\] have different default language codes.                                                                                                                              | Some feeds, such as the \_POST_PRODUCT_DATA\_ feed, can only be applied to marketplaces that share the same language. The specified <span class="keyword parmname">MarketplaceId</span> values do not share the same language.                                                                   |
+| All provided marketplaces for this feed type must have the same default currency code. \[ABCD\], \[EFGH\] have different default currency codes.                                                                                                                              | Some feeds, especially those that deal with pricing such as the \_POST_PRODUCT_PRICING_DATA\_ feed, can only be applied to marketplaces that share the same currency. The specified <span class="keyword parmname">MarketplaceId</span> values do not share the same currency.                   |
 | All provided marketplaces for this feed type must be based in the same country. \[ABCD\], \[EFGH\] have different default country codes.                                                                                                                                      | Flat-file feeds can only be applied to <span class="keyword parmname">MarketplaceId</span> values that are registered in the same country. The specified <span class="keyword parmname">MarketplaceId</span> values do not share the same default country.                                       |
 | The provided marketplaces are correctly associated with your account, but you are prevented from performing this action in the following marketplaces: \[ABCD\], \[ABCD\]. Please contact Seller Support in your default marketplace for more information about your account. | There is some issue with your account and the <span class="keyword parmname">MarketplaceId</span> you specified. You can get this error message for several reasons, including not completing a marketplace registration. Contact Seller Support in your home marketplace to clear up the issue. |
 | One or more of the provided marketplaces is an FBA marketplace and cannot be used for this feed/report type: \[ABCD\], \[ABCD\].                                                                                                                                              | An FBA <span class="keyword parmname">MarketplaceId</span> is not a valid <span class="keyword parmname">MarketplaceId</span> for this type of feed.                                                                                                                                             |

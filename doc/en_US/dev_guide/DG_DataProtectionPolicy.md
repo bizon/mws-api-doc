@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.com/gp/mws/docs.html)</span>
 
 <div id="DG_DataProtectionPolicy" class="nested0">
 
-Data Protection Policy
-======================
+# Data Protection Policy
 
 <div class="body">
 

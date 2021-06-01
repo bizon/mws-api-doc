@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_CreateInboundShipment" class="nested0">
 
-CreateInboundShipment
-=====================
+# CreateInboundShipment
 
 <div class="body">
 
@@ -53,8 +52,7 @@ CreateInboundShipment
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -99,8 +97,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -129,8 +126,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -141,16 +137,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d34758e295" class="entry" data-valign="top" width="19.083969465648853%">Name</th>
+<th id="d34758e298" class="entry" data-valign="top" width="80.91603053435115%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="19.083969465648853%" headers="d34758e295 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="80.91603053435115%" headers="d34758e298 "><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -164,8 +160,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -192,35 +187,37 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-    ?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
-    &Action=CreateInboundShipment
-    &SellerId=A135KKEKWF1J56
-    &SignatureVersion=2
-    &Timestamp=2015-11-29T22%3A51%3A09Z
-    &Version=2010-10-01
-    &Signature=zzk0jdEopg7JgFAAjVrmESGYHKwvBJ2BhYdC1gLaUhc%3D
-    &SignatureMethod=HmacSHA256
-    &ShipmentId=FBA0000001
-    &InboundShipmentHeader.ShipmentName=SHIPMENT_NAME
-    &InboundShipmentHeader.ShipFromAddress.Name=NAME
-    &InboundShipmentHeader.ShipFromAddress.AddressLine1=ADDR_LINE1
-    &InboundShipmentHeader.ShipFromAddress.City=Seattle
-    &InboundShipmentHeader.ShipFromAddress.StateOrProvinceCode=WA
-    &InboundShipmentHeader.ShipFromAddress.PostalCode=98121
-    &InboundShipmentHeader.ShipFromAddress.CountryCode=US
-    &InboundShipmentHeader.DestinationFulfillmentCenterId=ABE2
-    &InboundShipmentHeader.ShipmentStatus=WORKING
-    &InboundShipmentHeader.LabelPrepPreference=SELLER_LABEL
-    &InboundShipmentHeader.IntendedBoxContentsSource=FEED
-    &InboundShipmentItems.member.1.QuantityShipped=1
-    &InboundShipmentItems.member.1.SellerSKU=SKU00001
-    &InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping 
-    &InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
-    &InboundShipmentItems.member.2.QuantityShipped=2
-    &InboundShipmentItems.member.2.SellerSKU=SKU00002
-    &InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepInstruction=Taping 
-    &InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepOwner=SELLER
+``` pre
+https://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+?AWSAccessKeyId=AKIAEIAL5QODNGQCJLSA
+&Action=CreateInboundShipment
+&SellerId=A135KKEKWF1J56
+&SignatureVersion=2
+&Timestamp=2015-11-29T22%3A51%3A09Z
+&Version=2010-10-01
+&Signature=zzk0jdEopg7JgFAAjVrmESGYHKwvBJ2BhYdC1gLaUhc%3D
+&SignatureMethod=HmacSHA256
+&ShipmentId=FBA0000001
+&InboundShipmentHeader.ShipmentName=SHIPMENT_NAME
+&InboundShipmentHeader.ShipFromAddress.Name=NAME
+&InboundShipmentHeader.ShipFromAddress.AddressLine1=ADDR_LINE1
+&InboundShipmentHeader.ShipFromAddress.City=Seattle
+&InboundShipmentHeader.ShipFromAddress.StateOrProvinceCode=WA
+&InboundShipmentHeader.ShipFromAddress.PostalCode=98121
+&InboundShipmentHeader.ShipFromAddress.CountryCode=US
+&InboundShipmentHeader.DestinationFulfillmentCenterId=ABE2
+&InboundShipmentHeader.ShipmentStatus=WORKING
+&InboundShipmentHeader.LabelPrepPreference=SELLER_LABEL
+&InboundShipmentHeader.IntendedBoxContentsSource=FEED
+&InboundShipmentItems.member.1.QuantityShipped=1
+&InboundShipmentItems.member.1.SellerSKU=SKU00001
+&InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepInstruction=Taping 
+&InboundShipmentItems.member.1.PrepDetailsList.member.1.PrepOwner=AMAZON
+&InboundShipmentItems.member.2.QuantityShipped=2
+&InboundShipmentItems.member.2.SellerSKU=SKU00002
+&InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepInstruction=Taping 
+&InboundShipmentItems.member.2.PrepDetailsList.member.1.PrepOwner=SELLER
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -241,16 +238,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <CreateInboundShipmentResponse
-      xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-      <CreateInboundShipmentResult>
-        <ShipmentId>FBA2F50GYX</ShipmentId>
-      </CreateInboundShipmentResult>
-      <ResponseMetadata>
-        <RequestId>2a1455aa-c5f9-4993-9b18-dc10407e09ba</RequestId>
-      </ResponseMetadata>
-    </CreateInboundShipmentResponse>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<CreateInboundShipmentResponse
+  xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+  <CreateInboundShipmentResult>
+    <ShipmentId>FBA2F50GYX</ShipmentId>
+  </CreateInboundShipmentResult>
+  <ResponseMetadata>
+    <RequestId>2a1455aa-c5f9-4993-9b18-dc10407e09ba</RequestId>
+  </ResponseMetadata>
+</CreateInboundShipmentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -264,8 +263,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

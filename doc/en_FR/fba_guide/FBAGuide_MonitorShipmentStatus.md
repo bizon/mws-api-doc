@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_MonitorShipmentStatus" class="nested0">
 
-Monitoring and tracking <span class="ph">FBA</span> shipment status
-===================================================================
+# Monitoring and tracking <span class="ph">FBA</span> shipment status
 
 <div class="body">
 

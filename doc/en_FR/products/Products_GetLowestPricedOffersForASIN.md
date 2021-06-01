@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetLowestPricedOffersForASIN" class="nested0">
 
-GetLowestPricedOffersForASIN
-============================
+# GetLowestPricedOffersForASIN
 
 <div class="body">
 
@@ -54,8 +53,7 @@ based on <span class="keyword parmname">ASIN</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -123,8 +121,7 @@ class="keyword apiname">GetLowestPricedOffersForASIN</span> quota.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -146,32 +143,32 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d238630e232" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d238630e235" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d238630e238" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d238630e241" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e232 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e235 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e238 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e241 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASIN</span></td>
-<td><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e232 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e235 "><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e238 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e241 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>Filters the results based on item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e232 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e235 ">Filters the results based on item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e238 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e241 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -198,8 +195,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -244,39 +240,39 @@ are:
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d238630e581" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d238630e584" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d238630e587" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d238630e590" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e581 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e584 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e587 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e590 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASIN</span></td>
-<td><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e581 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e584 "><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e587 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e590 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e581 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e584 ">The item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e587 ">Yes</td>
+<td id="ResponseElements__d50849e1535" class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e590 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Status</span></td>
-<td>The status of the operation.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e581 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e584 ">The status of the operation.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e587 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e590 "><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ActiveButTooSoonForProcessing</var>, <var class="keyword varname">NoBuyableOffers</var>, or <var class="keyword varname">NoOfferDueToMissingShippingCharge</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -308,8 +304,7 @@ the operation with one of the following values:
 
 <div id="Identifier" class="topic reference nested1">
 
-Identifier
-----------
+## Identifier
 
 <div class="body refbody">
 
@@ -329,39 +324,39 @@ and ASIN.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d238630e787" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d238630e790" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d238630e793" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d238630e796" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e787 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e790 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e793 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e796 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ASIN</span></td>
-<td><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e787 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e790 "><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e793 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e796 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemCondition</span></td>
-<td>The item condition.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e787 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e790 ">The item condition.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e793 ">Yes</td>
+<td id="Identifier__d50849e1535" class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e796 "><span class="keyword parmname">ItemCondition</span> values: <var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Club</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">TimeOfOfferChange</span></td>
-<td>The update time for the offer.</td>
-<td>No</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e787 "><span class="keyword parmname">TimeOfOfferChange</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e790 ">The update time for the offer.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e793 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e796 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -377,8 +372,7 @@ and ASIN.</span>
 
 <div id="Summary" class="topic reference nested1">
 
-Summary
--------
+## Summary
 
 <div class="body refbody">
 
@@ -417,8 +411,7 @@ class="keyword parmname">NumberOfBuyBoxEligibleOffers</span>.</span>
 
 <div id="Offers" class="topic reference nested1">
 
-Offers
-------
+## Offers
 
 <div class="body refbody">
 
@@ -453,75 +446,75 @@ or 20, whichever is less.
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d238630e1277" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d238630e1280" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d238630e1283" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d238630e1286" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Subcondition</span></td>
-<td>The subcondition of the item.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Subcondition</span> values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">Subcondition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 ">The subcondition of the item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 "><span class="keyword parmname">Subcondition</span> values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerFeedbackRating</span></td>
-<td><span id="Offers__d50849e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span></td>
-<td>No</td>
-<td>Type: <a href="Products_Datatypes.md#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">SellerFeedbackRating</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><span id="Offers__d50849e1440" class="ph">Information about the seller's feedback, including the percentage of positive feedback, and the total count of feedback received.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#SellerFeedbackRating" class="xref" title="Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total count of feedback received.">SellerFeedbackRating</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingTime</span></td>
-<td><span id="Offers__d50849e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span></td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">ShippingTime</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><span id="Offers__d50849e1369" class="ph">The maximum time within which the item will likely be shipped once an order has been placed.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#DetailedShippingTimeType" class="xref" title="The time range in which an item will likely be shipped once an order has been placed.">DetailedShippingTimeType</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ListingPrice</span></td>
-<td>The price of the item.</td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">ListingPrice</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 ">The price of the item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Points</span></td>
-<td><span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span></td>
-<td>No</td>
-<td>Type: <a href="Products_Datatypes.md#Points" class="xref" title="The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.">Points</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">Points</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><span class="ph">The number of <span class="ph">Amazon Points</span> offered with the purchase of an item.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#Points" class="xref" title="The number of Amazon Points offered with the purchase of an item. The Amazon Points program is only available in Japan.">Points</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Shipping</span></td>
-<td>The shipping cost.</td>
-<td>Yes</td>
-<td>Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">Shipping</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 ">The shipping cost.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShipsFrom</span></td>
-<td><span id="Offers__d50849e1421" class="ph">The state and country from where the item is shipped.</span></td>
-<td>No</td>
-<td>Type: <a href="Products_Datatypes.md#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">ShipsFrom</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><span id="Offers__d50849e1421" class="ph">The state and country from where the item is shipped.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 ">Type: <a href="Products_Datatypes.md#ShipsFrom" class="xref" title="The state and country from where the item is shipped.">ShipsFrom</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">IsFulfilledByAmazon</span></td>
-<td><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:boolean</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">IsFulfilledByAmazon</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">IsBuyBoxWinner</span></td>
-<td><var class="keyword varname">true</var> if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:boolean</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">IsBuyBoxWinner</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><var class="keyword varname">true</var> if the offer is currently in the Buy Box. There can be up to two Buy Box winners at any time per ASIN, one that is eligible for Prime and one that is not eligible for Prime.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">IsFeaturedMerchant</span></td>
-<td><var class="keyword varname">true</var> if the seller of the item is eligible to win the Buy Box.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:boolean</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d238630e1277 "><span class="keyword parmname">IsFeaturedMerchant</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d238630e1280 "><var class="keyword varname">true</var> if the seller of the item is eligible to win the Buy Box.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d238630e1283 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d238630e1286 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
 </tbody>
 </table>
@@ -536,8 +529,7 @@ or 20, whichever is less.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -555,23 +547,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    &ASIN=B00COK3FD8
-    &AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetLowestPricedOffersForASIN
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &ItemCondition=New
-    &SellerId=A1IMEXAMPLEWRC
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2015-05-22T21%3A23%3A31Z
-    &Version=2011-10-01
-    &Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+&ASIN=B00COK3FD8
+&AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetLowestPricedOffersForASIN
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&ItemCondition=New
+&SellerId=A1IMEXAMPLEWRC
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2015-05-22T21%3A23%3A31Z
+&Version=2011-10-01
+&Signature=V1uTEXAMPLE8HVCfobAqQDKzylYyTRWfv3X4SEXAMPLEY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -592,76 +586,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?><GetLowestPricedOffersForASINResponse 
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" 
-            ItemCondition="New" ASIN="B0002GTTRC" status="Success">
-            <Identifier>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <ASIN>B0002GTTRC</ASIN>
-                <ItemCondition>New</ItemCondition>
-                <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>0</TotalOfferCount>
-                <NumberOfOffers>
-                    <OfferCount condition="new" 
-                        fulfillmentChannel="Amazon">1</OfferCount>
-                </NumberOfOffers>
-                <LowestPrices>
-                    <LowestPrice condition="new" fulfillmentChannel="Amazon">
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </Shipping>
-                    </LowestPrice>
-                </LowestPrices>
-                <BuyBoxPrices>
-                    <BuyBoxPrice condition="New">
-                        <LandedPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </LandedPrice>
-                        <ListingPrice>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>32.99</Amount>
-                        </ListingPrice>
-                        <Shipping>
-                            <CurrencyCode>USD</CurrencyCode>
-                            <Amount>0.00</Amount>
-                        </Shipping>
-                    </BuyBoxPrice>
-                </BuyBoxPrices>
-                <ListPrice>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>58.34</Amount>
-                </ListPrice>
-                <SuggestedLowerPricePlusShipping>
-                    <CurrencyCode>USD</CurrencyCode>
-                    <Amount>32.99</Amount>
-                </SuggestedLowerPricePlusShipping>
-                <BuyBoxEligibleOffers>
-                    <OfferCount condition="new" 
-                        fulfillmentChannel="Amazon">1</OfferCount>
-                </BuyBoxEligibleOffers>
-            </Summary>
-            <Offers>
-                <Offer>
-                    <SubCondition>new</SubCondition>
-                    <SellerFeedbackRating>
-                        <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
-                        <FeedbackCount>1</FeedbackCount>
-                    </SellerFeedbackRating>
-                    <ShippingTime minimumHours="0" maximumHours="0" 
-                        availabilityType="NOW"/>
+``` pre
+<?xml version="1.0"?><GetLowestPricedOffersForASINResponse 
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" 
+        ItemCondition="New" ASIN="B0002GTTRC" status="Success">
+        <Identifier>
+            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+            <ASIN>B0002GTTRC</ASIN>
+            <ItemCondition>New</ItemCondition>
+            <TimeOfOfferChange>2015-07-19T23:15:11.859Z</TimeOfOfferChange>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>0</TotalOfferCount>
+            <NumberOfOffers>
+                <OfferCount condition="new" 
+                    fulfillmentChannel="Amazon">1</OfferCount>
+            </NumberOfOffers>
+            <LowestPrices>
+                <LowestPrice condition="new" fulfillmentChannel="Amazon">
+                    <LandedPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </LandedPrice>
                     <ListingPrice>
                         <CurrencyCode>USD</CurrencyCode>
                         <Amount>32.99</Amount>
@@ -670,16 +617,65 @@ code</span> </span>
                         <CurrencyCode>USD</CurrencyCode>
                         <Amount>0.00</Amount>
                     </Shipping>
-                    <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
-                    <IsBuyBoxWinner>true</IsBuyBoxWinner>
-                    <IsFeaturedMerchant>true</IsFeaturedMerchant>
-                </Offer>
-            </Offers>
-        </GetLowestPricedOffersForASINResult>
-        <ResponseMetadata>
-            <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForASINResponse>
+                </LowestPrice>
+            </LowestPrices>
+            <BuyBoxPrices>
+                <BuyBoxPrice condition="New">
+                    <LandedPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </LandedPrice>
+                    <ListingPrice>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>32.99</Amount>
+                    </ListingPrice>
+                    <Shipping>
+                        <CurrencyCode>USD</CurrencyCode>
+                        <Amount>0.00</Amount>
+                    </Shipping>
+                </BuyBoxPrice>
+            </BuyBoxPrices>
+            <ListPrice>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>58.34</Amount>
+            </ListPrice>
+            <SuggestedLowerPricePlusShipping>
+                <CurrencyCode>USD</CurrencyCode>
+                <Amount>32.99</Amount>
+            </SuggestedLowerPricePlusShipping>
+            <BuyBoxEligibleOffers>
+                <OfferCount condition="new" 
+                    fulfillmentChannel="Amazon">1</OfferCount>
+            </BuyBoxEligibleOffers>
+        </Summary>
+        <Offers>
+            <Offer>
+                <SubCondition>new</SubCondition>
+                <SellerFeedbackRating>
+                    <SellerPositiveFeedbackRating>100.0</SellerPositiveFeedbackRating>
+                    <FeedbackCount>1</FeedbackCount>
+                </SellerFeedbackRating>
+                <ShippingTime minimumHours="0" maximumHours="0" 
+                    availabilityType="NOW"/>
+                <ListingPrice>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>32.99</Amount>
+                </ListingPrice>
+                <Shipping>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>0.00</Amount>
+                </Shipping>
+                <IsFulfilledByAmazon>true</IsFulfilledByAmazon>
+                <IsBuyBoxWinner>true</IsBuyBoxWinner>
+                <IsFeaturedMerchant>true</IsFeaturedMerchant>
+            </Offer>
+        </Offers>
+    </GetLowestPricedOffersForASINResult>
+    <ResponseMetadata>
+        <RequestId>21534f03-e7e3-4d9a-9bea-0e15add3326d</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -700,25 +696,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetLowestPricedOffersForASINResponse
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New"
-            ASIN="B000EVPGSQ" status="NoBuyableOffers">
-            <Identifier>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <ASIN>B000EVPGSQ</ASIN>
-                <ItemCondition>New</ItemCondition>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>0</TotalOfferCount>
-            </Summary>
-            <Offers/>
-        </GetLowestPricedOffersForASINResult>
-        <ResponseMetadata>
-            <RequestId>2bb867cd-8fa3-406c-adba-eb84c1796d21</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForASINResponse>
+``` pre
+<?xml version="1.0"?>
+<GetLowestPricedOffersForASINResponse
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New"
+        ASIN="B000EVPGSQ" status="NoBuyableOffers">
+        <Identifier>
+            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+            <ASIN>B000EVPGSQ</ASIN>
+            <ItemCondition>New</ItemCondition>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>0</TotalOfferCount>
+        </Summary>
+        <Offers/>
+    </GetLowestPricedOffersForASINResult>
+    <ResponseMetadata>
+        <RequestId>2bb867cd-8fa3-406c-adba-eb84c1796d21</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -739,25 +737,27 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <GetLowestPricedOffersForASINResponse
-      xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New"
-        ASIN="B000EVPGSQ" status="NoOfferDueToMissingShippingCharge">
-        <Identifier>
-          <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-          <ASIN>B000EVPGSQ</ASIN>
-          <ItemCondition>New</ItemCondition>
-        </Identifier>
-        <Summary>
-          <TotalOfferCount>0</TotalOfferCount>
-        </Summary>
-        <Offers/>
-      </GetLowestPricedOffersForASINResult>
-      <ResponseMetadata>
-        <RequestId>2bb867cd-8fa3-406c-adba-eb84c1796d21</RequestId>
-      </ResponseMetadata>
-    </GetLowestPricedOffersForASINResponse>
+``` pre
+<?xml version="1.0" encoding="UTF-8"?>
+<GetLowestPricedOffersForASINResponse
+  xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New"
+    ASIN="B000EVPGSQ" status="NoOfferDueToMissingShippingCharge">
+    <Identifier>
+      <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+      <ASIN>B000EVPGSQ</ASIN>
+      <ItemCondition>New</ItemCondition>
+    </Identifier>
+    <Summary>
+      <TotalOfferCount>0</TotalOfferCount>
+    </Summary>
+    <Offers/>
+  </GetLowestPricedOffersForASINResult>
+  <ResponseMetadata>
+    <RequestId>2bb867cd-8fa3-406c-adba-eb84c1796d21</RequestId>
+  </ResponseMetadata>
+</GetLowestPricedOffersForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -778,24 +778,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetLowestPricedOffersForASINResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New" ASIN="B01DL3WCPI" status="ActiveButTooSoonForProcessing">
-            <Identifier>
-                <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                <ASIN>B01DL3WCPI</ASIN>
-                <ItemCondition>New</ItemCondition>
-            </Identifier>
-            <Summary>
-                <TotalOfferCount>0</TotalOfferCount>
-                <OffersAvailableTime>2017-03-08T06:21:05.330Z</OffersAvailableTime>
-            </Summary>
-            <Offers/>
-        </GetLowestPricedOffersForASINResult>
-        <ResponseMetadata>
-            <RequestId>1212334</RequestId>
-        </ResponseMetadata>
-    </GetLowestPricedOffersForASINResponse>
+``` pre
+<?xml version="1.0"?>
+<GetLowestPricedOffersForASINResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestPricedOffersForASINResult MarketplaceID="ATVPDKIKX0DER" ItemCondition="New" ASIN="B01DL3WCPI" status="ActiveButTooSoonForProcessing">
+        <Identifier>
+            <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+            <ASIN>B01DL3WCPI</ASIN>
+            <ItemCondition>New</ItemCondition>
+        </Identifier>
+        <Summary>
+            <TotalOfferCount>0</TotalOfferCount>
+            <OffersAvailableTime>2017-03-08T06:21:05.330Z</OffersAvailableTime>
+        </Summary>
+        <Offers/>
+    </GetLowestPricedOffersForASINResult>
+    <ResponseMetadata>
+        <RequestId>1212334</RequestId>
+    </ResponseMetadata>
+</GetLowestPricedOffersForASINResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -816,18 +818,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-      <Error MarketplaceID="ATVPDKIKX0DER" ASIN="24478624" ItemCondition="New" 
-        status="ServerError">
-        <Type>Receiver</Type>
-        <Message>Server Error. Try back later</Message>
-        <Detail/>
-      </Error>
-      <ResponseMetadata>
-        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-      </ResponseMetadata>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <Error MarketplaceID="ATVPDKIKX0DER" ASIN="24478624" ItemCondition="New" 
+    status="ServerError">
+    <Type>Receiver</Type>
+    <Message>Server Error. Try back later</Message>
+    <Detail/>
+  </Error>
+  <ResponseMetadata>
+    <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+  </ResponseMetadata>
+</ErrorResponse>
+
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -848,19 +853,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse 
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <Error MarketplaceID="ATVPDKIKX0DER" ASIN="B0002GTTRD" ItemCondition="New" 
-            status="ClientError">
-            <Code>InvalidParameterValue</Code>
-            <Type>Sender</Type>
-            <Message>B0002GTTRD is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
-        </Error>
-        <ResponseMetadata>
-            <RequestId>3e8e64e8-edd7-4b63-a855-fa44094951ff</RequestId>
-        </ResponseMetadata>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse 
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <Error MarketplaceID="ATVPDKIKX0DER" ASIN="B0002GTTRD" ItemCondition="New" 
+        status="ClientError">
+        <Code>InvalidParameterValue</Code>
+        <Type>Sender</Type>
+        <Message>B0002GTTRD is an invalid ASIN for marketplace ATVPDKIKX0DER</Message>
+    </Error>
+    <ResponseMetadata>
+        <RequestId>3e8e64e8-edd7-4b63-a855-fa44094951ff</RequestId>
+    </ResponseMetadata>
+</ErrorResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -874,8 +881,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

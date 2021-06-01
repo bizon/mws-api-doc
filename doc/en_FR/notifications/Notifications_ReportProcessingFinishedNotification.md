@@ -43,8 +43,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <div id="Notifications_ReportProcessingFinishedNotification"
 class="nested0">
 
-ReportProcessingFinishedNotification
-====================================
+# ReportProcessingFinishedNotification
 
 <div class="body">
 
@@ -56,8 +55,7 @@ of `DONE`, `CANCELLED`, or `DONE_NO_DATA`.</span>
 
 <div class="section">
 
-Availability
-------------
+## Availability
 
 This notification is available in all marketplaces.
 
@@ -65,8 +63,7 @@ This notification is available in all marketplaces.
 
 <div class="section">
 
-Elements
---------
+## Elements
 
 This is the root element of the
 <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/ReportProcessingFinishedNotification.xsd" class="xref">ReportProcessingFinishedNotification.xsd</a>
@@ -86,8 +83,7 @@ schema:
 
 <div id="ReportProcessingFinishedNotification" class="topic nested1">
 
-ReportProcessingFinishedNotification
-------------------------------------
+## ReportProcessingFinishedNotification
 
 <div class="body">
 
@@ -109,36 +105,36 @@ element:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d203726e172" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d203726e175" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerId</span></td>
-<td>The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d203726e172 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d203726e175 ">The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ReportRequestId</span></td>
-<td><span class="ph">A unique report request identifier.</span> Use this value to identify the report request that this notification is associated with. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d203726e172 "><span class="keyword parmname">ReportRequestId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d203726e175 "><span class="ph">A unique report request identifier.</span> Use this value to identify the report request that this notification is associated with. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportId</span></td>
-<td><span class="ph">A unique report identifier.</span> Pass this value to the <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a> operation to get a report.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d203726e172 "><span class="keyword parmname">ReportId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d203726e175 "><span class="ph">A unique report identifier.</span> Pass this value to the <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a> operation to get a report.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ReportType</span></td>
-<td>The <span class="keyword parmname">ReportType</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
+<tr id="ReportProcessingFinishedNotification__FulfillmentOrderStatus_row" class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d203726e172 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d203726e175 ">The <span class="keyword parmname">ReportType</span> value that you specified with a call to the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation, which initiated the report request process. For more information, see <a href="../reports/Reports_Overview.md" class="xref">What you should know about the Amazon MWS Reports API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportProcessingStatus</span></td>
-<td>The processing status of the report request. This notification is only sent when the processing status reaches one of three terminal states: <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>. In other words, the notification is sent only when report processing is complete.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d203726e172 "><span class="keyword parmname">ReportProcessingStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d203726e175 ">The processing status of the report request. This notification is only sent when the processing status reaches one of three terminal states: <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>. In other words, the notification is sent only when report processing is complete.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -154,8 +150,7 @@ element:
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

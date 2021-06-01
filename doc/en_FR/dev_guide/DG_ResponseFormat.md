@@ -42,13 +42,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ResponseFormat" class="nested0">
 
-Response format
-===============
+# Response format
 
 <div id="Success" class="topic nested1">
 
-Success response
-----------------
+## Success response
 
 <div class="body">
 
@@ -57,23 +55,25 @@ returns an XML file that contains the results of the request. If a
 request is successful, the response is returned with the data requested.
 The following example shows a successful response.
 
-    <?xml version="1.0"?>
-    <RequestReportResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <RequestReportResult>
-            <ReportRequestInfo>
-                <ReportRequestId>2291326454</ReportRequestId>
-                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-                <StartDate>2009-01-21T02:10:39+00:00</StartDate>
-                <EndDate>2009-02-13T02:10:39+00:00</EndDate>
-                <Scheduled>false</Scheduled>
-                <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
-                <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
-            </ReportRequestInfo>
-        </RequestReportResult>
-        <ResponseMetadata>
-            <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
-        </ResponseMetadata>
-    </RequestReportResponse>
+``` pre
+<?xml version="1.0"?>
+<RequestReportResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <RequestReportResult>
+        <ReportRequestInfo>
+            <ReportRequestId>2291326454</ReportRequestId>
+            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+            <StartDate>2009-01-21T02:10:39+00:00</StartDate>
+            <EndDate>2009-02-13T02:10:39+00:00</EndDate>
+            <Scheduled>false</Scheduled>
+            <SubmittedDate>2009-02-20T02:10:39+00:00</SubmittedDate>
+            <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
+        </ReportRequestInfo>
+    </RequestReportResult>
+    <ResponseMetadata>
+        <RequestId>88faca76-b600-46d2-b53c-0c8c4533e43a</RequestId>
+    </ResponseMetadata>
+</RequestReportResponse>
+```
 
 <div class="note important">
 
@@ -94,8 +94,7 @@ class="ph">Amazon MWS</span>. Without this information, requests to
 
 <div id="Error" class="topic nested1">
 
-Error response
---------------
+## Error response
 
 <div class="body">
 
@@ -121,15 +120,17 @@ see
 
 The following example shows an error response:
 
-    <ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <Error>
-            <Type>Sender</Type>
-            <Code>InvalidClientTokenId</Code>
-            <Message> The AWS Access Key Id you provided does not exist in our records. </Message>
-            <Detail>com.amazonservices.mws.model.Error$Detail@17b6643</Detail>
-        </Error>
-        <RequestID>b7afc6c3-6f75-4707-bcf4-0475ad23162c</RequestID>
-    </ErrorResponse>
+``` pre
+<ErrorResponse xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <Error>
+        <Type>Sender</Type>
+        <Code>InvalidClientTokenId</Code>
+        <Message> The AWS Access Key Id you provided does not exist in our records. </Message>
+        <Detail>com.amazonservices.mws.model.Error$Detail@17b6643</Detail>
+    </Error>
+    <RequestID>b7afc6c3-6f75-4707-bcf4-0475ad23162c</RequestID>
+</ErrorResponse>
+```
 
 </div>
 
@@ -137,19 +138,20 @@ The following example shows an error response:
 
 <div id="XML_Character_Limits" class="topic nested1">
 
-XML Character Limits
---------------------
+## XML Character Limits
 
 <div class="body">
 
 XML responses are limited to the Unicode characters compatible with the
 <a href="https://www.w3.org/TR/REC-xml/" class="xref">Extensible Markup Language (XML) 1.0</a>:
 
-    Char ::= #x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]
+``` pre
+Char ::= #x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]
+```
 
 If a response includes a character outside of that range, <span
-class="ph">Amazon MWS</span> returns Unicode \#xFFFD (�) in place of
-that character.
+class="ph">Amazon MWS</span> returns Unicode #xFFFD (�) in place of that
+character.
 
 </div>
 
@@ -157,8 +159,7 @@ that character.
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-What you should know about the Fulfillment Inventory API section
-================================================================
+# What you should know about the Fulfillment Inventory API section
 
 <div class="body conbody">
 

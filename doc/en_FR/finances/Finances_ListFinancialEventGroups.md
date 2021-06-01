@@ -42,16 +42,14 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_ListFinancialEventGroups" class="nested0">
 
-ListFinancialEventGroups
-========================
+# ListFinancialEventGroups
 
 <span class="ph">Returns financial event groups for a given date
 range.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -98,8 +96,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -120,36 +117,36 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d161317e172" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d161317e175" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d161317e178" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d161317e181" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MaxResultsPerPage</span></td>
-<td>The maximum number of results to return per page.</td>
-<td>No</td>
-<td>Minimum: 1
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e172 "><span class="keyword parmname">MaxResultsPerPage</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e175 ">The maximum number of results to return per page.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161317e178 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e181 ">Minimum: 1
 <p>Maximum: 100</p>
 <p>Default: 100</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FinancialEventGroupStartedAfter</span></td>
-<td>A date used for selecting financial event groups that opened after (or at) a specified time.</td>
-<td>Yes</td>
-<td>Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e172 "><span class="keyword parmname">FinancialEventGroupStartedAfter</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e175 ">A date used for selecting financial event groups that opened after (or at) a specified time.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161317e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e181 ">Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">FinancialEventGroupStartedBefore</span></td>
-<td>A date used for selecting financial event groups that opened before (but not at) a specified time.</td>
-<td>No</td>
-<td>Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e172 "><span class="keyword parmname">FinancialEventGroupStartedBefore</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e175 ">A date used for selecting financial event groups that opened before (but not at) a specified time.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161317e178 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161317e181 ">Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
 <p>Default: Now minus two minutes</p>
 <span class="ph">Type: xs:dateTime</span></td>
 </tr>
@@ -166,8 +163,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -178,22 +174,22 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d161317e295" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d161317e298" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d161317e295 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d161317e298 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FinancialEventGroupList</span></td>
-<td>Contains the financial event groups that meet the criteria specified in the request.
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d161317e295 "><span class="keyword parmname">FinancialEventGroupList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d161317e298 ">Contains the financial event groups that meet the criteria specified in the request.
 <p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>
@@ -207,8 +203,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -226,22 +221,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Finances/2015-05-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Finances/2015-05-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLESDX
-    &Action=ListFinancialEventGroups
-    &FinancialEventGroupStartedAfter=2015-03-01T00%3A00%3A00.000Z
-    &FinancialEventGroupStartedBefore=2015-05-01T00%3A00%3A00.000Z
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &SellerId=A1XEXAMPLEDF
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2015-05-01T18%3A12%3A21.687Z
-    &Version=2015-05-01
-    &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+AWSAccessKeyId=0PB842EXAMPLESDX
+&Action=ListFinancialEventGroups
+&FinancialEventGroupStartedAfter=2015-03-01T00%3A00%3A00.000Z
+&FinancialEventGroupStartedBefore=2015-05-01T00%3A00%3A00.000Z
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&SellerId=A1XEXAMPLEDF
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2015-05-01T18%3A12%3A21.687Z
+&Version=2015-05-01
+&Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -262,46 +259,48 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListFinancialEventGroupsResponse
-        xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
-        <ListFinancialEventGroupsResult>
-            <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
-            <FinancialEventGroupList>
-                <FinancialEventGroup>
-                    <FinancialEventGroupId>
-                        22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
-                    </FinancialEventGroupId>
-                    <ProcessingStatus>Closed</ProcessingStatus>
-                    <FundTransferStatus>Successful</FundTransferStatus>
-                    <OriginalTotal>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>19.00</Amount>
-                    </OriginalTotal>
-                    <ConvertedTotal>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>19.00</Amount>
-                    </ConvertedTotal>
-                    <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
-                    <TraceId>128311029381HSADJEXAMPLE</TraceId>
-                    <AccountTail>1212</AccountTail>
-                    <BeginningBalance>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>0.00</Amount>
-                    </BeginningBalance>
-                    <FinancialEventGroupStart>
-                        2014-09-01T01:30:00.000-06:00
-                    </FinancialEventGroupStart>
-                    <FinancialEventGroupEnd>
-                        2014-09-09T01:30:00.000-06:00
-                    </FinancialEventGroupEnd>
-                </FinancialEventGroup>
-            </FinancialEventGroupList>
-        </ListFinancialEventGroupsResult>
-        <ResponseMetadata>
-            <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
-        </ResponseMetadata>
-    </ListFinancialEventGroupsResponse>
+``` pre
+<?xml version="1.0"?>
+<ListFinancialEventGroupsResponse
+    xmlns="https://mws.amazonservices.com/Finances/2015-05-01">
+    <ListFinancialEventGroupsResult>
+        <NextToken>2YgYW55IGNhcm5hbCBwbGVhcEXAMPLE</NextToken>
+        <FinancialEventGroupList>
+            <FinancialEventGroup>
+                <FinancialEventGroupId>
+                    22YgYW55IGNhcm5hbCBwbGVhEXAMPLE
+                </FinancialEventGroupId>
+                <ProcessingStatus>Closed</ProcessingStatus>
+                <FundTransferStatus>Successful</FundTransferStatus>
+                <OriginalTotal>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>19.00</Amount>
+                </OriginalTotal>
+                <ConvertedTotal>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>19.00</Amount>
+                </ConvertedTotal>
+                <FundTransferDate>2014-09-09T01:30:00.000-06:00</FundTransferDate>
+                <TraceId>128311029381HSADJEXAMPLE</TraceId>
+                <AccountTail>1212</AccountTail>
+                <BeginningBalance>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>0.00</Amount>
+                </BeginningBalance>
+                <FinancialEventGroupStart>
+                    2014-09-01T01:30:00.000-06:00
+                </FinancialEventGroupStart>
+                <FinancialEventGroupEnd>
+                    2014-09-09T01:30:00.000-06:00
+                </FinancialEventGroupEnd>
+            </FinancialEventGroup>
+        </FinancialEventGroupList>
+    </ListFinancialEventGroupsResult>
+    <ResponseMetadata>
+        <RequestId>1105b931-6f1c-4480-8e97-f3b46EXAMPLE</RequestId>
+    </ResponseMetadata>
+</ListFinancialEventGroupsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -315,8 +314,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

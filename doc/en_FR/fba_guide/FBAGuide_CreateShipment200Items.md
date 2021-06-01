@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_CreateShipment200Items.dita" class="nested0">
 
-Creating an inbound shipment containing over 200 items
-======================================================
+# Creating an inbound shipment containing over 200 items
 
 <div class="body">
 

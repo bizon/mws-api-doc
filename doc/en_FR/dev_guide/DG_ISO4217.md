@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO4217" class="nested0">
 
-ISO 4217 use in <span class="ph">Amazon MWS</span>
-==================================================
+# ISO 4217 use in <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -54,8 +53,7 @@ MWS</span>.
 
 <div id="DG_ISO4217__formats" class="section">
 
-Currency number formats
------------------------
+## Currency number formats
 
 All currency data is expressed as a three-letter code. The first two
 letters of the code are taken from the two letters of ISO 3166-1 alpha-2
@@ -88,8 +86,7 @@ for amounts.
 
 <div id="DG_ISO4217__4217References" class="section">
 
-References
-----------
+## References
 
 -   <a href="https://en.wikipedia.org/wiki/ISO_4217" class="xref">ISO 4217</a>
 -   <a href="https://www.currency-iso.org/en/home/tables/table-a1.html" class="xref">Official currency &amp; funds code list (XML format)</a>

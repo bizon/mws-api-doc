@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetBillOfLading" class="nested0">
 
-GetBillOfLading
-===============
+# GetBillOfLading
 
 <div class="body">
 
@@ -54,8 +53,7 @@ Than Truckload/Full Truckload (LTL/FTL)</span> shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -121,8 +119,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -149,8 +146,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -161,16 +157,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d63440e248" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d63440e251" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportDocument</span></td>
-<td>PDF document data and checksum.
+<tbody class="tbody">
+<tr id="ResponseElements__ResponseElementsRow_TransportDocument" class="odd row">
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d63440e248 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d63440e251 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportDocument" class="xref" title="The PDF document data and checksum for printing package labels and bills of lading.">TransportDocument</a></p></td>
 </tr>
 </tbody>
@@ -184,8 +180,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -203,16 +198,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-      &Action=GetBillOfLading
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A13EXAMPLE1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-10T00%3A38%3A53Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQFGQZ
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+  &Action=GetBillOfLading
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A13EXAMPLE1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-10T00%3A38%3A53Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQFGQZ
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -233,20 +230,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetBillOfLadingResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetBillOfLadingResult>
-            <TransportDocument>
-                <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
-                </PdfDocument>
-                <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
-            </TransportDocument>
-        </GetBillOfLadingResult>
-        <ResponseMetadata>
-            <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
-        </ResponseMetadata>
-    </GetBillOfLadingResponse>
+``` pre
+<?xml version="1.0"?>
+<GetBillOfLadingResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetBillOfLadingResult>
+        <TransportDocument>
+            <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
+            </PdfDocument>
+            <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
+        </TransportDocument>
+    </GetBillOfLadingResult>
+    <ResponseMetadata>
+        <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
+    </ResponseMetadata>
+</GetBillOfLadingResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -260,8 +259,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -42,13 +42,11 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_ListPickupSlots" class="nested0">
 
-ListPickupSlots
-===============
+# ListPickupSlots
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -94,8 +92,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -126,8 +123,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -138,21 +134,21 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d19345e292" class="entry" data-valign="top">Name</th>
+<th id="d19345e295" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AmazonOrderId</span></td>
-<td>The <span class="keyword parmname">AmazonOrderId</span> that was passed in with the request.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" headers="d19345e292 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" headers="d19345e295 ">The <span class="keyword parmname">AmazonOrderId</span> that was passed in with the request.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PickupSlotList</span></td>
-<td>Type: List of <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" headers="d19345e292 "><span class="keyword parmname">PickupSlotList</span></td>
+<td class="entry" data-valign="top" headers="d19345e295 ">Type: List of <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
 </tr>
 </tbody>
 </table>
@@ -165,8 +161,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -184,24 +179,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.in/EasyShip/2018-09-01
-      ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-      &Action=ListPickupSlots
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A1XEXAMPLE5E6
-      &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Timestamp=2018-11-05T18%3A12%3A21
-      &Version=2018-09-01
-      &AmazonOrderId=903-1713775-3598252
-      &MarketplaceId=A21TJRUUN4KGV
-      &PackageDimensions.Length=12.00
-      &PackageDimensions.Width=12.00
-      &PackageDimensions.Height=12.00
-      &PackageDimensions.Unit=cm
-      &PackageWeight.Unit=23.00
-      &PackageWeight.Value=g
+``` pre
+https://mws.amazonservices.in/EasyShip/2018-09-01
+  ?AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+  &Action=ListPickupSlots
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A1XEXAMPLE5E6
+  &Signature=ZQLpf8vEXAMPLE0iC265pf18n0%3D
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Timestamp=2018-11-05T18%3A12%3A21
+  &Version=2018-09-01
+  &AmazonOrderId=903-1713775-3598252
+  &MarketplaceId=A21TJRUUN4KGV
+  &PackageDimensions.Length=12.00
+  &PackageDimensions.Width=12.00
+  &PackageDimensions.Height=12.00
+  &PackageDimensions.Unit=cm
+  &PackageWeight.Unit=23.00
+  &PackageWeight.Value=g
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -222,27 +219,29 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListPickupSlotsResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
-      <ListPickupSlotsResult>
-        <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
-        <PickupSlotList>
-          <PickupSlot>
-            <SlotId>Xyt123bbdg=</SlotId>
-            <PickupTimeStart>2018-11-05T14:00:00.50+05:30</PickupTimeStart>
-            <PickupTimeEnd>2018-11-05T16:00:00.50+05:30</PickupTimeEnd>
-          </PickupSlot>
-          <PickupSlot>
-            <SlotId>Byvjdhsdb=</SlotId>
-            <PickupTimeStart>2018-11-05T10:00:00.50+05:30</PickupTimeStart>
-            <PickupTimeEnd>2018-11-05T13:59:00.50+05:30</PickupTimeEnd>
-          </PickupSlot>
-        </PickupSlotList>
-      </ListPickupSlotsResult>
-      <ResponseMetadata>
-        <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
-      </ResponseMetadata>
-    </ListPickupSlotsResponse>
+``` pre
+<?xml version="1.0"?>
+<ListPickupSlotsResponse xmlns="http://mws.amazonaws.in/EasyShip/2018-09-01">
+  <ListPickupSlotsResult>
+    <AmazonOrderId>903-1713775-3598252</AmazonOrderId>
+    <PickupSlotList>
+      <PickupSlot>
+        <SlotId>Xyt123bbdg=</SlotId>
+        <PickupTimeStart>2018-11-05T14:00:00.50+05:30</PickupTimeStart>
+        <PickupTimeEnd>2018-11-05T16:00:00.50+05:30</PickupTimeEnd>
+      </PickupSlot>
+      <PickupSlot>
+        <SlotId>Byvjdhsdb=</SlotId>
+        <PickupTimeStart>2018-11-05T10:00:00.50+05:30</PickupTimeStart>
+        <PickupTimeEnd>2018-11-05T13:59:00.50+05:30</PickupTimeEnd>
+      </PickupSlot>
+    </PickupSlotList>
+  </ListPickupSlotsResult>
+  <ResponseMetadata>
+    <RequestId>adb18f0d-2076-48d4-99ef-fb4b9f892a4e</RequestId>
+  </ResponseMetadata>
+</ListPickupSlotsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -256,8 +255,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

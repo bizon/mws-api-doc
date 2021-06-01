@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_HowToGetNewShippingLabel" class="nested0">
 
-How to reprint a shipping label
-===============================
+# How to reprint a shipping label
 
 <div class="body">
 
@@ -65,8 +64,7 @@ described in
 
 <div class="section">
 
-Related topics
---------------
+## Related topics
 
 <a href="MerchFulfill_HowToUseForPrime.md" class="xref">How to fulfill Seller Fulfilled Prime orders</a>
 

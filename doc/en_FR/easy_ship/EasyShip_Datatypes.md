@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_Datatypes" class="nested0">
 
-Easy Ship Datatypes
-===================
+# Easy Ship Datatypes
 
 <div class="body">
 
@@ -71,8 +70,7 @@ MWS)</span> <span class="ph">Easy Ship API section</span>:
 
 <div id="Dimensions" class="topic reference nested1">
 
-Dimensions
-----------
+## Dimensions
 
 <div class="body refbody">
 
@@ -91,48 +89,48 @@ Dimensions
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d12844e295" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d12844e298" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d12844e301" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d12844e304" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Length</span></td>
-<td>The length dimension.</td>
-<td>Yes</td>
-<td>A decimal greater than zero.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e295 "><span class="keyword parmname">Length</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e298 ">The length dimension.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e301 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e304 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Width</span></td>
-<td>The width dimension.</td>
-<td>Yes</td>
-<td>A decimal greater than zero.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e295 "><span class="keyword parmname">Width</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e298 ">The width dimension.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e301 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e304 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Height</span></td>
-<td>The height dimension.</td>
-<td>Yes</td>
-<td>A decimal greater than zero.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e295 "><span class="keyword parmname">Height</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e298 ">The height dimension.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e301 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e304 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Unit</span></td>
-<td>The unit of measurement.</td>
-<td>Yes</td>
-<td>Unit values: "cm"
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e295 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e298 ">The unit of measurement.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e301 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e304 ">Unit values: "cm"
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Name</span></td>
-<td>Identifier for custom package dimensions.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e295 "><span class="keyword parmname">Name</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e298 ">Identifier for custom package dimensions.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e301 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e304 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -147,8 +145,7 @@ Dimensions
 
 <div id="InvoiceData" class="topic reference nested1">
 
-InvoiceData
------------
+## InvoiceData
 
 <div class="body refbody">
 
@@ -175,8 +172,7 @@ InvoiceData
 
 <div id="Item" class="topic reference nested1">
 
-Item
-----
+## Item
 
 <div class="body refbody">
 
@@ -203,8 +199,7 @@ Item
 
 <div id="Package" class="topic reference nested1">
 
-Package
--------
+## Package
 
 <div class="body refbody">
 
@@ -223,62 +218,62 @@ Package
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d12844e725" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d12844e728" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d12844e731" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d12844e734" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ScheduledPackageId</span></td>
-<td><span class="ph">Identifies the scheduled package to be updated.</span></td>
-<td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.md#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">ScheduledPackageId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">Identifies the scheduled package to be updated.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">Type: <a href="EasyShip_Datatypes.md#ScheduledPackageId" class="xref" title="Identifies the scheduled package to be updated.">ScheduledPackageId</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackageDimensions</span></td>
-<td><span class="ph">The dimensions of the scheduled package.</span></td>
-<td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackageDimensions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">The dimensions of the scheduled package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageWeight</span></td>
-<td><span class="ph">The weight of the scheduled package.</span></td>
-<td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackageWeight</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">The weight of the scheduled package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackageItemsList</span></td>
-<td><span class="ph">Item ID and serial number information.</span></td>
-<td>No</td>
-<td>List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackageItemsList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">Item ID and serial number information.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackagePickupSlot</span></td>
-<td><span class="ph">Pickup slot ID and pickup time information.</span></td>
-<td>Yes</td>
-<td>Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackagePickupSlot</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">Pickup slot ID and pickup time information.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackageIdentifier</span></td>
-<td><span class="ph">Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.</span></td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackageIdentifier</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Invoice</span></td>
-<td><span class="ph">Invoice number and date.</span></td>
-<td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.md#InvoiceData" class="xref" title="Invoice number and date.">InvoiceData</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">Invoice</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 "><span class="ph">Invoice number and date.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 ">Type: <a href="EasyShip_Datatypes.md#InvoiceData" class="xref" title="Invoice number and date.">InvoiceData</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackageStatus</span></td>
-<td>The status of the package.</td>
-<td>No</td>
-<td><span class="keyword parmname">PackageStatus</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e725 "><span class="keyword parmname">PackageStatus</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e728 ">The status of the package.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e731 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e734 "><span class="keyword parmname">PackageStatus</span> values:
 <ul>
 <li><var class="keyword varname">Unscheduled</var> - Not scheduled for pickup.</li>
 <li><var class="keyword varname">Scheduled</var> - Scheduled for pickup.</li>
@@ -298,8 +293,7 @@ Package
 
 <div id="PackageRequestDetails" class="topic reference nested1">
 
-PackageRequestDetails
----------------------
+## PackageRequestDetails
 
 <div class="body refbody">
 
@@ -318,45 +312,45 @@ PackageRequestDetails
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d12844e1011" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d12844e1014" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d12844e1017" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d12844e1020" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">PackageDimensions</span></td>
-<td><span class="ph">The dimensions of the scheduled package.</span></td>
-<td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1011 "><span class="keyword parmname">PackageDimensions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1014 "><span class="ph">The dimensions of the scheduled package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1017 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1020 ">Type: <a href="EasyShip_Datatypes.md#Dimensions" class="xref" title="The dimensions of the scheduled package.">Dimensions</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackageWeight</span></td>
-<td><span class="ph">The weight of the scheduled package.</span></td>
-<td>No</td>
-<td>Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1011 "><span class="keyword parmname">PackageWeight</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1014 "><span class="ph">The weight of the scheduled package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1017 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1020 ">Type: <a href="EasyShip_Datatypes.md#Weight" class="xref" title="The weight of the scheduled package.">Weight</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageItemList</span></td>
-<td><span class="ph">Item ID and serial number information.</span> Amazon generates a warranty document only if <span class="keyword parmname">PackageItemList</span> is specified. For retrieving warranty documents, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
-<td>No</td>
-<td>List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1011 "><span class="keyword parmname">PackageItemList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1014 "><span class="ph">Item ID and serial number information.</span> Amazon generates a warranty document only if <span class="keyword parmname">PackageItemList</span> is specified. For retrieving warranty documents, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1017 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1020 ">List of <a href="EasyShip_Datatypes.md#Item" class="xref" title="Item ID and serial number information.">Item</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PackagePickupSlot</span></td>
-<td><span class="ph">Pickup slot ID and pickup time information.</span></td>
-<td>Yes</td>
-<td>Default: First available pickup slot.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1011 "><span class="keyword parmname">PackagePickupSlot</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1014 "><span class="ph">Pickup slot ID and pickup time information.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1017 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1020 ">Default: First available pickup slot.
 <p>Type: <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageIdentifier</span></td>
-<td><span class="ph">Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.</span></td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1011 "><span class="keyword parmname">PackageIdentifier</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1014 "><span class="ph">Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1017 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1020 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -371,8 +365,7 @@ PackageRequestDetails
 
 <div id="PickupSlot" class="topic reference nested1">
 
-PickupSlot
-----------
+## PickupSlot
 
 <div class="body refbody">
 
@@ -400,8 +393,7 @@ PickupSlot
 
 <div id="ScheduledPackageId" class="topic reference nested1">
 
-ScheduledPackageId
-------------------
+## ScheduledPackageId
 
 <div class="body refbody">
 
@@ -428,8 +420,7 @@ ScheduledPackageId
 
 <div id="ScheduledPackageUpdateDetails" class="topic reference nested1">
 
-ScheduledPackageUpdateDetails
------------------------------
+## ScheduledPackageUpdateDetails
 
 <div class="body refbody">
 
@@ -457,8 +448,7 @@ class="section">
 
 <div id="Weight" class="topic reference nested1">
 
-Weight
-------
+## Weight
 
 <div class="body refbody">
 
@@ -477,26 +467,26 @@ Weight
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d12844e1640" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d12844e1643" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d12844e1646" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d12844e1649" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Value</span></td>
-<td>The weight of the package.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:decimal</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1640 "><span class="keyword parmname">Value</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1643 ">The weight of the package.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1646 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1649 "><span class="ph">Type: xs:decimal</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Unit</span></td>
-<td>The unit of measurement used for weight.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">g</var> (for grams)
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d12844e1640 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d12844e1643 ">The unit of measurement used for weight.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d12844e1646 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d12844e1649 "><span class="keyword parmname">Unit</span> values: <var class="keyword varname">g</var> (for grams)
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -512,8 +502,7 @@ Weight
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

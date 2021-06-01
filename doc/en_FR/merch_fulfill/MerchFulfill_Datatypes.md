@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_Datatypes" class="nested0">
 
-Merchant Fulfillment Datatypes
-==============================
+# Merchant Fulfillment Datatypes
 
 <div class="body">
 
@@ -87,8 +86,7 @@ Fulfillment service</span>:
 
 <div id="AdditionalInputs" class="topic reference nested1">
 
-AdditionalInputs
-----------------
+## AdditionalInputs
 
 <div class="body refbody">
 
@@ -111,27 +109,27 @@ key to the map).</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e736" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e739" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e742" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e745" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AdditionalInputFieldName</span></td>
-<td>The name of the additional seller input. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</td>
-<td>Yes</td>
-<td>Example values: <var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var>, <var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e736 "><span class="keyword parmname">AdditionalInputFieldName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e739 ">The name of the additional seller input. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e742 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e745 ">Example values: <var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var>, <var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerInputDefinition</span></td>
-<td><span class="ph">Defines the additional seller input that is required from the seller.</span></td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#SellerInputDefinition" class="xref" title="Defines the additional seller input that is required from the seller.">SellerInputDefinition</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e736 "><span class="keyword parmname">SellerInputDefinition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e739 "><span class="ph">Defines the additional seller input that is required from the seller.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e742 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e745 ">Type: <a href="MerchFulfill_Datatypes.md#SellerInputDefinition" class="xref" title="Defines the additional seller input that is required from the seller.">SellerInputDefinition</a></td>
 </tr>
 </tbody>
 </table>
@@ -146,8 +144,7 @@ key to the map).</span>
 
 <div id="Address" class="topic reference nested1">
 
-Address
--------
+## Address
 
 <div class="body refbody">
 
@@ -166,90 +163,90 @@ Address
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e883" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e886" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e889" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e892" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Name</span></td>
-<td>The name or business name.</td>
-<td>Yes</td>
-<td>Maximum: 30 characters.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">Name</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The name or business name.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AddressLine1</span></td>
-<td>The street address information.</td>
-<td>Yes</td>
-<td>Maximum: 180 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">AddressLine1</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The street address information.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 180 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">AddressLine2</span></td>
-<td>Additional street address information.</td>
-<td>No</td>
-<td>Maximum: 60 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">AddressLine2</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">Additional street address information.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 60 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AddressLine3</span></td>
-<td>Additional street address information.</td>
-<td>No</td>
-<td>Maximum: 60 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">AddressLine3</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">Additional street address information.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 60 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">DistrictOrCounty</span></td>
-<td>The district or county.</td>
-<td>No</td>
-<td>Maximum: 30 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">DistrictOrCounty</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The district or county.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Email</span></td>
-<td>The email address.</td>
-<td>Yes</td>
-<td>Maximum: 256 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">Email</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The email address.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 256 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">City</span></td>
-<td>The city.</td>
-<td>Yes</td>
-<td>Maximum: 30 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">City</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The city.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">StateOrProvinceCode</span></td>
-<td>The state or province code.</td>
-<td>No. Required in the Canada, US, and UK marketplaces. Also required for shipments originating from China.</td>
-<td>Maximum: 30 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">StateOrProvinceCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The state or province code.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">No. Required in the Canada, US, and UK marketplaces. Also required for shipments originating from China.</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PostalCode</span></td>
-<td>The zip code or postal code.</td>
-<td>Yes</td>
-<td>Maximum: 30 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">PostalCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The zip code or postal code.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">CountryCode</span></td>
-<td>The country code.</td>
-<td>Yes</td>
-<td><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">CountryCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The country code.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 "><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Phone</span></td>
-<td>The phone number.</td>
-<td>Yes</td>
-<td>Maximum: 30 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e883 "><span class="keyword parmname">Phone</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e886 ">The phone number.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e889 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e892 ">Maximum: 30 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -265,8 +262,7 @@ Address
 
 <div id="CurrencyAmount" class="topic reference nested1">
 
-CurrencyAmount
---------------
+## CurrencyAmount
 
 <div class="body refbody">
 
@@ -285,27 +281,27 @@ CurrencyAmount
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e1197" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e1200" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e1203" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e1206" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">CurrencyCode</span></td>
-<td>Three-digit currency code.</td>
-<td>Yes</td>
-<td>In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e1197 "><span class="keyword parmname">CurrencyCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e1200 ">Three-digit currency code.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e1203 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e1206 ">In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Amount</span></td>
-<td>The currency amount.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:decimal</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e1197 "><span class="keyword parmname">Amount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e1200 ">The currency amount.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e1203 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e1206 "><span class="ph">Type: xs:decimal</span></td>
 </tr>
 </tbody>
 </table>
@@ -320,8 +316,7 @@ CurrencyAmount
 
 <div id="FileContents" class="topic reference nested1">
 
-FileContents
-------------
+## FileContents
 
 <div class="body refbody">
 
@@ -340,40 +335,40 @@ FileContents
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e1328" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e1331" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e1334" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e1337" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Contents</span></td>
-<td>Data for printing labels, in the form of a Base64-encoded, GZip-compressed string.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e1328 "><span class="keyword parmname">Contents</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e1331 ">Data for printing labels, in the form of a Base64-encoded, GZip-compressed string.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e1334 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e1337 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">FileType</span></td>
-<td>The file type for a label.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e1328 "><span class="keyword parmname">FileType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e1331 ">The file type for a label.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e1334 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e1337 "><span class="ph">Type: xs:string</span>
 <div class="p">
 Valid values:
 <ul>
-<li><code class="ph tt">application/pdf</code></li>
-<li><code class="ph tt">application/zpl</code></li>
-<li><code class="ph tt">image/png</code></li>
+<li>application/pdf</li>
+<li>application/zpl</li>
+<li>image/png</li>
 </ul>
 </div></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Checksum</span></td>
-<td>An MD5 hash to validate the PDF document data, in the form of a Base64-encoded string.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e1328 "><span class="keyword parmname">Checksum</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e1331 ">An MD5 hash to validate the PDF document data, in the form of a Base64-encoded string.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e1334 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e1337 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -388,8 +383,7 @@ Valid values:
 
 <div id="HazmatType" class="topic reference nested1">
 
-HazmatType
-----------
+## HazmatType
 
 <div class="body refbody">
 
@@ -418,8 +412,7 @@ on hazardous materials.
 
 <div id="Item" class="topic reference nested1">
 
-Item
-----
+## Item
 
 <div class="body refbody">
 
@@ -450,8 +443,7 @@ Item
 
 <div id="ItemLevelFields" class="topic reference nested1">
 
-ItemLevelFieldsList
--------------------
+## ItemLevelFieldsList
 
 <div class="body refbody">
 
@@ -481,8 +473,7 @@ operation.</span>
 
 <div id="ItemLevelSellerInputs" class="topic reference nested1">
 
-ItemLevelSellerInputsList
--------------------------
+## ItemLevelSellerInputsList
 
 <div class="body refbody">
 
@@ -503,20 +494,20 @@ operation.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e1970" class="entry" data-valign="top" width="17.99126637554585%">Name</th>
+<th id="d168562e1973" class="entry" data-valign="top" width="10.480349344978164%">Description</th>
+<th id="d168562e1976" class="entry" data-valign="top" width="8.73362445414847%">Required</th>
+<th id="d168562e1979" class="entry" data-valign="top" width="40.262008733624455%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AdditionalSellerInputs</span></td>
-<td>Contains additional seller input information.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="17.99126637554585%" headers="d168562e1970 "><span class="keyword parmname">AdditionalSellerInputs</span></td>
+<td class="entry" data-valign="top" width="10.480349344978164%" headers="d168562e1973 ">Contains additional seller input information.</td>
+<td class="entry" data-valign="top" width="8.73362445414847%" headers="d168562e1976 ">Yes</td>
+<td class="entry" data-valign="top" width="40.262008733624455%" headers="d168562e1979 "><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
 <ul>
 <li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">HS_CODE</var>. Get this value from an <span class="keyword parmname">AdditionalInputs</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 <li><strong>AdditionalSellerInput</strong> - Additional seller input information. <strong>AdditionalSellerInput</strong> contains these elements:
@@ -541,8 +532,7 @@ operation.</span>
 
 <div id="Label" class="topic reference nested1">
 
-Label
------
+## Label
 
 <div class="body refbody">
 
@@ -562,49 +552,49 @@ printing the label.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e2197" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e2200" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e2203" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e2206" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">CustomTextForLabel</span></td>
-<td>Custom text to print on the label.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2197 "><span class="keyword parmname">CustomTextForLabel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2200 ">Custom text to print on the label.
 <div class="note note">
 <span class="notetitle">Note:</span> Custom text is only included on labels that are in ZPL format (ZPL203). FedEx does not support <span class="keyword parmname">CustomTextForLabel</span>.
 </div></td>
-<td>No</td>
-<td>Maximum: 14 characters
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2203 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2206 ">Maximum: 14 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Dimensions</span></td>
-<td><span class="ph">Dimensions for printing a shipping label.</span></td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#LabelDimensions" class="xref" title="Dimensions for printing a shipping label.">LabelDimensions</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2197 "><span class="keyword parmname">Dimensions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2200 "><span class="ph">Dimensions for printing a shipping label.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2203 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2206 ">Type: <a href="MerchFulfill_Datatypes.md#LabelDimensions" class="xref" title="Dimensions for printing a shipping label.">LabelDimensions</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">FileContents</span></td>
-<td><span class="ph">Document data and checksum.</span></td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#FileContents" class="xref" title="Document data and checksum.">FileContents</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2197 "><span class="keyword parmname">FileContents</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2200 "><span class="ph">Document data and checksum.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2203 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2206 ">Type: <a href="MerchFulfill_Datatypes.md#FileContents" class="xref" title="Document data and checksum.">FileContents</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">LabelFormat</span></td>
-<td>The label format.</td>
-<td>No</td>
-<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2197 "><span class="keyword parmname">LabelFormat</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2200 ">The label format.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2203 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2206 ">Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">StandardIdForLabel</span></td>
-<td>The type of standard identifier to print on the label.</td>
-<td>No</td>
-<td><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2197 "><span class="keyword parmname">StandardIdForLabel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2200 ">The type of standard identifier to print on the label.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2203 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2206 "><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -620,8 +610,7 @@ printing the label.</span>
 
 <div id="LabelCustomization" class="topic reference nested1">
 
-LabelCustomization
-------------------
+## LabelCustomization
 
 <div class="body refbody">
 
@@ -640,30 +629,30 @@ LabelCustomization
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e2417" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e2420" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e2423" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e2426" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">CustomTextForLabel</span></td>
-<td>Custom text to print on the label.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2417 "><span class="keyword parmname">CustomTextForLabel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2420 ">Custom text to print on the label.
 <div class="note note">
 <span class="notetitle">Note:</span> Custom text is only included on labels that are in ZPL format (ZPL203). FedEx does not support <span class="keyword parmname">CustomTextForLabel</span>.
 </div></td>
-<td>No</td>
-<td>Maximum: 14 characters
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2423 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2426 ">Maximum: 14 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">StandardIdForLabel</span></td>
-<td>The type of standard identifier to print on the label.</td>
-<td>No</td>
-<td><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2417 "><span class="keyword parmname">StandardIdForLabel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2420 ">The type of standard identifier to print on the label.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2423 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2426 "><span class="keyword parmname">StandardIdForLabel</span> values: <var class="keyword varname">AmazonOrderId</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -679,8 +668,7 @@ LabelCustomization
 
 <div id="LabelDimensions" class="topic reference nested1">
 
-LabelDimensions
----------------
+## LabelDimensions
 
 <div class="body refbody">
 
@@ -699,34 +687,34 @@ LabelDimensions
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e2552" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e2555" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e2558" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e2561" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Length</span></td>
-<td>The length dimension.</td>
-<td>Yes</td>
-<td>A decimal greater than zero.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2552 "><span class="keyword parmname">Length</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2555 ">The length dimension.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2558 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2561 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Width</span></td>
-<td>The width dimension.</td>
-<td>Yes</td>
-<td>A decimal greater than zero.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2552 "><span class="keyword parmname">Width</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2555 ">The width dimension.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2558 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2561 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Unit</span></td>
-<td>The unit of measurement.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2552 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2555 ">The unit of measurement.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2558 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2561 "><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -742,8 +730,7 @@ LabelDimensions
 
 <div id="PackageDimensions" class="topic reference nested1">
 
-PackageDimensions
------------------
+## PackageDimensions
 
 <div class="body refbody">
 
@@ -763,48 +750,48 @@ shipment.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e2707" class="entry" data-valign="top" width="26.355140186915886%">Name</th>
+<th id="d168562e2710" class="entry" data-valign="top" width="18.691588785046733%">Description</th>
+<th id="d168562e2713" class="entry" data-valign="top" width="25.981308411214954%">Required</th>
+<th id="d168562e2716" class="entry" data-valign="top" width="28.971962616822434%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Length</span></td>
-<td>The length dimension.</td>
-<td>No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Length</span> request parameter.</td>
-<td>A decimal greater than zero.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="26.355140186915886%" headers="d168562e2707 "><span class="keyword parmname">Length</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d168562e2710 ">The length dimension.</td>
+<td class="entry" data-valign="top" width="25.981308411214954%" headers="d168562e2713 ">No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Length</span> request parameter.</td>
+<td class="entry" data-valign="top" width="28.971962616822434%" headers="d168562e2716 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Width</span></td>
-<td>The width dimension.</td>
-<td>No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Width</span> request parameter.</td>
-<td>A decimal greater than zero.
+<tr class="even row">
+<td class="entry" data-valign="top" width="26.355140186915886%" headers="d168562e2707 "><span class="keyword parmname">Width</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d168562e2710 ">The width dimension.</td>
+<td class="entry" data-valign="top" width="25.981308411214954%" headers="d168562e2713 ">No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Width</span> request parameter.</td>
+<td class="entry" data-valign="top" width="28.971962616822434%" headers="d168562e2716 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Height</span></td>
-<td>The height dimension.</td>
-<td>No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Height</span> request parameter.</td>
-<td>A decimal greater than zero.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="26.355140186915886%" headers="d168562e2707 "><span class="keyword parmname">Height</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d168562e2710 ">The height dimension.</td>
+<td class="entry" data-valign="top" width="25.981308411214954%" headers="d168562e2713 ">No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Height</span> request parameter.</td>
+<td class="entry" data-valign="top" width="28.971962616822434%" headers="d168562e2716 ">A decimal greater than zero.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Unit</span></td>
-<td>The unit of measurement.</td>
-<td>No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Unit</span> request parameter.</td>
-<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
+<tr class="even row">
+<td class="entry" data-valign="top" width="26.355140186915886%" headers="d168562e2707 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d168562e2710 ">The unit of measurement.</td>
+<td class="entry" data-valign="top" width="25.981308411214954%" headers="d168562e2713 ">No. If you don't specify the <span class="keyword parmname">PredefinedPackageDimensions</span> request parameter, you must specify the <span class="keyword parmname">Unit</span> request parameter.</td>
+<td class="entry" data-valign="top" width="28.971962616822434%" headers="d168562e2716 "><span class="keyword parmname">Unit</span> values: <var class="keyword varname">inches</var> or <var class="keyword varname">centimeters</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PredefinedPackageDimensions</span></td>
-<td>A parcel token that specifies pre-defined package dimensions.</td>
-<td>No</td>
-<td>For <span class="keyword parmname">PredefinedPackageDimensions</span> values, see the <a href="MerchFulfill_PrePackDimenEnum.md" class="xref" title="An enumeration of predefined parcel tokens.">PredefinedPackageDimensions enumeration</a> table.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="26.355140186915886%" headers="d168562e2707 "><span class="keyword parmname">PredefinedPackageDimensions</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d168562e2710 ">A parcel token that specifies pre-defined package dimensions.</td>
+<td class="entry" data-valign="top" width="25.981308411214954%" headers="d168562e2713 ">No</td>
+<td class="entry" data-valign="top" width="28.971962616822434%" headers="d168562e2716 ">For <span class="keyword parmname">PredefinedPackageDimensions</span> values, see the <a href="MerchFulfill_PrePackDimenEnum.md" class="xref" title="An enumeration of predefined parcel tokens.">PredefinedPackageDimensions enumeration</a> table.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -820,8 +807,7 @@ shipment.</span>
 
 <div id="RejectedShippingService" class="topic reference nested1">
 
-RejectedShippingService
------------------------
+## RejectedShippingService
 
 <div class="body refbody">
 
@@ -842,46 +828,46 @@ information.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e2929" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e2932" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e2935" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e2938" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">CarrierName</span></td>
-<td>The name of the carrier.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2929 "><span class="keyword parmname">CarrierName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2932 ">The name of the carrier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2935 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2938 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShippingServiceId</span></td>
-<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2929 "><span class="keyword parmname">ShippingServiceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2932 "><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2935 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2938 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">RejectionReasonCode</span></td>
-<td>An Amazon-defined reason code for why the shipping service is ineligible.</td>
-<td>Yes</td>
-<td>Examples: <span class="keyword parmname">INELIGIBLE</span>, <span class="keyword parmname">SHIP_DATE_OUT_OF_RANGE</span>, <span class="keyword parmname">CARRIER_CANNOT_SHIP_TO_POBOX</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2929 "><span class="keyword parmname">RejectionReasonCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2932 ">An Amazon-defined reason code for why the shipping service is ineligible.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2935 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2938 ">Examples: <span class="keyword parmname">INELIGIBLE</span>, <span class="keyword parmname">SHIP_DATE_OUT_OF_RANGE</span>, <span class="keyword parmname">CARRIER_CANNOT_SHIP_TO_POBOX</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">RejectionReasonMessage</span></td>
-<td>A message that explains why the shipping service is ineligible.</td>
-<td>Yes</td>
-<td>Example: This ship method is not eligible for this order.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2929 "><span class="keyword parmname">RejectionReasonMessage</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2932 ">A message that explains why the shipping service is ineligible.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2935 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2938 ">Example: This ship method is not eligible for this order.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceName</span></td>
-<td>The name of the carrier's shipping service.</td>
-<td>Yes</td>
-<td>Example: UPS Ground.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e2929 "><span class="keyword parmname">ShippingServiceName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e2932 ">The name of the carrier's shipping service.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e2935 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e2938 ">Example: UPS Ground.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -897,8 +883,7 @@ information.</span>
 
 <div id="SellerInputDefinition" class="topic reference nested1">
 
-SellerInputDefinition
----------------------
+## SellerInputDefinition
 
 <div class="body refbody">
 
@@ -918,56 +903,56 @@ from the seller.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e3126" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e3129" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e3132" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e3135" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">IsRequired</span></td>
-<td><var class="keyword varname">True</var> if this additional seller input is required when creating a shipment.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:boolean</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">IsRequired</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 "><var class="keyword varname">True</var> if this additional seller input is required when creating a shipment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">DataType</span></td>
-<td>The type of the additional seller input.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">DataType</span> values: <var class="keyword varname">String</var>, <var class="keyword varname">Boolean</var>, <var class="keyword varname">Integer</var>, <var class="keyword varname">Timestamp</var>, <var class="keyword varname">Address</var>, <var class="keyword varname">Weight</var>, <var class="keyword varname">Dimension</var>, <var class="keyword varname">Currency</var>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">DataType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">The type of the additional seller input.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="keyword parmname">DataType</span> values: <var class="keyword varname">String</var>, <var class="keyword varname">Boolean</var>, <var class="keyword varname">Integer</var>, <var class="keyword varname">Timestamp</var>, <var class="keyword varname">Address</var>, <var class="keyword varname">Weight</var>, <var class="keyword varname">Dimension</var>, <var class="keyword varname">Currency</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Constraints</span></td>
-<td>Indicates the syntax requirements for the additional seller input.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Constraints</span> elements:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">Constraints</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">Indicates the syntax requirements for the additional seller input.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="keyword parmname">Constraints</span> elements:
 <ul>
 <li><span class="keyword parmname">ValidationRegEx</span></li>
 <li><span class="keyword parmname">ValidationString</span></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">InputDisplayText</span></td>
-<td>A label for the additional seller input.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">InputDisplayText</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">A label for the additional seller input.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">InputTarget</span></td>
-<td>Indicates whether the additional seller input is at the item or shipment level.</td>
-<td>No</td>
-<td><span class="keyword parmname">InputTarget</span> values: <var class="keyword varname">ITEM_LEVEL</var>, <var class="keyword varname">SHIPMENT_LEVEL</var>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">InputTarget</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">Indicates whether the additional seller input is at the item or shipment level.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="keyword parmname">InputTarget</span> values: <var class="keyword varname">ITEM_LEVEL</var>, <var class="keyword varname">SHIPMENT_LEVEL</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">StoredValue</span></td>
-<td>Values stored by Amazon that you previously provided.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">StoredValue</span> elements:
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">StoredValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">Values stored by Amazon that you previously provided.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="keyword parmname">StoredValue</span> elements:
 <ul>
 <li><span class="keyword parmname">DataType</span></li>
 <li><span class="keyword parmname">ValueAsString</span></li>
@@ -980,11 +965,11 @@ from the seller.</span>
 <li><span class="keyword parmname">ValueAsCurrency</span></li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">RestrictedSetValues</span></td>
-<td>A set of fixed values for an additional seller input.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e3126 "><span class="keyword parmname">RestrictedSetValues</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e3129 ">A set of fixed values for an additional seller input.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e3132 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e3135 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -999,8 +984,7 @@ from the seller.</span>
 
 <div id="Shipment" class="topic reference nested1">
 
-Shipment
---------
+## Shipment
 
 <div class="body refbody">
 
@@ -1020,111 +1004,111 @@ status.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e3431" class="entry" data-valign="top" width="18.971428571428568%">Name</th>
+<th id="d168562e3434" class="entry" data-valign="top" width="27.885714285714286%">Description</th>
+<th id="d168562e3437" class="entry" data-valign="top" width="11.428571428571429%">Required</th>
+<th id="d168562e3440" class="entry" data-valign="top" width="41.714285714285715%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td>An Amazon-defined shipment identifier.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">An Amazon-defined shipment identifier.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AmazonOrderId</span></td>
-<td>An Amazon-defined order identifier in 3-7-7 format.</td>
-<td>Yes</td>
-<td>Maximum: 50 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">An Amazon-defined order identifier in 3-7-7 format.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Maximum: 50 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">SellerOrderId</span></td>
-<td>A seller-defined order identifier.</td>
-<td>No</td>
-<td>Maximum: 64 characters.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">SellerOrderId</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">A seller-defined order identifier.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">No</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Maximum: 64 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ItemList</span></td>
-<td>A list of items to be included in a shipment.</td>
-<td>Yes</td>
-<td>Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">ItemList</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">A list of items to be included in a shipment.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShipFromAddress</span></td>
-<td>The address from which the shipment ships.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">ShipFromAddress</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The address from which the shipment ships.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipToAddress</span></td>
-<td>The destination address of the shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">ShipToAddress</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The destination address of the shipment.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageDimensions</span></td>
-<td>The package dimensions.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">PackageDimensions</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The package dimensions.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Weight</span></td>
-<td>The package weight.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">Weight</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The package weight.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Insurance</span></td>
-<td>If <span class="keyword parmname">DeclaredValue</span> was specified with a previous call to the <span class="keyword apiname">CreateShipment</span> operation, then <span class="keyword parmname">Insurance</span> indicates the amount that the carrier will insure the shipment for.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">Insurance</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">If <span class="keyword parmname">DeclaredValue</span> was specified with a previous call to the <span class="keyword apiname">CreateShipment</span> operation, then <span class="keyword parmname">Insurance</span> indicates the amount that the carrier will insure the shipment for.
 <p>If <span class="keyword parmname">DeclaredValue</span> was not specified with a previous call to the <span class="keyword apiname">CreateShipment</span> operation, then the shipment will be insured for the carrier's minimum insurance amount, or the combined sale prices that the items in the shipment are listed for, whichever is less.</p>
 <p><span class="ph">For information about optional insurance coverage, see the Seller Central Help (<a href="https://sellercentral.amazon.co.uk/gp/help/200204080" class="xref">UK</a>) (<a href="https://sellercentral.amazon.com/gp/help/200204080" class="xref">US</a>).</span></p></td>
-<td>Yes</td>
-<td>The <span class="keyword parmname">DeclaredValue</span> value specified in a previous call to the <span class="keyword apiname">CreateShipment</span> operation. If <span class="keyword parmname">DeclaredValue</span> was not specified, then the value is zero.
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">The <span class="keyword parmname">DeclaredValue</span> value specified in a previous call to the <span class="keyword apiname">CreateShipment</span> operation. If <span class="keyword parmname">DeclaredValue</span> was not specified, then the value is zero.
 <p>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShippingService</span></td>
-<td>The shipping service offer for this shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">ShippingService</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The shipping service offer for this shipment.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">Label</span></td>
-<td><span class="ph">Data for creating a shipping label and dimensions for printing the label.</span> If the shipment is canceled, an empty <span class="keyword parmname">Label</span> element is returned.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Label" class="xref" title="Data for creating a shipping label and dimensions for printing the label.">Label</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">Label</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 "><span class="ph">Data for creating a shipping label and dimensions for printing the label.</span> If the shipment is canceled, an empty <span class="keyword parmname">Label</span> element is returned.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Type: <a href="MerchFulfill_Datatypes.md#Label" class="xref" title="Data for creating a shipping label and dimensions for printing the label.">Label</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Status</span></td>
-<td>The shipment status.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Status</span> values: <var class="keyword varname">Purchased</var>, <var class="keyword varname">RefundPending</var>, <var class="keyword varname">RefundRejected</var>, or <var class="keyword varname">RefundApplied</var>. See <a href="MerchFulfill_Datatypes.md#Status_Values" class="xref">Status Values table</a> for details.
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The shipment status.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 "><span class="keyword parmname">Status</span> values: <var class="keyword varname">Purchased</var>, <var class="keyword varname">RefundPending</var>, <var class="keyword varname">RefundRejected</var>, or <var class="keyword varname">RefundApplied</var>. See <a href="MerchFulfill_Datatypes.md#Status_Values" class="xref">Status Values table</a> for details.
 <p><span class="ph">Type: List of xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">TrackingId</span></td>
-<td>The shipment tracking identifier provided by the carrier.</td>
-<td>No</td>
-<td>Maximum: 30 characters
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">TrackingId</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The shipment tracking identifier provided by the carrier.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">No</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 ">Maximum: 30 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">CreatedDate</span></td>
-<td>The date that the shipment was created, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">CreatedDate</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The date that the shipment was created, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">Yes</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">LastUpdatedDate</span></td>
-<td>The date that the shipment status last changed, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="18.971428571428568%" headers="d168562e3431 "><span class="keyword parmname">LastUpdatedDate</span></td>
+<td class="entry" data-valign="top" width="27.885714285714286%" headers="d168562e3434 ">The date that the shipment status last changed, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="11.428571428571429%" headers="d168562e3437 ">No</td>
+<td class="entry" data-valign="top" width="41.714285714285715%" headers="d168562e3440 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 </tbody>
 </table>
@@ -1153,20 +1137,20 @@ the following values.
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e3926" class="entry" data-valign="top" width="25%">Name</th>
+<th id="d168562e3929" class="entry" data-valign="top" width="75%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><var class="keyword varname">Purchased</var></td>
-<td>The seller purchased a label by calling the <span class="keyword apiname">CreateShipment</span> operation.</td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25%" headers="d168562e3926 "><var class="keyword varname">Purchased</var></td>
+<td class="entry" data-valign="top" width="75%" headers="d168562e3929 ">The seller purchased a label by calling the <span class="keyword apiname">CreateShipment</span> operation.</td>
 </tr>
-<tr class="even">
-<td><var class="keyword varname">RefundPending</var></td>
-<td>The seller requested a label refund by calling the <span class="keyword apiname">CancelShipment</span> operation, and the refund request is being processed by the carrier.
+<tr class="even row">
+<td class="entry" data-valign="top" width="25%" headers="d168562e3926 "><var class="keyword varname">RefundPending</var></td>
+<td class="entry" data-valign="top" width="75%" headers="d168562e3929 ">The seller requested a label refund by calling the <span class="keyword apiname">CancelShipment</span> operation, and the refund request is being processed by the carrier.
 <div class="note note">
 <span class="notetitle">Note:</span>
 <ul>
@@ -1175,17 +1159,17 @@ the following values.
 </ul>
 </div></td>
 </tr>
-<tr class="odd">
-<td><var class="keyword varname">RefundRejected</var></td>
-<td>The label refund request was rejected by the carrier. A refund request is rejected for either of the following reasons:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25%" headers="d168562e3926 "><var class="keyword varname">RefundRejected</var></td>
+<td class="entry" data-valign="top" width="75%" headers="d168562e3929 ">The label refund request was rejected by the carrier. A refund request is rejected for either of the following reasons:
 <ul>
 <li>The cancellation window has expired. <span class="ph">Cancellation policies vary by carrier. For more information about carrier cancellation policies, see the Seller Central Help.</span>.</li>
 <li>The carrier has already accepted the shipment for delivery.</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><var class="keyword varname">RefundApplied</var></td>
-<td>The refund has been approved and credited to the seller's account.</td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="25%" headers="d168562e3926 "><var class="keyword varname">RefundApplied</var></td>
+<td class="entry" data-valign="top" width="75%" headers="d168562e3929 ">The refund has been approved and credited to the seller's account.</td>
 </tr>
 </tbody>
 </table>
@@ -1202,8 +1186,7 @@ the following values.
 
 <div id="ShipmentLevelFields" class="topic reference nested1">
 
-ShipmentLevelFields
--------------------
+## ShipmentLevelFields
 
 <div class="body refbody">
 
@@ -1224,30 +1207,30 @@ class="keyword apiname">CreateShipment</span> operation.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e4087" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e4090" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e4093" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e4096" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AdditionalInputFieldName</span></td>
-<td>The name of the additional seller input.</td>
-<td>No</td>
-<td><span class="keyword parmname">AdditionalInputFieldName</span> values:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4087 "><span class="keyword parmname">AdditionalInputFieldName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4090 ">The name of the additional seller input.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4093 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4096 "><span class="keyword parmname">AdditionalInputFieldName</span> values:
 <ul>
 <li><var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var></li>
 <li><var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var></li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerInputDefinition</span></td>
-<td><span class="ph">Defines the additional seller input that is required from the seller.</span></td>
-<td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#SellerInputDefinition" class="xref" title="Defines the additional seller input that is required from the seller.">SellerInputDefinition</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4087 "><span class="keyword parmname">SellerInputDefinition</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4090 "><span class="ph">Defines the additional seller input that is required from the seller.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4093 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4096 ">Type: <a href="MerchFulfill_Datatypes.md#SellerInputDefinition" class="xref" title="Defines the additional seller input that is required from the seller.">SellerInputDefinition</a></td>
 </tr>
 </tbody>
 </table>
@@ -1262,8 +1245,7 @@ class="keyword apiname">CreateShipment</span> operation.</span>
 
 <div id="ShipmentLevelSellerInputs" class="topic reference nested1">
 
-ShipmentLevelSellerInputsList
------------------------------
+## ShipmentLevelSellerInputsList
 
 <div class="body refbody">
 
@@ -1284,20 +1266,20 @@ class="keyword apiname">CreateShipment</span> operation.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e4236" class="entry" data-valign="top" width="17.919580419580416%">Name</th>
+<th id="d168562e4239" class="entry" data-valign="top" width="10.402097902097902%">Description</th>
+<th id="d168562e4242" class="entry" data-valign="top" width="8.741258741258742%">Required</th>
+<th id="d168562e4245" class="entry" data-valign="top" width="40.38461538461538%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AdditionalSellerInputs</span></td>
-<td>Contains additional seller input information.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="17.919580419580416%" headers="d168562e4236 "><span class="keyword parmname">AdditionalSellerInputs</span></td>
+<td class="entry" data-valign="top" width="10.402097902097902%" headers="d168562e4239 ">Contains additional seller input information.</td>
+<td class="entry" data-valign="top" width="8.741258741258742%" headers="d168562e4242 ">Yes</td>
+<td class="entry" data-valign="top" width="40.38461538461538%" headers="d168562e4245 "><span class="keyword parmname">AdditionalSellerInputs</span> contains these elements:
 <ul>
 <li><span class="keyword parmname">AdditionalInputFieldName</span> - The name of the additional seller input. Example values: <var class="keyword varname">NON_DELIVERABLE_INSTRUCTIONS</var>, <var class="keyword varname">SENDER_ADDRESS_TRANSLATED</var>. Get this value from a <span class="keyword parmname">ShipmentLevelFields</span> response member returned by the <a href="MerchFulfill_GetAdditionalSellerInputs.md" class="xref" title="Returns a list of additional seller inputs that are required from the seller to purchase the shipping service that you specify.">GetAdditionalSellerInputs</a> operation.</li>
 <li><strong>AdditionalSellerInput</strong> - Additional seller input information. <strong>AdditionalSellerInput</strong> contains these elements:
@@ -1322,8 +1304,7 @@ class="keyword apiname">CreateShipment</span> operation.</span>
 
 <div id="ShipmentRequestDetails" class="topic reference nested1">
 
-ShipmentRequestDetails
-----------------------
+## ShipmentRequestDetails
 
 <div class="body refbody">
 
@@ -1343,77 +1324,77 @@ service offers or for creating a shipment.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e4433" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e4436" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e4439" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e4442" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">AmazonOrderId</span></td>
-<td>An Amazon-defined order identifier in 3-7-7 format.</td>
-<td>Yes</td>
-<td>Maximum: 50 characters.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">An Amazon-defined order identifier in 3-7-7 format.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Maximum: 50 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerOrderId</span></td>
-<td>A seller-defined order identifier.</td>
-<td>No</td>
-<td>Maximum: 64 characters.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">SellerOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">A seller-defined order identifier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Maximum: 64 characters.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ItemList</span></td>
-<td>A list of items to be included in a shipment.</td>
-<td>Yes</td>
-<td>Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">ItemList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">A list of items to be included in a shipment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: List of <a href="MerchFulfill_Datatypes.md#Item" class="xref" title="An Amazon order item identifier and a quantity.">Item</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipFromAddress</span></td>
-<td>The address from which the shipment ships.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">ShipFromAddress</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">The address from which the shipment ships.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">PackageDimensions</span></td>
-<td>The package dimensions.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">PackageDimensions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">The package dimensions.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: <a href="MerchFulfill_Datatypes.md#PackageDimensions" class="xref" title="The dimensions of a package contained in a shipment.">PackageDimensions</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Weight</span></td>
-<td>The package weight.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">Weight</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">The package weight.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: <a href="MerchFulfill_Datatypes.md#Weight" class="xref" title="The weight value and unit of measurement.">Weight</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">MustArriveByDate</span></td>
-<td>The date by which the package must arrive to keep the promise to the customer, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">MustArriveByDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">The date by which the package must arrive to keep the promise to the customer, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>If <span class="keyword parmname">MustArriveByDate</span> is specified, only shipping service offers that can be delivered by that date are returned.</p></td>
-<td>No</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShipDate</span></td>
-<td>When used in a request, this is the date that the seller wants to ship the package. When used in a response, this is the date that the package can be shipped by the indicated method.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">ShipDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">When used in a request, this is the date that the seller wants to ship the package. When used in a response, this is the date that the package can be shipped by the indicated method.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceOptions</span></td>
-<td>Extra services offered by the carrier.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">ShippingServiceOptions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">Extra services offered by the carrier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">LabelCustomization</span></td>
-<td>Label customization options.</td>
-<td>No</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#LabelCustomization" class="xref" title="Custom text for shipping labels.">LabelCustomization</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4433 "><span class="keyword parmname">LabelCustomization</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4436 ">Label customization options.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4439 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4442 ">Type: <a href="MerchFulfill_Datatypes.md#LabelCustomization" class="xref" title="Custom text for shipping labels.">LabelCustomization</a></td>
 </tr>
 </tbody>
 </table>
@@ -1428,8 +1409,7 @@ service offers or for creating a shipment.</span>
 
 <div id="ShippingOfferingFilter" class="topic reference nested1">
 
-ShippingOfferingFilter
-----------------------
+## ShippingOfferingFilter
 
 <div class="body refbody">
 
@@ -1456,8 +1436,7 @@ service offers.</span>
 
 <div id="ShippingService" class="topic reference nested1">
 
-ShippingService
----------------
+## ShippingService
 
 <div class="body refbody">
 
@@ -1476,81 +1455,81 @@ ShippingService
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e4858" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e4861" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e4864" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e4867" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceName</span></td>
-<td><span class="ph">A plain text representation of a carrier's shipping service. For example, "UPS Ground" or "FedEx Standard Overnight".</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">ShippingServiceName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 "><span class="ph">A plain text representation of a carrier's shipping service. For example, "UPS Ground" or "FedEx Standard Overnight".</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">CarrierName</span></td>
-<td>The name of the carrier.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">CarrierName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The name of the carrier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceId</span></td>
-<td><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">ShippingServiceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 "><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">ShippingServiceOfferId</span></td>
-<td><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">ShippingServiceOfferId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 "><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShipDate</span></td>
-<td>The date that the carrier will ship the package.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">ShipDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The date that the carrier will ship the package.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">EarliestEstimatedDeliveryDate</span></td>
-<td>The earliest date by which the shipment will be delivered.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">EarliestEstimatedDeliveryDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The earliest date by which the shipment will be delivered.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">LatestEstimatedDeliveryDate</span></td>
-<td>The latest date by which the shipment will be delivered.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:dateTime</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">LatestEstimatedDeliveryDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The latest date by which the shipment will be delivered.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Rate</span></td>
-<td>The amount that the carrier will charge for the shipment.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">Rate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The amount that the carrier will charge for the shipment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 ">Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceOptions</span></td>
-<td>Extra services offered by the carrier.</td>
-<td>Yes</td>
-<td>Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">ShippingServiceOptions</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">Extra services offered by the carrier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 ">Type: <a href="MerchFulfill_Datatypes.md#ShippingServiceOptions" class="xref" title="Extra services provided by a carrier.">ShippingServiceOptions</a></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AvailableLabelFormats</span></td>
-<td>The available label formats for a carrier.</td>
-<td>No</td>
-<td>May include <span class="keyword parmname">PNG</span>, <span class="keyword parmname">PDF</span>, and <span class="keyword parmname">ZPL203</span>.
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">AvailableLabelFormats</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 ">The available label formats for a carrier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 ">May include <span class="keyword parmname">PNG</span>, <span class="keyword parmname">PDF</span>, and <span class="keyword parmname">ZPL203</span>.
 <p><span class="ph">Type: List of xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">RequiresAdditionalSellerInputs</span></td>
-<td><var class="keyword varname">True</var> if this shipping service requires additional seller inputs.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:boolean</span></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e4858 "><span class="keyword parmname">RequiresAdditionalSellerInputs</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e4861 "><var class="keyword varname">True</var> if this shipping service requires additional seller inputs.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e4864 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e4867 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
 </tbody>
 </table>
@@ -1565,8 +1544,7 @@ ShippingService
 
 <div id="ShippingServiceOptions" class="topic reference nested1">
 
-ShippingServiceOptions
-----------------------
+## ShippingServiceOptions
 
 <div class="body refbody">
 
@@ -1585,20 +1563,20 @@ ShippingServiceOptions
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e5210" class="entry" data-valign="top" width="20.127795527156547%">Name</th>
+<th id="d168562e5213" class="entry" data-valign="top" width="30.35143769968051%">Description</th>
+<th id="d168562e5216" class="entry" data-valign="top" width="10.649627263045792%">Required</th>
+<th id="d168562e5219" class="entry" data-valign="top" width="38.87113951011714%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">DeliveryExperience</span></td>
-<td>The delivery confirmation level.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">DeliveryExperience</span> values:
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="20.127795527156547%" headers="d168562e5210 "><span class="keyword parmname">DeliveryExperience</span></td>
+<td class="entry" data-valign="top" width="30.35143769968051%" headers="d168562e5213 ">The delivery confirmation level.</td>
+<td class="entry" data-valign="top" width="10.649627263045792%" headers="d168562e5216 ">Yes</td>
+<td class="entry" data-valign="top" width="38.87113951011714%" headers="d168562e5219 "><span class="keyword parmname">DeliveryExperience</span> values:
 <ul>
 <li><var class="keyword varname">DeliveryConfirmationWithAdultSignature</var> - Delivery confirmation with adult signature.</li>
 <li><var class="keyword varname">DeliveryConfirmationWithSignature</var> - Delivery confirmation with signature. Required for DPD (UK).</li>
@@ -1607,33 +1585,33 @@ ShippingServiceOptions
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">DeclaredValue</span></td>
-<td>The declared value of the shipment. The carrier uses this value to determine how much to insure the shipment for. If <span class="keyword parmname">DeclaredValue</span> is greater than the carrier's minimum insurance amount, the seller is charged for the additional insurance as determined by the carrier. <span class="ph">For information about optional insurance coverage, see the Seller Central Help (<a href="https://sellercentral.amazon.co.uk/gp/help/200204080" class="xref">UK</a>) (<a href="https://sellercentral.amazon.com/gp/help/200204080" class="xref">US</a>).</span></td>
-<td>No</td>
-<td>Default: 0
+<tr class="even row">
+<td class="entry" data-valign="top" width="20.127795527156547%" headers="d168562e5210 "><span class="keyword parmname">DeclaredValue</span></td>
+<td class="entry" data-valign="top" width="30.35143769968051%" headers="d168562e5213 ">The declared value of the shipment. The carrier uses this value to determine how much to insure the shipment for. If <span class="keyword parmname">DeclaredValue</span> is greater than the carrier's minimum insurance amount, the seller is charged for the additional insurance as determined by the carrier. <span class="ph">For information about optional insurance coverage, see the Seller Central Help (<a href="https://sellercentral.amazon.co.uk/gp/help/200204080" class="xref">UK</a>) (<a href="https://sellercentral.amazon.com/gp/help/200204080" class="xref">US</a>).</span></td>
+<td class="entry" data-valign="top" width="10.649627263045792%" headers="d168562e5216 ">No</td>
+<td class="entry" data-valign="top" width="38.87113951011714%" headers="d168562e5219 ">Default: 0
 <p>Type: <a href="MerchFulfill_Datatypes.md#CurrencyAmount" class="xref" title="Currency type and amount.">CurrencyAmount</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">CarrierWillPickUp</span></td>
-<td>Indicates whether the carrier will pick up the package.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="20.127795527156547%" headers="d168562e5210 "><span class="keyword parmname">CarrierWillPickUp</span></td>
+<td class="entry" data-valign="top" width="30.35143769968051%" headers="d168562e5213 ">Indicates whether the carrier will pick up the package.
 <div class="note note">
 <span class="notetitle">Note:</span> Scheduled carrier pickup is available only using Dynamex (US), DPD (UK), and Royal Mail (UK).
 </div></td>
-<td>Yes</td>
-<td><var class="keyword varname">true</var> if the carrier will pick up the package, otherwise <var class="keyword varname">false</var>.
+<td class="entry" data-valign="top" width="10.649627263045792%" headers="d168562e5216 ">Yes</td>
+<td class="entry" data-valign="top" width="38.87113951011714%" headers="d168562e5219 "><var class="keyword varname">true</var> if the carrier will pick up the package, otherwise <var class="keyword varname">false</var>.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">LabelFormat</span></td>
-<td>The seller's preferred label format.
+<tr class="even row">
+<td class="entry" data-valign="top" width="20.127795527156547%" headers="d168562e5210 "><span class="keyword parmname">LabelFormat</span></td>
+<td class="entry" data-valign="top" width="30.35143769968051%" headers="d168562e5213 ">The seller's preferred label format.
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> Not all <span class="keyword parmname">LabelFormat</span> values are supported by all carriers. Specifying a <span class="keyword parmname">LabelFormat</span> value that is not supported by a carrier will filter out shipping service offers from that carrier.
 </div>
 </div></td>
-<td>No</td>
-<td>Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
+<td class="entry" data-valign="top" width="10.649627263045792%" headers="d168562e5216 ">No</td>
+<td class="entry" data-valign="top" width="38.87113951011714%" headers="d168562e5219 ">Must match one of the <span class="keyword parmname">AvailableLabelFormats</span> returned by <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -1649,8 +1627,7 @@ ShippingServiceOptions
 
 <div id="TemporarilyUnavailableCarrier" class="topic reference nested1">
 
-TemporarilyUnavailableCarrier
------------------------------
+## TemporarilyUnavailableCarrier
 
 <div class="body refbody">
 
@@ -1679,8 +1656,7 @@ class="section">
 <div id="TermsAndConditionsNotAcceptedCarrier"
 class="topic reference nested1">
 
-TermsAndConditionsNotAcceptedCarrier
-------------------------------------
+## TermsAndConditionsNotAcceptedCarrier
 
 <div class="body refbody">
 
@@ -1707,8 +1683,7 @@ accepted by the seller.</span>
 
 <div id="TransparencyCodeList" class="topic reference nested1">
 
-TransparencyCodeList
---------------------
+## TransparencyCodeList
 
 <div class="body refbody">
 
@@ -1734,8 +1709,7 @@ TransparencyCodeList
 
 <div id="Weight" class="topic reference nested1">
 
-Weight
-------
+## Weight
 
 <div class="body refbody">
 
@@ -1754,26 +1728,26 @@ Weight
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d168562e5754" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d168562e5757" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d168562e5760" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d168562e5763" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Value</span></td>
-<td>The weight of the object.</td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:decimal</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e5754 "><span class="keyword parmname">Value</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e5757 ">The weight of the object.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e5760 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e5763 "><span class="ph">Type: xs:decimal</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Unit</span></td>
-<td>The unit of measurement for weight.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">Unit</span> values: <var class="keyword varname">ounces</var>, <var class="keyword varname">grams</var>
+<tr class="even row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d168562e5754 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d168562e5757 ">The unit of measurement for weight.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d168562e5760 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d168562e5763 "><span class="keyword parmname">Unit</span> values: <var class="keyword varname">ounces</var>, <var class="keyword varname">grams</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -1789,8 +1763,7 @@ Weight
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

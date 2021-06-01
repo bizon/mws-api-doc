@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Feeds_GetFeedSubmissionListByNextToken" class="nested0">
 
-GetFeedSubmissionListByNextToken
-================================
+# GetFeedSubmissionListByNextToken
 
 <div class="body">
 
@@ -54,8 +53,7 @@ class="keyword parmname">NextToken</span> parameter.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -106,8 +104,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -134,8 +131,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -148,33 +144,33 @@ Response elements
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d129069e274" class="entry" data-valign="top" width="25.249643366619118%">Name</th>
+<th id="d129069e277" class="entry" data-valign="top" width="45.36376604850214%">Description</th>
+<th id="d129069e280" class="entry" data-valign="top" width="15.121255349500714%">Required</th>
+<th id="d129069e283" class="entry" data-valign="top" width="14.265335235378032%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td>A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
-<td>No</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129069e274 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129069e277 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129069e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129069e283 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">HasNext</span></td>
-<td>A Boolean value that indicates whether there are more items to retrieve, requiring additional requests to <span class="keyword apiname">GetGetFeedSubmissionListByNextToken</span> to retrieve them.</td>
-<td>No</td>
-<td><p>The value <var class="keyword varname">true</var> means there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</p>
+<tr class="even row">
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129069e274 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129069e277 ">A Boolean value that indicates whether there are more items to retrieve, requiring additional requests to <span class="keyword apiname">GetGetFeedSubmissionListByNextToken</span> to retrieve them.</td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129069e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129069e283 "><p>The value <var class="keyword varname">true</var> means there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</p>
 <span class="ph">Type: xs:boolean</span></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">FeedSubmissionInfo</span></td>
-<td><span class="ph">Detailed information about a feed submission.</span></td>
-<td>No</td>
-<td>Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129069e274 "><span class="keyword parmname">FeedSubmissionInfo</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129069e277 "><span class="ph">Detailed information about a feed submission.</span></td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129069e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129069e283 ">Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
 </tr>
 </tbody>
 </table>
@@ -187,8 +183,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -207,22 +202,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Feeds/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Feeds/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PExampleR2
-    &Action=GetFeedSubmissionListByNextToken
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATExampleER
-    &NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
-    &SellerId=A1ExampleE6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T15%3A51%3A49.015Z
-    &Version=2009-01-01
-    &Signature=BXExampleo%3D
+AWSAccessKeyId=0PExampleR2
+&Action=GetFeedSubmissionListByNextToken
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATExampleER
+&NextToken=2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
+&SellerId=A1ExampleE6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T15%3A51%3A49.015Z
+&Version=2009-01-01
+&Signature=BXExampleo%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -247,23 +244,25 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetFeedSubmissionListByNextTokenResponse
-        xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
-        <GetFeedSubmissionListByNextTokenResult>
-            <NextToken>none</NextToken>
-            <HasNext>false</HasNext>
-            <FeedSubmissionInfo>
-                <FeedSubmissionId>2291326430</FeedSubmissionId>
-                <FeedType>_POST_PRODUCT_DATA_</FeedType>
-                <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
-                <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
-            </FeedSubmissionInfo>
-        </GetFeedSubmissionListByNextTokenResult>
-        <ResponseMetadata>
-            <RequestId>1105b931-6f1c-4480-8e97-f3b467840a9e</RequestId>
-        </ResponseMetadata>
-    </GetFeedSubmissionListByNextTokenResponse>
+``` pre
+<?xml version="1.0"?>
+<GetFeedSubmissionListByNextTokenResponse
+    xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+    <GetFeedSubmissionListByNextTokenResult>
+        <NextToken>none</NextToken>
+        <HasNext>false</HasNext>
+        <FeedSubmissionInfo>
+            <FeedSubmissionId>2291326430</FeedSubmissionId>
+            <FeedType>_POST_PRODUCT_DATA_</FeedType>
+            <SubmittedDate>2009-02-20T02:10:35+00:00</SubmittedDate>
+            <FeedProcessingStatus>_SUBMITTED_</FeedProcessingStatus>
+        </FeedSubmissionInfo>
+    </GetFeedSubmissionListByNextTokenResult>
+    <ResponseMetadata>
+        <RequestId>1105b931-6f1c-4480-8e97-f3b467840a9e</RequestId>
+    </ResponseMetadata>
+</GetFeedSubmissionListByNextTokenResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -277,8 +276,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

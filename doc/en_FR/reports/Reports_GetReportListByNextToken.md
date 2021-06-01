@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportListByNextToken" class="nested0">
 
-GetReportListByNextToken
-========================
+# GetReportListByNextToken
 
 <div class="body">
 
@@ -59,8 +58,7 @@ call.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -111,8 +109,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -139,8 +136,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -151,26 +147,26 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d280186e274" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d280186e277" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">NextToken</span></td>
-<td><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d280186e274 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d280186e277 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">HasNext</span></td>
-<td><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="50%" headers="d280186e274 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d280186e277 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ReportInfo</span></td>
-<td><span class="ph">Detailed information about a report.</span>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="50%" headers="d280186e274 "><span class="keyword parmname">ReportInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d280186e277 "><span class="ph">Detailed information about a report.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>
@@ -184,8 +180,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -203,24 +198,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-    &Acknowledged=false
-    &Action=GetReportListByNextToken
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &NextToken=2YgYW55IPQhvu5hbCBwbGVhc3VyZS4=
-    &ReportTypeList.Type.1=_GET_MERCHANT_LISTINGS_DATA_
-    &SellerId=A1XEXAMPLE5E6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T18%3A12%3A19.796Z
-    &Version=2009-01-01
-    &Signature=3yvUqWWBpLDld9CCx0ANjVU95ks%3D
+AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+&Acknowledged=false
+&Action=GetReportListByNextToken
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&NextToken=2YgYW55IPQhvu5hbCBwbGVhc3VyZS4=
+&ReportTypeList.Type.1=_GET_MERCHANT_LISTINGS_DATA_
+&SellerId=A1XEXAMPLE5E6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T18%3A12%3A19.796Z
+&Version=2009-01-01
+&Signature=3yvUqWWBpLDld9CCx0ANjVU95ks%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -241,24 +238,26 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetReportListByNextTokenResponse
-        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <GetReportListByNextTokenResult>
-            <NextToken>none</NextToken>
-            <HasNext>false</HasNext>
-            <ReportInfo>
-                <ReportId>898899473</ReportId>
-                <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
-                <ReportRequestId>2278662938</ReportRequestId>
-                <AvailableDate>2009-02-10T09:22:33+00:00</AvailableDate>
-                <Acknowledged>false</Acknowledged>
-            </ReportInfo>
-        </GetReportListByNextTokenResult>
-        <ResponseMetadata>
-            <RequestId>fbf677c1-dcee-4110-bc88-2ba3702e331b</RequestId>
-        </ResponseMetadata>
-    </GetReportListByNextTokenResponse>
+``` pre
+<?xml version="1.0"?>
+<GetReportListByNextTokenResponse
+    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <GetReportListByNextTokenResult>
+        <NextToken>none</NextToken>
+        <HasNext>false</HasNext>
+        <ReportInfo>
+            <ReportId>898899473</ReportId>
+            <ReportType>_GET_MERCHANT_LISTINGS_DATA_</ReportType>
+            <ReportRequestId>2278662938</ReportRequestId>
+            <AvailableDate>2009-02-10T09:22:33+00:00</AvailableDate>
+            <Acknowledged>false</Acknowledged>
+        </ReportInfo>
+    </GetReportListByNextTokenResult>
+    <ResponseMetadata>
+        <RequestId>fbf677c1-dcee-4110-bc88-2ba3702e331b</RequestId>
+    </ResponseMetadata>
+</GetReportListByNextTokenResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -272,8 +271,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

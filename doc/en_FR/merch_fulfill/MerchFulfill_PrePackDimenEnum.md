@@ -42,15 +42,13 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulfill_PrePackDimenEnum" class="nested0">
 
-PredefinedPackageDimensions enumeration
-=======================================
+# PredefinedPackageDimensions enumeration
 
 An enumeration of predefined parcel tokens.
 
 <div id="ReportTypeCategories" class="topic reference nested1">
 
-PredefinedPackageDimensions enumeration
----------------------------------------
+## PredefinedPackageDimensions enumeration
 
 <div class="body refbody">
 
@@ -148,8 +146,7 @@ Envelope or Box.
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

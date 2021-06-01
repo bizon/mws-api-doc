@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Recommendations_Overview" class="nested0">
 
-What you should know about the Amazon MWS Recommendations API section
-=====================================================================
+# What you should know about the Amazon MWS Recommendations API section
 
 <div class="body">
 
@@ -68,8 +67,7 @@ the following categories:
 <div id="Recommendations_Overview__RecommendationsOperations"
 class="section">
 
-The <span class="ph">Recommendations API section</span> operations
-------------------------------------------------------------------
+## The <span class="ph">Recommendations API section</span> operations
 
 The following operations are included in the <span
 class="ph">Recommendations API section</span>:

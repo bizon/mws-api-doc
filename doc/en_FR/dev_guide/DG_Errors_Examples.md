@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ErrorMessages_Examples" class="nested0">
 
-Example HTTP errors
-===================
+# Example HTTP errors
 
 <div class="body">
 
@@ -69,8 +68,7 @@ code examples and possible solutions to the error.
 
 <div id="ErrorMessages_Examples_503_error" class="topic nested1">
 
-503 service unavailable error
------------------------------
+## 503 service unavailable error
 
 <div class="body">
 
@@ -94,37 +92,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST 
-    mws.amazonservices.com
-    /Reports/2009-01-01
-    ?AWSAccessKeyId=AKIAJSTDR2444BJQ
-    &AWSAccountId=458080
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &SellerId=AC28N11YUQ
-    &SignatureVersion=2
-    &Version=2009-01-01
-    &RequestId=2d093e-0408-4517-9685-
-    474d1a0a8e9e
-    &CustomerId=A2AR6RWNQ
-    &NamespaceUri=
-    http%3A%2F%2Fmws.amazonservices.com
-    %2Fdoc%2F2009-01-01%2F
-    &ServiceName=MarketplaceWebService
-    &Action=GetReportList
-    &ErrorCode=ServiceUnavailable
-    &ErrorFault=Receiver 
-    HTTP/0.0" 503 296 "-" "UST/1.0 
-    (Language=PHP/5.2.14; 
-    MWSClientVersion=2009-07-02; 
-    Platform=Linux infong 2.4 #1 
-    SMP Wed Nov 4 21:12:12 
-    UTC 2009 i686 GNU/Linux/Linux 
-    infong 2.4 #1 SMP 
-    Wed Nov 4 21:12:12 UTC 2009 i686 
-    GNU/Linux/Linux infong 2.4 
-    #1 SMP Wed Nov 4 21:12:12 UTC 
-    2009 i686 GNU/Linux)
+``` pre
+POST 
+mws.amazonservices.com
+/Reports/2009-01-01
+?AWSAccessKeyId=AKIAJSTDR2444BJQ
+&AWSAccountId=458080
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&SellerId=AC28N11YUQ
+&SignatureVersion=2
+&Version=2009-01-01
+&RequestId=2d093e-0408-4517-9685-
+474d1a0a8e9e
+&CustomerId=A2AR6RWNQ
+&NamespaceUri=
+http%3A%2F%2Fmws.amazonservices.com
+%2Fdoc%2F2009-01-01%2F
+&ServiceName=MarketplaceWebService
+&Action=GetReportList
+&ErrorCode=ServiceUnavailable
+&ErrorFault=Receiver 
+HTTP/0.0" 503 296 "-" "UST/1.0 
+(Language=PHP/5.2.14; 
+MWSClientVersion=2009-07-02; 
+Platform=Linux infong 2.4 #1 
+SMP Wed Nov 4 21:12:12 
+UTC 2009 i686 GNU/Linux/Linux 
+infong 2.4 #1 SMP 
+Wed Nov 4 21:12:12 UTC 2009 i686 
+GNU/Linux/Linux infong 2.4 
+#1 SMP Wed Nov 4 21:12:12 UTC 
+2009 i686 GNU/Linux)
+```
 
 <a href="#DG_ErrorMessages_Examples" class="xref">↑ Top</a>
 
@@ -139,8 +139,7 @@ code</span> </span>
 <div id="ErrorMessages_Examples_503_throttling_error"
 class="topic nested1">
 
-503 throttling error
---------------------
+## 503 throttling error
 
 <div class="body">
 
@@ -165,26 +164,28 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST 
-    mws.amazonservices.com
-    /Reports/2009-01-01
-    ?AWSAccessKeyId=AKIVUUNIIMFTA
-    &AWSAccountId=7948
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &SellerId=ASH1H4EF
-    &SignatureVersion=2
-    &Version=2009-01-01
-    &RequestId=260-0116-41fa-91d0-7bc98359c694
-    &CustomerId=ASH14EF
-    &NamespaceUri=
-    http%3A%2F%2Fmws.amazonservices.com
-    %2Fdoc%2F2009-01-01%2F
-    &ServiceName=MarketplaceWebService
-    &Action=GetReportRequestList
-    &ErrorCode=RequestThrottled
-    &ErrorFault=Sender
-    HTTP/0.0" 503 309 "-" "null"
+``` pre
+POST 
+mws.amazonservices.com
+/Reports/2009-01-01
+?AWSAccessKeyId=AKIVUUNIIMFTA
+&AWSAccountId=7948
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&SellerId=ASH1H4EF
+&SignatureVersion=2
+&Version=2009-01-01
+&RequestId=260-0116-41fa-91d0-7bc98359c694
+&CustomerId=ASH14EF
+&NamespaceUri=
+http%3A%2F%2Fmws.amazonservices.com
+%2Fdoc%2F2009-01-01%2F
+&ServiceName=MarketplaceWebService
+&Action=GetReportRequestList
+&ErrorCode=RequestThrottled
+&ErrorFault=Sender
+HTTP/0.0" 503 309 "-" "null"
+```
 
 <a href="#ErrorMessages_Examples_503_throttling_error" class="xref">↑ Top</a>
 

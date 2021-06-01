@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Products_GetCompetitivePricingForSKU" class="nested0">
 
-GetCompetitivePricingForSKU
-===========================
+# GetCompetitivePricingForSKU
 
 <div class="body">
 
@@ -54,8 +53,7 @@ based on <span class="keyword parmname">SellerSKU</span>.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -137,8 +135,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>. </span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -160,28 +157,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Valid values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d234141e229" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d234141e232" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d234141e235" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d234141e238" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">MarketplaceId</span></td>
-<td>A marketplace identifier. Specifies the marketplace from which prices are returned.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e229 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e232 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td>Yes</td>
-<td><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d234141e235 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e238 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SellerSKUList</span></td>
-<td>A structured list of <span class="keyword parmname">SellerSKU</span> values. Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e229 "><span class="keyword parmname">SellerSKUList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e232 ">A structured list of <span class="keyword parmname">SellerSKU</span> values. Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
 <p>Type: List of xs:string</p></td>
-<td>Yes</td>
-<td>Maximum: 20 <span class="keyword parmname">SellerSKU</span> values</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d234141e235 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d234141e238 ">Maximum: 20 <span class="keyword parmname">SellerSKU</span> values</td>
 </tr>
 </tbody>
 </table>
@@ -194,8 +191,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -218,28 +214,28 @@ class="keyword apiname">GetCompetitivePricingForSKU</span> operation.
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d234141e352" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d234141e355" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">Product</span></td>
-<td>Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e352 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e355 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Identifiers</span></td>
-<td>Contains the following identifiers that uniquely identify a product:
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e352 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e355 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">CompetitivePricing</span></td>
-<td>Contains pricing information for the product that is returned.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e352 "><span class="keyword parmname">CompetitivePricing</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e355 ">Contains pricing information for the product that is returned.
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">CompetitivePrice</span>. Contains pricing information. The <span class="keyword parmname">CompetitivePrice</span> element contains the following attributes:
@@ -260,9 +256,9 @@ class="keyword apiname">GetCompetitivePricingForSKU</span> operation.
 <li><span class="keyword parmname">TradeInValue</span>. The trade-in value of the product in Amazon’s Trade-In program. For more information about Amazon’s Trade-In program, see the “Amazon Trade-In program” section of the Help pages for the Amazon website in your marketplace.</li>
 </ul></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">SalesRankings</span></td>
-<td>Sales rank information for the product by product category.
+<tr class="even row">
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e352 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d234141e355 ">Sales rank information for the product by product category.
 <p>Key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>
@@ -280,8 +276,7 @@ class="keyword apiname">GetCompetitivePricingForSKU</span> operation.
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -299,22 +294,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Products/2011-10-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Products/2011-10-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
-    &Action=GetCompetitivePricingForSKU
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &MarketplaceId=ATVPDKIKX0DER
-    &SellerId=A1IMEXAMPLEWRC
-    &SellerSKUList.SellerSKU.1=SKU2468
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2012-12-04T21%3A14%3A27Z
-    &Version=2011-10-01
-    &Signature=wJI6EXAMPLE2Bfa46Ej%2BD1NwsIG%2Bjdyp828HHEXAMPLEY%3D
+AWSAccessKeyId=AKIAEXAMPLEFWR4TJ7ZQ
+&Action=GetCompetitivePricingForSKU
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&MarketplaceId=ATVPDKIKX0DER
+&SellerId=A1IMEXAMPLEWRC
+&SellerSKUList.SellerSKU.1=SKU2468
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2012-12-04T21%3A14%3A27Z
+&Version=2011-10-01
+&Signature=wJI6EXAMPLE2Bfa46Ej%2BD1NwsIG%2Bjdyp828HHEXAMPLEY%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -335,98 +332,100 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetCompetitivePricingForSKUResponse
-        xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
-        <GetCompetitivePricingForSKUResult SellerSKU="SKU2468" status="Success">
-            <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
-                xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
-                <Identifiers>
-                    <MarketplaceASIN>
-                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                        <ASIN>1933890517</ASIN>
-                    </MarketplaceASIN>
-                    <SKUIdentifier>
-                        <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
-                        <SellerId>A1IMEXAMPLEWRC</SellerId>
-                        <SellerSKU>SKU2468</SellerSKU>
-                    </SKUIdentifier>
-                </Identifiers>
-                <CompetitivePricing>
-                    <CompetitivePrices>
-                        <CompetitivePrice belongsToRequester="false"
-                            condition="New"
-                            subcondition="New">
-                            <CompetitivePriceId>1</CompetitivePriceId>
-                            <Price>
-                                <LandedPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>40.03</Amount>
-                                </LandedPrice>
-                                <ListingPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>40.03</Amount>
-                                </ListingPrice>
-                                <Shipping>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>0.00</Amount>
-                                </Shipping>
-                            </Price>
-                        </CompetitivePrice>
-                        <CompetitivePrice belongsToRequester="false"
-                            condition="Used"
-                            subcondition="Good">
-                            <CompetitivePriceId>2</CompetitivePriceId>
-                            <Price>
-                                <LandedPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>30.50</Amount>
-                                </LandedPrice>
-                                <ListingPrice>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>30.50</Amount>
-                                </ListingPrice>
-                                <Shipping>
-                                    <CurrencyCode>USD</CurrencyCode>
-                                    <Amount>0.00</Amount>
-                                </Shipping>
-                            </Price>
-                        </CompetitivePrice>
-                    </CompetitivePrices>
-                    <NumberOfOfferListings>
-                        <OfferListingCount condition="Any">296</OfferListingCount>
-                        <OfferListingCount condition="Used">145</OfferListingCount>
-                        <OfferListingCount condition="New">151</OfferListingCount>
-                    </NumberOfOfferListings>
-                    <TradeInValue>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>17.05</Amount>
-                    </TradeInValue>
-                </CompetitivePricing>
-                <SalesRankings>
-                    <SalesRank>
-                        <ProductCategoryId>book_display_on_website</ProductCategoryId>
-                        <Rank>900</Rank>
-                    </SalesRank>
-                    <SalesRank>
-                        <ProductCategoryId>271578011</ProductCategoryId>
-                        <Rank>1</Rank>
-                    </SalesRank>
-                    <SalesRank>
-                        <ProductCategoryId>355562011</ProductCategoryId>
-                        <Rank>8</Rank>
-                    </SalesRank>
-                    <SalesRank>
-                        <ProductCategoryId>173516</ProductCategoryId>
-                        <Rank>25</Rank>
-                    </SalesRank>
-                </SalesRankings>
-            </Product>
-        </GetCompetitivePricingForSKUResult>
-        <ResponseMetadata>
-            <RequestId>003fc73e-bf70-4e55-8db8-EXAMPLEce417</RequestId>
-        </ResponseMetadata>
-    </GetCompetitivePricingForSKUResponse>
+``` pre
+<?xml version="1.0"?>
+<GetCompetitivePricingForSKUResponse
+    xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetCompetitivePricingForSKUResult SellerSKU="SKU2468" status="Success">
+        <Product xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+            xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Identifiers>
+                <MarketplaceASIN>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <ASIN>1933890517</ASIN>
+                </MarketplaceASIN>
+                <SKUIdentifier>
+                    <MarketplaceId>ATVPDKIKX0DER</MarketplaceId>
+                    <SellerId>A1IMEXAMPLEWRC</SellerId>
+                    <SellerSKU>SKU2468</SellerSKU>
+                </SKUIdentifier>
+            </Identifiers>
+            <CompetitivePricing>
+                <CompetitivePrices>
+                    <CompetitivePrice belongsToRequester="false"
+                        condition="New"
+                        subcondition="New">
+                        <CompetitivePriceId>1</CompetitivePriceId>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>40.03</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>40.03</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </Shipping>
+                        </Price>
+                    </CompetitivePrice>
+                    <CompetitivePrice belongsToRequester="false"
+                        condition="Used"
+                        subcondition="Good">
+                        <CompetitivePriceId>2</CompetitivePriceId>
+                        <Price>
+                            <LandedPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>30.50</Amount>
+                            </LandedPrice>
+                            <ListingPrice>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>30.50</Amount>
+                            </ListingPrice>
+                            <Shipping>
+                                <CurrencyCode>USD</CurrencyCode>
+                                <Amount>0.00</Amount>
+                            </Shipping>
+                        </Price>
+                    </CompetitivePrice>
+                </CompetitivePrices>
+                <NumberOfOfferListings>
+                    <OfferListingCount condition="Any">296</OfferListingCount>
+                    <OfferListingCount condition="Used">145</OfferListingCount>
+                    <OfferListingCount condition="New">151</OfferListingCount>
+                </NumberOfOfferListings>
+                <TradeInValue>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>17.05</Amount>
+                </TradeInValue>
+            </CompetitivePricing>
+            <SalesRankings>
+                <SalesRank>
+                    <ProductCategoryId>book_display_on_website</ProductCategoryId>
+                    <Rank>900</Rank>
+                </SalesRank>
+                <SalesRank>
+                    <ProductCategoryId>271578011</ProductCategoryId>
+                    <Rank>1</Rank>
+                </SalesRank>
+                <SalesRank>
+                    <ProductCategoryId>355562011</ProductCategoryId>
+                    <Rank>8</Rank>
+                </SalesRank>
+                <SalesRank>
+                    <ProductCategoryId>173516</ProductCategoryId>
+                    <Rank>25</Rank>
+                </SalesRank>
+            </SalesRankings>
+        </Product>
+    </GetCompetitivePricingForSKUResult>
+    <ResponseMetadata>
+        <RequestId>003fc73e-bf70-4e55-8db8-EXAMPLEce417</RequestId>
+    </ResponseMetadata>
+</GetCompetitivePricingForSKUResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -440,8 +439,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

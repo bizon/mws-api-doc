@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_Specs" class="nested0">
 
-Shipping Specifications
-=======================
+# Shipping Specifications
 
 <div class="body">
 
@@ -73,8 +72,7 @@ not affect its symbology.
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[Item label
     specifications](../fba_guide/FBAGuide_ItemLabelSpec.md)**  

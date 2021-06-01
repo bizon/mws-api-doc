@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_PutTransportContent" class="nested0">
 
-PutTransportContent
-===================
+# PutTransportContent
 
 <div class="body">
 
@@ -54,8 +53,7 @@ inbound shipment.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -170,8 +168,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -193,48 +190,48 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d78129e241" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
+<th id="d78129e244" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
+<th id="d78129e247" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
+<th id="d78129e250" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78129e241 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78129e244 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78129e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78129e250 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">IsPartnered</span></td>
-<td>Indicates whether a <span class="keyword apiname">PutTransportContent</span> request is for an Amazon-partnered carrier.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">IsPartnered</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78129e241 "><span class="keyword parmname">IsPartnered</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78129e244 ">Indicates whether a <span class="keyword apiname">PutTransportContent</span> request is for an Amazon-partnered carrier.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78129e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78129e250 "><span class="keyword parmname">IsPartnered</span> values:
 <ul>
 <li><var class="keyword varname">true</var> – Request is for an Amazon-partnered carrier.</li>
 <li><var class="keyword varname">false</var> – Request is for a non-Amazon-partnered carrier.</li>
 </ul>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentType</span></td>
-<td>Specifies the carrier shipment type in a <span class="keyword apiname">PutTransportContent</span> request.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">ShipmentType</span> values:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78129e241 "><span class="keyword parmname">ShipmentType</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78129e244 ">Specifies the carrier shipment type in a <span class="keyword apiname">PutTransportContent</span> request.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78129e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78129e250 "><span class="keyword parmname">ShipmentType</span> values:
 <ul>
 <li><var class="keyword varname">SP</var> – <span class="ph">Small Parcel</span></li>
 <li><var class="keyword varname">LTL</var> – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">TransportDetails</span></td>
-<td>Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</td>
-<td>Yes</td>
-<td>Type: <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
+<tr class="even row">
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78129e241 "><span class="keyword parmname">TransportDetails</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78129e244 ">Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78129e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78129e250 ">Type: <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
 </tr>
 </tbody>
 </table>
@@ -247,8 +244,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -259,16 +255,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d78129e420" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
+<th id="d78129e423" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportResult</span></td>
-<td>Workflow status for a shipment with an Amazon-partnered carrier.
+<tbody class="tbody">
+<tr id="ResponseElements__ResponseElementsRow_TransportResult" class="odd row">
+<td class="entry" data-valign="top" width="25.839793281653744%" headers="d78129e420 "><span class="keyword parmname">TransportResult</span></td>
+<td class="entry" data-valign="top" width="74.16020671834626%" headers="d78129e423 ">Workflow status for a shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>
@@ -282,8 +278,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -301,22 +296,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-      ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-      &Action=PutTransportContent
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A13EXAMPLE1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-09T22%3A52%3A25Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQ6QBP
-      &IsPartnered=false
-      &ShipmentType=SP
-      &TransportDetails.NonPartneredSmallParcelData.
-    CarrierName=DHL%20EXPRESS%20%28USA%29%20INC
-      &TransportDetails.NonPartneredSmallParcelData.
-    PackageList.member.1.TrackingId=A135KKEKWF1J5666
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+  ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+  &Action=PutTransportContent
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A13EXAMPLE1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-09T22%3A52%3A25Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQ6QBP
+  &IsPartnered=false
+  &ShipmentType=SP
+  &TransportDetails.NonPartneredSmallParcelData.
+CarrierName=DHL%20EXPRESS%20%28USA%29%20INC
+  &TransportDetails.NonPartneredSmallParcelData.
+PackageList.member.1.TrackingId=A135KKEKWF1J5666
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -337,18 +334,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <PutTransportContentResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <PutTransportContentResult>
-            <TransportResult>
-                <TransportStatus>WORKING</TransportStatus>
-            </TransportResult>
-        </PutTransportContentResult>
-        <ResponseMetadata>
-            <RequestId>616f4f53-973e-4bb3-8dd3-0b46978a45c5</RequestId>
-        </ResponseMetadata>
-    </PutTransportContentResponse>
+``` pre
+<?xml version="1.0"?>
+<PutTransportContentResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <PutTransportContentResult>
+        <TransportResult>
+            <TransportStatus>WORKING</TransportStatus>
+        </TransportResult>
+    </PutTransportContentResult>
+    <ResponseMetadata>
+        <RequestId>616f4f53-973e-4bb3-8dd3-0b46978a45c5</RequestId>
+    </ResponseMetadata>
+</PutTransportContentResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -369,15 +368,17 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ErrorResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">;
-        <Error>
-            <Type>Sender</Type>
-            <Code>InvalidParameterValue</Code>
-            <Message>Maximum request size was exceeded</Message>
-        </Error>
-        <RequestID>79e44ae7-b6f0-4154-a3ad-3b95298ff084</RequestID>
-    </ErrorResponse>
+``` pre
+<?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">;
+    <Error>
+        <Type>Sender</Type>
+        <Code>InvalidParameterValue</Code>
+        <Message>Maximum request size was exceeded</Message>
+    </Error>
+    <RequestID>79e44ae7-b6f0-4154-a3ad-3b95298ff084</RequestID>
+</ErrorResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -391,8 +392,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

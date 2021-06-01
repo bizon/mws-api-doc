@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO639-1" class="nested0">
 
-ISO 639-1 use in <span class="ph">Amazon MWS</span>
-===================================================
+# ISO 639-1 use in <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -58,8 +57,7 @@ codes available in ISO 639-2 or ISO 639-3.
 
 <div id="DG_ISO639-1__639-1References" class="section">
 
-References
-----------
+## References
 
 -   <a href="https://en.wikipedia.org/wiki/ISO_639-1" class="xref">ISO 639-1</a>
 -   <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" class="xref">List of ISO 639-1 codes</a>

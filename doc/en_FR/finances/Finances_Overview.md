@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Finances_Overview" class="nested0">
 
-What you should know about the Finances API section
-===================================================
+# What you should know about the Finances API section
 
 <div class="body">
 
@@ -59,8 +58,7 @@ date range.
 
 <div id="Terminology" class="topic nested1">
 
-Terminology
------------
+## Terminology
 
 <div class="body">
 
@@ -80,8 +78,7 @@ The following table defines terminology for this API section:
 
 <div id="Operations" class="topic nested1">
 
-Operations
-----------
+## Operations
 
 <div class="body">
 

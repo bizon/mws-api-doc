@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_Endpoints" class="nested0">
 
-<span class="ph">Amazon MWS</span> endpoints and MarketplaceId values
-=====================================================================
+# <span class="ph">Amazon MWS</span> endpoints and MarketplaceId values
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="DG_ISO8601" class="nested0">
 
-ISO 8601 use in <span class="ph">Amazon MWS</span>
-==================================================
+# ISO 8601 use in <span class="ph">Amazon MWS</span>
 
 <div class="body">
 
@@ -55,8 +54,7 @@ use date and time data in <span class="ph">Amazon MWS</span>.
 
 <div id="DG_ISO8601__formats" class="section">
 
-Type DateTime
--------------
+## Type DateTime
 
 All date and time data is expressed as calendar dates (year, month, day)
 and a 24-hour day. Day and time data is always expressed in a combined
@@ -76,8 +74,7 @@ needed.
 
 <div id="DG_ISO8601__datetimetype" class="section">
 
-Type conflicts
---------------
+## Type conflicts
 
 All use of date and time data in <span class="ph">Amazon MWS</span>
 should be expressed as type <span
@@ -90,8 +87,7 @@ wrong type will generate an error.
 
 <div id="DG_ISO8601__time_intervals" class="section">
 
-Time intervals
---------------
+## Time intervals
 
 While time intervals and durations are allowed under ISO 8601, they are
 not currently used in <span class="ph">Amazon MWS</span>.
@@ -100,10 +96,11 @@ not currently used in <span class="ph">Amazon MWS</span>.
 
 <div id="DG_ISO8601__8601_example" class="section">
 
-Example:
---------
+## Example:
 
-      2016-03-16T14:32:16.50-07
+``` pre
+  2016-03-16T14:32:16.50-07
+```
 
 This example is read as the 16th day of March in 2016 at 14hrs 32min and
 16.50 seconds local time. The local time is 7 hours behind UTC.
@@ -112,8 +109,7 @@ This example is read as the 16th day of March in 2016 at 14hrs 32min and
 
 <div id="DG_ISO8601__8601References" class="section">
 
-References
-----------
+## References
 
 -   <a href="https://en.wikipedia.org/wiki/ISO_8601" class="xref">ISO 8601</a>
 -   <a href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=40874" class="xref">ISO 8601:2004</a>

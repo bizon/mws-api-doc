@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="Reports_GetReportCount" class="nested0">
 
-GetReportCount
-==============
+# GetReportCount
 
 <div class="body">
 
@@ -55,8 +54,7 @@ download.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -102,8 +100,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -125,41 +122,41 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d278037e174" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d278037e177" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d278037e180" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d278037e183" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ReportTypeList</span></td>
-<td><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td>No</td>
-<td>Default: All
+<tbody class="tbody">
+<tr id="RequestParameters__parm_ReportTypeList" class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e174 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e177 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d278037e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e183 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">Acknowledged</span></td>
-<td><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
-<td>No</td>
-<td>Default: All
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e174 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e177 "><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d278037e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e183 ">Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">AvailableFromDate</span></td>
-<td>The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>No</td>
-<td>Default: 90 days ago
+<tr class="odd row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e174 "><span class="keyword parmname">AvailableFromDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e177 ">The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d278037e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e183 ">Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">AvailableToDate</span></td>
-<td>The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td>No</td>
-<td>Default: Now
+<tr class="even row">
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e174 "><span class="keyword parmname">AvailableToDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e177 ">The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d278037e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d278037e183 ">Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -173,8 +170,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -192,22 +188,24 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    POST /Reports/2009-01-01 HTTP/1.1
-    Content-Type: x-www-form-urlencoded
-    Host: mws.amazonservices.com
-    User-Agent: <Your User Agent Header>
+``` pre
+POST /Reports/2009-01-01 HTTP/1.1
+Content-Type: x-www-form-urlencoded
+Host: mws.amazonservices.com
+User-Agent: <Your User Agent Header>
 
-    AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
-    &Action=GetReportCount
-    &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-    &Marketplace=ATVPDKIKX0DER
-    &ReportTypeList.Type.1=_GET_ORDERS_DATA_
-    &SellerId=A1XEXAMPLE5E6
-    &SignatureMethod=HmacSHA256
-    &SignatureVersion=2
-    &Timestamp=2009-02-04T18%3A12%3A20.296Z
-    &Version=2009-01-01
-    &Signature=AV6JVsC3JvgEXAMPLERL685cP64%3D
+AWSAccessKeyId=0PB842EXAMPLE7N4ZTR2
+&Action=GetReportCount
+&MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+&Marketplace=ATVPDKIKX0DER
+&ReportTypeList.Type.1=_GET_ORDERS_DATA_
+&SellerId=A1XEXAMPLE5E6
+&SignatureMethod=HmacSHA256
+&SignatureVersion=2
+&Timestamp=2009-02-04T18%3A12%3A20.296Z
+&Version=2009-01-01
+&Signature=AV6JVsC3JvgEXAMPLERL685cP64%3D
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -228,16 +226,18 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetReportCountResponse
-        xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
-        <GetReportCountResult>
-            <Count>166</Count>
-        </GetReportCountResult>
-        <ResponseMetadata>
-            <RequestId>a497aadb-5ea1-49bf-aa14-dabe914465e3</RequestId>
-        </ResponseMetadata>
-    </GetReportCountResponse>
+``` pre
+<?xml version="1.0"?>
+<GetReportCountResponse
+    xmlns="http://mws.amazonservices.com/doc/2009-01-01/">
+    <GetReportCountResult>
+        <Count>166</Count>
+    </GetReportCountResult>
+    <ResponseMetadata>
+        <RequestId>a497aadb-5ea1-49bf-aa14-dabe914465e3</RequestId>
+    </ResponseMetadata>
+</GetReportCountResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -251,8 +251,7 @@ code</span> </span>
 
 <div id="RelatedActions" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

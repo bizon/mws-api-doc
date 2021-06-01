@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="MerchFulFill_GetEligibleShippingServices" class="nested0">
 
-GetEligibleShippingServices
-===========================
+# GetEligibleShippingServices
 
 <div class="body">
 
@@ -53,8 +52,7 @@ GetEligibleShippingServices
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -107,8 +105,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -127,8 +124,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -139,31 +135,31 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d183864e278" class="entry" data-valign="top">Name</th>
+<th id="d183864e281" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShippingServiceList</span></td>
-<td>A list of shipping services offers.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" headers="d183864e278 "><span class="keyword parmname">ShippingServiceList</span></td>
+<td class="entry" data-valign="top" headers="d183864e281 ">A list of shipping services offers.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">RejectedShippingServiceList</span></td>
-<td>A list of ineligible shipping services.
+<tr class="even row">
+<td class="entry" data-valign="top" headers="d183864e278 "><span class="keyword parmname">RejectedShippingServiceList</span></td>
+<td class="entry" data-valign="top" headers="d183864e281 ">A list of ineligible shipping services.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#RejectedShippingService" class="xref" title="A shipping service that is ineligible based on the specified ShipmentRequestDetails information.">RejectedShippingService</a></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
-<td>A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
+<tr class="odd row">
+<td class="entry" data-valign="top" headers="d183864e278 "><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
+<td class="entry" data-valign="top" headers="d183864e281 ">A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
-<td>A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
+<tr class="even row">
+<td class="entry" data-valign="top" headers="d183864e278 "><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
+<td class="entry" data-valign="top" headers="d183864e281 ">A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
 </tbody>
@@ -177,8 +173,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -199,74 +194,78 @@ code</span> </span>
 For domestic shipping
 (`&ShippingOfferingFilter.IncludeComplexShippingOptions=false`)
 
-    https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
-      &Action=GetEligibleShippingServices
-      &SellerId=A09087172RPFTMV0PGAN2
-      &SignatureVersion=2
-      &Timestamp=2015-09-23T18%3A36%3A26Z
-      &Version=2015-06-01
-      &Signature=vMf6thsqGxfVy2EZBsH5sBPJxQe6VzKL9jli8eS7tvM%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentRequestDetails.AmazonOrderId=903-9939455-1336669
-      &ShipmentRequestDetails.MustArriveByDate=2015-09-28T07%3A00%3A00Z
-      &ShipmentRequestDetails.PackageDimensions.Length=5
-      &ShipmentRequestDetails.PackageDimensions.Width=5
-      &ShipmentRequestDetails.PackageDimensions.Height=5
-      &ShipmentRequestDetails.PackageDimensions.Unit=inches
-      &ShipmentRequestDetails.Weight.Value=10
-      &ShipmentRequestDetails.Weight.Unit=ounces
-      &ShipmentRequestDetails.ShipDate=2015-09-23T19%3A32%3A08.727Z
-      &ShipmentRequestDetails.ShipFromAddress.Name=John%20Doe
-      &ShipmentRequestDetails.ShipFromAddress.AddressLine1=1234%20Westlake%20Ave%20N
-      &ShipmentRequestDetails.ShipFromAddress.City=Seattle
-      &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=WA
-      &ShipmentRequestDetails.ShipFromAddress.PostalCode=98121
-      &ShipmentRequestDetails.ShipFromAddress.CountryCode=US
-      &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
-      &ShipmentRequestDetails.ShipFromAddress.Phone=2061234567
-      &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
-      &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=false
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=USD
-      &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=10.00
-      &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=28207139993814
-      &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
-      &ShippingOfferingFilter.IncludeComplexShippingOptions=false
+``` pre
+https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
+  &Action=GetEligibleShippingServices
+  &SellerId=A09087172RPFTMV0PGAN2
+  &SignatureVersion=2
+  &Timestamp=2015-09-23T18%3A36%3A26Z
+  &Version=2015-06-01
+  &Signature=vMf6thsqGxfVy2EZBsH5sBPJxQe6VzKL9jli8eS7tvM%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentRequestDetails.AmazonOrderId=903-9939455-1336669
+  &ShipmentRequestDetails.MustArriveByDate=2015-09-28T07%3A00%3A00Z
+  &ShipmentRequestDetails.PackageDimensions.Length=5
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=inches
+  &ShipmentRequestDetails.Weight.Value=10
+  &ShipmentRequestDetails.Weight.Unit=ounces
+  &ShipmentRequestDetails.ShipDate=2015-09-23T19%3A32%3A08.727Z
+  &ShipmentRequestDetails.ShipFromAddress.Name=John%20Doe
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=1234%20Westlake%20Ave%20N
+  &ShipmentRequestDetails.ShipFromAddress.City=Seattle
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=WA
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=98121
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=US
+  &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=2061234567
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=false
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.CurrencyCode=USD
+  &ShipmentRequestDetails.ShippingServiceOptions.DeclaredValue.Amount=10.00
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=28207139993814
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShippingOfferingFilter.IncludeComplexShippingOptions=false
+```
 
 For international shipping
 (`&ShippingOfferingFilter.IncludeComplexShippingOptions=true`)
 
-    https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
-      &Action=GetEligibleShippingServices
-      &SellerId= A46VPI2LR4OTS
-      &SignatureVersion=2
-      &Timestamp=2019-08-07T18%3A28%3A06Z
-      &Version=2015-06-01
-      &Signature=upzMoYiuk61LuT3eMkSnSqLHQJHoZfFX3iwxjeV%2F3Qg%3D
-      &SignatureMethod=HmacSHA256
-      &ShipmentRequestDetails.AmazonOrderId=922-2942641-9412606
-      &ShipmentRequestDetails.MustArriveByDate=2019-09-10T07%3A00%3A00Z
-      &ShipmentRequestDetails.PackageDimensions.Length=15
-      &ShipmentRequestDetails.PackageDimensions.Width=5
-      &ShipmentRequestDetails.PackageDimensions.Height=5
-      &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
-      &ShipmentRequestDetails.Weight.Value=10
-      &ShipmentRequestDetails.Weight.Unit=grams
-      &ShipmentRequestDetails.ShipDate=2019-08-08T07%3A00%3A00Z
-      &ShipmentRequestDetails.ShipFromAddress.Name=Shenzhen%20Address
-      &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20address
-      &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
-      &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
-      &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
-      &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
-      &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
-      &ShipmentRequestDetails.ShipFromAddress.Phone=555-555-5555
-      &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
-      &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
-      &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=ShippingServiceDefault
-      &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26249797786670
-      &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
-      &ShippingOfferingFilter.IncludePackingSlipWithLabel=false
-      &ShippingOfferingFilter.IncludeComplexShippingOptions=true
+``` pre
+https://mws.amazonservices.com/MerchantFulfillment/2015-06-01
+  &Action=GetEligibleShippingServices
+  &SellerId= A46VPI2LR4OTS
+  &SignatureVersion=2
+  &Timestamp=2019-08-07T18%3A28%3A06Z
+  &Version=2015-06-01
+  &Signature=upzMoYiuk61LuT3eMkSnSqLHQJHoZfFX3iwxjeV%2F3Qg%3D
+  &SignatureMethod=HmacSHA256
+  &ShipmentRequestDetails.AmazonOrderId=922-2942641-9412606
+  &ShipmentRequestDetails.MustArriveByDate=2019-09-10T07%3A00%3A00Z
+  &ShipmentRequestDetails.PackageDimensions.Length=15
+  &ShipmentRequestDetails.PackageDimensions.Width=5
+  &ShipmentRequestDetails.PackageDimensions.Height=5
+  &ShipmentRequestDetails.PackageDimensions.Unit=centimeters
+  &ShipmentRequestDetails.Weight.Value=10
+  &ShipmentRequestDetails.Weight.Unit=grams
+  &ShipmentRequestDetails.ShipDate=2019-08-08T07%3A00%3A00Z
+  &ShipmentRequestDetails.ShipFromAddress.Name=Shenzhen%20Address
+  &ShipmentRequestDetails.ShipFromAddress.AddressLine1=test%20address
+  &ShipmentRequestDetails.ShipFromAddress.City=Shenzhen
+  &ShipmentRequestDetails.ShipFromAddress.StateOrProvinceCode=Guangdong
+  &ShipmentRequestDetails.ShipFromAddress.PostalCode=510810
+  &ShipmentRequestDetails.ShipFromAddress.CountryCode=CN
+  &ShipmentRequestDetails.ShipFromAddress.Email=example%40example.com
+  &ShipmentRequestDetails.ShipFromAddress.Phone=555-555-5555
+  &ShipmentRequestDetails.ShippingServiceOptions.DeliveryExperience=DeliveryConfirmationWithoutSignature
+  &ShipmentRequestDetails.ShippingServiceOptions.CarrierWillPickUp=true
+  &ShipmentRequestDetails.ShippingServiceOptions.LabelFormat=ShippingServiceDefault
+  &ShipmentRequestDetails.ItemList.Item.1.OrderItemId=26249797786670
+  &ShipmentRequestDetails.ItemList.Item.1.Quantity=1
+  &ShippingOfferingFilter.IncludePackingSlipWithLabel=false
+  &ShippingOfferingFilter.IncludeComplexShippingOptions=true
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -289,151 +288,155 @@ code</span> </span>
 
 For shipping that does not require additional seller inputs.
 
-    <?xml version="1.0"?>
-    <GetEligibleShippingServicesResponse
-        xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
-        <GetEligibleShippingServicesResult>
-            <ShippingServiceList>
-                <ShippingService>
-                    <ShippingServiceName>UPS Ground</ShippingServiceName>
-                    <CarrierName>UPS</CarrierName>
-                    <ShippingServiceId>UPS_PTP_GND</ShippingServiceId>
-                    <ShippingServiceOfferId>ly51yzA1nAXlJzmYlKaH+7WbKOWz2BTujIOPx5PU8luilmZYK/JFhbx177aKey8MdZcG90uABbT5q8WAgPI+uxcxx/XDtIbI7c161j5spbfsiPTwIJg4Bk66bnP6Ip+JJtuSU5++rAdv4mzXvKpisLGYGrc+FuJvBAjTersJhq4=</ShippingServiceOfferId>
-                    <ShipDate>10/16/2018 07:41:12</ShipDate>
-                    <EarliestEstimatedDeliveryDate>10/18/2018 02:00:00</EarliestEstimatedDeliveryDate>
-                    <LatestEstimatedDeliveryDate>10/18/2018 02:00:00</LatestEstimatedDeliveryDate>
-                    <Rate>
-                        <CurrencyCode>USD</CurrencyCode>
-                        <Amount>16.83</Amount>
-                    </Rate>
-                    <ShippingServiceOptions>
-                        <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
-                        <CarrierWillPickUp>False</CarrierWillPickUp>
-                    </ShippingServiceOptions>
-                    <AvailableLabelFormats>
-                        <LabelFormat>ZPL203</LabelFormat>
-                        <LabelFormat>ShippingServiceDefault</LabelFormat>
-                        <LabelFormat>PDF</LabelFormat>
-                        <LabelFormat>PNG</LabelFormat>
-                    </AvailableLabelFormats>
-                    <RequiresAdditionalSellerInputs>False</RequiresAdditionalSellerInputs>
-                </ShippingService>
-            </ShippingServiceList>
-            <RejectedShippingServiceList>
-                <RejectedShippingService>
-                    <CarrierName>UPS</CarrierName>
-                    <ShippingServiceId>UPS_PTP_3DS</ShippingServiceId>
-                    <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
-                    <RejectionReasonMessage>This ship method is not eligible for this
-                        order.</RejectionReasonMessage>
-                    <ShippingServiceName>UPS Three Day Saver</ShippingServiceName>
-                </RejectedShippingService>
-            </RejectedShippingServiceList>
-            <TemporarilyUnavailableCarrierList>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>DYNAMEX</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>USPS</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>DHLECOMMERCE</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>SELF_DELIVERY</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>ONTRAC</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>DHLMX</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>DHLM</CarrierName>
-                </TemporarilyUnavailableCarrier>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>FEDEX</CarrierName>
-                </TemporarilyUnavailableCarrier>
-            </TemporarilyUnavailableCarrierList>
-            <TermsAndConditionsNotAcceptedCarrierList>
-                <TermsAndConditionsNotAcceptedCarrier>
-                    <CarrierName>AMZN_US</CarrierName>
-                </TermsAndConditionsNotAcceptedCarrier>
-                <TermsAndConditionsNotAcceptedCarrier>
-                    <CarrierName>ONTRAC</CarrierName>
-                </TermsAndConditionsNotAcceptedCarrier>
-            </TermsAndConditionsNotAcceptedCarrierList>
-        </GetEligibleShippingServicesResult>
-        <ResponseMetadata>
-            <RequestId>5b7997fb-efd1-495b-b7db-03ecfa691038</RequestId>
-        </ResponseMetadata>
-    </GetEligibleShippingServicesResponse>
+``` pre
+<?xml version="1.0"?>
+<GetEligibleShippingServicesResponse
+    xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
+    <GetEligibleShippingServicesResult>
+        <ShippingServiceList>
+            <ShippingService>
+                <ShippingServiceName>UPS Ground</ShippingServiceName>
+                <CarrierName>UPS</CarrierName>
+                <ShippingServiceId>UPS_PTP_GND</ShippingServiceId>
+                <ShippingServiceOfferId>ly51yzA1nAXlJzmYlKaH+7WbKOWz2BTujIOPx5PU8luilmZYK/JFhbx177aKey8MdZcG90uABbT5q8WAgPI+uxcxx/XDtIbI7c161j5spbfsiPTwIJg4Bk66bnP6Ip+JJtuSU5++rAdv4mzXvKpisLGYGrc+FuJvBAjTersJhq4=</ShippingServiceOfferId>
+                <ShipDate>10/16/2018 07:41:12</ShipDate>
+                <EarliestEstimatedDeliveryDate>10/18/2018 02:00:00</EarliestEstimatedDeliveryDate>
+                <LatestEstimatedDeliveryDate>10/18/2018 02:00:00</LatestEstimatedDeliveryDate>
+                <Rate>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <Amount>16.83</Amount>
+                </Rate>
+                <ShippingServiceOptions>
+                    <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
+                    <CarrierWillPickUp>False</CarrierWillPickUp>
+                </ShippingServiceOptions>
+                <AvailableLabelFormats>
+                    <LabelFormat>ZPL203</LabelFormat>
+                    <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    <LabelFormat>PDF</LabelFormat>
+                    <LabelFormat>PNG</LabelFormat>
+                </AvailableLabelFormats>
+                <RequiresAdditionalSellerInputs>False</RequiresAdditionalSellerInputs>
+            </ShippingService>
+        </ShippingServiceList>
+        <RejectedShippingServiceList>
+            <RejectedShippingService>
+                <CarrierName>UPS</CarrierName>
+                <ShippingServiceId>UPS_PTP_3DS</ShippingServiceId>
+                <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
+                <RejectionReasonMessage>This ship method is not eligible for this
+                    order.</RejectionReasonMessage>
+                <ShippingServiceName>UPS Three Day Saver</ShippingServiceName>
+            </RejectedShippingService>
+        </RejectedShippingServiceList>
+        <TemporarilyUnavailableCarrierList>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DYNAMEX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>USPS</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLECOMMERCE</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>SELF_DELIVERY</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>ONTRAC</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLMX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DHLM</CarrierName>
+            </TemporarilyUnavailableCarrier>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>FEDEX</CarrierName>
+            </TemporarilyUnavailableCarrier>
+        </TemporarilyUnavailableCarrierList>
+        <TermsAndConditionsNotAcceptedCarrierList>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>AMZN_US</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>ONTRAC</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+        </TermsAndConditionsNotAcceptedCarrierList>
+    </GetEligibleShippingServicesResult>
+    <ResponseMetadata>
+        <RequestId>5b7997fb-efd1-495b-b7db-03ecfa691038</RequestId>
+    </ResponseMetadata>
+</GetEligibleShippingServicesResponse>
+```
 
 For shipping that requires additional seller inputs.
 
-    <?xml version="1.0"?>
-    <GetEligibleShippingServicesResponse
-        xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
-        <GetEligibleShippingServicesResult>
-            <ShippingServiceList>
-                <ShippingService>
-                    <EarliestEstimatedDeliveryDate>2019-08-27T18:00:00Z</EarliestEstimatedDeliveryDate>
-                    <AvailableLabelFormats>
+``` pre
+<?xml version="1.0"?>
+<GetEligibleShippingServicesResponse
+    xmlns="https://mws.amazonservices.com/MerchantFulfillment/2015-06-01">
+    <GetEligibleShippingServicesResult>
+        <ShippingServiceList>
+            <ShippingService>
+                <EarliestEstimatedDeliveryDate>2019-08-27T18:00:00Z</EarliestEstimatedDeliveryDate>
+                <AvailableLabelFormats>
+                    <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    <LabelFormat>PDF</LabelFormat>
+                </AvailableLabelFormats>
+                <ShipDate>2019-08-08T07:00:00Z</ShipDate>
+                <RequiresAdditionalSellerInputs>true</RequiresAdditionalSellerInputs>
+                <AvailableFormatOptionsForLabel>
+                    <LabelFormatOption>
+                        <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
                         <LabelFormat>ShippingServiceDefault</LabelFormat>
+                    </LabelFormatOption>
+                    <LabelFormatOption>
+                        <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
                         <LabelFormat>PDF</LabelFormat>
-                    </AvailableLabelFormats>
-                    <ShipDate>2019-08-08T07:00:00Z</ShipDate>
-                    <RequiresAdditionalSellerInputs>true</RequiresAdditionalSellerInputs>
-                    <AvailableFormatOptionsForLabel>
-                        <LabelFormatOption>
-                            <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
-                            <LabelFormat>ShippingServiceDefault</LabelFormat>
-                        </LabelFormatOption>
-                        <LabelFormatOption>
-                            <IncludePackingSlipWithLabel>false</IncludePackingSlipWithLabel>
-                            <LabelFormat>PDF</LabelFormat>
-                        </LabelFormatOption>
-                    </AvailableFormatOptionsForLabel>
-                    <ShippingServiceName>CHINA_POST_E_EMS</ShippingServiceName>
-                    <CarrierName>CHINA_POST</CarrierName>
-                    <ShippingServiceOptions>
-                        <CarrierWillPickUp>true</CarrierWillPickUp>
-                        <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
-                    </ShippingServiceOptions>
-                    <ShippingServiceId>CHINA_POST_E_EMS</ShippingServiceId>
-                    <Rate>
-                        <CurrencyCode>CNY</CurrencyCode>
-                        <Amount>90.00</Amount>
-                    </Rate>
-                    <LatestEstimatedDeliveryDate>2019-08-27T18:00:00Z</LatestEstimatedDeliveryDate>
-                    <ShippingServiceOfferId>NH0sNBYSrqUP2+5yJdI14yLsCwFfk2413sYQHKbp0ILv8xkJemzkFK/wgUXeC9y4j6dNKuYn3EpQh7YJSc4gvPUfNDsISoAi9tCikbPjI5KOajdY75KvPLXPEC57Od/gAlOQv07JravlVU6oURFoVtc8nwZDviBPfA43owEPmxPglPTttIuS9LfcI0ky/kIP/OT7h+acfQj8JxAtomwX1WUYGZSbzkSL9c6ic5CAeriif1Kr0k8Y0RuloSZs2ZQwOv//nLvV3ZCZic8vU8cGVGHExM9sMKamBDopoh0Kx2JHcDwWHDcKB+lOntkABC84</ShippingServiceOfferId>
-                </ShippingService>
-            </ShippingServiceList>
-            <RejectedShippingServiceList>
-                <RejectedShippingService>
-                    <CarrierName>CHINA_POST</CarrierName>
-                    <ShippingServiceId>CHINA_POST_E_PACKET</ShippingServiceId>
-                    <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
-                    <RejectionReasonMessage>This ship method is not eligible for this
-                        order.</RejectionReasonMessage>
-                    <ShippingServiceName>China Post e-Packet</ShippingServiceName>
-                </RejectedShippingService>
-            </RejectedShippingServiceList>
-            <TermsAndConditionsNotAcceptedCarrierList>
-                <TermsAndConditionsNotAcceptedCarrier>
-                    <CarrierName>DHL</CarrierName>
-                </TermsAndConditionsNotAcceptedCarrier>
-            </TermsAndConditionsNotAcceptedCarrierList>
-            <TemporarilyUnavailableCarrierList>
-                <TemporarilyUnavailableCarrier>
-                    <CarrierName>DPD</CarrierName>
-                </TemporarilyUnavailableCarrier>
-            </TemporarilyUnavailableCarrierList>
-        </GetEligibleShippingServicesResult>
-        <ResponseMetadata>
-            <RequestId>5b7997fb-efd1-495b-b7db-03ecfa691038</RequestId>
-        </ResponseMetadata>
-    </GetEligibleShippingServicesResponse>
+                    </LabelFormatOption>
+                </AvailableFormatOptionsForLabel>
+                <ShippingServiceName>CHINA_POST_E_EMS</ShippingServiceName>
+                <CarrierName>CHINA_POST</CarrierName>
+                <ShippingServiceOptions>
+                    <CarrierWillPickUp>true</CarrierWillPickUp>
+                    <DeliveryExperience>DeliveryConfirmationWithoutSignature</DeliveryExperience>
+                </ShippingServiceOptions>
+                <ShippingServiceId>CHINA_POST_E_EMS</ShippingServiceId>
+                <Rate>
+                    <CurrencyCode>CNY</CurrencyCode>
+                    <Amount>90.00</Amount>
+                </Rate>
+                <LatestEstimatedDeliveryDate>2019-08-27T18:00:00Z</LatestEstimatedDeliveryDate>
+                <ShippingServiceOfferId>NH0sNBYSrqUP2+5yJdI14yLsCwFfk2413sYQHKbp0ILv8xkJemzkFK/wgUXeC9y4j6dNKuYn3EpQh7YJSc4gvPUfNDsISoAi9tCikbPjI5KOajdY75KvPLXPEC57Od/gAlOQv07JravlVU6oURFoVtc8nwZDviBPfA43owEPmxPglPTttIuS9LfcI0ky/kIP/OT7h+acfQj8JxAtomwX1WUYGZSbzkSL9c6ic5CAeriif1Kr0k8Y0RuloSZs2ZQwOv//nLvV3ZCZic8vU8cGVGHExM9sMKamBDopoh0Kx2JHcDwWHDcKB+lOntkABC84</ShippingServiceOfferId>
+            </ShippingService>
+        </ShippingServiceList>
+        <RejectedShippingServiceList>
+            <RejectedShippingService>
+                <CarrierName>CHINA_POST</CarrierName>
+                <ShippingServiceId>CHINA_POST_E_PACKET</ShippingServiceId>
+                <RejectionReasonCode>INELIGIBLE</RejectionReasonCode>
+                <RejectionReasonMessage>This ship method is not eligible for this
+                    order.</RejectionReasonMessage>
+                <ShippingServiceName>China Post e-Packet</ShippingServiceName>
+            </RejectedShippingService>
+        </RejectedShippingServiceList>
+        <TermsAndConditionsNotAcceptedCarrierList>
+            <TermsAndConditionsNotAcceptedCarrier>
+                <CarrierName>DHL</CarrierName>
+            </TermsAndConditionsNotAcceptedCarrier>
+        </TermsAndConditionsNotAcceptedCarrierList>
+        <TemporarilyUnavailableCarrierList>
+            <TemporarilyUnavailableCarrier>
+                <CarrierName>DPD</CarrierName>
+            </TemporarilyUnavailableCarrier>
+        </TemporarilyUnavailableCarrierList>
+    </GetEligibleShippingServicesResult>
+    <ResponseMetadata>
+        <RequestId>5b7997fb-efd1-495b-b7db-03ecfa691038</RequestId>
+    </ResponseMetadata>
+</GetEligibleShippingServicesResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -447,8 +450,7 @@ For shipping that requires additional seller inputs.
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInbound_GetPackageLabels" class="nested0">
 
-GetPackageLabels
-================
+# GetPackageLabels
 
 <div class="body">
 
@@ -53,8 +52,7 @@ GetPackageLabels
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -187,8 +185,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -210,26 +207,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d66021e264" class="entry" data-valign="top" width="23.015873015873016%">Name</th>
+<th id="d66021e267" class="entry" data-valign="top" width="28.571428571428577%">Description</th>
+<th id="d66021e270" class="entry" data-valign="top" width="19.841269841269845%">Required</th>
+<th id="d66021e273" class="entry" data-valign="top" width="28.571428571428577%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">ShipmentId</span></td>
-<td><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td>Yes</td>
-<td><span class="ph">Type: xs:string</span></td>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d66021e264 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e267 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d66021e270 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e273 "><span class="ph">Type: xs:string</span></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">PageType</span></td>
-<td>The page type that you want to print the labels on.</td>
-<td>Yes</td>
-<td><span class="keyword parmname">PageType</span> values:
+<tr class="even row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d66021e264 "><span class="keyword parmname">PageType</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e267 ">The page type that you want to print the labels on.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d66021e270 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e273 "><span class="keyword parmname">PageType</span> values:
 <ul>
 <li><var class="keyword varname">PackageLabel_Letter_2</var> - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
 <li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
@@ -240,12 +237,12 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Submitting a <span class="keyword parmname">PageType</span> value that is not supported in your marketplace returns an error.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">NumberOfPackages</span></td>
-<td>Indicates the number of packages in the shipment.</td>
-<td>No.
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d66021e264 "><span class="keyword parmname">NumberOfPackages</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e267 ">Indicates the number of packages in the shipment.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d66021e270 ">No.
 <p>Required only for non-Amazon-partnered, <span class="ph">Small Parcel</span> shipments. For Amazon-partnered, <span class="ph">Small Parcel</span> shipments, the <span class="keyword parmname">NumberOfPackages</span> value is ignored and the information provided in a previous call to the <span class="keyword apiname">PutTransportContent</span> operation is used.</p></td>
-<td><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d66021e273 "><span class="ph">Type: xs:int</span></td>
 </tr>
 </tbody>
 </table>
@@ -258,8 +255,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -270,16 +266,16 @@ Response elements
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d66021e421" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d66021e424" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">TransportDocument</span></td>
-<td>PDF document data and checksum.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d66021e421 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d66021e424 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>
@@ -293,8 +289,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -312,17 +307,19 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
-    ?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
-      &Action=GetPackageLabels
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SellerId=A13EXAMPLE1J56
-      &SignatureVersion=2
-      &Timestamp=2013-08-10T00%3A25%3A41Z
-      &Version=2010-10-01
-      &SignatureMethod=HmacSHA256
-      &ShipmentId=FBAQFGQZ
-      &PageType=PackageLabel_Letter_4
+``` pre
+http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01
+?AWSAccessKeyId=AKIAEIAEXAMPLEQCJLSA
+  &Action=GetPackageLabels
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SellerId=A13EXAMPLE1J56
+  &SignatureVersion=2
+  &Timestamp=2013-08-10T00%3A25%3A41Z
+  &Version=2010-10-01
+  &SignatureMethod=HmacSHA256
+  &ShipmentId=FBAQFGQZ
+  &PageType=PackageLabel_Letter_4
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -343,20 +340,22 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <GetPackageLabelsResponse 
-        xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
-        <GetPackageLabelsResult>
-            <TransportDocument>
-                <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
-                </PdfDocument>
-                <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
-            </TransportDocument>
-        </GetPackageLabelsResult>
-        <ResponseMetadata>
-            <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
-        </ResponseMetadata>
-    </GetPackageLabelsResponse>
+``` pre
+<?xml version="1.0"?>
+<GetPackageLabelsResponse 
+    xmlns="http://mws.amazonaws.com/FulfillmentInboundShipment/2010-10-01/">
+    <GetPackageLabelsResult>
+        <TransportDocument>
+            <PdfDocument>ABEAAAAAAlbHMucGRmUEsFBgAAAAABAAEAPwAAALQXAQAAAA==
+            </PdfDocument>
+            <Checksum>WGQwqA+NlzMVL1plHc/7ZA==</Checksum>
+        </TransportDocument>
+    </GetPackageLabelsResult>
+    <ResponseMetadata>
+        <RequestId>985a3fa9-3ce2-46fb-a1c7-321439269d2b</RequestId>
+    </ResponseMetadata>
+</GetPackageLabelsResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -370,8 +369,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

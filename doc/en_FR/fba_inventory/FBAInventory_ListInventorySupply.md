@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAInventory_ListInventorySupply" class="nested0">
 
-ListInventorySupply
-===================
+# ListInventorySupply
 
 <div class="body">
 
@@ -54,8 +53,7 @@ seller's inventory.</span>
 
 <div id="Description" class="topic concept nested1">
 
-Description
------------
+## Description
 
 <div class="body conbody">
 
@@ -103,8 +101,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 
 <div id="RequestParameters" class="topic reference nested1">
 
-Request parameters
-------------------
+## Request parameters
 
 <div class="body refbody">
 
@@ -117,36 +114,36 @@ Request parameters
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d84510e146" class="entry" data-valign="top" width="23.25581395348837%">Name</th>
+<th id="d84510e149" class="entry" data-valign="top" width="26.04651162790698%">Description</th>
+<th id="d84510e152" class="entry" data-valign="top" width="25.348837209302328%">Required</th>
+<th id="d84510e155" class="entry" data-valign="top" width="25.348837209302328%">Values</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><span class="keyword parmname">SellerSkus</span></td>
-<td>A list of seller SKUs for items that you want inventory availability information about.</td>
-<td>Yes, if <span class="keyword parmname">QueryStartDateTime</span> is not specified.
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84510e146 "><span class="keyword parmname">SellerSkus</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84510e149 ">A list of seller SKUs for items that you want inventory availability information about.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e152 ">Yes, if <span class="keyword parmname">QueryStartDateTime</span> is not specified.
 <p>Specifying both <span class="keyword parmname">QueryStartDateTime</span> and <span class="keyword parmname">SellerSkus</span> returns an error.</p></td>
-<td>Seller SKUs for items that you have shipped to an <span class="ph">Amazon fulfillment center</span>.
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e155 ">Seller SKUs for items that you have shipped to an <span class="ph">Amazon fulfillment center</span>.
 <p>Maximum: 50</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">QueryStartDateTime</span></td>
-<td>A date used for selecting items that have had changes in inventory availability after (or at) a specified time.</td>
-<td>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84510e146 "><span class="keyword parmname">QueryStartDateTime</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84510e149 ">A date used for selecting items that have had changes in inventory availability after (or at) a specified time.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e152 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td><span class="keyword parmname">ResponseGroup</span></td>
-<td>Indicates whether or not you want the <span class="keyword apiname">ListInventorySupply</span> operation to return the <span class="keyword parmname">SupplyDetail</span> element.</td>
-<td>No</td>
-<td><span class="keyword parmname">ResponseGroup</span> values:
+<tr class="odd row">
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84510e146 "><span class="keyword parmname">ResponseGroup</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84510e149 ">Indicates whether or not you want the <span class="keyword apiname">ListInventorySupply</span> operation to return the <span class="keyword parmname">SupplyDetail</span> element.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e152 ">No</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e155 "><span class="keyword parmname">ResponseGroup</span> values:
 <ul>
 <li><var class="keyword varname">Basic</var> - Does not include the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
 <li><var class="keyword varname">Detailed</var> - Includes the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
@@ -154,13 +151,13 @@ Request parameters
 <p>Default: <var class="keyword varname">Basic</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
-<tr class="even">
-<td><span class="keyword parmname">MarketplaceId</span>
+<tr class="even row">
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84510e146 "><span class="keyword parmname">MarketplaceId</span>
 <p>(NA only)</p></td>
-<td>An encrypted Amazon defined marketplace identifier. It is used to limit the scope of a request or response to a specific marketplace.</td>
-<td>No
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84510e149 ">An encrypted Amazon defined marketplace identifier. It is used to limit the scope of a request or response to a specific marketplace.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e152 ">No
 <p>Assumes the default value if MarketplaceId is not specified.</p></td>
-<td><span class="keyword parmname">MarketplaceId</span> values:
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84510e155 "><span class="keyword parmname">MarketplaceId</span> values:
 <p>For a list of MarketplaceId values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</p>
 <p>Default: The MarketplaceId assigned as the seller's <em>home</em> marketplace.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -176,8 +173,7 @@ Request parameters
 
 <div id="ResponseElements" class="topic reference nested1">
 
-Response elements
------------------
+## Response elements
 
 <div class="body refbody">
 
@@ -196,8 +192,7 @@ Response elements
 
 <div id="Examples" class="topic reference nested1">
 
-Examples
---------
+## Examples
 
 <div class="body refbody">
 
@@ -215,19 +210,21 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    https://mws.amazonservices.com/FulfillmentInventory/2010-10-01
-      ?Action=ListInventorySupply
-      &Version=2011-03-01
-      &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
-      &Timestamp=2010-10-01T02:40:36Z
-      &SellerId=A2NKEXAMPLEF53
-      &SellerSkus.member.1=SampleSKU1
-      &SellerSkus.member.2=SampleSKU2
-      &ResponseGroup=Basic
+``` pre
+https://mws.amazonservices.com/FulfillmentInventory/2010-10-01
+  ?Action=ListInventorySupply
+  &Version=2011-03-01
+  &AWSAccessKeyId=AKIAJGUEXAMPLEE2NVUA
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Signature=ZRA9DR5rveSuz%2F1D18AHvoipg2BAev8yblPQ1BbEbfU%3D
+  &Timestamp=2010-10-01T02:40:36Z
+  &SellerId=A2NKEXAMPLEF53
+  &SellerSkus.member.1=SampleSKU1
+  &SellerSkus.member.2=SampleSKU2
+  &ResponseGroup=Basic
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -248,37 +245,39 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01">
-        <ListInventorySupplyResult>
-            <InventorySupplyList>
-                <member>
-                    <SellerSKU>SampleSKU1</SellerSKU>
-                    <ASIN>B00000K3CQ</ASIN>
-                    <TotalSupplyQuantity>20</TotalSupplyQuantity>
-                    <FNSKU>X0000000FM</FNSKU>
-                    <Condition>NewItem</Condition>
-                    <SupplyDetail/>
-                    <InStockSupplyQuantity>15</InStockSupplyQuantity>
-                    <EarliestAvailability>
-                        <TimepointType>Immediately</TimepointType>
-                    </EarliestAvailability>
-                </member>
-                <member>
-                    <SellerSKU>SampleSKU2</SellerSKU>
-                    <ASIN>B00004RWQR</ASIN>
-                    <TotalSupplyQuantity>0</TotalSupplyQuantity>
-                    <FNSKU>X00008FZR1</FNSKU>
-                    <Condition>UsedLikeNew</Condition>
-                    <SupplyDetail/>
-                    <InStockSupplyQuantity>0</InStockSupplyQuantity>
-                </member>
-            </InventorySupplyList>
-        </ListInventorySupplyResult>
-        <ResponseMetadata>
-            <RequestId>e8698ffa-8e59-11df-9acb-230ae7a8b736</RequestId>
-        </ResponseMetadata>
-    </ListInventorySupplyResponse>
+``` pre
+<?xml version="1.0"?>
+<ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01">
+    <ListInventorySupplyResult>
+        <InventorySupplyList>
+            <member>
+                <SellerSKU>SampleSKU1</SellerSKU>
+                <ASIN>B00000K3CQ</ASIN>
+                <TotalSupplyQuantity>20</TotalSupplyQuantity>
+                <FNSKU>X0000000FM</FNSKU>
+                <Condition>NewItem</Condition>
+                <SupplyDetail/>
+                <InStockSupplyQuantity>15</InStockSupplyQuantity>
+                <EarliestAvailability>
+                    <TimepointType>Immediately</TimepointType>
+                </EarliestAvailability>
+            </member>
+            <member>
+                <SellerSKU>SampleSKU2</SellerSKU>
+                <ASIN>B00004RWQR</ASIN>
+                <TotalSupplyQuantity>0</TotalSupplyQuantity>
+                <FNSKU>X00008FZR1</FNSKU>
+                <Condition>UsedLikeNew</Condition>
+                <SupplyDetail/>
+                <InStockSupplyQuantity>0</InStockSupplyQuantity>
+            </member>
+        </InventorySupplyList>
+    </ListInventorySupplyResult>
+    <ResponseMetadata>
+        <RequestId>e8698ffa-8e59-11df-9acb-230ae7a8b736</RequestId>
+    </ResponseMetadata>
+</ListInventorySupplyResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -300,18 +299,20 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
-      ?Action=ListInventorySupply
-      &Version=2010-10-01
-      &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
-      &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
-      &SignatureVersion=2
-      &SignatureMethod=HmacSHA256
-      &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
-      &Timestamp=2010-10-01T02:40:36Z
-      &SellerId=1234567890
-      &QueryStartDateTime=2011-05-03T06%3A00%3A00Z
-      &ResponseGroup=Detailed
+``` pre
+http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/
+  ?Action=ListInventorySupply
+  &Version=2010-10-01
+  &AWSAccessKeyId=1QZHP81N5R44N89PFAKE
+  &MWSAuthToken=amzn.mws.4ea38b7b-f563-7709-4bae-87aeaEXAMPLE
+  &SignatureVersion=2
+  &SignatureMethod=HmacSHA256
+  &Signature=VY6sqvdk01VEG0V+h4oj3FBFAKE=
+  &Timestamp=2010-10-01T02:40:36Z
+  &SellerId=1234567890
+  &QueryStartDateTime=2011-05-03T06%3A00%3A00Z
+  &ResponseGroup=Detailed
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -332,55 +333,57 @@ code</span> </span>
 
 <div class="sectiondiv content">
 
-    <?xml version="1.0"?>
-    <ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
-        <ListInventorySupplyResult>
-            <NextToken>H4sIAAAAAAAAADXQzW6CMAAA4FcxXD3AgE5J5pLSiBTQ8Sc
-                SblCB0Ap2LSL49O6y7xGr05WbPW8ip3SlDdZK6t3CmuKTH8d9B/0mhCR7gcV
-                E3gpuDaR8850n239tjC17Z3Gg2PmsZJNa14izwUtQAMYp6tOH4NHl/gN492S
-                YVU0P5F0OYwUwmYI0d/YHnMSgDPUF0mvxTPNofZkXr6ww39SIBYJUTlUMNwI
-                WaduUNr/MZYmaySPqugvxiQaTs2Rxgs1gFENKcUV7Ry/8BSUECjcj2sQ7bLT
-                nBvYPd9/ksLbmV5ydt+HUWFx1QMQgD7O5Ey96mZzNZypKo7V9nBUtPNp/Azt
-                F/X4Di21K/SkBAAA=</NextToken>
-            <InventorySupplyList>
-                <member>
-                    <SellerSKU>SampleSKU3</SellerSKU>
-                    <ASIN>BT008FQ92Q</ASIN>
-                    <TotalSupplyQuantity>18</TotalSupplyQuantity>
-                    <FNSKU>X0000000EY</FNSKU>
-                    <Condition>NewItem</Condition>
-                    <SupplyDetail>
-                        <member>
-                            <EarliestAvailableToPick>
-                                <TimepointType>Immediately</TimepointType>
-                            </EarliestAvailableToPick>
-                            <Quantity>5</Quantity>
-                            <LatestAvailableToPick>
-                                <TimepointType>Immediately</TimepointType>
-                            </LatestAvailableToPick>
-                            <SupplyType>InStock</SupplyType>
-                        </member>
-                        <member>
-                            <EarliestAvailableToPick>
-                                <TimepointType>DateTime</TimepointType>
-                                <DateTime>2011-05-04T23:00:00Z</DateTime>
-                            </EarliestAvailableToPick>
-                            <Quantity>13</Quantity>
-                            <LatestAvailableToPick>
-                                <TimepointType>DateTime</TimepointType>
-                                <DateTime>2011-05-04T23:00:00Z</DateTime>
-                            </LatestAvailableToPick>
-                            <SupplyType>InStock</SupplyType>
-                        </member>
-                    </SupplyDetail>
-                    <InStockSupplyQuantity>4</InStockSupplyQuantity>
-                </member>
-            </InventorySupplyList>
-        </ListInventorySupplyResult>
-        <ResponseMetadata>
-            <RequestId>e26d8d21-8e5c-11df-9acb-230ae7a8b736</RequestId>
-        </ResponseMetadata>
-    </ListInventorySupplyResponse>
+``` pre
+<?xml version="1.0"?>
+<ListInventorySupplyResponse xmlns="http://mws.amazonaws.com/FulfillmentInventory/2010-10-01/">
+    <ListInventorySupplyResult>
+        <NextToken>H4sIAAAAAAAAADXQzW6CMAAA4FcxXD3AgE5J5pLSiBTQ8Sc
+            SblCB0Ap2LSL49O6y7xGr05WbPW8ip3SlDdZK6t3CmuKTH8d9B/0mhCR7gcV
+            E3gpuDaR8850n239tjC17Z3Gg2PmsZJNa14izwUtQAMYp6tOH4NHl/gN492S
+            YVU0P5F0OYwUwmYI0d/YHnMSgDPUF0mvxTPNofZkXr6ww39SIBYJUTlUMNwI
+            WaduUNr/MZYmaySPqugvxiQaTs2Rxgs1gFENKcUV7Ry/8BSUECjcj2sQ7bLT
+            nBvYPd9/ksLbmV5ydt+HUWFx1QMQgD7O5Ey96mZzNZypKo7V9nBUtPNp/Azt
+            F/X4Di21K/SkBAAA=</NextToken>
+        <InventorySupplyList>
+            <member>
+                <SellerSKU>SampleSKU3</SellerSKU>
+                <ASIN>BT008FQ92Q</ASIN>
+                <TotalSupplyQuantity>18</TotalSupplyQuantity>
+                <FNSKU>X0000000EY</FNSKU>
+                <Condition>NewItem</Condition>
+                <SupplyDetail>
+                    <member>
+                        <EarliestAvailableToPick>
+                            <TimepointType>Immediately</TimepointType>
+                        </EarliestAvailableToPick>
+                        <Quantity>5</Quantity>
+                        <LatestAvailableToPick>
+                            <TimepointType>Immediately</TimepointType>
+                        </LatestAvailableToPick>
+                        <SupplyType>InStock</SupplyType>
+                    </member>
+                    <member>
+                        <EarliestAvailableToPick>
+                            <TimepointType>DateTime</TimepointType>
+                            <DateTime>2011-05-04T23:00:00Z</DateTime>
+                        </EarliestAvailableToPick>
+                        <Quantity>13</Quantity>
+                        <LatestAvailableToPick>
+                            <TimepointType>DateTime</TimepointType>
+                            <DateTime>2011-05-04T23:00:00Z</DateTime>
+                        </LatestAvailableToPick>
+                        <SupplyType>InStock</SupplyType>
+                    </member>
+                </SupplyDetail>
+                <InStockSupplyQuantity>4</InStockSupplyQuantity>
+            </member>
+        </InventorySupplyList>
+    </ListInventorySupplyResult>
+    <ResponseMetadata>
+        <RequestId>e26d8d21-8e5c-11df-9acb-230ae7a8b736</RequestId>
+    </ResponseMetadata>
+</ListInventorySupplyResponse>
+```
 
 <a href="#Examples" class="xref">↑ Top</a>
 
@@ -394,8 +397,7 @@ code</span> </span>
 
 <div id="RelatedTopics" class="topic nested1">
 
-Related topics
---------------
+## Related topics
 
 <div class="body">
 

@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="EasyShip_Overview" class="nested0">
 
-What you should know about the <span class="ph">Easy Ship API section</span>
-============================================================================
+# What you should know about the <span class="ph">Easy Ship API section</span>
 
 <div class="body">
 
@@ -62,8 +61,7 @@ Easy Ship</span> applications can:
 
 <div class="section">
 
-Operations
-----------
+## Operations
 
 These operations are included in the <span class="ph">Easy Ship API
 section</span>:
@@ -86,8 +84,7 @@ section</span>:
 
 <div class="related-links">
 
-In this section
----------------
+## In this section
 
 -   **[How to handle order items that require serial
     numbers](../easy_ship/EasyShip_HowToHandleSerialNumbers.md)**  

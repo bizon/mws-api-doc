@@ -42,8 +42,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div id="FBAGuide_UsingAmazonCarrierToShip" class="nested0">
 
-Using an Amazon-partnered carrier for your inbound shipments
-============================================================
+# Using an Amazon-partnered carrier for your inbound shipments
 
 <div class="body">
 
@@ -118,14 +117,13 @@ using an Amazon-partnered carrier:
 
 <div id="SubmitCartonContentsFeed" class="topic concept nested1">
 
-Step 1 - Submit carton content information
-------------------------------------------
+## Step 1 - Submit carton content information
 
 <div class="body conbody">
 
 Submit carton content information using the FBA Inbound Shipment Carton
-Information Feed (\_POST\_FBA\_INBOUND\_CARTON\_CONTENTS\_) of the Feeds
-API section. For more information about this feed, see
+Information Feed (\_POST_FBA_INBOUND_CARTON_CONTENTS\_) of the Feeds API
+section. For more information about this feed, see
 <a href="../feeds/Feeds_FeedType.md#FeedType_Enumeration__FBAFeeds" class="xref">Fulfillment by Amazon (FBA) feeds</a>.
 
 <div class="note important">
@@ -149,8 +147,7 @@ API section. For more information about this feed, see
 
 <div id="SendTransportInfo" class="topic concept nested1">
 
-Step 2 - Submit the transportation information
-----------------------------------------------
+## Step 2 - Submit the transportation information
 
 <div class="body conbody">
 
@@ -171,8 +168,7 @@ can use to forecast and plan for the arrival of your shipment.
 
 <div id="RequestEstimate" class="topic concept nested1">
 
-Step 3 - Request that an estimate is generated for the shipping costs
----------------------------------------------------------------------
+## Step 3 - Request that an estimate is generated for the shipping costs
 
 <div class="body conbody">
 
@@ -186,8 +182,7 @@ Amazon-partnered carrier to ship your inbound shipment.
 
 <div id="GetEstimate" class="topic concept nested1">
 
-Step 4 - Get an estimate for the shipping cost
-----------------------------------------------
+## Step 4 - Get an estimate for the shipping cost
 
 <div class="body conbody">
 
@@ -210,8 +205,7 @@ yet available, retry the operation later.
 
 <div id="ConfirmRequrest" class="topic concept nested1">
 
-Step 5 - Confirm the transportation request
--------------------------------------------
+## Step 5 - Confirm the transportation request
 
 <div class="body conbody">
 
@@ -242,8 +236,7 @@ shipping cost.
 
 <div id="RequestTransportDocs" class="topic concept nested1">
 
-Step 6 - Request package labels for your inbound shipment
----------------------------------------------------------
+## Step 6 - Request package labels for your inbound shipment
 
 <div class="body conbody">
 
@@ -332,8 +325,7 @@ same ASIN and expiration date.
 
 <div id="RequestPalletLabelsOrBOL" class="topic concept nested1">
 
-Step 7 - Request pallet labels or bills of lading (LTL/FTL only)
-----------------------------------------------------------------
+## Step 7 - Request pallet labels or bills of lading (LTL/FTL only)
 
 <div class="body conbody">
 
@@ -353,8 +345,7 @@ lading, you can use the following operations:
 
 <div id="SendShipmentToAFN" class="topic concept nested1">
 
-Step 8 - Send your shipments to <span class="ph">Amazon's fulfillment network</span>
-------------------------------------------------------------------------------------
+## Step 8 - Send your shipments to <span class="ph">Amazon's fulfillment network</span>
 
 <div class="body conbody">
 

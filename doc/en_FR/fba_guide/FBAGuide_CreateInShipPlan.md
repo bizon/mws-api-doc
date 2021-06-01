@@ -40,8 +40,7 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 <span id="MWSDX_breadcrumbs">[Amazon MWS
 Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
-Step 2 - Create an inbound shipment plan
-========================================
+# Step 2 - Create an inbound shipment plan
 
 <div class="body conbody">
 
@@ -82,8 +81,7 @@ class="keyword parmname">Condition</span> request parameters.</span>
 
 <div class="section">
 
-Label preparation preferences
------------------------------
+## Label preparation preferences
 
 A key input parameter that you include with the <span
 class="keyword apiname">CreateInboundShipmentPlan</span> operation is
