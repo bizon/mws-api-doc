@@ -1003,6 +1003,12 @@ class="keyword cmdname">OrderItem</span> datatype:
 <td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e2491 ">No. Returned only for <span class="ph">Amazon Easy Ship</span> orders.</td>
 <td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e2494 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
+<tr class="odd row">
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e2485 "><span class="keyword parmname">IossNumber</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e2488 ">The IOSS number for the marketplace. Sellers shipping to the European Union (EU) from outside of the EU must provide this IOSS number to their carrier when Amazon has collected the VAT on the sale.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e2491 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e2494 "><span class="ph">Type: xs:string</span></td>
+</tr>
 </tbody>
 </table>
 
@@ -1058,30 +1064,30 @@ class="keyword cmdname">PaymentExecutionDetailItem</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d205706e3504" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d205706e3507" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d205706e3510" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d205706e3513" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d205706e3522" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d205706e3525" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d205706e3528" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d205706e3531" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e3504 "><span class="keyword parmname">Payment</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e3507 ">The amount paid using the sub-payment method indicated by the sibling <span class="keyword parmname">PaymentMethod</span> response element.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e3510 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e3513 ">Type: <a href="#Money" class="xref" title="Currency type and amount.">Money</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e3522 "><span class="keyword parmname">Payment</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e3525 ">The amount paid using the sub-payment method indicated by the sibling <span class="keyword parmname">PaymentMethod</span> response element.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e3528 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e3531 ">Type: <a href="#Money" class="xref" title="Currency type and amount.">Money</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e3504 "><span class="keyword parmname">PaymentMethod</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e3507 ">A sub-payment method for a COD order.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e3522 "><span class="keyword parmname">PaymentMethod</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e3525 ">A sub-payment method for a COD order.
 <p><span class="keyword parmname">PaymentMethod</span> values:</p>
 <ul>
 <li><var class="keyword varname">COD</var> - Cash On Delivery. Available only in Japan (JP).</li>
 <li><var class="keyword varname">GC</var> - Gift Card. Available only in JP.</li>
 <li><var class="keyword varname">PointsAccount</var> - Amazon Points. Available only in JP.</li>
 </ul></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e3510 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e3513 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e3528 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e3531 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -1323,25 +1329,25 @@ class="keyword cmdname">TaxCollection</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d205706e4324" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d205706e4327" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d205706e4330" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d205706e4333" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d205706e4342" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d205706e4345" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d205706e4348" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d205706e4351" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e4324 "><span class="keyword parmname">Model</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e4327 ">The tax collection model applied to the item.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e4330 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e4333 "><span class="keyword parmname">Model</span> value: <var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e4342 "><span class="keyword parmname">Model</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e4345 ">The tax collection model applied to the item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e4348 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e4351 "><span class="keyword parmname">Model</span> value: <var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e4324 "><span class="keyword parmname">ResponsibleParty</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e4327 ">The party responsible for withholding the taxes and remitting them to the taxing authority.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e4330 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e4333 "><span class="keyword parmname">ResponsibleParty</span> value: <var class="keyword varname">Amazon Services, Inc.</var>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d205706e4342 "><span class="keyword parmname">ResponsibleParty</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d205706e4345 ">The party responsible for withholding the taxes and remitting them to the taxing authority.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d205706e4348 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d205706e4351 "><span class="keyword parmname">ResponsibleParty</span> value: <var class="keyword varname">Amazon Services, Inc.</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
