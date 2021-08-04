@@ -139,19 +139,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d73963e178" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
-<th id="d73963e181" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
-<th id="d73963e184" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
-<th id="d73963e187" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
+<th id="d73997e178" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
+<th id="d73997e181" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
+<th id="d73997e184" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
+<th id="d73997e187" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">ShipmentStatusList</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A list of <span class="keyword parmname">ShipmentStatus</span>values. Used to select shipments with a current status that matches the status values that you specify.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">Yes, if <span class="keyword parmname">ShipmentIdList</span> is not specified.
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73997e178 "><span class="keyword parmname">ShipmentStatusList</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73997e181 ">A list of <span class="keyword parmname">ShipmentStatus</span>values. Used to select shipments with a current status that matches the status values that you specify.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73997e184 ">Yes, if <span class="keyword parmname">ShipmentIdList</span> is not specified.
 <p>If both <span class="keyword parmname">ShipmentStatusList</span> and <span class="keyword parmname">ShipmentIdList</span> are specified, only shipments that match both parameters are returned.</p></td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 "><span class="ph"><span class="keyword parmname">ShipmentStatus</span> values:</span>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73997e187 "><span class="ph"><span class="keyword parmname">ShipmentStatus</span> values:</span>
 <ul>
 <li><var class="keyword varname">WORKING</var> - The shipment was created by the seller, but has not yet shipped.</li>
 <li><var class="keyword varname">SHIPPED</var> - The shipment was picked up by the carrier.</li>
@@ -167,27 +167,27 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Type: List of type: xs:string</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">ShipmentIdList</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A list of <span class="keyword parmname">ShipmentId</span> values. Used to select shipments with <span class="keyword parmname">ShipmentId</span> values that match the <span class="keyword parmname">ShipmentId</span> values that you specify.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">Yes, if <span class="keyword parmname">ShipmentStatusList</span> is not specified.
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73997e178 "><span class="keyword parmname">ShipmentIdList</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73997e181 ">A list of <span class="keyword parmname">ShipmentId</span> values. Used to select shipments with <span class="keyword parmname">ShipmentId</span> values that match the <span class="keyword parmname">ShipmentId</span> values that you specify.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73997e184 ">Yes, if <span class="keyword parmname">ShipmentStatusList</span> is not specified.
 <p>If both <span class="keyword parmname">ShipmentStatusList</span> and <span class="keyword parmname">ShipmentIdList</span> are specified, only shipments that match both parameters are returned.</p></td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Type: List of type: xs:string</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73997e187 ">Type: List of type: xs:string</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">LastUpdatedAfter</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A date used for selecting inbound shipments that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">No
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73997e178 "><span class="keyword parmname">LastUpdatedAfter</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73997e181 ">A date used for selecting inbound shipments that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73997e184 ">No
 <p>If <span class="keyword parmname">LastUpdatedBefore</span> is specified, then <span class="keyword parmname">LastUpdatedAfter</span> must be specified.</p></td>
-<td id="RequestParameters__LastUpdatedAfter_values" class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
+<td id="RequestParameters__LastUpdatedAfter_values" class="entry" data-valign="top" width="30.735930735930733%" headers="d73997e187 ">Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73963e178 "><span class="keyword parmname">LastUpdatedBefore</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73963e181 ">A date used for selecting inbound shipments that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73963e184 ">No
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d73997e178 "><span class="keyword parmname">LastUpdatedBefore</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d73997e181 ">A date used for selecting inbound shipments that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d73997e184 ">No
 <p>If <span class="keyword parmname">LastUpdatedAfter</span> is specified, then <span class="keyword parmname">LastUpdatedBefore</span> must be specified.</p></td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73963e187 ">Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d73997e187 ">Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -215,20 +215,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d73963e452" class="entry" data-valign="top" width="15.479876160990713%">Name</th>
-<th id="d73963e455" class="entry" data-valign="top" width="84.52012383900929%">Description</th>
+<th id="d73997e452" class="entry" data-valign="top" width="15.479876160990713%">Name</th>
+<th id="d73997e455" class="entry" data-valign="top" width="84.52012383900929%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73963e452 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73963e455 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73997e452 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73997e455 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73963e452 "><span class="keyword parmname">ShipmentData</span></td>
-<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73963e455 ">Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d73997e452 "><span class="keyword parmname">ShipmentData</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d73997e455 ">Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
 </tr>
 </tbody>

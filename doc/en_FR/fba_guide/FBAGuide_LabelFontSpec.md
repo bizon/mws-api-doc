@@ -74,26 +74,26 @@ Amazon recommends the fonts listed in the following table.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d26572e91" class="entry" data-valign="top" width="21.14164904862579%">Font</th>
-<th id="d26572e94" class="entry" data-valign="top" width="30.866807610993654%">Operating System</th>
-<th id="d26572e97" class="entry" data-valign="top" width="47.991543340380545%">Download</th>
+<th id="d26599e91" class="entry" data-valign="top" width="21.14164904862579%">Font</th>
+<th id="d26599e94" class="entry" data-valign="top" width="30.866807610993654%">Operating System</th>
+<th id="d26599e97" class="entry" data-valign="top" width="47.991543340380545%">Download</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26572e91 ">Consolas</td>
-<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26572e94 ">Windows</td>
-<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26572e97 ">This system font is installed with Windows Vista and Microsoft Office 2007. To download Consolas, go to <a href="http://www.microsoft.com/downloads/" class="xref">http://www.microsoft.com/downloads/</a>.</td>
+<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26599e91 ">Consolas</td>
+<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26599e94 ">Windows</td>
+<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26599e97 ">This system font is installed with Windows Vista and Microsoft Office 2007. To download Consolas, go to <a href="http://www.microsoft.com/downloads/" class="xref">http://www.microsoft.com/downloads/</a>.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26572e91 ">Monaco</td>
-<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26572e94 ">Mac</td>
-<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26572e97 ">This system font is installed with all Mac OS versions.</td>
+<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26599e91 ">Monaco</td>
+<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26599e94 ">Mac</td>
+<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26599e97 ">This system font is installed with all Mac OS versions.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26572e91 ">Andale Mono</td>
-<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26572e94 ">Mac, Linux</td>
-<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26572e97 ">This system font is installed with the Mac OS for version 10.4 and above.
+<td class="entry" data-valign="top" width="21.14164904862579%" headers="d26599e91 ">Andale Mono</td>
+<td class="entry" data-valign="top" width="30.866807610993654%" headers="d26599e94 ">Mac, Linux</td>
+<td class="entry" data-valign="top" width="47.991543340380545%" headers="d26599e97 ">This system font is installed with the Mac OS for version 10.4 and above.
 <p>For information about downloading Andale Mono to a Linux computer, go to <a href="http://corefonts.sourceforge.net/" class="xref">http://corefonts.sourceforge.net/</a>.</p></td>
 </tr>
 </tbody>

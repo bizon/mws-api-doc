@@ -84,41 +84,41 @@ class="keyword parmname">FeedSubmissionInfo</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d121137e161" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d121137e164" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d121171e161" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d121171e164" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">FeedSubmissionId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 "><span class="ph">A unique feed submission identifier.</span>
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">FeedSubmissionId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 "><span class="ph">A unique feed submission identifier.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">FeedType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 "><span class="ph">The type of feed submitted. This is the <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value that was provided to the <span class="keyword apiname">SubmitFeed</span> operation.</span>
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">FeedType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 "><span class="ph">The type of feed submitted. This is the <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value that was provided to the <span class="keyword apiname">SubmitFeed</span> operation.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">SubmittedDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 "><span class="ph">The date and time when the feed was submitted.</span>
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">SubmittedDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 "><span class="ph">The date and time when the feed was submitted.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">FeedProcessingStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 "><span class="ph">The processing status of the feed submission. For more information, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">FeedProcessingStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 "><span class="ph">The processing status of the feed submission. For more information, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">StartedProcessingDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 ">The date when the feed processing started.
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">StartedProcessingDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 ">The date when the feed processing started.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d121137e161 "><span class="keyword parmname">CompletedProcessingDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d121137e164 ">The date when the feed processing completed.
+<td class="entry" data-valign="top" width="50%" headers="d121171e161 "><span class="keyword parmname">CompletedProcessingDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d121171e164 ">The date when the feed processing completed.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>

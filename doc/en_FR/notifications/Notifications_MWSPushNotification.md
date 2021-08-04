@@ -131,20 +131,20 @@ class="keyword parmname">Notification</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d200762e250" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d200762e253" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d200796e250" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d200796e253" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e250 "><span class="keyword parmname">NotificationMetaData</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e253 "><span class="ph">The metadata for the notification.</span>
+<td class="entry" data-valign="top" width="50%" headers="d200796e250 "><span class="keyword parmname">NotificationMetaData</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e253 "><span class="ph">The metadata for the notification.</span>
 <p>Required.</p>
 <p>Type: <a href="#NotificationMetaData" class="xref" title="The metadata for the notification.">NotificationMetaData</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e250 "><span class="keyword parmname">NotificationPayload</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e253 "><span class="ph">The notification that is being delivered.</span>
+<td class="entry" data-valign="top" width="50%" headers="d200796e250 "><span class="keyword parmname">NotificationPayload</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e253 "><span class="ph">The notification that is being delivered.</span>
 <p>Required.</p>
 <p>Type: <a href="#NotificationPayload" class="xref" title="The notification that is being delivered.">NotificationPayload</a></p></td>
 </tr>
@@ -183,14 +183,14 @@ class="keyword parmname">NotificationMetaData</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d200762e362" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d200762e365" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d200796e362" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d200796e365" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">NotificationType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">Identifies the type of notification that is contained in the <span class="keyword parmname">NotificationPayload</span> element.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">NotificationType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">Identifies the type of notification that is contained in the <span class="keyword parmname">NotificationPayload</span> element.
 <div class="p">
 <span class="keyword parmname">NotificationType</span> values:
 <ul>
@@ -203,32 +203,32 @@ class="keyword parmname">NotificationMetaData</span> element:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">PayloadVersion</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">The version of the notification that is contained in the <span class="keyword parmname">NotificationPayload</span> element.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">PayloadVersion</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">The version of the notification that is contained in the <span class="keyword parmname">NotificationPayload</span> element.
 <p>Required.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__VersionType" class="xref">VersionType</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">UniqueId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">The unique identifier for this notification.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">UniqueId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">The unique identifier for this notification.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">PublishTime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">The date and time that the notification was published. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">PublishTime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">The date and time that the notification was published. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Required.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">SellerId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">The identifier of the seller that is receiving the notification.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">The identifier of the seller that is receiving the notification.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e362 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e365 ">The identifier of the marketplace to which the notification pertains.
+<td class="entry" data-valign="top" width="50%" headers="d200796e362 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e365 ">The identifier of the marketplace to which the notification pertains.
 <p>Optional. Not present for events that are cross-marketplace or not marketplace-specific.</p>
 <p>Type: <a href="Notifications_MWSPushNotificationCommon.md#SimpleTypes__MarketplaceType" class="xref">MarketplaceType</a></p></td>
 </tr>
@@ -267,33 +267,33 @@ class="keyword parmname">NotificationPayload</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d200762e550" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d200762e553" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d200796e550" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d200796e553" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e550 "><span class="keyword parmname">AnyOfferChangedNotification</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e553 "><p>The <span class="keyword parmname">AnyOfferChanged</span> notification is sent whenever there is a listing change for any of the top 20 offers, by condition (new or used), or if the external price (the price from other retailers) changes for an item that you sell. The top 20 offers are determined by the landed price, which is the price plus shipping minus Amazon Points. If multiple sellers are charging the same landed price, the results will be returned in random order.</p>
+<td class="entry" data-valign="top" width="50%" headers="d200796e550 "><span class="keyword parmname">AnyOfferChangedNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e553 "><p>The <span class="keyword parmname">AnyOfferChanged</span> notification is sent whenever there is a listing change for any of the top 20 offers, by condition (new or used), or if the external price (the price from other retailers) changes for an item that you sell. The top 20 offers are determined by the landed price, which is the price plus shipping minus Amazon Points. If multiple sellers are charging the same landed price, the results will be returned in random order.</p>
 <p>You will only receive <span class="keyword parmname">AnyOfferChanged</span> notifications for items for which you have active offers. You cannot subscribe to notifications for items for which you do not have active offers.</p>
 <p>Only one of the elements in this table is returned.</p>
 <p>Type: <a href="Notifications_AnyOfferChangedNotification.md" class="xref">AnyOfferChangedNotification</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e550 "><span class="keyword parmname">FBAOutboundShipmentStatusNotification</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e553 "><p>The <span class="keyword parmname">FBAOutboundShipmentStatus</span> notification is sent whenever Amazon creates or cancels a <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</p>
+<td class="entry" data-valign="top" width="50%" headers="d200796e550 "><span class="keyword parmname">FBAOutboundShipmentStatusNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e553 "><p>The <span class="keyword parmname">FBAOutboundShipmentStatus</span> notification is sent whenever Amazon creates or cancels a <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</p>
 <p>Only one of the elements in this table is returned.</p>
 <p>Type: <a href="Notifications_FBAOutboundShipmentStatusNotification.md" class="xref">FBAOutboundShipmentStatusNotification</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e550 "><span class="keyword parmname">FulfillmentOrderStatusNotification</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e553 "><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p>
+<td class="entry" data-valign="top" width="50%" headers="d200796e550 "><span class="keyword parmname">FulfillmentOrderStatusNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e553 "><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p>
 <p>Only one of the elements in this table is returned.</p>
 <p>Type: <a href="Notifications_FulfillmentOrderStatusNotification.md" class="xref">FulfillmentOrderStatusNotification</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d200762e550 "><span class="keyword parmname">TestNotification</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d200762e553 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
+<td class="entry" data-valign="top" width="50%" headers="d200796e550 "><span class="keyword parmname">TestNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d200796e553 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
 <p>Only one of the elements in this table is returned.</p>
 <p>Type: <a href="Notifications_TestNotification.md" class="xref">TestNotification</a></p></td>
 </tr>

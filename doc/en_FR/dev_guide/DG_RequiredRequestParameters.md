@@ -62,53 +62,53 @@ for all <span class="ph">Amazon MWS</span> operations:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d9127e66" class="entry" data-valign="top" width="16.666666666666664%">Name</th>
-<th id="d9127e69" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
-<th id="d9127e72" class="entry" data-valign="top" width="16.666666666666664%">Required</th>
-<th id="d9127e75" class="entry" data-valign="top" width="33.33333333333333%">Valid values</th>
+<th id="d9154e66" class="entry" data-valign="top" width="16.666666666666664%">Name</th>
+<th id="d9154e69" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
+<th id="d9154e72" class="entry" data-valign="top" width="16.666666666666664%">Required</th>
+<th id="d9154e75" class="entry" data-valign="top" width="33.33333333333333%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">AWSAccessKeyId</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">Your <span class="ph">Amazon MWS</span> account is identified by your access key Id, which <span class="ph">Amazon MWS</span> uses to look up your Secret Access Key.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">The <span class="keyword parmname">AWSAccessKeyId</span> that you received when you registered for <span class="ph">Amazon MWS</span>.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">AWSAccessKeyId</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">Your <span class="ph">Amazon MWS</span> account is identified by your access key Id, which <span class="ph">Amazon MWS</span> uses to look up your Secret Access Key.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">The <span class="keyword parmname">AWSAccessKeyId</span> that you received when you registered for <span class="ph">Amazon MWS</span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">Action</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">The action you want to perform on the endpoint, such as the operation <span class="keyword apiname">GetFeedSubmissionResult</span>.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">Any valid action for the endpoint you are calling.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">Action</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">The action you want to perform on the endpoint, such as the operation <span class="keyword apiname">GetFeedSubmissionResult</span>.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">Any valid action for the endpoint you are calling.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">MWSAuthToken</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">Represents the authorization of a specific developer by a specific Amazon seller.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">For web applications and third-party developer authorizations only.</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">The authorization token that you received when you registered for <span class="ph">Amazon MWS</span>.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">MWSAuthToken</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">Represents the authorization of a specific developer by a specific Amazon seller.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">For web applications and third-party developer authorizations only.</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">The authorization token that you received when you registered for <span class="ph">Amazon MWS</span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">SellerId</span> or <span class="keyword parmname">Merchant</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">The seller identifier. In Seller Central this is called the Merchant Token. The seller can find this in Seller Central by going to <span class="ph uicontrol">Settings</span> <span class="ph uicontrol">&gt;</span> <span class="ph uicontrol">Account Info</span> <span class="ph uicontrol">&gt;</span> <span class="ph uicontrol">Your Merchant Token</span>.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">The seller identifier that the seller used when they authorized you to make calls to <span class="ph">Amazon MWS</span> on their behalf.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">SellerId</span> or <span class="keyword parmname">Merchant</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">The seller identifier. In Seller Central this is called the Merchant Token. The seller can find this in Seller Central by going to <span class="ph uicontrol">Settings</span> <span class="ph uicontrol">&gt;</span> <span class="ph uicontrol">Account Info</span> <span class="ph uicontrol">&gt;</span> <span class="ph uicontrol">Your Merchant Token</span>.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">The seller identifier that the seller used when they authorized you to make calls to <span class="ph">Amazon MWS</span> on their behalf.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">Signature</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">Part of the authentication process that is used for identifying and verifying who is sending a request.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">For more information on how to calculate the signature, see <a href="DG_ClientLibraries.md" class="xref">Using the Amazon MWS client libraries</a>.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">Signature</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">Part of the authentication process that is used for identifying and verifying who is sending a request.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">For more information on how to calculate the signature, see <a href="DG_ClientLibraries.md" class="xref">Using the Amazon MWS client libraries</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">SignatureMethod</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">The HMAC hash algorithm you are using to calculate your signature. Both <var class="keyword varname">HmacSHA256</var> and <var class="keyword varname">HmacSHA1</var> are supported hash algorithms, but Amazon recommends using <var class="keyword varname">HmacSHA256</var>.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 "><span class="keyword parmname">SignatureMethod</span> values:
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">SignatureMethod</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">The HMAC hash algorithm you are using to calculate your signature. Both <var class="keyword varname">HmacSHA256</var> and <var class="keyword varname">HmacSHA1</var> are supported hash algorithms, but Amazon recommends using <var class="keyword varname">HmacSHA256</var>.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 "><span class="keyword parmname">SignatureMethod</span> values:
 <ul>
 <li><var class="keyword varname">HmacSHA256</var> (recommended)</li>
 <li><var class="keyword varname">HmacSHA1</var></li>
@@ -116,27 +116,27 @@ for all <span class="ph">Amazon MWS</span> operations:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">SignatureVersion</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">Which signature version is being used. This is <span class="ph">Amazon MWS</span>-specific information that tells <span class="ph">Amazon MWS</span> the algorithm you used to form the string that is the basis of the signature.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 "><span class="keyword parmname">SignatureVersion</span> values:
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">SignatureVersion</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">Which signature version is being used. This is <span class="ph">Amazon MWS</span>-specific information that tells <span class="ph">Amazon MWS</span> the algorithm you used to form the string that is the basis of the signature.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 "><span class="keyword parmname">SignatureVersion</span> values:
 <ul>
 <li><var class="keyword varname">2</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">Timestamp</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">Each request must contain the timestamp of the request. Depending on the API operation you are using, you can provide an expiration date and time for the request instead of the timestamp. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">The current date and time or the expiration date and time for the request in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">Timestamp</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">Each request must contain the timestamp of the request. Depending on the API operation you are using, you can provide an expiration date and time for the request instead of the timestamp. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">The current date and time or the expiration date and time for the request in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9127e66 "><span class="keyword parmname">Version</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e69 ">The version of the API section being called.</td>
-<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9127e72 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9127e75 ">The version of the API section being called.
+<td class="entry" data-valign="top" width="16.666666666666664%" headers="d9154e66 "><span class="keyword parmname">Version</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e69 ">The version of the API section being called.</td>
+<td class="entry center" data-valign="top" width="16.666666666666664%" headers="d9154e72 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d9154e75 ">The version of the API section being called.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

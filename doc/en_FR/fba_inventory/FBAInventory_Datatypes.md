@@ -105,36 +105,36 @@ class="keyword cmdname">InventorySupply</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d82028e243" class="entry" data-valign="top" width="25%">Name</th>
-<th id="d82028e246" class="entry" data-valign="top" width="25.681818181818176%">Description</th>
-<th id="d82028e249" class="entry" data-valign="top" width="22.727272727272727%">Required</th>
-<th id="d82028e252" class="entry" data-valign="top" width="26.590909090909086%">Values</th>
+<th id="d82062e243" class="entry" data-valign="top" width="25%">Name</th>
+<th id="d82062e246" class="entry" data-valign="top" width="25.681818181818176%">Description</th>
+<th id="d82062e249" class="entry" data-valign="top" width="22.727272727272727%">Required</th>
+<th id="d82062e252" class="entry" data-valign="top" width="26.590909090909086%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 "><span class="ph">The Seller SKU of the item.</span></td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">No</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 "><span class="ph">The Seller SKU of the item.</span></td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">No</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">FNSKU</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 ">The Fulfillment Network SKU (FNSKU) of the item. The <span class="keyword parmname">FNSKU</span> is a unique identifier for each inventory item stored in an <span class="ph">Amazon fulfillment center</span>.</td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">Yes</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">FNSKU</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 ">The Fulfillment Network SKU (FNSKU) of the item. The <span class="keyword parmname">FNSKU</span> is a unique identifier for each inventory item stored in an <span class="ph">Amazon fulfillment center</span>.</td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">Yes</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">ASIN</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 "><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">No</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 "><span class="ph">The Amazon Standard Identification Number (ASIN) of the item.</span></td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">No</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">Condition</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 "><span class="ph">The condition of the item.</span></td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">No</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph"><span class="keyword parmname">Condition</span> values:</span>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">Condition</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 "><span class="ph">The condition of the item.</span></td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">No</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph"><span class="keyword parmname">Condition</span> values:</span>
 <ul>
 <li><var class="keyword varname">NewItem</var></li>
 <li><var class="keyword varname">NewWithWarranty</var></li>
@@ -158,29 +158,29 @@ class="keyword cmdname">InventorySupply</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">TotalSupplyQuantity</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 ">The total item quantity that a seller has in <span class="ph">Amazon's fulfillment network</span> supply chain. This includes inventory that is available for shipping, inventory in inbound shipments, and inventory being transferred between <span class="ph">Amazon fulfillment center</span>s. <span class="keyword parmname">TotalSupplyQuantity</span> is equivalent to the sum of the <span class="keyword parmname">afn-inbound-shipped-quantity</span>, <span class="keyword parmname">afn-inbound-receiving-quantity</span>, and <span class="keyword parmname">afn-fulfillable-quantity</span> fields of the FBA Manage Inventory Report (_GET_FBA_MYI_UNSUPPRESSED_INVENTORY_DATA_) and the <span class="keyword parmname">Reserved - FC transfer</span> field of the FBA Reserved Inventory Report (_GET_RESERVED_INVENTORY_DATA_).</td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">Yes</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">TotalSupplyQuantity</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 ">The total item quantity that a seller has in <span class="ph">Amazon's fulfillment network</span> supply chain. This includes inventory that is available for shipping, inventory in inbound shipments, and inventory being transferred between <span class="ph">Amazon fulfillment center</span>s. <span class="keyword parmname">TotalSupplyQuantity</span> is equivalent to the sum of the <span class="keyword parmname">afn-inbound-shipped-quantity</span>, <span class="keyword parmname">afn-inbound-receiving-quantity</span>, and <span class="keyword parmname">afn-fulfillable-quantity</span> fields of the FBA Manage Inventory Report (_GET_FBA_MYI_UNSUPPRESSED_INVENTORY_DATA_) and the <span class="keyword parmname">Reserved - FC transfer</span> field of the FBA Reserved Inventory Report (_GET_RESERVED_INVENTORY_DATA_).</td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">Yes</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph">Type: xs:int</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">InStockSupplyQuantity</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 ">The item quantity that a seller has in <span class="ph">Amazon fulfillment center</span>s that is available for shipping. <span class="keyword parmname">InStockSupplyQuantity</span> is equivalent to the <span class="keyword parmname">afn-fulfillable-quantity</span> field in the FBA Manage Inventory Report (_GET_FBA_MYI_UNSUPPRESSED_INVENTORY_DATA_).</td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">Yes</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">InStockSupplyQuantity</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 ">The item quantity that a seller has in <span class="ph">Amazon fulfillment center</span>s that is available for shipping. <span class="keyword parmname">InStockSupplyQuantity</span> is equivalent to the <span class="keyword parmname">afn-fulfillable-quantity</span> field in the FBA Manage Inventory Report (_GET_FBA_MYI_UNSUPPRESSED_INVENTORY_DATA_).</td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">Yes</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 "><span class="ph">Type: xs:int</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">EarliestAvailability</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 ">The earliest date that your inventory is expected to be available for picking.</td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">No
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">EarliestAvailability</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 ">The earliest date that your inventory is expected to be available for picking.</td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">No
 <p>If the value of <span class="keyword parmname">TotalSupplyQuantity</span> is zero, then the <span class="keyword parmname">EarliestAvailability</span> element is not returned.</p></td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 ">Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 ">Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d82028e243 "><span class="keyword parmname">SupplyDetail</span></td>
-<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82028e246 "><span id="InventorySupply__sd_InventoryDatatype_InventorySupplyDetail" class="ph">Detailed information about the availability of inventory for a specific item and its current location in <span class="ph">Amazon's fulfillment network</span> supply chain.</span></td>
-<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82028e249 ">No</td>
-<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82028e252 ">Type: List of <a href="FBAInventory_Datatypes.md#InventorySupplyDetail" class="xref" title="Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.">InventorySupplyDetail</a></td>
+<td class="entry" data-valign="top" width="25%" headers="d82062e243 "><span class="keyword parmname">SupplyDetail</span></td>
+<td class="entry" data-valign="top" width="25.681818181818176%" headers="d82062e246 "><span id="InventorySupply__sd_InventoryDatatype_InventorySupplyDetail" class="ph">Detailed information about the availability of inventory for a specific item and its current location in <span class="ph">Amazon's fulfillment network</span> supply chain.</span></td>
+<td class="entry" data-valign="top" width="22.727272727272727%" headers="d82062e249 ">No</td>
+<td class="entry" data-valign="top" width="26.590909090909086%" headers="d82062e252 ">Type: List of <a href="FBAInventory_Datatypes.md#InventorySupplyDetail" class="xref" title="Specific information about the availability of inventory for a single SKU, including the number of units that are in an Amazon fulfillment center, in an inbound shipment, or being transferred between fulfillment centers.">InventorySupplyDetail</a></td>
 </tr>
 </tbody>
 </table>
@@ -238,24 +238,24 @@ class="keyword cmdname">InventorySupplyDetail</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d82028e715" class="entry" data-valign="top" width="27.146171693735493%">Name</th>
-<th id="d82028e718" class="entry" data-valign="top" width="28.770301624129928%">Description</th>
-<th id="d82028e721" class="entry" data-valign="top" width="11.600928074245937%">Required</th>
-<th id="d82028e724" class="entry" data-valign="top" width="32.482598607888626%">Values</th>
+<th id="d82062e715" class="entry" data-valign="top" width="27.146171693735493%">Name</th>
+<th id="d82062e718" class="entry" data-valign="top" width="28.770301624129928%">Description</th>
+<th id="d82062e721" class="entry" data-valign="top" width="11.600928074245937%">Required</th>
+<th id="d82062e724" class="entry" data-valign="top" width="32.482598607888626%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82028e715 "><span class="keyword parmname">Quantity</span></td>
-<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82028e718 ">The quantity of inventory for a specific item.</td>
-<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82028e721 ">Yes</td>
-<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82028e724 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82062e715 "><span class="keyword parmname">Quantity</span></td>
+<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82062e718 ">The quantity of inventory for a specific item.</td>
+<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82062e721 ">Yes</td>
+<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82062e724 "><span class="ph">Type: xs:int</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82028e715 "><span class="keyword parmname">SupplyType</span></td>
-<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82028e718 ">The current inventory status for a specific item.</td>
-<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82028e721 ">Yes</td>
-<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82028e724 "><span class="keyword parmname">SupplyType</span> values:
+<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82062e715 "><span class="keyword parmname">SupplyType</span></td>
+<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82062e718 ">The current inventory status for a specific item.</td>
+<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82062e721 ">Yes</td>
+<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82062e724 "><span class="keyword parmname">SupplyType</span> values:
 <ul>
 <li><var class="keyword varname">InStock</var> - Inventory is in an <span class="ph">Amazon fulfillment center</span></li>
 <li><var class="keyword varname">Inbound</var> - Inventory is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span></li>
@@ -267,17 +267,17 @@ class="keyword cmdname">InventorySupplyDetail</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82028e715 "><span class="keyword parmname">EarliestAvailableToPick</span></td>
-<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82028e718 ">The earliest date that your inventory is expected to be available for picking.</td>
-<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82028e721 ">Yes</td>
-<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82028e724 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82062e715 "><span class="keyword parmname">EarliestAvailableToPick</span></td>
+<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82062e718 ">The earliest date that your inventory is expected to be available for picking.</td>
+<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82062e721 ">Yes</td>
+<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82062e724 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82028e715 "><span class="keyword parmname">LatestAvailableToPick</span></td>
-<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82028e718 ">The latest date that your inventory is expected to be available for picking.</td>
-<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82028e721 ">Yes</td>
-<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82028e724 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="27.146171693735493%" headers="d82062e715 "><span class="keyword parmname">LatestAvailableToPick</span></td>
+<td class="entry" data-valign="top" width="28.770301624129928%" headers="d82062e718 ">The latest date that your inventory is expected to be available for picking.</td>
+<td class="entry" data-valign="top" width="11.600928074245937%" headers="d82062e721 ">Yes</td>
+<td class="entry" data-valign="top" width="32.482598607888626%" headers="d82062e724 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Type: <a href="FBAInventory_Datatypes.md#Timepoint" class="xref" title="Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.">Timepoint</a></p></td>
 </tr>
 </tbody>
@@ -336,18 +336,18 @@ class="keyword cmdname">Timepoint</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d82028e987" class="entry" data-valign="top" width="19.4392523364486%">Name</th>
-<th id="d82028e990" class="entry" data-valign="top" width="32.33644859813084%">Description</th>
-<th id="d82028e993" class="entry" data-valign="top" width="18.691588785046733%">Required</th>
-<th id="d82028e996" class="entry" data-valign="top" width="29.532710280373838%">Values</th>
+<th id="d82062e987" class="entry" data-valign="top" width="19.4392523364486%">Name</th>
+<th id="d82062e990" class="entry" data-valign="top" width="32.33644859813084%">Description</th>
+<th id="d82062e993" class="entry" data-valign="top" width="18.691588785046733%">Required</th>
+<th id="d82062e996" class="entry" data-valign="top" width="29.532710280373838%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="19.4392523364486%" headers="d82028e987 "><span class="keyword parmname">TimepointType</span></td>
-<td class="entry" data-valign="top" width="32.33644859813084%" headers="d82028e990 "><span class="ph">Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.</span></td>
-<td class="entry" data-valign="top" width="18.691588785046733%" headers="d82028e993 ">Yes</td>
-<td class="entry" data-valign="top" width="29.532710280373838%" headers="d82028e996 "><span class="keyword parmname">TimepointType</span> values:
+<td class="entry" data-valign="top" width="19.4392523364486%" headers="d82062e987 "><span class="keyword parmname">TimepointType</span></td>
+<td class="entry" data-valign="top" width="32.33644859813084%" headers="d82062e990 "><span class="ph">Indicates whether inventory is immediately available for picking, whether inventory availability is unknown, or whether inventory is expected to be available for picking by a specific date.</span></td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d82062e993 ">Yes</td>
+<td class="entry" data-valign="top" width="29.532710280373838%" headers="d82062e996 "><span class="keyword parmname">TimepointType</span> values:
 <ul>
 <li><var class="keyword varname">Immediately</var> - The seller's inventory is immediately available for picking.</li>
 <li><var class="keyword varname">DateTime</var> - The seller's inventory is expected to be available for picking at a specific date, represented by the <span class="keyword parmname">DateTime</span> element.</li>
@@ -356,11 +356,11 @@ class="keyword cmdname">Timepoint</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="19.4392523364486%" headers="d82028e987 "><span class="keyword parmname">DateTime</span></td>
-<td class="entry" data-valign="top" width="32.33644859813084%" headers="d82028e990 ">The date and time by which inventory is expected to be available for picking, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="18.691588785046733%" headers="d82028e993 ">No
+<td class="entry" data-valign="top" width="19.4392523364486%" headers="d82062e987 "><span class="keyword parmname">DateTime</span></td>
+<td class="entry" data-valign="top" width="32.33644859813084%" headers="d82062e990 ">The date and time by which inventory is expected to be available for picking, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="18.691588785046733%" headers="d82062e993 ">No
 <p>If the value of the <span class="keyword parmname">TimepointType</span> element is <span class="keyword parmname">DateTime</span>, then the <span class="keyword parmname">DateTime</span> element is required.</p></td>
-<td class="entry" data-valign="top" width="29.532710280373838%" headers="d82028e996 ">If the value of the <span class="keyword parmname">TimepointType</span> element is <var class="keyword varname">Immediately</var> or <var class="keyword varname">Unknown</var>, then the value of the <span class="keyword parmname">DateTime</span> element is null.
+<td class="entry" data-valign="top" width="29.532710280373838%" headers="d82062e996 ">If the value of the <span class="keyword parmname">TimepointType</span> element is <var class="keyword varname">Immediately</var> or <var class="keyword varname">Unknown</var>, then the value of the <span class="keyword parmname">DateTime</span> element is null.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>

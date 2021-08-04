@@ -72,16 +72,25 @@ include the following information:
     construct unique barcode values for each package in a shipment, do
     the following:
 
-    1.  Start with the Shipment ID value and append "U" and "001" to get
-        the barcode value for the first package in the shipment.
+    1.  Start with the Shipment ID value and append "U" and "000001" to
+        get the barcode value for the first package in the shipment.
     2.  To get the barcode values for each successive package in the
-        shipment, (1) increment "001" by one, and then (2) append "U"
+        shipment, (1) increment "000001" by one, and then (2) append "U"
         and the incremented number to the Shipment ID value. Do this for
         each package in the shipment.
 
     Example: If you have three packages in a shipment with a Shipment ID
     value of FBA1MMD8D0, your three barcode values would be
-    FBA1MMD8D0U001, FBA1MMD8D0U002, and FBA1MMD8D0U003.
+    FBA1MMD8D0U000001, FBA1MMD8D0U000002, and FBA1MMD8D0U000003.
+
+    <div class="note note">
+
+    <span class="notetitle">Note:</span> A box label identified with its
+    own unique numerical identifier must follow the 6-digit number
+    format after U, printed and affixed to each carton you send to a
+    fulfillment center (for example, U000001, U000002, U000003, etc.).
+
+    </div>
 
 -   A section clearly marked **Internal Use Only**.
 
