@@ -1,4 +1,4 @@
-# mws-api-doc [![CircleCI](https://circleci.com/gh/bizon/mws-api-doc.svg?style=svg)](https://circleci.com/gh/bizon/mws-api-doc)
+# mws-api-doc
 
 > History of MWS API Documentation
 
