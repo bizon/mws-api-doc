@@ -1,0 +1,58 @@
+name: Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,12 * * *'
+
+jobs:
+  update-documentation:
+    name: Update documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN_PUBLIC }}
+
+      - name: Download MWS documentation
+        continue-on-error: true
+        run: |
+          wget \
+            --recursive \
+            --no-host-directories \
+            --accept html \
+            --directory-prefix=src \
+            http://docs.developer.amazonservices.com/en_FR/dev_guide/index.html
+
+      - name: Install pandoc
+        run: |
+          wget \
+            https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1-amd64.deb \
+            --output-document=/tmp/pandoc.deb \
+          && sudo dpkg -i /tmp/pandoc.deb
+
+      - name: Generate markdown doc
+        run: |
+          find src -name "*.html" | while read input
+          do
+            output=$(echo "${input%.*}.md" | sed s/^src/doc/)
+            mkdir -p $(dirname "$output")
+
+            echo " -  ${output}"
+
+            pandoc -f html -t gfm "$input" -o "$output"
+            sed -i '/http[s]:\/\/.*\.html/! s/\.html/\.md/g' "$output"
+          done
+
+      - name: Configure git user
+        run: |
+          git config --global user.email "${{ secrets.BOT_EMAIL }}"
+          git config --global user.name  "${{ secrets.BOT_NAME }}"
+
+      - name: Commit changes
+        run: |
+          git add doc
+          git commit -m 'Update MWS documentation' || true
+          git push origin master
