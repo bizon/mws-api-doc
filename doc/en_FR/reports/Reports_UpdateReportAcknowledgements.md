@@ -148,25 +148,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d297361e204" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d297361e207" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d297361e210" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d297361e213" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d297872e204" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d297872e207" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d297872e210" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d297872e213" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e204 "><span class="keyword parmname">ReportIdList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e207 ">A structured list of Report Ids. The maximum number of reports that can be specified is 100.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297361e210 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e213 ">Default: none
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e204 "><span class="keyword parmname">ReportIdList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e207 ">A structured list of Report Ids. The maximum number of reports that can be specified is 100.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297872e210 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e213 ">Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e204 "><span class="keyword parmname">Acknowledged</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e207 ">A Boolean value that indicates that you have received and stored a report. Specify <var class="keyword varname">true</var> to set the acknowledged status of a report to <var class="keyword varname">true</var>. Specify <var class="keyword varname">false</var> to set the acknowledged status of a report to <var class="keyword varname">false</var>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297361e210 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297361e213 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e204 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e207 ">A Boolean value that indicates that you have received and stored a report. Specify <var class="keyword varname">true</var> to set the acknowledged status of a report to <var class="keyword varname">true</var>. Specify <var class="keyword varname">false</var> to set the acknowledged status of a report to <var class="keyword varname">false</var>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d297872e210 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d297872e213 ">Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 </tbody>
@@ -193,19 +193,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d297361e299" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d297361e302" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d297872e299" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d297872e302" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d297361e299 "><span class="keyword parmname">Count</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d297361e302 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
+<td class="entry" data-valign="top" width="50%" headers="d297872e299 "><span class="keyword parmname">Count</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d297872e302 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d297361e299 "><span class="keyword parmname">ReportInfo</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d297361e302 "><span class="ph">Detailed information about a report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d297872e299 "><span class="keyword parmname">ReportInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d297872e302 "><span class="ph">Detailed information about a report.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>

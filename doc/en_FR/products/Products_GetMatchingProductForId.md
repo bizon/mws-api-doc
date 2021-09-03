@@ -149,31 +149,31 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d248525e248" class="entry" data-valign="top" width="22.22222222222222%">Name</th>
-<th id="d248525e251" class="entry" data-valign="top" width="29.629629629629626%">Description</th>
-<th id="d248525e254" class="entry" data-valign="top" width="11.11111111111111%">Required</th>
-<th id="d248525e257" class="entry" data-valign="top" width="37.03703703703704%">Valid values</th>
+<th id="d249036e248" class="entry" data-valign="top" width="22.22222222222222%">Name</th>
+<th id="d249036e251" class="entry" data-valign="top" width="29.629629629629626%">Description</th>
+<th id="d249036e254" class="entry" data-valign="top" width="11.11111111111111%">Required</th>
+<th id="d249036e257" class="entry" data-valign="top" width="37.03703703703704%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.22222222222222%" headers="d248525e248 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="29.629629629629626%" headers="d248525e251 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td class="entry" data-valign="top" width="11.11111111111111%" headers="d248525e254 ">Yes</td>
-<td class="entry" data-valign="top" width="37.03703703703704%" headers="d248525e257 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td class="entry" data-valign="top" width="22.22222222222222%" headers="d249036e248 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="29.629629629629626%" headers="d249036e251 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="11.11111111111111%" headers="d249036e254 ">Yes</td>
+<td class="entry" data-valign="top" width="37.03703703703704%" headers="d249036e257 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.22222222222222%" headers="d248525e248 "><span class="keyword parmname">IdType</span></td>
-<td class="entry" data-valign="top" width="29.629629629629626%" headers="d248525e251 ">The type of product identifier that <span class="keyword parmname">Id</span> values refer to.</td>
-<td class="entry" data-valign="top" width="11.11111111111111%" headers="d248525e254 ">Yes</td>
-<td class="entry" data-valign="top" width="37.03703703703704%" headers="d248525e257 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">GCID</var>, <var class="keyword varname">SellerSKU</var>, <var class="keyword varname">UPC</var>, <var class="keyword varname">EAN</var>, <var class="keyword varname">ISBN</var>, <var class="keyword varname">JAN</var>
+<td class="entry" data-valign="top" width="22.22222222222222%" headers="d249036e248 "><span class="keyword parmname">IdType</span></td>
+<td class="entry" data-valign="top" width="29.629629629629626%" headers="d249036e251 ">The type of product identifier that <span class="keyword parmname">Id</span> values refer to.</td>
+<td class="entry" data-valign="top" width="11.11111111111111%" headers="d249036e254 ">Yes</td>
+<td class="entry" data-valign="top" width="37.03703703703704%" headers="d249036e257 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">GCID</var>, <var class="keyword varname">SellerSKU</var>, <var class="keyword varname">UPC</var>, <var class="keyword varname">EAN</var>, <var class="keyword varname">ISBN</var>, <var class="keyword varname">JAN</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.22222222222222%" headers="d248525e248 "><span class="keyword parmname">IdList</span></td>
-<td class="entry" data-valign="top" width="29.629629629629626%" headers="d248525e251 ">A structured list of <span class="keyword parmname">Id</span> values. Used to identify products in the given marketplace.</td>
-<td class="entry center" data-valign="top" width="11.11111111111111%" headers="d248525e254 ">Yes</td>
-<td class="entry" data-valign="top" width="37.03703703703704%" headers="d248525e257 ">Maximum: Five <span class="keyword parmname">Id</span> values
+<td class="entry" data-valign="top" width="22.22222222222222%" headers="d249036e248 "><span class="keyword parmname">IdList</span></td>
+<td class="entry" data-valign="top" width="29.629629629629626%" headers="d249036e251 ">A structured list of <span class="keyword parmname">Id</span> values. Used to identify products in the given marketplace.</td>
+<td class="entry center" data-valign="top" width="11.11111111111111%" headers="d249036e254 ">Yes</td>
+<td class="entry" data-valign="top" width="37.03703703703704%" headers="d249036e257 ">Maximum: Five <span class="keyword parmname">Id</span> values
 <p>Type: List of xs:string</p></td>
 </tr>
 </tbody>
@@ -234,29 +234,29 @@ you choose to use these schemas for validation.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d248525e452" class="entry" data-valign="top" width="26.666666666666668%">Name</th>
-<th id="d248525e455" class="entry" data-valign="top" width="73.33333333333333%">Description</th>
+<th id="d249036e452" class="entry" data-valign="top" width="26.666666666666668%">Name</th>
+<th id="d249036e455" class="entry" data-valign="top" width="73.33333333333333%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d248525e452 "><span class="keyword parmname">Product</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d248525e455 ">Contains four of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">AttributeSets</span>, <span class="keyword parmname">Relationships</span>, and <span class="keyword parmname">SalesRankings</span>.</td>
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d249036e452 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d249036e455 ">Contains four of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">AttributeSets</span>, <span class="keyword parmname">Relationships</span>, and <span class="keyword parmname">SalesRankings</span>.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d248525e452 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d248525e455 ">Contains the <span class="keyword parmname">MarketplaceASIN</span> combination that uniquely identifies a product.</td>
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d249036e452 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d249036e455 ">Contains the <span class="keyword parmname">MarketplaceASIN</span> combination that uniquely identifies a product.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d248525e452 "><span class="keyword parmname">AttributeSets</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d248525e455 ">Contains product attributes, from the <span class="keyword parmname">ItemAttributes</span> element of default.xsd, if they are applicable to the product that is returned. Note that a <span class="keyword parmname">Product</span> response element will have multiple attribute sets if it has attributes in more than one language. All of the attributes, even ones that are not translated, are repeated in each attribute set. The language used by each attribute set is denoted by a <span class="keyword parmname">lang</span> attribute.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d249036e452 "><span class="keyword parmname">AttributeSets</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d249036e455 ">Contains product attributes, from the <span class="keyword parmname">ItemAttributes</span> element of default.xsd, if they are applicable to the product that is returned. Note that a <span class="keyword parmname">Product</span> response element will have multiple attribute sets if it has attributes in more than one language. All of the attributes, even ones that are not translated, are repeated in each attribute set. The language used by each attribute set is denoted by a <span class="keyword parmname">lang</span> attribute.
 <div class="note note">
 <span class="notetitle">Note:</span> If a single product has more than one image, then only the URL for the main image is returned.
 </div></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d248525e452 "><span class="keyword parmname">Relationships</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d248525e455 ">Contains product variation information, if applicable. If your search criteria match a product that is identified by a variation parent ASIN, the related <span class="keyword parmname">VariationChild</span> elements are contained in the <span class="keyword parmname">Relationships</span> element. If your search criteria match a specific variation child ASIN, the related <span class="keyword parmname">VariationParent</span> element is contained in the <span class="keyword parmname">Relationships</span> element.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d249036e452 "><span class="keyword parmname">Relationships</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d249036e455 ">Contains product variation information, if applicable. If your search criteria match a product that is identified by a variation parent ASIN, the related <span class="keyword parmname">VariationChild</span> elements are contained in the <span class="keyword parmname">Relationships</span> element. If your search criteria match a specific variation child ASIN, the related <span class="keyword parmname">VariationParent</span> element is contained in the <span class="keyword parmname">Relationships</span> element.
 <div class="note note">
 <span class="notetitle">Note:</span> Because this operation does not return all product attributes, it is possible to get <span class="keyword parmname">VariationChild</span> elements with different <span class="keyword parmname">ASIN</span> values but the same variation element values. These are distinct variation child ASINs even though product attributes that differentiate them from each other are not returned.
 </div>
@@ -266,8 +266,8 @@ you choose to use these schemas for validation.
 </div></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d248525e452 "><span class="keyword parmname">SalesRankings</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d248525e455 ">Sales rank information for the product by product category.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d249036e452 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d249036e455 ">Sales rank information for the product by product category.
 <p>Sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>

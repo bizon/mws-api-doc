@@ -151,18 +151,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d249914e220" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d249914e223" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d249914e226" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d249914e229" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d250425e220" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d250425e223" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d250425e226" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d250425e229" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d249914e220 "><span class="keyword parmname">FeesEstimateRequestList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d249914e223 "><span id="RequestParameters__d50860e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d249914e226 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d249914e229 ">Maximum: 20 requests.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d250425e220 "><span class="keyword parmname">FeesEstimateRequestList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d250425e223 "><span id="RequestParameters__d50950e1713" class="ph">A list of products, marketplaces, and other options to query for fees.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d250425e226 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d250425e229 ">Maximum: 20 requests.
 <p>Type: List of <a href="Products_Datatypes.md#FeesEstimateRequest" class="xref" title="A product, marketplace, and proposed price used to request estimated fees.">FeesEstimateRequest</a></p></td>
 </tr>
 </tbody>

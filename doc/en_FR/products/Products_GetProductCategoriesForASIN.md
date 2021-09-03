@@ -132,26 +132,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d253865e219" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d253865e222" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d253865e225" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d253865e228" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d254376e219" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d254376e222" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d254376e225" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d254376e228" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e219 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e222 ">A marketplace identifier. Specifies the marketplace whose category structure should be returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e219 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e222 ">A marketplace identifier. Specifies the marketplace whose category structure should be returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d253865e225 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e228 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d254376e225 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e228 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e219 "><span class="keyword parmname">ASIN</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e222 ">Identifies the product in given the Marketplace.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e219 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e222 ">Identifies the product in given the Marketplace.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d253865e225 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d253865e228 "> </td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d254376e225 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d254376e228 "> </td>
 </tr>
 </tbody>
 </table>

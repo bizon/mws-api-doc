@@ -63,14 +63,14 @@ following XSDs:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d322701e69" class="entry" data-valign="top" width="50%">XSD</th>
-<th id="d322701e72" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d323212e69" class="entry" data-valign="top" width="50%">XSD</th>
+<th id="d323212e72" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d322701e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotification.xsd" class="xref">MWSPushNotification.xsd</a></td>
-<td class="entry" data-valign="top" width="50%" headers="d322701e72 "><p>Defines the basic structure of the notification. Each <span class="keyword parmname">Notification</span> element contains a notification (in the <span class="keyword parmname">NotificationPayload</span> child element) and information about the notification (in the <span class="keyword parmname">NotificationMetaData</span> child element).</p>
+<td class="entry" data-valign="top" width="50%" headers="d323212e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotification.xsd" class="xref">MWSPushNotification.xsd</a></td>
+<td class="entry" data-valign="top" width="50%" headers="d323212e72 "><p>Defines the basic structure of the notification. Each <span class="keyword parmname">Notification</span> element contains a notification (in the <span class="keyword parmname">NotificationPayload</span> child element) and information about the notification (in the <span class="keyword parmname">NotificationMetaData</span> child element).</p>
 <div class="note note">
 <span class="notetitle">Note:</span> If you are using this schema for runtime validation, future additions to the <span class="keyword parmname">NotificationPayload</span> element will invalidate the existing version of the schema, without prior notice.
 </div>
@@ -78,13 +78,13 @@ following XSDs:
 <p>For more information, see <a href="../notifications/Notifications_MWSPushNotification.md" class="xref">MWSPushNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d322701e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd" class="xref">MWSPushNotificationCommon.xsd</a></td>
-<td class="entry" data-valign="top" width="50%" headers="d322701e72 "><span class="ph">Contains common types that are used by all notifications that are contained in the <span class="keyword parmname">NotificationPayload</span> element.</span>
+<td class="entry" data-valign="top" width="50%" headers="d323212e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd" class="xref">MWSPushNotificationCommon.xsd</a></td>
+<td class="entry" data-valign="top" width="50%" headers="d323212e72 "><span class="ph">Contains common types that are used by all notifications that are contained in the <span class="keyword parmname">NotificationPayload</span> element.</span>
 <p>For more information, see <a href="../notifications/Notifications_MWSPushNotificationCommon.md" class="xref">MWSPushNotificationCommon</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d322701e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a></td>
-<td class="entry" data-valign="top" width="50%" headers="d322701e72 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
+<td class="entry" data-valign="top" width="50%" headers="d323212e69 "><a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a></td>
+<td class="entry" data-valign="top" width="50%" headers="d323212e72 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span>
 <p>For more information, see <a href="../notifications/Notifications_TestNotification.md" class="xref">TestNotification</a> in the <span class="ph">Amazon MWS</span> <span class="ph">Push Notifications</span> Reference.</p></td>
 </tr>
 </tbody>

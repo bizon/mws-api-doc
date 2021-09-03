@@ -148,18 +148,18 @@ throughout this document.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d258673e233" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d258673e236" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d259184e233" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d259184e236" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">OperationNameResult</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 ">An element that is returned for each product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>) that is specified in the request. For example, if you submit the <span class="keyword apiname">GetLowestOfferListingsForSKU</span> operation, this element will be named <span class="keyword parmname">GetLowestOfferListingsForSKUResult.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">OperationNameResult</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 ">An element that is returned for each product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>) that is specified in the request. For example, if you submit the <span class="keyword apiname">GetLowestOfferListingsForSKU</span> operation, this element will be named <span class="keyword parmname">GetLowestOfferListingsForSKUResult.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Status</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 ">An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates whether or not data could be returned for the specified product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>).
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 ">An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates whether or not data could be returned for the specified product identifier (<span class="keyword parmname">ASIN</span>, <span class="keyword parmname">SellerSKU</span>, or <span class="keyword parmname">Id</span>).
 <p>Valid values:</p>
 <ul>
 <li><var class="keyword varname">Success</var> - Request succeeded.</li>
@@ -168,40 +168,40 @@ throughout this document.
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">ASIN</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">ASIN</span> that was specified in the request.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">ASIN</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">ASIN</span> as input.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">SellerSKU</span> that was specified in the request.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">SellerSKU</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">SellerSKU</span> as input.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">IdType</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">IdType</span> that was specified in the request.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">IdType</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">IdType</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">IdType</span> as input.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Id</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">Id</span> that was specified in the request.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Id</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>An attribute of the <span class="keyword parmname">OperationNameResult</span> element. Indicates the <span class="keyword parmname">Id</span> that was specified in the request.</p>
 <p>Required for operations that take an <span class="keyword parmname">Id</span> as input.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Error</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>The parent element of the following child elements: <span class="keyword parmname">Type</span>, <span class="keyword parmname">Code</span>, <span class="keyword parmname">Message</span>.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Error</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>The parent element of the following child elements: <span class="keyword parmname">Type</span>, <span class="keyword parmname">Code</span>, <span class="keyword parmname">Message</span>.</p>
 <p>This element is returned only if <span class="keyword parmname">status</span>=<var class="keyword varname">ClientError</var> OR <span class="keyword parmname">status</span>=<var class="keyword varname">ServerError</var>.</p>
 <p>Optional.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Code</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>The type of error that resulted in a failed response.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Code</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>The type of error that resulted in a failed response.</p>
 <p>Example: <var class="keyword varname">InternalError</var></p>
 <p>Optional.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Type</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>Indicates whether the error was a result of a problem in the request or with the web service.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Type</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>Indicates whether the error was a result of a problem in the request or with the web service.</p>
 <div class="p">
 Valid values:
 <ul>
@@ -212,14 +212,14 @@ Valid values:
 <p>Optional.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Message</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>Contains a message that provides more information about the error.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>Contains a message that provides more information about the error.</p>
 <p>Example: <var class="keyword varname">SellerSKU1 is an invalid SellerSKU for marketplace                                             ATVPDKIKX0DER.</var></p>
 <p>Optional.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e233 "><span class="keyword parmname">Detail</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d258673e236 "><p>Contains any additional details, if applicable.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e233 "><span class="keyword parmname">Detail</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d259184e236 "><p>Contains any additional details, if applicable.</p>
 <p>Optional.</p></td>
 </tr>
 </tbody>

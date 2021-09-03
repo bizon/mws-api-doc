@@ -137,26 +137,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d232923e232" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d232923e235" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d232923e238" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d232923e241" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d233434e232" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d233434e235" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d233434e238" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d233434e241" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e232 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e235 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e232 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e235 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d232923e238 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e241 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d233434e238 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e241 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e232 "><span class="keyword parmname">ASINList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e235 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e232 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e235 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
 <p>Type: List of xs:string</p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d232923e238 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d232923e241 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d233434e238 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d233434e241 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values</td>
 </tr>
 </tbody>
 </table>
@@ -194,26 +194,26 @@ class="keyword apiname">GetCompetitivePricingForASIN</span> operation.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d232923e346" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d232923e349" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d233434e346" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d233434e349" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e346 "><span class="keyword parmname">Product</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e349 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e346 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e349 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e346 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e349 ">Contains the following identifiers that uniquely identify a product:
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e346 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e349 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e346 "><span class="keyword parmname">CompetitivePricing</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e349 ">Contains pricing information for the product that is returned.
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e346 "><span class="keyword parmname">CompetitivePricing</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e349 ">Contains pricing information for the product that is returned.
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">CompetitivePrice</span>. Contains pricing information. The <span class="keyword parmname">CompetitivePrice</span> element contains the following attributes:
@@ -235,8 +235,8 @@ class="keyword apiname">GetCompetitivePricingForASIN</span> operation.
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e346 "><span class="keyword parmname">SalesRankings</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d232923e349 ">Sales rank information for the product by product category.
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e346 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d233434e349 ">Sales rank information for the product by product category.
 <p>Key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>
