@@ -54,5 +54,5 @@ jobs:
       - name: Commit changes
         run: |
           git add doc
-          git commit -m 'Update MWS documentation' || true
+          git commit -m 'feat: update MWS documentation' || true
           git push origin master
