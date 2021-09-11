@@ -131,26 +131,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d255225e201" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d255225e204" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d255225e207" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d255225e210" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d256421e201" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d256421e204" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d256421e207" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d256421e210" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e201 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e204 ">A marketplace identifier. Specifies the marketplace from which category structures are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e201 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e204 ">A marketplace identifier. Specifies the marketplace from which category structures are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d255225e207 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e210 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d256421e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e210 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e201 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e204 ">Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e201 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e204 ">Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d255225e207 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d255225e210 "> </td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d256421e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d256421e210 "> </td>
 </tr>
 </tbody>
 </table>

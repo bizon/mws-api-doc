@@ -134,18 +134,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d277990e183" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d277990e186" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d277990e189" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d277990e192" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d279186e183" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d279186e186" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d279186e189" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d279186e192" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d277990e183 "><span class="keyword parmname">ReportId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d277990e186 ">A unique identifier of the report to download. For most reports, this identifier is returned either in the <span class="keyword parmname">ReportId</span> of the <span class="keyword apiname">GetReportList</span> operation or in the <span class="keyword parmname">GeneratedReportId</span> of the <span class="keyword apiname">GetReportRequestList</span> operation. For sellers in India getting <span class="ph">Amazon Easy Ship</span> documents, this identifier is returned in the <span class="keyword parmname">ReportReferenceId</span> element of the processing report of the Easy Ship Feed. For more information see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d277990e189 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d277990e192 ">Default: none
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d279186e183 "><span class="keyword parmname">ReportId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d279186e186 ">A unique identifier of the report to download. For most reports, this identifier is returned either in the <span class="keyword parmname">ReportId</span> of the <span class="keyword apiname">GetReportList</span> operation or in the <span class="keyword parmname">GeneratedReportId</span> of the <span class="keyword apiname">GetReportRequestList</span> operation. For sellers in India getting <span class="ph">Amazon Easy Ship</span> documents, this identifier is returned in the <span class="keyword parmname">ReportReferenceId</span> element of the processing report of the Easy Ship Feed. For more information see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d279186e189 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d279186e192 ">Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -172,14 +172,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d277990e268" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d277990e271" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d279186e268" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d279186e271" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d277990e268 "><span class="keyword parmname">Report</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d277990e271 ">The contents of the report document. Depending on the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a>, this will either be a tab-delimited flat file, an XML document, or a PDF.
+<td class="entry" data-valign="top" width="50%" headers="d279186e268 "><span class="keyword parmname">Report</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279186e271 ">The contents of the report document. Depending on the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a>, this will either be a tab-delimited flat file, an XML document, or a PDF.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
