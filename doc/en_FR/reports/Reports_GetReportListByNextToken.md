@@ -149,24 +149,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d282010e274" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d282010e277" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d282031e274" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d282031e277" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d282010e274 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282010e277 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282031e274 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282031e277 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d282010e274 "><span class="keyword parmname">HasNext</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282010e277 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282031e274 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282031e277 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d282010e274 "><span class="keyword parmname">ReportInfo</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282010e277 "><span class="ph">Detailed information about a report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282031e274 "><span class="keyword parmname">ReportInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282031e277 "><span class="ph">Detailed information about a report.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>

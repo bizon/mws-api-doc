@@ -159,26 +159,26 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d235099e229" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d235099e232" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d235099e235" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d235099e238" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d235120e229" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d235120e232" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d235120e235" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d235120e238" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e229 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e232 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e229 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e232 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d235099e235 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e238 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d235120e235 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e238 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e229 "><span class="keyword parmname">SellerSKUList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e232 ">A structured list of <span class="keyword parmname">SellerSKU</span> values. Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e229 "><span class="keyword parmname">SellerSKUList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e232 ">A structured list of <span class="keyword parmname">SellerSKU</span> values. Used to identify products in the given marketplace. <span class="keyword parmname">SellerSKU</span> is qualified by your <span class="keyword parmname">SellerId</span>, which is included with every <span class="ph">Amazon Marketplace Web Service (Amazon MWS)</span> operation that you submit.
 <p>Type: List of xs:string</p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d235099e235 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235099e238 ">Maximum: 20 <span class="keyword parmname">SellerSKU</span> values</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d235120e235 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d235120e238 ">Maximum: 20 <span class="keyword parmname">SellerSKU</span> values</td>
 </tr>
 </tbody>
 </table>
@@ -216,26 +216,26 @@ class="keyword apiname">GetCompetitivePricingForSKU</span> operation.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d235099e352" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d235099e355" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d235120e352" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d235120e355" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e352 "><span class="keyword parmname">Product</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e355 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e352 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e355 ">Contains three of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">CompetitivePricing</span>, and <span class="keyword parmname">SalesRankings.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e352 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e355 ">Contains the following identifiers that uniquely identify a product:
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e352 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e355 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e352 "><span class="keyword parmname">CompetitivePricing</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e355 ">Contains pricing information for the product that is returned.
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e352 "><span class="keyword parmname">CompetitivePricing</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e355 ">Contains pricing information for the product that is returned.
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">CompetitivePrice</span>. Contains pricing information. The <span class="keyword parmname">CompetitivePrice</span> element contains the following attributes:
@@ -257,8 +257,8 @@ class="keyword apiname">GetCompetitivePricingForSKU</span> operation.
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e352 "><span class="keyword parmname">SalesRankings</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d235099e355 ">Sales rank information for the product by product category.
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e352 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d235120e355 ">Sales rank information for the product by product category.
 <p>Key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>

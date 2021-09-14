@@ -114,18 +114,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d322027e166" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d322027e169" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d322027e172" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d322027e175" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d322048e166" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d322048e169" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d322048e172" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d322048e175" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322027e166 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322027e169 ">The unique identifier for the marketplace.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d322027e172 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322027e175 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322048e166 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322048e169 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d322048e172 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d322048e175 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -152,14 +152,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d322027e241" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d322027e244" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d322048e241" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d322048e244" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d322027e241 "><span class="keyword parmname">SubscriptionList</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d322027e244 ">A list of all current subscriptions for the specified <span class="keyword parmname">MarketplaceId</span>.
+<td class="entry" data-valign="top" width="50%" headers="d322048e241 "><span class="keyword parmname">SubscriptionList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d322048e244 ">A list of all current subscriptions for the specified <span class="keyword parmname">MarketplaceId</span>.
 <p>Type: List of <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
 </tr>
 </tbody>
