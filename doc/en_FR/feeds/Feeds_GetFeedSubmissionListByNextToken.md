@@ -146,31 +146,31 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d129103e274" class="entry" data-valign="top" width="25.249643366619118%">Name</th>
-<th id="d129103e277" class="entry" data-valign="top" width="45.36376604850214%">Description</th>
-<th id="d129103e280" class="entry" data-valign="top" width="15.121255349500714%">Required</th>
-<th id="d129103e283" class="entry" data-valign="top" width="14.265335235378032%">Valid values</th>
+<th id="d128956e274" class="entry" data-valign="top" width="25.249643366619118%">Name</th>
+<th id="d128956e277" class="entry" data-valign="top" width="45.36376604850214%">Description</th>
+<th id="d128956e280" class="entry" data-valign="top" width="15.121255349500714%">Required</th>
+<th id="d128956e283" class="entry" data-valign="top" width="14.265335235378032%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129103e274 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129103e277 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
-<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129103e280 ">No</td>
-<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129103e283 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d128956e274 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d128956e277 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d128956e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d128956e283 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129103e274 "><span class="keyword parmname">HasNext</span></td>
-<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129103e277 ">A Boolean value that indicates whether there are more items to retrieve, requiring additional requests to <span class="keyword apiname">GetGetFeedSubmissionListByNextToken</span> to retrieve them.</td>
-<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129103e280 ">No</td>
-<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129103e283 "><p>The value <var class="keyword varname">true</var> means there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</p>
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d128956e274 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d128956e277 ">A Boolean value that indicates whether there are more items to retrieve, requiring additional requests to <span class="keyword apiname">GetGetFeedSubmissionListByNextToken</span> to retrieve them.</td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d128956e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d128956e283 "><p>The value <var class="keyword varname">true</var> means there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</p>
 <span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.249643366619118%" headers="d129103e274 "><span class="keyword parmname">FeedSubmissionInfo</span></td>
-<td class="entry" data-valign="top" width="45.36376604850214%" headers="d129103e277 "><span class="ph">Detailed information about a feed submission.</span></td>
-<td class="entry" data-valign="top" width="15.121255349500714%" headers="d129103e280 ">No</td>
-<td class="entry" data-valign="top" width="14.265335235378032%" headers="d129103e283 ">Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
+<td class="entry" data-valign="top" width="25.249643366619118%" headers="d128956e274 "><span class="keyword parmname">FeedSubmissionInfo</span></td>
+<td class="entry" data-valign="top" width="45.36376604850214%" headers="d128956e277 "><span class="ph">Detailed information about a feed submission.</span></td>
+<td class="entry" data-valign="top" width="15.121255349500714%" headers="d128956e280 ">No</td>
+<td class="entry" data-valign="top" width="14.265335235378032%" headers="d128956e283 ">Type: <a href="Feeds_Datatypes.md#FeedSubmissionInfo" class="xref" title="Detailed information about a feed submission.">FeedSubmissionInfo</a></td>
 </tr>
 </tbody>
 </table>

@@ -132,40 +132,40 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d119399e188" class="entry" data-valign="top" width="31.93717277486911%">Name</th>
-<th id="d119399e191" class="entry" data-valign="top" width="42.72251308900524%">Description</th>
-<th id="d119399e194" class="entry" data-valign="top" width="10.471204188481677%">Required</th>
-<th id="d119399e197" class="entry" data-valign="top" width="14.86910994764398%">Valid values</th>
+<th id="d119252e188" class="entry" data-valign="top" width="31.93717277486911%">Name</th>
+<th id="d119252e191" class="entry" data-valign="top" width="42.72251308900524%">Description</th>
+<th id="d119252e194" class="entry" data-valign="top" width="10.471204188481677%">Required</th>
+<th id="d119252e197" class="entry" data-valign="top" width="14.86910994764398%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119399e188 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
-<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119399e191 ">A structured list of <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
-<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119399e194 ">No</td>
-<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119399e197 ">Default: All
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119252e188 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119252e191 ">A structured list of <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119252e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119252e197 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119399e188 "><span class="keyword parmname">FeedTypeList</span></td>
-<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119399e191 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
-<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119399e194 ">No</td>
-<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119399e197 ">Default: All feed types
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119252e188 "><span class="keyword parmname">FeedTypeList</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119252e191 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119252e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119252e197 ">Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119399e188 "><span class="keyword parmname">SubmittedFromDate</span></td>
-<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119399e191 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119399e194 ">No</td>
-<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119399e197 ">Default: 180 days ago
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119252e188 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119252e191 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119252e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119252e197 ">Default: 180 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119399e188 "><span class="keyword parmname">SubmittedToDate</span></td>
-<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119399e191 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119399e194 ">No</td>
-<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119399e197 ">Default: Now
+<td class="entry" data-valign="top" width="31.93717277486911%" headers="d119252e188 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="42.72251308900524%" headers="d119252e191 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="10.471204188481677%" headers="d119252e194 ">No</td>
+<td class="entry" data-valign="top" width="14.86910994764398%" headers="d119252e197 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>

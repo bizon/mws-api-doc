@@ -128,25 +128,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d64117e183" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d64117e186" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d64117e189" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d64117e192" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d63970e183" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d63970e186" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d63970e189" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d63970e192" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d64117e183 "><span class="keyword parmname">ASINList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d64117e186 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want inbound guidance for shipment to <span class="ph">Amazon's fulfillment network</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d64117e189 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d64117e192 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d63970e183 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d63970e186 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want inbound guidance for shipment to <span class="ph">Amazon's fulfillment network</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d63970e189 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d63970e192 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d64117e183 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d64117e186 ">A marketplace identifier. Specifies the marketplace where the product would be stored.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d64117e189 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d64117e192 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d63970e183 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d63970e186 ">A marketplace identifier. Specifies the marketplace where the product would be stored.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d63970e189 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d63970e192 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

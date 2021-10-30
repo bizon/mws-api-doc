@@ -107,34 +107,34 @@ The following table defines terminology for this API section:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d75921e725" class="entry" data-valign="top" width="42.91845493562232%">Term</th>
-<th id="d75921e728" class="entry" data-valign="top" width="57.08154506437768%">Definition</th>
+<th id="d75774e725" class="entry" data-valign="top" width="42.91845493562232%">Term</th>
+<th id="d75774e728" class="entry" data-valign="top" width="57.08154506437768%">Definition</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75921e725 "><strong>Case packed</strong></td>
-<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75921e728 ">Items in an inbound shipment are considered to be case packed when:
+<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75774e725 "><strong>Case packed</strong></td>
+<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75774e728 ">Items in an inbound shipment are considered to be case packed when:
 <ul>
 <li>All items in a box have matching SKU and condition and have been previously packaged together by the manufacturer.</li>
 <li>All boxes with the same item contain equal quantities of that item.</li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75921e725 "><strong>Amazon-partnered carrier</strong></td>
-<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75921e728 ">A carrier who has partnered with Amazon to provide discounted shipping rates. Only sellers in the US can use Amazon-partnered carriers for inbound shipments.</td>
+<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75774e725 "><strong>Amazon-partnered carrier</strong></td>
+<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75774e728 ">A carrier who has partnered with Amazon to provide discounted shipping rates. Only sellers in the US can use Amazon-partnered carriers for inbound shipments.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75921e725 "><strong>Non-Amazon-partnered carrier</strong></td>
-<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75921e728 ">A carrier who has not partnered with Amazon to provide discounted shipping rates.</td>
+<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75774e725 "><strong>Non-Amazon-partnered carrier</strong></td>
+<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75774e728 ">A carrier who has not partnered with Amazon to provide discounted shipping rates.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75921e725 "><strong><span class="ph">Small Parcel</span> shipment</strong></td>
-<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75921e728 ">Units packed in individual boxes that are individually labeled for delivery.</td>
+<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75774e725 "><strong><span class="ph">Small Parcel</span> shipment</strong></td>
+<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75774e728 ">Units packed in individual boxes that are individually labeled for delivery.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75921e725 "><strong><span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment</strong></td>
-<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75921e728 ">Combines individual boxes on pallets for delivery. The truck might contain shipments to other destinations.</td>
+<td class="entry" data-valign="top" width="42.91845493562232%" headers="d75774e725 "><strong><span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span> shipment</strong></td>
+<td class="entry" data-valign="top" width="57.08154506437768%" headers="d75774e728 ">Combines individual boxes on pallets for delivery. The truck might contain shipments to other destinations.</td>
 </tr>
 </tbody>
 </table>

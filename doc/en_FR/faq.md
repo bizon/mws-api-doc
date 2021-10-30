@@ -56,9 +56,9 @@ The Developer Profile (formerly the Developer Registration and
 Assessment form) allows developers to submit information about their
 organization and applications. Amazon then uses this information to
 assess compliance with our Amazon Selling Partner API
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_US" class="xref">Acceptable Use Policy</a>
 and the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=DPP&amp;locale=en_US" class="xref">Data Protection Policy</a>
 requirements and ensures that we provide the level of access that you
 require and qualify for. All new and existing developers requiring
 additional data access are required to submit their responses to the
@@ -179,9 +179,9 @@ or email. My Amazon MWS Developer ID is xxx. Please assist." (5) Click
 Access decisions are made based on the information that you provide in
 your Developer Profile, including but not limited to your application
 functionality and your compliance with the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_US" class="xref">Acceptable Use Policy</a>
 and the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=DPP&amp;locale=en_US" class="xref">Data Protection Policy</a>.
 Our goal is to provide you only with the data that is relevant to you in
 order to protect customers and simplify your data protection
 obligations.
@@ -196,9 +196,9 @@ The decision to grant or deny Selling Partner API access is made based
 on the information that you provide in your Developer Profile, including
 but not limited to your application functionality and your compliance
 with the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_US" class="xref">Acceptable Use Policy</a>
 and the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_DataProtectionPolicy.md" class="xref">Data Protection Policy</a>.
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=DPP&amp;locale=en_US" class="xref">Data Protection Policy</a>.
 We cannot provide detailed information about how we determine Selling
 Partner API eligibility, but we prioritize data security in these
 decisions.
@@ -229,7 +229,7 @@ appeals on a case-by-case basis. If you believe that we misunderstood
 your Developer Profile inputs, or that the denial of access will
 materially impact the application functionality that you provide under
 the terms of the
-<a href="http://docs.developer.amazonservices.com/en_US/dev_guide/DG_AcceptableUsePolicy.md" class="xref">Acceptable Use Policy</a>,
+<a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_US" class="xref">Acceptable Use Policy</a>,
 please respond to your Developer Profile support case at least five
 business days prior to your adjustment date and ask for an "Appeal
 Request". Please clearly state the reason for your request and offer a

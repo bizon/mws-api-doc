@@ -115,19 +115,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d184757e174" class="entry" data-valign="top" width="24.061810154525393%">Name</th>
-<th id="d184757e177" class="entry" data-valign="top" width="22.075055187637975%">Description</th>
-<th id="d184757e180" class="entry" data-valign="top" width="23.178807947019873%">Required</th>
-<th id="d184757e183" class="entry" data-valign="top" width="30.684326710816777%">Values</th>
+<th id="d184610e174" class="entry" data-valign="top" width="24.061810154525393%">Name</th>
+<th id="d184610e177" class="entry" data-valign="top" width="22.075055187637975%">Description</th>
+<th id="d184610e180" class="entry" data-valign="top" width="23.178807947019873%">Required</th>
+<th id="d184610e183" class="entry" data-valign="top" width="30.684326710816777%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.061810154525393%" headers="d184757e174 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="22.075055187637975%" headers="d184757e177 "><span id="RequestParameters__d37863e269" class="ph">An Amazon-defined shipment identifier.</span>
+<td class="entry" data-valign="top" width="24.061810154525393%" headers="d184610e174 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="22.075055187637975%" headers="d184610e177 "><span id="RequestParameters__d37863e269" class="ph">An Amazon-defined shipment identifier.</span>
 <p><span id="RequestParameters__d37863e272" class="ph">Get the <span class="keyword parmname">ShipmentId</span> value from a previous call to the <a href="MerchFulfill_CreateShipment.md" class="xref">CreateShipment</a> operation.</span></p></td>
-<td class="entry" data-valign="top" width="23.178807947019873%" headers="d184757e180 ">Yes</td>
-<td class="entry" data-valign="top" width="30.684326710816777%" headers="d184757e183 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="23.178807947019873%" headers="d184610e180 ">Yes</td>
+<td class="entry" data-valign="top" width="30.684326710816777%" headers="d184610e183 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -153,14 +153,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d184757e247" class="entry" data-valign="top">Name</th>
-<th id="d184757e250" class="entry" data-valign="top">Description</th>
+<th id="d184610e247" class="entry" data-valign="top">Name</th>
+<th id="d184610e250" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d184757e247 "><span class="keyword parmname">Shipment</span></td>
-<td class="entry" data-valign="top" headers="d184757e250 "><span class="ph">The details of a shipment, including the shipment status.</span>
+<td class="entry" data-valign="top" headers="d184610e247 "><span class="keyword parmname">Shipment</span></td>
+<td class="entry" data-valign="top" headers="d184610e250 "><span class="ph">The details of a shipment, including the shipment status.</span>
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.

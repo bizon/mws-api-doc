@@ -133,18 +133,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d130064e189" class="entry" data-valign="top" width="24.565217391304348%">Name</th>
-<th id="d130064e192" class="entry" data-valign="top" width="41.84782608695652%">Description</th>
-<th id="d130064e195" class="entry" data-valign="top" width="10.869565217391305%">Required</th>
-<th id="d130064e198" class="entry" data-valign="top" width="22.717391304347824%">Valid values</th>
+<th id="d129917e189" class="entry" data-valign="top" width="24.565217391304348%">Name</th>
+<th id="d129917e192" class="entry" data-valign="top" width="41.84782608695652%">Description</th>
+<th id="d129917e195" class="entry" data-valign="top" width="10.869565217391305%">Required</th>
+<th id="d129917e198" class="entry" data-valign="top" width="22.717391304347824%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.565217391304348%" headers="d130064e189 "><span class="keyword parmname">FeedSubmissionId</span></td>
-<td class="entry" data-valign="top" width="41.84782608695652%" headers="d130064e192 ">The identifier of the feed submission you are requesting a feed processing report for. You can get the <span class="keyword parmname">FeedSubmissionId</span> for a feed using the <span class="keyword apiname">GetFeedSubmissionList</span> operation.</td>
-<td class="entry" data-valign="top" width="10.869565217391305%" headers="d130064e195 ">Yes</td>
-<td class="entry" data-valign="top" width="22.717391304347824%" headers="d130064e198 ">A <span class="keyword parmname">FeedSubmissionId</span> value.
+<td class="entry" data-valign="top" width="24.565217391304348%" headers="d129917e189 "><span class="keyword parmname">FeedSubmissionId</span></td>
+<td class="entry" data-valign="top" width="41.84782608695652%" headers="d129917e192 ">The identifier of the feed submission you are requesting a feed processing report for. You can get the <span class="keyword parmname">FeedSubmissionId</span> for a feed using the <span class="keyword apiname">GetFeedSubmissionList</span> operation.</td>
+<td class="entry" data-valign="top" width="10.869565217391305%" headers="d129917e195 ">Yes</td>
+<td class="entry" data-valign="top" width="22.717391304347824%" headers="d129917e198 ">A <span class="keyword parmname">FeedSubmissionId</span> value.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

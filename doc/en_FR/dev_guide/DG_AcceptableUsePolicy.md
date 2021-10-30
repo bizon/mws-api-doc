@@ -46,122 +46,31 @@ Documentation](https://developer.amazonservices.fr/gp/mws/docs.html)</span>
 
 <div class="body">
 
-<div class="note important">
+See the following for the Acceptable Use Policy in various languages:
 
-<span class="importanttitle">Important:</span>
-
-We are making clarifications and updates to the Amazon Acceptable Use
-and Data Protection policies governing the appropriate use of the
-Selling Partner API and Amazon Marketplace Web Service (Amazon MWS).
-These updates will go into effect on January 1, 2021. We have published
-the redlined versions of these policies at the links below for your
-convenience.
-
--   <a href="https://amazonservicesstatic.com/policies/Amazon-Selling-Partner-Acceptable-Use-Policy_2021.pdf" class="xref">Acceptable Use Policy</a>
-    (effective January 1, 2021)
--   <a href="https://amazonservicesstatic.com/policies/Amazon-Selling-Partner-Data-Protection-Policy_2021.pdf" class="xref">Data Protection Policy</a>
-    (effective January 1, 2021)
-
-</div>
-
-The Acceptable Use Policy (**"AUP"**) clarifies the appropriate use of
-Amazon Marketplace APIs. In addition to the Amazon Marketplace Developer
-Agreement, Marketplace Developers must comply with the following
-policies. Failure to comply may result in suspension or termination of
-Marketplace API access.
-
-**Help Sellers manage their Amazon Business**
-
-*Marketplace APIs are for Developers who wish to help Sellers build,
-manage, and grow successful businesses in Amazon's store.*
-
-1.  Use Marketplace APIs only to perform acceptable Amazon Seller
-    activities, and only for Amazon Sellers who have authorized you to
-    perform these activities on their behalf.
-2.  Do not facilitate or promote violation of the Amazon Services
-    Business Solutions Agreement, directly or indirectly.
-3.  If you discover that a Seller is using your service to violate the
-    Amazon Services Business Solutions Agreement, notify Amazon and
-    block the Seller's access to your Application.
-4.  Keep up to date on Amazon policies that pertain to specific APIs
-    (such as the Merchant Fulfillment API, Orders API, and Reports API)
-    or specific functionality that your Application provides (such as
-    Buyer-Seller messaging).
-
-**Provide quality Applications and services**
-
-*Seller transparency*
-
-1.  Do not falsely advertise your Application or service.
-2.  Be clear and honest with Sellers about what data you are accessing
-    and for what purpose.
-3.  Do not attempt to deceive Sellers by deliberate modification of
-    Marketplace API data.
-4.  Be explicit about any calculations and the use of models such as
-    Artificial Intelligence in the service you provide, their accuracy,
-    and data freshness.
-
-*Compliance*
-
-1.  Comply with all applicable laws including data privacy and data
-    protection laws (e.g., GDPR, Cybersecurity Law of the People's
-    Republic of China).
-2.  Do not offer Applications or services that infringe on the
-    copyrights, patents, or trademarks of others.
-3.  Do not use, offer, or promote external (non-Amazon) data services
-    that vend Amazon data, including data retrieved from Amazon's
-    public-facing websites.
-
-*Quality and performance*
-
-1.  Provide Application availability, performance, and support required
-    to successfully perform the business task.
-2.  Identify and mitigate any negative Seller impact before launching
-    new features, especially for business-critical tasks.
-3.  Design your Application to respect per-Seller throttling quotas.
-4.  Implement data integrity and validation checks within your
-    Application for any analytical processing (e.g., AI models for
-    insights, automated decision-making) that has material impact on a
-    Seller's business.
-
-**Keep data secure**
-
-*Account access*
-
-1.  Never share keys or passwords.
-2.  Never ask for or accept a Seller's Secret Keys for any purpose.
-3.  Only act on behalf of Sellers that have granted you permission
-    through third-party authorization.
-4.  Do not apply for keys that you will not use. Amazon will baseline
-    access keys every 90 days. Keys that do not make a successful call
-    in 90 days will be deleted and the Developer will need to re-apply
-    for keys.
-5.  Do not request or share Seller Central credentials. If necessary,
-    ask the Seller to grant Seller Central access through a secondary
-    user permission, but do so only if Seller Central is required to
-    provide features or services that benefit the Seller.
-
-*Data access and usage*
-
-1.  Do not request access to or retrieve information that is not
-    necessary for your Application's functionality.
-2.  Only grant access to data on a "need-to-know" basis within your
-    organization and among your Application users.
-3.  Do not attempt to circumvent throttling quotas through the creation
-    of multiple Developer accounts within the same region.
-
-*Data sharing*
-
-1.  Do not disclose information, individually labeled or aggregated,
-    obtained through Marketplace APIs on behalf of a Seller to other
-    Application users or any outside parties, unless required by law.
-2.  Do not calculate or publish insights about the health of Amazon's
-    business.
-3.  Comply with the
-    <a href="DG_DataProtectionPolicy.md" class="xref">Data Protection Policy ("DPP")</a>,
-    which provides specific requirements on the receipt, storage, usage,
-    transfer, and disposition of the data accessed through Marketplace
-    APIs.
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_CA" class="xref">Acceptable Use Policy (English, CA)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_US" class="xref">Acceptable Use Policy (English, US)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=es_MX" class="xref">Acceptable Use Policy (Spanish, MX)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=pt_BR" class="xref">Acceptable Use Policy (Portuguese, BR)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=es_ES" class="xref">Acceptable Use Policy (Spanish, ES)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_GB" class="xref">Acceptable Use Policy (English, GB)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=fr_FR" class="xref">Acceptable Use Policy (French, FR)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=nl_NL" class="xref">Acceptable Use Policy (Dutch, NL)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=de_DE" class="xref">Acceptable Use Policy (German, DE)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=it_IT" class="xref">Acceptable Use Policy (Italian, IT)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=sv_SE" class="xref">Acceptable Use Policy (Swedish, SE)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=pl_PL" class="xref">Acceptable Use Policy (Polish, PL)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=tr_TR" class="xref">Acceptable Use Policy (Turkish, TR)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_SA" class="xref">Acceptable Use Policy (English, SA)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_AE" class="xref">Acceptable Use Policy (English, AE)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=ar_AE" class="xref">Acceptable Use Policy (Arabic, AE)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_IN" class="xref">Acceptable Use Policy (English, IN)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=hi_IN" class="xref">Acceptable Use Policy (Hindi, IN)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=zh_CN" class="xref">Acceptable Use Policy (Chinese, CN)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_SG" class="xref">Acceptable Use Policy (English, SG)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=ko_KR" class="xref">Acceptable Use Policy (Korean, KR)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=en_AU" class="xref">Acceptable Use Policy (English, AU)</a>
+-   <a href="https://sellercentral.amazon.com/mws/static/policy?documentType=AUP&amp;locale=ja_JP" class="xref">Acceptable Use Policy (Japanese, JP)</a>
 
 </div>
 

@@ -159,14 +159,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d63474e248" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
-<th id="d63474e251" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
+<th id="d63327e248" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d63327e251" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="ResponseElements__ResponseElementsRow_TransportDocument" class="odd row">
-<td class="entry" data-valign="top" width="29.585798816568047%" headers="d63474e248 "><span class="keyword parmname">TransportDocument</span></td>
-<td class="entry" data-valign="top" width="70.41420118343196%" headers="d63474e251 ">PDF document data and checksum.
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d63327e248 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d63327e251 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportDocument" class="xref" title="The PDF document data and checksum for printing package labels and bills of lading.">TransportDocument</a></p></td>
 </tr>
 </tbody>

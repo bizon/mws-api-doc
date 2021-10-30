@@ -121,14 +121,14 @@ element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d199005e303" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d199005e306" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d198858e303" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d198858e306" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">EventType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 ">Indicates whether the notification contains order, shipment, or return information.
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">EventType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 ">Indicates whether the notification contains order, shipment, or return information.
 <p><span class="keyword parmname">EventType</span> values:</p>
 <ul>
 <li><var class="keyword varname">Order</var> - This notification contains information about a fulfillment order.</li>
@@ -139,20 +139,20 @@ element:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">StatusUpdatedDateTime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 ">The date and time when the status was last updated. In ISO 8601 format.
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">StatusUpdatedDateTime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 ">The date and time when the status was last updated. In ISO 8601 format.
 <p>Required</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 "><span class="ph">The fulfillment order identifier that you created and submitted using the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</span>
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 "><span class="ph">The fulfillment order identifier that you created and submitted using the <span class="keyword apiname">CreateFulfillmentOrder</span> operation.</span>
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr id="FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">FulfillmentOrderStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 ">The current status of the fulfillment order.
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">FulfillmentOrderStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 ">The current status of the fulfillment order.
 <p><span class="keyword parmname">FulfillmentOrderStatus</span> values:</p>
 <ul>
 <li><var class="keyword varname">Received</var> - The fulfillment order was received by <span class="ph">Amazon MWS</span> and validated. Validation includes determining that the destination address is valid and that Amazon's records indicate that the seller has enough sellable (undamaged) inventory to fulfill the order. The seller can cancel a fulfillment order that has a status of <var class="keyword varname">Received</var>.</li>
@@ -168,14 +168,14 @@ element:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">FulfillmentShipment</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 "><span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">FulfillmentShipment</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 "><span class="ph">Delivery and item information for a shipment in a fulfillment order.</span>
 <p>Optional. Returned only when <span class="keyword parmname">EventType</span> is <var class="keyword varname">Shipment</var>.</p>
 <p>Type: <a href="#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e303 "><span class="keyword parmname">FulfillmentReturnItem</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e306 "><span class="ph">Information about an item that was returned to an <span class="ph">Amazon fulfillment center</span>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d198858e303 "><span class="keyword parmname">FulfillmentReturnItem</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e306 "><span class="ph">Information about an item that was returned to an <span class="ph">Amazon fulfillment center</span>.</span>
 <p>Optional. Returned only when <span class="keyword parmname">EventType</span> is <var class="keyword varname">Return</var>.</p>
 <p>Type: <a href="#FulfillmentReturnItem" class="xref" title="Information about an item that was returned to an Amazon fulfillment center.">FulfillmentReturnItem</a></p></td>
 </tr>
@@ -215,26 +215,26 @@ class="keyword parmname">FulfillmentReturnItem</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d199005e627" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d199005e630" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d198858e627" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d198858e630" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e627 "><span class="keyword parmname">ReceivedDateTime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e630 ">The date and time when the returned item was received by the <span class="ph">Amazon fulfillment center</span>. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="50%" headers="d198858e627 "><span class="keyword parmname">ReceivedDateTime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e630 ">The date and time when the returned item was received by the <span class="ph">Amazon fulfillment center</span>. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p>Required</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e627 "><span class="keyword parmname">ReturnedQuantity</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e630 ">The quantity that was returned.
+<td class="entry" data-valign="top" width="50%" headers="d198858e627 "><span class="keyword parmname">ReturnedQuantity</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e630 ">The quantity that was returned.
 <p>Required</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e627 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e630 "><span class="ph">The seller SKU of the item.</span>
+<td class="entry" data-valign="top" width="50%" headers="d198858e627 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e630 "><span class="ph">The seller SKU of the item.</span>
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
@@ -280,14 +280,14 @@ class="keyword parmname">FulfillmentShipment</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d199005e762" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d199005e765" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d198858e762" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d198858e765" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e762 "><span class="keyword parmname">FulfillmentShipmentStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e765 ">The current status of the shipment.
+<td class="entry" data-valign="top" width="50%" headers="d198858e762 "><span class="keyword parmname">FulfillmentShipmentStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e765 ">The current status of the shipment.
 <p><span class="keyword parmname">FulfillmentShipmentStatus</span> values:</p>
 <ul>
 <li><var class="keyword varname">Pending</var> - The process of picking units from inventory has begun.</li>
@@ -299,20 +299,20 @@ class="keyword parmname">FulfillmentShipment</span> element:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e762 "><span class="keyword parmname">AmazonShipmentId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e765 ">A shipment identifier assigned by Amazon.
+<td class="entry" data-valign="top" width="50%" headers="d198858e762 "><span class="keyword parmname">AmazonShipmentId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e765 ">A shipment identifier assigned by Amazon.
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e762 "><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e765 ">The estimated arrival time of the shipment, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. Note that this value can change over time. If a shipment includes more than one package, <span class="keyword parmname">EstimatedArrivalDateTime</span> applies to all of the packages in the shipment. If the shipment has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.
+<td class="entry" data-valign="top" width="50%" headers="d198858e762 "><span class="keyword parmname">EstimatedArrivalDateTime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e765 ">The estimated arrival time of the shipment, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. Note that this value can change over time. If a shipment includes more than one package, <span class="keyword parmname">EstimatedArrivalDateTime</span> applies to all of the packages in the shipment. If the shipment has been cancelled, <span class="keyword parmname">EstimatedArrivalDateTime</span> is not returned.
 <p>Required</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e762 "><span class="keyword parmname">FulfillmentShipmentPackageList</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e765 ">Contains all the packages in the fulfillment shipment.
+<td class="entry" data-valign="top" width="50%" headers="d198858e762 "><span class="keyword parmname">FulfillmentShipmentPackageList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e765 ">Contains all the packages in the fulfillment shipment.
 <p>Optional</p>
 <p>Type: List of <a href="#FulfillmentShipmentPackage" class="xref" title="Package information for a shipment in a fulfillment order.">FulfillmentShipmentPackage</a></p></td>
 </tr>
@@ -358,26 +358,26 @@ class="keyword parmname">FulfillmentShipmentPackage</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d199005e951" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d199005e954" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d198858e951" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d198858e954" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e951 "><span class="keyword parmname">PackageNumber</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e954 ">Identifies a package within a shipment.
+<td class="entry" data-valign="top" width="50%" headers="d198858e951 "><span class="keyword parmname">PackageNumber</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e954 ">Identifies a package within a shipment.
 <p>Required</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e951 "><span class="keyword parmname">CarrierCode</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e954 ">Identifies the carrier that will deliver the package.
+<td class="entry" data-valign="top" width="50%" headers="d198858e951 "><span class="keyword parmname">CarrierCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e954 ">Identifies the carrier that will deliver the package.
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d199005e951 "><span class="keyword parmname">TrackingNumber</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d199005e954 ">The tracking number used to obtain tracking and delivery information.
+<td class="entry" data-valign="top" width="50%" headers="d198858e951 "><span class="keyword parmname">TrackingNumber</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198858e954 ">The tracking number used to obtain tracking and delivery information.
 <p>Required</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>

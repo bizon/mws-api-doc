@@ -151,25 +151,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d35635e188" class="entry" data-valign="top" width="27.254901960784313%">Name</th>
-<th id="d35635e191" class="entry" data-valign="top" width="19.607843137254903%">Description</th>
-<th id="d35635e194" class="entry" data-valign="top" width="25.490196078431378%">Required</th>
-<th id="d35635e197" class="entry" data-valign="top" width="27.647058823529413%">Values</th>
+<th id="d35488e188" class="entry" data-valign="top" width="27.254901960784313%">Name</th>
+<th id="d35488e191" class="entry" data-valign="top" width="19.607843137254903%">Description</th>
+<th id="d35488e194" class="entry" data-valign="top" width="25.490196078431378%">Required</th>
+<th id="d35488e197" class="entry" data-valign="top" width="27.647058823529413%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35635e188 "><span class="keyword parmname">ShipFromAddress</span></td>
-<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35635e191 ">The address from which you will send your inbound shipment.</td>
-<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35635e194 ">Yes</td>
-<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35635e197 ">Type: <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35488e188 "><span class="keyword parmname">ShipFromAddress</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35488e191 ">The address from which you will send your inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35488e194 ">Yes</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35488e197 ">Type: <a href="FBAInbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35635e188 "><span class="keyword parmname">ShipToCountryCode</span></td>
-<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35635e191 ">The two-character country code for the country where you want your inbound shipment to be sent.
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35488e188 "><span class="keyword parmname">ShipToCountryCode</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35488e191 ">The two-character country code for the country where you want your inbound shipment to be sent.
 <p>Only for sellers in North America and <span class="ph">Multi-Country Inventory</span> (MCI) sellers in Europe.</p></td>
-<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35635e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
-<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35635e197 "><span class="keyword parmname">ShipToCountryCode</span> values for North America:
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35488e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35488e197 "><span class="keyword parmname">ShipToCountryCode</span> values for North America:
 <ul>
 <li><var class="keyword varname">CA</var> – Canada</li>
 <li><var class="keyword varname">MX</var> – Mexico</li>
@@ -186,18 +186,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Default: The country code for your home marketplace.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35635e188 "><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
-<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35635e191 ">The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, "IN-MH". In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35488e188 "><span class="keyword parmname">ShipToCountrySubdivisionCode</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35488e191 ">The two-character country code, followed by a dash and then up to three characters that represent the subdivision of the country where you want your inbound shipment to be sent. For example, "IN-MH". In full <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> format.
 <p>Only for sellers in India.</p></td>
-<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35635e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
-<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35635e197 ">See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35488e194 ">No. Specifying both <span class="keyword parmname">ShipToCountryCode</span> and <span class="keyword parmname">ShipToCountrySubdivisionCode</span> returns an error.</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35488e197 ">See the <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> standard for states and union territories in India. If specified, only an <span class="ph"> <a href="../dev_guide/DG_ISO3166.md" class="xref">ISO 3166-2</a> </span> subdivision code for a state that contains an <span class="ph">Amazon fulfillment center</span> that the seller is registered with will result in a successful call. Specifying any other value returns an error.
 <p>If neither <span class="keyword parmname">ShipToCountrySubdivisionCode</span> nor <span class="keyword parmname">ShipToCountryCode</span> is specified, the shipment goes to the seller's home marketplace.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35635e188 "><span class="keyword parmname">LabelPrepPreference</span></td>
-<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35635e191 ">Your preference for label preparation for an inbound shipment.</td>
-<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35635e194 ">No</td>
-<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35635e197 "><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35488e188 "><span class="keyword parmname">LabelPrepPreference</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35488e191 ">Your preference for label preparation for an inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35488e194 ">No</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35488e197 "><span class="ph"><span class="keyword parmname">LabelPrepPreference</span> values: </span>
 <ul>
 <li><var class="keyword varname">SELLER_LABEL</var> - Seller labels the items in the inbound shipment when labels are required.</li>
 <li><var class="keyword varname">AMAZON_LABEL_ONLY</var> - Amazon attempts to label the items in the inbound shipment when labels are required. If Amazon determines that it does not have the information required to successfully label an item, that item is not included in the inbound shipment plan.</li>
@@ -210,10 +210,10 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35635e188 "><span class="keyword parmname">InboundShipmentPlanRequestItems</span></td>
-<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35635e191 ">SKU and quantity information for the items in an inbound shipment.</td>
-<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35635e194 ">Yes</td>
-<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35635e197 ">Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
+<td class="entry" data-valign="top" width="27.254901960784313%" headers="d35488e188 "><span class="keyword parmname">InboundShipmentPlanRequestItems</span></td>
+<td class="entry" data-valign="top" width="19.607843137254903%" headers="d35488e191 ">SKU and quantity information for the items in an inbound shipment.</td>
+<td class="entry" data-valign="top" width="25.490196078431378%" headers="d35488e194 ">Yes</td>
+<td class="entry" data-valign="top" width="27.647058823529413%" headers="d35488e197 ">Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlanRequestItem" class="xref" title="Item information for creating an inbound shipment plan. Submitted with a call to the CreateInboundShipmentPlan operation.">InboundShipmentPlanRequestItem</a></td>
 </tr>
 </tbody>
 </table>
@@ -239,14 +239,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d35635e491" class="entry" data-valign="top" width="26.525198938992045%">Name</th>
-<th id="d35635e494" class="entry" data-valign="top" width="73.47480106100795%">Description</th>
+<th id="d35488e491" class="entry" data-valign="top" width="26.525198938992045%">Name</th>
+<th id="d35488e494" class="entry" data-valign="top" width="73.47480106100795%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.525198938992045%" headers="d35635e491 "><span class="keyword parmname">InboundShipmentPlans</span></td>
-<td class="entry" data-valign="top" width="73.47480106100795%" headers="d35635e494 ">Inbound shipment information used to create an inbound shipment.
+<td class="entry" data-valign="top" width="26.525198938992045%" headers="d35488e491 "><span class="keyword parmname">InboundShipmentPlans</span></td>
+<td class="entry" data-valign="top" width="73.47480106100795%" headers="d35488e494 ">Inbound shipment information used to create an inbound shipment.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentPlan" class="xref" title="Inbound shipment information used to create an inbound shipment. Returned by the CreateInboundShipmentPlan operation.">InboundShipmentPlan</a></p></td>
 </tr>
 </tbody>

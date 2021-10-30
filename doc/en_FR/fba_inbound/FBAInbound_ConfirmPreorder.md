@@ -152,24 +152,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d33268e223" class="entry" data-valign="top" width="28.75536480686695%">Name</th>
-<th id="d33268e226" class="entry" data-valign="top" width="27.038626609442062%">Description</th>
-<th id="d33268e229" class="entry" data-valign="top" width="14.306151645207441%">Required</th>
-<th id="d33268e232" class="entry" data-valign="top" width="29.89985693848355%">Values</th>
+<th id="d33121e223" class="entry" data-valign="top" width="28.75536480686695%">Name</th>
+<th id="d33121e226" class="entry" data-valign="top" width="27.038626609442062%">Description</th>
+<th id="d33121e229" class="entry" data-valign="top" width="14.306151645207441%">Required</th>
+<th id="d33121e232" class="entry" data-valign="top" width="29.89985693848355%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33268e223 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33268e226 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33268e229 ">Yes</td>
-<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33268e232 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33121e223 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33121e226 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33121e229 ">Yes</td>
+<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33121e232 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33268e223 "><span class="keyword parmname">NeedByDate</span></td>
-<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33268e226 ">Date that the shipment must arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items. This comes from the <span class="keyword apiname">GetPreorderInfo</span> operation.</td>
-<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33268e229 ">Yes</td>
-<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33268e232 ">Must be in YYYY-MM-DD format.
+<td class="entry" data-valign="top" width="28.75536480686695%" headers="d33121e223 "><span class="keyword parmname">NeedByDate</span></td>
+<td class="entry" data-valign="top" width="27.038626609442062%" headers="d33121e226 ">Date that the shipment must arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items. This comes from the <span class="keyword apiname">GetPreorderInfo</span> operation.</td>
+<td class="entry" data-valign="top" width="14.306151645207441%" headers="d33121e229 ">Yes</td>
+<td class="entry" data-valign="top" width="29.89985693848355%" headers="d33121e232 ">Must be in YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -196,19 +196,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d33268e318" class="entry" data-valign="top" width="24.63054187192118%">Name</th>
-<th id="d33268e321" class="entry" data-valign="top" width="75.36945812807882%">Description</th>
+<th id="d33121e318" class="entry" data-valign="top" width="24.63054187192118%">Name</th>
+<th id="d33121e321" class="entry" data-valign="top" width="75.36945812807882%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33268e318 "><span class="keyword parmname">ConfirmedNeedByDate</span></td>
-<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33268e321 ">Date passed in with the <span class="keyword parmname">NeedByDate</span> parameter. The confirmed shipment must arrive at an <span class="ph">Amazon fulfillment center</span> by this date to avoid delivery promise breaks for pre-ordered items. In YYYY-MM-DD format.
+<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33121e318 "><span class="keyword parmname">ConfirmedNeedByDate</span></td>
+<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33121e321 ">Date passed in with the <span class="keyword parmname">NeedByDate</span> parameter. The confirmed shipment must arrive at an <span class="ph">Amazon fulfillment center</span> by this date to avoid delivery promise breaks for pre-ordered items. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33268e318 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
-<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33268e321 ">Date that determines which pre-order items in the shipment are eligible for pre-order. The pre-order Buy Box will appear for any pre-order item in the shipment with a release date on or after this date. In YYYY-MM-DD format.
+<td class="entry" data-valign="top" width="24.63054187192118%" headers="d33121e318 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
+<td class="entry" data-valign="top" width="75.36945812807882%" headers="d33121e321 ">Date that determines which pre-order items in the shipment are eligible for pre-order. The pre-order Buy Box will appear for any pre-order item in the shipment with a release date on or after this date. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
