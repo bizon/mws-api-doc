@@ -966,13 +966,13 @@ class="keyword parmname">FinancialEventGroup</span> datatype:
 </tr>
 <tr class="even row">
 <td class="entry" data-valign="top" width="34.18367346938776%" headers="d133970e3786 "><span class="keyword parmname">FinancialEventGroupStart</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133970e3789 ">The time at which the financial event group is opened. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133970e3789 ">The time at which the financial event group started. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td class="entry" data-valign="top" width="12.755102040816327%" headers="d133970e3792 ">No</td>
 <td class="entry" data-valign="top" width="27.551020408163268%" headers="d133970e3795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd row">
 <td class="entry" data-valign="top" width="34.18367346938776%" headers="d133970e3786 "><span class="keyword parmname">FinancialEventGroupEnd</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133970e3789 ">The time at which the financial event group is closed. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133970e3789 ">The time at which the financial event group ended. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
 <td class="entry" data-valign="top" width="12.755102040816327%" headers="d133970e3792 ">No</td>
 <td class="entry" data-valign="top" width="27.551020408163268%" headers="d133970e3795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>

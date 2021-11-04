@@ -123,25 +123,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d282718e177" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d282718e180" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d282718e183" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d282718e186" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d282723e177" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d282723e180" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d282723e183" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d282723e186" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__parm_ReportTypeList" class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e177 "><span class="keyword parmname">ReportTypeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e180 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282718e183 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e186 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e177 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e180 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282723e183 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e186 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr id="RequestParameters__parm_ReportProcessingStatusList" class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e177 "><span class="keyword parmname">ReportProcessingStatusList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e180 "><span class="ph">A structured list of report processing statuses by which to filter report requests.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282718e183 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e186 "><ul>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e177 "><span class="keyword parmname">ReportProcessingStatusList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e180 "><span class="ph">A structured list of report processing statuses by which to filter report requests.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282723e183 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e186 "><ul>
 <li><var class="keyword varname">_SUBMITTED_</var></li>
 <li><var class="keyword varname">_IN_PROGRESS_</var></li>
 <li><var class="keyword varname">_CANCELLED_</var></li>
@@ -152,17 +152,17 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e177 "><span class="keyword parmname">RequestedFromDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e180 "><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282718e183 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e186 ">Default: 90 days ago
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e177 "><span class="keyword parmname">RequestedFromDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e180 "><span class="ph">The start of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282723e183 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e186 ">Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e177 "><span class="keyword parmname">RequestedToDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e180 "><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282718e183 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282718e186 ">Default: Now
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e177 "><span class="keyword parmname">RequestedToDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e180 "><span class="ph">The end of the date range used for selecting the data to report, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282723e183 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282723e186 ">Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -189,14 +189,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d282718e360" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d282718e363" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d282723e360" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d282723e363" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d282718e360 "><span class="keyword parmname">Count</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282718e363 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282723e360 "><span class="keyword parmname">Count</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282723e363 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 </tbody>
