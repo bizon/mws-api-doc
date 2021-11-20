@@ -96,6 +96,38 @@ push notifications to your queue:
     <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a>
     datatype.
 
+<div class="p">
+
+**Note:** If you are using server-side encryption (SSE), then you must
+provide Amazon MWS access to your key using the
+<a href="https://aws.amazon.com/kms" class="xref">AWS Key Management Service (KMS)</a>.
+Consider using the following policy:
+
+``` pre
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::437568002678:root"
+      },
+      "Action": [
+        "kms:GenerateDataKey",
+        "kms:Decrypt"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+</div>
+
+See
+<a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-key-management.html" class="xref">Key Management</a>
+for more information.
+
 </div>
 
 <div class="section">

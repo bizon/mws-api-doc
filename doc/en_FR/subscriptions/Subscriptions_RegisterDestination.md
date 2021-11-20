@@ -135,25 +135,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d325027e204" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d325027e207" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d325027e210" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d325027e213" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d325053e204" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d325053e207" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d325053e210" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d325053e213" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e204 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e207 ">The unique identifier for the marketplace.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d325027e210 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e213 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e204 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e207 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d325053e210 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e213 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e204 "><span class="keyword parmname">Destination</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e207 ">The <span class="keyword parmname">Destination</span> where you want to receive notifications.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d325027e210 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325027e213 ">Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e204 "><span class="keyword parmname">Destination</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e207 ">The <span class="keyword parmname">Destination</span> where you want to receive notifications.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d325053e210 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d325053e213 ">Type: <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></td>
 </tr>
 </tbody>
 </table>
