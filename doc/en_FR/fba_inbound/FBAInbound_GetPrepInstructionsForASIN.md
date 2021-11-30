@@ -141,7 +141,7 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68589e164 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68589e164 "><span class="keyword parmname">AsinList</span></td>
 <td class="entry" data-valign="top" width="33.33333333333333%" headers="d68589e167 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want item preparation instructions to help with item sourcing decisions.</td>
 <td class="entry" data-valign="top" width="14.306151645207438%" headers="d68589e170 ">Yes</td>
 <td class="entry" data-valign="top" width="29.899856938483545%" headers="d68589e173 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values
