@@ -143,29 +143,29 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d67806e225" class="entry" data-valign="top" width="29.239766081871345%">Name</th>
-<th id="d67806e228" class="entry" data-valign="top" width="70.76023391812866%">Description</th>
+<th id="d67878e225" class="entry" data-valign="top" width="29.239766081871345%">Name</th>
+<th id="d67878e228" class="entry" data-valign="top" width="70.76023391812866%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67806e225 "><span class="keyword parmname">ShipmentContainsPreorderableItems</span></td>
-<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67806e228 ">Indicates whether the shipment contains items that have been enabled for pre-order. For more information about enabling items for pre-order, see the Seller Central Help (<a href="https://sellercentral.amazon.in/gp/help/201851750" class="xref">IN</a>) (<a href="https://sellercentral.amazon.co.jp/gp/help/201851750" class="xref">JP</a>).
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67878e225 "><span class="keyword parmname">ShipmentContainsPreorderableItems</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67878e228 ">Indicates whether the shipment contains items that have been enabled for pre-order. For more information about enabling items for pre-order, see the Seller Central Help (<a href="https://sellercentral.amazon.in/gp/help/201851750" class="xref">IN</a>) (<a href="https://sellercentral.amazon.co.jp/gp/help/201851750" class="xref">JP</a>).
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67806e225 "><span class="keyword parmname">NeedByDate</span></td>
-<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67806e228 ">Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67878e225 "><span class="keyword parmname">NeedByDate</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67878e228 ">Date that the shipment would need to arrive at an <span class="ph">Amazon fulfillment center</span> to avoid delivery promise breaks for pre-ordered items if this shipment is later confirmed for pre-order. See <a href="FBAInbound_ConfirmPreorder.md" class="xref" title="Confirms a shipment for pre-order.">ConfirmPreorder</a>. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67806e225 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
-<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67806e228 ">Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67878e225 "><span class="keyword parmname">ConfirmedFulfillableDate</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67878e228 ">Date that determines which pre-order items in the shipment are eligible for pre-order. If this shipment is confirmed for pre-order with a subsequent call to the <span class="keyword apiname">ConfirmPreorder</span> operation, the pre-order Buy Box will appear for any pre-order items in the shipment with a release date on or after this date. Call the <a href="FBAInbound_ListInboundShipmentItems.md" class="xref" title="Returns a list of items in a specified inbound shipment, or a list of items that were updated within a specified time frame.">ListInboundShipmentItems</a> operation to get the release dates for the pre-order items in this shipment. In YYYY-MM-DD format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67806e225 "><span class="keyword parmname">ShipmentConfirmedForPreorder</span></td>
-<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67806e228 ">Indicates whether this shipment has been confirmed for pre-order.
+<td class="entry" data-valign="top" width="29.239766081871345%" headers="d67878e225 "><span class="keyword parmname">ShipmentConfirmedForPreorder</span></td>
+<td class="entry" data-valign="top" width="70.76023391812866%" headers="d67878e228 ">Indicates whether this shipment has been confirmed for pre-order.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 </tbody>

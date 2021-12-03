@@ -143,34 +143,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d72094e194" class="entry" data-valign="top" width="20.408163265306126%">Name</th>
-<th id="d72094e197" class="entry" data-valign="top" width="30.000000000000004%">Description</th>
-<th id="d72094e200" class="entry" data-valign="top" width="24.28571428571429%">Required</th>
-<th id="d72094e203" class="entry" data-valign="top" width="25.306122448979597%">Values</th>
+<th id="d72202e194" class="entry" data-valign="top" width="20.408163265306126%">Name</th>
+<th id="d72202e197" class="entry" data-valign="top" width="30.000000000000004%">Description</th>
+<th id="d72202e200" class="entry" data-valign="top" width="24.28571428571429%">Required</th>
+<th id="d72202e203" class="entry" data-valign="top" width="25.306122448979597%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72094e194 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72094e197 ">A shipment identifier used for selecting items in a specific inbound shipment.</td>
-<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72094e200 ">Yes, if <span class="keyword parmname">LastUpdatedAfter</span> and <span class="keyword parmname">LastUpdatedBefore</span> are not specified. If <span class="keyword parmname">ShipmentId</span> is specified, <span class="keyword parmname">LastUpdatedBefore</span> and <span class="keyword parmname">LastUpdatedAfter</span> are ignored.</td>
-<td class="entry" data-valign="top" width="25.306122448979597%" headers="d72094e203 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72202e194 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72202e197 ">A shipment identifier used for selecting items in a specific inbound shipment.</td>
+<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72202e200 ">Yes, if <span class="keyword parmname">LastUpdatedAfter</span> and <span class="keyword parmname">LastUpdatedBefore</span> are not specified. If <span class="keyword parmname">ShipmentId</span> is specified, <span class="keyword parmname">LastUpdatedBefore</span> and <span class="keyword parmname">LastUpdatedAfter</span> are ignored.</td>
+<td class="entry" data-valign="top" width="25.306122448979597%" headers="d72202e203 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72094e194 "><span class="keyword parmname">LastUpdatedAfter</span></td>
-<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72094e197 ">A date used for selecting inbound shipment items that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72094e200 ">Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
+<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72202e194 "><span class="keyword parmname">LastUpdatedAfter</span></td>
+<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72202e197 ">A date used for selecting inbound shipment items that were last updated after (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72202e200 ">Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
 <p>If <span class="keyword parmname">LastUpdatedBefore</span> is specified, then <span class="keyword parmname">LastUpdatedAfter</span> must be specified.</p></td>
-<td id="RequestParameters__LastUpdatedAfter_values" class="entry" data-valign="top" width="25.306122448979597%" headers="d72094e203 ">Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
+<td id="RequestParameters__LastUpdatedAfter_values" class="entry" data-valign="top" width="25.306122448979597%" headers="d72202e203 ">Must be earlier than <span class="keyword parmname">LastUpdatedBefore</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72094e194 "><span class="keyword parmname">LastUpdatedBefore</span></td>
-<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72094e197 ">A date used for selecting inbound shipment items that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
-<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72094e200 ">Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
+<td class="entry" data-valign="top" width="20.408163265306126%" headers="d72202e194 "><span class="keyword parmname">LastUpdatedBefore</span></td>
+<td class="entry" data-valign="top" width="30.000000000000004%" headers="d72202e197 ">A date used for selecting inbound shipment items that were last updated before (or at) a specified time. The selection includes updates made by Amazon and by the seller.</td>
+<td class="entry" data-valign="top" width="24.28571428571429%" headers="d72202e200 ">Yes, if <span class="keyword parmname">ShipmentId</span> is not specified.
 <p>If <span class="keyword parmname">LastUpdatedAfter</span> is specified, then <span class="keyword parmname">LastUpdatedBefore</span> must be specified.</p></td>
-<td class="entry" data-valign="top" width="25.306122448979597%" headers="d72094e203 ">Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
+<td class="entry" data-valign="top" width="25.306122448979597%" headers="d72202e203 ">Must be later than <span class="keyword parmname">LastUpdatedAfter</span>.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -198,20 +198,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d72094e356" class="entry" data-valign="top" width="17.482517482517483%">Name</th>
-<th id="d72094e359" class="entry" data-valign="top" width="82.51748251748252%">Description</th>
+<th id="d72202e356" class="entry" data-valign="top" width="17.482517482517483%">Name</th>
+<th id="d72202e359" class="entry" data-valign="top" width="82.51748251748252%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.482517482517483%" headers="d72094e356 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="82.51748251748252%" headers="d72094e359 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentItemsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
+<td class="entry" data-valign="top" width="17.482517482517483%" headers="d72202e356 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="82.51748251748252%" headers="d72202e359 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentItemsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.482517482517483%" headers="d72094e356 "><span class="keyword parmname">ItemData</span></td>
-<td class="entry" data-valign="top" width="82.51748251748252%" headers="d72094e359 ">Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
+<td class="entry" data-valign="top" width="17.482517482517483%" headers="d72202e356 "><span class="keyword parmname">ItemData</span></td>
+<td class="entry" data-valign="top" width="82.51748251748252%" headers="d72202e359 ">Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
 </tr>
 </tbody>

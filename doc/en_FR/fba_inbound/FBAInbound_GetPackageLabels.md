@@ -232,7 +232,11 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
 <li><var class="keyword varname">PackageLabel_A4_2</var> - Two labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
 <li><var class="keyword varname">PackageLabel_A4_4</var> - Four labels per A4 label sheet. Supported in France, Germany, Italy, Spain, and the UK.</li>
-<li><var class="keyword varname">PackageLabel_Plain_Paper</var>. One label per sheet of US Letter paper. Only for non-Amazon-partnered shipments. Supported in all marketplaces.</li>
+<li><var class="keyword varname">PackageLabel_Plain_Paper</var> - One label per sheet of US Letter paper. Only for non-Amazon-partnered shipments. Supported in all marketplaces.</li>
+<li><var class="keyword varname">PackageLabel_Thermal</var> - One label per sheet of 4" x 6" thermal printed paper. Supports Amazon-partnered shipments with UPS.</li>
+<li><var class="keyword varname">PackageLabel_Thermal_Unified</var> - One label per sheet of 4" x 6" thermal printed paper. Supports shipments with ATS.</li>
+<li><var class="keyword varname">PackageLabel_Thermal_NonPCP</var> - One label per sheet of 4" x 6" thermal printed paper. Supports non-Amazon-partnered shipments.</li>
+<li><var class="keyword varname">PackageLabel_Thermal_No_Carrier_Rotation</var> - One label per sheet of 4" x 6" thermal printed paper. Supports Amazon-partnered shipments with DHL.</li>
 </ul>
 <p>Submitting a <span class="keyword parmname">PageType</span> value that is not supported in your marketplace returns an error.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
@@ -268,14 +272,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d65908e421" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
-<th id="d65908e424" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
+<th id="d65908e442" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d65908e445" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.585798816568047%" headers="d65908e421 "><span class="keyword parmname">TransportDocument</span></td>
-<td class="entry" data-valign="top" width="70.41420118343196%" headers="d65908e424 ">PDF document data and checksum.
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d65908e442 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d65908e445 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>

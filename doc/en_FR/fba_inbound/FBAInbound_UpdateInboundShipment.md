@@ -160,14 +160,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d79162e324" class="entry" data-valign="top" width="20%">Name</th>
-<th id="d79162e327" class="entry" data-valign="top" width="80%">Description</th>
+<th id="d79270e324" class="entry" data-valign="top" width="20%">Name</th>
+<th id="d79270e327" class="entry" data-valign="top" width="80%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20%" headers="d79162e324 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="80%" headers="d79162e327 "><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
+<td class="entry" data-valign="top" width="20%" headers="d79270e324 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="80%" headers="d79270e327 "><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

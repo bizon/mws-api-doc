@@ -69,70 +69,70 @@ push notifications:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d202682e84" class="entry" data-valign="top" width="NaN%">Operation</th>
-<th id="d202682e87" class="entry" data-valign="top" width="NaN%">Description</th>
-<th id="d202682e90" class="entry" data-valign="top" width="NaN%">Availability</th>
+<th id="d202661e84" class="entry" data-valign="top" width="NaN%">Operation</th>
+<th id="d202661e87" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d202661e90" class="entry" data-valign="top" width="NaN%">Availability</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_AnyOfferChangedNotification.md" class="xref">AnyOfferChangedNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_AnyOfferChangedNotification.md" class="xref">AnyOfferChangedNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/AnyOfferChangedNotification.xsd" class="xref">AnyOfferChangedNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><p>The <span class="keyword parmname">AnyOfferChanged</span> notification is sent whenever there is a listing change for any of the top 20 offers, by condition (new or used), or if the external price (the price from other retailers) changes for an item that you sell. The top 20 offers are determined by the landed price, which is the price plus shipping minus Amazon Points. If multiple sellers are charging the same landed price, the results will be returned in random order.</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><p>The <span class="keyword parmname">AnyOfferChanged</span> notification is sent whenever there is a listing change for any of the top 20 offers, by condition (new or used), or if the external price (the price from other retailers) changes for an item that you sell. The top 20 offers are determined by the landed price, which is the price plus shipping minus Amazon Points. If multiple sellers are charging the same landed price, the results will be returned in random order.</p>
 <p>You will only receive <span class="keyword parmname">AnyOfferChanged</span> notifications for items for which you have active offers. You cannot subscribe to notifications for items for which you do not have active offers.</p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_FeedProcessingFinishedNotification.md" class="xref">FeedProcessingFinishedNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_FeedProcessingFinishedNotification.md" class="xref">FeedProcessingFinishedNotification</a>
 <p>XSD: <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeedProcessingFinishedNotification.xsd" class="xref">FeedProcessingFinishedNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><span class="ph">The <span class="keyword parmname">FeedProcessingFinished</span> notification is sent whenever any feed that you have submitted using the <span class="ph">Feeds API section</span> reaches a feed processing status of <var class="keyword varname">DONE</var> or <var class="keyword varname">CANCELLED</var>.</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><span class="ph">The <span class="keyword parmname">FeedProcessingFinished</span> notification is sent whenever any feed that you have submitted using the <span class="ph">Feeds API section</span> reaches a feed processing status of <var class="keyword varname">DONE</var> or <var class="keyword varname">CANCELLED</var>.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_FeePromotionNotification.md" class="xref">FeePromotionNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_FeePromotionNotification.md" class="xref">FeePromotionNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FeePromotionNotification.xsd" class="xref">FeePromotionNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><span class="ph">Sellers using <span class="ph">Amazon MWS</span> can benefit from time-limited fee promotions. To receive notification of available fee promotions, sellers must subscribe to <span class="keyword parmname">FeePromotion</span> notification. When the seller initially signs up for the subscription and <var class="keyword varname">isEnabled</var> is set to <em>true</em>, the seller receives all currently active promotions. Each promotion is sent as a single message. Subsequent promotion notifications are sent when the promotion becomes active. </span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><span class="ph">Sellers using <span class="ph">Amazon MWS</span> can benefit from time-limited fee promotions. To receive notification of available fee promotions, sellers must subscribe to <span class="keyword parmname">FeePromotion</span> notification. When the seller initially signs up for the subscription and <var class="keyword varname">isEnabled</var> is set to <em>true</em>, the seller receives all currently active promotions. Each promotion is sent as a single message. Subsequent promotion notifications are sent when the promotion becomes active. </span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_FBAOutboundShipmentStatusNotification.md" class="xref">FBAOutboundShipmentStatusNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_FBAOutboundShipmentStatusNotification.md" class="xref">FBAOutboundShipmentStatusNotification</a>
 <p>XSD: <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FBAOutboundShipmentStatusNotification.xsd" class="xref">FBAOutboundShipmentStatusNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><p>The <span class="keyword parmname">FBAOutboundShipmentStatus</span> notification is sent whenever Amazon creates or cancels a <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces except Brazil and China.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><p>The <span class="keyword parmname">FBAOutboundShipmentStatus</span> notification is sent whenever Amazon creates or cancels a <span class="ph">Fulfillment by Amazon</span> shipment for a seller.</p></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces except Brazil and China.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_FulfillmentOrderStatusNotification.md" class="xref">FulfillmentOrderStatusNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_FulfillmentOrderStatusNotification.md" class="xref">FulfillmentOrderStatusNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/FulfillmentOrderStatusNotification.xsd" class="xref">FulfillmentOrderStatusNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><p>The <span class="keyword parmname">FulfillmentOrderStatus</span> notification is sent whenever there is a change in the status of a <span class="ph">Multi-Channel Fulfillment</span> fulfillment order. See <a href="Notifications_FulfillmentOrderStatusNotification.md#FulfillmentOrderStatusNotification__FulfillmentOrderStatus_row" class="xref"><span class="keyword parmname">FulfillmentOrderStatus</span></a> for the events that can trigger a status change.</p></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_ReportProcessingFinishedNotification.md" class="xref">ReportProcessingFinishedNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_ReportProcessingFinishedNotification.md" class="xref">ReportProcessingFinishedNotification</a>
 <p>XSD: <a href="https://m.media-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/ReportProcessingFinishedNotification.xsd" class="xref">ReportProcessingFinishedNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><span class="ph">The <span class="keyword parmname">ReportProcessingFinished</span> notification is sent whenever any report that you have requested using the <span class="ph">Reports API section</span> reaches a report processing status of <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>.</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><span class="ph">The <span class="keyword parmname">ReportProcessingFinished</span> notification is sent whenever any report that you have requested using the <span class="ph">Reports API section</span> reaches a report processing status of <var class="keyword varname">DONE</var>, <var class="keyword varname">CANCELLED</var>, or <var class="keyword varname">DONE_NO_DATA</var>.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_MWSPushNotification.md" class="xref">MWSPushNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_MWSPushNotification.md" class="xref">MWSPushNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotification.xsd" class="xref">MWSPushNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><p>Defines the basic structure of the notification. Each <span class="keyword parmname">Notification</span> element contains a notification (in the <span class="keyword parmname">NotificationPayload</span> child element) and information about the notification (in the <span class="keyword parmname">NotificationMetaData</span> child element).</p>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><p>Defines the basic structure of the notification. Each <span class="keyword parmname">Notification</span> element contains a notification (in the <span class="keyword parmname">NotificationPayload</span> child element) and information about the notification (in the <span class="keyword parmname">NotificationMetaData</span> child element).</p>
 <div class="note note">
 <span class="notetitle">Note:</span> If you are using this schema for runtime validation, future additions to the <span class="keyword parmname">NotificationPayload</span> element will invalidate the existing version of the schema, without prior notice.
 </div>
 <p>The contents of the <span class="keyword parmname">NotificationPayload</span> child element will vary depending on which notification you have subscribed to. Each notification is described by its own XSD.</p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_MWSPushNotificationCommon.md" class="xref">MWSPushNotificationCommon</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_MWSPushNotificationCommon.md" class="xref">MWSPushNotificationCommon</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/MWSPushNotificationCommon.xsd" class="xref">MWSPushNotificationCommon.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><span class="ph">Contains common types that are used by all notifications that are contained in the <span class="keyword parmname">NotificationPayload</span> element.</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><span class="ph">Contains common types that are used by all notifications that are contained in the <span class="keyword parmname">NotificationPayload</span> element.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e84 "><a href="Notifications_TestNotification.md" class="xref">TestNotification</a>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e84 "><a href="Notifications_TestNotification.md" class="xref">TestNotification</a>
 <p>XSD: <a href="http://g-ec2.images-amazon.com/images/G/01/mwsportal/doc/en_US/subscriptions/TestNotification.xsd" class="xref">TestNotification.xsd</a></p></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e87 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d202682e90 "><span class="ph">All marketplaces.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e87 "><span class="ph">Describes the contents of the <span class="keyword parmname">NotificationPayload</span> element for a test notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d202661e90 "><span class="ph">All marketplaces.</span></td>
 </tr>
 </tbody>
 </table>

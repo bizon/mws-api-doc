@@ -134,33 +134,33 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d252514e222" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d252514e225" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d252514e228" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d252514e231" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d252493e222" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d252493e225" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d252493e228" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d252493e231" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e222 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e225 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e222 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e225 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252514e228 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e231 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252493e228 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e231 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e222 "><span class="keyword parmname">ASINList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e225 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e222 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e225 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
 <p>Type: List of xs:string</p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252514e228 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e231 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252493e228 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e231 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e222 "><span class="keyword parmname">ItemCondition</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e225 ">Filters the offer listings to be considered based on item condition.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e222 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e225 ">Filters the offer listings to be considered based on item condition.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252514e228 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252514e231 "><span class="keyword parmname">ItemCondition</span> values:
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d252493e228 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d252493e231 "><span class="keyword parmname">ItemCondition</span> values:
 <ul>
 <li><var class="keyword varname">New</var></li>
 <li><var class="keyword varname">Used</var></li>
@@ -206,22 +206,22 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d252514e382" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d252514e385" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d252493e382" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d252493e385" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">Contains the following identifiers that uniquely identify a product:
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span>. <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span>. <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">BuyingPrice</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">Contains pricing information that includes promotions and contains the shipping cost.
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">BuyingPrice</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">Contains pricing information that includes promotions and contains the shipping cost.
 <p>Contains the following elements:</p>
 <ul>
 <li><span class="keyword parmname">ListingPrice</span>. The current price including any promotions that apply to the product.</li>
@@ -231,12 +231,12 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">RegularPrice</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The current price excluding any promotions that apply to the product. Excludes the shipping cost.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">RegularPrice</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The current price excluding any promotions that apply to the product. Excludes the shipping cost.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">FulfillmentChannel</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The fulfillment channel for the offer listing.
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">FulfillmentChannel</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The fulfillment channel for the offer listing.
 <p>Valid values:</p>
 <ul>
 <li><var class="keyword varname">Amazon</var> - Fulfilled by Amazon.</li>
@@ -244,20 +244,20 @@ class="keyword apiname">GetMyPriceForASIN</span> operation.
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">ItemCondition</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The item condition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The item condition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Used</var>, <var class="keyword varname">Collectible</var>, <var class="keyword varname">Refurbished</var>, or <var class="keyword varname">Club</var></span>.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">ItemSubCondition</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The item subcondition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">ItemSubCondition</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The item subcondition for the offer listing. Valid values: <span class="ph"><var class="keyword varname">New</var>, <var class="keyword varname">Mint</var>, <var class="keyword varname">Very Good</var>, <var class="keyword varname">Good</var>, <var class="keyword varname">Acceptable</var>, <var class="keyword varname">Poor</var>, <var class="keyword varname">Club</var>, <var class="keyword varname">OEM</var>, <var class="keyword varname">Warranty</var>, <var class="keyword varname">Refurbished                     Warranty</var>, <var class="keyword varname">Refurbished</var>, <var class="keyword varname">Open Box</var>, or <var class="keyword varname">Other</var></span>.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">SellerId</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The <span class="keyword parmname">SellerId</span> submitted with the operation.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The <span class="keyword parmname">SellerId</span> submitted with the operation.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e382 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d252514e385 ">The <span class="keyword parmname">SellerSKU</span> for the offer listing.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e382 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d252493e385 ">The <span class="keyword parmname">SellerSKU</span> for the offer listing.</td>
 </tr>
 </tbody>
 </table>

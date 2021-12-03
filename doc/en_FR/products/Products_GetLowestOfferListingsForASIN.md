@@ -156,33 +156,33 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d236346e253" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d236346e256" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d236346e259" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d236346e262" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d236325e253" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d236325e256" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d236325e259" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d236325e262" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e253 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e256 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e253 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e256 ">A marketplace identifier. Specifies the marketplace from which prices are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236346e259 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e262 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236325e259 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e262 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e253 "><span class="keyword parmname">ASINList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e256 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e253 "><span class="keyword parmname">ASINList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e256 ">A structured list of <span class="keyword parmname">ASIN</span> values. Used to identify products in the given marketplace.
 <p>Type: List of xs:string</p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236346e259 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e262 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236325e259 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e262 ">Maximum: 20 <span class="keyword parmname">ASIN</span> values.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e253 "><span class="keyword parmname">ItemCondition</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e256 ">Filters the offer listings to be considered based on item condition.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e253 "><span class="keyword parmname">ItemCondition</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e256 ">Filters the offer listings to be considered based on item condition.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236346e259 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236346e262 "><span class="keyword parmname">ItemCondition</span> values:
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d236325e259 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d236325e262 "><span class="keyword parmname">ItemCondition</span> values:
 <ul>
 <li><var class="keyword varname">New</var></li>
 <li><var class="keyword varname">Used</var></li>
@@ -233,30 +233,30 @@ class="keyword parmname">LowestOfferListings</span>.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d236346e430" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d236346e433" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d236325e430" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d236325e433" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e430 "><span class="keyword parmname">AllOfferListingsConsidered</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e433 ">Indicates whether or not all of the active offer listings for the specified product and <span class="keyword parmname">ItemCondition</span> were considered when the listings were placed into their corresponding offer listing groups. When there are a large number of active offer listings for the specified product and <span class="keyword parmname">ItemCondition</span>, only a certain number of offer listings are considered. The listings that are considered always have lower landed prices than the landed prices of listings that are not considered.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e430 "><span class="keyword parmname">AllOfferListingsConsidered</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e433 ">Indicates whether or not all of the active offer listings for the specified product and <span class="keyword parmname">ItemCondition</span> were considered when the listings were placed into their corresponding offer listing groups. When there are a large number of active offer listings for the specified product and <span class="keyword parmname">ItemCondition</span>, only a certain number of offer listings are considered. The listings that are considered always have lower landed prices than the landed prices of listings that are not considered.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e430 "><span class="keyword parmname">Product</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e433 ">Contains two of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span> and <span class="keyword parmname">LowestOfferListings</span>.</td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e430 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e433 ">Contains two of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span> and <span class="keyword parmname">LowestOfferListings</span>.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e430 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e433 ">Contains the following identifiers that uniquely identify a product:
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e430 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e433 ">Contains the following identifiers that uniquely identify a product:
 <ul>
 <li><span class="keyword parmname">MarketplaceASIN</span> – <span class="keyword parmname">MarketplaceId</span> and <span class="keyword parmname">ASIN</span> combination.</li>
 <li><span class="keyword parmname">SKUIdentifier</span> – <span class="keyword parmname">MarketplaceId</span>, <span class="keyword parmname">SellerSKU</span>, and <span class="keyword parmname">SellerId</span> combination. Only returned if <span class="keyword parmname">SellerSKU</span> was specified in the request.</li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e430 "><span class="keyword parmname">LowestOfferListings</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d236346e433 ">Contains pricing information for the lowest offer listing for each offer listing group.
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e430 "><span class="keyword parmname">LowestOfferListings</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d236325e433 ">Contains pricing information for the lowest offer listing for each offer listing group.
 <p>Some key sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">Qualifiers</span>. Contains the following six qualifiers: <span class="keyword parmname">ItemCondition</span>, <span class="keyword parmname">ItemSubcondition</span>, <span class="keyword parmname">FulfillmentChannel</span>, <span class="keyword parmname">ShipsDomestically</span>, <span class="keyword parmname">ShippingTime</span>, and <span class="keyword parmname">SellerPositiveFeedbackRating</span>. These qualifiers identify the offer listing group from which the lowest offer listing was taken.</li>

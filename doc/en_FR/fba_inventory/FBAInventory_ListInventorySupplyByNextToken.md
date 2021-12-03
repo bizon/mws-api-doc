@@ -127,20 +127,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d85627e214" class="entry" data-valign="top" width="22.421524663677133%">Name</th>
-<th id="d85627e217" class="entry" data-valign="top" width="77.57847533632287%">Description</th>
+<th id="d85735e214" class="entry" data-valign="top" width="22.421524663677133%">Name</th>
+<th id="d85735e217" class="entry" data-valign="top" width="77.57847533632287%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85627e214 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85627e217 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return.
+<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85735e214 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85735e217 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInventorySupplyByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there is no more inventory availability information to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85627e214 "><span class="keyword parmname">InventorySupplyList</span></td>
-<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85627e217 ">A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.
+<td class="entry" data-valign="top" width="22.421524663677133%" headers="d85735e214 "><span class="keyword parmname">InventorySupplyList</span></td>
+<td class="entry" data-valign="top" width="77.57847533632287%" headers="d85735e217 ">A list of items that are or soon will be available for fulfillment by <span class="ph">Amazon's fulfillment network</span>. Each item is either currently in the fulfillment network or is in an inbound shipment to an <span class="ph">Amazon fulfillment center</span>. SKU, ASIN, condition, quantity, and availability information is included with each item.
 <p>Type: List of <a href="FBAInventory_Datatypes.md#InventorySupply" class="xref" title="General information about the availability of inventory for a single SKU.">InventorySupply</a></p></td>
 </tr>
 </tbody>

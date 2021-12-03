@@ -116,34 +116,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d84397e146" class="entry" data-valign="top" width="23.25581395348837%">Name</th>
-<th id="d84397e149" class="entry" data-valign="top" width="26.04651162790698%">Description</th>
-<th id="d84397e152" class="entry" data-valign="top" width="25.348837209302328%">Required</th>
-<th id="d84397e155" class="entry" data-valign="top" width="25.348837209302328%">Values</th>
+<th id="d84505e146" class="entry" data-valign="top" width="23.25581395348837%">Name</th>
+<th id="d84505e149" class="entry" data-valign="top" width="26.04651162790698%">Description</th>
+<th id="d84505e152" class="entry" data-valign="top" width="25.348837209302328%">Required</th>
+<th id="d84505e155" class="entry" data-valign="top" width="25.348837209302328%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84397e146 "><span class="keyword parmname">SellerSkus</span></td>
-<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84397e149 ">A list of seller SKUs for items that you want inventory availability information about.</td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e152 ">Yes, if <span class="keyword parmname">QueryStartDateTime</span> is not specified.
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84505e146 "><span class="keyword parmname">SellerSkus</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84505e149 ">A list of seller SKUs for items that you want inventory availability information about.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e152 ">Yes, if <span class="keyword parmname">QueryStartDateTime</span> is not specified.
 <p>Specifying both <span class="keyword parmname">QueryStartDateTime</span> and <span class="keyword parmname">SellerSkus</span> returns an error.</p></td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e155 ">Seller SKUs for items that you have shipped to an <span class="ph">Amazon fulfillment center</span>.
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e155 ">Seller SKUs for items that you have shipped to an <span class="ph">Amazon fulfillment center</span>.
 <p>Maximum: 50</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84397e146 "><span class="keyword parmname">QueryStartDateTime</span></td>
-<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84397e149 ">A date used for selecting items that have had changes in inventory availability after (or at) a specified time.</td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e152 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84505e146 "><span class="keyword parmname">QueryStartDateTime</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84505e149 ">A date used for selecting items that have had changes in inventory availability after (or at) a specified time.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e152 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 <td></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84397e146 "><span class="keyword parmname">ResponseGroup</span></td>
-<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84397e149 ">Indicates whether or not you want the <span class="keyword apiname">ListInventorySupply</span> operation to return the <span class="keyword parmname">SupplyDetail</span> element.</td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e152 ">No</td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e155 "><span class="keyword parmname">ResponseGroup</span> values:
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84505e146 "><span class="keyword parmname">ResponseGroup</span></td>
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84505e149 ">Indicates whether or not you want the <span class="keyword apiname">ListInventorySupply</span> operation to return the <span class="keyword parmname">SupplyDetail</span> element.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e152 ">No</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e155 "><span class="keyword parmname">ResponseGroup</span> values:
 <ul>
 <li><var class="keyword varname">Basic</var> - Does not include the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
 <li><var class="keyword varname">Detailed</var> - Includes the <span class="keyword parmname">SupplyDetail</span> element in the response</li>
@@ -152,12 +152,12 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84397e146 "><span class="keyword parmname">MarketplaceId</span>
+<td class="entry" data-valign="top" width="23.25581395348837%" headers="d84505e146 "><span class="keyword parmname">MarketplaceId</span>
 <p>(NA only)</p></td>
-<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84397e149 ">An encrypted Amazon defined marketplace identifier. It is used to limit the scope of a request or response to a specific marketplace.</td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e152 ">No
+<td class="entry" data-valign="top" width="26.04651162790698%" headers="d84505e149 ">An encrypted Amazon defined marketplace identifier. It is used to limit the scope of a request or response to a specific marketplace.</td>
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e152 ">No
 <p>Assumes the default value if MarketplaceId is not specified.</p></td>
-<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84397e155 "><span class="keyword parmname">MarketplaceId</span> values:
+<td class="entry" data-valign="top" width="25.348837209302328%" headers="d84505e155 "><span class="keyword parmname">MarketplaceId</span> values:
 <p>For a list of MarketplaceId values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</p>
 <p>Default: The MarketplaceId assigned as the seller's <em>home</em> marketplace.</p>
 <p><span class="ph">Type: xs:string</span></p></td>

@@ -124,25 +124,25 @@ None.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d303978e138" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d303978e141" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d303968e138" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d303968e141" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d303978e138 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d303978e141 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListMarketplaceParticipationsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more marketplaces and participations to return.
+<td class="entry" data-valign="top" width="50%" headers="d303968e138 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d303968e141 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListMarketplaceParticipationsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more marketplaces and participations to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d303978e138 "><span class="keyword parmname">ListParticipations</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d303978e141 "><span class="ph">Detailed information that is specific to a seller in a Marketplace.</span>
+<td class="entry" data-valign="top" width="50%" headers="d303968e138 "><span class="keyword parmname">ListParticipations</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d303968e141 "><span class="ph">Detailed information that is specific to a seller in a Marketplace.</span>
 <p>Type: List of <a href="Sellers_Datatypes.md#Participation" class="xref" title="Detailed information that is specific to a seller in a Marketplace.">Participation</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d303978e138 "><span class="keyword parmname">ListMarketplaces</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d303978e141 "><span class="ph">Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.</span>
+<td class="entry" data-valign="top" width="50%" headers="d303968e138 "><span class="keyword parmname">ListMarketplaces</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d303968e141 "><span class="ph">Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.</span>
 <p>Type: List of <a href="Sellers_Datatypes.md#Marketplace" class="xref" title="Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.">Marketplace</a></p></td>
 </tr>
 </tbody>
