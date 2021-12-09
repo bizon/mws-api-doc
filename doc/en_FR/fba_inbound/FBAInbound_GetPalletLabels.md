@@ -123,25 +123,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d66964e170" class="entry" data-valign="top" width="26.153846153846157%">Name</th>
-<th id="d66964e173" class="entry" data-valign="top" width="26.153846153846157%">Description</th>
-<th id="d66964e176" class="entry" data-valign="top" width="15.384615384615385%">Required</th>
-<th id="d66964e179" class="entry" data-valign="top" width="32.30769230769231%">Values</th>
+<th id="d66972e170" class="entry" data-valign="top" width="26.153846153846157%">Name</th>
+<th id="d66972e173" class="entry" data-valign="top" width="26.153846153846157%">Description</th>
+<th id="d66972e176" class="entry" data-valign="top" width="15.384615384615385%">Required</th>
+<th id="d66972e179" class="entry" data-valign="top" width="32.30769230769231%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e170 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e173 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66964e176 ">Yes</td>
-<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66964e179 ">Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e170 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e173 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66972e176 ">Yes</td>
+<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66972e179 ">Must match a <span class="keyword parmname">ShipmentId</span> value previously passed using the FBA Inbound Shipment Carton Information Feed. If not, the operation returns the <span class="keyword parmname">NoPackageContentInformation</span> error. For more information, see <a href="../fba_inbound/FBAInbound_GetUniquePackageLabels.md#ProvidingCartonContentInfo" class="xref">Providing carton contents information</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e170 "><span class="keyword parmname">PageType</span></td>
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e173 ">The page type that you want to print the labels on.</td>
-<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66964e176 ">Yes</td>
-<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66964e179 "><span class="keyword parmname">PageType</span> values:
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e170 "><span class="keyword parmname">PageType</span></td>
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e173 ">The page type that you want to print the labels on.</td>
+<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66972e176 ">Yes</td>
+<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66972e179 "><span class="keyword parmname">PageType</span> values:
 <ul>
 <li><var class="keyword varname">PackageLabel_Letter_2</var> - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
 <li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
@@ -157,10 +157,10 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e170 "><span class="keyword parmname">NumberOfPallets</span></td>
-<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66964e173 ">The number of pallets in the shipment. This returns four identical labels for each pallet.</td>
-<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66964e176 ">Yes</td>
-<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66964e179 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e170 "><span class="keyword parmname">NumberOfPallets</span></td>
+<td class="entry" data-valign="top" width="26.153846153846157%" headers="d66972e173 ">The number of pallets in the shipment. This returns four identical labels for each pallet.</td>
+<td class="entry" data-valign="top" width="15.384615384615385%" headers="d66972e176 ">Yes</td>
+<td class="entry" data-valign="top" width="32.30769230769231%" headers="d66972e179 "><span class="ph">Type: xs:int</span></td>
 </tr>
 </tbody>
 </table>
@@ -186,14 +186,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d66964e345" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
-<th id="d66964e348" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
+<th id="d66972e345" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d66972e348" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.585798816568047%" headers="d66964e345 "><span class="keyword parmname">TransportDocument</span></td>
-<td class="entry" data-valign="top" width="70.41420118343196%" headers="d66964e348 ">PDF document data and checksum.
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d66972e345 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d66972e348 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>

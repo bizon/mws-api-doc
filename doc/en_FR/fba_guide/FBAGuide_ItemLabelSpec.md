@@ -115,38 +115,38 @@ tracking.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d25866e186" class="entry" data-valign="top" width="34.843205574912886%">Specification</th>
-<th id="d25866e189" class="entry" data-valign="top" width="65.1567944250871%">Description</th>
+<th id="d25874e186" class="entry" data-valign="top" width="34.843205574912886%">Specification</th>
+<th id="d25874e189" class="entry" data-valign="top" width="65.1567944250871%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Format</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">Code 128A</td>
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Format</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">Code 128A</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Height</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">Greater than 0.25" (6.3 mm), or 15% of the barcode length.</td>
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Height</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">Greater than 0.25" (6.3 mm), or 15% of the barcode length.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Narrow barcode element</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">The specification depends on your printer's resolution.
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Narrow barcode element</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">The specification depends on your printer's resolution.
 <ul>
 <li><strong>For 300 dpi:</strong> 13.33 mils (.3386 mm)</li>
 <li><strong>For 200 dpi:</strong> 20 mils (.508 mm)</li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Wide-to-narrow element ratio</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">3:1</td>
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Wide-to-narrow element ratio</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">3:1</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Quiet zone (sides)</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">Greater than 0.25" (6.4 mm)</td>
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Quiet zone (sides)</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">Greater than 0.25" (6.4 mm)</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25866e186 ">Quiet zone (top and bottom)</td>
-<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25866e189 ">Greater than 0.125" (3.2 mm)</td>
+<td class="entry" data-valign="top" width="34.843205574912886%" headers="d25874e186 ">Quiet zone (top and bottom)</td>
+<td class="entry" data-valign="top" width="65.1567944250871%" headers="d25874e189 ">Greater than 0.125" (3.2 mm)</td>
 </tr>
 </tbody>
 </table>

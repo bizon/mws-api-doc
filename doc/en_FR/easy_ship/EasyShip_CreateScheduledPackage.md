@@ -150,14 +150,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d11872e306" class="entry" data-valign="top">Name</th>
-<th id="d11872e309" class="entry" data-valign="top">Description</th>
+<th id="d11880e306" class="entry" data-valign="top">Name</th>
+<th id="d11880e309" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d11872e306 "><span class="keyword parmname">ScheduledPackage</span></td>
-<td class="entry" data-valign="top" headers="d11872e309 ">Information about the scheduled package.
+<td class="entry" data-valign="top" headers="d11880e306 "><span class="keyword parmname">ScheduledPackage</span></td>
+<td class="entry" data-valign="top" headers="d11880e309 ">Information about the scheduled package.
 <p>Type: <a href="EasyShip_Datatypes.md#Package" class="xref" title="Information about a scheduled package.">Package</a></p></td>
 </tr>
 </tbody>

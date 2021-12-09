@@ -145,14 +145,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d70246e241" class="entry" data-valign="top" width="29.940119760479046%">Name</th>
-<th id="d70246e244" class="entry" data-valign="top" width="70.05988023952095%">Description</th>
+<th id="d70254e241" class="entry" data-valign="top" width="29.940119760479046%">Name</th>
+<th id="d70254e244" class="entry" data-valign="top" width="70.05988023952095%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.940119760479046%" headers="d70246e241 "><span class="keyword parmname">TransportContent</span></td>
-<td class="entry" data-valign="top" width="70.05988023952095%" headers="d70246e244 ">Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.
+<td class="entry" data-valign="top" width="29.940119760479046%" headers="d70254e241 "><span class="keyword parmname">TransportContent</span></td>
+<td class="entry" data-valign="top" width="70.05988023952095%" headers="d70254e244 ">Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>

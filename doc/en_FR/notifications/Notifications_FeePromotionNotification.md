@@ -123,56 +123,56 @@ element is made up of the following data objects:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194541e187" class="entry" data-valign="top" width="20%">Name</th>
-<th id="d194541e190" class="entry" data-valign="top" width="30%">Description</th>
-<th id="d194541e193" class="entry" data-valign="top" width="10%">Required</th>
-<th id="d194541e196" class="entry" data-valign="top" width="40%">Value</th>
+<th id="d194549e187" class="entry" data-valign="top" width="20%">Name</th>
+<th id="d194549e190" class="entry" data-valign="top" width="30%">Description</th>
+<th id="d194549e193" class="entry" data-valign="top" width="10%">Required</th>
+<th id="d194549e196" class="entry" data-valign="top" width="40%">Value</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">FeePromotionType</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">The type of promotion.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 "><span class="ph">Values: <var class="keyword varname">Pricing</var>, <var class="keyword varname">SelectionASIN</var>, or <var class="keyword varname">SelectionCategory</var>. Additional types may become available in the future.</span>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">FeePromotionType</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">The type of promotion.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 "><span class="ph">Values: <var class="keyword varname">Pricing</var>, <var class="keyword varname">SelectionASIN</var>, or <var class="keyword varname">SelectionCategory</var>. Additional types may become available in the future.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">FeePromotionTypeDescription</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">Provides more details on the purpose of a promotion.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">No</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 "><span class="ph">A friendly, localized string description. Useful for integrators to display on a UI.</span>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">FeePromotionTypeDescription</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">Provides more details on the purpose of a promotion.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">No</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 "><span class="ph">A friendly, localized string description. Useful for integrators to display on a UI.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">The promotion applies to this marketplaceId.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">The promotion applies to this marketplaceId.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">MerchantId</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">The promotion applies to this merchantId.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">MerchantId</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">The promotion applies to this merchantId.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">IdentifierList</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">A list of items to which this promotion applies.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 ">Type: List of type <a href="#IdentifierList" class="xref" title="A description of an item to which this promotion applies.">Identifier</a></td>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">IdentifierList</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">A list of items to which this promotion applies.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 ">Type: List of type <a href="#IdentifierList" class="xref" title="A description of an item to which this promotion applies.">Identifier</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">PromotionActiveTimeRange</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">The range of time when this promotion is active.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 ">Type: <a href="#TimeRange" class="xref" title="The range of time when this promotion is active.">PromotionActiveTimeRange</a></td>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">PromotionActiveTimeRange</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">The range of time when this promotion is active.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 ">Type: <a href="#TimeRange" class="xref" title="The range of time when this promotion is active.">PromotionActiveTimeRange</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="20%" headers="d194541e187 "><span class="keyword parmname">PromotionInformation</span></td>
-<td class="entry" data-valign="top" width="30%" headers="d194541e190 "><span class="ph">An object containing additional details about the promotion. A fee estimate is included if applicable.</span></td>
-<td class="entry" data-valign="top" width="10%" headers="d194541e193 ">Yes</td>
-<td class="entry" data-valign="top" width="40%" headers="d194541e196 ">Type: <a href="#PromotionInformation" class="xref" title="An object containing additional details about the promotion. A fee estimate is included if applicable.">PromotionInformation</a></td>
+<td class="entry" data-valign="top" width="20%" headers="d194549e187 "><span class="keyword parmname">PromotionInformation</span></td>
+<td class="entry" data-valign="top" width="30%" headers="d194549e190 "><span class="ph">An object containing additional details about the promotion. A fee estimate is included if applicable.</span></td>
+<td class="entry" data-valign="top" width="10%" headers="d194549e193 ">Yes</td>
+<td class="entry" data-valign="top" width="40%" headers="d194549e196 ">Type: <a href="#PromotionInformation" class="xref" title="An object containing additional details about the promotion. A fee estimate is included if applicable.">PromotionInformation</a></td>
 </tr>
 </tbody>
 </table>
@@ -212,25 +212,25 @@ class="keyword parmname">IdentifierList</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194541e458" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
-<th id="d194541e461" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
-<th id="d194541e464" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
-<th id="d194541e467" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
+<th id="d194549e458" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
+<th id="d194549e461" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
+<th id="d194549e464" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
+<th id="d194549e467" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e458 "><span class="keyword parmname">IdentifierType</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e461 "><span class="ph">The merchant identifier type for which this promotion will apply to.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e464 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e467 "><span class="ph">For example: ASIN, SKU, Browse node, Brand.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e458 "><span class="keyword parmname">IdentifierType</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e461 "><span class="ph">The merchant identifier type for which this promotion will apply to.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e464 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e467 "><span class="ph">For example: ASIN, SKU, Browse node, Brand.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e458 "><span class="keyword parmname">IdentifierValueList</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e461 "><span class="ph">The merchant identifier values to which this promotion will apply. </span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e464 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e467 "><span class="ph">For example: the merchant's actual ASINs or SKUs, an actual list of brands (like <em>Nike</em>), an actual list of browse nodes.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e458 "><span class="keyword parmname">IdentifierValueList</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e461 "><span class="ph">The merchant identifier values to which this promotion will apply. </span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e464 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e467 "><span class="ph">For example: the merchant's actual ASINs or SKUs, an actual list of brands (like <em>Nike</em>), an actual list of browse nodes.</span>
 <p>Type: List of type <a href="#IdentifierValue" class="xref" title="A description of identifier values to which this promotion applies."><var class="keyword varname">IdentifierValue</var></a></p></td>
 </tr>
 </tbody>
@@ -267,24 +267,24 @@ A description of identifier values to which this promotion applies.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194541e579" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
-<th id="d194541e582" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
-<th id="d194541e585" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
-<th id="d194541e588" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
+<th id="d194549e579" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
+<th id="d194549e582" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
+<th id="d194549e585" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
+<th id="d194549e588" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e579 "><span class="keyword parmname">IdentifierValueId</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e582 "><span class="ph">The actual browse node ID, actual ASIN/SKU, or brand value.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e585 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e588 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e579 "><span class="keyword parmname">IdentifierValueId</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e582 "><span class="ph">The actual browse node ID, actual ASIN/SKU, or brand value.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e585 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e588 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e579 "><span class="keyword parmname">IdentifierValueFriendlyName</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e582 "><span class="ph">The friendly name of the ID value.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e585 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e588 "><span class="ph">Only relevant/populated for things like browse nodes. For example, this would be a browse node's <em>friendly</em> name.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e579 "><span class="keyword parmname">IdentifierValueFriendlyName</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e582 "><span class="ph">The friendly name of the ID value.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e585 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e588 "><span class="ph">Only relevant/populated for things like browse nodes. For example, this would be a browse node's <em>friendly</em> name.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -355,52 +355,52 @@ class="keyword parmname">PromotionInformation</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194541e811" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
-<th id="d194541e814" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
-<th id="d194541e817" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
-<th id="d194541e820" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
+<th id="d194549e811" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
+<th id="d194549e814" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
+<th id="d194549e817" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
+<th id="d194549e820" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">FeeType</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The fee type which is being discounted in this promotion.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 "><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">FeeType</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The fee type which is being discounted in this promotion.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 "><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">FeeDiscountType</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The type of promotion you will be receiving for your fees.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 "><span class="ph">Either <var class="keyword varname">Fixed</var>, <var class="keyword varname">Discount</var>, or <var class="keyword varname">Percentage                                                 points off</var>.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">FeeDiscountType</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The type of promotion you will be receiving for your fees.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 "><span class="ph">Either <var class="keyword varname">Fixed</var>, <var class="keyword varname">Discount</var>, or <var class="keyword varname">Percentage                                                 points off</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">PriceThreshold</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The qualifying threshold offer price, or less, that must be met for the promotion to apply.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 "><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">PriceThreshold</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The qualifying threshold offer price, or less, that must be met for the promotion to apply.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 "><p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">FeeDiscountMonetaryAmount</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The amount you will receive off of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a monetary amount.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 "><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a monetary amount, this value will be populated.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">FeeDiscountMonetaryAmount</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The amount you will receive off of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a monetary amount.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 "><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a monetary amount, this value will be populated.</span>
 <p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">FeeDiscountValue</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The percentage discount of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a non-monetary amount.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 "><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a non-monetary amount, this value will be populated.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">FeeDiscountValue</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The percentage discount of your fees if the <var class="keyword varname">FeeDiscountType</var> involves a non-monetary amount.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 "><span class="ph">If the <span class="keyword parmname">FeeDiscountType</span> involves a non-monetary amount, this value will be populated.</span>
 <p><span class="ph">Type: xs:BigDecimal</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e811 "><span class="keyword parmname">FeesEstimate</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e814 "><span class="ph">The fee estimate for this promotion, if it is available. The estimate assumes that all condition required for the promotion have been met.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e817 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e820 ">Type: <a href="#FeeEstimate" class="xref" title="The details of the fee estimate for this promotion, if it is available."><var class="keyword varname">FeesEstimate</var></a></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e811 "><span class="keyword parmname">FeesEstimate</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e814 "><span class="ph">The fee estimate for this promotion, if it is available. The estimate assumes that all condition required for the promotion have been met.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e817 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e820 ">Type: <a href="#FeeEstimate" class="xref" title="The details of the fee estimate for this promotion, if it is available."><var class="keyword varname">FeesEstimate</var></a></td>
 </tr>
 </tbody>
 </table>
@@ -473,50 +473,50 @@ class="keyword parmname">FeeDetail</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194541e1256" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
-<th id="d194541e1259" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
-<th id="d194541e1262" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
-<th id="d194541e1265" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
+<th id="d194549e1256" class="entry" data-valign="top" width="17.475728155339805%">Name</th>
+<th id="d194549e1259" class="entry" data-valign="top" width="33.98058252427184%">Description</th>
+<th id="d194549e1262" class="entry" data-valign="top" width="9.70873786407767%">Required</th>
+<th id="d194549e1265" class="entry" data-valign="top" width="38.83495145631068%">Value</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">FeeType</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph">The type of fees charged.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 "><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">FeeType</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph">The type of fees charged.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 "><span class="ph">Allowed Fee types: <var class="keyword varname">ReferralFee</var>, <var class="keyword varname">VariableClosingFee</var>, <var class="keyword varname">PerItemFee</var>, <var class="keyword varname">FBAFees</var>, <var class="keyword varname">FBAPickAndPack</var>, <var class="keyword varname">FBAWeightHandling</var>, <var class="keyword varname">FBAOrderHandling</var>, <var class="keyword varname">FBADeliveryServicesFee</var>. </span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">FeeAmount</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph"> The fee amount corresponding to the fee type.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">FeeAmount</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph"> The fee amount corresponding to the fee type.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">FeePromotion</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph"> The fee promotion amount corresponding to the fee type.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">FeePromotion</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph"> The fee promotion amount corresponding to the fee type.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">TaxAmount</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph"> The tax calculated over fee that would be charged to the seller.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">TaxAmount</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph"> The tax calculated over fee that would be charged to the seller.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 "><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">FinalFee</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph">The final fee that would be charged to the seller.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">Yes</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 "><span class="ph">The <var class="keyword varname">FeeAmount</var> minus the <var class="keyword varname">FeePromotion</var>.</span>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">FinalFee</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph">The final fee that would be charged to the seller.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">Yes</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 "><span class="ph">The <var class="keyword varname">FeeAmount</var> minus the <var class="keyword varname">FeePromotion</var>.</span>
 <p><span class="ph">Type: <a href="Notifications_MWSPushNotificationCommon.md#Notifications_MWSPushNotificationCommon__ComplexTypes" class="xref"><var class="keyword varname">MoneyType</var></a></span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194541e1256 "><span class="keyword parmname">IncludedFeeDetailList</span></td>
-<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194541e1259 "><span class="ph"> A structured list of FeeDetail that contains the itemization of a specific fee type.</span></td>
-<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194541e1262 ">No</td>
-<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194541e1265 ">Type: List of <a href="#FeeDetail" class="xref" title="The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed."><var class="keyword varname">FeeDetail</var></a></td>
+<td class="entry" data-valign="top" width="17.475728155339805%" headers="d194549e1256 "><span class="keyword parmname">IncludedFeeDetailList</span></td>
+<td class="entry" data-valign="top" width="33.98058252427184%" headers="d194549e1259 "><span class="ph"> A structured list of FeeDetail that contains the itemization of a specific fee type.</span></td>
+<td class="entry" data-valign="top" width="9.70873786407767%" headers="d194549e1262 ">No</td>
+<td class="entry" data-valign="top" width="38.83495145631068%" headers="d194549e1265 ">Type: List of <a href="#FeeDetail" class="xref" title="The FeeDetail data type is a container for an itemization of fee estimates. It can contain other FeeDetail elements as needed."><var class="keyword varname">FeeDetail</var></a></td>
 </tr>
 </tbody>
 </table>

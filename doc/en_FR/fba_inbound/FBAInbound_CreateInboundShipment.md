@@ -139,14 +139,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d34645e295" class="entry" data-valign="top" width="19.083969465648853%">Name</th>
-<th id="d34645e298" class="entry" data-valign="top" width="80.91603053435115%">Description</th>
+<th id="d34653e295" class="entry" data-valign="top" width="19.083969465648853%">Name</th>
+<th id="d34653e298" class="entry" data-valign="top" width="80.91603053435115%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="19.083969465648853%" headers="d34645e295 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="80.91603053435115%" headers="d34645e298 "><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
+<td class="entry" data-valign="top" width="19.083969465648853%" headers="d34653e295 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="80.91603053435115%" headers="d34653e298 "><span class="ph">The <span class="keyword parmname">ShipmentId</span> submitted in the request.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

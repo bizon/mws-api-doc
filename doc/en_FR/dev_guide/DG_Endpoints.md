@@ -88,10 +88,10 @@ marketplace associated with that endpoint, then the request will fail.
 | India                         | IN           | <span id="DG_Endpoints__d2032e1376" class="ph">https://mws.amazonservices.in</span>     | <span id="DG_Endpoints__d2032e1380" class="ph">A21TJRUUN4KGV</span>  |
 | Italy                         | IT           | <span id="DG_Endpoints__d2032e1393" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1397" class="ph">APJ6JRA9NG5V4</span>  |
 | Netherlands                   | NL           | <span id="DG_Endpoints__d2032e1410" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1414" class="ph">A1805IZSGTT6HS</span> |
-| Poland                        | PL           | <span class="ph">https://mws-eu.amazonservices.com</span>                               | <span class="ph">A1C3SOZRARQ6R3</span>                               |
+| Poland                        | PL           | <span id="DG_Endpoints__d2032e1427" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1431" class="ph">A1C3SOZRARQ6R3</span> |
 | Saudi Arabia                  | SA           | <span id="DG_Endpoints__d2032e1447" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1451" class="ph">A17E79C6D8DWNP</span> |
-| Sweden                        | SE           | https://mws-eu.amazonservices.com                                                       | A2NODRKZP88ZB9                                                       |
-| Turkey                        | TR           | <span id="DG_Endpoints__d2032e1479" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1483" class="ph">A33AVAJ2PDY3EV</span> |
+| Sweden                        | SE           | <span id="DG_Endpoints__d2032e1464" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1468" class="ph">A2NODRKZP88ZB9</span> |
+| Turkey                        | TR           | <span id="DG_Endpoints__d2032e1481" class="ph">https://mws-eu.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1485" class="ph">A33AVAJ2PDY3EV</span> |
 
 <span class="tablecap">Table 2. Europe region</span>
 
@@ -101,9 +101,9 @@ marketplace associated with that endpoint, then the request will fail.
 
 | Amazon Marketplace | Country code | <span class="ph">Amazon MWS</span> Endpoint                                             | MarketplaceId                                                        |
 |--------------------|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| Singapore          | SG           | <span id="DG_Endpoints__d2032e1536" class="ph">https://mws-fe.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1540" class="ph">A19VAU5U5O7RUS</span> |
-| Australia          | AU           | <span id="DG_Endpoints__d2032e1553" class="ph">https://mws.amazonservices.com.au</span> | <span id="DG_Endpoints__d2032e1557" class="ph">A39IBJ37TRP1C6</span> |
-| Japan              | JP           | <span id="DG_Endpoints__d2032e1570" class="ph">https://mws.amazonservices.jp</span>     | <span id="DG_Endpoints__d2032e1574" class="ph">A1VC38T7YXB528</span> |
+| Singapore          | SG           | <span id="DG_Endpoints__d2032e1538" class="ph">https://mws-fe.amazonservices.com</span> | <span id="DG_Endpoints__d2032e1542" class="ph">A19VAU5U5O7RUS</span> |
+| Australia          | AU           | <span id="DG_Endpoints__d2032e1555" class="ph">https://mws.amazonservices.com.au</span> | <span id="DG_Endpoints__d2032e1559" class="ph">A39IBJ37TRP1C6</span> |
+| Japan              | JP           | <span id="DG_Endpoints__d2032e1572" class="ph">https://mws.amazonservices.jp</span>     | <span id="DG_Endpoints__d2032e1576" class="ph">A1VC38T7YXB528</span> |
 
 <span class="tablecap">Table 3. Far East region</span>
 

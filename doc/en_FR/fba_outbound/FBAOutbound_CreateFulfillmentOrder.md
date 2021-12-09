@@ -151,32 +151,32 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d88446e173" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d88446e176" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d88446e179" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d88446e182" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d88454e173" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d88454e176" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d88454e179" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d88454e182" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">The marketplace the fulfillment order is placed against.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">The marketplace the fulfillment order is placed against.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">A fulfillment order identifier that you create to track your fulfillment order. The <span class="keyword parmname">SellerFulfillmentOrderId</span> must be unique for each fulfillment order that you create. If your system already creates unique order identifiers, then these might be good values to use for your <span class="keyword parmname">SellerFulfillmentOrderId</span> values.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">Maximum: 40 characters
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">A fulfillment order identifier that you create to track your fulfillment order. The <span class="keyword parmname">SellerFulfillmentOrderId</span> must be unique for each fulfillment order that you create. If your system already creates unique order identifiers, then these might be good values to use for your <span class="keyword parmname">SellerFulfillmentOrderId</span> values.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">Maximum: 40 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">FulfillmentAction</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">Specifies whether the fulfillment order should ship now or have an order hold put on it.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 "><span class="keyword parmname">FulfillmentAction</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">FulfillmentAction</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">Specifies whether the fulfillment order should ship now or have an order hold put on it.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 "><span class="keyword parmname">FulfillmentAction</span> values:
 <ul>
 <li><var class="keyword varname">Ship</var> - The fulfillment order ships now.</li>
 <li><var class="keyword varname">Hold</var> - An order hold is put on the fulfillment order.</li>
@@ -185,31 +185,31 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">DisplayableOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">A fulfillment order identifier that you create. This value displays as the order identifier in recipient-facing materials such as the outbound shipment packing slip. The value of <span class="keyword parmname">DisplayableOrderId</span> should match the order identifier that you provide to your customer. You can use the <span class="keyword parmname">SellerFulfillmentOrderId</span> for this value or you can specify an alternate value if you want your customer to reference an alternate order identifier.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.md" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">DisplayableOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">A fulfillment order identifier that you create. This value displays as the order identifier in recipient-facing materials such as the outbound shipment packing slip. The value of <span class="keyword parmname">DisplayableOrderId</span> should match the order identifier that you provide to your customer. You can use the <span class="keyword parmname">SellerFulfillmentOrderId</span> for this value or you can specify an alternate value if you want your customer to reference an alternate order identifier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">An alpha-numeric or <span class="ph"> <a href="../dev_guide/DG_ISO8859.md" class="xref">ISO 8859-1</a> </span> compliant string from one to 40 characters in length. Cannot contain two spaces in a row. Leading and trailing white space is removed.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">DisplayableOrderDateTime</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">The date of your fulfillment order. Displays as the order date in customer-facing materials such as the outbound shipment packing slip.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">DisplayableOrderDateTime</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">The date of your fulfillment order. Displays as the order date in customer-facing materials such as the outbound shipment packing slip.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">DisplayableOrderComment</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">Order-specific text that appears in customer-facing materials such as the outbound shipment packing slip.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">Maximum: 1000 characters
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">DisplayableOrderComment</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">Order-specific text that appears in customer-facing materials such as the outbound shipment packing slip.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">Maximum: 1000 characters
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">ShippingSpeedCategory</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">The shipping method for your fulfillment order.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 "><span class="keyword parmname">ShippingSpeedCategory</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">ShippingSpeedCategory</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">The shipping method for your fulfillment order.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 "><span class="keyword parmname">ShippingSpeedCategory</span> values:
 <ul>
 <li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
 <li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
@@ -222,16 +222,16 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">DestinationAddress</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">The destination address for the fulfillment order.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">DestinationAddress</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">The destination address for the fulfillment order.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">FulfillmentPolicy</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">Indicates how unfulfillable items in a fulfillment order should be handled.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 "><span class="keyword parmname">FulfillmentPolicy</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">FulfillmentPolicy</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">Indicates how unfulfillable items in a fulfillment order should be handled.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 "><span class="keyword parmname">FulfillmentPolicy</span> values:
 <ul>
 <li><var class="keyword varname">FillOrKill</var> - If an item in a fulfillment order is determined to be unfulfillable before any shipment in the order moves to the <var class="keyword varname">Pending</var> status (the process of picking units from inventory has begun), then the entire order is considered unfulfillable. However, if an item in a fulfillment order is determined to be unfulfillable after a shipment in the order moves to the <var class="keyword varname">Pending</var> status, Amazon cancels as much of the fulfillment order as possible. See the <a href="FBAOutbound_Datatypes.md#FulfillmentShipment" class="xref" title="Delivery and item information for a shipment in a fulfillment order.">FulfillmentShipment</a> datatype for shipment status definitions.</li>
 <li><var class="keyword varname">FillAll</var> - All fulfillable items in the fulfillment order are shipped. The fulfillment order remains in a processing state until all items are either shipped by Amazon or cancelled by the seller.</li>
@@ -241,28 +241,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">NotificationEmailList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">A list of email addresses that you provide that are used by Amazon to send ship-complete notifications to your customers on your behalf.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">Maximum: 64 characters per email address
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">NotificationEmailList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">A list of email addresses that you provide that are used by Amazon to send ship-complete notifications to your customers on your behalf.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">Maximum: 64 characters per email address
 <p>Type: List of type: xs:string</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">CODSettings</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">The COD (Cash On Delivery) charges for a COD order.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">The <span class="keyword parmname">CODSettings</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">CODSettings</span> in marketplaces other than Japan returns an error.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">CODSettings</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">The COD (Cash On Delivery) charges for a COD order.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">The <span class="keyword parmname">CODSettings</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">CODSettings</span> in marketplaces other than Japan returns an error.
 <p>Type: <a href="FBAOutbound_Datatypes.md#CODSettings" class="xref" title="The COD (Cash On Delivery) charges that you associate with a COD fulfillment order. Note that COD fulfillment orders are available only in Japan (JP).">CODSettings</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">Items</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">A list of items to include in the fulfillment order preview, including quantity.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">Type: List of <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">Items</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">A list of items to include in the fulfillment order preview, including quantity.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">Type: List of <a href="FBAOutbound_Datatypes.md#CreateFulfillmentOrderItem" class="xref" title="Item information for creating a fulfillment order.">CreateFulfillmentOrderItem</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88446e173 "><span class="keyword parmname">DeliveryWindow</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88446e176 ">Specifies the time range within which your Scheduled Delivery fulfillment order should be delivered.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d88454e173 "><span class="keyword parmname">DeliveryWindow</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d88454e176 ">Specifies the time range within which your Scheduled Delivery fulfillment order should be delivered.
 <div class="note important">
 <span class="importanttitle">Important:</span>
 <ul>
@@ -271,8 +271,8 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </ul>
 </div>
 <p>For more information, see <a href="../fba_guide/FBAGuide_ScheduledDelivery.md" class="xref">Scheduled Delivery</a>.</p></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88446e179 ">No. Required only if <span class="keyword parmname">ShippingSpeedCategory</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88446e182 ">The <span class="keyword parmname">DeliveryWindow</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">DeliveryWindow</span> in marketplaces other than JP returns an error.
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d88454e179 ">No. Required only if <span class="keyword parmname">ShippingSpeedCategory</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d88454e182 ">The <span class="keyword parmname">DeliveryWindow</span> request parameter is valid only in Japan (JP). Specifying <span class="keyword parmname">DeliveryWindow</span> in marketplaces other than JP returns an error.
 <p>Type: <a href="FBAOutbound_Datatypes.md#DeliveryWindow" class="xref" title="The time range within which your Scheduled Delivery fulfillment order should be delivered.">DeliveryWindow</a></p></td>
 </tr>
 </tbody>

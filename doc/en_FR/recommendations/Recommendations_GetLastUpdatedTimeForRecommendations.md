@@ -136,18 +136,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d270994e153" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d270994e156" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d270994e159" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d270994e162" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d272172e153" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d272172e156" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d272172e159" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d272172e162" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270994e153 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270994e156 ">The marketplace identifier for the marketplace from which you want to retrieve recommendations.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d270994e159 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d270994e162 ">Any valid marketplace identifier that you are registered in.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d272172e153 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d272172e156 ">The marketplace identifier for the marketplace from which you want to retrieve recommendations.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d272172e159 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d272172e162 ">Any valid marketplace identifier that you are registered in.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -174,35 +174,35 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d270994e215" class="entry" data-valign="top" width="NaN%">Name</th>
-<th id="d270994e218" class="entry" data-valign="top" width="NaN%">Description</th>
+<th id="d272172e215" class="entry" data-valign="top" width="NaN%">Name</th>
+<th id="d272172e218" class="entry" data-valign="top" width="NaN%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e215 "><span class="keyword parmname">InventoryRecommendationsLastUpdated</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e218 ">The date and time when the inventory recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e215 "><span class="keyword parmname">InventoryRecommendationsLastUpdated</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e218 ">The date and time when the inventory recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e215 "><span class="keyword parmname">PricingRecommendationsLastUpdated</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e218 ">The date and time when the pricing recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e215 "><span class="keyword parmname">PricingRecommendationsLastUpdated</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e218 ">The date and time when the pricing recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e215 "><span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e218 ">The date and time when the fulfillment recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e215 "><span class="keyword parmname">FulfillmentRecommendationsLastUpdated</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e218 ">The date and time when the fulfillment recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
 <p>Optional</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e215 "><span class="keyword parmname">GlobalSellingRecommendationsLastUpdated</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e218 ">The date and time when the global selling recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e215 "><span class="keyword parmname">GlobalSellingRecommendationsLastUpdated</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e218 ">The date and time when the global selling recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e215 "><span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span></td>
-<td class="entry" data-valign="top" width="NaN%" headers="d270994e218 ">The date and time when the advertising recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e215 "><span class="keyword parmname">AdvertisingRecommendationsLastUpdated</span></td>
+<td class="entry" data-valign="top" width="NaN%" headers="d272172e218 ">The date and time when the advertising recommendations were last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. <span class="ph">This element is used in all marketplaces except Brazil.</span>
 <p>Optional</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
