@@ -71,6 +71,7 @@ The following report categories are supported:
 -   <a href="Reports_ReportType.md#ReportTypeCategories__SettlementReports" class="xref">Settlement Reports</a>
 -   <a href="Reports_ReportType.md#ReportTypeCategories__FBAReports" class="xref">Fulfillment By Amazon (FBA) Reports</a>
 -   <a href="Reports_ReportType.md#ReportTypeCategories__SalesTaxReports" class="xref">Tax Reports</a>
+-   <a href="Reports_ReportType.md#ReportTypeCategories__InvoiceDataReports" class="xref">Invoice data reports</a>
 -   <a href="Reports_ReportType.md#ReportTypeCategories__BrowseTreeReports" class="xref">Browse Tree Report</a>
 -   <a href="Reports_ReportType.md#ReportTypeCategories__EasyShipReport" class="xref">Easy Ship Report</a>
 -   <a href="Reports_ReportType.md#ReportTypeCategories__AmazonBusinessReports" class="xref">Amazon Business Reports</a>
@@ -114,110 +115,110 @@ Seller Central sellers.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e239" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e242" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e246" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e249" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Inventory Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Inventory Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_OPEN_LISTINGS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file open listings report that contains a summary of the seller's product listings with the price and quantity for each SKU. For Marketplace and Seller Central sellers.
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file open listings report that contains a summary of the seller's product listings with the price and quantity for each SKU. For Marketplace and Seller Central sellers.
 <p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
 <ul>
 <li><span class="keyword parmname">Custom</span> - A Boolean value that indicates whether a custom report is returned. For more information, see <a href="https://sellercentral-europe.amazon.com/listing/reports/custom" class="xref">Custom Inventory Reports</a>. Default: <var class="keyword varname">false</var>. URL-encoded example: <samp class="ph codeph">ReportOptions=custom%3Dtrue</samp>. <span class="ph">This functionality is available only in the Canada, US, UK, and India marketplaces.</span></li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">All Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">All Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_ALL_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file detailed all listings report. For Marketplace and Seller Central sellers.
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file detailed all listings report. For Marketplace and Seller Central sellers.
 <p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
 <ul>
 <li><span class="keyword parmname">Custom</span> - A Boolean value that indicates whether a custom report is returned. For more information, see <a href="https://sellercentral-europe.amazon.com/listing/reports/custom" class="xref">Custom Inventory Reports</a>. Default: <var class="keyword varname">false</var>. URL-encoded example: <samp class="ph codeph">ReportOptions=custom%3Dtrue</samp>. <span class="ph">This functionality is available only in the Canada, US, UK, and India marketplaces.</span></li>
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Active Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Active Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file detailed active listings report. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file detailed active listings report. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Inactive Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Inactive Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_INACTIVE_DATA_                                             </samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file detailed inactive listings report. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file detailed inactive listings report. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Open Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Open Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_BACK_COMPAT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file open listings report.
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file open listings report.
 <p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
 <ul>
 <li><span class="keyword parmname">Custom</span> - A Boolean value that indicates whether a custom report is returned. For more information, see <a href="https://sellercentral-europe.amazon.com/listing/reports/custom" class="xref">Custom Inventory Reports</a>. Default: <var class="keyword varname">false</var>. URL-encoded example: <samp class="ph codeph">ReportOptions=custom%3Dtrue</samp>. <span class="ph">This functionality is available only in the Canada, US, UK, and India marketplaces.</span></li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Open Listings Report Lite</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Open Listings Report Lite</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_LITE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file active listings report that contains only the SKU, ASIN, Price, and Quantity fields for items that have a quantity greater than zero. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file active listings report that contains only the SKU, ASIN, Price, and Quantity fields for items that have a quantity greater than zero. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Open Listings Report Liter</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Open Listings Report Liter</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_LITER_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file active listings report that contains only the SKU and Quantity fields for items that have a quantity greater than zero. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file active listings report that contains only the SKU and Quantity fields for items that have a quantity greater than zero. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Canceled Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Canceled Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_CANCELLED_LISTINGS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file canceled listings report. For Marketplace and Seller Central sellers.
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file canceled listings report. For Marketplace and Seller Central sellers.
 <p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
 <ul>
 <li><span class="keyword parmname">Custom</span> - A Boolean value that indicates whether a custom report is returned. For more information, see <a href="https://sellercentral-europe.amazon.com/listing/reports/custom" class="xref">Custom Inventory Reports</a>. Default: <var class="keyword varname">false</var>. URL-encoded example: <samp class="ph codeph">ReportOptions=custom%3Dtrue</samp>. <span class="ph">This functionality is available only in the Canada, US, UK, and India marketplaces.</span></li>
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Sold Listings Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Sold Listings Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_CONVERGED_FLAT_FILE_SOLD_LISTINGS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file sold listings report that contains items sold on Amazon's retail website. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file sold listings report that contains items sold on Amazon's retail website. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Listing Quality and Suppressed Listing Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Listing Quality and Suppressed Listing Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MERCHANT_LISTINGS_DEFECT_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file listing quality and suppressed listing report that contains your listing information that is incomplete or incorrect. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file listing quality and suppressed listing report that contains your listing information that is incomplete or incorrect. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Pan-European Eligibility: FBA ASINs</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Pan-European Eligibility: FBA ASINs</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_PAN_EU_OFFER_STATUS_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file report that contains enrollment status and eligibility information for the Pan-European FBA program for each of the seller's Amazon-fulfilled listings. <span class="ph">This report is only available to FBA sellers in the Spain, UK, France, Germany, and Italy marketplaces.</span> For more information, see <a href="https://sellercentral-europe.amazon.com/gp/help/201986960" class="xref">Pan-European Eligibility</a> in the Seller Central Help.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file report that contains enrollment status and eligibility information for the Pan-European FBA program for each of the seller's Amazon-fulfilled listings. <span class="ph">This report is only available to FBA sellers in the Spain, UK, France, Germany, and Italy marketplaces.</span> For more information, see <a href="https://sellercentral-europe.amazon.com/gp/help/201986960" class="xref">Pan-European Eligibility</a> in the Seller Central Help.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Pan-European Eligibility: Self-fulfilled ASINs</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Pan-European Eligibility: Self-fulfilled ASINs</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_MFN_PAN_EU_OFFER_STATUS_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file report that contains eligibility information for the Pan-European FBA Program for each of the seller's self-fulfilled listings. Self-fulfilled listings are not allowed in the Pan-European FBA program, and this report can help sellers determine whether to convert any of their self-fulfilled listings to Amazon-fulfilled listings in order to enroll them in the program. <span class="ph">This report is only available in the Spain, UK, France, Germany, and Italy marketplaces.</span> For more information, see <a href="https://sellercentral-europe.amazon.com/gp/help/201986960" class="xref">Pan-European Eligibility</a> in the Seller Central Help.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file report that contains eligibility information for the Pan-European FBA Program for each of the seller's self-fulfilled listings. Self-fulfilled listings are not allowed in the Pan-European FBA program, and this report can help sellers determine whether to convert any of their self-fulfilled listings to Amazon-fulfilled listings in order to enroll them in the program. <span class="ph">This report is only available in the Spain, UK, France, Germany, and Italy marketplaces.</span> For more information, see <a href="https://sellercentral-europe.amazon.com/gp/help/201986960" class="xref">Pan-European Eligibility</a> in the Seller Central Help.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Global Expansion Opportunities Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Global Expansion Opportunities Report</span>
 <p>Enumeration value: <samp class="ph codeph">                                                 _GET_FLAT_FILE_GEO_OPPORTUNITIES_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file report that contains products that a seller lists which have a high sales potential in other Amazon marketplaces. <span class="ph">This report is only available in the US marketplace.</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file report that contains products that a seller lists which have a high sales potential in other Amazon marketplaces. <span class="ph">This report is only available in the US marketplace.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e239 "><span class="keyword parmname">Referral Fee Preview Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e246 "><span class="keyword parmname">Referral Fee Preview Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_REFERRAL_FEE_PREVIEW_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e242 ">Tab-delimited flat file that contains your open listings as well as the price and estimated referral fees for each SKU.
+<td class="entry" data-valign="top" width="50%" headers="d291218e249 ">Tab-delimited flat file that contains your open listings as well as the price and estimated referral fees for each SKU.
 <div class="note note">
 <span class="notetitle">Note:</span> The information in this report may be up to 24 hours old. Please do not request a report more than once per 24 hour period.
 </div>
@@ -247,17 +248,17 @@ longer in a "pending" state), not when the orders were created.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e757" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e760" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e764" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e767" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e757 "><span class="keyword parmname">Unshipped Orders Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e764 "><span class="keyword parmname">Unshipped Orders Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ACTIONABLE_ORDER_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e760 ">Tab-delimited flat file report that contains only orders that are not confirmed as shipped. Can be requested or scheduled. For Marketplace and Seller Central sellers.
+<td class="entry" data-valign="top" width="50%" headers="d291218e767 ">Tab-delimited flat file report that contains only orders that are not confirmed as shipped. Can be requested or scheduled. For Marketplace and Seller Central sellers.
 <div class="p">
 <div id="ReportTypeCategories__note_qd3_zsw_trb" class="note note">
 <span class="notetitle">Note:</span> This report ignores date range parameters. It contains unshipped orders from the previous 38 days.
@@ -269,18 +270,18 @@ longer in a "pending" state), not when the orders were created.
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e757 "><span class="keyword parmname">Scheduled XML Order Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e764 "><span class="keyword parmname">Scheduled XML Order Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e760 ">Scheduled XML order report. For Seller Central sellers only.
+<td class="entry" data-valign="top" width="50%" headers="d291218e767 ">Scheduled XML order report. For Seller Central sellers only.
 <p>You can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDERS_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e757 "><span class="keyword parmname">Requested or Scheduled Flat File Order Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e764 "><span class="keyword parmname">Requested or Scheduled Flat File Order Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e760 ">Tab-delimited flat file order report that can be requested or scheduled. The report shows orders from the previous 60 days. For Marketplace and Seller Central sellers.
+<td class="entry" data-valign="top" width="50%" headers="d291218e767 ">Tab-delimited flat file order report that can be requested or scheduled. The report shows orders from the previous 60 days. For Marketplace and Seller Central sellers.
 <p>Seller Central sellers can only schedule one _GET_ORDERS_DATA_ or _GET_FLAT_FILE_ORDERS_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
 <p>Marketplace sellers can only schedule one _GET_FLAT_FILE_ORDERS_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
 <div class="note note">
@@ -292,11 +293,11 @@ longer in a "pending" state), not when the orders were created.
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e757 "><span class="keyword parmname">Flat File Order Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e764 "><span class="keyword parmname">Flat File Order Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e760 ">Tab-delimited flat file order report that can be requested or scheduled. For Marketplace sellers only.
+<td class="entry" data-valign="top" width="50%" headers="d291218e767 ">Tab-delimited flat file order report that can be requested or scheduled. For Marketplace sellers only.
 <p>You can only schedule one _GET_FLAT_FILE_ORDERS_DATA_ or _GET_CONVERGED_FLAT_FILE_ORDER_REPORT_DATA_ report at a time. If you have one of these reports scheduled and you schedule a new report, the existing report will be canceled.</p>
 <div class="note note">
 <span class="notetitle">Note:</span> The format of this report will differ slightly depending on whether it is scheduled or requested. For example, the format for the dates will differ, and the ship-method column is only returned when the report is requested.
@@ -335,40 +336,40 @@ orders in a "pending" state.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e1018" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e1021" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e1025" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e1028" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1018 "><span class="keyword parmname">Flat File Orders By Last Update Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1025 "><span class="keyword parmname">Flat File Orders By Last Update Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ALL_ORDERS_DATA_BY_LAST_UPDATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1021 ">Tab-delimited flat file report that shows all orders updated in the specified period. Cannot be scheduled. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1028 ">Tab-delimited flat file report that shows all orders updated in the specified period. Cannot be scheduled. For all sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1018 "><span class="keyword parmname">Flat File Orders By Order Date Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1025 "><span class="keyword parmname">Flat File Orders By Order Date Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ALL_ORDERS_DATA_BY_ORDER_DATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1021 ">Tab-delimited flat file report that shows all orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1028 ">Tab-delimited flat file report that shows all orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1018 "><span class="keyword parmname">Flat File Archived Orders Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1025 "><span class="keyword parmname">Flat File Archived Orders Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_ARCHIVED_ORDERS_DATA_BY_ORDER_DATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1021 ">Tab-delimited flat file report that shows all archived orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1028 ">Tab-delimited flat file report that shows all archived orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1018 "><span class="keyword parmname">XML Orders By Last Update Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1025 "><span class="keyword parmname">XML Orders By Last Update Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_ALL_ORDERS_DATA_BY_LAST_UPDATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1021 ">XML report that shows all orders updated in the specified period. Cannot be scheduled. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1028 ">XML report that shows all orders updated in the specified period. Cannot be scheduled. For all sellers.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1018 "><span class="keyword parmname">XML Orders By Order Date Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1025 "><span class="keyword parmname">XML Orders By Order Date Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_ALL_ORDERS_DATA_BY_ORDER_DATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1021 ">XML report that shows all orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1028 ">XML report that shows all orders that were placed in the specified period. Cannot be scheduled. For all sellers.</td>
 </tr>
 </tbody>
 </table>
@@ -393,31 +394,31 @@ These reports can be both scheduled and requested where noted.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e1182" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e1185" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e1189" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e1192" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1182 "><span class="keyword parmname">Flat File Pending Orders Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1189 "><span class="keyword parmname">Flat File Pending Orders Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_PENDING_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1185 ">Tab-delimited flat file report that can be requested or scheduled that shows all pending orders. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1192 ">Tab-delimited flat file report that can be requested or scheduled that shows all pending orders. For all sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1182 "><span class="keyword parmname">XML Pending Orders Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1189 "><span class="keyword parmname">XML Pending Orders Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_PENDING_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1185 ">XML report that can be requested or scheduled that shows all pending orders. Can only be scheduled using Amazon MWS.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1192 ">XML report that can be requested or scheduled that shows all pending orders. Can only be scheduled using Amazon MWS.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1182 "><span class="keyword parmname">Converged Flat File Pending Orders Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1189 "><span class="keyword parmname">Converged Flat File Pending Orders Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_CONVERGED_FLAT_FILE_PENDING_ORDERS_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1185 ">Flat file report that can be requested or scheduled that shows all pending orders. For Marketplace sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1192 ">Flat file report that can be requested or scheduled that shows all pending orders. For Marketplace sellers.</td>
 </tr>
 </tbody>
 </table>
@@ -439,52 +440,52 @@ These reports can be both scheduled and requested where noted.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e1334" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e1337" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e1341" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e1344" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">XML Returns Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">XML Returns Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_RETURNS_DATA_BY_RETURN_DATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">XML report that can be requested or scheduled. Contains detailed returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">XML report that can be requested or scheduled. Contains detailed returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">Flat File Returns Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">Flat File Returns Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_RETURNS_DATA_BY_RETURN_DATE_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">Tab-delimited flat file report that can be requested or scheduled. Contains detailed returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">Tab-delimited flat file report that can be requested or scheduled. Contains detailed returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">XML Prime Returns Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">XML Prime Returns Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_MFN_PRIME_RETURNS_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">XML report that can be requested or scheduled. Contains detailed Seller Fulfilled Prime returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">XML report that can be requested or scheduled. Contains detailed Seller Fulfilled Prime returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">CSV Prime Returns Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">CSV Prime Returns Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_CSV_MFN_PRIME_RETURNS_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">Comma-separated flat file report that can be requested or scheduled. Contains detailed Seller Fulfilled Prime returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">Comma-separated flat file report that can be requested or scheduled. Contains detailed Seller Fulfilled Prime returns information, including return request date, RMA ID, label details, ASIN, and return reason code. You can request up to 60 days of data in a single report.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">XML Return Attributes Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">XML Return Attributes Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_MFN_SKU_RETURN_ATTRIBUTES_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">XML report that can be requested or scheduled. Contains detailed return attribute information by SKU, including prepaid label eligibility and returnless refund eligibility. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">XML report that can be requested or scheduled. Contains detailed return attribute information by SKU, including prepaid label eligibility and returnless refund eligibility. You can request up to 60 days of data in a single report.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1334 "><span class="keyword parmname">Flat File Return Attributes Report by Return Date</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1341 "><span class="keyword parmname">Flat File Return Attributes Report by Return Date</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_MFN_SKU_RETURN_ATTRIBUTES_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1337 ">Tab-delimited flat file report that can be requested or scheduled. Contains detailed return attribute information by SKU, including prepaid label eligibility and returnless refund eligibility. You can request up to 60 days of data in a single report.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1344 ">Tab-delimited flat file report that can be requested or scheduled. Contains detailed return attribute information by SKU, including prepaid label eligibility and returnless refund eligibility. You can request up to 60 days of data in a single report.</td>
 </tr>
 </tbody>
 </table>
@@ -506,22 +507,22 @@ These reports can be both scheduled and requested where noted.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e1606" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e1609" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e1613" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e1616" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1606 "><span class="keyword parmname">Flat File Feedback Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1613 "><span class="keyword parmname">Flat File Feedback Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_SELLER_FEEDBACK_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1609 ">Tab-delimited flat file that returns negative and neutral feedback (one to three stars) from buyers who rated your seller performance. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1616 ">Tab-delimited flat file that returns negative and neutral feedback (one to three stars) from buyers who rated your seller performance. For all sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1606 "><span class="keyword parmname">XML Customer Metrics Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1613 "><span class="keyword parmname">XML Customer Metrics Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_V1_SELLER_PERFORMANCE_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1609 ">XML file that contains the individual performance metrics data from the Seller Central dashboard. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1616 ">XML file that contains the individual performance metrics data from the Seller Central dashboard. For all sellers.</td>
 </tr>
 </tbody>
 </table>
@@ -546,31 +547,31 @@ automatically scheduled by Amazon.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e1692" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e1695" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e1699" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e1702" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1692 "><span class="keyword parmname">Flat File Settlement Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1699 "><span class="keyword parmname">Flat File Settlement Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1695 ">Tab-delimited flat file settlement report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. For all sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1702 ">Tab-delimited flat file settlement report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. For all sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1692 "><span class="keyword parmname">XML Settlement Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1699 "><span class="keyword parmname">XML Settlement Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_V2_SETTLEMENT_REPORT_DATA_XML_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1695 ">XML file settlement report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. For Seller Central sellers only.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1702 ">XML file settlement report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. For Seller Central sellers only.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e1692 "><span class="keyword parmname">Flat File V2 Settlement Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1699 "><span class="keyword parmname">Flat File V2 Settlement Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e1695 ">Tab-delimited flat file alternate version of the Flat File Settlement Report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. Price columns are condensed into three general purpose columns: amounttype, amountdescription, and amount. For Seller Central sellers only.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e1702 ">Tab-delimited flat file alternate version of the Flat File Settlement Report that is automatically scheduled by Amazon; it cannot be requested through <span class="keyword apiname">RequestReport</span>. Price columns are condensed into three general purpose columns: amounttype, amountdescription, and amount. For Seller Central sellers only.</td>
 </tr>
 </tbody>
 </table>
@@ -1169,42 +1170,95 @@ Japan marketplaces.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e3082" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290973e3085" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d291218e3089" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d291218e3092" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e3082 "><span class="keyword parmname">Sales Tax Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3089 "><span class="keyword parmname">Sales Tax Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_SALES_TAX_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_GetReportList.md" class="xref" title="Returns a list of reports that were created in the previous 90 days.">GetReportList</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e3085 ">Tab-delimited flat file for tax-enabled US sellers. Content updated daily. This report cannot be requested or scheduled. You must generate the report from the <a href="https://sellercentral.amazon.com/gp/tax/tax-library.html" class="xref">Tax Document Library</a> in Seller Central. After the report has been generated, you can download the report using the <span class="keyword apiname">GetReportList</span> and <span class="keyword apiname">GetReport</span> operations. For Marketplace and Seller Central sellers.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3092 ">Tab-delimited flat file for tax-enabled US sellers. Content updated daily. This report cannot be requested or scheduled. You must generate the report from the <a href="https://sellercentral.amazon.com/gp/tax/tax-library.html" class="xref">Tax Document Library</a> in Seller Central. After the report has been generated, you can download the report using the <span class="keyword apiname">GetReportList</span> and <span class="keyword apiname">GetReport</span> operations. For Marketplace and Seller Central sellers.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e3082 "><span class="keyword parmname">Amazon VAT Calculation Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3089 "><span class="keyword parmname">Amazon VAT Calculation Report</span>
 <p>Enumeration value: <samp class="ph codeph">_SC_VAT_TAX_REPORT_</samp></p>
 <span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e3085 ">Comma-separated flat file report that provides detailed value-added tax (VAT) calculation information for buyer shipments, returns, and refunds. This report is only available in the Germany, Spain, Italy, France, and UK marketplaces.</td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3092 ">Comma-separated flat file report that provides detailed value-added tax (VAT) calculation information for buyer shipments, returns, and refunds. This report is only available in the Germany, Spain, Italy, France, and UK marketplaces.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e3082 "><span class="keyword parmname">Amazon VAT Transactions Report</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3089 "><span class="keyword parmname">Amazon VAT Transactions Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_VAT_TRANSACTION_DATA_</samp></p>
 <span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e3085 ">Tab-delimited flat file report that provides detailed information for sales, returns, refunds, cross border inbound and cross border fulfillment center transfers. This report is only available in the Germany, Spain, Italy, France, and UK marketplaces.
+<td class="entry" data-valign="top" width="50%" headers="d291218e3092 ">Tab-delimited flat file report that provides detailed information for sales, returns, refunds, cross border inbound and cross border fulfillment center transfers. This report is only available in the Germany, Spain, Italy, France, and UK marketplaces.
 <p>For more information, see <a href="https://sellercentral-europe.amazon.com/gp/help/202098170" class="xref">Amazon VAT Transactions Report FAQ</a> in the Seller Central Help.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e3082 "><span class="keyword parmname">On Demand GST Merchant Tax Report B2B</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3089 "><span class="keyword parmname">On Demand GST Merchant Tax Report B2B</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_GST_MTR_B2B_CUSTOM_</samp></p>
 <span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e3085 ">Tab-delimited flat file report that provides detailed information about sales, refunds, and cancellations from <span class="ph">Amazon Business</span> invoices issued within a date range that you specify. <span class="ph">This report is only available in the India marketplace.</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3092 ">Tab-delimited flat file report that provides detailed information about sales, refunds, and cancellations from <span class="ph">Amazon Business</span> invoices issued within a date range that you specify. <span class="ph">This report is only available in the India marketplace.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290973e3082 "><span class="keyword parmname">On Demand GST Merchant Tax Report B2C</span>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3089 "><span class="keyword parmname">On Demand GST Merchant Tax Report B2C</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_GST_MTR_B2C_CUSTOM_</samp></p>
 <span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290973e3085 ">Tab-delimited flat file report that provides detailed information about sales, refunds, and cancellations from consumer invoices issued within a date range that you specify. <span class="ph">This report is only available in the India marketplace.</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d291218e3092 ">Tab-delimited flat file report that provides detailed information about sales, refunds, and cancellations from consumer invoices issued within a date range that you specify. <span class="ph">This report is only available in the India marketplace.</span></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div id="ReportTypeCategories__InvoiceDataReports" class="section">
+
+### Invoice data reports
+
+<div class="tablenoborder">
+
+<table id="ReportTypeCategories__InvoiceDataReportsTable" class="table" data-cellpadding="4" data-cellspacing="0" data-summary="" data-frame="border" data-border="1" data-rules="all">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead class="thead" data-align="left">
+<tr class="header row">
+<th id="d291218e3275" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
+<th id="d291218e3278" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
+</tr>
+</thead>
+<tbody class="tbody">
+<tr class="odd row">
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3275 "><span class="keyword parmname">Flat File VAT Invoice Data Report (VIDR)</span>
+<p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_VAT_INVOICE_DATA_REPORT_</samp></p>
+<p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
+<p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3278 ">Tab-delimited flat file report that provides all of the information required to generate a VAT invoice for each shipment, return, or refund for a seller's order. This report is for sellers who have enrolled in Amazon's <a href="https://sellercentral-europe.amazon.com/tax/consolidatedRegistrations?context=enrollment" class="xref">VAT Calculation Service</a> and have opted to upload their own invoices. This is for both Fulfillment by Amazon and seller-fulfilled orders. A shipment is included in this report immediately after it is dispatched. Amazon recommends scheduling this report at least twice a day. Available in the Spain, UK, France, Netherlands, Germany, Italy, Sweden, and Poland marketplaces.
+<p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
+<ul>
+<li><span class="keyword parmname">PendingInvoices</span> - Returns a report that contains only shipments for which invoices and credit notes are pending. This report does not contain shipments for which invoices have already been uploaded successfully. Includes shipments for orders that were placed within the previous 90 days.</li>
+<li><span class="keyword parmname">All</span> - Returns a report that contains shipments for orders that were placed within the date range that you specify. Includes shipments of all possible invoice statuses. If you specify <strong>ReportOptions</strong>=<strong>All</strong> you must specify the <strong>StartDate</strong> and <strong>EndDate</strong> parameters of the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation. The maximum allowed date range is 30 days.</li>
+</ul>
+<p>Default: <span class="keyword parmname">PendingInvoices</span></p>
+<p>For detailed information about using this report, see the <a href="https://amazonservicesstatic.com/guides/mws-vat-calculation-service-guide.pdf" class="xref">VAT Calculation Service (VCS) Guide</a>.</p></td>
+</tr>
+<tr class="even row">
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3275 "><span class="keyword parmname">XML VAT Invoice Data Report (VIDR)</span>
+<p>Enumeration value: <samp class="ph codeph">_GET_XML_VAT_INVOICE_DATA_REPORT_</samp></p>
+<p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p>
+<p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p></td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3278 ">XML report that provides all of the information required to generate a VAT invoice for each shipment, return, or refund for a seller's order. This report is for sellers who have enrolled in Amazon's <a href="https://sellercentral-europe.amazon.com/tax/consolidatedRegistrations?context=enrollment" class="xref">VAT Calculation Service</a> and have opted to upload their own invoices. This is for both Fulfillment by Amazon and seller-fulfilled orders. A shipment is included in this report immediately after it is dispatched. Amazon recommends scheduling this report at least twice a day. Available in the Spain, UK, France, Netherlands, Germany, Italy, Sweden, and Poland marketplaces.
+<p>This report accepts the following <a href="Reports_RequestReport.md#RequestParameters__ReportOptions" class="xref">ReportOptions</a> values:</p>
+<ul>
+<li><span class="keyword parmname">PendingInvoices</span> - Returns a report that contains only shipments for which invoices and credit notes are pending. This report does not contain shipments for which invoices have already been uploaded successfully. Includes shipments for orders that were placed within the previous 90 days.</li>
+<li><span class="keyword parmname">All</span> - Returns a report that contains shipments for orders that were placed within the date range that you specify. Includes shipments of all possible invoice statuses. If you specify <strong>ReportOptions</strong>=<strong>All</strong> you must specify the <strong>StartDate</strong> and <strong>EndDate</strong> parameters of the <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a> operation. The maximum allowed date range is 30 days.</li>
+</ul>
+<p>Default: <span class="keyword parmname">PendingInvoices</span></p>
+<p>For detailed information about using this report, see the <a href="https://amazonservicesstatic.com/guides/mws-vat-calculation-service-guide.pdf" class="xref">VAT Calculation Service (VCS) Guide</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1226,17 +1280,17 @@ Japan marketplaces.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e3268" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
-<th id="d290973e3271" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
+<th id="d291218e3479" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
+<th id="d291218e3482" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3268 "><span class="keyword parmname">Browse Tree Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3479 "><span class="keyword parmname">Browse Tree Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_XML_BROWSE_TREE_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="Reports_ManageReportSchedule.md" class="xref" title="Creates, updates, or deletes a report request schedule for a specified report type.">ManageReportSchedule</a></span></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3271 ">XML report that provides browse tree hierarchy information and node refinement information for the Amazon retail website in any marketplace.
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3482 ">XML report that provides browse tree hierarchy information and node refinement information for the Amazon retail website in any marketplace.
 <p>Can be requested or scheduled. For Marketplace and Seller Central sellers.</p>
 <p>This report accepts the following <span class="keyword parmname">ReportOptions</span> values:</p>
 <ul>
@@ -1284,28 +1338,28 @@ Japan marketplaces.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e3501" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
-<th id="d290973e3504" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
+<th id="d291218e3711" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
+<th id="d291218e3714" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3501 "><span class="keyword parmname">EasyShip Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3711 "><span class="keyword parmname">EasyShip Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_EASYSHIP_DOCUMENTS_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3504 ">PDF report that contains the invoice, shipping label, and warranty (if available) documents for the <span class="ph">Amazon Easy Ship</span> order. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3714 ">PDF report that contains the invoice, shipping label, and warranty (if available) documents for the <span class="ph">Amazon Easy Ship</span> order. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3501 "><span class="keyword parmname">EasyShip Picked Up Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3711 "><span class="keyword parmname">EasyShip Picked Up Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_EASYSHIP_PICKEDUP_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3504 ">Tab-delimited report that contains all of the seller-fulfilled orders that were picked-up on the specified dates. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="https://sellercentral.amazon.in/gp/help/GLFNYRHQ6LEC5CW5" class="xref">Download an EasyShip Orders Report</a> in the Seller Central Help.</td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3714 ">Tab-delimited report that contains all of the seller-fulfilled orders that were picked-up on the specified dates. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="https://sellercentral.amazon.in/gp/help/GLFNYRHQ6LEC5CW5" class="xref">Download an EasyShip Orders Report</a> in the Seller Central Help.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3501 "><span class="keyword parmname">EasyShip Waiting for Pick Up Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3711 "><span class="keyword parmname">EasyShip Waiting for Pick Up Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_EASYSHIP_WAITING_FOR_PICKUP_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3504 ">Tab-delimited report that contains all of your orders that are in the "Waiting for pick up" status in Seller Central. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="https://sellercentral.amazon.in/gp/help/GLFNYRHQ6LEC5CW5" class="xref">Download an EasyShip Orders Report</a> in the Seller Central Help.</td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3714 ">Tab-delimited report that contains all of your orders that are in the "Waiting for pick up" status in Seller Central. <span class="ph">This report is only available in the India marketplace.</span> For more information, see <a href="https://sellercentral.amazon.in/gp/help/GLFNYRHQ6LEC5CW5" class="xref">Download an EasyShip Orders Report</a> in the Seller Central Help.</td>
 </tr>
 </tbody>
 </table>
@@ -1327,39 +1381,39 @@ Japan marketplaces.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e3631" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
-<th id="d290973e3634" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
+<th id="d291218e3841" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
+<th id="d291218e3844" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3631 "><span class="keyword parmname">Manage Quotes Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3841 "><span class="keyword parmname">Manage Quotes Report</span>
 <p>Enumeration value: <samp class="ph codeph">_RFQD_BULK_DOWNLOAD_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3634 ">A Microsoft Excel Workbook (.xlsx) file. Contains current details of requests for quantity discounts including customer requests, active quantity discounts, analysis of pending requests, and analysis of all requests. Content updated in near real time. For Amazon Business sellers only. <span class="ph">This report is only available in the US, UK, Germany, India, and Japan marketplaces.</span></td>
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3844 ">A Microsoft Excel Workbook (.xlsx) file. Contains current details of requests for quantity discounts including customer requests, active quantity discounts, analysis of pending requests, and analysis of all requests. Content updated in near real time. For Amazon Business sellers only. <span class="ph">This report is only available in the US, UK, Germany, India, and Japan marketplaces.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3631 "><span class="keyword parmname">Referral Fee Discounts Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3841 "><span class="keyword parmname">Referral Fee Discounts Report</span>
 <p>Enumeration value: <samp class="ph codeph">_FEE_DISCOUNTS_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3634 ">A Microsoft Excel Workbook (.xlsx) file that contains a summary of your fee discounts.
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3844 ">A Microsoft Excel Workbook (.xlsx) file that contains a summary of your fee discounts.
 <div class="note note">
 <span class="notetitle">Note:</span> The information in this report may be up to 24 hours old. Please do not request a report more than once within a 24-hour period.
 </div>
 <span class="ph">This report is only available in the Canada, US, Spain, UK, France, Germany, Italy, and Australia marketplaces.</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3631 "><span class="keyword parmname">B2B Product Opportunities: Recommended for You</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3841 "><span class="keyword parmname">B2B Product Opportunities: Recommended for You</span>
 <p>Enumeration value: <samp class="ph codeph">_MBOP_RECOMMENDED_PRODUCTS_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3634 ">Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, low offer count, and other factors. The recommendations are personalized to the seller based on past sales activity.
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3844 ">Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, low offer count, and other factors. The recommendations are personalized to the seller based on past sales activity.
 <p>Can be requested or scheduled.</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3631 "><span class="keyword parmname">B2B Product Opportunities: Products not yet on Amazon</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3841 "><span class="keyword parmname">B2B Product Opportunities: Products not yet on Amazon</span>
 <p>Enumeration value: <samp class="ph codeph">_MBOP_GAP_PRODUCTS_REPORT_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_GetReport.md" class="xref">GetReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3634 ">Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, and other factors for products not yet listed on Amazon. The recommendations are personalized to the seller based on past sales activity.
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3844 ">Comma-separated flat file. Content updated weekly. Provides product recommendations based on predicted incremental units sold, unmet buyer demand, and other factors for products not yet listed on Amazon. The recommendations are personalized to the seller based on past sales activity.
 <p>Can be requested or scheduled.</p></td>
 </tr>
 </tbody>
@@ -1382,16 +1436,16 @@ Japan marketplaces.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290973e3773" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
-<th id="d290973e3776" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
+<th id="d291218e3983" class="entry" data-valign="top" width="29.761904761904763%">Name</th>
+<th id="d291218e3986" class="entry" data-valign="top" width="70.23809523809523%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.761904761904763%" headers="d290973e3773 "><span class="keyword parmname">AmazonPay Sandbox Settlement Report</span>
+<td class="entry" data-valign="top" width="29.761904761904763%" headers="d291218e3983 "><span class="keyword parmname">AmazonPay Sandbox Settlement Report</span>
 <p>Enumeration value: <samp class="ph codeph">_GET_FLAT_FILE_OFFAMAZONPAYMENTS_SANDBOX_SETTLEMENT_DATA_</samp></p>
 <p><span class="ph">API operation: <a href="../reports/Reports_RequestReport.md" class="xref">RequestReport</a></span></p></td>
-<td class="entry" data-valign="top" width="70.23809523809523%" headers="d290973e3776 ">Comma-separated flat file that contains all of the transactions made in seller's (sandbox) account. Here are the Marketplace IDs for the available sandbox marketplaces:
+<td class="entry" data-valign="top" width="70.23809523809523%" headers="d291218e3986 ">Comma-separated flat file that contains all of the transactions made in seller's (sandbox) account. Here are the Marketplace IDs for the available sandbox marketplaces:
 <ul>
 <li>EU: <samp class="ph codeph">A1G8446IYHA4MR</samp></li>
 <li>JP: <samp class="ph codeph">A31YDYE76E6TCP</samp></li>

@@ -128,31 +128,31 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d182876e171" class="entry" data-valign="top" width="24.061810154525393%">Name</th>
-<th id="d182876e174" class="entry" data-valign="top" width="22.075055187637975%">Description</th>
-<th id="d182876e177" class="entry" data-valign="top" width="23.178807947019873%">Required</th>
-<th id="d182876e180" class="entry" data-valign="top" width="30.684326710816777%">Values</th>
+<th id="d183121e171" class="entry" data-valign="top" width="24.061810154525393%">Name</th>
+<th id="d183121e174" class="entry" data-valign="top" width="22.075055187637975%">Description</th>
+<th id="d183121e177" class="entry" data-valign="top" width="23.178807947019873%">Required</th>
+<th id="d183121e180" class="entry" data-valign="top" width="30.684326710816777%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__row_ShipmentRequestDetails" class="odd row">
-<td class="entry" data-valign="top" width="24.061810154525393%" headers="d182876e171 "><span class="keyword parmname">OrderId</span></td>
-<td class="entry" data-valign="top" width="22.075055187637975%" headers="d182876e174 ">An Amazon-defined order identifier. Use the <span class="keyword parmname">AmazonOrderId</span> value that you specified in a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.</td>
-<td class="entry" data-valign="top" width="23.178807947019873%" headers="d182876e177 ">Yes</td>
-<td class="entry" data-valign="top" width="30.684326710816777%" headers="d182876e180 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="24.061810154525393%" headers="d183121e171 "><span class="keyword parmname">OrderId</span></td>
+<td class="entry" data-valign="top" width="22.075055187637975%" headers="d183121e174 ">An Amazon-defined order identifier. Use the <span class="keyword parmname">AmazonOrderId</span> value that you specified in a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.</td>
+<td class="entry" data-valign="top" width="23.178807947019873%" headers="d183121e177 ">Yes</td>
+<td class="entry" data-valign="top" width="30.684326710816777%" headers="d183121e180 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.061810154525393%" headers="d182876e171 "><span class="keyword parmname">ShippingServiceId</span></td>
-<td class="entry" data-valign="top" width="22.075055187637975%" headers="d182876e174 ">The identifier for the carrier shipping service that the seller chose. This was returned by a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.
+<td class="entry" data-valign="top" width="24.061810154525393%" headers="d183121e171 "><span class="keyword parmname">ShippingServiceId</span></td>
+<td class="entry" data-valign="top" width="22.075055187637975%" headers="d183121e174 ">The identifier for the carrier shipping service that the seller chose. This was returned by a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.
 <p>Example: CHINA_POST_E_COURIER_PRI</p></td>
-<td class="entry" data-valign="top" width="23.178807947019873%" headers="d182876e177 ">Yes</td>
-<td class="entry" data-valign="top" width="30.684326710816777%" headers="d182876e180 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="23.178807947019873%" headers="d183121e177 ">Yes</td>
+<td class="entry" data-valign="top" width="30.684326710816777%" headers="d183121e180 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.061810154525393%" headers="d182876e171 "><span class="keyword parmname">ShipFromAddress</span></td>
-<td class="entry" data-valign="top" width="22.075055187637975%" headers="d182876e174 ">The address from which the shipment ships. Use the <span class="keyword parmname">ShipFromAddress</span> value that you specified in a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.</td>
-<td class="entry" data-valign="top" width="23.178807947019873%" headers="d182876e177 ">Yes</td>
-<td class="entry" data-valign="top" width="30.684326710816777%" headers="d182876e180 ">Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<td class="entry" data-valign="top" width="24.061810154525393%" headers="d183121e171 "><span class="keyword parmname">ShipFromAddress</span></td>
+<td class="entry" data-valign="top" width="22.075055187637975%" headers="d183121e174 ">The address from which the shipment ships. Use the <span class="keyword parmname">ShipFromAddress</span> value that you specified in a previous call to the <a href="MerchFulfill_GetEligibleShippingServices.md" class="xref" title="Returns a list of shipping service offers.">GetEligibleShippingServices</a> operation.</td>
+<td class="entry" data-valign="top" width="23.178807947019873%" headers="d183121e177 ">Yes</td>
+<td class="entry" data-valign="top" width="30.684326710816777%" headers="d183121e180 ">Type: <a href="MerchFulfill_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 </tbody>
 </table>
@@ -178,19 +178,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d182876e305" class="entry" data-valign="top">Name</th>
-<th id="d182876e308" class="entry" data-valign="top">Description</th>
+<th id="d183121e305" class="entry" data-valign="top">Name</th>
+<th id="d183121e308" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d182876e305 "><span class="keyword parmname">ShipmentLevelFields</span></td>
-<td class="entry" data-valign="top" headers="d182876e308 ">A list of additional seller inputs that are required for this shipping service. These inputs are at the shipment level and are shared across multiple items in the same shipment.
+<td class="entry" data-valign="top" headers="d183121e305 "><span class="keyword parmname">ShipmentLevelFields</span></td>
+<td class="entry" data-valign="top" headers="d183121e308 ">A list of additional seller inputs that are required for this shipping service. These inputs are at the shipment level and are shared across multiple items in the same shipment.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#ShipmentLevelFields" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelFields</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d182876e305 "><span class="keyword parmname">ItemLevelFieldsList</span></td>
-<td class="entry" data-valign="top" headers="d182876e308 ">A list of additional seller inputs that are required for this shipping service. These inputs are at the item level and are different for each item in the shipment.
+<td class="entry" data-valign="top" headers="d183121e305 "><span class="keyword parmname">ItemLevelFieldsList</span></td>
+<td class="entry" data-valign="top" headers="d183121e308 ">A list of additional seller inputs that are required for this shipping service. These inputs are at the item level and are different for each item in the shipment.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#ItemLevelFields" class="xref" title="A list of additional seller inputs (at the item level), returned by the GetAdditionalSellerInputs operation.">ItemLevelFieldsList</a></p></td>
 </tr>
 </tbody>

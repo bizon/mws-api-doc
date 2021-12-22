@@ -115,18 +115,18 @@ class="keyword parmname">AdjustmentEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e786" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e789" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e792" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e795" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e786" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e789" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e792" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e795" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e786 "><span class="keyword parmname">AdjustmentType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e789 ">The type of adjustment.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e795 "><span class="keyword parmname">AdjustmentType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e786 "><span class="keyword parmname">AdjustmentType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e789 ">The type of adjustment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e795 "><span class="keyword parmname">AdjustmentType</span> values:
 <ul>
 <li><var class="keyword varname">FBAInventoryReimbursement</var> - An FBA inventory reimbursement to a seller's account. This occurs if a seller's inventory is damaged.</li>
 <li><var class="keyword varname">ReserveEvent</var> - A reserve event that is generated at the time of a settlement period closing. This occurs when some money from a seller's account is held back.</li>
@@ -140,22 +140,22 @@ class="keyword parmname">AdjustmentEvent</span> datatype:
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e786 "><span class="keyword parmname">AdjustmentAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e789 ">The amount adjusted as part of this event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e786 "><span class="keyword parmname">AdjustmentAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e789 ">The amount adjusted as part of this event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e786 "><span class="keyword parmname">AdjustmentItemList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e789 ">A list of <span class="keyword parmname">AdjustmentItem</span> values.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e795 ">Type: List of <a href="Finances_Datatypes.md#AdjustmentItem" class="xref" title="An item of an adjustment to your account.">AdjustmentItem</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e786 "><span class="keyword parmname">AdjustmentItemList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e789 ">A list of <span class="keyword parmname">AdjustmentItem</span> values.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e795 ">Type: List of <a href="Finances_Datatypes.md#AdjustmentItem" class="xref" title="An item of an adjustment to your account.">AdjustmentItem</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e786 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e789 "><span class="ph">The date when the financial event was posted.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e795 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e786 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e789 "><span class="ph">The date when the financial event was posted.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 </tbody>
 </table>
@@ -232,24 +232,24 @@ class="keyword parmname">AffordabilityExpenseEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e1279" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e1282" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e1285" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e1288" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e1279" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e1282" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e1285" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e1288" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">The date when the financial event was created.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">The date when the financial event was created.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">TransactionType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">Indicates the type of transaction.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 "><span class="keyword parmname">TransactionType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">TransactionType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">Indicates the type of transaction.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 "><span class="keyword parmname">TransactionType</span> values:
 <div class="p">
 <ul>
 <li><var class="keyword varname">Charge - </var>For an affordability promotion expense.</li>
@@ -259,46 +259,46 @@ class="keyword parmname">AffordabilityExpenseEvent</span> datatype:
 </div></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">BaseExpense</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">The amount charged for clicks incurred under the Sponsored Products program.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">BaseExpense</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">The amount charged for clicks incurred under the Sponsored Products program.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">TotalExpense</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">The total amount charged to the seller. <span class="keyword parmname">TotalExpense</span>=<span class="keyword parmname">BaseExpense</span>+<span class="keyword parmname">TaxTypeIGST</span>+<span class="keyword parmname">TaxTypeCGST</span>+<span class="keyword parmname">TaxTypeSGST</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">TotalExpense</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">The total amount charged to the seller. <span class="keyword parmname">TotalExpense</span>=<span class="keyword parmname">BaseExpense</span>+<span class="keyword parmname">TaxTypeIGST</span>+<span class="keyword parmname">TaxTypeCGST</span>+<span class="keyword parmname">TaxTypeSGST</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">TaxTypeIGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">Integrated Goods and Service Tax, charged and collected by the central government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">TaxTypeIGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">Integrated Goods and Service Tax, charged and collected by the central government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">TaxTypeCGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">Central Goods and Service Tax, charged and collected by the central government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">TaxTypeCGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">Central Goods and Service Tax, charged and collected by the central government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">TaxTypeSGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 ">State Goods and Service Tax, charged and collected by the state government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">TaxTypeSGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 ">State Goods and Service Tax, charged and collected by the state government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1279 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1282 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1285 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1288 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1279 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1282 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1285 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1288 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -337,24 +337,24 @@ datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e1613" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e1616" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e1619" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e1622" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e1613" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e1616" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e1619" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e1622" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">The date when the financial event was created.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">The date when the financial event was created.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">TransactionType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">Indicates the type of transaction.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 "><span class="keyword parmname">TransactionType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">TransactionType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">Indicates the type of transaction.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 "><span class="keyword parmname">TransactionType</span> values:
 <div class="p">
 <ul>
 <li><var class="keyword varname">Charge - </var>For an affordability promotion expense.</li>
@@ -364,46 +364,46 @@ datatype:
 </div></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">BaseExpense</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">The amount charged for clicks incurred under the Sponsored Products program.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">BaseExpense</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">The amount charged for clicks incurred under the Sponsored Products program.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">TotalExpense</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">The total amount charged to the seller. <span class="keyword parmname">TotalExpense</span>=<span class="keyword parmname">BaseExpense</span>+<span class="keyword parmname">TaxTypeIGST</span>+<span class="keyword parmname">TaxTypeCGST</span>+<span class="keyword parmname">TaxTypeSGST</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">TotalExpense</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">The total amount charged to the seller. <span class="keyword parmname">TotalExpense</span>=<span class="keyword parmname">BaseExpense</span>+<span class="keyword parmname">TaxTypeIGST</span>+<span class="keyword parmname">TaxTypeCGST</span>+<span class="keyword parmname">TaxTypeSGST</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">TaxTypeIGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">Integrated Goods and Service Tax, charged and collected by the central government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">TaxTypeIGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">Integrated Goods and Service Tax, charged and collected by the central government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">TaxTypeCGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">Central Goods and Service Tax, charged and collected by the central government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">TaxTypeCGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">Central Goods and Service Tax, charged and collected by the central government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">TaxTypeSGST</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 ">State Goods and Service Tax, charged and collected by the state government.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">TaxTypeSGST</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 ">State Goods and Service Tax, charged and collected by the state government.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1613 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1616 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1619 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1622 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1613 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1616 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1619 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1622 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -442,18 +442,18 @@ class="keyword parmname">ChargeComponent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e1947" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e1950" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e1953" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e1956" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e1947" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e1950" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e1953" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e1956" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1947 "><span class="keyword parmname">ChargeType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1950 ">The type of charge.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1953 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1956 "><span class="keyword parmname">ChargeType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1947 "><span class="keyword parmname">ChargeType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1950 ">The type of charge.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1953 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1956 "><span class="keyword parmname">ChargeType</span> values:
 <ul>
 <li><var class="keyword varname">Principal</var> - The selling price of the order item, equal to the selling price of the item multiplied by the quantity ordered.</li>
 <li><var class="keyword varname">Tax</var> - The tax collected by the seller on the <var class="keyword varname">Principal</var>.</li>
@@ -490,10 +490,10 @@ class="keyword parmname">ChargeComponent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e1947 "><span class="keyword parmname">ChargeAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e1950 ">The amount of the charge.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e1953 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e1956 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e1947 "><span class="keyword parmname">ChargeAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e1950 ">The amount of the charge.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e1953 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e1956 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 </tbody>
 </table>
@@ -629,18 +629,18 @@ class="keyword parmname">DebtRecoveryEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e2839" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e2842" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e2845" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e2848" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e2839" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e2842" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e2845" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e2848" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e2839 "><span class="keyword parmname">DebtRecoveryType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e2842 ">The debt recovery type.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e2845 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e2848 "><span class="keyword parmname">DebtRecoveryType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e2839 "><span class="keyword parmname">DebtRecoveryType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e2842 ">The debt recovery type.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e2845 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e2848 "><span class="keyword parmname">DebtRecoveryType</span> values:
 <ul>
 <li><var class="keyword varname">DebtPayment</var></li>
 <li><var class="keyword varname">DebtPaymentFailure</var></li>
@@ -649,28 +649,28 @@ class="keyword parmname">DebtRecoveryEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e2839 "><span class="keyword parmname">RecoveryAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e2842 ">The amount applied for recovery.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e2845 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e2848 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e2839 "><span class="keyword parmname">RecoveryAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e2842 ">The amount applied for recovery.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e2845 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e2848 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e2839 "><span class="keyword parmname">OverPaymentCredit</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e2842 ">The amount returned for overpayment.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e2845 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e2848 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e2839 "><span class="keyword parmname">OverPaymentCredit</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e2842 ">The amount returned for overpayment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e2845 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e2848 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e2839 "><span class="keyword parmname">DebtRecoveryItemList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e2842 ">A list of settlement debt recovery items.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e2845 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e2848 ">Type: List of <a href="Finances_Datatypes.md#DebtRecoveryItem" class="xref" title="An item of a debt payment or debt adjustment.">DebtRecoveryItem</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e2839 "><span class="keyword parmname">DebtRecoveryItemList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e2842 ">A list of settlement debt recovery items.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e2845 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e2848 ">Type: List of <a href="Finances_Datatypes.md#DebtRecoveryItem" class="xref" title="An item of a debt payment or debt adjustment.">DebtRecoveryItem</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e2839 "><span class="keyword parmname">ChargeInstrumentList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e2842 ">A list of charge instruments used for <var class="keyword varname">DebtPayment</var> or <var class="keyword varname">DebtPaymentFailure</var> recovery types.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e2845 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e2848 ">Type: List of <a href="Finances_Datatypes.md#ChargeInstrument" class="xref" title="A payment instrument.">ChargeInstrument</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e2839 "><span class="keyword parmname">ChargeInstrumentList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e2842 ">A list of charge instruments used for <var class="keyword varname">DebtPayment</var> or <var class="keyword varname">DebtPaymentFailure</var> recovery types.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e2845 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e2848 ">Type: List of <a href="Finances_Datatypes.md#ChargeInstrument" class="xref" title="A payment instrument.">ChargeInstrument</a></td>
 </tr>
 </tbody>
 </table>
@@ -741,18 +741,18 @@ class="keyword parmname">DirectPayment</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e3273" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e3276" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e3279" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e3282" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e3273" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e3276" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e3279" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e3282" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3273 "><span class="keyword parmname">DirectPaymentType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3276 ">The type of payment.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3279 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3282 "><span class="keyword parmname">DirectPaymentType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3273 "><span class="keyword parmname">DirectPaymentType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3276 ">The type of payment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3279 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3282 "><span class="keyword parmname">DirectPaymentType</span> values:
 <ul>
 <li><var class="keyword varname">StoredValueCardRevenue</var> - The amount that is deducted from the seller's account because the seller received money through a stored value card.</li>
 <li><var class="keyword varname">StoredValueCardRefund</var> - The amount that Amazon returns to the seller if the order that is bought using a stored value card is refunded.</li>
@@ -764,10 +764,10 @@ class="keyword parmname">DirectPayment</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3273 "><span class="keyword parmname">DirectPaymentAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3276 ">The amount of the direct payment.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3279 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3282 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3273 "><span class="keyword parmname">DirectPaymentAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3276 ">The amount of the direct payment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3279 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3282 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 </tbody>
 </table>
@@ -840,25 +840,25 @@ class="keyword parmname">FeeComponent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e3636" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e3639" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e3642" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e3645" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e3636" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e3639" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e3642" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e3645" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3636 "><span class="keyword parmname">FeeType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3639 ">The type of fee.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3642 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3645 "><span class="keyword parmname">FeeType</span> values: one of the <a href="Finances_FeeTypes.md" class="xref" title="These are the fee types associated with various Amazon services.">Fee Types</a>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3636 "><span class="keyword parmname">FeeType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3639 ">The type of fee.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3642 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3645 "><span class="keyword parmname">FeeType</span> values: one of the <a href="Finances_FeeTypes.md" class="xref" title="These are the fee types associated with various Amazon services.">Fee Types</a>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3636 "><span class="keyword parmname">FeeAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3639 ">The amount of the fee.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3642 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3645 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3636 "><span class="keyword parmname">FeeAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3639 ">The amount of the fee.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3642 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3645 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 </tbody>
 </table>
@@ -898,24 +898,24 @@ class="keyword parmname">FinancialEventGroup</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e3786" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e3789" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e3792" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e3795" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e3786" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e3789" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e3792" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e3795" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">FinancialEventGroupId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">A unique identifier for the financial event group.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">FinancialEventGroupId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">A unique identifier for the financial event group.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">ProcessingStatus</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The processing status of the financial event group indicates whether the balance of the financial event group is settled.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="keyword parmname">ProcessingStatus</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">ProcessingStatus</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The processing status of the financial event group indicates whether the balance of the financial event group is settled.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="keyword parmname">ProcessingStatus</span> values:
 <ul>
 <li><var class="keyword varname">Open</var></li>
 <li><var class="keyword varname">Closed</var></li>
@@ -923,58 +923,58 @@ class="keyword parmname">FinancialEventGroup</span> datatype:
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">FundTransferStatus</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The status of the fund transfer.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">FundTransferStatus</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The status of the fund transfer.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">OriginalTotal</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The total amount in the currency of the marketplace in which the transactions occurred.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">OriginalTotal</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The total amount in the currency of the marketplace in which the transactions occurred.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">ConvertedTotal</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The total amount in the currency of the marketplace in which the funds were disbursed.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">ConvertedTotal</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The total amount in the currency of the marketplace in which the funds were disbursed.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">FundTransferDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The date when the disbursement or charge was initiated. Only present for closed settlements. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">FundTransferDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The date when the disbursement or charge was initiated. Only present for closed settlements. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">TraceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The trace ID used by sellers to look up transactions externally.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">TraceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The trace ID used by sellers to look up transactions externally.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">AccountTail</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The account tail of the payment instrument.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">AccountTail</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The account tail of the payment instrument.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">BeginningBalance</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The balance at the beginning of the settlement period.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">BeginningBalance</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The balance at the beginning of the settlement period.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">FinancialEventGroupStart</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The time at which the financial event group started. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">FinancialEventGroupStart</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The time at which the financial event group started. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e3786 "><span class="keyword parmname">FinancialEventGroupEnd</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e3789 ">The time at which the financial event group ended. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e3792 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e3795 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e3786 "><span class="keyword parmname">FinancialEventGroupEnd</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e3789 ">The time at which the financial event group ended. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e3792 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e3795 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 </tbody>
 </table>
@@ -1098,24 +1098,24 @@ class="keyword parmname">LoanServicingEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e5036" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e5039" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e5042" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e5045" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e5036" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e5039" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e5042" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e5045" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5036 "><span class="keyword parmname">LoanAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5039 ">The amount of the loan.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5042 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5045 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5036 "><span class="keyword parmname">LoanAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5039 ">The amount of the loan.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5042 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5045 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5036 "><span class="keyword parmname">SourceBusinessEventType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5039 ">The type of event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5042 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5045 "><span class="keyword parmname">SourceBusinessEventType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5036 "><span class="keyword parmname">SourceBusinessEventType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5039 ">The type of event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5042 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5045 "><span class="keyword parmname">SourceBusinessEventType</span> values:
 <ul>
 <li><var class="keyword varname">LoanAdvance</var></li>
 <li><var class="keyword varname">LoanPayment</var></li>
@@ -1161,36 +1161,36 @@ datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e5190" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e5193" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e5196" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e5199" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e5190" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e5193" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e5196" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e5199" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 "><span class="ph">The date when the financial event was posted.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 "><span class="ph">The date when the financial event was posted.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">NetCoTransactionID</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The identifier for the network item swap.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">NetCoTransactionID</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The identifier for the network item swap.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">SwapReason</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The reason for the network item swap.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">SwapReason</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The reason for the network item swap.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">TransactionType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The type of network item swap.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="keyword parmname">TransactionType</span> value:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">TransactionType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The type of network item swap.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="keyword parmname">TransactionType</span> value:
 <ul>
 <li><var class="keyword varname">NetCo</var> - A <span class="ph">Fulfillment by Amazon</span> inventory pooling transaction. Available only in the India marketplace.</li>
 <li><var class="keyword varname">ComminglingVAT</var> - A commingling VAT transaction. Available only in the UK, Spain, France, Germany, and Italy marketplaces.</li>
@@ -1198,28 +1198,28 @@ datatype:
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">ASIN</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The ASIN of the swapped item.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">ASIN</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The ASIN of the swapped item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The marketplace in which the event took place.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The marketplace in which the event took place.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">TaxExclusiveAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The price of the swapped item minus <span class="keyword parmname">TaxAmount</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">TaxExclusiveAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The price of the swapped item minus <span class="keyword parmname">TaxAmount</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5190 "><span class="keyword parmname">TaxAmount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5193 ">The tax on the network item swap paid by the seller.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5196 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5199 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5190 "><span class="keyword parmname">TaxAmount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5193 ">The tax on the network item swap paid by the seller.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5196 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5199 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 </tbody>
 </table>
@@ -1259,74 +1259,74 @@ class="keyword parmname">PayWithAmazonEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e5471" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e5474" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e5477" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e5480" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e5471" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e5474" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e5477" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e5480" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">SellerOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">An order identifier that is specified by the seller.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">SellerOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">An order identifier that is specified by the seller.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">TransactionPostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The date when the payment transaction is posted. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">TransactionPostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The date when the payment transaction is posted. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">BusinessObjectType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The type of business object.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="keyword parmname">BusinessObjectType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">BusinessObjectType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The type of business object.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="keyword parmname">BusinessObjectType</span> values:
 <ul>
 <li><var class="keyword varname">PaymentContract</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">SalesChannel</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The sales channel for the transaction.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">SalesChannel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The sales channel for the transaction.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">Charge</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The charge associated with the event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 ">Type: <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">Charge</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The charge associated with the event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 ">Type: <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">FeeList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">A list of fees associated with the event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 ">Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">FeeList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">A list of fees associated with the event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 ">Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">PaymentAmountType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The type of payment.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="keyword parmname">PaymentAmountType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">PaymentAmountType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The type of payment.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="keyword parmname">PaymentAmountType</span> values:
 <ul>
 <li><var class="keyword varname">Sales</var></li>
 </ul>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">AmountDescription</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">A short description of this payment event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">AmountDescription</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">A short description of this payment event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">FulfillmentChannel</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The fulfillment channel.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="keyword parmname">FulfillmentChannel</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">FulfillmentChannel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The fulfillment channel.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
 <li><var class="keyword varname">AFN</var> - Amazon Fulfillment Network (<span class="ph">Fulfillment by Amazon</span>)</li>
 <li><var class="keyword varname">MFN</var> - Merchant Fulfillment Network (<span class="ph">self-fulfilled</span>)</li>
@@ -1334,10 +1334,10 @@ class="keyword parmname">PayWithAmazonEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5471 "><span class="keyword parmname">StoreName</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5474 ">The store name where the event occurred.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5477 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5480 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5471 "><span class="keyword parmname">StoreName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5474 ">The store name where the event occurred.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5477 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5480 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -1376,24 +1376,24 @@ class="keyword parmname">ProductAdsPaymentEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e5815" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e5818" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e5821" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e5824" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e5815" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e5818" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e5821" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e5824" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">postedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 "><span class="ph">The date when the financial event was posted.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">postedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 "><span class="ph">The date when the financial event was posted.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">transactionType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 ">Indicates if the transaction is for a charge or a refund.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 "><span class="keyword parmname">transactionType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">transactionType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 ">Indicates if the transaction is for a charge or a refund.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 "><span class="keyword parmname">transactionType</span> values:
 <ul>
 <li><span class="keyword parmname">charge</span> - Charge</li>
 <li><span class="keyword parmname">refund</span> - Refund</li>
@@ -1401,28 +1401,28 @@ class="keyword parmname">ProductAdsPaymentEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">invoiceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 ">Identifier for the invoice that the transaction appears in.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">invoiceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 ">Identifier for the invoice that the transaction appears in.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">baseValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 ">Base amount of the transaction, before tax.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">baseValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 ">Base amount of the transaction, before tax.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">taxValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 "><p>Tax amount of the transaction.</p></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">taxValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 "><p>Tax amount of the transaction.</p></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e5815 "><span class="keyword parmname">transactionValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e5818 "><p>The total amount of the transaction. Equal to <span class="keyword parmname">baseValue</span> + <span class="keyword parmname">taxValue</span>.</p></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e5821 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e5815 "><span class="keyword parmname">transactionValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e5818 "><p>The total amount of the transaction. Equal to <span class="keyword parmname">baseValue</span> + <span class="keyword parmname">taxValue</span>.</p></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e5821 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e5824 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 </tbody>
 </table>
@@ -1492,24 +1492,24 @@ class="keyword parmname">RentalTransactionEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e6222" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e6225" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e6228" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e6231" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e6222" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e6225" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e6228" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e6231" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalEventType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">The type of rental event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 "><span class="keyword parmname">RentalEventType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalEventType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">The type of rental event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 "><span class="keyword parmname">RentalEventType</span> values:
 <ul>
 <li><var class="keyword varname">RentalCustomerPayment-Buyout</var> - Transaction type that represents when customer wants to buy out a rented item.</li>
 <li><var class="keyword varname">RentalCustomerPayment-Extension</var> - Transaction type that represents when customer wants to extend the rental period.</li>
@@ -1522,52 +1522,52 @@ class="keyword parmname">RentalTransactionEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">ExtensionLength</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">The number of days that the buyer extended an already rented item. This value is only returned for <var class="keyword varname">RentalCustomerPayment-Extension</var> and <var class="keyword varname">RentalCustomerRefund-Extension</var> events.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">ExtensionLength</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">The number of days that the buyer extended an already rented item. This value is only returned for <var class="keyword varname">RentalCustomerPayment-Extension</var> and <var class="keyword varname">RentalCustomerRefund-Extension</var> events.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 "><span class="ph">Type: xs:int</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 "><span class="ph">The date when the financial event was posted.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 "><span class="ph">The date when the financial event was posted.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalChargeList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">A list of charges associated with the rental event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 ">Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalChargeList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">A list of charges associated with the rental event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 ">Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalFeeList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">A list of fees associated with the rental event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 ">Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalFeeList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">A list of fees associated with the rental event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 ">Type: List of <a href="Finances_Datatypes.md#FeeComponent" class="xref" title="A fee on the seller&#39;s account.">FeeComponent</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">MarketplaceName</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">The name of the marketplace.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">MarketplaceName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">The name of the marketplace.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalInitialValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">The amount of money the customer originally paid to rent the item. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalInitialValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">The amount of money the customer originally paid to rent the item. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalReimbursement</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">The amount of money Amazon sends the seller to compensate for a lost item or a failed charge. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalReimbursement</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">The amount of money Amazon sends the seller to compensate for a lost item or a failed charge. This value is only returned for <var class="keyword varname">RentalChargeFailureReimbursement</var> and <var class="keyword varname">RentalLostItemReimbursement</var> events.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6222 "><span class="keyword parmname">RentalTaxWithheldList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6225 ">A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for a rental item.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6228 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6231 ">Type: List of <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6222 "><span class="keyword parmname">RentalTaxWithheldList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6225 ">A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for a rental item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6228 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6231 ">Type: List of <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a></td>
 </tr>
 </tbody>
 </table>
@@ -1606,18 +1606,18 @@ class="keyword parmname">RetrochargeEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e6606" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e6609" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e6612" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e6615" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e6606" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e6609" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e6612" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e6615" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">RetrochargeEventType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 ">The type of event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 "><span class="keyword parmname">RetrochargeEventType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">RetrochargeEventType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 ">The type of event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 "><span class="keyword parmname">RetrochargeEventType</span> values:
 <ul>
 <li><var class="keyword varname">Retrocharge</var></li>
 <li><var class="keyword varname">RetrochargeReversal</var></li>
@@ -1625,40 +1625,40 @@ class="keyword parmname">RetrochargeEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 "><span class="ph">An Amazon-defined identifier for an order.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">PostedDate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 "><span class="ph">The date when the financial event was posted.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 "><span class="ph">Type: xs:dateTime</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">PostedDate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 "><span class="ph">The date when the financial event was posted.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 "><span class="ph">Type: xs:dateTime</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">BaseTax</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 ">The base tax associated with the retrocharge event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">BaseTax</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 ">The base tax associated with the retrocharge event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">ShippingTax</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 ">The shipping tax associated with the retrocharge event.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">ShippingTax</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 ">The shipping tax associated with the retrocharge event.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 ">Type: <a href="Finances_Datatypes.md#CurrencyAmount" class="xref" title="A currency type and amount.">CurrencyAmount</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">MarketplaceName</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 ">The name of the marketplace where the retrocharge event occurred.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">MarketplaceName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 ">The name of the marketplace where the retrocharge event occurred.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e6606 "><span class="keyword parmname">RetrochargeTaxWithheldComponentList</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e6609 ">A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for Marketplace Facilitator taxes withheld.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e6612 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e6615 ">Type: List of <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e6606 "><span class="keyword parmname">RetrochargeTaxWithheldComponentList</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e6609 ">A list of <span class="keyword parmname">TaxWithheldComponent</span> elements for Marketplace Facilitator taxes withheld.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e6612 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e6615 ">Type: List of <a href="Finances_Datatypes.md#TaxWithheldComponent" class="xref" title="Information about the taxes withheld.">TaxWithheldComponent</a></td>
 </tr>
 </tbody>
 </table>
@@ -1914,18 +1914,18 @@ class="keyword parmname">SolutionProviderCreditEvent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e8482" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e8485" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e8488" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e8491" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e8482" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e8485" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e8488" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e8491" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">ProviderTransactionType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The transaction type.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="keyword parmname">ProviderTransactionType</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">ProviderTransactionType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The transaction type.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="keyword parmname">ProviderTransactionType</span> values:
 <ul>
 <li><var class="keyword varname">ProviderCredit</var></li>
 <li><var class="keyword varname">ProviderCreditReversal</var></li>
@@ -1933,46 +1933,46 @@ class="keyword parmname">SolutionProviderCreditEvent</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">SellerOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">A seller-defined identifier for an order.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">SellerOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">A seller-defined identifier for an order.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The identifier of the marketplace where the order was placed.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The identifier of the marketplace where the order was placed.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">MarketplaceCountryCode</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The two-letter country code of the country associated with the marketplace where the order was placed.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">MarketplaceCountryCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The two-letter country code of the country associated with the marketplace where the order was placed.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">SellerId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The Amazon-defined identifier of the seller.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The Amazon-defined identifier of the seller.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">SellerStoreName</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The store name where the payment event occurred.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">SellerStoreName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The store name where the payment event occurred.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">ProviderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The Amazon-defined identifier of the solution provider.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">ProviderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The Amazon-defined identifier of the solution provider.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8482 "><span class="keyword parmname">ProviderStoreName</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8485 ">The store name where the payment event occurred.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8488 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8491 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8482 "><span class="keyword parmname">ProviderStoreName</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8485 ">The store name where the payment event occurred.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8488 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8491 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -2043,18 +2043,18 @@ class="keyword parmname">TaxWithheldComponent</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d133957e8894" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d133957e8897" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d133957e8900" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d133957e8903" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d134202e8894" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d134202e8897" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d134202e8900" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d134202e8903" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8894 "><span class="keyword parmname">TaxCollectionModel</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8897 ">The tax collection model applied to the item.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8900 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8903 "><span class="keyword parmname">TaxCollectionModel</span> value:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8894 "><span class="keyword parmname">TaxCollectionModel</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8897 ">The tax collection model applied to the item.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8900 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8903 "><span class="keyword parmname">TaxCollectionModel</span> value:
 <ul>
 <li><var class="keyword varname">MarketplaceFacilitator</var> - Tax is withheld and remitted to the taxing authority by Amazon on behalf of the seller.</li>
 <li><var class="keyword varname">Standard</var> - Tax is paid to the seller and not remitted to the taxing authority by Amazon.</li>
@@ -2062,10 +2062,10 @@ class="keyword parmname">TaxWithheldComponent</span> datatype:
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d133957e8894 "><span class="keyword parmname">TaxesWithheld</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d133957e8897 ">A list of <span class="keyword parmname">ChargeComponent</span> elements that represent the types and amounts of taxes withheld.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d133957e8900 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d133957e8903 ">Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d134202e8894 "><span class="keyword parmname">TaxesWithheld</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d134202e8897 ">A list of <span class="keyword parmname">ChargeComponent</span> elements that represent the types and amounts of taxes withheld.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d134202e8900 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d134202e8903 ">Type: List of <a href="Finances_Datatypes.md#ChargeComponent" class="xref" title="A charge on the seller&#39;s account.">ChargeComponent</a>
 <p><span class="keyword parmname">ChargeType</span> values for <span class="keyword parmname">TaxesWithheld</span> are <var class="keyword varname">MarketplaceFacilitatorTax-Principal</var>, <var class="keyword varname">MarketplaceFacilitatorTax-Shipping</var>, <var class="keyword varname">MarketplaceFacilitatorTax-GiftWrap</var>, and <var class="keyword varname">MarketplaceFacilitatorTax-Other</var>.</p></td>
 </tr>
 </tbody>

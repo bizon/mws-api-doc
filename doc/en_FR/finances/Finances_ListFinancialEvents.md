@@ -124,68 +124,68 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d162844e169" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d162844e172" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d162844e175" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d162844e178" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d163089e169" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d163089e172" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d163089e175" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d163089e178" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e169 "><span class="keyword parmname">MaxResultsPerPage</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e172 ">The maximum number of results to return per page.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d162844e175 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e178 ">Minimum: 1
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e169 "><span class="keyword parmname">MaxResultsPerPage</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e172 ">The maximum number of results to return per page.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d163089e175 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e178 ">Minimum: 1
 <p>Maximum: 100</p>
 <p>Default: 100</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e169 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e172 ">The identifier of the order for which you want to obtain all financial events.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d162844e175 ">You can only specify one of the following filter criteria:
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e169 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e172 ">The identifier of the order for which you want to obtain all financial events.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d163089e175 ">You can only specify one of the following filter criteria:
 <ul>
 <li><span class="keyword parmname">AmazonOrderId</span></li>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e178 ">Any valid Amazon order identifier in 3-7-7 format.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e178 ">Any valid Amazon order identifier in 3-7-7 format.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e169 "><span class="keyword parmname">FinancialEventGroupId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e172 ">The identifier of the financial event group for which you want to obtain all financial events.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d162844e175 ">You can only specify one of the following filter criteria:
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e169 "><span class="keyword parmname">FinancialEventGroupId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e172 ">The identifier of the financial event group for which you want to obtain all financial events.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d163089e175 ">You can only specify one of the following filter criteria:
 <ul>
 <li><span class="keyword parmname">AmazonOrderId</span></li>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e178 ">Any valid financial event group identifier.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e178 ">Any valid financial event group identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e169 "><span class="keyword parmname">PostedAfter</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e172 ">A date used for selecting financial events posted after (or at) a specified time.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d162844e175 ">You can only specify one of the following filter criteria:
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e169 "><span class="keyword parmname">PostedAfter</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e172 ">A date used for selecting financial events posted after (or at) a specified time.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d163089e175 ">You can only specify one of the following filter criteria:
 <ul>
 <li><span class="keyword parmname">AmazonOrderId</span></li>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e178 ">Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e178 ">Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e169 "><span class="keyword parmname">PostedBefore</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e172 ">A date used for selecting financial events posted before (but not at) a specified time.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d162844e175 ">You can only specify one of the following filter criteria:
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e169 "><span class="keyword parmname">PostedBefore</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e172 ">A date used for selecting financial events posted before (but not at) a specified time.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d163089e175 ">You can only specify one of the following filter criteria:
 <ul>
 <li><span class="keyword parmname">AmazonOrderId</span></li>
 <li><span class="keyword parmname">FinancialEventGroupId</span></li>
 <li><span class="keyword parmname">PostedAfter</span> and optionally <span class="keyword parmname">PostedBefore</span></li>
 </ul></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d162844e178 ">Any date later than <span class="keyword parmname">PostedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">PostedAfter</span> and <span class="keyword parmname">PostedBefore</span> are more than 180 days apart, no financial events are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d163089e178 ">Any date later than <span class="keyword parmname">PostedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">PostedAfter</span> and <span class="keyword parmname">PostedBefore</span> are more than 180 days apart, no financial events are returned.
 <p>You must specify the <span class="keyword parmname">PostedAfter</span> request parameter if you specify this request parameter.</p>
 <p>Default: Now minus two minutes</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
@@ -216,20 +216,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d162844e405" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d162844e408" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d163089e405" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d163089e408" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d162844e405 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d162844e408 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial events to return.
+<td class="entry" data-valign="top" width="50%" headers="d163089e405 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d163089e408 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial events to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d162844e405 "><span class="keyword parmname">FinancialEvents</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d162844e408 ">Contains the financial events that meet the criteria specified in the request.
+<td class="entry" data-valign="top" width="50%" headers="d163089e405 "><span class="keyword parmname">FinancialEvents</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d163089e408 ">Contains the financial events that meet the criteria specified in the request.
 <p>Type: <a href="Finances_Datatypes.md#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
 </tr>
 </tbody>

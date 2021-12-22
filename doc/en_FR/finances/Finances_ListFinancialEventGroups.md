@@ -119,34 +119,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d161191e172" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d161191e175" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d161191e178" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d161191e181" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d161436e172" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d161436e175" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d161436e178" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d161436e181" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e172 "><span class="keyword parmname">MaxResultsPerPage</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e175 ">The maximum number of results to return per page.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161191e178 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e181 ">Minimum: 1
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e172 "><span class="keyword parmname">MaxResultsPerPage</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e175 ">The maximum number of results to return per page.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161436e178 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e181 ">Minimum: 1
 <p>Maximum: 100</p>
 <p>Default: 100</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e172 "><span class="keyword parmname">FinancialEventGroupStartedAfter</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e175 ">A date used for selecting financial event groups. Financial event groups that started on or after the specified time, or had <samp class="ph codeph">ProcessingStatus=Open</samp> at the specified time, are selected.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161191e178 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e181 ">Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e172 "><span class="keyword parmname">FinancialEventGroupStartedAfter</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e175 ">A date used for selecting financial event groups. Financial event groups that started on or after the specified time, or had <samp class="ph codeph">ProcessingStatus=Open</samp> at the specified time, are selected.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161436e178 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e181 ">Any date no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e172 "><span class="keyword parmname">FinancialEventGroupStartedBefore</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e175 ">A date used for selecting financial event groups that opened before (but not at) a specified time.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161191e178 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161191e181 ">Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e172 "><span class="keyword parmname">FinancialEventGroupStartedBefore</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e175 ">A date used for selecting financial event groups that opened before (but not at) a specified time.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d161436e178 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d161436e181 ">Any date later than <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and no later than two minutes before the request was submitted, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>. If <span class="keyword parmname">FinancialEventGroupStartedAfter</span> and <span class="keyword parmname">FinancialEventGroupStartedBefore</span> are more than 180 days apart, no financial event groups are returned.
 <p>Default: Now minus two minutes</p>
 <span class="ph">Type: xs:dateTime</span></td>
 </tr>
@@ -176,20 +176,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d161191e298" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d161191e301" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d161436e298" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d161436e301" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d161191e298 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d161191e301 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
+<td class="entry" data-valign="top" width="50%" headers="d161436e298 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d161436e301 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d161191e298 "><span class="keyword parmname">FinancialEventGroupList</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d161191e301 ">Contains the financial event groups that meet the criteria specified in the request.
+<td class="entry" data-valign="top" width="50%" headers="d161436e298 "><span class="keyword parmname">FinancialEventGroupList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d161436e301 ">Contains the financial event groups that meet the criteria specified in the request.
 <p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>
