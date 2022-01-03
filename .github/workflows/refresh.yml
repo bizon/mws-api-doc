@@ -29,7 +29,7 @@ jobs:
       - name: Install pandoc
         run: |
           wget \
-            https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1-amd64.deb \
+            https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-1-amd64.deb \
             --output-document=/tmp/pandoc.deb \
           && sudo dpkg -i /tmp/pandoc.deb
 
