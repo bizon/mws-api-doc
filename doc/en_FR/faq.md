@@ -107,7 +107,7 @@ Profile?**
 
 Choose the roles you require for your application(s) based on the role
 descriptions here -
-<https://github.com/amzn/selling-partner-api-docs/blob/main/guides/roles/Roles-in-the-Selling-Partner-API.md>.
+<a href="https://github.com/amzn/selling-partner-api-docs/blob/main/guides/roles/Roles-in-the-Selling-Partner-API.md" class="xref">https://github.com/amzn/selling-partner-api-docs/blob/main/guides/roles/Roles-in-the-Selling-Partner-API.md</a>.
 Note that access to the Selling Partner API follows the principle of
 least privilege, meaning that you will not be able to access APIs within
 roles unless you explicitly select those roles in your Developer
@@ -161,10 +161,11 @@ Seller Central account to access the form. What should I do?**
 To get help signing into your Seller Central account, go to
 <a href="https://sellercentral.amazon.com/gp/help/external/G200123250" class="xref">Seller Central sign in help</a>.
 If you are still unable to sign in, click this link to create a support
-case: <https://sellercentral.amazon.com/cu/help/contact-us>. On the
-**Seller Central Technical Support Page**: (1) In the **Topic** list,
-select **Other question or request**. (2) In the **Business Name** box,
-enter the name associated with your developer account. (3) In the
+case:
+<a href="https://sellercentral.amazon.com/cu/help/contact-us" class="xref">https://sellercentral.amazon.com/cu/help/contact-us</a>.
+On the **Seller Central Technical Support Page**: (1) In the **Topic**
+list, select **Other question or request**. (2) In the **Business Name**
+box, enter the name associated with your developer account. (3) In the
 **Primary E-mail recipient** box, enter your email address. (4) In the
 **Question or Comment** box, enter "I do not know my selling account ID
 or email. My Amazon MWS Developer ID is xxx. Please assist." (5) Click

@@ -183,9 +183,9 @@ class="keyword apiname">GetMatchingProduct</span> operation returns are
 described by the following publicly available XSDs:
 
 -   ProductsAPI_Response.xsd:
-    <http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd>
+    <a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd" class="xref">http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/ProductsAPI_Response.xsd</a>
 -   default.xsd:
-    <http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd>
+    <a href="http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd" class="xref">http://g-ecx.images-amazon.com/images/G/01/mwsportal/doc/en_US/products/default.xsd</a>
 
 The following table provides additional information about some of the
 key elements that are returned by the <span

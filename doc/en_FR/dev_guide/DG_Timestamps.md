@@ -55,15 +55,16 @@ class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time 
 requests with a timestamp significantly different (15 minutes) than the
 receiving machine's clock will be rejected to help prevent replay
 attacks. For more information about timestamps in XML, see
-<http://www.w3.org/TR/xmlschema-2/#dateTime>.
+<a href="http://www.w3.org/TR/xmlschema-2/#dateTime" class="xref">http://www.w3.org/TR/xmlschema-2/#dateTime</a>.
 
 Every <span class="ph">Amazon MWS</span> response includes a Date header
 in its HTTP response that you can use to check whether your local
 machine's time matches our server's time, such as Date: Tue, 24 Mar 2009
 20:34:28 GMT You can also load the <span class="ph">Amazon MWS</span>
-address <https://mws.amazonservices.com/> in any Web browser (no request
-is needed) to receive a response with the current <span
-class="ph">Amazon MWS</span> server time:
+address
+<a href="https://mws.amazonservices.com/" class="xref">https://mws.amazonservices.com/</a>
+in any Web browser (no request is needed) to receive a response with the
+current <span class="ph">Amazon MWS</span> server time:
 
 ``` pre
 <?xml version="1.0"?>
@@ -79,7 +80,8 @@ Here are a few additional considerations when working with timestamps:
     `Timestamp` should not break if sibling XML tags start to appear.
     Generally, you should ignore unknown tags in any XML <span
     class="ph">Amazon MWS</span> sends you, as per the web architectural
-    principle in Section 5.2 of <http://www.w3.org/TR/webarch/>.
+    principle in Section 5.2 of
+    <a href="http://www.w3.org/TR/webarch/" class="xref">http://www.w3.org/TR/webarch/</a>.
 -   If you specify a timestamp (instead of an expiration time), the
     request automatically expires 15 minutes after the timestamp. In
     other words, <span class="ph">Amazon MWS</span> does not process a
