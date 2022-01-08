@@ -120,25 +120,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d328215e182" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d328215e185" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d328215e188" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d328215e191" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d328291e182" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d328291e185" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d328291e188" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d328291e191" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e182 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e185 ">The unique identifier for the marketplace.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d328215e188 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e191 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e182 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e185 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d328291e188 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e191 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e182 "><span class="keyword parmname">Subscription</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e185 ">The subscription to update. All child elements except the <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span> can be changed.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d328215e188 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328215e191 ">Any valid <span class="keyword parmname">Subscription</span> that you previously created by calling the <span class="keyword apiname">CreateSubscription</span> operation.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e182 "><span class="keyword parmname">Subscription</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e185 ">The subscription to update. All child elements except the <span class="keyword parmname">NotificationType</span> and <span class="keyword parmname">Destination</span> can be changed.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d328291e188 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d328291e191 ">Any valid <span class="keyword parmname">Subscription</span> that you previously created by calling the <span class="keyword apiname">CreateSubscription</span> operation.
 <p>Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></p></td>
 </tr>
 </tbody>

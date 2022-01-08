@@ -185,7 +185,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p>Example: <samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p></td>
 <td class="entry" data-valign="top" width="12.5%" headers="d298916e249 ">No</td>
 <td class="entry" data-valign="top" width="25%" headers="d298916e252 ">Marketplace IDs for marketplaces you are registered to sell in.
-<p>Default: The first marketplace that you registered to sell in.</p>
+<div class="p">
+Default: For the following enumeration values, this value defaults to the first marketplace that you registered to sell in:
+<ul>
+<li><samp class="ph codeph">_GET_FLAT_FILE_OPEN_LISTINGS_DATA_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_LITE_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_LITER_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_LISTINGS_DATA_BACK_COMPAT_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_CANCELLED_LISTINGS_DATA_</samp></li>
+<li><samp class="ph codeph">_GET_MERCHANT_LISTINGS_DEFECT_DATA_</samp></li>
+<li><samp class="ph codeph">_GET_REFERRAL_FEE_PREVIEW_REPORT_</samp></li>
+</ul>
+For all other report types, this value defaults to all marketplaces that can be applied to the report request.
+</div>
 <p>Type: List of <span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -212,14 +225,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d298916e464" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d298916e467" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d298916e500" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d298916e503" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d298916e464 "><span class="keyword parmname">ReportRequestInfo</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d298916e467 "><span class="ph">Detailed information about a report request.</span>
+<td class="entry" data-valign="top" width="50%" headers="d298916e500 "><span class="keyword parmname">ReportRequestInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d298916e503 "><span class="ph">Detailed information about a report request.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
 </tr>
 </tbody>
