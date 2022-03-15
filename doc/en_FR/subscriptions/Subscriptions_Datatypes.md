@@ -164,29 +164,29 @@ class="keyword parmname">Destination</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d318310e387" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d318310e390" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d318310e393" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d318310e396" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d318250e387" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d318250e390" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d318250e393" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d318250e396" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e387 "><span class="keyword parmname">DeliveryChannel</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e390 ">The technology that you are using to receive notifications.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e387 "><span class="keyword parmname">DeliveryChannel</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e390 ">The technology that you are using to receive notifications.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318310e393 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e396 "><span class="keyword parmname">DeliveryChannel</span> values:
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318250e393 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e396 "><span class="keyword parmname">DeliveryChannel</span> values:
 <ul>
 <li><var class="keyword varname">SQS</var></li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e387 "><span class="keyword parmname">AttributeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e390 ">Contains attributes related to the specified <span class="keyword parmname">DeliveryChannel</span>.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e387 "><span class="keyword parmname">AttributeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e390 ">Contains attributes related to the specified <span class="keyword parmname">DeliveryChannel</span>.
 <p>Type: List of <a href="#AttributeKeyValue" class="xref" title="A structure that contains attributes related to a Destination.">AttributeKeyValue</a></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318310e393 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e396 ">For <span class="keyword parmname">AttributeList</span> values, see <a href="#AttributeKeyValue" class="xref" title="A structure that contains attributes related to a Destination.">AttributeKeyValue</a>. Each <span class="keyword parmname">AttributeKeyValue</span> datatype will differ depending on the <span class="keyword parmname">DeliveryChannel</span> specified here.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318250e393 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e396 ">For <span class="keyword parmname">AttributeList</span> values, see <a href="#AttributeKeyValue" class="xref" title="A structure that contains attributes related to a Destination.">AttributeKeyValue</a>. Each <span class="keyword parmname">AttributeKeyValue</span> datatype will differ depending on the <span class="keyword parmname">DeliveryChannel</span> specified here.</td>
 </tr>
 </tbody>
 </table>
@@ -226,33 +226,33 @@ class="keyword parmname">Subscription</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d318310e562" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d318310e565" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d318310e568" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d318310e571" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d318250e562" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d318250e565" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d318250e568" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d318250e571" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e562 "><span class="keyword parmname">NotificationType</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e565 ">The type of notification that you want to subscribe to.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e562 "><span class="keyword parmname">NotificationType</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e565 ">The type of notification that you want to subscribe to.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318310e568 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e571 ">For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318250e568 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e571 ">For <span class="keyword parmname">NotificationType</span> values, see <a href="Subscriptions_NotificationType.md" class="xref">NotificationType enumeration</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e562 "><span class="keyword parmname">Destination</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e565 ">The delivery channel that you previously created and registered where you will receive notifications.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e562 "><span class="keyword parmname">Destination</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e565 ">The delivery channel that you previously created and registered where you will receive notifications.
 <p>Type: <a href="#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318310e568 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e571 ">Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318250e568 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e571 ">Any valid <span class="keyword parmname">Destination</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e562 "><span class="keyword parmname">IsEnabled</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e565 ">Indicates whether to enable subscriptions of the given notification type at the given destination.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e562 "><span class="keyword parmname">IsEnabled</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e565 ">Indicates whether to enable subscriptions of the given notification type at the given destination.
 <p><span class="ph">Type: xs:boolean</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318310e568 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318310e571 "><var class="keyword varname">true</var> if you want to enable the subscription at the destination; otherwise, <var class="keyword varname">false</var>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318250e568 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318250e571 "><var class="keyword varname">true</var> if you want to enable the subscription at the destination; otherwise, <var class="keyword varname">false</var>.</td>
 </tr>
 </tbody>
 </table>
