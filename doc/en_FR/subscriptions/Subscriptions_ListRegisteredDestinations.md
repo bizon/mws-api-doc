@@ -116,18 +116,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d323094e169" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d323094e172" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d323094e175" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d323094e178" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d323640e169" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d323640e172" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d323640e175" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d323640e178" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323094e169 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323094e172 ">The unique identifier for the marketplace.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d323094e175 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323094e178 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323640e169 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323640e172 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d323640e175 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d323640e178 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -154,14 +154,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d323094e244" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d323094e247" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d323640e244" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d323640e247" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d323094e244 "><span class="keyword parmname">DestinationList</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d323094e247 ">Contains all valid <span class="keyword parmname">Destination</span> objects for the specified <span class="keyword parmname">MarketplaceId</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
+<td class="entry" data-valign="top" width="50%" headers="d323640e244 "><span class="keyword parmname">DestinationList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d323640e247 ">Contains all valid <span class="keyword parmname">Destination</span> objects for the specified <span class="keyword parmname">MarketplaceId</span> that you previously registered by calling the <span class="keyword apiname">RegisterDestination</span> operation.
 <p>Type: List of <a href="Subscriptions_Datatypes.md#Destination" class="xref" title="A delivery channel that you create to receive notifications.">Destination</a></p></td>
 </tr>
 </tbody>
