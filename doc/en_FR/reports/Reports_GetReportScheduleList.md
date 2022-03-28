@@ -127,18 +127,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d287980e178" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d287980e181" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d287980e184" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d287980e187" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d288526e178" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d288526e181" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d288526e184" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d288526e187" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__parm_ReportTypeList" class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287980e178 "><span class="keyword parmname">ReportTypeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287980e181 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d287980e184 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287980e187 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288526e178 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288526e181 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d288526e184 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288526e187 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -165,24 +165,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d287980e253" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d287980e256" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d288526e253" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d288526e256" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d287980e253 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d287980e256 ">This element will never be returned for this operation because there can never be more than 100 report types scheduled.
+<td class="entry" data-valign="top" width="50%" headers="d288526e253 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d288526e256 ">This element will never be returned for this operation because there can never be more than 100 report types scheduled.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d287980e253 "><span class="keyword parmname">HasNext</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d287980e256 ">A Boolean value that is always returned <var class="keyword varname">false</var> because there can never be more than 100 report types scheduled.
+<td class="entry" data-valign="top" width="50%" headers="d288526e253 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d288526e256 ">A Boolean value that is always returned <var class="keyword varname">false</var> because there can never be more than 100 report types scheduled.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d287980e253 "><span class="keyword parmname">ReportSchedule</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d287980e256 "><span class="ph">Detailed information about a report schedule.</span>
+<td class="entry" data-valign="top" width="50%" headers="d288526e253 "><span class="keyword parmname">ReportSchedule</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d288526e256 "><span class="ph">Detailed information about a report schedule.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
 </tr>
 </tbody>
