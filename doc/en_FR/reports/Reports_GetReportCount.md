@@ -124,39 +124,39 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d281688e174" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d281688e177" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d281688e180" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d281688e183" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d281807e174" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d281807e177" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d281807e180" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d281807e183" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__parm_ReportTypeList" class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e174 "><span class="keyword parmname">ReportTypeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e177 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281688e180 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e183 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e174 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e177 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281807e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e183 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e174 "><span class="keyword parmname">Acknowledged</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e177 "><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281688e180 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e183 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e174 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e177 "><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281807e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e183 ">Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e174 "><span class="keyword parmname">AvailableFromDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e177 ">The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281688e180 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e183 ">Default: 90 days ago
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e174 "><span class="keyword parmname">AvailableFromDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e177 ">The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281807e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e183 ">Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e174 "><span class="keyword parmname">AvailableToDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e177 ">The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281688e180 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281688e183 ">Default: Now
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e174 "><span class="keyword parmname">AvailableToDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e177 ">The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d281807e180 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d281807e183 ">Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>

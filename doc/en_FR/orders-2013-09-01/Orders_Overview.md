@@ -119,22 +119,22 @@ The following table defines terminology for this API section:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d224884e323" class="entry" data-valign="top" width="22.47191011235955%">Term</th>
-<th id="d224884e326" class="entry" data-valign="top" width="77.52808988764045%">Definition</th>
+<th id="d225003e323" class="entry" data-valign="top" width="22.47191011235955%">Term</th>
+<th id="d225003e326" class="entry" data-valign="top" width="77.52808988764045%">Definition</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.47191011235955%" headers="d224884e323 "><span class="keyword parmname">Order item</span></td>
-<td class="entry" data-valign="top" width="77.52808988764045%" headers="d224884e326 ">An item and a quantity. For example, if a customer buys three copies of a particular book, the order contains one order item with a quantity of three. If one of the copies is to be gift wrapped, the order now contains the following two order items:
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d225003e323 "><span class="keyword parmname">Order item</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d225003e326 ">An item and a quantity. For example, if a customer buys three copies of a particular book, the order contains one order item with a quantity of three. If one of the copies is to be gift wrapped, the order now contains the following two order items:
 <ul>
 <li>Gift wrapped book, quantity of one</li>
 <li>Non-gift wrapped book, quantity of two</li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.47191011235955%" headers="d224884e323 "><span class="keyword parmname">Order</span></td>
-<td class="entry" data-valign="top" width="77.52808988764045%" headers="d224884e326 ">The following are both considered orders:
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d225003e323 "><span class="keyword parmname">Order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d225003e326 ">The following are both considered orders:
 <ul>
 <li>A collection of order items sold on Amazon with identical values for the following attributes:
 <ul>
@@ -146,12 +146,12 @@ The following table defines terminology for this API section:
 </ul></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.47191011235955%" headers="d224884e323 "><span class="keyword parmname">Pre-order</span></td>
-<td class="entry" data-valign="top" width="77.52808988764045%" headers="d224884e326 ">An order that contains items with a manufacturer's release date that is in the future. Note that pre-orders are available only in Japan.</td>
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d225003e323 "><span class="keyword parmname">Pre-order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d225003e326 ">An order that contains items with a manufacturer's release date that is in the future. Note that pre-orders are available only in Japan.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.47191011235955%" headers="d224884e323 "><span class="keyword parmname">Standard order</span></td>
-<td class="entry" data-valign="top" width="77.52808988764045%" headers="d224884e326 ">An order that contains items with available inventory.</td>
+<td class="entry" data-valign="top" width="22.47191011235955%" headers="d225003e323 "><span class="keyword parmname">Standard order</span></td>
+<td class="entry" data-valign="top" width="77.52808988764045%" headers="d225003e326 ">An order that contains items with available inventory.</td>
 </tr>
 </tbody>
 </table>
