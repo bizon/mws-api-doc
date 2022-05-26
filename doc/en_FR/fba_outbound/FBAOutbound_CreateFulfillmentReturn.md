@@ -130,24 +130,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d90352e250" class="entry" data-valign="top" width="25.380710659898476%">Name</th>
-<th id="d90352e253" class="entry" data-valign="top" width="74.61928934010153%">Description</th>
+<th id="d90434e250" class="entry" data-valign="top" width="25.380710659898476%">Name</th>
+<th id="d90434e253" class="entry" data-valign="top" width="74.61928934010153%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90352e250 "><span class="keyword parmname">ReturnItemList</span></td>
-<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90352e253 ">A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90434e250 "><span class="keyword parmname">ReturnItemList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90434e253 ">A list of items that Amazon accepted for return. Returns empty if no items were accepted for return.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnItem" class="xref" title="An item that Amazon accepted for return.">ReturnItem</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90352e250 "><span class="keyword parmname">InvalidReturnItemList</span></td>
-<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90352e253 ">A list of items that are invalid for return. Returns empty if no items are invalid for return.
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90434e250 "><span class="keyword parmname">InvalidReturnItemList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90434e253 ">A list of items that are invalid for return. Returns empty if no items are invalid for return.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#InvalidReturnItem" class="xref" title="An item that is invalid for return.">InvalidReturnItem</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90352e250 "><span class="keyword parmname">ReturnAuthorizationList</span></td>
-<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90352e253 ">A list of return authorizations.
+<td class="entry" data-valign="top" width="25.380710659898476%" headers="d90434e250 "><span class="keyword parmname">ReturnAuthorizationList</span></td>
+<td class="entry" data-valign="top" width="74.61928934010153%" headers="d90434e253 ">A list of return authorizations.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#ReturnAuthorization" class="xref" title="Return authorization information for items accepted for return.">ReturnAuthorization</a></p></td>
 </tr>
 </tbody>

@@ -173,14 +173,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d80126e255" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
-<th id="d80126e258" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
+<th id="d80208e255" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
+<th id="d80208e258" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="ResponseElements__ResponseElementsRow_TransportResult" class="odd row">
-<td class="entry" data-valign="top" width="25.839793281653744%" headers="d80126e255 "><span class="keyword parmname">TransportResult</span></td>
-<td class="entry" data-valign="top" width="74.16020671834626%" headers="d80126e258 ">Workflow status for a shipment with an Amazon-partnered carrier.
+<td class="entry" data-valign="top" width="25.839793281653744%" headers="d80208e255 "><span class="keyword parmname">TransportResult</span></td>
+<td class="entry" data-valign="top" width="74.16020671834626%" headers="d80208e258 ">Workflow status for a shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>

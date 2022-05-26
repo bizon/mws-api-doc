@@ -120,14 +120,14 @@ None
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d118688e157" class="entry" data-valign="top" width="28.653295128939828%">Name</th>
-<th id="d118688e160" class="entry" data-valign="top" width="71.34670487106017%">Description</th>
+<th id="d118770e157" class="entry" data-valign="top" width="28.653295128939828%">Name</th>
+<th id="d118770e160" class="entry" data-valign="top" width="71.34670487106017%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118688e157 "><span class="keyword parmname">Status</span></td>
-<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118688e160 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118770e157 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118770e160 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
 <dl>
 <dt>GREEN</dt>
 <dd>The service is operating normally.
@@ -142,22 +142,22 @@ None
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118688e157 "><span class="keyword parmname">Timestamp</span></td>
-<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118688e160 ">Indicates the time at which the operational status was evaluated.
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118770e157 "><span class="keyword parmname">Timestamp</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118770e160 ">Indicates the time at which the operational status was evaluated.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118688e157 "><span class="keyword parmname">MessageId</span></td>
-<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118688e160 ">An Amazon-defined message identifier.
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118770e157 "><span class="keyword parmname">MessageId</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118770e160 ">An Amazon-defined message identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118688e157 "><span class="keyword parmname">Messages</span></td>
-<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118688e160 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118770e157 "><span class="keyword parmname">Messages</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118770e160 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118688e157 "><span class="keyword parmname">Message</span></td>
-<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118688e160 ">The operational status message.
+<td class="entry" data-valign="top" width="28.653295128939828%" headers="d118770e157 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="71.34670487106017%" headers="d118770e160 ">The operational status message.
 <p>The parent element of the following child elements (both child elements are type: xs:string):</p>
 <ul>
 <li><span class="keyword parmname">Locale</span></li>

@@ -124,24 +124,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d20651e205" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
-<th id="d20651e208" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
-<th id="d20651e211" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
-<th id="d20651e214" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
+<th id="d20733e205" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
+<th id="d20733e208" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
+<th id="d20733e211" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
+<th id="d20733e214" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20651e205 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20651e208 ">The marketplace that the seller is selling in.</td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20651e211 ">Yes</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20651e214 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20733e205 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20733e208 ">The marketplace that the seller is selling in.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20733e211 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20733e214 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20651e205 "><span class="keyword parmname">ScheduledPackageUpdateDetailsList</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20651e208 ">The scheduled packages to be updated.</td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20651e211 ">Yes</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20651e214 ">List of <a href="EasyShip_Datatypes.md#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d20733e205 "><span class="keyword parmname">ScheduledPackageUpdateDetailsList</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d20733e208 ">The scheduled packages to be updated.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d20733e211 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d20733e214 ">List of <a href="EasyShip_Datatypes.md#ScheduledPackageUpdateDetails" class="xref" title="Information for updating a package.">ScheduledPackageUpdateDetails</a>
 <div class="note note">
 <span class="notetitle">Note:</span> Currently you can specify only one <span class="keyword parmname">ScheduledPackageUpdateDetails</span> element.
 </div></td>

@@ -184,72 +184,72 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d131629e299" class="entry" data-valign="top" width="25.437693099897015%">Name</th>
-<th id="d131629e302" class="entry" data-valign="top" width="47.16786817713697%">Description</th>
-<th id="d131629e305" class="entry" data-valign="top" width="10.298661174047373%">Required</th>
-<th id="d131629e308" class="entry" data-valign="top" width="17.09577754891864%">Valid values</th>
+<th id="d131711e299" class="entry" data-valign="top" width="25.437693099897015%">Name</th>
+<th id="d131711e302" class="entry" data-valign="top" width="47.16786817713697%">Description</th>
+<th id="d131711e305" class="entry" data-valign="top" width="10.298661174047373%">Required</th>
+<th id="d131711e308" class="entry" data-valign="top" width="17.09577754891864%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">FeedContent</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">The actual content of the feed itself, in XML or flat file format. You must include the <span class="keyword parmname">FeedContent</span> in the body of the HTTP request.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">Yes</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: None
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">FeedContent</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">The actual content of the feed itself, in XML or flat file format. You must include the <span class="keyword parmname">FeedContent</span> in the body of the HTTP request.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">Yes</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: None
 <p>Type: HTTP-BODY</p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">FeedType</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">A <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value indicating how the data should be processed.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">Yes</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: None
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">FeedType</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">A <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> value indicating how the data should be processed.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">Yes</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: None
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">MarketplaceIdList</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">A list of one or more marketplace IDs (of marketplaces you are registered to sell in) that you want the feed to be applied to. The feed will be applied to all the marketplaces you specify.
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">MarketplaceIdList</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">A list of one or more marketplace IDs (of marketplaces you are registered to sell in) that you want the feed to be applied to. The feed will be applied to all the marketplaces you specify.
 <p>For example:</p>
 <p><samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p>
 <p>See <a href="Feeds_EU_Global_Seller.md" class="xref">Using multiple marketplaces</a> for more information.</p></td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No, except for Product Images Feeds.<sup>1</sup></td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Marketplace IDs for marketplaces where you are registered to sell.
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No, except for Product Images Feeds.<sup>1</sup></td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Marketplace IDs for marketplaces where you are registered to sell.
 <p>Default: When no marketplaces are specified in the feed request, the request returns <em>all</em> marketplaces where the feed request can be submitted.</p>
 <p>List of <span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">PurgeAndReplace</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">A Boolean value that enables the purge and replace functionality. Set to <var class="keyword varname">true</var> to purge and replace the existing data; otherwise <var class="keyword varname">false</var>. This value only applies to product-related flat file feed types, which do not have a mechanism for specifying purge and replace in the feed body. <strong>Use this parameter only in exceptional cases</strong>. Usage is throttled to allow only one purge and replace within a 24-hour period.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: false
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">PurgeAndReplace</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">A Boolean value that enables the purge and replace functionality. Set to <var class="keyword varname">true</var> to purge and replace the existing data; otherwise <var class="keyword varname">false</var>. This value only applies to product-related flat file feed types, which do not have a mechanism for specifying purge and replace in the feed body. <strong>Use this parameter only in exceptional cases</strong>. Usage is throttled to allow only one purge and replace within a 24-hour period.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: false
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">ContentMD5Value</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">An MD5 hash of the feed content. <span class="ph">Amazon MWS</span> uses this value to determine if the feed data has been corrupted or tampered with during transit. This replaces the Content-MD5 header. See <a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: none
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">ContentMD5Value</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">An MD5 hash of the feed content. <span class="ph">Amazon MWS</span> uses this value to determine if the feed data has been corrupted or tampered with during transit. This replaces the Content-MD5 header. See <a href="Feeds_MD5.md" class="xref">Using the Content-MD5 hash with the SubmitFeed and GetFeedSubmissionResult operations</a>.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">An Amazon-defined order identifier. Used to identify an <span class="ph">Amazon Easy Ship</span> order that you want to get PDF documents for. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: none
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">An Amazon-defined order identifier. Used to identify an <span class="ph">Amazon Easy Ship</span> order that you want to get PDF documents for. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: none
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span class="keyword parmname">DocumentType</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">The type of PDF document that you want to get for the <span class="ph">Amazon Easy Ship</span> order identified with the <span class="keyword parmname">AmazonOrderId</span> parameter. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">Default: all
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span class="keyword parmname">DocumentType</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">The type of PDF document that you want to get for the <span class="ph">Amazon Easy Ship</span> order identified with the <span class="keyword parmname">AmazonOrderId</span> parameter. <span class="ph">This functionality is available only in the India marketplace.</span> See <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">Default: all
 <p>Values: <var class="keyword varname">ShippingLabel</var>, <var class="keyword varname">Invoice</var>, <var class="keyword varname">Warranty</var></p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131629e299 "><span id="RequestParameters__ReportOptions" class="keyword parmname">FeedOptions</span></td>
-<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131629e302 ">Additional information to pass to the feed.</td>
-<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131629e305 ">No</td>
-<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131629e308 ">If a feed accepts <span class="keyword parmname">FeedOptions</span>, the <span class="keyword parmname">FeedOptions</span> values are described in the feed description in the <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType enumeration</a> section.
+<td class="entry" data-valign="top" width="25.437693099897015%" headers="d131711e299 "><span id="RequestParameters__ReportOptions" class="keyword parmname">FeedOptions</span></td>
+<td class="entry" data-valign="top" width="47.16786817713697%" headers="d131711e302 ">Additional information to pass to the feed.</td>
+<td class="entry" data-valign="top" width="10.298661174047373%" headers="d131711e305 ">No</td>
+<td class="entry" data-valign="top" width="17.09577754891864%" headers="d131711e308 ">If a feed accepts <span class="keyword parmname">FeedOptions</span>, the <span class="keyword parmname">FeedOptions</span> values are described in the feed description in the <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType enumeration</a> section.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

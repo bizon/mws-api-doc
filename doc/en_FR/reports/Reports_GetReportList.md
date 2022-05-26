@@ -130,54 +130,54 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d282657e190" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d282657e193" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d282657e196" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d282657e199" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d282739e190" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d282739e193" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d282739e196" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d282739e199" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">MaxCount</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 ">A non-negative integer that represents the maximum number of report requests to return. If you specify a number greater than 100, the request is rejected.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">1-100
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">MaxCount</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 ">A non-negative integer that represents the maximum number of report requests to return. If you specify a number greater than 100, the request is rejected.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">1-100
 <p>Default: 10</p>
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 <tr id="RequestParameters__parm_ReportTypeList" class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">ReportTypeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">Acknowledged</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 "><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 "><span class="ph">A Boolean value that indicates if an order report has been acknowledged by a prior call to <span class="keyword apiname">UpdateReportAcknowledgements</span>. Set to <var class="keyword varname">true</var> to list order reports that have been acknowledged; set to <var class="keyword varname">false</var> to list order reports that have not been acknowledged. This filter is valid only with order reports; it does not work with listing reports.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">ReportRequestIdList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 "><span class="ph">A structured list of <span class="keyword parmname">ReportRequestId</span> values. If you pass in <span class="keyword parmname">ReportRequestId</span> values, other query conditions are ignored.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">ReportRequestIdList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 "><span class="ph">A structured list of <span class="keyword parmname">ReportRequestId</span> values. If you pass in <span class="keyword parmname">ReportRequestId</span> values, other query conditions are ignored.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">AvailableFromDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 ">The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">Default: 90 days ago
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">AvailableFromDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 ">The earliest date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">Default: 90 days ago
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e190 "><span class="keyword parmname">AvailableToDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e193 ">The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282657e196 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282657e199 ">Default: Now
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e190 "><span class="keyword parmname">AvailableToDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e193 ">The most recent date you are looking for, in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d282739e196 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d282739e199 ">Default: Now
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 </tbody>
@@ -204,24 +204,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d282657e402" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d282657e405" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d282739e402" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d282739e405" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d282657e402 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282657e405 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282739e402 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282739e405 "><span class="ph">A string token used to pass information to another call. Use the <span class="keyword parmname">NextToken</span> to call the operation again if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d282657e402 "><span class="keyword parmname">HasNext</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282657e405 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282739e402 "><span class="keyword parmname">HasNext</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282739e405 "><span class="ph">A Boolean value that indicates whether there are more items to return, requiring additional calls to this operation to retrieve them. The value is <var class="keyword varname">true</var> if there are more items to retrieve; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d282657e402 "><span class="keyword parmname">ReportInfo</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d282657e405 "><span class="ph">Detailed information about a report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d282739e402 "><span class="keyword parmname">ReportInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d282739e405 "><span class="ph">Detailed information about a report.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportInfo" class="xref" title="Detailed information about a report.">ReportInfo</a></p></td>
 </tr>
 </tbody>

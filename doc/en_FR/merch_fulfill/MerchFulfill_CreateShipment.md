@@ -124,54 +124,54 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d167517e185" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
-<th id="d167517e188" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
-<th id="d167517e191" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
-<th id="d167517e194" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
+<th id="d167599e185" class="entry" data-valign="top" width="24.103831891223734%">Name</th>
+<th id="d167599e188" class="entry" data-valign="top" width="32.88009888751545%">Description</th>
+<th id="d167599e191" class="entry" data-valign="top" width="12.360939431396787%">Required</th>
+<th id="d167599e194" class="entry" data-valign="top" width="30.655129789864027%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__row_ShipmentRequestDetails" class="odd row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">ShipmentRequestDetails</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 ">Shipment information required for creating a shipment.</td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">Yes</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">ShipmentRequestDetails</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 ">Shipment information required for creating a shipment.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentRequestDetails" class="xref" title="Shipment information required for requesting shipping service offers or for creating a shipment.">ShipmentRequestDetails</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">ShippingServiceId</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 "><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">ShippingServiceId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 "><span class="ph">An Amazon-defined shipping service identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">Yes</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">Yes</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">ShippingServiceOfferId</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 "><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">ShippingServiceOfferId</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 "><span class="ph">An Amazon-defined shipping service offer identifier. <span class="ph">For definitions, see <a href="../merch_fulfill/MerchFulfill_Overview.md#Terminology" class="xref">Terminology</a>.</span></span>
 <p>Get the <span class="keyword parmname">ShippingServiceOfferId</span> value from a previous call to the <span class="keyword apiname">GetEligibleShippingServices</span> operation.</p></td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">No</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">HazmatType</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 "><span class="ph">Hazardous materials options for a package.</span>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">HazmatType</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 "><span class="ph">Hazardous materials options for a package.</span>
 <p>Consult the terms and conditions for each carrier for more information about hazardous materials.</p></td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">No</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 ">Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 ">Type: <a href="MerchFulfill_Datatypes.md#HazmatType" class="xref" title="Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.">HazmatType</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">LabelFormatOption</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 ">Label options.</td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">No</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 "><span class="keyword parmname">LabelFormatOption</span> elements:
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">LabelFormatOption</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 ">Label options.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 "><span class="keyword parmname">LabelFormatOption</span> elements:
 <ul>
 <li><span class="keyword parmname">IncludePackingSlipWithLabel</span> - <var class="keyword varname">True</var> indicates that you want Amazon to include a packing slip with the shipping label. If <span class="keyword parmname">LabelFormatOption</span> is not specified, no packing slip is returned. <span class="ph">Type: xs:boolean</span></li>
 </ul></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167517e185 "><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
-<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167517e188 ">A list of additional seller inputs, at the shipment level.</td>
-<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167517e191 ">No</td>
-<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167517e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a></td>
+<td class="entry" data-valign="top" width="24.103831891223734%" headers="d167599e185 "><span class="keyword parmname">ShipmentLevelSellerInputsList</span></td>
+<td class="entry" data-valign="top" width="32.88009888751545%" headers="d167599e188 ">A list of additional seller inputs, at the shipment level.</td>
+<td class="entry" data-valign="top" width="12.360939431396787%" headers="d167599e191 ">No</td>
+<td class="entry" data-valign="top" width="30.655129789864027%" headers="d167599e194 ">Type: <a href="MerchFulfill_Datatypes.md#ShipmentLevelSellerInputs" class="xref" title="A list of additional seller inputs (at the shipment level), used as input to the CreateShipment operation.">ShipmentLevelSellerInputsList</a></td>
 </tr>
 </tbody>
 </table>
@@ -197,14 +197,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d167517e433" class="entry" data-valign="top">Name</th>
-<th id="d167517e436" class="entry" data-valign="top">Description</th>
+<th id="d167599e433" class="entry" data-valign="top">Name</th>
+<th id="d167599e436" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d167517e433 "><span class="keyword parmname">Shipment</span></td>
-<td class="entry" data-valign="top" headers="d167517e436 "><span class="ph">The details of a shipment, including the shipment status.</span>
+<td class="entry" data-valign="top" headers="d167599e433 "><span class="keyword parmname">Shipment</span></td>
+<td class="entry" data-valign="top" headers="d167599e436 "><span class="ph">The details of a shipment, including the shipment status.</span>
 <div class="p">
 <div class="note note">
 <span class="notetitle">Note:</span> Calls to the <span class="keyword apiname">CreateShipment</span>, <span class="keyword apiname">GetShipment</span>, and <span class="keyword apiname">CancelShipment</span> operations return empty <span class="keyword parmname">Phone</span> and <span class="keyword parmname">Email</span> elements in the <span class="keyword parmname">ShipToAddress</span> response element.

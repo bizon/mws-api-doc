@@ -139,20 +139,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d75195e228" class="entry" data-valign="top" width="15.479876160990713%">Name</th>
-<th id="d75195e231" class="entry" data-valign="top" width="84.52012383900929%">Description</th>
+<th id="d75277e228" class="entry" data-valign="top" width="15.479876160990713%">Name</th>
+<th id="d75277e231" class="entry" data-valign="top" width="84.52012383900929%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="15.479876160990713%" headers="d75195e228 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="84.52012383900929%" headers="d75195e231 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d75277e228 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d75277e231 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="15.479876160990713%" headers="d75195e228 "><span class="keyword parmname">ShipmentData</span></td>
-<td class="entry" data-valign="top" width="84.52012383900929%" headers="d75195e231 ">Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
+<td class="entry" data-valign="top" width="15.479876160990713%" headers="d75277e228 "><span class="keyword parmname">ShipmentData</span></td>
+<td class="entry" data-valign="top" width="84.52012383900929%" headers="d75277e231 ">Information about your inbound shipments. The <span class="keyword parmname">ShipmentData</span> response element does not include item information.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentInfo" class="xref" title="Information about your inbound shipments. Returned by the ListInboundShipments operation.">InboundShipmentInfo</a></p></td>
 </tr>
 </tbody>

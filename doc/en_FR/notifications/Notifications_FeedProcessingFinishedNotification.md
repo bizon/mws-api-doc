@@ -107,29 +107,29 @@ element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d198584e169" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d198584e172" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d198666e169" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d198666e172" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d198584e169 "><span class="keyword parmname">SellerId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d198584e172 ">The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a> operation, which initiated the feed submission process. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
+<td class="entry" data-valign="top" width="50%" headers="d198666e169 "><span class="keyword parmname">SellerId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198666e172 ">The <span class="keyword parmname">SellerId</span> value that you specified with a call to the <a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a> operation, which initiated the feed submission process. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d198584e169 "><span class="keyword parmname">FeedSubmissionId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d198584e172 "><span class="ph">A unique feed submission identifier.</span> Use this value to identify the feed submission that this notification is associated with. Pass this value to the <a href="../feeds/Feeds_GetFeedSubmissionResult.md" class="xref">GetFeedSubmissionResult</a> operation to get a feed processing report. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
+<td class="entry" data-valign="top" width="50%" headers="d198666e169 "><span class="keyword parmname">FeedSubmissionId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198666e172 "><span class="ph">A unique feed submission identifier.</span> Use this value to identify the feed submission that this notification is associated with. Pass this value to the <a href="../feeds/Feeds_GetFeedSubmissionResult.md" class="xref">GetFeedSubmissionResult</a> operation to get a feed processing report. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d198584e169 "><span class="keyword parmname">FeedType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d198584e172 ">The <span class="keyword parmname">FeedType</span> value that you specified with a call to the <a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a> operation, which initiated the feed submission process. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
+<td class="entry" data-valign="top" width="50%" headers="d198666e169 "><span class="keyword parmname">FeedType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198666e172 ">The <span class="keyword parmname">FeedType</span> value that you specified with a call to the <a href="../feeds/Feeds_SubmitFeed.md" class="xref">SubmitFeed</a> operation, which initiated the feed submission process. For more information, see <a href="../feeds/Feeds_Overview.md" class="xref">What you should know about the Amazon MWS Feeds API section</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr id="FeedProcessingFinishedNotification__FulfillmentOrderStatus_row" class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d198584e169 "><span class="keyword parmname">FeedProcessingStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d198584e172 ">The processing status of the feed submission. This notification is only sent when the processing status reaches one of two terminal states: <var class="keyword varname">DONE</var>, or <var class="keyword varname">CANCELLED</var>. In other words, the notification is sent only when feed processing is complete. For a complete list of feed processing states, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
+<td class="entry" data-valign="top" width="50%" headers="d198666e169 "><span class="keyword parmname">FeedProcessingStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d198666e172 ">The processing status of the feed submission. This notification is only sent when the processing status reaches one of two terminal states: <var class="keyword varname">DONE</var>, or <var class="keyword varname">CANCELLED</var>. In other words, the notification is sent only when feed processing is complete. For a complete list of feed processing states, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

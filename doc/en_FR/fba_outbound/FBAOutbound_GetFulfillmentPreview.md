@@ -125,37 +125,37 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d111049e148" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d111049e151" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d111049e154" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d111049e157" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d111131e148" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d111131e151" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d111131e154" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d111131e157" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">The marketplace the fulfillment order is placed against.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">The marketplace the fulfillment order is placed against.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">Address</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">The destination address for the fulfillment order preview.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 ">Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">Address</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">The destination address for the fulfillment order preview.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 ">Type: <a href="FBAOutbound_Datatypes.md#Address" class="xref" title="Postal address information.">Address</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">Items</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">Identifying information and quantity information for the items in the fulfillment order preview.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 ">Type: List of <a href="FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">Items</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">Identifying information and quantity information for the items in the fulfillment order preview.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 ">Type: List of <a href="FBAOutbound_Datatypes.md#GetFulfillmentPreviewItem" class="xref" title="Item information for a fulfillment order preview.">GetFulfillmentPreviewItem</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">ShippingSpeedCategories</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">A list of shipping methods used for creating fulfillment order previews.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 "><span class="keyword parmname">ShippingSpeedCategories</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">ShippingSpeedCategories</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">A list of shipping methods used for creating fulfillment order previews.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 "><span class="keyword parmname">ShippingSpeedCategories</span> values:
 <ul>
 <li><var class="keyword varname">Standard</var> - Standard shipping method.</li>
 <li><var class="keyword varname">Expedited</var> - Expedited shipping method.</li>
@@ -171,10 +171,10 @@ Default: All
 <p>Type: List of type: xs:string</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">Specifies whether to return fulfillment order previews that are for COD (Cash On Delivery).</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">Specifies whether to return fulfillment order previews that are for COD (Cash On Delivery).</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 "><span class="keyword parmname">IncludeCODFulfillmentPreview</span> values:
 <ul>
 <li><var class="keyword varname">true</var> - Returns all fulfillment order previews (both for COD and not for COD).</li>
 <li><var class="keyword varname">false</var> - Returns only fulfillment order previews that are not for COD.</li>
@@ -186,10 +186,10 @@ Default: All
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111049e148 "><span class="keyword parmname">IncludeDeliveryWindows</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111049e151 ">Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111049e154 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111049e157 "><span class="keyword parmname">IncludeDeliveryWindows</span> values:
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d111131e148 "><span class="keyword parmname">IncludeDeliveryWindows</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d111131e151 ">Specifies whether to return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element, which contains the available delivery windows for a Scheduled Delivery. The <span class="keyword parmname">ScheduledDeliveryInfo</span> response element can only be returned for fulfillment order previews with <span class="keyword parmname">ShippingSpeedCategories</span> = <var class="keyword varname">ScheduledDelivery</var>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d111131e154 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d111131e157 "><span class="keyword parmname">IncludeDeliveryWindows</span> values:
 <ul>
 <li><var class="keyword varname">true</var> - Returns the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
 <li><var class="keyword varname">false</var> – Does not return the <span class="keyword parmname">ScheduledDeliveryInfo</span> response element.</li>
@@ -225,14 +225,14 @@ Default: All
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d111049e428" class="entry" data-valign="top" width="25.252525252525253%">Name</th>
-<th id="d111049e431" class="entry" data-valign="top" width="74.74747474747475%">Description</th>
+<th id="d111131e428" class="entry" data-valign="top" width="25.252525252525253%">Name</th>
+<th id="d111131e431" class="entry" data-valign="top" width="74.74747474747475%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25.252525252525253%" headers="d111049e428 "><span class="keyword parmname">FulfillmentPreviews</span></td>
-<td class="entry" data-valign="top" width="74.74747474747475%" headers="d111049e431 ">A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
+<td class="entry" data-valign="top" width="25.252525252525253%" headers="d111131e428 "><span class="keyword parmname">FulfillmentPreviews</span></td>
+<td class="entry" data-valign="top" width="74.74747474747475%" headers="d111131e431 ">A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#FulfillmentPreview" class="xref" title="Information about a fulfillment order preview, including delivery and fee information based on shipping method.">FulfillmentPreview</a></p></td>
 </tr>
 </tbody>

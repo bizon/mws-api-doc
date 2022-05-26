@@ -137,29 +137,29 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d183988e278" class="entry" data-valign="top">Name</th>
-<th id="d183988e281" class="entry" data-valign="top">Description</th>
+<th id="d184070e278" class="entry" data-valign="top">Name</th>
+<th id="d184070e281" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d183988e278 "><span class="keyword parmname">ShippingServiceList</span></td>
-<td class="entry" data-valign="top" headers="d183988e281 ">A list of shipping services offers.
+<td class="entry" data-valign="top" headers="d184070e278 "><span class="keyword parmname">ShippingServiceList</span></td>
+<td class="entry" data-valign="top" headers="d184070e281 ">A list of shipping services offers.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#ShippingService" class="xref" title="A shipping service offer made by a carrier.">ShippingService</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d183988e278 "><span class="keyword parmname">RejectedShippingServiceList</span></td>
-<td class="entry" data-valign="top" headers="d183988e281 ">A list of ineligible shipping services.
+<td class="entry" data-valign="top" headers="d184070e278 "><span class="keyword parmname">RejectedShippingServiceList</span></td>
+<td class="entry" data-valign="top" headers="d184070e281 ">A list of ineligible shipping services.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#RejectedShippingService" class="xref" title="A shipping service that is ineligible based on the specified ShipmentRequestDetails information.">RejectedShippingService</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d183988e278 "><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
-<td class="entry" data-valign="top" headers="d183988e281 ">A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
+<td class="entry" data-valign="top" headers="d184070e278 "><span class="keyword parmname">TemporarilyUnavailableCarrierList</span></td>
+<td class="entry" data-valign="top" headers="d184070e281 ">A list of carriers who are temporarily unavailable, most likely due to a service outage experienced by the carrier. To use a carrier that is on this list, retry at a later time.
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d183988e278 "><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
-<td class="entry" data-valign="top" headers="d183988e281 ">A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
+<td class="entry" data-valign="top" headers="d184070e278 "><span class="keyword parmname">TermsAndConditionsNotAcceptedCarrierList</span></td>
+<td class="entry" data-valign="top" headers="d184070e281 ">A list of carriers whose terms and conditions have not been accepted by the seller. The seller must accept Amazon's terms and conditions and the terms and conditions of any carrier from which they want to purchase shipping labels. The seller can do this on Seller Central (<a href="https://sellercentral.amazon.co.uk/gp/shipping-manager/terms-and-conditions.html" class="xref">Europe</a>) (<a href="https://sellercentral.amazon.com/gp/shipping-manager/terms-and-conditions.html" class="xref">US</a>).
 <p>Type: List of <a href="MerchFulfill_Datatypes.md#TemporarilyUnavailableCarrier" class="xref" title="A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.">TemporarilyUnavailableCarrier</a></p></td>
 </tr>
 </tbody>

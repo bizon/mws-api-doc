@@ -125,18 +125,18 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d287993e181" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d287993e184" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d287993e187" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d287993e190" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d288075e181" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d288075e184" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d288075e187" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d288075e190" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="RequestParameters__parm_ReportTypeList" class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287993e181 "><span class="keyword parmname">ReportTypeList</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287993e184 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d287993e187 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d287993e190 ">Default: All
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288075e181 "><span class="keyword parmname">ReportTypeList</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288075e184 "><span class="ph">A structured list of <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> values.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d288075e187 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d288075e190 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -163,14 +163,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d287993e256" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d287993e259" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d288075e256" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d288075e259" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d287993e256 "><span class="keyword parmname">Count</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d287993e259 ">A non-negative integer indicating the number of matching report requests that are scheduled.
+<td class="entry" data-valign="top" width="50%" headers="d288075e256 "><span class="keyword parmname">Count</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d288075e259 ">A non-negative integer indicating the number of matching report requests that are scheduled.
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 </tbody>

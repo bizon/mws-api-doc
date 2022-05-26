@@ -107,37 +107,37 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d115029e135" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d115029e138" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d115029e141" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d115029e144" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d115111e135" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d115111e138" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d115111e141" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d115111e144" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115029e135 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115029e138 ">The marketplace for which the seller wants return reason codes.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115029e141 ">No. Not required if <span class="keyword parmname">SellerFulfillmentOrderId</span> is specified.</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115029e144 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115111e135 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115111e138 ">The marketplace for which the seller wants return reason codes.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115111e141 ">No. Not required if <span class="keyword parmname">SellerFulfillmentOrderId</span> is specified.</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115111e144 "><span class="keyword parmname">MarketplaceId</span> values: see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115029e135 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115029e138 "><span class="ph">The identifier assigned to the item by the seller when the fulfillment order was created.</span> The service uses this value to determine the marketplace for which the seller wants return reason codes.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115029e141 ">No. Not required if <span class="keyword parmname">MarketplaceId</span> is specified.</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115029e144 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115111e135 "><span class="keyword parmname">SellerFulfillmentOrderId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115111e138 "><span class="ph">The identifier assigned to the item by the seller when the fulfillment order was created.</span> The service uses this value to determine the marketplace for which the seller wants return reason codes.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115111e141 ">No. Not required if <span class="keyword parmname">MarketplaceId</span> is specified.</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115111e144 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115029e135 "><span class="keyword parmname">SellerSKU</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115029e138 ">The seller SKU for which return reason codes are required.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115029e141 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115029e144 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115111e135 "><span class="keyword parmname">SellerSKU</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115111e138 ">The seller SKU for which return reason codes are required.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115111e141 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115111e144 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115029e135 "><span class="keyword parmname">Language</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115029e138 ">The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a href="FBAOutbound_Datatypes.md#ReasonCodeDetails" class="xref" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response element should be translated into.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115029e141 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115029e144 ">The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code. Example: fr_CA
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d115111e135 "><span class="keyword parmname">Language</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d115111e138 ">The language that the <span class="keyword parmname">TranslatedDescription</span> element of the <a href="FBAOutbound_Datatypes.md#ReasonCodeDetails" class="xref" title="A return reason code, a description, and an optional description translation.">ReasonCodeDetails</a> response element should be translated into.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d115111e141 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d115111e144 ">The <span class="ph"> <a href="../dev_guide/DG_ISO639.md" class="xref">ISO 639-1 format</a> </span> language code. Example: fr_CA
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

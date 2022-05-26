@@ -106,24 +106,24 @@ element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d194379e171" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d194379e174" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d194461e171" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d194461e174" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d194379e171 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d194379e174 ">The Amazon-defined order identifier.
+<td class="entry" data-valign="top" width="50%" headers="d194461e171 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d194461e174 ">The Amazon-defined order identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d194379e171 "><span class="keyword parmname">AmazonShipmentId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d194379e174 ">The Amazon-defined shipment identifier.
+<td class="entry" data-valign="top" width="50%" headers="d194461e171 "><span class="keyword parmname">AmazonShipmentId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d194461e174 ">The Amazon-defined shipment identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d194379e171 "><span class="keyword parmname">ShipmentStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d194379e174 ">The shipment status. <span class="keyword parmname">ShipmentStatus</span> values: <var class="keyword varname">Created</var>, <var class="keyword varname">Cancelled</var>.
+<td class="entry" data-valign="top" width="50%" headers="d194461e171 "><span class="keyword parmname">ShipmentStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d194461e174 ">The shipment status. <span class="keyword parmname">ShipmentStatus</span> values: <var class="keyword varname">Created</var>, <var class="keyword varname">Cancelled</var>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
