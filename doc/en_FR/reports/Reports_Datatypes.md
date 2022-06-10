@@ -86,40 +86,40 @@ class="keyword parmname">ReportInfo</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d279175e193" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d279175e196" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d279376e193" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d279376e196" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">ReportId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 "><span class="ph">A unique report identifier.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">ReportId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 "><span class="ph">A unique report identifier.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">ReportType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">ReportRequestId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 "><span class="ph">A unique report request identifier.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">ReportRequestId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 "><span class="ph">A unique report request identifier.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">AvailableDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 "><span class="ph">The date the report is available.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">AvailableDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 "><span class="ph">The date the report is available.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">Acknowledged</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 ">A Boolean value that indicates if the report was acknowledged by this call to the <span class="keyword apiname">UpdateReportAcknowledgements</span> operation. The value is <var class="keyword varname">true</var> if the report was acknowledged; otherwise <var class="keyword varname">false</var>.
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">Acknowledged</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 ">A Boolean value that indicates if the report was acknowledged by this call to the <span class="keyword apiname">UpdateReportAcknowledgements</span> operation. The value is <var class="keyword varname">true</var> if the report was acknowledged; otherwise <var class="keyword varname">false</var>.
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e193 "><span class="keyword parmname">AcknowledgedDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e196 ">The date the report was acknowledged.
+<td class="entry" data-valign="top" width="50%" headers="d279376e193 "><span class="keyword parmname">AcknowledgedDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e196 ">The date the report was acknowledged.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -158,63 +158,63 @@ class="keyword parmname">ReportRequestInfo</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d279175e410" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d279175e413" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d279376e410" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d279376e413" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">ReportRequestId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">A unique report request identifier.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">ReportRequestId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">A unique report request identifier.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">ReportType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">StartDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">The start of a date range used for selecting the data to report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">StartDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">The start of a date range used for selecting the data to report.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr id="ReportRequestInfo__resp_EndDate" class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">EndDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">The end of a date range used for selecting the data to report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">EndDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">The end of a date range used for selecting the data to report.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">Scheduled</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">A Boolean value that indicates if a report is scheduled. The value is <var class="keyword varname">true</var> if the report was scheduled; otherwise <var class="keyword varname">false</var>.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">Scheduled</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">A Boolean value that indicates if a report is scheduled. The value is <var class="keyword varname">true</var> if the report was scheduled; otherwise <var class="keyword varname">false</var>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">SubmittedDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">The date when the report was submitted.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">SubmittedDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">The date when the report was submitted.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">ReportProcessingStatus</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 "><span class="ph">The processing status of the report.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">ReportProcessingStatus</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 "><span class="ph">The processing status of the report.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">GeneratedReportId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 ">The report identifier used to retrieve the report.
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">GeneratedReportId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 ">The report identifier used to retrieve the report.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">StartedProcessingDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 ">The date when the report processing started.
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">StartedProcessingDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 ">The date when the report processing started.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e410 "><span class="keyword parmname">CompletedDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e413 ">The date when the report processing completed.
+<td class="entry" data-valign="top" width="50%" headers="d279376e410 "><span class="keyword parmname">CompletedDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e413 ">The date when the report processing completed.
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -253,24 +253,24 @@ class="keyword parmname">ReportSchedule</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d279175e712" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d279175e715" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d279376e712" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d279376e715" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e712 "><span class="keyword parmname">ReportType</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e715 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e712 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e715 "><span class="ph">The <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value requested.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e712 "><span class="keyword parmname">Schedule</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e715 "><span class="ph">A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e712 "><span class="keyword parmname">Schedule</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e715 "><span class="ph">A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d279175e712 "><span class="keyword parmname">ScheduledDate</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d279175e715 "><span class="ph">The date when the next report request is scheduled to be submitted.</span>
+<td class="entry" data-valign="top" width="50%" headers="d279376e712 "><span class="keyword parmname">ScheduledDate</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d279376e715 "><span class="ph">The date when the next report request is scheduled to be submitted.</span>
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>

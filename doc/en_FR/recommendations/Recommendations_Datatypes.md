@@ -108,76 +108,76 @@ class="keyword parmname">AdvertisingRecommendation</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e393" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e396" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e393" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e396" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">RecommendationId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">RecommendationId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">RecommendationReason</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">A detailed description of the recommendation.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">RecommendationReason</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">A detailed description of the recommendation.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">LastUpdated</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">LastUpdated</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">ItemIdentifier</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The ASIN, SKU, and UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">ItemIdentifier</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The ASIN, SKU, and UPC of the item.
 <p>Type: <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">ItemName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">ItemName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">BrandName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The brand name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">BrandName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The brand name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">ProductCategory</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The product category of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">ProductCategory</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The product category of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">SalesRank</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The sales rank of the item in the given product category.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">SalesRank</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The sales rank of the item in the given product category.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">YourPricePlusShipping</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The price that you have set for the item, including shipping.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">YourPricePlusShipping</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The price that you have set for the item, including shipping.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">LowestPricePlusShipping</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">LowestPricePlusShipping</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">AvailableQuantity</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The total number of the items in your inventory.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">AvailableQuantity</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The total number of the items in your inventory.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e393 "><span class="keyword parmname">SalesForTheLast30Days</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e396 ">The number of your sales of the item in the last 30 days.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e393 "><span class="keyword parmname">SalesForTheLast30Days</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e396 ">The number of your sales of the item in the last 30 days.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
@@ -231,19 +231,19 @@ class="keyword parmname">CategoryQuery</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e775" class="entry" data-valign="top" width="22.22222222222222%">Name</th>
-<th id="d266792e778" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
-<th id="d266792e781" class="entry" data-valign="top" width="11.11111111111111%">Required</th>
-<th id="d266792e784" class="entry" data-valign="top" width="33.33333333333333%">Valid values</th>
+<th id="d266993e775" class="entry" data-valign="top" width="22.22222222222222%">Name</th>
+<th id="d266993e778" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
+<th id="d266993e781" class="entry" data-valign="top" width="11.11111111111111%">Required</th>
+<th id="d266993e784" class="entry" data-valign="top" width="33.33333333333333%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.22222222222222%" headers="d266792e775 "><span class="keyword parmname">RecommendationCategory</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e778 ">Specifies a category for the recommendations to retrieve.
+<td class="entry" data-valign="top" width="22.22222222222222%" headers="d266993e775 "><span class="keyword parmname">RecommendationCategory</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e778 ">Specifies a category for the recommendations to retrieve.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="11.11111111111111%" headers="d266792e781 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e784 "><span class="keyword parmname">RecommendationCategory</span> values:
+<td class="entry" data-valign="top" width="11.11111111111111%" headers="d266993e781 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e784 "><span class="keyword parmname">RecommendationCategory</span> values:
 <ul>
 <li><var class="keyword varname">Selection</var></li>
 <li><var class="keyword varname">Fulfillment</var></li>
@@ -256,11 +256,11 @@ class="keyword parmname">CategoryQuery</span> datatype:
 </div></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.22222222222222%" headers="d266792e775 "><span class="keyword parmname">FilterOptions</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e778 ">Specifies the filters to apply to narrow down the recommendations to return for the given recommendation category.
+<td class="entry" data-valign="top" width="22.22222222222222%" headers="d266993e775 "><span class="keyword parmname">FilterOptions</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e778 ">Specifies the filters to apply to narrow down the recommendations to return for the given recommendation category.
 <p>Filters are specified as a list of <var class="keyword varname">FilterName=FilterValue</var> pairs. For more information, see the <a href="Recommendations_ListRecommendations.md#Examples" class="xref">examples</a> for the <span class="keyword apiname">ListRecommendations</span> operation.</p></td>
-<td class="entry" data-valign="top" width="11.11111111111111%" headers="d266792e781 ">Yes</td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e784 "><span class="keyword parmname">FilterOptions</span> values for <var class="keyword varname">ListingQuality</var> recommendations:
+<td class="entry" data-valign="top" width="11.11111111111111%" headers="d266993e781 ">Yes</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e784 "><span class="keyword parmname">FilterOptions</span> values for <var class="keyword varname">ListingQuality</var> recommendations:
 <ul>
 <li><var class="keyword varname">QualitySet=Defect</var> Filter for listings that have a defect, but the listing is still valid. For example, this query will return listings where there is no detailed description.</li>
 <li><var class="keyword varname">QualitySet=Quarantine</var> Filter for listings that are being suppressed from the catalog because they do not meet Amazon's standards. For example, this query will return listings where there is no main image.</li>
@@ -323,19 +323,19 @@ class="keyword parmname">DimensionMeasure</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e1074" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e1077" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e1074" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e1077" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1074 "><span class="keyword parmname">Value</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1077 ">The value of the measurement.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1074 "><span class="keyword parmname">Value</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1077 ">The value of the measurement.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1074 "><span class="keyword parmname">Unit</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1077 ">The unit of the measurement.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1074 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1077 ">The unit of the measurement.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -387,88 +387,88 @@ class="keyword parmname">FulfillmentRecommendation</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e1232" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e1235" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e1232" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e1235" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">RecommendationId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">RecommendationId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">RecommendationReason</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">A detailed description of the recommendation.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">RecommendationReason</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">A detailed description of the recommendation.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">LastUpdated</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">LastUpdated</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">ItemIdentifier</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The ASIN, SKU, and UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">ItemIdentifier</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The ASIN, SKU, and UPC of the item.
 <p>Type: <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">ItemName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">ItemName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">BrandName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The brand name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">BrandName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The brand name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">ProductCategory</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The product category of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">ProductCategory</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The product category of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">SalesRank</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The sales rank of the item in the given product category.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">SalesRank</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The sales rank of the item in the given product category.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">BuyboxPrice</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The price of the item that is displayed in the Buy Box.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">BuyboxPrice</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The price of the item that is displayed in the Buy Box.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">NumberOfOffers</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The number of current offers for the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">NumberOfOffers</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The number of current offers for the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">NumberOfOffersFulfilledByAmazon</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The number of current offers for the item that are fulfilled by Amazon.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">NumberOfOffersFulfilledByAmazon</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The number of current offers for the item that are fulfilled by Amazon.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">AverageCustomerReview</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The average customer review of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">AverageCustomerReview</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The average customer review of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">NumberOfCustomerReviews</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The number of customer reviews for the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">NumberOfCustomerReviews</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The number of customer reviews for the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1232 "><span class="keyword parmname">ItemDimensions</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1235 ">The dimensions of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1232 "><span class="keyword parmname">ItemDimensions</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1235 ">The dimensions of the item.
 <p>Optional</p>
 <p>Type: <a href="#ItemDimensions" class="xref" title="The dimensions of an item.">ItemDimensions</a></p></td>
 </tr>
@@ -520,88 +520,88 @@ class="keyword parmname">GlobalSellingRecommendation</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e1654" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e1657" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e1654" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e1657" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">RecommendationId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">RecommendationId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">RecommendationReason</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">A detailed description of the recommendation.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">RecommendationReason</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">A detailed description of the recommendation.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">LastUpdated</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">LastUpdated</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">ItemIdentifier</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The ASIN, SKU, and UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">ItemIdentifier</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The ASIN, SKU, and UPC of the item.
 <p>Type: <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">ItemName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">ItemName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">BrandName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The brand name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">BrandName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The brand name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">ProductCategory</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The product category of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">ProductCategory</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The product category of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">SalesRank</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The sales rank of the item in the given product category.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">SalesRank</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The sales rank of the item in the given product category.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">BuyboxPrice</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The price of the item that is displayed in the Buy Box.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">BuyboxPrice</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The price of the item that is displayed in the Buy Box.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">NumberOfOffers</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The number of current offers for the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">NumberOfOffers</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The number of current offers for the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">NumberOfOffersFulfilledByAmazon</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The number of current offers for the item that are fulfilled by Amazon.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">NumberOfOffersFulfilledByAmazon</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The number of current offers for the item that are fulfilled by Amazon.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">AverageCustomerReview</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The average customer review of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">AverageCustomerReview</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The average customer review of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">NumberOfCustomerReviews</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The number of customer reviews for the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">NumberOfCustomerReviews</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The number of customer reviews for the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e1654 "><span class="keyword parmname">ItemDimensions</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e1657 ">The dimensions of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e1654 "><span class="keyword parmname">ItemDimensions</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e1657 ">The dimensions of the item.
 <p>Optional</p>
 <p>Type: <a href="#ItemDimensions" class="xref" title="The dimensions of an item.">ItemDimensions</a></p></td>
 </tr>
@@ -653,40 +653,40 @@ class="keyword parmname">InventoryRecommendation</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e2078" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e2081" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e2078" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e2081" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">RecommendationId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">RecommendationId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">RecommendationReason</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">A detailed description of the recommendation.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">RecommendationReason</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">A detailed description of the recommendation.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">LastUpdated</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">LastUpdated</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">ItemIdentifier</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The ASIN, SKU, and UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">ItemIdentifier</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The ASIN, SKU, and UPC of the item.
 <p>Type: <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">ItemName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">ItemName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">FulfillmentChannel</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 "><span class="keyword parmname">FulfillmentChannel</span> values:
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">FulfillmentChannel</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 "><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
 <li><var class="keyword varname">MFN</var> Indicates that you are fulfilling the item.</li>
 <li><var class="keyword varname">AFN</var> Indicates that Amazon is fulfilling the item.</li>
@@ -695,20 +695,20 @@ class="keyword parmname">InventoryRecommendation</span> datatype:
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">AvailableQuantity</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The total number of the items in your inventory.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">AvailableQuantity</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The total number of the items in your inventory.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">DaysUntilStockRunsOut</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The estimated number of days until you run out of inventory of the item based on current sales.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">DaysUntilStockRunsOut</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The estimated number of days until you run out of inventory of the item based on current sales.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2078 "><span class="keyword parmname">DaysOutOfStockLast30Days</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2081 ">The number of days in the last 30 days when you were out of stock of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2078 "><span class="keyword parmname">DaysOutOfStockLast30Days</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2081 ">The number of days in the last 30 days when you were out of stock of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
@@ -759,29 +759,29 @@ class="keyword parmname">ItemDimensions</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e2409" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e2412" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e2409" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e2412" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2409 "><span class="keyword parmname">Height</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2412 ">The height of the unit.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2409 "><span class="keyword parmname">Height</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2412 ">The height of the unit.
 <p>Type: <a href="#DimensionMeasure" class="xref">DimensionMeasure</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2409 "><span class="keyword parmname">Width</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2412 ">The width of the unit.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2409 "><span class="keyword parmname">Width</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2412 ">The width of the unit.
 <p>Type: <a href="#DimensionMeasure" class="xref">DimensionMeasure</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2409 "><span class="keyword parmname">Length</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2412 ">The length of the unit.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2409 "><span class="keyword parmname">Length</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2412 ">The length of the unit.
 <p>Type: <a href="#DimensionMeasure" class="xref">DimensionMeasure</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2409 "><span class="keyword parmname">Weight</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2412 ">The weight of the unit.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2409 "><span class="keyword parmname">Weight</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2412 ">The weight of the unit.
 <p>Type: <a href="#WeightMeasure" class="xref" title="Weight unit and amount.">WeightMeasure</a></p></td>
 </tr>
 </tbody>
@@ -831,19 +831,19 @@ class="keyword parmname">Price</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e2611" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e2614" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e2611" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e2614" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2611 "><span class="keyword parmname">CurrencyCode</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2614 ">Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2611 "><span class="keyword parmname">CurrencyCode</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2614 ">Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2611 "><span class="keyword parmname">Amount</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2614 ">The currency amount.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2611 "><span class="keyword parmname">Amount</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2614 ">The currency amount.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 </tbody>
@@ -894,52 +894,52 @@ class="keyword parmname">PricingRecommendation</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e2776" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e2779" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e2776" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e2779" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">RecommendationId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">RecommendationId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">A unique recommendation identifier, in the format of {<var class="keyword varname">Category</var>}-{<var class="keyword varname">RecommendationReason</var>}-{<var class="keyword varname">ASIN</var>}-{<var class="keyword varname">SKU</var>}-{<var class="keyword varname">UPC</var>}-{<var class="keyword varname">ItemName</var>}. If any of these values are null, the value will be empty.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">RecommendationReason</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">A detailed description of the recommendation.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">RecommendationReason</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">A detailed description of the recommendation.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">LastUpdated</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">LastUpdated</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The date and time when the recommendation was generated or last updated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">ItemIdentifier</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The ASIN, SKU, and UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">ItemIdentifier</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The ASIN, SKU, and UPC of the item.
 <p>Type: <a href="#ProductIdentifier" class="xref" title="The ASIN, SKU, and UPC of the item.">ProductIdentifier</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">ItemName</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The name of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">ItemName</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The name of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">Condition</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The condition of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">Condition</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The condition of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">SubCondition</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The subcondition of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">SubCondition</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The subcondition of the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">FulfillmentChannel</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 "><span class="keyword parmname">FulfillmentChannel</span> values:
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">FulfillmentChannel</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 "><span class="keyword parmname">FulfillmentChannel</span> values:
 <ul>
 <li><var class="keyword varname">MFN</var> Indicates that you are fulfilling the item.</li>
 <li><var class="keyword varname">AFN</var> Indicates that Amazon is fulfilling the item.</li>
@@ -948,56 +948,56 @@ class="keyword parmname">PricingRecommendation</span> datatype:
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">YourPricePlusShipping</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The price that you have set for the item, including shipping.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">YourPricePlusShipping</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The price that you have set for the item, including shipping.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">LowestPricePlusShipping</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">LowestPricePlusShipping</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">PriceDifferenceToLowPrice</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The difference between what you are charging for the item and the lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">PriceDifferenceToLowPrice</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The difference between what you are charging for the item and the lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">MedianPricePlusShipping</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The median price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">MedianPricePlusShipping</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The median price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span>, including shipping.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">LowestMerchantFulfilledOfferPrice</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span> that is fulfilled by a seller.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">LowestMerchantFulfilledOfferPrice</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span> that is fulfilled by a seller.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">LowestAmazonFulfilledOfferPrice</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span> that is fulfilled by Amazon.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">LowestAmazonFulfilledOfferPrice</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The lowest price for the item in the same <span class="keyword parmname">Condition</span> and <span class="keyword parmname">SubCondition</span> that is fulfilled by Amazon.
 <p>Optional</p>
 <p>Type: <a href="#Price" class="xref" title="Currency type and amount.">Price</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">NumberOfOffers</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The total number of offers for the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">NumberOfOffers</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The total number of offers for the item.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">NumberOfMerchantFulfilledOffers</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The total number of offers for the item that are fulfilled by a seller.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">NumberOfMerchantFulfilledOffers</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The total number of offers for the item that are fulfilled by a seller.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e2776 "><span class="keyword parmname">NumberOfAmazonFulfilledOffers</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e2779 ">The total number of offers for the item that are fulfilled by Amazon.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e2776 "><span class="keyword parmname">NumberOfAmazonFulfilledOffers</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e2779 ">The total number of offers for the item that are fulfilled by Amazon.
 <p>Optional</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
@@ -1048,24 +1048,24 @@ class="keyword parmname">ProductIdentifier</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e3328" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e3331" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e3328" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e3331" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e3328 "><span class="keyword parmname">Asin</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e3331 ">The ASIN of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e3328 "><span class="keyword parmname">Asin</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e3331 ">The ASIN of the item.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e3328 "><span class="keyword parmname">Sku</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e3331 ">The SKU of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e3328 "><span class="keyword parmname">Sku</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e3331 ">The SKU of the item.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e3328 "><span class="keyword parmname">Upc</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e3331 ">The UPC of the item.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e3328 "><span class="keyword parmname">Upc</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e3331 ">The UPC of the item.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -1115,19 +1115,19 @@ class="keyword parmname">WeightMeasure</span> datatype:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d266792e3496" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d266792e3499" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d266993e3496" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d266993e3499" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e3496 "><span class="keyword parmname">Value</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e3499 ">The value of the measurement.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e3496 "><span class="keyword parmname">Value</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e3499 ">The value of the measurement.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266792e3496 "><span class="keyword parmname">Unit</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266792e3499 ">The unit of the measurement.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d266993e3496 "><span class="keyword parmname">Unit</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d266993e3499 ">The unit of the measurement.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

@@ -77,14 +77,14 @@ schema:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d204498e92" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d204498e95" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d204699e92" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d204699e95" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d204498e92 "><span class="keyword parmname">TestNotification</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d204498e95 ">The root element of the notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.
+<td class="entry" data-valign="top" width="50%" headers="d204699e92 "><span class="keyword parmname">TestNotification</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d204699e95 ">The root element of the notification sent by using the <span class="keyword apiname">SendTestNotificationToDestination</span> operation.
 <p>The <span class="keyword parmname">TestNotification</span> element contains no attributes or child elements.</p></td>
 </tr>
 </tbody>

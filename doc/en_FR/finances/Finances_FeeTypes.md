@@ -191,6 +191,21 @@ Availability
 
 Fulfillment By Amazon Fees
 
+<span class="keyword parmname">AmazonUpstreamProcessingFee</span>
+
+Amazon Warehousing and Distribution processing fee for replenishment
+order
+
+<span class="ph">The US marketplace.</span>
+
+<span
+class="keyword parmname">AmazonUpstreamStorageTransportationFee</span>
+
+Amazon Warehousing and Distribution transportation fee for replenishment
+order
+
+<span class="ph">The US marketplace.</span>
+
 <span class="keyword parmname">BubblewrapFee</span>
 
 FBA Prep Service Fees (Bubble Wrap)
@@ -335,6 +350,13 @@ FBA Prep Service Fees (Labeling)
 Fulfillment Fee
 
 <span class="ph">All marketplaces.</span>
+
+<span class="keyword parmname">STARStorageFee</span>
+
+Amazon Warehousing and Distribution storage fee charged at a monthly
+cadence
+
+<span class="ph">The US marketplace.</span>
 
 <span class="keyword parmname">TapingFee</span>
 
