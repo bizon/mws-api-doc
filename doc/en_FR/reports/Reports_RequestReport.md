@@ -139,52 +139,52 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d299868e243" class="entry" data-valign="top" width="25%">Name</th>
-<th id="d299868e246" class="entry" data-valign="top" width="37.5%">Description</th>
-<th id="d299868e249" class="entry" data-valign="top" width="12.5%">Required</th>
-<th id="d299868e252" class="entry" data-valign="top" width="25%">Values</th>
+<th id="d299804e243" class="entry" data-valign="top" width="25%">Name</th>
+<th id="d299804e246" class="entry" data-valign="top" width="37.5%">Description</th>
+<th id="d299804e249" class="entry" data-valign="top" width="12.5%">Required</th>
+<th id="d299804e252" class="entry" data-valign="top" width="25%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d299868e243 "><span class="keyword parmname">ReportType</span></td>
-<td class="entry" data-valign="top" width="37.5%" headers="d299868e246 "><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
-<td class="entry" data-valign="top" width="12.5%" headers="d299868e249 ">Yes</td>
-<td class="entry" data-valign="top" width="25%" headers="d299868e252 ">A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
+<td class="entry" data-valign="top" width="25%" headers="d299804e243 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d299804e246 "><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
+<td class="entry" data-valign="top" width="12.5%" headers="d299804e249 ">Yes</td>
+<td class="entry" data-valign="top" width="25%" headers="d299804e252 ">A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d299868e243 "><span class="keyword parmname">StartDate</span></td>
-<td class="entry" data-valign="top" width="37.5%" headers="d299868e246 ">The start of a date range used for selecting the data to report.</td>
-<td class="entry" data-valign="top" width="12.5%" headers="d299868e249 ">No</td>
-<td class="entry" data-valign="top" width="25%" headers="d299868e252 ">Must be prior to or equal to the current time.
+<td class="entry" data-valign="top" width="25%" headers="d299804e243 "><span class="keyword parmname">StartDate</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d299804e246 ">The start of a date range used for selecting the data to report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d299804e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d299804e252 ">Must be prior to or equal to the current time.
 <p>Default: Now</p>
 <p>Values in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d299868e243 "><span class="keyword parmname">EndDate</span></td>
-<td class="entry" data-valign="top" width="37.5%" headers="d299868e246 ">The end of a date range used for selecting the data to report.</td>
-<td class="entry" data-valign="top" width="12.5%" headers="d299868e249 ">No</td>
-<td class="entry" data-valign="top" width="25%" headers="d299868e252 ">Must be prior to or equal to the current time.
+<td class="entry" data-valign="top" width="25%" headers="d299804e243 "><span class="keyword parmname">EndDate</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d299804e246 ">The end of a date range used for selecting the data to report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d299804e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d299804e252 ">Must be prior to or equal to the current time.
 <p>Default: Now</p>
 <p>Values in <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span></p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="25%" headers="d299868e243 "><span id="RequestParameters__ReportOptions" class="keyword parmname">ReportOptions</span></td>
-<td class="entry" data-valign="top" width="37.5%" headers="d299868e246 ">Additional information to pass to the report.</td>
-<td class="entry" data-valign="top" width="12.5%" headers="d299868e249 ">No</td>
-<td class="entry" data-valign="top" width="25%" headers="d299868e252 ">If a report accepts <span class="keyword parmname">ReportOptions</span>, they will be described in the description of the report in the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> section.
+<td class="entry" data-valign="top" width="25%" headers="d299804e243 "><span id="RequestParameters__ReportOptions" class="keyword parmname">ReportOptions</span></td>
+<td class="entry" data-valign="top" width="37.5%" headers="d299804e246 ">Additional information to pass to the report.</td>
+<td class="entry" data-valign="top" width="12.5%" headers="d299804e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d299804e252 ">If a report accepts <span class="keyword parmname">ReportOptions</span>, they will be described in the description of the report in the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType enumeration</a> section.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="25%" headers="d299868e243 "><span class="keyword parmname">MarketplaceIdList</span>
+<td class="entry" data-valign="top" width="25%" headers="d299804e243 "><span class="keyword parmname">MarketplaceIdList</span>
 <p>(NA, EU only)</p></td>
-<td class="entry" data-valign="top" width="37.5%" headers="d299868e246 ">A list of one or more marketplace IDs for the marketplaces you are registered to sell in. The resulting report will include information for all marketplaces you specify. <span class="ph">For more information about the behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values, see <a href="Reports_UsingMultipleMarketplaces.md" class="xref" title="Describes the best practices to follow when you are registered to sell in multiple marketplaces.">Using multiple marketplaces</a></span>.
+<td class="entry" data-valign="top" width="37.5%" headers="d299804e246 ">A list of one or more marketplace IDs for the marketplaces you are registered to sell in. The resulting report will include information for all marketplaces you specify. <span class="ph">For more information about the behavior of reports when submitting multiple <span class="keyword parmname">MarketplaceId</span> values, see <a href="Reports_UsingMultipleMarketplaces.md" class="xref" title="Describes the best practices to follow when you are registered to sell in multiple marketplaces.">Using multiple marketplaces</a></span>.
 <p>Example: <samp class="ph codeph"> &amp;MarketplaceIdList.Id.1=A13V1IB3VIYZZH &amp;MarketplaceIdList.Id.2=A1PA6795UKMFR9</samp></p></td>
-<td class="entry" data-valign="top" width="12.5%" headers="d299868e249 ">No</td>
-<td class="entry" data-valign="top" width="25%" headers="d299868e252 ">Marketplace IDs for marketplaces you are registered to sell in.
+<td class="entry" data-valign="top" width="12.5%" headers="d299804e249 ">No</td>
+<td class="entry" data-valign="top" width="25%" headers="d299804e252 ">Marketplace IDs for marketplaces you are registered to sell in.
 <div class="p">
 Default: For the following enumeration values, this value defaults to the first marketplace that you registered to sell in:
 <ul>
@@ -225,14 +225,14 @@ For all other report types, this value defaults to all marketplaces that can be 
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d299868e500" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d299868e503" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d299804e500" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d299804e503" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d299868e500 "><span class="keyword parmname">ReportRequestInfo</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d299868e503 "><span class="ph">Detailed information about a report request.</span>
+<td class="entry" data-valign="top" width="50%" headers="d299804e500 "><span class="keyword parmname">ReportRequestInfo</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d299804e503 "><span class="ph">Detailed information about a report request.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportRequestInfo" class="xref" title="Detailed information about a report request.">ReportRequestInfo</a></p></td>
 </tr>
 </tbody>
