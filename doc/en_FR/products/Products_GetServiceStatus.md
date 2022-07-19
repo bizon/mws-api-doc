@@ -128,14 +128,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d258327e168" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
-<th id="d258327e171" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
+<th id="d258671e168" class="entry" data-valign="top" width="33.33333333333333%">Name</th>
+<th id="d258671e171" class="entry" data-valign="top" width="66.66666666666666%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258327e168 "><span class="keyword parmname">Status</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258327e171 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258671e168 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258671e171 ">The following list shows possible values returned by the <span class="keyword apiname">GetServiceStatus</span> operation:
 <dl>
 <dt>GREEN</dt>
 <dd>The service is operating normally.
@@ -150,22 +150,22 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258327e168 "><span class="keyword parmname">Timestamp</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258327e171 ">Indicates the time at which the operational status was evaluated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258671e168 "><span class="keyword parmname">Timestamp</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258671e171 ">Indicates the time at which the operational status was evaluated. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258327e168 "><span class="keyword parmname">MessageId</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258327e171 ">An Amazon-defined message identifier.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258671e168 "><span class="keyword parmname">MessageId</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258671e171 ">An Amazon-defined message identifier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258327e168 "><span class="keyword parmname">Messages</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258327e171 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258671e168 "><span class="keyword parmname">Messages</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258671e171 ">The parent element of one or more <span class="keyword parmname">Message</span> elements.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258327e168 "><span class="keyword parmname">Message</span></td>
-<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258327e171 ">The operational status message.
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d258671e168 "><span class="keyword parmname">Message</span></td>
+<td class="entry" data-valign="top" width="66.66666666666666%" headers="d258671e171 ">The operational status message.
 <p>The parent element of the following child elements (both child elements are type: xs:string):</p>
 <ul>
 <li><span class="keyword parmname">Locale</span></li>

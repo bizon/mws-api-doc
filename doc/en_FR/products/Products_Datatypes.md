@@ -186,37 +186,37 @@ once an order has been placed.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e971" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d226792e974" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d226792e977" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d226792e980" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d227136e971" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d227136e974" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d227136e977" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d227136e980" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e971 "><var class="keyword varname">minimumHours</var></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e974 ">The minimum time, in hours, that the item will likely be shipped after the order has been placed.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e977 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e980 "><span class="ph">Type: xs:short</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e971 "><var class="keyword varname">minimumHours</var></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e974 ">The minimum time, in hours, that the item will likely be shipped after the order has been placed.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e977 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e980 "><span class="ph">Type: xs:short</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e971 "><var class="keyword varname">maximumHours</var></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e974 ">The maximum time, in hours, that the item will likely be shipped after the order has been placed.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e977 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e980 "><span class="ph">Type: xs:short</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e971 "><var class="keyword varname">maximumHours</var></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e974 ">The maximum time, in hours, that the item will likely be shipped after the order has been placed.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e977 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e980 "><span class="ph">Type: xs:short</span></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e971 "><var class="keyword varname">availableDate</var></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e974 ">The date when the item will be available for shipping. Only displayed for items that are not currently available for shipping.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e977 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e980 "><span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e971 "><var class="keyword varname">availableDate</var></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e974 ">The date when the item will be available for shipping. Only displayed for items that are not currently available for shipping.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e977 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e980 "><span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e971 "><var class="keyword varname">availabilityType</var></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e974 "><span id="DetailedShippingTimeType__d51034e1505" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e977 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e980 ">Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e971 "><var class="keyword varname">availabilityType</var></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e974 "><span id="DetailedShippingTimeType__d51101e1505" class="ph">Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.</span> If known, the <var class="keyword varname">availableDate</var> attribute indicates the date that the item will be available for shipping.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e977 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e980 ">Type: <a href="Products_Datatypes.md#AvailabilityType" class="xref" title="Indicates whether the item is available for shipping now, or on a known or an unknown date in the future.">AvailabilityType</a></td>
 </tr>
 </tbody>
 </table>
@@ -251,7 +251,7 @@ on Seller Central.</span>
 
 | Name                                                        | Description                                                                              | Required | Values                                                                                                                                       |
 |-------------------------------------------------------------|------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d51034e1762" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: <a href="Products_Datatypes.md#FeeType" class="xref" title="The type of fee charged to a seller.">FeeType</a>                        |
+| <span class="keyword parmname">FeeType</span>               | <span id="FeeDetail__d51101e1762" class="ph">The type of fee charged to a seller.</span> | Yes      | Type: <a href="Products_Datatypes.md#FeeType" class="xref" title="The type of fee charged to a seller.">FeeType</a>                        |
 | <span class="keyword parmname">FeeAmount</span>             | The amount charged for a given fee.                                                      | Yes      | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>             |
 | <span class="keyword parmname">FeePromotion</span>          | The promotion amount for a given fee.                                                    | No       | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>             |
 | <span class="keyword parmname">TaxAmount</span>             | The tax amount for a given fee. This is only shown for the India marketplace.            | No       | Type: <a href="Products_Datatypes.md#MoneyType" class="xref" title="An amount of money in a specified currency.">MoneyType</a>             |
@@ -319,49 +319,49 @@ other details that identify an estimate.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e1557" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d226792e1560" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d226792e1563" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d226792e1566" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d227136e1557" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d227136e1560" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d227136e1563" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d227136e1566" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">IdType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 ">The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">IdType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 ">The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">IdValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 ">The product identifier.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">IdValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 ">The product identifier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">PriceToEstimateFees</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 ">The product price that the fee estimate is based on.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 ">Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">PriceToEstimateFees</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 ">The product price that the fee estimate is based on.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 ">Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">IsAmazonFulfilled</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 "><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 "><span class="ph">Type: xs:boolean</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">IsAmazonFulfilled</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 "><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1557 "><span class="keyword parmname">SellerInputIdentifier</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1560 ">A unique identifier provided by the caller to track this request.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1563 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1566 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1557 "><span class="keyword parmname">SellerInputIdentifier</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1560 ">A unique identifier provided by the caller to track this request.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1563 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1566 "><span class="ph">Type: xs:string</span></td>
 </tr>
 </tbody>
 </table>
@@ -398,49 +398,49 @@ request estimated fees.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e1779" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d226792e1782" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d226792e1785" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d226792e1788" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d227136e1779" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d227136e1782" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d227136e1785" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d227136e1788" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 "><span class="ph">An encrypted, Amazon-defined marketplace identifier.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 ">Type: <a href="Products_Datatypes.md#MarketplaceType" class="xref" title="An encrypted, Amazon-defined marketplace identifier.">MarketplaceType</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">IdType</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 ">The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">IdType</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 ">The type of product identifier used by <span class="keyword parmname">IdValue</span>.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 "><span class="keyword parmname">IdType</span> values: <var class="keyword varname">ASIN</var>, <var class="keyword varname">SellerSKU</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">IdValue</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 ">The product identifier.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">IdValue</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 ">The product identifier.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">PriceToEstimateFees</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 ">The product price that the fee estimate is based on.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 ">Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">PriceToEstimateFees</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 ">The product price that the fee estimate is based on.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 ">Type: <a href="Products_Datatypes.md#PriceToEstimateFees" class="xref" title="Price information for a product, used to estimate fees.">PriceToEstimateFees</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">Identifier</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 ">A unique value that will identify this request.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">Identifier</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 ">A unique value that will identify this request.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e1779 "><span class="keyword parmname">IsAmazonFulfilled</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e1782 "><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e1785 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e1788 "><span class="ph">Type: xs:boolean</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e1779 "><span class="keyword parmname">IsAmazonFulfilled</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e1782 "><var class="keyword varname">true</var> if the offer is fulfilled by Amazon.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e1785 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e1788 "><span class="ph">Type: xs:boolean</span></td>
 </tr>
 </tbody>
 </table>
@@ -477,37 +477,37 @@ product.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e2001" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d226792e2004" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d226792e2007" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d226792e2010" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d227136e2001" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d227136e2004" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d227136e2007" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d227136e2010" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2001 "><span class="keyword parmname">FeesEstimateIdentifier</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2004 ">Information used to identify a product fee request.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2007 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2010 ">Type: <a href="Products_Datatypes.md#FeesEstimateIdentifier" class="xref" title="A product identifier, marketplace, time of request, and other details that identify an estimate.">FeesEstimateIdentifier</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2001 "><span class="keyword parmname">FeesEstimateIdentifier</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2004 ">Information used to identify a product fee request.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2007 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2010 ">Type: <a href="Products_Datatypes.md#FeesEstimateIdentifier" class="xref" title="A product identifier, marketplace, time of request, and other details that identify an estimate.">FeesEstimateIdentifier</a></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2001 "><span class="keyword parmname">FeesEstimate</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2004 "><span class="ph">The total estimated fees for a product and a list of details.</span></td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2007 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2010 ">Type: <a href="Products_Datatypes.md#FeesEstimate" class="xref" title="The total estimated fees for a product and a list of details.">FeesEstimate</a></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2001 "><span class="keyword parmname">FeesEstimate</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2004 "><span class="ph">The total estimated fees for a product and a list of details.</span></td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2007 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2010 ">Type: <a href="Products_Datatypes.md#FeesEstimate" class="xref" title="The total estimated fees for a product and a list of details.">FeesEstimate</a></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2001 "><span class="keyword parmname">Status</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2004 ">The status of the fee request.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2007 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2010 "><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ClientError</var>, <var class="keyword varname">ServiceError</var>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2001 "><span class="keyword parmname">Status</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2004 ">The status of the fee request.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2007 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2010 "><span class="keyword parmname">Status</span> values: <var class="keyword varname">Success</var>, <var class="keyword varname">ClientError</var>, <var class="keyword varname">ServiceError</var>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2001 "><span class="keyword parmname">Error</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2004 ">An Error object with a Type, Code, and Message.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2007 ">No</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2010 ">Type: Error</td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2001 "><span class="keyword parmname">Error</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2004 ">An Error object with a Type, Code, and Message.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2007 ">No</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2010 ">Type: Error</td>
 </tr>
 </tbody>
 </table>
@@ -593,7 +593,7 @@ the seller.</span>
 | Name                 | Description                                                                                                                       | Required | Values                                                                                                                                                                             |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                            |
-| `fulfillmentChannel` | <span id="LowestPrice__d51034e1487" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>         | Yes      | Type: <a href="Products_Datatypes.md#FulfillmentChannelType" class="xref" title="Indicates whether the item is fulfilled by Amazon or by the seller.">FulfillmentChannelType</a> |
+| `fulfillmentChannel` | <span id="LowestPrice__d51101e1487" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>         | Yes      | Type: <a href="Products_Datatypes.md#FulfillmentChannelType" class="xref" title="Indicates whether the item is fulfilled by Amazon or by the seller.">FulfillmentChannelType</a> |
 
 </div>
 
@@ -669,24 +669,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e2770" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
-<th id="d226792e2773" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
-<th id="d226792e2776" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
-<th id="d226792e2779" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
+<th id="d227136e2770" class="entry" data-valign="top" width="34.18367346938776%">Name</th>
+<th id="d227136e2773" class="entry" data-valign="top" width="25.510204081632654%">Description</th>
+<th id="d227136e2776" class="entry" data-valign="top" width="12.755102040816327%">Required</th>
+<th id="d227136e2779" class="entry" data-valign="top" width="27.551020408163268%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2770 "><span class="keyword parmname">Amount</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2773 ">The currency amount.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2776 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2779 "><span class="ph">Type: xs:decimal</span></td>
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2770 "><span class="keyword parmname">Amount</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2773 ">The currency amount.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2776 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2779 "><span class="ph">Type: xs:decimal</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="34.18367346938776%" headers="d226792e2770 "><span class="keyword parmname">CurrencyCode</span></td>
-<td class="entry" data-valign="top" width="25.510204081632654%" headers="d226792e2773 ">Three-digit currency code.</td>
-<td class="entry" data-valign="top" width="12.755102040816327%" headers="d226792e2776 ">Yes</td>
-<td class="entry" data-valign="top" width="27.551020408163268%" headers="d226792e2779 ">In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
+<td class="entry" data-valign="top" width="34.18367346938776%" headers="d227136e2770 "><span class="keyword parmname">CurrencyCode</span></td>
+<td class="entry" data-valign="top" width="25.510204081632654%" headers="d227136e2773 ">Three-digit currency code.</td>
+<td class="entry" data-valign="top" width="12.755102040816327%" headers="d227136e2776 ">Yes</td>
+<td class="entry" data-valign="top" width="27.551020408163268%" headers="d227136e2779 ">In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -718,7 +718,7 @@ a specific condition.</span>
 | Name                 | Description                                                                                                                       | Required | Values                                                                                                                                                                             |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `condition`          | Indicates the condition of the item. For example: <span class="ph">`New`, `Used`, `Collectible`, `Refurbished`, or `Club`</span>. | Yes      | <span class="ph">Type: xs:string</span>                                                                                                                                            |
-| `fulfillmentChannel` | <span id="OfferCount__d51034e1487" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>          | Yes      | Type: <a href="Products_Datatypes.md#FulfillmentChannelType" class="xref" title="Indicates whether the item is fulfilled by Amazon or by the seller.">FulfillmentChannelType</a> |
+| `fulfillmentChannel` | <span id="OfferCount__d51101e1487" class="ph">Indicates whether the item is fulfilled by Amazon or by the seller.</span>          | Yes      | Type: <a href="Products_Datatypes.md#FulfillmentChannelType" class="xref" title="Indicates whether the item is fulfilled by Amazon or by the seller.">FulfillmentChannelType</a> |
 
 </div>
 
@@ -844,20 +844,20 @@ fees.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e3481" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d226792e3484" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d227136e3481" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d227136e3484" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d226792e3481 "><span class="keyword parmname">IsNationalPrime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d226792e3484 ">Indicates whether the offer is an Amazon Prime offer throughout the entire marketplace where it is listed.
+<td class="entry" data-valign="top" width="50%" headers="d227136e3481 "><span class="keyword parmname">IsNationalPrime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d227136e3484 ">Indicates whether the offer is an Amazon Prime offer throughout the entire marketplace where it is listed.
 <p>Required.</p>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d226792e3481 "><span class="keyword parmname">IsPrime</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d226792e3484 ">Indicates whether the offer is an Amazon Prime offer.
+<td class="entry" data-valign="top" width="50%" headers="d227136e3481 "><span class="keyword parmname">IsPrime</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d227136e3484 ">Indicates whether the offer is an Amazon Prime offer.
 <p>Required.</p>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
@@ -894,20 +894,20 @@ category.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d226792e3592" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d226792e3595" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d227136e3592" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d227136e3595" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d226792e3592 "><span class="keyword parmname">ProductCategoryId</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d226792e3595 ">The product category identifier of the item.
+<td class="entry" data-valign="top" width="50%" headers="d227136e3592 "><span class="keyword parmname">ProductCategoryId</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d227136e3595 ">The product category identifier of the item.
 <p>Required.</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d226792e3592 "><span class="keyword parmname">Rank</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d226792e3595 ">The sales rank of the item in the given product category.
+<td class="entry" data-valign="top" width="50%" headers="d227136e3592 "><span class="keyword parmname">Rank</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d227136e3595 ">The sales rank of the item in the given product category.
 <p>Required.</p>
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>

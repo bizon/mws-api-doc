@@ -147,34 +147,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d259004e201" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d259004e204" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d259004e207" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d259004e210" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d259348e201" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d259348e204" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d259348e207" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d259348e210" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e201 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e204 ">A marketplace identifier. Specifies the marketplace from which products are returned.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e201 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e204 ">A marketplace identifier. Specifies the marketplace from which products are returned.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259004e207 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e210 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259348e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e210 "><span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e201 "><span class="keyword parmname">Query</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e204 ">A search string with the same support as that provided on Amazon marketplace websites.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e201 "><span class="keyword parmname">Query</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e204 ">A search string with the same support as that provided on Amazon marketplace websites.
 <p>Example: Query=harry potter dvd</p>
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259004e207 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e210 "> </td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259348e207 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e210 "> </td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e201 "><span class="keyword parmname">QueryContextId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e204 ">An identifier for the context within which the given search will be performed. A marketplace might provide mechanisms for constraining a search to a subset of potential items. For example, the Amazon retail marketplace allows queries to be constrained to a specific category. The <span class="keyword parmname">QueryContextId</span> parameter specifies such a sub-set. If it is omitted, the search will be performed using the default context for the marketplace, which will typically contain the largest set of items.
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e201 "><span class="keyword parmname">QueryContextId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e204 ">An identifier for the context within which the given search will be performed. A marketplace might provide mechanisms for constraining a search to a subset of potential items. For example, the Amazon retail marketplace allows queries to be constrained to a specific category. The <span class="keyword parmname">QueryContextId</span> parameter specifies such a sub-set. If it is omitted, the search will be performed using the default context for the marketplace, which will typically contain the largest set of items.
 <p><span class="ph">Type: xs:string</span></p></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259004e207 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259004e210 ">See <a href="Products_QueryContextIDs.md" class="xref" title="The following table contains QueryContextId values.">QueryContextId values</a> for a complete list of <span class="keyword parmname">QueryContextId</span> values that can be used in the various Amazon retail marketplaces.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d259348e207 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d259348e210 ">See <a href="Products_QueryContextIDs.md" class="xref" title="The following table contains QueryContextId values.">QueryContextId values</a> for a complete list of <span class="keyword parmname">QueryContextId</span> values that can be used in the various Amazon retail marketplaces.</td>
 </tr>
 </tbody>
 </table>
@@ -227,29 +227,29 @@ you choose to use these schemas for validation.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d259004e372" class="entry" data-valign="top" width="26.666666666666668%">Name</th>
-<th id="d259004e375" class="entry" data-valign="top" width="73.33333333333333%">Description</th>
+<th id="d259348e372" class="entry" data-valign="top" width="26.666666666666668%">Name</th>
+<th id="d259348e375" class="entry" data-valign="top" width="73.33333333333333%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259004e372 "><span class="keyword parmname">Product</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259004e375 ">Contains four of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">AttributeSets</span>, <span class="keyword parmname">Relationships</span>, and <span class="keyword parmname">SalesRankings</span>.</td>
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259348e372 "><span class="keyword parmname">Product</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259348e375 ">Contains four of the sub-elements of the <span class="keyword parmname">Product</span> element from ProductsAPI_Response.xsd. These sub-elements are: <span class="keyword parmname">Identifiers</span>, <span class="keyword parmname">AttributeSets</span>, <span class="keyword parmname">Relationships</span>, and <span class="keyword parmname">SalesRankings</span>.</td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259004e372 "><span class="keyword parmname">Identifiers</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259004e375 ">Contains the <span class="keyword parmname">MarketplaceASIN</span> combination that uniquely identifies a product.</td>
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259348e372 "><span class="keyword parmname">Identifiers</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259348e375 ">Contains the <span class="keyword parmname">MarketplaceASIN</span> combination that uniquely identifies a product.</td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259004e372 "><span class="keyword parmname">AttributeSets</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259004e375 ">Contains product attributes, from the <span class="keyword parmname">ItemAttributes</span> element of default.xsd, if they are applicable to the product that is returned. Note that a <span class="keyword parmname">Product</span> response element will have multiple attribute sets if it has attributes in more than one language. All of the attributes, even ones that are not translated, are repeated in each attribute set. The language used by each attribute set is denoted by a <span class="keyword parmname">lang</span> attribute.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259348e372 "><span class="keyword parmname">AttributeSets</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259348e375 ">Contains product attributes, from the <span class="keyword parmname">ItemAttributes</span> element of default.xsd, if they are applicable to the product that is returned. Note that a <span class="keyword parmname">Product</span> response element will have multiple attribute sets if it has attributes in more than one language. All of the attributes, even ones that are not translated, are repeated in each attribute set. The language used by each attribute set is denoted by a <span class="keyword parmname">lang</span> attribute.
 <div class="note note">
 <span class="notetitle">Note:</span> If a single product has more than one image, then only the URL for the main image is returned.
 </div></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259004e372 "><span class="keyword parmname">Relationships</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259004e375 ">Contains product variation information, if applicable. If your search criteria match a product that is identified by a variation parent ASIN, the related <span class="keyword parmname">VariationChild</span> elements are contained in the <span class="keyword parmname">Relationships</span> element. If your search criteria match a specific variation child ASIN, the related <span class="keyword parmname">VariationParent</span> element is contained in the <span class="keyword parmname">Relationships</span> element.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259348e372 "><span class="keyword parmname">Relationships</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259348e375 ">Contains product variation information, if applicable. If your search criteria match a product that is identified by a variation parent ASIN, the related <span class="keyword parmname">VariationChild</span> elements are contained in the <span class="keyword parmname">Relationships</span> element. If your search criteria match a specific variation child ASIN, the related <span class="keyword parmname">VariationParent</span> element is contained in the <span class="keyword parmname">Relationships</span> element.
 <div class="note note">
 <span class="notetitle">Note:</span> Because this operation does not return all product attributes, it is possible to get <span class="keyword parmname">VariationChild</span> elements with different <span class="keyword parmname">ASIN</span> values but the same variation element values. These are distinct variation child ASINs even though product attributes that differentiate them from each other are not returned.
 </div>
@@ -259,8 +259,8 @@ you choose to use these schemas for validation.
 </div></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259004e372 "><span class="keyword parmname">SalesRankings</span></td>
-<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259004e375 ">Sales rank information for the product by product category.
+<td class="entry" data-valign="top" width="26.666666666666668%" headers="d259348e372 "><span class="keyword parmname">SalesRankings</span></td>
+<td class="entry" data-valign="top" width="73.33333333333333%" headers="d259348e375 ">Sales rank information for the product by product category.
 <p>Sub-elements are:</p>
 <ul>
 <li><span class="keyword parmname">ProductCategoryId</span>. Identifies the product category that the sales rank is taken from.</li>

@@ -141,25 +141,25 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d318496e188" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d318496e191" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d318496e194" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d318496e197" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
+<th id="d318840e188" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d318840e191" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d318840e194" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d318840e197" class="entry" data-valign="top" width="28.57142857142857%">Valid values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e188 "><span class="keyword parmname">MarketplaceId</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e191 ">The unique identifier for the marketplace.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318496e194 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e197 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e188 "><span class="keyword parmname">MarketplaceId</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e191 ">The unique identifier for the marketplace.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318840e194 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e197 ">Any valid <span class="keyword parmname">MarketplaceId</span> that you are registered in. <span class="ph">For a list of <span class="keyword parmname">MarketplaceId</span> values, see <a href="../dev_guide/DG_Endpoints.md" class="xref">Amazon MWS endpoints and MarketplaceId values</a> in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e188 "><span class="keyword parmname">Subscription</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e191 ">Specifies the <a href="Subscriptions_NotificationType.md" class="xref">NotificationType</a>, <span class="keyword parmname">Destination</span>, and other parameters for notifications that you want to subscribe to.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318496e194 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318496e197 ">Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e188 "><span class="keyword parmname">Subscription</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e191 ">Specifies the <a href="Subscriptions_NotificationType.md" class="xref">NotificationType</a>, <span class="keyword parmname">Destination</span>, and other parameters for notifications that you want to subscribe to.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d318840e194 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d318840e197 ">Type: <a href="Subscriptions_Datatypes.md#Subscription" class="xref" title="Represents the type of notification that you want to receive and the location where you want to receive it.">Subscription</a></td>
 </tr>
 </tbody>
 </table>
