@@ -143,28 +143,28 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d68751e164" class="entry" data-valign="top" width="22.46065808297568%">Name</th>
-<th id="d68751e167" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
-<th id="d68751e170" class="entry" data-valign="top" width="14.306151645207438%">Required</th>
-<th id="d68751e173" class="entry" data-valign="top" width="29.899856938483545%">Values</th>
+<th id="d68720e164" class="entry" data-valign="top" width="22.46065808297568%">Name</th>
+<th id="d68720e167" class="entry" data-valign="top" width="33.33333333333333%">Description</th>
+<th id="d68720e170" class="entry" data-valign="top" width="14.306151645207438%">Required</th>
+<th id="d68720e173" class="entry" data-valign="top" width="29.899856938483545%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68751e164 "><span class="keyword parmname">AsinList</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68751e167 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want item preparation instructions to help with item sourcing decisions.</td>
-<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68751e170 ">Yes</td>
-<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68751e173 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values
+<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68720e164 "><span class="keyword parmname">AsinList</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68720e167 ">A list of <span class="keyword parmname">ASIN</span> values. Used to identify items for which you want item preparation instructions to help with item sourcing decisions.</td>
+<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68720e170 ">Yes</td>
+<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68720e173 ">Maximum: 50 <span class="keyword parmname">ASIN</span> values
 <div class="note note">
 <span class="notetitle">Note:</span> ASINs must be included in the product catalog for at least one of the marketplaces that you participate in. Any ASIN that is not included in the product catalog for at least one of the marketplaces that you participate in is returned in the <span class="keyword parmname">InvalidASINList</span> response element. You can use the Amazon Sellers API section to find out which marketplaces you participate in. For more information, see <a href="../sellers/Sellers_Overview.md" class="xref">What you should know about the Amazon MWS Sellers API Section</a> in the <span class="ph">Sellers API section</span> reference.
 </div>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68751e164 "><span class="keyword parmname">ShipToCountryCode</span></td>
-<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68751e167 ">The country code of the country the items will be shipped to. Note that item preparation instructions can vary by country.</td>
-<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68751e170 ">Yes</td>
-<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68751e173 "><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
+<td class="entry" data-valign="top" width="22.46065808297568%" headers="d68720e164 "><span class="keyword parmname">ShipToCountryCode</span></td>
+<td class="entry" data-valign="top" width="33.33333333333333%" headers="d68720e167 ">The country code of the country the items will be shipped to. Note that item preparation instructions can vary by country.</td>
+<td class="entry" data-valign="top" width="14.306151645207438%" headers="d68720e170 ">Yes</td>
+<td class="entry" data-valign="top" width="29.899856938483545%" headers="d68720e173 "><span class="ph">A two-character country code, in ISO 3166-1 alpha-2 format.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>
@@ -191,19 +191,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d68751e264" class="entry" data-valign="top" width="24.813895781637722%">Name</th>
-<th id="d68751e267" class="entry" data-valign="top" width="75.18610421836229%">Description</th>
+<th id="d68720e264" class="entry" data-valign="top" width="24.813895781637722%">Name</th>
+<th id="d68720e267" class="entry" data-valign="top" width="75.18610421836229%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68751e264 "><span class="keyword parmname">ASINPrepInstructionsList</span></td>
-<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68751e267 "><span class="ph">Item preparation instructions to help with item sourcing decisions.</span>
+<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68720e264 "><span class="keyword parmname">ASINPrepInstructionsList</span></td>
+<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68720e267 "><span class="ph">Item preparation instructions to help with item sourcing decisions.</span>
 <p>Type: List of <a href="FBAInbound_Datatypes.md#ASINPrepInstructions" class="xref" title="Item preparation instructions to help with item sourcing decisions.">ASINPrepInstructions</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68751e264 "><span class="keyword parmname">InvalidASINList</span></td>
-<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68751e267 ">A list of invalid <span class="keyword parmname">ASIN</span> values and the reasons they are invalid.
+<td class="entry" data-valign="top" width="24.813895781637722%" headers="d68720e264 "><span class="keyword parmname">InvalidASINList</span></td>
+<td class="entry" data-valign="top" width="75.18610421836229%" headers="d68720e267 ">A list of invalid <span class="keyword parmname">ASIN</span> values and the reasons they are invalid.
 <p>Type: List of <a href="FBAInbound_Datatypes.md#InvalidASIN" class="xref" title="An invalid ASIN and the reason it is invalid.">InvalidASIN</a></p></td>
 </tr>
 </tbody>

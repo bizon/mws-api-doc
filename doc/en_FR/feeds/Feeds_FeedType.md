@@ -114,93 +114,93 @@ for inventory and product category Excel templates.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr id="FeedType_Enumeration__feeds_header" class="header row">
-<th id="d124181e147" class="entry" data-valign="top" width="60%">Name</th>
-<th id="d124181e150" class="entry" data-valign="top" width="40%">File</th>
+<th id="d124150e147" class="entry" data-valign="top" width="60%">Name</th>
+<th id="d124150e150" class="entry" data-valign="top" width="40%">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Product Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Product Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PRODUCT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Product.xsd" class="xref">Product.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Product.xsd" class="xref">Product.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Inventory Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Inventory Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_INVENTORY_AVAILABILITY_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Inventory.xsd" class="xref">Inventory.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Inventory.xsd" class="xref">Inventory.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Overrides Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Overrides Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PRODUCT_OVERRIDES_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Override.xsd" class="xref">Override.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Override.xsd" class="xref">Override.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Pricing Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Pricing Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PRODUCT_PRICING_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Price.xsd" class="xref">Price.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Price.xsd" class="xref">Price.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Product Images Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Product Images Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PRODUCT_IMAGE_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProductImage.xsd" class="xref">ProductImage.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/ProductImage.xsd" class="xref">ProductImage.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Relationships Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Relationships Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PRODUCT_RELATIONSHIP_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Relationship.xsd" class="xref">Relationship.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/Relationship.xsd" class="xref">Relationship.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Inventory Loader Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Inventory Loader Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_INVLOADER_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.InventoryLoader.fr.xls" class="xref">Flat.File.InventoryLoader.fr.xls</a>- For creating or updating listings for products already in Amazon's catalog.
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.InventoryLoader.fr.xls" class="xref">Flat.File.InventoryLoader.fr.xls</a>- For creating or updating listings for products already in Amazon's catalog.
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200385480" class="xref">Inventory Loader Instructions</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Listings Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Listings Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_LISTINGS_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 ">To create a listing for a product not yet in the Amazon catalog, use the corresponding category template file in <a href="https://sellercentral-europe.amazon.com/gp/help/1641" class="xref">Inventory File Templates</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 ">To create a listing for a product not yet in the Amazon catalog, use the corresponding category template file in <a href="https://sellercentral-europe.amazon.com/gp/help/1641" class="xref">Inventory File Templates</a>
 <p>You can also create and update listings for products already in Amazon's catalog using <a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.Listingloader.fr.xls" class="xref">Flat.File.Listingloader.fr.xls</a>.</p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Book Loader Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Book Loader Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_BOOKLOADER_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.BookLoader.fr.xls" class="xref">Flat.File.BookLoader.fr.xls</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.BookLoader.fr.xls" class="xref">Flat.File.BookLoader.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200385470" class="xref">Standard Book Loader Instructions</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Music Loader Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Music Loader Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_CONVERGENCE_LISTINGS_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.Music.fr.xls" class="xref">Flat.File.Music.fr.xls</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.Music.fr.xls" class="xref">Flat.File.Music.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200409990" class="xref">Music Loader Instructions</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Video Loader Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Video Loader Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_LISTINGS_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.Video.fr.xls" class="xref">Flat.File.Video.fr.xls</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.Video.fr.xls" class="xref">Flat.File.Video.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200482410" class="xref">Video Loader Instructions</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">Flat File Price and Quantity Update Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">Flat File Price and Quantity Update Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_PRICEANDQUANTITYONLY_UPDATE_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.PriceInventory.fr.xls" class="xref">Flat.File.PriceInventory.fr.xls</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://s3.amazonaws.com/seller-templates/ff/eu/fr/Flat.File.PriceInventory.fr.xls" class="xref">Flat.File.PriceInventory.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200385490" class="xref">Price and Quantity Updates</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">UIEE Inventory Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">UIEE Inventory Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_UIEE_BOOKLOADER_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_1_4/standard-book-template.xls" class="xref">standard-book-template.xls</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_1_4/standard-book-template.xls" class="xref">standard-book-template.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200247530" class="xref">UIEE Format for Book Sellers</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e147 "><span class="keyword parmname">ACES 3.0 Data (Automotive Part Finder) Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e147 "><span class="keyword parmname">ACES 3.0 Data (Automotive Part Finder) Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_STD_ACES_DATA_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd" class="xref">AutoAccessory.xsd</a>
+<td class="entry" data-valign="top" width="40%" headers="d124150e150 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/AutoAccessory.xsd" class="xref">AutoAccessory.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/201710040" class="xref">Provide Fitment Data to Amazon</a></p></td>
 </tr>
 </tbody>
@@ -230,58 +230,58 @@ for Excel templates for feeds.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr id="FeedType_Enumeration__order_feeds_header" class="header row">
-<th id="d124181e518" class="entry" data-valign="top">Name</th>
-<th id="d124181e521" class="entry" data-valign="top">File</th>
+<th id="d124150e518" class="entry" data-valign="top">Name</th>
+<th id="d124150e521" class="entry" data-valign="top">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Order Acknowledgement Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Order Acknowledgement Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_ORDER_ACKNOWLEDGEMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderAcknowledgement.xsd" class="xref">OrderAcknowledgement.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderAcknowledgement.xsd" class="xref">OrderAcknowledgement.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Order Adjustments Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Order Adjustments Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_PAYMENT_ADJUSTMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderAdjustment.xsd" class="xref">OrderAdjustment.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderAdjustment.xsd" class="xref">OrderAdjustment.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Order Fulfillment Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Order Fulfillment Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_ORDER_FULFILLMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderFulfillment.xsd" class="xref">OrderFulfillment.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/OrderFulfillment.xsd" class="xref">OrderFulfillment.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200387170" class="xref">Confirm Shipment and Get Paid - Order Fulfillment</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Invoice Confirmation Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Invoice Confirmation Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_INVOICE_CONFIRMATION_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/28/rainier/help/xsd/InvoiceConfirmation.xsd" class="xref">InvoiceConfirmation.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="https://images-na.ssl-images-amazon.com/images/G/28/rainier/help/xsd/InvoiceConfirmation.xsd" class="xref">InvoiceConfirmation.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Flat File Order Acknowledgement Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Flat File Order Acknowledgement Feed</span>
 <p>This feed cancels orders. This feed does not acknowledge orders.</p>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_ORDER_ACKNOWLEDGEMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="http://g-ec2.images-amazon.com/images/G/01/rainier/help/ff/release_1_9/Flat.File.OrderCancellation.fr.xls" class="xref">Flat.File.OrderCancellation.fr.xls</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="http://g-ec2.images-amazon.com/images/G/01/rainier/help/ff/release_1_9/Flat.File.OrderCancellation.fr.xls" class="xref">Flat.File.OrderCancellation.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/50831" class="xref">Order Cancellation Template</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Flat File Order Adjustments Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Flat File Order Adjustments Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_PAYMENT_ADJUSTMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="http://g-ec2.images-amazon.com/images/G/01/rainier/help/ff/release_1_9/Flat.File.Adjustment.fr.xls" class="xref">Flat.File.Adjustment.fr.xls</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="http://g-ec2.images-amazon.com/images/G/01/rainier/help/ff/release_1_9/Flat.File.Adjustment.fr.xls" class="xref">Flat.File.Adjustment.fr.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/13511" class="xref">Adjustments Template</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Flat File Order Fulfillment Feed</span>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Flat File Order Fulfillment Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FULFILLMENT_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="http://s3.amazonaws.com/seller-templates/ff/na/us/Flat.File.ShippingConfirm.xls" class="xref">Flat.File.ShippingConfirm.xls</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="http://s3.amazonaws.com/seller-templates/ff/na/us/Flat.File.ShippingConfirm.xls" class="xref">Flat.File.ShippingConfirm.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/13491" class="xref">Shipping Confirmation Template</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><span class="keyword parmname">Flat File Sourcing On Demand Feed</span> (Japan only)
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><span class="keyword parmname">Flat File Sourcing On Demand Feed</span> (Japan only)
 <p>Enumeration value: <samp class="ph codeph">_POST_EXPECTED_SHIP_DATE_SOD_FLAT_FILE_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e518 d124181e521 "><a href="https://m.media-amazon.com/images/G/01/jp/ff/release_4_0/Flat.File.OrderESDSetting.jp.xls" class="xref">Flat.File.OrderESDSetting.jp.xls</a>
+<td class="entry" data-valign="top" headers="d124150e518 d124150e521 "><a href="https://m.media-amazon.com/images/G/01/jp/ff/release_4_0/Flat.File.OrderESDSetting.jp.xls" class="xref">Flat.File.OrderESDSetting.jp.xls</a>
 <p>More information: <a href="https://sellercentral-japan.amazon.com/gp/help/YQL8UPPERLDG4HC" class="xref">Set the estimated ship date for Sourcing on Demand orders using a file</a></p></td>
 </tr>
 </tbody>
@@ -304,57 +304,57 @@ for Excel templates for feeds.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr id="FeedType_Enumeration__FBA_header" class="header row">
-<th id="d124181e737" class="entry" data-valign="top">Name</th>
-<th id="d124181e740" class="entry" data-valign="top">File</th>
+<th id="d124150e737" class="entry" data-valign="top">Name</th>
+<th id="d124150e740" class="entry" data-valign="top">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">FBA Fulfillment Order Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">FBA Fulfillment Order Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FULFILLMENT_ORDER_REQUEST_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderRequest.xsd" class="xref">FulfillmentOrderRequest.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderRequest.xsd" class="xref">FulfillmentOrderRequest.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">FBA Fulfillment Order Cancellation Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">FBA Fulfillment Order Cancellation Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FULFILLMENT_ORDER_CANCELLATION_REQUEST_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderCancellationRequest.xsd" class="xref">FulfillmentOrderCancellationRequest.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/FulfillmentOrderCancellationRequest.xsd" class="xref">FulfillmentOrderCancellationRequest.xsd</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/1611" class="xref">XSDs</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">FBA Inbound Shipment Carton Information Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">FBA Inbound Shipment Carton Information Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FBA_INBOUND_CARTON_CONTENTS_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CartonContentsRequest.xsd" class="xref">CartonContentsRequest.xsd</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_4_1/CartonContentsRequest.xsd" class="xref">CartonContentsRequest.xsd</a>
 <p>More information: <a href="../fba_guide/FBAGuide_ShipInventoryToAFN.md" class="xref">Shipping inventory to Amazon's fulfillment network</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">Flat File FBA Fulfillment Order Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">Flat File FBA Fulfillment Order Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FULFILLMENT_ORDER_REQUEST_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.FulfillmentOrderRequest._V337946872_.xls" class="xref">Flat.File.FulfillmentOrderRequest.xls</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.FulfillmentOrderRequest._V337946872_.xls" class="xref">Flat.File.FulfillmentOrderRequest.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/basic-fulfillment/upload-create.html/ref=ag_xx_cont_xx" class="xref">Upload Multi-Channel Fulfillment File (Create Order)</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">Flat File FBA Fulfillment Order Cancellation Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">Flat File FBA Fulfillment Order Cancellation Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FULFILLMENT_ORDER_CANCELLATION_REQUEST_DATA_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.FulfillmentOrderCancellationRequest._V216846686_.xls" class="xref">Flat.File.FulfillmentOrderCancellationRequest.xls</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.FulfillmentOrderCancellationRequest._V216846686_.xls" class="xref">Flat.File.FulfillmentOrderCancellationRequest.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/basic-fulfillment/upload-cancel.html/ref=au_xx_cont_xx" class="xref">Upload Multi-Channel Fulfillment File (Cancel Order)</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">Flat File FBA Create Inbound Shipment Plan Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">Flat File FBA Create Inbound Shipment Plan Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FBA_CREATE_INBOUND_PLAN_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/Flat.File.CreateInboundPlanRequest._V377511647_.xls" class="xref">Flat.File.CreateInboundPlanRequest.xls</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/Flat.File.CreateInboundPlanRequest._V377511647_.xls" class="xref">Flat.File.CreateInboundPlanRequest.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/201281490" class="xref">How to Create a Shipping Plan Request</a></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">Flat File FBA Update Inbound Shipment Plan Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">Flat File FBA Update Inbound Shipment Plan Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FBA_UPDATE_INBOUND_PLAN_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/Flat.File.UpdateInboundPlanRequest._V377511641_.xls" class="xref">Flat.File.UpdateInboundPlanRequest.xls</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/Flat.File.UpdateInboundPlanRequest._V377511641_.xls" class="xref">Flat.File.UpdateInboundPlanRequest.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/201281500" class="xref">How to Update a Shipping Plan Request</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><span class="keyword parmname">Flat File FBA Create Removal Feed</span>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><span class="keyword parmname">Flat File FBA Create Removal Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_FLAT_FILE_FBA_CREATE_REMOVAL_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e737 d124181e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.RemovalOrderRequest._V306317865_.xls" class="xref">Flat.File.RemovalOrderRequest.xls</a>
+<td class="entry" data-valign="top" headers="d124150e737 d124150e740 "><a href="https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/ff/release_4_1/Flat.File.RemovalOrderRequest._V306317865_.xls" class="xref">Flat.File.RemovalOrderRequest.xls</a>
 <p>More information: <a href="https://sellercentral-europe.amazon.com/gp/help/200721270" class="xref">Create Removal Order using a Removal Order File</a></p></td>
 </tr>
 </tbody>
@@ -377,15 +377,15 @@ for Excel templates for feeds.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr id="FeedType_Enumeration__business_feed_header" class="header row">
-<th id="d124181e972" class="entry" data-valign="top">Name</th>
-<th id="d124181e975" class="entry" data-valign="top">File</th>
+<th id="d124150e972" class="entry" data-valign="top">Name</th>
+<th id="d124150e975" class="entry" data-valign="top">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e972 d124181e975 "><span class="keyword parmname">Flat File Manage Quotes Feed</span>
+<td class="entry" data-valign="top" headers="d124150e972 d124150e975 "><span class="keyword parmname">Flat File Manage Quotes Feed</span>
 <p>Enumeration value:<samp class="ph codeph">_RFQ_UPLOAD_FEED_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e972 d124181e975 ">Amazon Business sellers can use this feed to upload quantity discounts in response to requests from business customers. This functionality is available only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces. <span class="ph">For Amazon Business sellers only.</span>
+<td class="entry" data-valign="top" headers="d124150e972 d124150e975 ">Amazon Business sellers can use this feed to upload quantity discounts in response to requests from business customers. This functionality is available only in the US, Spain, UK, France, Germany, Italy, India, and Japan marketplaces. <span class="ph">For Amazon Business sellers only.</span>
 <p>More information, see "Manage Quotes feed files" in the Seller Central Help.</p></td>
 </tr>
 </tbody>
@@ -408,15 +408,15 @@ for Excel templates for feeds.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr id="FeedType_Enumeration__easy_ship_feed_header" class="header row">
-<th id="d124181e1020" class="entry" data-valign="top">Name</th>
-<th id="d124181e1023" class="entry" data-valign="top">File</th>
+<th id="d124150e1020" class="entry" data-valign="top">Name</th>
+<th id="d124150e1023" class="entry" data-valign="top">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d124181e1020 d124181e1023 "><span class="keyword parmname">Easy Ship Feed</span>
+<td class="entry" data-valign="top" headers="d124150e1020 d124150e1023 "><span class="keyword parmname">Easy Ship Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_POST_EASYSHIP_DOCUMENTS_</samp></p></td>
-<td class="entry" data-valign="top" headers="d124181e1020 d124181e1023 "><span class="ph">This functionality is available only in the India marketplace.</span>
+<td class="entry" data-valign="top" headers="d124150e1020 d124150e1023 "><span class="ph">This functionality is available only in the India marketplace.</span>
 <p>More information: <a href="../easy_ship/EasyShip_HowToGetEasyShipDocs.md" class="xref">How to get invoice, shipping label, and warranty documents</a>.</p></td>
 </tr>
 </tbody>
@@ -439,15 +439,15 @@ for Excel templates for feeds.
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d124181e1073" class="entry" data-valign="top" width="60%">Name</th>
-<th id="d124181e1076" class="entry" data-valign="top" width="40%">File</th>
+<th id="d124150e1073" class="entry" data-valign="top" width="60%">Name</th>
+<th id="d124150e1076" class="entry" data-valign="top" width="40%">File</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="60%" headers="d124181e1073 "><span class="keyword parmname">VAT Invoicing Feed</span>
+<td class="entry" data-valign="top" width="60%" headers="d124150e1073 "><span class="keyword parmname">VAT Invoicing Feed</span>
 <p>Enumeration value: <samp class="ph codeph">_UPLOAD_VAT_INVOICE_</samp></p></td>
-<td class="entry" data-valign="top" width="40%" headers="d124181e1076 ">Use this feed to submit a VAT invoice against a shipment.
+<td class="entry" data-valign="top" width="40%" headers="d124150e1076 ">Use this feed to submit a VAT invoice against a shipment.
 <p>This feed accepts the <span class="keyword parmname">FeedOptions</span> parameter. Usage of this feed depends on whether the seller is using the <a href="https://sellercentral-europe.amazon.com/gp/help/G202120290" class="xref">VAT Calculation Service</a> (VCS) to calculate VAT for their invoices.</p>
 <p><strong>If the seller is using the VCS</strong>, see the <a href="https://amazonservicesstatic.com/guides/mws-vat-calculation-service-guide.pdf" class="xref">VAT Calculation Service (VCS) Guide</a> for usage information for this feed.</p>
 <p><strong>If the seller is not using the VCS</strong>, see the <a href="https://amazonservicesstatic.com/guides/mws-invoice-uploader-guide.pdf" class="xref">Invoice Uploader Guide</a> for usage information for this feed.</p>

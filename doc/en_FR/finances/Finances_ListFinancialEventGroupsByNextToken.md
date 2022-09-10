@@ -150,20 +150,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d162645e246" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d162645e249" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d162614e246" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d162614e249" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d162645e246 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d162645e249 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
+<td class="entry" data-valign="top" width="50%" headers="d162614e246 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d162614e249 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventGroupsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial event groups to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d162645e246 "><span class="keyword parmname">FinancialEventGroupList</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d162645e249 ">Contains the financial event groups that meet the criteria specified in the request.
+<td class="entry" data-valign="top" width="50%" headers="d162614e246 "><span class="keyword parmname">FinancialEventGroupList</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d162614e249 ">Contains the financial event groups that meet the criteria specified in the request.
 <p>Type: List of <a href="Finances_Datatypes.md#FinancialEventGroup" class="xref" title="Contains information related to a financial event group.">FinancialEventGroup</a></p></td>
 </tr>
 </tbody>

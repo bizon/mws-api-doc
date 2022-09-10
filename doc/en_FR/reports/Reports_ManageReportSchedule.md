@@ -151,33 +151,33 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290152e216" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
-<th id="d290152e219" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
-<th id="d290152e222" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
-<th id="d290152e225" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
+<th id="d290121e216" class="entry" data-valign="top" width="28.57142857142857%">Name</th>
+<th id="d290121e219" class="entry" data-valign="top" width="28.57142857142857%">Description</th>
+<th id="d290121e222" class="entry" data-valign="top" width="14.285714285714285%">Required</th>
+<th id="d290121e225" class="entry" data-valign="top" width="28.57142857142857%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e216 "><span class="keyword parmname">ReportType</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e219 "><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290152e222 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e225 ">A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e216 "><span class="keyword parmname">ReportType</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e219 "><span class="ph">A value of the <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> that indicates the type of report to request.</span></td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290121e222 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e225 ">A <a href="Reports_ReportType.md" class="xref" title="An enumeration of the types of reports that can be requested from Amazon MWS.">ReportType</a> value
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e216 "><span class="keyword parmname">Schedule</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e219 ">A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290152e222 ">Yes</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e225 ">A valid <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> value
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e216 "><span class="keyword parmname">Schedule</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e219 ">A value of the <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> that indicates how often a report request should be created.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290121e222 ">Yes</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e225 ">A valid <a href="Reports_Schedule.md" class="xref" title="An enumeration of the units of time that reports can be requested.">Schedule</a> value
 <p>Default: None</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e216 "><span class="keyword parmname">ScheduleDate</span></td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e219 ">The date when the next report request is scheduled to be submitted.</td>
-<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290152e222 ">No</td>
-<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290152e225 ">Default: Now
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e216 "><span class="keyword parmname">ScheduleDate</span></td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e219 ">The date when the next report request is scheduled to be submitted.</td>
+<td class="entry" data-valign="top" width="14.285714285714285%" headers="d290121e222 ">No</td>
+<td class="entry" data-valign="top" width="28.57142857142857%" headers="d290121e225 ">Default: Now
 <p>Value can be no more than 366 days in the future. In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -205,19 +205,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d290152e368" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d290152e371" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d290121e368" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d290121e371" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d290152e368 "><span class="keyword parmname">Count</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290152e371 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
+<td class="entry" data-valign="top" width="50%" headers="d290121e368 "><span class="keyword parmname">Count</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d290121e371 "><span class="ph">A non-negative integer that represents the total number of report requests.</span>
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d290152e368 "><span class="keyword parmname">ReportSchedule</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d290152e371 "><span class="ph">Detailed information about a report schedule.</span>
+<td class="entry" data-valign="top" width="50%" headers="d290121e368 "><span class="keyword parmname">ReportSchedule</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d290121e371 "><span class="ph">Detailed information about a report schedule.</span>
 <p>Type: <a href="Reports_Datatypes.md#ReportSchedule" class="xref" title="Detailed information about a report schedule.">ReportSchedule</a></p></td>
 </tr>
 </tbody>

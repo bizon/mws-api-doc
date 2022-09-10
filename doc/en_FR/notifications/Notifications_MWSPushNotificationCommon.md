@@ -190,19 +190,19 @@ class="keyword parmname">MoneyType</span> element:
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d202461e373" class="entry" data-valign="top" width="50%">Element</th>
-<th id="d202461e376" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d202430e373" class="entry" data-valign="top" width="50%">Element</th>
+<th id="d202430e376" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d202461e373 "><span class="keyword parmname">Amount</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d202461e376 ">The currency amount.
+<td class="entry" data-valign="top" width="50%" headers="d202430e373 "><span class="keyword parmname">Amount</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d202430e376 ">The currency amount.
 <p><span class="ph">Type: xs:decimal</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d202461e373 "><span class="keyword parmname">CurrencyCode</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d202461e376 ">Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
+<td class="entry" data-valign="top" width="50%" headers="d202430e373 "><span class="keyword parmname">CurrencyCode</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d202430e376 ">Three-digit currency code. In <span class="ph"> <a href="../dev_guide/DG_ISO4217.md" class="xref">ISO 4217 format</a> </span>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 </tbody>

@@ -145,54 +145,54 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d127661e207" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
-<th id="d127661e210" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
-<th id="d127661e213" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
-<th id="d127661e216" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
+<th id="d127630e207" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
+<th id="d127630e210" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
+<th id="d127630e213" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
+<th id="d127630e216" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 ">A structured list of no more than 100 <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: All
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">FeedSubmissionIdList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 ">A structured list of no more than 100 <span class="keyword parmname">FeedSubmmissionId</span> values. If you pass in <span class="keyword parmname">FeedSubmmissionId</span> values in a request, other query conditions are ignored.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: All
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">MaxCount</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 ">A non-negative integer that indicates the maximum number of feed submissions to return in the list. If you specify a number greater than 100, the request is rejected.</td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: 10
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">MaxCount</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 ">A non-negative integer that indicates the maximum number of feed submissions to return in the list. If you specify a number greater than 100, the request is rejected.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: 10
 <p><span class="ph">Type: xs:nonNegativeInteger</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">FeedTypeList</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: All feed types
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">FeedTypeList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 "><span class="ph">A structured list of one or more <a href="../feeds/Feeds_FeedType.md" class="xref">FeedType</a> values by which to filter the list of feed submissions.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: All feed types
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">FeedProcessingStatusList</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 ">A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">FeedProcessingStatusList</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 ">A structured list of one or more feed processing statuses by which to filter the list of feed submissions.</td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: All feed processing status types. For valid values, see <a href="../feeds/Feeds_FeedProcessingStatus.md" class="xref">FeedProcessingStatus enumeration</a>.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">SubmittedFromDate</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: 90 days ago
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: 90 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e207 "><span class="keyword parmname">SubmittedToDate</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e210 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e213 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e216 ">Default: Now
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e207 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e210 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e213 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e216 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
@@ -222,34 +222,34 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d127661e430" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
-<th id="d127661e433" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
-<th id="d127661e436" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
-<th id="d127661e439" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
+<th id="d127630e430" class="entry" data-valign="top" width="29.843893480257115%">Name</th>
+<th id="d127630e433" class="entry" data-valign="top" width="37.83287419651056%">Description</th>
+<th id="d127630e436" class="entry" data-valign="top" width="9.182736455463727%">Required</th>
+<th id="d127630e439" class="entry" data-valign="top" width="23.140495867768593%">Valid Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e430 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e433 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e430 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e433 ">A generated string used to pass information to another call. Pass the <span class="keyword parmname">NextToken</span> value to the
 <p><span class="ph">For information about standard request requirements, see <a href="../dev_guide/DG_RequiredRequestParameters.md" class="xref">Required request parameters</a>.</span></p>
 <span class="keyword apiname">GetFeedSubmissionListByNextToken</span> operation if the value of <span class="keyword parmname">HasNext</span> is <var class="keyword varname">true</var>.</td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e436 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e439 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e439 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e430 "><span class="keyword parmname">SubmittedFromDate</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e433 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e436 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e439 ">Default: 90 days ago
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e430 "><span class="keyword parmname">SubmittedFromDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e433 "><span class="ph">The earliest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e439 ">Default: 90 days ago
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127661e430 "><span class="keyword parmname">SubmittedToDate</span></td>
-<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127661e433 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
-<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127661e436 ">No</td>
-<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127661e439 ">Default: Now
+<td class="entry" data-valign="top" width="29.843893480257115%" headers="d127630e430 "><span class="keyword parmname">SubmittedToDate</span></td>
+<td class="entry" data-valign="top" width="37.83287419651056%" headers="d127630e433 "><span class="ph">The latest submission date that you are looking for, in <a href="../dev_guide/DG_ISO8601.md" class="xref">ISO8601 date format</a>.</span></td>
+<td class="entry" data-valign="top" width="9.182736455463727%" headers="d127630e436 ">No</td>
+<td class="entry" data-valign="top" width="23.140495867768593%" headers="d127630e439 ">Default: Now
 <p>In <span class="ph"><a href="../dev_guide/DG_ISO8601.md" class="xref">ISO 8601 date time format</a></span>.</p>
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>

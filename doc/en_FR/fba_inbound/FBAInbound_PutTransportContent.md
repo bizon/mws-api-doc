@@ -202,24 +202,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d78214e241" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
-<th id="d78214e244" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
-<th id="d78214e247" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
-<th id="d78214e250" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
+<th id="d78183e241" class="entry" data-valign="top" width="24.458874458874455%">Name</th>
+<th id="d78183e244" class="entry" data-valign="top" width="21.645021645021643%">Description</th>
+<th id="d78183e247" class="entry" data-valign="top" width="23.160173160173162%">Required</th>
+<th id="d78183e250" class="entry" data-valign="top" width="30.735930735930733%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78214e241 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78214e244 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78214e247 ">Yes</td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78214e250 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78183e241 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78183e244 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78183e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78183e250 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78214e241 "><span class="keyword parmname">IsPartnered</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78214e244 ">Indicates whether a <span class="keyword apiname">PutTransportContent</span> request is for an Amazon-partnered carrier.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78214e247 ">Yes</td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78214e250 "><span class="keyword parmname">IsPartnered</span> values:
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78183e241 "><span class="keyword parmname">IsPartnered</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78183e244 ">Indicates whether a <span class="keyword apiname">PutTransportContent</span> request is for an Amazon-partnered carrier.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78183e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78183e250 "><span class="keyword parmname">IsPartnered</span> values:
 <ul>
 <li><var class="keyword varname">true</var> – Request is for an Amazon-partnered carrier.</li>
 <li><var class="keyword varname">false</var> – Request is for a non-Amazon-partnered carrier.</li>
@@ -227,10 +227,10 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:boolean</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78214e241 "><span class="keyword parmname">ShipmentType</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78214e244 ">Specifies the carrier shipment type in a <span class="keyword apiname">PutTransportContent</span> request.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78214e247 ">Yes</td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78214e250 "><span class="keyword parmname">ShipmentType</span> values:
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78183e241 "><span class="keyword parmname">ShipmentType</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78183e244 ">Specifies the carrier shipment type in a <span class="keyword apiname">PutTransportContent</span> request.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78183e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78183e250 "><span class="keyword parmname">ShipmentType</span> values:
 <ul>
 <li><var class="keyword varname">SP</var> – <span class="ph">Small Parcel</span></li>
 <li><var class="keyword varname">LTL</var> – <span class="ph">Less Than Truckload/Full Truckload (LTL/FTL)</span></li>
@@ -238,10 +238,10 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78214e241 "><span class="keyword parmname">TransportDetails</span></td>
-<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78214e244 ">Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</td>
-<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78214e247 ">Yes</td>
-<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78214e250 ">Type: <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
+<td class="entry" data-valign="top" width="24.458874458874455%" headers="d78183e241 "><span class="keyword parmname">TransportDetails</span></td>
+<td class="entry" data-valign="top" width="21.645021645021643%" headers="d78183e244 ">Information required to create an Amazon-partnered carrier shipping estimate, or to alert the <span class="ph">Amazon fulfillment center</span> to the arrival of an inbound shipment by a non-Amazon-partnered carrier.</td>
+<td class="entry" data-valign="top" width="23.160173160173162%" headers="d78183e247 ">Yes</td>
+<td class="entry" data-valign="top" width="30.735930735930733%" headers="d78183e250 ">Type: <a href="FBAInbound_Datatypes.md#TransportDetailInput" class="xref" title="Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.">TransportDetailInput</a></td>
 </tr>
 </tbody>
 </table>
@@ -267,14 +267,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d78214e420" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
-<th id="d78214e423" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
+<th id="d78183e420" class="entry" data-valign="top" width="25.839793281653744%">Name</th>
+<th id="d78183e423" class="entry" data-valign="top" width="74.16020671834626%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr id="ResponseElements__ResponseElementsRow_TransportResult" class="odd row">
-<td class="entry" data-valign="top" width="25.839793281653744%" headers="d78214e420 "><span class="keyword parmname">TransportResult</span></td>
-<td class="entry" data-valign="top" width="74.16020671834626%" headers="d78214e423 ">Workflow status for a shipment with an Amazon-partnered carrier.
+<td class="entry" data-valign="top" width="25.839793281653744%" headers="d78183e420 "><span class="keyword parmname">TransportResult</span></td>
+<td class="entry" data-valign="top" width="74.16020671834626%" headers="d78183e423 ">Workflow status for a shipment with an Amazon-partnered carrier.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportResult" class="xref" title="The workflow status for a shipment with an Amazon-partnered carrier.">TransportResult</a></p></td>
 </tr>
 </tbody>

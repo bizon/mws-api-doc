@@ -151,20 +151,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d73333e228" class="entry" data-valign="top" width="16.55629139072848%">Name</th>
-<th id="d73333e231" class="entry" data-valign="top" width="83.44370860927152%">Description</th>
+<th id="d73302e228" class="entry" data-valign="top" width="16.55629139072848%">Name</th>
+<th id="d73302e231" class="entry" data-valign="top" width="83.44370860927152%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="16.55629139072848%" headers="d73333e228 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="83.44370860927152%" headers="d73333e231 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentItemsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
+<td class="entry" data-valign="top" width="16.55629139072848%" headers="d73302e228 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="83.44370860927152%" headers="d73302e231 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListInboundShipmentItemsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more inbound shipments to return.
 <p>Optional</p>
 <span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="16.55629139072848%" headers="d73333e228 "><span class="keyword parmname">ItemData</span></td>
-<td class="entry" data-valign="top" width="83.44370860927152%" headers="d73333e231 ">Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
+<td class="entry" data-valign="top" width="16.55629139072848%" headers="d73302e228 "><span class="keyword parmname">ItemData</span></td>
+<td class="entry" data-valign="top" width="83.44370860927152%" headers="d73302e231 ">Item information for an inbound shipment. Includes <span class="keyword parmname">ShipmentId</span>, <span class="keyword parmname">SellerSKU</span>, <span class="keyword parmname">FulfillmentNetworkSKU</span>, <span class="keyword parmname">QuantityShipped</span>, and <span class="keyword parmname">QuantityReceived</span>.
 <p>Type: <a href="FBAInbound_Datatypes.md#InboundShipmentItem" class="xref" title="Item information for an inbound shipment. Submitted with a call to the CreateInboundShipment or UpdateInboundShipment operation.">InboundShipmentItem</a></p></td>
 </tr>
 </tbody>

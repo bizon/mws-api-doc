@@ -132,49 +132,49 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d112357e203" class="entry" data-valign="top" width="40%">Name</th>
-<th id="d112357e206" class="entry" data-valign="top" width="60%">Description</th>
+<th id="d112326e203" class="entry" data-valign="top" width="40%">Name</th>
+<th id="d112326e206" class="entry" data-valign="top" width="60%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">PackageNumber</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The package identifier.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">PackageNumber</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The package identifier.
 <p><span class="ph">Type: xs:int</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">TrackingNumber</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The tracking number for the package.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">TrackingNumber</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The tracking number for the package.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">CarrierCode</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The name of the carrier.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">CarrierCode</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The name of the carrier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">CarrierPhoneNumber</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The phone number of the carrier.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">CarrierPhoneNumber</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The phone number of the carrier.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">CarrierURL</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The URL of the carrier’s website.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">CarrierURL</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The URL of the carrier’s website.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">ShipDate</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The shipping date for the package.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">ShipDate</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The shipping date for the package.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">ShipToAddress</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The destination city for the package.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">ShipToAddress</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The destination city for the package.
 <p>Type: <a href="FBAOutbound_Datatypes.md#TrackingAddress" class="xref" title="Address information for tracking the package.">TrackingAddress</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">CurrentStatus</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The current delivery status of the package.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">CurrentStatus</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The current delivery status of the package.
 <p><span class="keyword parmname">CurrentStatus</span> values:</p>
 <ul>
 <li><var class="keyword varname">IN_TRANSIT</var> - In transit to the destination address.</li>
@@ -189,23 +189,23 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">SignedForBy</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The name of the person who signed for the package.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">SignedForBy</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The name of the person who signed for the package.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">EstimatedArrivalDate</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">The estimated arrival date.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">EstimatedArrivalDate</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">The estimated arrival date.
 <p><span class="ph">Type: xs:dateTime</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">TrackingEvents</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">A list of tracking events.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">TrackingEvents</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">A list of tracking events.
 <p>Type: List of <a href="FBAOutbound_Datatypes.md#TrackingEvent" class="xref" title="Information for tracking package deliveries.">TrackingEvent</a></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="40%" headers="d112357e203 "><span class="keyword parmname">AdditionalLocationInfo</span></td>
-<td class="entry" data-valign="top" width="60%" headers="d112357e206 ">Additional location information.
+<td class="entry" data-valign="top" width="40%" headers="d112326e203 "><span class="keyword parmname">AdditionalLocationInfo</span></td>
+<td class="entry" data-valign="top" width="60%" headers="d112326e206 ">Additional location information.
 <p><span class="keyword parmname">AdditionalLocationInfo</span> values:</p>
 <ul>
 <li><var class="keyword varname">AS_INSTRUCTED</var> - As instructed.</li>

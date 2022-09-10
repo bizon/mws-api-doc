@@ -146,19 +146,19 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d19315e292" class="entry" data-valign="top">Name</th>
-<th id="d19315e295" class="entry" data-valign="top">Description</th>
+<th id="d19284e292" class="entry" data-valign="top">Name</th>
+<th id="d19284e295" class="entry" data-valign="top">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" headers="d19315e292 "><span class="keyword parmname">AmazonOrderId</span></td>
-<td class="entry" data-valign="top" headers="d19315e295 ">The <span class="keyword parmname">AmazonOrderId</span> that was passed in with the request.
+<td class="entry" data-valign="top" headers="d19284e292 "><span class="keyword parmname">AmazonOrderId</span></td>
+<td class="entry" data-valign="top" headers="d19284e295 ">The <span class="keyword parmname">AmazonOrderId</span> that was passed in with the request.
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" headers="d19315e292 "><span class="keyword parmname">PickupSlotList</span></td>
-<td class="entry" data-valign="top" headers="d19315e295 ">Type: List of <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
+<td class="entry" data-valign="top" headers="d19284e292 "><span class="keyword parmname">PickupSlotList</span></td>
+<td class="entry" data-valign="top" headers="d19284e295 ">Type: List of <a href="EasyShip_Datatypes.md#PickupSlot" class="xref" title="Pickup slot ID and pickup time information.">PickupSlot</a></td>
 </tr>
 </tbody>
 </table>

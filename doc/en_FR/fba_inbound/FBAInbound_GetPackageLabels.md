@@ -219,24 +219,24 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d65998e264" class="entry" data-valign="top" width="23.015873015873016%">Name</th>
-<th id="d65998e267" class="entry" data-valign="top" width="28.571428571428577%">Description</th>
-<th id="d65998e270" class="entry" data-valign="top" width="19.841269841269845%">Required</th>
-<th id="d65998e273" class="entry" data-valign="top" width="28.571428571428577%">Values</th>
+<th id="d65967e264" class="entry" data-valign="top" width="23.015873015873016%">Name</th>
+<th id="d65967e267" class="entry" data-valign="top" width="28.571428571428577%">Description</th>
+<th id="d65967e270" class="entry" data-valign="top" width="19.841269841269845%">Required</th>
+<th id="d65967e273" class="entry" data-valign="top" width="28.571428571428577%">Values</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65998e264 "><span class="keyword parmname">ShipmentId</span></td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e267 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
-<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65998e270 ">Yes</td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e273 "><span class="ph">Type: xs:string</span></td>
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65967e264 "><span class="keyword parmname">ShipmentId</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e267 "><span class="ph">A shipment identifier originally returned by the <span class="keyword apiname">CreateInboundShipmentPlan</span> operation.</span></td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65967e270 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e273 "><span class="ph">Type: xs:string</span></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65998e264 "><span class="keyword parmname">PageType</span></td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e267 ">The page type that you want to print the labels on.</td>
-<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65998e270 ">Yes</td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e273 "><span class="keyword parmname">PageType</span> values:
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65967e264 "><span class="keyword parmname">PageType</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e267 ">The page type that you want to print the labels on.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65967e270 ">Yes</td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e273 "><span class="keyword parmname">PageType</span> values:
 <ul>
 <li><var class="keyword varname">PackageLabel_Letter_2</var> - Two labels per US Letter label sheet. This is the only valid value for Amazon-partnered shipments in the US that use UPS as the carrier. Supported in Canada and the US.</li>
 <li><var class="keyword varname">PackageLabel_Letter_6</var> - Six labels per US Letter label sheet. This is the only valid value for non-Amazon-partnered shipments in the US. Supported in Canada and the US.</li>
@@ -252,11 +252,11 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="odd row">
-<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65998e264 "><span class="keyword parmname">NumberOfPackages</span></td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e267 ">Indicates the number of packages in the shipment.</td>
-<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65998e270 ">No.
+<td class="entry" data-valign="top" width="23.015873015873016%" headers="d65967e264 "><span class="keyword parmname">NumberOfPackages</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e267 ">Indicates the number of packages in the shipment.</td>
+<td class="entry" data-valign="top" width="19.841269841269845%" headers="d65967e270 ">No.
 <p>Required only for non-Amazon-partnered, <span class="ph">Small Parcel</span> shipments. For Amazon-partnered, <span class="ph">Small Parcel</span> shipments, the <span class="keyword parmname">NumberOfPackages</span> value is ignored and the information provided in a previous call to the <span class="keyword apiname">PutTransportContent</span> operation is used.</p></td>
-<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65998e273 "><span class="ph">Type: xs:int</span></td>
+<td class="entry" data-valign="top" width="28.571428571428577%" headers="d65967e273 "><span class="ph">Type: xs:int</span></td>
 </tr>
 </tbody>
 </table>
@@ -282,14 +282,14 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d65998e442" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
-<th id="d65998e445" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
+<th id="d65967e442" class="entry" data-valign="top" width="29.585798816568047%">Name</th>
+<th id="d65967e445" class="entry" data-valign="top" width="70.41420118343196%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="29.585798816568047%" headers="d65998e442 "><span class="keyword parmname">TransportDocument</span></td>
-<td class="entry" data-valign="top" width="70.41420118343196%" headers="d65998e445 ">PDF document data and checksum.
+<td class="entry" data-valign="top" width="29.585798816568047%" headers="d65967e442 "><span class="keyword parmname">TransportDocument</span></td>
+<td class="entry" data-valign="top" width="70.41420118343196%" headers="d65967e445 ">PDF document data and checksum.
 <p>Type: <a href="FBAInbound_Datatypes.md#TransportContent" class="xref" title="Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.">TransportContent</a></p></td>
 </tr>
 </tbody>

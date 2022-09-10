@@ -149,20 +149,20 @@ in the <span class="ph">Amazon MWS Developer Guide</span>.</span>
 </colgroup>
 <thead class="thead" data-align="left">
 <tr class="header row">
-<th id="d164618e246" class="entry" data-valign="top" width="50%">Name</th>
-<th id="d164618e249" class="entry" data-valign="top" width="50%">Description</th>
+<th id="d164587e246" class="entry" data-valign="top" width="50%">Name</th>
+<th id="d164587e249" class="entry" data-valign="top" width="50%">Description</th>
 </tr>
 </thead>
 <tbody class="tbody">
 <tr class="odd row">
-<td class="entry" data-valign="top" width="50%" headers="d164618e246 "><span class="keyword parmname">NextToken</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d164618e249 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial events to return.
+<td class="entry" data-valign="top" width="50%" headers="d164587e246 "><span class="keyword parmname">NextToken</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d164587e249 ">A generated string used to pass information to your next request. If <span class="keyword parmname">NextToken</span> is returned, pass the value of <span class="keyword parmname">NextToken</span> to <span class="keyword apiname">ListFinancialEventsByNextToken</span>. If <span class="keyword parmname">NextToken</span> is not returned, there are no more financial events to return.
 <p>Optional</p>
 <p><span class="ph">Type: xs:string</span></p></td>
 </tr>
 <tr class="even row">
-<td class="entry" data-valign="top" width="50%" headers="d164618e246 "><span class="keyword parmname">FinancialEvents</span></td>
-<td class="entry" data-valign="top" width="50%" headers="d164618e249 ">Contains the financial events that meet the criteria specified in the request.
+<td class="entry" data-valign="top" width="50%" headers="d164587e246 "><span class="keyword parmname">FinancialEvents</span></td>
+<td class="entry" data-valign="top" width="50%" headers="d164587e249 ">Contains the financial events that meet the criteria specified in the request.
 <p>Type: <a href="Finances_Datatypes.md#FinancialEvents" class="xref" title="Contains all information related to a financial event.">FinancialEvents</a></p></td>
 </tr>
 </tbody>
